@@ -3,55 +3,9 @@
   "site": "https://rapidpro.ilhasoft.mobi",
   "flows": [
     {
-      "name": "Mask homemade",
-      "uuid": "b5d77b7f-c9b6-4d9b-a873-ac9e9a8a5813",
-      "spec_version": "13.1.0",
-      "language": "eng",
-      "type": "messaging",
-      "nodes": [
-        {
-          "uuid": "a9bd661d-129d-42a9-ba6c-692ed582e0e5",
-          "actions": [
-            {
-              "attachments": [],
-              "text": "Several types of non-medical, fabric masks are commercially available, and they can also be homemade.",
-              "type": "send_msg",
-              "quick_replies": [],
-              "uuid": "a7aa605a-685e-4f6d-85e0-b2670879fad6"
-            },
-            {
-              "attachments": [],
-              "text": "There are numerous designs for fabric masks, but they generally cover the nose and mouth, are secured with ties or elastic loops, include multiple layers of fabric, and can sometimes be washed and re-used.",
-              "type": "send_msg",
-              "quick_replies": [],
-              "uuid": "e77b4938-9628-444a-93eb-35ccce6e939d"
-            },
-            {
-              "attachments": [],
-              "text": "Few of these combinations have been systematically evaluated, but WHO provides general guidance on combinations of materials and optimal layering.",
-              "type": "send_msg",
-              "quick_replies": [],
-              "uuid": "32928087-9c34-4c5a-a860-95d9d76761d6"
-            },
-            {
-              "attachments": [],
-              "text": "In assessing a mask, it is important to consider filtration and breathability characteristics of the fabrics used and to ensure that the mask can be held in place comfortably with little adjustment using elastic bands or ties.",
-              "type": "send_msg",
-              "quick_replies": [],
-              "uuid": "f41251f8-7577-4fb0-8f80-159fe00c635b"
-            }
-          ],
-          "exits": [
-            {
-              "uuid": "1f7c6969-5a6c-4c74-ab15-3e3477700627",
-              "destination_uuid": null
-            }
-          ]
-        }
-      ],
       "_ui": {
         "nodes": {
-          "a9bd661d-129d-42a9-ba6c-692ed582e0e5": {
+          "513436f2-993c-4510-8668-a6df8f7ddc41": {
             "position": {
               "left": 0,
               "top": 0
@@ -60,145 +14,58 @@
           }
         }
       },
-      "revision": 32,
       "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {},
       "metadata": {
-        "revision": 28
+        "revision": 1
       },
-      "localization": {
-        "kaz": {
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "\u041c\u0430\u0442\u0430\u0434\u0430\u043d \u0436\u0430\u0441\u0430\u043b\u0430\u0442\u044b\u043d \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u0435\u043c\u0435\u0441 \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0442\u04af\u0440\u0456 \u0441\u0430\u0442\u044b\u043b\u044b\u043c\u0434\u0430 \u0431\u0430\u0440 \u0436\u04d9\u043d\u0435 \u043e\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u043b\u0434\u0430\u043d \u0434\u0430 \u0436\u0430\u0441\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. "
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "\u041c\u0430\u0442\u0430\u0434\u0430\u043d \u0436\u0430\u0441\u0430\u043b\u0430\u0442\u044b\u043d \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u043a\u04e9\u043f\u0442\u0435\u0433\u0435\u043d \u0434\u0438\u0437\u0430\u0439\u043d\u0434\u0430\u0440\u044b \u0431\u0430\u0440, \u0431\u0456\u0440\u0430\u049b \u043e\u043b\u0430\u0440 \u04d9\u0434\u0435\u0442\u0442\u0435 \u043c\u04b1\u0440\u044b\u043d \u043c\u0435\u043d \u0430\u0443\u044b\u0437\u0434\u044b \u0436\u0430\u0431\u0430\u0434\u044b, \u0431\u0430\u0439\u043b\u0430\u0493\u044b\u0448\u0442\u0430\u0440\u043c\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0438\u0456\u043b\u0433\u0456\u0448 \u0456\u043b\u043c\u0435\u043a\u0442\u0435\u0440\u043c\u0435\u043d \u0431\u0435\u043a\u0456\u0442\u0456\u043b\u0456\u043f, \u043c\u0430\u0442\u0430\u043d\u044b\u04a3 \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u049b\u0430\u0431\u0430\u0442\u044b\u043d\u0430\u043d \u0442\u04b1\u0440\u0430\u0434\u044b, \u043a\u0435\u0439\u0434\u0435 \u043e\u043b\u0430\u0440\u0434\u044b \u0436\u0443\u044b\u043f, \u049b\u0430\u0439\u0442\u0430 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. "
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "\u0411\u04b1\u043b \u04af\u0439\u043b\u0435\u0441\u0456\u043c\u0434\u0435\u0440\u0434\u0456\u04a3 \u043a\u0435\u0439\u0431\u0456\u0440\u0435\u0443\u0456 \u0436\u04af\u0439\u0435\u043b\u0456 \u0442\u04af\u0440\u0434\u0435 \u0431\u0430\u0493\u0430\u043b\u0430\u043d\u0434\u044b, \u0431\u0456\u0440\u0430\u049b \u0414\u0414\u0421\u04b0 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u0434\u0430\u0440\u0434\u044b\u04a3 \u04af\u0439\u043b\u0435\u0441\u0456\u043c\u0456 \u043c\u0435\u043d \u043e\u04a3\u0442\u0430\u0439\u043b\u044b \u049b\u0430\u0431\u0430\u0442\u0442\u0430\u0443 \u0442\u0443\u0440\u0430\u043b\u044b \u0436\u0430\u043b\u043f\u044b \u043d\u04b1\u0441\u049b\u0430\u0443\u043b\u044b\u049b \u0431\u0435\u0440\u0435\u0434\u0456. "
-            ]
-          },
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u0431\u0430\u0493\u0430\u043b\u0430\u0443 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u043b\u0430\u0442\u044b\u043d \u043c\u0430\u0442\u0430\u043b\u0430\u0440\u0434\u044b\u04a3 \u0441\u04af\u0437\u0433\u0456\u043b\u0435\u0443 \u0436\u04d9\u043d\u0435 \u0430\u0443\u0430 \u04e9\u0442\u043a\u0456\u0437\u0443 \u0441\u0438\u043f\u0430\u0442\u0442\u0430\u043c\u0430\u043b\u0430\u0440\u044b\u043d \u0435\u0441\u043a\u0435\u0440\u0443 \u0436\u04d9\u043d\u0435 \u0438\u0456\u043b\u0433\u0456\u0448 \u0436\u043e\u043b\u0430\u049b\u0442\u0430\u0440\u043c\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0439\u043b\u0430\u0493\u044b\u0448\u0442\u0430\u0440\u043c\u0435\u043d \u0430\u0437\u0434\u0430\u043f \u0440\u0435\u0442\u0442\u0435\u043f \u043c\u0430\u0441\u043a\u0430\u043d\u044b\u04a3 \u043e\u0440\u043d\u044b\u043d\u0434\u0430 \u044b\u04a3\u0493\u0430\u0439\u043b\u044b \u0442\u04af\u0440\u0434\u0435 \u049b\u0430\u043b\u0430\u0442\u044b\u043d\u044b\u043d\u0430 \u043a\u04e9\u0437 \u0436\u0435\u043a\u0456\u0437\u0443 \u043a\u0435\u0440\u0435\u043a."
-            ]
-          }
-        },
-        "ita": {
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "Quando si prende in considerazione una mascherina, \u00e8 importante controllarne le caratteristiche del tessuto in termini di filtraggio e traspirabilit\u00e0 ed \u00e8 importante accertarsi che la mascherina pu\u00f2 essere mantenuta in posizione in modo semplice e comodo regolando i nastrini o gli elastici."
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "Solo pochi modelli sono stati testati, ma l'OMS fornisce una guida generale sulle caratteristiche ottimali di una mascherina, quali combinazione di materiali e numero di strati di tessuto. "
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "Le mascherine di tessuto in commercio possono avere tagli differenti, ma generalmente coprono naso e bocca, vengono indossate tramite nastrini o elastici, sono composte da diversi strati di tessuto e, a volte, sono lavabili e riutilizzabili."
-            ]
-          },
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "Al momento, sono diverse le mascherine non mediche in tessuto disponibili sul mercato. Inoltre, \u00e8 anche possibile realizzarne una a casa. "
-            ]
-          }
-        },
-        "por": {
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "S\u00e3o comercializados v\u00e1rios tipos de m\u00e1scaras n\u00e3o cir\u00fargicas em tecido, podendo as mesmas serem fabricadas em casa. "
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "Existem in\u00fameros modelos de m\u00e1scaras de tecido. Contudo, regra geral, estas m\u00e1scaras devem tapar o nariz e a boca, ficam presas atrav\u00e9s de el\u00e1sticos ou la\u00e7os, possuem v\u00e1rias camadas de tecido e podem, algumas delas, ser lavadas e reutilizadas. "
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "Muitas destas m\u00e1scaras n\u00e3o foram certificadas. Contudo, a OMS fornece orienta\u00e7\u00f5es gerais sobre a combina\u00e7\u00e3o de materiais e o n\u00famero de camadas ideal. "
-            ]
-          },
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "Na avalia\u00e7\u00e3o de uma m\u00e1scara, \u00e9 importante considerar-se as caracter\u00edsticas de filtragem e de respirabilidade dos tecidos utilizados, bem como garantir que a m\u00e1scara possa ficar presa confortavelmente com pouco ajuste atrav\u00e9s de el\u00e1sticos ou la\u00e7os."
-            ]
-          }
-        },
-        "rus": {
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "\u0412 \u043f\u0440\u043e\u0434\u0430\u0436\u0435 \u0438\u043c\u0435\u044e\u0442\u0441\u044f \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u043d\u0435\u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0445 \u0442\u043a\u0430\u043d\u0435\u0432\u044b\u0445 \u043c\u0430\u0441\u043e\u043a, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u043d\u043e \u0441\u0430\u043c\u043e\u0441\u0442\u043e\u044f\u0442\u0435\u043b\u044c\u043d\u043e \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u0438\u0442\u044c \u0434\u043e\u043c\u0430. "
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "\u0421\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0442 \u0442\u043a\u0430\u043d\u0435\u0432\u044b\u0435 \u043c\u0430\u0441\u043a\u0438 \u0441\u0430\u043c\u044b\u0445 \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0445 \u0444\u0430\u0441\u043e\u043d\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043e\u0431\u044b\u0447\u043d\u043e \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0442 \u043d\u043e\u0441 \u0438 \u0440\u043e\u0442, \u0437\u0430\u043a\u0440\u0435\u043f\u043b\u044f\u044e\u0442\u0441\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0437\u0430\u0432\u044f\u0437\u043e\u043a \u0438\u043b\u0438 \u044d\u043b\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0445 \u043f\u0435\u0442\u0435\u043b\u044c, \u0441\u043e\u0441\u0442\u043e\u044f\u0442 \u0438\u0437 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0441\u043b\u043e\u0435\u0432 \u0442\u043a\u0430\u043d\u0438, \u0438 \u0432 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u044f\u0445 \u0438\u0445 \u043c\u043e\u0436\u043d\u043e \u0441\u0442\u0438\u0440\u0430\u0442\u044c \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e. "
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "\u041d\u0435\u043c\u043d\u043e\u0433\u0438\u0435 \u0438\u0437 \u044d\u0442\u0438\u0445 \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u0439 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a \u0431\u044b\u043b\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043e\u0446\u0435\u043d\u0435\u043d\u044b. \u0412\u041e\u0417 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043e\u0431\u0449\u0435\u0435 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u044f\u043c \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432 \u0438 \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u0441\u043e\u0441\u0442\u0430\u0432\u0443. "
-            ]
-          },
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "\u041f\u0440\u0438 \u043e\u0446\u0435\u043d\u043a\u0435 \u043c\u0430\u0441\u043a\u0438 \u0432\u0430\u0436\u043d\u043e \u0443\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u044c \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0444\u0438\u043b\u044c\u0442\u0440\u0430\u0446\u0438\u0438 \u0438 \u0432\u043e\u0437\u0434\u0443\u0445\u043e\u043f\u0440\u043e\u043d\u0438\u0446\u0430\u0435\u043c\u043e\u0441\u0442\u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u043c\u044b\u0445 \u0442\u043a\u0430\u043d\u0435\u0439 \u0438 \u0443\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u0438\u0442\u044c\u0441\u044f \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u043c\u0430\u0441\u043a\u0443 \u043c\u043e\u0436\u043d\u043e \u0443\u0434\u043e\u0431\u043d\u043e \u0443\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c \u043d\u0430 \u043c\u0435\u0441\u0442\u0435, \u0441\u043b\u0435\u0433\u043a\u0430 \u043e\u0442\u0440\u0435\u0433\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u0432 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u044d\u043b\u0430\u0441\u0442\u0438\u0447\u043d\u044b\u0445 \u0442\u0435\u0441\u0435\u043c\u043e\u043a \u0438\u043b\u0438 \u0437\u0430\u0432\u044f\u0437\u043e\u043a."
-            ]
-          }
-        },
-        "spa": {
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "Varios tipos de mascarillas de tela no m\u00e9dicas est\u00e1n disponibles en el mercado,  pero tambi\u00e9n pueden elaborarse en casa. "
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "Existen numerosos dise\u00f1os para las mascarillas de tela, pero generalmente cubren la nariz y la boca, se ajustan at\u00e1ndose o con bandas el\u00e1sticas,tambi\u00e9n incluyen m\u00faltiples capas de tela y a veces se pueden lavar y reutilizar. "
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "Pocas de estas combinaciones se han evaluado sistem\u00e1ticamente, pero la OMS proporciona una orientaci\u00f3n general sobre combinaciones de materiales y capas \u00f3ptimas. "
-            ]
-          },
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "Al evaluar una mascarilla, es importante tener en cuenta las caracter\u00edsticas de filtraci\u00f3n y transpirabilidad de los tejidos utilizados y asegurarse de que la misma se puede mantener en su lugar c\u00f3modamente con poco ajuste utilizando bandas el\u00e1sticas o at\u00e1ndose."
-            ]
-          }
-        },
-        "ell": {
-          "a7aa605a-685e-4f6d-85e0-b2670879fad6": {
-            "text": [
-              "\u03a3\u03ae\u03bc\u03b5\u03c1\u03b1 \u03b4\u03b9\u03b1\u03c4\u03af\u03b8\u03b5\u03bd\u03c4\u03b1\u03b9 \u03c3\u03c4\u03bf \u03b5\u03bc\u03c0\u03cc\u03c1\u03b9\u03bf \u03b4\u03b9\u03ac\u03c6\u03bf\u03c1\u03b5\u03c2 \u03bc\u03b7 \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ad\u03c2 \u03c5\u03c6\u03b1\u03c3\u03bc\u03ac\u03c4\u03b9\u03bd\u03b5\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2, \u03b1\u03bb\u03bb\u03ac \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 \u03c7\u03b5\u03b9\u03c1\u03bf\u03c0\u03bf\u03af\u03b7\u03c4\u03b5\u03c2."
-            ]
-          },
-          "e77b4938-9628-444a-93eb-35ccce6e939d": {
-            "text": [
-              "\u03a5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c0\u03bf\u03bb\u03bb\u03ac \u03c3\u03c7\u03ad\u03b4\u03b9\u03b1 \u03b3\u03b9\u03b1 \u03c5\u03c6\u03b1\u03c3\u03bc\u03ac\u03c4\u03b9\u03bd\u03b5\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2, \u03c3\u03b5 \u03ba\u03ac\u03b8\u03b5 \u03c0\u03b5\u03c1\u03af\u03c0\u03c4\u03c9\u03c3\u03b7 \u03cc\u03bc\u03c9\u03c2 \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03ba\u03b1\u03bb\u03cd\u03c0\u03c4\u03bf\u03c5\u03bd \u03c4\u03b7 \u03bc\u03cd\u03c4\u03b7 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03c3\u03c4\u03cc\u03bc\u03b1, \u03bd\u03b1 \u03c3\u03c4\u03b1\u03b8\u03b5\u03c1\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03c3\u03c4\u03bf \u03c0\u03c1\u03cc\u03c3\u03c9\u03c0\u03bf \u03bc\u03b5 \u03ba\u03bf\u03c1\u03b4\u03cc\u03bd\u03b9\u03b1 \u03ae \u03bb\u03b1\u03c3\u03c4\u03b9\u03c7\u03ac\u03ba\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c4\u03bf\u03c5\u03bd \u03c0\u03bf\u03bb\u03bb\u03b1\u03c0\u03bb\u03ad\u03c2 \u03c3\u03c4\u03c1\u03ce\u03c3\u03b5\u03b9\u03c2 \u03c5\u03c6\u03ac\u03c3\u03bc\u03b1\u03c4\u03bf\u03c2 . \u0395\u03bd\u03af\u03bf\u03c4\u03b5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bb\u03b5\u03bd\u03cc\u03bc\u03b5\u03bd\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03b5\u03c0\u03b1\u03bd\u03b1\u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bc\u03b5\u03bd\u03b5\u03c2."
-            ]
-          },
-          "32928087-9c34-4c5a-a860-95d9d76761d6": {
-            "text": [
-              "\u039b\u03af\u03b3\u03bf\u03b9 \u03b1\u03c0\u03cc \u03c4\u03bf\u03c5\u03c2 \u03c3\u03c5\u03bd\u03b4\u03c5\u03b1\u03c3\u03bc\u03bf\u03cd\u03c2 \u03c5\u03c6\u03b1\u03c3\u03bc\u03ac\u03c4\u03c9\u03bd \u03ad\u03c7\u03bf\u03c5\u03bd \u03b1\u03be\u03b9\u03bf\u03bb\u03bf\u03b3\u03b7\u03b8\u03b5\u03af \u03c3\u03c5\u03c3\u03c4\u03b7\u03bc\u03b1\u03c4\u03b9\u03ba\u03ac. \u03a9\u03c3\u03c4\u03cc\u03c3\u03bf, \u03bf \u03a0\u039f\u03a5 \u03c0\u03b1\u03c1\u03ad\u03c7\u03b5\u03b9 \u03b3\u03b5\u03bd\u03b9\u03ba\u03ad\u03c2 \u03bf\u03b4\u03b7\u03b3\u03af\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03c5\u03c2 \u03c3\u03c5\u03bd\u03b4\u03c5\u03b1\u03c3\u03bc\u03bf\u03cd\u03c2 \u03c5\u03bb\u03b9\u03ba\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03b7 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03c4\u03c9\u03bd \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03c9\u03bd \u03b4\u03c5\u03bd\u03b1\u03c4\u03ce\u03bd \u03c3\u03c4\u03c1\u03c9\u03bc\u03ac\u03c4\u03c9\u03bd \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1\u03c2."
-            ]
-          },
-          "f41251f8-7577-4fb0-8f80-159fe00c635b": {
-            "text": [
-              "\u0393\u03b9\u03b1 \u03c4\u03b7\u03bd \u03b1\u03be\u03b9\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b7 \u03bc\u03b9\u03b1\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2, \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03ac \u03ba\u03c1\u03b9\u03c4\u03ae\u03c1\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03bf \u03cd\u03c6\u03b1\u03c3\u03bc\u03b1 \u03bd\u03b1 \u03c6\u03b9\u03bb\u03c4\u03c1\u03ac\u03c1\u03b5\u03b9 \u03c4\u03bf\u03bd \u03b1\u03ad\u03c1\u03b1 \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03b5\u03c0\u03b9\u03c4\u03c1\u03ad\u03c0\u03b5\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03b1\u03c0\u03bd\u03bf\u03ae, \u03ba\u03b1\u03b9 \u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03bd\u03b1 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03b5\u03b9 \u03ac\u03bd\u03b5\u03c4\u03b1 \u03c3\u03c4\u03b7 \u03b8\u03ad\u03c3\u03b7 \u03c4\u03b7\u03c2, \u03c0\u03c1\u03bf\u03c3\u03b1\u03c1\u03bc\u03cc\u03b6\u03bf\u03bd\u03c4\u03b1\u03c2 \u03bb\u03af\u03b3\u03bf \u03bc\u03cc\u03bd\u03bf \u03c4\u03b1 \u03bb\u03b1\u03c3\u03c4\u03b9\u03c7\u03ac\u03ba\u03b9\u03b1 \u03ae \u03c4\u03b1 \u03ba\u03bf\u03c1\u03b4\u03cc\u03bd\u03b9\u03b1 \u03cc\u03c0\u03bf\u03c4\u03b5 \u03c7\u03c1\u03b5\u03b9\u03ac\u03b6\u03b5\u03c4\u03b1\u03b9."
-            ]
-          }
+      "name": "Mask homemade",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Several types of non-medical, fabric masks are commercially available, and they can also be homemade.",
+              "type": "send_msg",
+              "uuid": "a4591794-26f8-434a-ac9f-ded06314a06e"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "There are numerous designs for fabric masks, but they generally cover the nose and mouth, are secured with ties or elastic loops, include multiple layers of fabric, and can sometimes be washed and re-used.",
+              "type": "send_msg",
+              "uuid": "5dbb26d2-49a8-48f5-8222-2df0e16af7c0"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Few of these combinations have been systematically evaluated, but WHO provides general guidance on combinations of materials and optimal layering.",
+              "type": "send_msg",
+              "uuid": "3dc5753b-c6b1-4b96-9ef7-c427f6eca683"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "In assessing a mask, it is important to consider filtration and breathability characteristics of the fabrics used and to ensure that the mask can be held in place comfortably with little adjustment using elastic bands or ties.",
+              "type": "send_msg",
+              "uuid": "3633121a-8c20-48e6-b599-949afe97a5d7"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "8be44889-6d70-41b2-b637-6f2f23726653"
+            }
+          ],
+          "uuid": "513436f2-993c-4510-8668-a6df8f7ddc41"
         }
-      }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "5b2323e7-9a79-46bc-852a-f9fc8bcbfd40",
+      "revision": 4
     }
   ],
   "campaigns": [],
