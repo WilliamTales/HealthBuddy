@@ -2069,7 +2069,7 @@
         }
       },
       "metadata": {
-        "revision": 22
+        "revision": 24
       },
       "name": "Out of scope issues",
       "nodes": [
@@ -2281,10 +2281,12 @@
               "text": "@(\"\")",
               "type": "send_msg",
               "quick_replies": [
+                "What are the symptoms?",
                 "Which are the hotline in my country?",
                 "Report fake news and rumours",
                 "Can I use antibiotics?",
                 "Can I use ibuprofen?",
+                "Are people immune to COVID-19?",
                 "How bad is the virus?"
               ],
               "uuid": "beb7350b-0991-4665-a648-3258163cfb25"
@@ -2379,7 +2381,7 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "f00b0720-5dff-4dcc-a0e8-7eb80364a33f",
-      "revision": 24
+      "revision": 25
     },
     {
       "_ui": {
@@ -9930,7 +9932,7 @@
         }
       },
       "metadata": {
-        "revision": 38
+        "revision": 40
       },
       "name": "Finishing",
       "nodes": [
@@ -10122,10 +10124,12 @@
               "text": "@(\"\")",
               "type": "send_msg",
               "quick_replies": [
+                "What are the symptoms?",
                 "Which are the hotline in my country?",
                 "Report fake news and rumours",
                 "Can I use antibiotics?",
                 "Can I use ibuprofen?",
+                "Are people immune to COVID-19?",
                 "How bad is the virus?"
               ],
               "uuid": "beb081e1-c39f-4d14-8556-e1b30a66d628"
@@ -10221,7 +10225,7 @@
       "spec_version": "13.1.0",
       "type": "messaging",
       "uuid": "72755524-3481-4b6c-8b12-b51aa3114dfe",
-      "revision": 40
+      "revision": 41
     },
     {
       "_ui": {
