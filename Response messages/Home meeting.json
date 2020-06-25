@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "0f8a2328-3c15-4fc8-bc36-3642bac605e1": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "No hay que desestimar el papel que desempe\u00f1a cada persona para detener esta pandemia."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "La opci\u00f3n m\u00e1s segura es quedarse en casa con las personas con las que vive."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "Aparte de esto, cada persona debe seguir las recomendaciones de las autoridades, tanto para ellos como para sus comunidades."
+            ]
+          }
+        },
+        "ell": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "\u039f \u03c1\u03cc\u03bb\u03bf\u03c2 \u03c0\u03bf\u03c5 \u03c0\u03b1\u03af\u03b6\u03b5\u03b9 \u03bf \u03ba\u03b1\u03b8\u03ad\u03bd\u03b1\u03c2 \u03bc\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c3\u03c4\u03b1\u03bc\u03b1\u03c4\u03ae\u03c3\u03b5\u03b9 \u03b1\u03c5\u03c4\u03ae \u03b7 \u03c0\u03b1\u03bd\u03b4\u03b7\u03bc\u03af\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b9\u03b4\u03b9\u03b1\u03af\u03c4\u03b5\u03c1\u03b1 \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03cc\u03c2."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "\u0397 \u03b1\u03c3\u03c6\u03b1\u03bb\u03ad\u03c3\u03c4\u03b5\u03c1\u03b7 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ae \u03b5\u03af\u03bd\u03b1\u03b9 \u03bd\u03b1 \u03bc\u03b5\u03af\u03bd\u03b5\u03b9\u03c2 \u03c3\u03c0\u03af\u03c4\u03b9 \u03bc\u03b1\u03b6\u03af \u03bc\u03b5 \u03c4\u03b1 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03c3\u03c5\u03b3\u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03b5\u03af\u03c2 \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03c4\u03b7\u03c1\u03b5\u03af\u03c2 \u03c4\u03b7 \u03c3\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03bf\u03c3\u03c4\u03b1\u03c3\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c3\u03c4\u03bf\u03c5\u03c2 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03bf\u03c5\u03c2 \u03c7\u03ce\u03c1\u03bf\u03c5\u03c2."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "\u03a0\u03ad\u03c1\u03b1 \u03b1\u03c0\u03cc \u03b1\u03c5\u03c4\u03cc, \u03bf \u03ba\u03b1\u03b8\u03ad\u03bd\u03b1\u03c2 \u03bc\u03b1\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03b5\u03af \u03c4\u03b9\u03c2 \u03bf\u03b4\u03b7\u03b3\u03af\u03b5\u03c2 \u03c4\u03c9\u03bd \u03b1\u03c1\u03bc\u03cc\u03b4\u03b9\u03c9\u03bd \u03b1\u03c1\u03c7\u03ce\u03bd, \u03b3\u03b9\u03b1 \u03c4\u03bf \u03ba\u03b1\u03bb\u03cc \u03c4\u03cc\u03c3\u03bf \u03c4\u03bf \u03b4\u03b9\u03ba\u03cc \u03bc\u03b1\u03c2 \u03cc\u03c3\u03bf \u03ba\u03b1\u03b9 \u03c4\u03b7\u03c2 \u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1\u03c2 \u03c3\u03c4\u03b7\u03bd \u03bf\u03c0\u03bf\u03af\u03b1 \u03b6\u03bf\u03cd\u03bc\u03b5."
+            ]
+          }
+        },
+        "rus": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "\u041a\u0430\u0436\u0434\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u043c\u043e\u0436\u0435\u0442 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043e\u0433\u0440\u043e\u043c\u043d\u044b\u0439 \u0432\u043a\u043b\u0430\u0434 \u0432 \u0431\u043e\u0440\u044c\u0431\u0443 \u043f\u0440\u043e\u0442\u0438\u0432 \u044d\u0442\u043e\u0439 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "\u0421\u0430\u043c\u044b\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u044b\u0439 \u0432\u0430\u0440\u0438\u0430\u043d\u0442 - \u043e\u0441\u0442\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u0434\u043e\u043c\u0430 \u0441 \u043b\u044e\u0434\u044c\u043c\u0438, \u0441 \u043a\u043e\u0442\u043e\u0440\u044b\u043c\u0438 \u0432\u044b \u0436\u0438\u0432\u0435\u0442\u0435, \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u043e\u0432\u0430\u0442\u044c \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0432 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043c\u0435\u0441\u0442\u0430\u0445."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "\u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u043a\u0430\u0436\u0434\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f\u043c \u0441\u0432\u043e\u0438\u0445 \u0432\u043b\u0430\u0441\u0442\u0435\u0439, \u0447\u0442\u043e \u043f\u0440\u0438\u043d\u0435\u0441\u0435\u0442 \u043f\u043e\u043b\u044c\u0437\u0443 \u043a\u0430\u043a \u0435\u043c\u0443 \u043b\u0438\u0447\u043d\u043e, \u0442\u0430\u043a \u0438 \u0432\u0441\u0435\u043c\u0443 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0443."
+            ]
+          }
+        },
+        "ita": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "Il ruolo che ogni persona ha nel fermare questa pandemia non deve essere sottovalutato"
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "Oltre a ci\u00f2, ogni persona deve seguire le indicazioni delle autorit\u00e0 locali, sia per s\u00e9 stessa che per la propria comunit\u00e0."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "L'opzione pi\u00f9 sicura \u00e8 stare a casa con le persone con cui vivi."
+            ]
+          }
+        },
+        "kaz": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "\u0411\u04b1\u043b \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u044f\u043d\u044b \u0442\u043e\u049b\u0442\u0430\u0442\u0443\u0434\u0430\u0493\u044b \u04d9\u0440 \u0430\u0434\u0430\u043c\u043d\u044b\u04a3 \u0430\u0442\u049b\u0430\u0440\u0430\u0442\u044b\u043d \u0440\u04e9\u043b\u0456\u043d \u0430\u0441\u044b\u0440\u0430 \u0431\u0430\u0493\u0430\u043b\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "\u0415\u04a3 \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u043d\u04b1\u0441\u049b\u0430 - \u04af\u0439\u0434\u0435 \u0442\u04b1\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u043c\u0435\u043d \u0431\u0456\u0440\u0433\u0435 \u0431\u043e\u043b\u0443 \u0436\u04d9\u043d\u0435 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u043a \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0444\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b\u0442\u044b \u04b1\u0441\u0442\u0430\u043d\u0443."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "\u0411\u04b1\u0434\u0430\u043d \u0431\u0430\u0441\u049b\u0430, \u04d9\u0440 \u0430\u0434\u0430\u043c \u04e9\u0437\u0456 \u04af\u0448\u0456\u043d \u0434\u0435, \u049b\u043e\u0493\u0430\u043c \u04af\u0448\u0456\u043d \u0434\u0435 \u043c\u0435\u043c\u043b\u0435\u043a\u0435\u0442\u0442\u0456\u04a3 \u0431\u0435\u0440\u0433\u0435\u043d \u043d\u04b1\u0441\u049b\u0430\u0443\u043b\u0430\u0440\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443 \u043a\u0435\u0440\u0435\u043a."
+            ]
+          }
+        },
+        "por": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "O papel que cada pessoa desempenha para interromper essa pandemia n\u00e3o pode ser subestimado."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "A op\u00e7\u00e3o mais segura \u00e9 estar em casa com as pessoas que voc\u00ea j\u00e1 vive."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "Al\u00e9m disso, todas as pessoas devem seguir as orienta\u00e7\u00f5es de suas autoridades, tanto para elas quanto para suas comunidades."
+            ]
+          }
+        },
+        "mkd": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "\u0423\u043b\u043e\u0433\u0430\u0442\u0430 \u0448\u0442\u043e \u0458\u0430 \u0438\u0433\u0440\u0430 \u0441\u0435\u043a\u043e\u0435 \u043b\u0438\u0446\u0435 \u0432\u043e \u0437\u0430\u043f\u0438\u0440\u0430\u045a\u0435\u0442\u043e \u043d\u0430 \u043e\u0432\u0430\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0458\u0430 \u043d\u0435 \u0435 \u043f\u0440\u0435\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0430."
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "\u041d\u0430\u0458\u0431\u0435\u0437\u0431\u0435\u0434\u043d\u0430 \u043e\u043f\u0446\u0438\u0458\u0430 \u0435 \u0434\u0430 \u043e\u0441\u0442\u0430\u043d\u0435\u0442\u0435 \u0434\u043e\u043c\u0430 \u0441\u043e \u043b\u0443\u0453\u0435\u0442\u043e \u0441\u043e \u043a\u043e\u0438 \u0436\u0438\u0432\u0435\u0435\u0442\u0435 \u0438 \u0434\u0430 \u043f\u0440\u0438\u043c\u0435\u043d\u0443\u0432\u0430\u0442\u0435 \u0444\u0438\u0437\u0438\u0447\u043aa \u0434\u0438\u0441\u0442\u0430\u043d\u0446a \u043a\u043e\u0433\u0430 \u0441\u0442\u0435 \u043d\u0430 \u0458\u0430\u0432\u043d\u043e \u043c\u0435\u0441\u0442\u043e ."
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "\u041e\u0441\u0432\u0435\u043d \u043e\u0432\u0430, \u0441\u0435\u043a\u043e\u0435 \u043b\u0438\u0446\u0435 \u043c\u043e\u0440\u0430 \u0434\u0430 \u0433\u0438 \u0441\u043b\u0435\u0434\u0438 \u0443\u043f\u0430\u0442\u0441\u0442\u0432\u0430\u0442\u0430 \u043d\u0430 \u0432\u043b\u0430\u0441\u0442\u0438\u0442\u0435, \u043a\u0430\u043a\u043e \u0437\u0430 \u0441\u0435\u0431\u0435, \u0442\u0430\u043a\u0430 \u0438 \u0437\u0430 \u0437\u0430\u0435\u0434\u043d\u0438\u0446\u0430\u0442\u0430."
+            ]
+          }
+        },
+        "tur": {
+          "72a6412e-6cc1-4a4f-ac45-163ff2161619": {
+            "text": [
+              "Her bir ki\u015fi, pandemiyi durdurma konusunda paha bi\u00e7ilemez bir rol oynamaktad\u0131r. "
+            ]
+          },
+          "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6": {
+            "text": [
+              "En g\u00fcvenli se\u00e7enek, birlikte ya\u015fad\u0131\u011f\u0131n\u0131z ki\u015filerle evde kalmak ve d\u0131\u015far\u0131dayken fiziksel mesafeye uymakt\u0131r. "
+            ]
+          },
+          "b0c135dd-9fbe-44de-8ad2-074ab788a242": {
+            "text": [
+              "Bu durumlar\u0131n \u00f6tesinde, herkes hem kendileri hem de topluluklar\u0131 i\u00e7in yetkililerin y\u00f6nlendirmelerini takip etmelidir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 41
+      },
+      "name": "Home meeting",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "9f40891d-f29d-44bf-81a2-338ff78043bc",
+      "revision": 42,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "The role that each person plays in stopping this pandemic cannot be overstated.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "72a6412e-6cc1-4a4f-ac45-163ff2161619"
+            },
+            {
+              "attachments": [],
+              "text": "The safest option is to stay at home with the people you live with and practice physical distancing when in public.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "0adf9432-0bcd-40c5-a278-4a15f4bf6ff6"
+            },
+            {
+              "attachments": [],
+              "text": "Beyond this, every person must follow their authorities\u2019 guidance, both for themselves and their communities.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "b0c135dd-9fbe-44de-8ad2-074ab788a242"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "fd31d49e-5e76-4475-8617-9c3e5702e383"
+            }
+          ],
+          "uuid": "0f8a2328-3c15-4fc8-bc36-3642bac605e1"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

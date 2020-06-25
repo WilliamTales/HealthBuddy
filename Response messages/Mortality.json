@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "dbb7c44b-3acb-46ee-bdbe-4fd02a24cd80": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "En el caso de gripe com\u00fan, la tasa de letalidad es de 0,1%."
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "Mientras que la tasa real de mortalidad por COVID-19 a\u00fan tardar\u00e1 alg\u00fan tiempo para poder analizarse con los datos que tenemos, por el momento, los datos actuales indican que la tasa de letalidad (n\u00famero de muertes dividida por el n\u00famero de casos confirmados) es de un promedio de 7%."
+            ]
+          },
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "De acuerdo con los datos actuales, la tasa de mortalidad por COVID-19 es m\u00e1s elevada que la de por una gripe."
+            ]
+          }
+        },
+        "ell": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "\u039c\u03b5 \u03b2\u03ac\u03c3\u03b7 \u03c4\u03b1 \u03c3\u03b7\u03bc\u03b5\u03c1\u03b9\u03bd\u03ac \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1, \u03b7 \u03b8\u03bd\u03b7\u03c3\u03b9\u03bc\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c4\u03bf\u03c5 COVID-19 \u03c6\u03b1\u03af\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b1\u03c0\u03cc \u03b1\u03c5\u03c4\u03ae \u03c4\u03b7\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2, \u03ba\u03c5\u03c1\u03af\u03c9\u03c2 \u03c4\u03b7\u03c2 \u03b5\u03c0\u03bf\u03c7\u03b9\u03ba\u03ae\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2. "
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "\u0391\u03bd \u03ba\u03b1\u03b9 \u03b8\u03b1 \u03c7\u03c1\u03b5\u03b9\u03b1\u03c3\u03c4\u03b5\u03af \u03b1\u03c1\u03ba\u03b5\u03c4\u03cc \u03b4\u03b9\u03ac\u03c3\u03c4\u03b7\u03bc\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03b1\u03c4\u03b1\u03bd\u03bf\u03ae\u03c3\u03bf\u03c5\u03bc\u03b5 \u03c0\u03bb\u03ae\u03c1\u03c9\u03c2 \u03c4\u03b7\u03bd \u03b1\u03ba\u03c1\u03b9\u03b2\u03ae \u03b8\u03bd\u03b7\u03c3\u03b9\u03bc\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c4\u03b7\u03c2 COVID-19, \u03c4\u03b1 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1 \u03c0\u03bf\u03c5 \u03ad\u03c7\u03bf\u03c5\u03bc\u03b5 \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c3\u03c4\u03b9\u03b3\u03bc\u03ae\u03c2 \u03b4\u03b5\u03af\u03c7\u03bd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03c4\u03bf \u03c0\u03bf\u03c3\u03bf\u03c3\u03c4\u03cc \u03b8\u03bd\u03b7\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 (\u03b1\u03c1\u03b9\u03b8\u03bc\u03cc\u03c2 \u03b1\u03bd\u03b1\u03c6\u03b5\u03c1\u03b8\u03ad\u03bd\u03c4\u03c9\u03bd \u03b8\u03b1\u03bd\u03ac\u03c4\u03c9\u03bd \u03b4\u03b9\u03b1\u03b9\u03c1\u03bf\u03cd\u03bc\u03b5\u03bd\u03bf\u03c2 \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b1\u03c1\u03b9\u03b8\u03bc\u03cc \u03b1\u03bd\u03b1\u03c6\u03b5\u03c1\u03b8\u03ad\u03bd\u03c4\u03c9\u03bd \u03ba\u03c1\u03bf\u03c5\u03c3\u03bc\u03ac\u03c4\u03c9\u03bd \u03c0\u03bf\u03c5 \u03b4\u03b9\u03b1\u03b3\u03bd\u03ce\u03c3\u03c4\u03b7\u03ba\u03b1\u03bd \u03b1\u03c0\u03cc \u03c4\u03bf \u03b5\u03c1\u03b3\u03b1\u03c3\u03c4\u03ae\u03c1\u03b9\u03bf) \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b1\u03c4\u03ac \u03bc\u03ad\u03c3\u03bf \u03cc\u03c1\u03bf \u03c0\u03b5\u03c1\u03af\u03c0\u03bf\u03c5 7%."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "\u03a4\u03bf \u03c0\u03bf\u03c3\u03bf\u03c3\u03c4\u03cc \u03b8\u03bd\u03b7\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c4\u03b7\u03c2 \u03b5\u03c0\u03bf\u03c7\u03b9\u03ba\u03ae\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03ac\u03c4\u03c9 \u03b1\u03c0\u03cc 0,1%."
+            ]
+          }
+        },
+        "rus": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "\u0421\u043e\u0433\u043b\u0430\u0441\u043d\u043e \u0438\u043c\u0435\u044e\u0449\u0438\u043c\u0441\u044f \u0434\u0430\u043d\u043d\u044b\u043c, \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u044c \u043e\u0442 COVID-19 \u0432\u044b\u0448\u0435, \u0447\u0435\u043c \u043e\u0442 \u0433\u0440\u0438\u043f\u043f\u0430, \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u0435\u0441\u043b\u0438 \u0441\u0440\u0430\u0432\u043d\u0438\u0432\u0430\u0442\u044c \u0441 \u0441\u0435\u0437\u043e\u043d\u043d\u044b\u043c \u0433\u0440\u0438\u043f\u043f\u043e\u043c."
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "\u041d\u0435\u0441\u043c\u043e\u0442\u0440\u044f \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0434\u043b\u044f \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0438\u0441\u0442\u0438\u043d\u043d\u044b\u0445 \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043e\u0432 \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043e\u0442 COVID-19 \u043f\u043e\u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0432\u0440\u0435\u043c\u044f, \u0438\u043c\u0435\u044e\u0449\u0438\u0435\u0441\u044f \u0443 \u043d\u0430\u0441 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442, \u0447\u0442\u043e \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442 \u043b\u0435\u0442\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438 (\u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0441\u043c\u0435\u0440\u0442\u0438, \u043f\u043e\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u0435 \u043d\u0430 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u043e \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u043d\u044b\u0435 \u0441\u043b\u0443\u0447\u0430\u0438) \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043e\u043a\u043e\u043b\u043e 7%."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "\u041f\u0440\u0438 \u0441\u0435\u0437\u043e\u043d\u043d\u043e\u043c \u0433\u0440\u0438\u043f\u043f\u0435 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043d\u0438\u0436\u0435 0,1%."
+            ]
+          }
+        },
+        "ita": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "Stando ai dati attuali, COVID-19 ha un tasso di mortalit\u00e0 pi\u00f9 alto dell\u2019influenza, soprattutto dell\u2019influenza stagionale. "
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "Capire l\u2019esatto tasso di letalit\u00e0 del COVID-19 richieder\u00e0 del tempo per analizzare completamente i dati. Ci\u00f2 nonostante, i dati attualmente disponibili suggeriscono che il tasso di letalit\u00e0 (il numero di decessi confermati divisi per il numero di casi confermati da test laboratoriale) si aggiri intorno 7%."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "Il tasso di letalit\u00e0 dell\u2019influenza stagionale \u00e8 al di sotto dello 0,1%. \n"
+            ]
+          }
+        },
+        "kaz": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "\u0410\u0493\u044b\u043c\u0434\u0430\u0493\u044b \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440\u0433\u0435 \u0441\u04af\u0439\u0435\u043d\u0441\u0435\u043a, COVID-19 \u04e9\u043b\u0456\u043c \u0434\u0435\u04a3\u0433\u0435\u0439\u0456 \u0442\u04b1\u043c\u0430\u0443\u0493\u0430, \u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u043c\u0430\u0443\u0441\u044b\u043c\u0434\u044b\u049b \u0442\u04b1\u043c\u0430\u0443\u0493\u0430 \u049b\u0430\u0440\u0430\u0493\u0430\u043d\u0434\u0430 \u0436\u043e\u0493\u0430\u0440\u044b."
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "COVID-19 \u049b\u0430\u0442\u044b\u0441\u0442\u044b \u043d\u0430\u049b\u0442\u044b \u04e9\u043b\u0456\u043c \u0442\u0443\u0440\u0430\u043b\u044b \u0442\u043e\u043b\u044b\u049b \u0442\u0430\u043b\u0434\u0430\u0443 \u0436\u0430\u0441\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0440\u0430\u0437 \u0443\u0430\u049b\u044b\u0442 \u049b\u0430\u0436\u0435\u0442, \u0430\u043b\u0430\u0439\u0434\u0430 \u0431\u0456\u0437\u0434\u0435 \u0431\u043e\u043b\u0493\u0430\u043d \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440 \u0436\u0430\u0493\u0434\u0430\u0439\u0434\u044b\u04a3 \u04e9\u043b\u0456\u043c-\u0436\u0456\u0442\u0456\u043c \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u0456 (\u0442\u0456\u0440\u043a\u0435\u043b\u0433\u0435\u043d \u0437\u0435\u0440\u0442\u0445\u0430\u043d\u0430\u043c\u0435\u043d \u0440\u0430\u0441\u0442\u0430\u043b\u0493\u0430\u043d \u04e9\u043b\u0456\u043c \u0441\u0430\u043d\u044b) \u043e\u0440\u0442\u0430\u0448\u0430 \u0435\u0441\u0435\u043f\u043f\u0435\u043d 7% \u049b\u04b1\u0440\u0430\u0439\u0434\u044b."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "\u041c\u0430\u0443\u0441\u044b\u043c\u0434\u044b\u049b \u0442\u04b1\u043c\u0430\u0443 \u0436\u0430\u0493\u0434\u0430\u0439\u044b\u043d\u0434\u0430 \u04e9\u043b\u0456\u043c \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u0456 0,1% -\u0434\u0430\u043d \u0442\u04e9\u043c\u0435\u043d."
+            ]
+          }
+        },
+        "por": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "Com base nos dados atuais, a mortalidade por COVID-19 parece maior que a influenza, especialmente a influenza sazonal."
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "Embora a verdadeira mortalidade do COVID-19 leve algum tempo para entender completamente, os dados que temos at\u00e9 agora indicam que a taxa de mortalidade de casos (o n\u00famero de mortes relatadas dividido pelos casos confirmados pelo laborat\u00f3rio relatados) \u00e9, em m\u00e9dia, de cerca de 1%."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "Para influenza sazonal, a taxa de mortalidade de casos \u00e9 inferior a 0,1%."
+            ]
+          }
+        },
+        "mkd": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "\u0412\u0440\u0437 \u043e\u0441\u043d\u043e\u0432\u0430 \u043d\u0430 \u0441\u0435\u0433\u0430\u0448\u043d\u0438\u0442\u0435 \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438, \u0441\u043c\u0440\u0442\u043d\u043e\u0441\u0442\u0430 \u043e\u0434 \u041a\u041e\u0412\u0418\u0414-19 \u0441\u0435 \u0447\u0438\u043d\u0438 \u043f\u043e\u0432\u0438\u0441\u043e\u043a\u0430 \u043e\u0442\u043a\u043e\u043b\u043a\u0443 \u043a\u0430\u0458 \u0433\u0440\u0438\u043f\u043e\u0442, \u043e\u0441\u043e\u0431\u0435\u043d\u043e \u043a\u0430\u0458 \u0441\u0435\u0437\u043e\u043d\u0441\u043a\u0438\u043e\u0442 \u0433\u0440\u0438\u043f."
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "\u0418\u0430\u043a\u043e \u045c\u0435 \u0442\u0440\u0435\u0431\u0430 \u0438\u0437\u0432\u0435\u0441\u043d\u043e \u0432\u0440\u0435\u043c\u0435 \u0446\u0435\u043b\u043e\u0441\u043d\u043e \u0434\u0430 \u0441\u0435 \u0438\u0437\u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u0430 \u0432\u0438\u0441\u0442\u0438\u043d\u0441\u043a\u0430\u0442\u0430 \u0441\u043c\u0440\u0442\u043d\u043e\u0441\u0442 \u043e\u0434 \u041a\u041e\u0412\u0418\u0414-19, \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438\u0442\u0435 \u0448\u0442\u043e \u0433\u0438 \u0438\u043c\u0430\u043c\u0435 \u0434\u043e\u0441\u0435\u0433\u0430 \u0443\u043a\u0430\u0436\u0443\u0432\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u0441\u0442\u0430\u043f\u043a\u0430\u0442\u0430 \u043d\u0430 \u0441\u043c\u0440\u0442\u043d\u043e\u0441\u0442 \u043a\u0430\u0458 \u0441\u043b\u0443\u0447\u0430\u0438\u0442\u0435 (\u0431\u0440\u043e\u0458 \u043d\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0435\u043d\u0438 \u0441\u043c\u0440\u0442\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438 \u043f\u043e\u0434\u0435\u043b\u0435\u043d \u0441\u043e \u043f\u0440\u0438\u0458\u0430\u0432\u0435\u043d\u0438 \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0438\u0441\u043a\u0438 \u043f\u043e\u0442\u0432\u0440\u0434\u0435\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438) \u0438\u0437\u043d\u0435\u0441\u0443\u0432\u0430 \u043f\u0440\u043e\u0441\u0435\u0447\u043d\u043e \u043e\u043a\u043e\u043b\u0443 7%."
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "\u041a\u0430\u0458 \u0441\u0435\u0437\u043e\u043d\u0441\u043a\u0438\u043e\u0442 \u0433\u0440\u0438\u043f, \u043f\u0440\u043e\u0446\u0435\u043d\u0442\u043e\u0442 \u043d\u0430 \u0441\u043c\u0440\u0442\u043d\u043e\u0441\u0442 \u0435 \u043f\u043e\u0434 0,1%."
+            ]
+          }
+        },
+        "tur": {
+          "05bee643-9cb9-4584-ba95-8b68951e425d": {
+            "text": [
+              "Mevcut verilere istinaden, KOV\u0130D-19 salg\u0131n\u0131na y\u00f6nelik \u00f6l\u00fcm oran\u0131 influenzadan, \u00f6zellikle mevsimsel influenzadan y\u00fcksektir. "
+            ]
+          },
+          "f031d6ee-1be8-4c8a-afe5-ad8eaa629893": {
+            "text": [
+              "KOV\u0130D-19 salg\u0131n\u0131n\u0131n ger\u00e7ek \u00f6l\u00fcm oran\u0131n\u0131 tamamen analiz etmek biraz zaman alacak olmas\u0131na ra\u011fmen, bu zamana kadar edilen veriler vaka \u00f6l\u00fcm oran\u0131n\u0131n (laboratuvar olarak do\u011frulanan rapor edilen vakalara g\u00f6re b\u00f6l\u00fcnen rapor edilen \u00f6l\u00fcm say\u0131lar\u0131) ortalama olarak yakla\u015f\u0131k olarak 7% oldu\u011funu g\u00f6stermektedir. "
+            ]
+          },
+          "64989be8-22da-4a61-bc8b-35c4efd02c07": {
+            "text": [
+              "Mevsimsel influenza i\u00e7in vaka \u00f6l\u00fcm oran\u0131 %0.1\u2019in alt\u0131ndad\u0131r. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 43
+      },
+      "name": "Mortality",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "2fea4643-e164-41a1-9cc3-c89785ae9b1a",
+      "revision": 44,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Based on current data, mortality for COVID-19 appears higher than for influenza, especially seasonal influenza.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "05bee643-9cb9-4584-ba95-8b68951e425d"
+            },
+            {
+              "attachments": [],
+              "text": "While the true mortality of COVID-19 will take some time to fully analyse, the data we have so far indicates that the case fatality ratio (the number of reported deaths divided by the reported lab confirmed cases) is on average about 7%.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "f031d6ee-1be8-4c8a-afe5-ad8eaa629893"
+            },
+            {
+              "attachments": [],
+              "text": "For seasonal influenza, case fatality ratio is below 0.1%.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "64989be8-22da-4a61-bc8b-35c4efd02c07"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "6b8c2fe6-9e76-417e-bb9c-57aaf8e61fa8"
+            }
+          ],
+          "uuid": "dbb7c44b-3acb-46ee-bdbe-4fd02a24cd80"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

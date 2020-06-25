@@ -1,0 +1,208 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Mask type",
+      "uuid": "7604e8ce-858a-49de-878b-f320e9a31bd4",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "nodes": [
+        {
+          "uuid": "b3e3c65f-b531-4c89-8223-7785a2e6860e",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Medical masks should be prioritized for health care providers, those who are infected with COVID-19 their caregivers.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "0623df6a-2332-4ceb-bb64-8705c32dba97"
+            },
+            {
+              "attachments": [],
+              "text": "In areas with community transmission, WHO also encourages people aged 60 years or over and anyone with underlying conditions to wear medical masks in situations where physical distancing is not possible.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "21c798fa-0ddf-4a2c-b378-2b58835951c7"
+            },
+            {
+              "attachments": [],
+              "text": "The general public is encouraged to wear non-medical masks, made of suitable fabrics, where there is widespread transmission and physical distancing cannot be maintained, such as on public transport, in shops or in other confined or crowded environments.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "79359ff0-29ae-442e-bac1-f594dbcad213"
+            },
+            {
+              "attachments": [],
+              "text": "You should follow your local authorities\u2019 mask use recommendations.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "05317b7d-9195-4bb0-a4a3-f95899e916af"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "2de56b8e-26fa-47d2-a1ad-abcf90faad5f",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "_ui": {
+        "nodes": {
+          "b3e3c65f-b531-4c89-8223-7785a2e6860e": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 32,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 28
+      },
+      "localization": {
+        "kaz": {
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "\u049a\u043e\u0493\u0430\u043c\u0434\u044b\u049b \u0430\u0443\u0440\u0443 \u0436\u04b1\u049b\u0442\u044b\u0440\u0443 \u0436\u0435\u0440\u043b\u0435\u0440\u0456\u043d\u0434\u0435 \u0414\u0414\u0421\u04b0 60 \u0436\u0430\u0441\u049b\u0430 \u0442\u043e\u043b\u0493\u0430\u043d \u0436\u04d9\u043d\u0435 \u0430\u0441\u049b\u0430\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b, \u0441\u043e\u043d\u0434\u0430\u0439 \u0430\u049b \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u0493\u044b \u043d\u0430\u0448\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u0444\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043c\u0435\u0441 \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u0493\u0443\u0493\u0430 \u0448\u0430\u049b\u044b\u0440\u0430\u0434\u044b."
+            ]
+          },
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u043c\u0435\u043d \u0431\u0456\u0440\u0456\u043d\u0448\u0456 \u043a\u0435\u0437\u0435\u043a\u0442\u0435 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u049b\u044b\u0437\u043c\u0435\u0442\u043a\u0435\u0440\u043b\u0435\u0440, COVID-19 \u0430\u0443\u0440\u0443\u044b\u043d \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0436\u04d9\u043d\u0435 \u043e\u043b\u0430\u0440\u0493\u0430 \u043a\u04af\u0442\u0456\u043c \u0436\u0430\u0441\u0430\u0439\u0442\u044b\u043d \u0442\u04b1\u043b\u0493\u0430\u043b\u0430\u0440 \u049b\u0430\u043c\u0442\u0430\u043c\u0430\u0441\u044b\u0437 \u0435\u0442\u0456\u043b\u0443\u0456 \u043a\u0435\u0440\u0435\u043a. "
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "\u049a\u043e\u0493\u0430\u043c\u0434\u044b\u049b \u043a\u04e9\u043b\u0456\u043a\u0442\u0435\u0440, \u0434\u04af\u043a\u0435\u043d\u0434\u0435\u0440 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u043e\u049b\u0448\u0430\u0443\u043b\u0430\u043d\u0493\u0430\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u043a\u04e9\u043f \u0436\u04af\u0440\u0435\u0442\u0456\u043d \u0436\u0435\u0440\u043b\u0435\u0440 \u0441\u0438\u044f\u049b\u0442\u044b \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f \u043a\u0435\u04a3 \u0442\u0430\u0440\u0430\u0439\u0442\u044b\u043d \u0436\u04d9\u043d\u0435 \u0444\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b \u0441\u0430\u049b\u0442\u0430\u043b\u043c\u0430\u0439\u0442\u044b\u043d \u0436\u0435\u0440\u043b\u0435\u0440\u0434\u0435 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u043a \u0436\u04b1\u0440\u0442\u0442\u0430\u043d \u0442\u0438\u0456\u0441\u0442\u0456 \u043c\u0430\u0442\u0430\u0434\u0430\u043d \u0436\u0430\u0441\u0430\u043b\u0493\u0430\u043d \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u0435\u043c\u0435\u0441 \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0430\u0493\u0443 \u0441\u04b1\u0440\u0430\u043b\u0430\u0434\u044b. "
+            ]
+          },
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "\u0421\u0456\u0437 \u04e9\u0437\u0456\u04a3\u0456\u0437\u0434\u0456\u04a3 \u0436\u0435\u0440\u0433\u0456\u043b\u0456\u043a\u0442\u0456 \u0431\u0438\u043b\u0456\u043a \u043e\u0440\u0433\u0430\u043d\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b\u04a3 \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0493\u0430 \u049b\u0430\u0442\u044b\u0441\u0442\u044b \u043a\u0435\u04a3\u0435\u0441\u0442\u0435\u0440\u0456\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u0443\u044b\u04a3\u044b\u0437 \u043a\u0435\u0440\u0435\u043a. "
+            ]
+          }
+        },
+        "ita": {
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "\u00c8 necessario seguire le direttive delle autorit\u00e0 locali sull'utilizzo delle mascherine. "
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "La popolazione \u00e8 incoraggiata a indossare mascherine non mediche, realizzate con tessuti idonei, in aree a trasmissione diffusa e in luoghi in cui \u00e8 impossibile mantenere la distanza di sicurezza, quali trasporti pubblici, negozi o altri ambienti al chiuso o affollati. "
+            ]
+          },
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "Nelle aree a trasmissione comunitaria, l'OMS consiglia l'utilizzo di mascherine mediche a individui di et\u00e0 pari o superiore ai 60 anni e individui con malattie pregresse qualora si frequenti un luogo in cui non \u00e8 possibile rispettare il distanziamento sociale."
+            ]
+          },
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "Operatori sanitari, pazienti infetti con il Covid-19 e coloro che se ne prendono cura dovrebbero indossare mascherine mediche. "
+            ]
+          }
+        },
+        "por": {
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "As m\u00e1scaras cir\u00fargicas devem ser entregues, em primeiro lugar, aos profissionais de sa\u00fade, a todos os que estejam infetados com COVID-19 e aos seus cuidadores. "
+            ]
+          },
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "Nas zonas com transmiss\u00e3o comunit\u00e1ria, a OMS tamb\u00e9m aconselha a utiliza\u00e7\u00e3o de m\u00e1scaras cir\u00fargicas por pessoas com mais de 60 anos e com outros problemas de sa\u00fade em situa\u00e7\u00f5es onde o distanciamento social n\u00e3o \u00e9 poss\u00edvel."
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "O p\u00fablico, em geral, \u00e9 incentivado a usar m\u00e1scaras n\u00e3o cir\u00fargicas, fabricadas com tecidos aprovados, onde existe transmiss\u00e3o generalizada e o distanciamento social n\u00e3o pode ser mantido, como nos transportes p\u00fablicos, em lojas ou outros ambientes confinados ou com muitas pessoas. "
+            ]
+          },
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "Deve seguir as recomenda\u00e7\u00f5es sobre o uso de m\u00e1scara das suas autoridades locais. "
+            ]
+          }
+        },
+        "spa": {
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "Las mascarillas m\u00e9dicas deben priorizarse para los profesionales de la salud, aquellos que est\u00e9n infectados de COVID-19, o las personas que cuidan de ellos. "
+            ]
+          },
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "Debe seguir las recomendaciones sobre el uso de mascarilla de las autoridades locales. "
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "Se alienta a la ciudadan\u00eda ,en general, a usar m\u00e1scaras no m\u00e9dicas hechas de telas adecuadas, donde haya una transmisi\u00f3n generalizada y no se puede mantener el distanciamiento f\u00edsico, como en el transporte p\u00fablico, en tiendas o en otros espacios reducidos o abarrotados de gente. "
+            ]
+          },
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "En \u00e1reas con transmisi\u00f3n comunitaria, la OMS tambi\u00e9n anima a las personas de 60 a\u00f1os o m\u00e1s y a cualquier persona con problemas de salud subyacentes a usar mascarillas m\u00e9dicas en situaciones en las que no es posible el distanciamiento f\u00edsico."
+            ]
+          }
+        },
+        "rus": {
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0435 \u043c\u0430\u0441\u043a\u0438 \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043d\u044b\u043c\u0438 \u0434\u043b\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0445 \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u043a\u043e\u0432, \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u043b\u0438\u0446 \u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u043b\u0438\u0446, \u0443\u0445\u0430\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u0445 \u0437\u0430 \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430\u043c\u0438 \u0441 COVID-19. "
+            ]
+          },
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "\u0412 \u0440\u0430\u0439\u043e\u043d\u0430\u0445 \u0441 \u043c\u0430\u0441\u0441\u043e\u0432\u044b\u043c \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438 \u0412\u041e\u0417 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442 \u043b\u0438\u0446\u0430\u043c \u0441\u0442\u0430\u0440\u0448\u0435 60 \u043b\u0435\u0442 \u0438 \u043b\u0438\u0446\u0430\u043c \u0441 \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u043c\u0438 \u0445\u0440\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f\u043c\u0438 \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0435 \u043c\u0430\u0441\u043a\u0438 \u0432 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f\u0445, \u043a\u043e\u0433\u0434\u0430 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e."
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "\u041d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044e \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f \u043d\u043e\u0441\u0438\u0442\u044c \u043d\u0435\u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0435 \u043c\u0430\u0441\u043a\u0438, \u0438\u0437\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u043d\u044b\u0435 \u0438\u0437 \u043f\u043e\u0434\u0445\u043e\u0434\u044f\u0449\u0438\u0445 \u0442\u043a\u0430\u043d\u0435\u0439, \u0432 \u0440\u0430\u0439\u043e\u043d\u0430\u0445 \u0441 \u0448\u0438\u0440\u043e\u043a\u043e \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0435\u0439 \u0438 \u0432 \u043c\u0435\u0441\u0442\u0430\u0445, \u0433\u0434\u0435 \u043d\u0435\u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0442\u044c \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u044e, \u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440 \u0432 \u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u043c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0435, \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430\u0445 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0445 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u044b\u0445 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0430\u0445 \u0438\u043b\u0438 \u043c\u0435\u0441\u0442\u0430\u0445 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u0441\u043a\u043e\u043f\u043b\u0435\u043d\u0438\u044f \u043b\u044e\u0434\u0435\u0439. "
+            ]
+          },
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "\u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u044f\u043c \u043c\u0435\u0441\u0442\u043d\u044b\u0445 \u0432\u043b\u0430\u0441\u0442\u0435\u0439 \u043f\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044e \u043c\u0430\u0441\u043a\u0438. "
+            ]
+          }
+        },
+        "ell": {
+          "0623df6a-2332-4ceb-bb64-8705c32dba97": {
+            "text": [
+              "\u039f\u03b9 \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ad\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2 \u03c0\u03c1\u03bf\u03bf\u03c1\u03af\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03ba\u03b1\u03c4\u03ac \u03c0\u03c1\u03bf\u03c4\u03b5\u03c1\u03b1\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03c5\u03c2 \u03b5\u03c0\u03b1\u03b3\u03b3\u03b5\u03bb\u03bc\u03b1\u03c4\u03af\u03b5\u03c2 \u03c5\u03b3\u03b5\u03af\u03b1\u03c2, \u03b3\u03b9\u03b1 \u03cc\u03c3\u03bf\u03c5\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c0\u03c1\u03bf\u03c3\u03b2\u03bb\u03b7\u03b8\u03b5\u03af \u03b1\u03c0\u03cc \u03c4\u03b7 \u03bd\u03cc\u03c3\u03bf \u03ba\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03bf\u03cd\u03c2 \u03c0\u03bf\u03c5 \u03c4\u03bf\u03c5\u03c2 \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b6\u03bf\u03c5\u03bd."
+            ]
+          },
+          "21c798fa-0ddf-4a2c-b378-2b58835951c7": {
+            "text": [
+              "\u03a3\u03b5 \u03c0\u03b5\u03c1\u03b9\u03bf\u03c7\u03ad\u03c2 \u03bc\u03b5 \u03b4\u03b9\u03b1\u03c3\u03c0\u03bf\u03c1\u03ac \u03b5\u03bd\u03c4\u03cc\u03c2 \u03c4\u03b7\u03c2 \u03ba\u03bf\u03b9\u03bd\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2, \u03bf \u03a0\u039f\u03a5 \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ac \u03c3\u03c4\u03bf\u03c5\u03c2 60 \u03b5\u03c4\u03ce\u03bd \u03ba\u03b1\u03b9 \u03ac\u03bd\u03c9 \u03ba\u03b1\u03b9 \u03c3\u03b5 \u03cc\u03c3\u03bf\u03c5\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c5\u03c0\u03bf\u03ba\u03b5\u03af\u03bc\u03b5\u03bd\u03b5\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03bf\u03cd\u03bd \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ad\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2 \u03c3\u03b5 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03cc\u03c0\u03bf\u03c5 \u03b4\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03c4\u03b7\u03c1\u03b7\u03b8\u03bf\u03cd\u03bd \u03bf\u03b9 \u03b1\u03c0\u03b1\u03c1\u03b1\u03af\u03c4\u03b7\u03c4\u03b5\u03c2 \u03b1\u03c0\u03bf\u03c3\u03c4\u03ac\u03c3\u03b5\u03b9\u03c2."
+            ]
+          },
+          "79359ff0-29ae-442e-bac1-f594dbcad213": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03c4\u03bf \u03b5\u03c5\u03c1\u03cd \u03ba\u03bf\u03b9\u03bd\u03cc \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ac\u03c4\u03b1\u03b9 \u03b7 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03bc\u03b7 \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ae\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2, \u03b1\u03c0\u03cc \u03ba\u03b1\u03c4\u03ac\u03bb\u03bb\u03b7\u03bb\u03bf \u03cd\u03c6\u03b1\u03c3\u03bc\u03b1, \u03c3\u03b5 \u03c0\u03b5\u03c1\u03b9\u03bf\u03c7\u03ad\u03c2 \u03b5\u03c5\u03c1\u03b5\u03af\u03b1\u03c2 \u03bc\u03b5\u03c4\u03ac\u03b4\u03bf\u03c3\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03cc\u03c0\u03bf\u03c5 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b5\u03c6\u03b9\u03ba\u03c4\u03ae \u03b7 \u03c4\u03ae\u03c1\u03b7\u03c3\u03b7 \u03c4\u03c9\u03bd \u03b1\u03c0\u03b1\u03c1\u03b1\u03af\u03c4\u03b7\u03c4\u03c9\u03bd \u03b1\u03c0\u03bf\u03c3\u03c4\u03ac\u03c3\u03b5\u03c9\u03bd (\u03bc\u03ad\u03c3\u03b1 \u03bc\u03b1\u03b6\u03b9\u03ba\u03ae\u03c2 \u03bc\u03b5\u03c4\u03b1\u03c6\u03bf\u03c1\u03ac\u03c2, \u03ba\u03b1\u03c4\u03b1\u03c3\u03c4\u03ae\u03bc\u03b1\u03c4\u03b1 \u03ae \u03ba\u03bb\u03b5\u03b9\u03c3\u03c4\u03bf\u03af/\u03c3\u03c5\u03bd\u03c9\u03c3\u03c4\u03b9\u03c3\u03bc\u03ad\u03bd\u03bf\u03b9 \u03c7\u03ce\u03c1\u03bf\u03b9)."
+            ]
+          },
+          "05317b7d-9195-4bb0-a4a3-f95899e916af": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03c4\u03b7 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2, \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03b5\u03af\u03c2 \u03c4\u03b9\u03c2 \u03c3\u03c7\u03b5\u03c4\u03b9\u03ba\u03ad\u03c2 \u03c3\u03c5\u03c3\u03c4\u03ac\u03c3\u03b5\u03b9\u03c2 \u03c4\u03c9\u03bd \u03b1\u03c1\u03bc\u03cc\u03b4\u03b9\u03c9\u03bd \u03b1\u03c1\u03c7\u03ce\u03bd \u03c4\u03b7\u03c2 \u03c0\u03b5\u03c1\u03b9\u03bf\u03c7\u03ae\u03c2 \u03c3\u03bf\u03c5."
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

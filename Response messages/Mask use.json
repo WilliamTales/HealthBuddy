@@ -1,0 +1,541 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "993c4fea-9ac1-43fa-bc27-e6421a229970": {
+            "position": {
+              "left": 40,
+              "top": 0
+            },
+            "type": "execute_actions"
+          },
+          "4a976c18-deb9-44a5-8844-44e934d936f3": {
+            "position": {
+              "left": 500,
+              "top": 200
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {}
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "Antes de ponerse una mascarilla, l\u00e1vate las manos con un desinfectante para manos a base de alcohol o agua y jab\u00f3n.\n\nC\u00fabrete la boca y la nariz con la mascarilla y aseg\u00farate de que no haya espacios entre tu cara y la mascarilla.\n\nEvita tocar la mascarilla mientras la usas; si lo haces, l\u00e1vate las manos con un desinfectante para manos a base de alcohol o agua y jab\u00f3n.\n"
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "Reemplaza la mascarilla por una nueva tan pronto como est\u00e9 h\u00fameda y no reutilices las mascarillas de un solo uso.\n\nPara quitarte la mascarilla: qu\u00edtatela por detr\u00e1s (no toques el frente de la mascarilla), des\u00e9chala inmediatamente en un contenedor cerrado y l\u00e1vate las manos con un desinfectante para manos a base de alcohol o agua y jab\u00f3n."
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "Antes de ponerse una mascarilla, l\u00e1vese las manos con un desinfectante para manos a base de alcohol o con agua y jab\u00f3n."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "C\u00fabrase la boca y la nariz con la mascarilla y aseg\u00farese de que est\u00e9 totalmente cubierto el espacio entre su cara y la mascarilla."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "Evite tocar la mascarilla mientras la usa; si lo hace, l\u00e1vese las manos con un desinfectante a base de alcohol para manos o con agua y jab\u00f3n."
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "Reemplace la mascarilla por una nueva tan pronto como est\u00e9 h\u00fameda. No reutilice mascarillas de un solo uso ni comparta su mascarilla con otra persona."
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "Para quitarse la mascarilla: "
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "qu\u00edtesela por detr\u00e1s (no toque la parte delantera de la mascarilla); "
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "si us\u00f3 una mascarilla de un solo uso, des\u00e9chela inmediatamente en un contenedor cerrado;"
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "Si usa una mascarilla reutilizable, l\u00e1vela con agua y jab\u00f3n, l\u00e1vese las manos con un desinfectante para manos a base de alcohol o con con agua y jab\u00f3n."
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "Mire este v\u00eddeo sobre c\u00f3mo usar una mascarilla de tela no m\u00e9dica:\nhttps://youtu.be/ciUniZGD4tY"
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "Mire este v\u00eddeo sobre c\u00f3mo usar una mascarilla m\u00e9dica:\nhttps://youtu.be/adB8RW4I3o4 \n"
+            ]
+          }
+        },
+        "ell": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "\u03a0\u03c1\u03bf\u03c4\u03bf\u03cd \u03c6\u03bf\u03c1\u03ad\u03c3\u03b5\u03b9\u03c2 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1, \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc.\n\n\u039a\u03ac\u03bb\u03c5\u03c8\u03b5 \u03c4\u03bf \u03c3\u03c4\u03cc\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03b7 \u03bc\u03cd\u03c4\u03b7 \u03bc\u03b5 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03ba\u03b1\u03b9 \u03c3\u03b9\u03b3\u03bf\u03c5\u03c1\u03ad\u03c8\u03bf\u03c5 \u03cc\u03c4\u03b9 \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03ba\u03b5\u03bd\u03ac \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03c4\u03bf\u03c5 \u03c5\u03c0\u03cc\u03bb\u03bf\u03b9\u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03c3\u03ce\u03c0\u03bf\u03c5 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2.\n\n\u0391\u03c0\u03cc\u03c6\u03c5\u03b3\u03b5 \u03bd\u03b1 \u03b1\u03b3\u03b3\u03af\u03b6\u03b5\u03b9\u03c2 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03cc\u03c3\u03bf \u03c4\u03b7 \u03c6\u03bf\u03c1\u03ac\u03c2. \u0391\u03bd \u03c4\u03bf \u03ba\u03ac\u03bd\u03b5\u03b9\u03c2, \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc.\n"
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "\u0391\u03bd\u03c4\u03b9\u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b7\u03c3\u03b5 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03bc\u03b5 \u03ba\u03b1\u03b9\u03bd\u03bf\u03cd\u03c1\u03b9\u03b1 \u03b1\u03bc\u03ad\u03c3\u03c9\u03c2 \u03bc\u03cc\u03bb\u03b9\u03c2 \u03c5\u03b3\u03c1\u03b1\u03bd\u03b8\u03b5\u03af \u03ba\u03b1\u03b9 \u03bc\u03b7 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03c2 \u03be\u03b1\u03bd\u03ac \u03c4\u03b7\u03bd \u03af\u03b4\u03b9\u03b1 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03bc\u03af\u03b1\u03c2 \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2.\n\n\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b2\u03b3\u03ac\u03bb\u03b5\u03b9\u03c2 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1: \u03b1\u03c6\u03b1\u03af\u03c1\u03b5\u03c3\u03ad \u03c4\u03b7\u03bd \u03b1\u03c0\u03cc \u03c4\u03bf \u03c0\u03af\u03c3\u03c9 \u03bc\u03ad\u03c1\u03bf\u03c2 (\u03bc\u03b7\u03bd \u03b1\u03b3\u03b3\u03af\u03b6\u03b5\u03b9\u03c2 \u03c4\u03bf \u03bc\u03c0\u03c1\u03bf\u03c3\u03c4\u03b9\u03bd\u03cc \u03bc\u03ad\u03c1\u03bf\u03c2). \u03a0\u03ad\u03c4\u03b1\u03be\u03ad \u03c4\u03b7\u03bd \u03b1\u03bc\u03ad\u03c3\u03c9\u03c2 \u03c3\u03b5 \u03ba\u03bb\u03b5\u03b9\u03c3\u03c4\u03cc \u03ba\u03ac\u03b4\u03bf. \u039a\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc.\n"
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "\u03a0\u03c1\u03bf\u03c4\u03bf\u03cd \u03c6\u03bf\u03c1\u03ad\u03c3\u03b5\u03b9\u03c2 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03c3\u03bf\u03c5, \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03c3\u03bf\u03c5 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "\u039a\u03ac\u03bb\u03c5\u03c8\u03b5 \u03c4\u03bf \u03c3\u03c4\u03cc\u03bc\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03b7 \u03bc\u03cd\u03c4\u03b7 \u03c3\u03bf\u03c5 \u03bc\u03b5 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03ba\u03b1\u03b9 \u03b2\u03b5\u03b2\u03b1\u03b9\u03ce\u03c3\u03bf\u03c5 \u03cc\u03c4\u03b9 \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03ba\u03b5\u03bd\u03ac \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03c0\u03c1\u03bf\u03c3\u03ce\u03c0\u03bf\u03c5 \u03ba\u03b1\u03b9 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "\u03a0\u03c1\u03bf\u03c3\u03c0\u03ac\u03b8\u03b7\u03c3\u03b5 \u03bd\u03b1 \u03bc\u03b7\u03bd \u03b1\u03b3\u03b3\u03af\u03b6\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b8\u03cc\u03bb\u03bf\u03c5 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03cc\u03c3\u03bf \u03c4\u03b7 \u03c6\u03bf\u03c1\u03ac\u03c2. \u0391\u03bd \u03c4\u03b7\u03bd \u03b1\u03b3\u03b3\u03af\u03be\u03b5\u03b9\u03c2, \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc."
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "\u039c\u03cc\u03bb\u03b9\u03c2 \u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03bd\u03bf\u03c4\u03af\u03c3\u03b5\u03b9, \u03ac\u03bb\u03bb\u03b1\u03be\u03ad \u03c4\u03b7\u03bd \u03b1\u03bc\u03ad\u03c3\u03c9\u03c2. \u039c\u03b7 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03b5\u03af\u03c2 \u03be\u03b1\u03bd\u03ac \u03c4\u03b9\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2 \u03bc\u03af\u03b1\u03c2 \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03bc\u03b7 \u03bc\u03bf\u03b9\u03c1\u03ac\u03b6\u03b5\u03c3\u03b1\u03b9 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03c3\u03bf\u03c5 \u03bc\u03b5 \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2."
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b1\u03c6\u03b1\u03b9\u03c1\u03ad\u03c3\u03b5\u03b9\u03c2 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1:"
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "\u0391\u03c6\u03b1\u03af\u03c1\u03b5\u03c3\u03ad \u03c4\u03b7\u03bd \u03c0\u03b9\u03ac\u03bd\u03bf\u03bd\u03c4\u03ac\u03c2 \u03c4\u03b7\u03bd \u03b1\u03c0\u03cc \u03c0\u03af\u03c3\u03c9 (\u03bc\u03b7\u03bd \u03b1\u03b3\u03b3\u03af\u03b6\u03b5\u03b9\u03c2 \u03c4\u03bf \u03bc\u03c0\u03c1\u03bf\u03c3\u03c4\u03b9\u03bd\u03cc \u03bc\u03ad\u03c1\u03bf\u03c2 \u03c4\u03b7\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2)."
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "\u0391\u03bd \u03c0\u03c1\u03cc\u03ba\u03b5\u03b9\u03c4\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03bc\u03af\u03b1\u03c2 \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2, \u03c0\u03ad\u03c4\u03b1\u03be\u03ad \u03c4\u03b7\u03bd \u03b1\u03bc\u03ad\u03c3\u03c9\u03c2 \u03c3\u03b5 \u03ba\u03bb\u03b5\u03b9\u03c3\u03c4\u03cc \u03ba\u03ac\u03b4\u03bf."
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "\u0391\u03bd \u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b5\u03c0\u03b1\u03bd\u03b1\u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7, \u03c0\u03bb\u03cd\u03bd\u03b5 \u03c4\u03b7 \u03bc\u03b5 \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc, \u03ba\u03b1\u03b9 \u03ad\u03c0\u03b5\u03b9\u03c4\u03b1 \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc."
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "\u0394\u03b5\u03c2 \u03c4\u03bf \u03b2\u03af\u03bd\u03c4\u03b5\u03bf \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03b9\u03c2 \u03c0\u03ce\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c2 \u03bc\u03b9\u03b1 \u03bc\u03b7 \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ae, \u03c5\u03c6\u03b1\u03c3\u03bc\u03ac\u03c4\u03b9\u03bd\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1:\nhttps://youtu.be/ciUniZGD4tY"
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "\u0394\u03b5\u03c2 \u03c4\u03bf \u03b2\u03af\u03bd\u03c4\u03b5\u03bf \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03b9\u03c2 \u03c0\u03ce\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c2 \u03bc\u03b9\u03b1 \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ae \u03bc\u03ac\u03c3\u03ba\u03b1:\nhttps://youtu.be/adB8RW4I3o4"
+            ]
+          }
+        },
+        "rus": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "\u041f\u0435\u0440\u0435\u0434 \u0442\u0435\u043c \u043a\u0430\u043a \u043d\u0430\u0434\u0435\u0442\u044c \u043c\u0430\u0441\u043a\u0443, \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u043c \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u0438\u043b\u0438 \u0432\u044b\u043c\u043e\u0439\u0442\u0435 \u0438\u0445 \u0441 \u043c\u044b\u043b\u043e\u043c.\n\u041d\u0430\u0434\u0435\u043d\u044c\u0442\u0435 \u043c\u0430\u0441\u043a\u0443 \u0442\u0430\u043a, \u0447\u0442\u043e\u0431\u044b \u043e\u043d\u0430 \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u043b\u0430 \u043d\u043e\u0441 \u0438 \u0440\u043e\u0442, \u0443\u0431\u0435\u0434\u0438\u0442\u0435\u0441\u044c \u0432 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0438 \u0437\u0430\u0437\u043e\u0440\u043e\u0432 \u043c\u0435\u0436\u0434\u0443 \u043b\u0438\u0446\u043e\u043c \u0438 \u043c\u0430\u0441\u043a\u043e\u0439.\n\u041d\u0435 \u043a\u0430\u0441\u0430\u0439\u0442\u0435\u0441\u044c \u043c\u0430\u0441\u043a\u0438 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f; \u0432 \u0441\u043b\u0443\u0447\u0430\u0435 \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u043c \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u0438\u043b\u0438 \u0432\u044b\u043c\u043e\u0439\u0442\u0435 \u0438\u0445 \u0441 \u043c\u044b\u043b\u043e\u043c."
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "\u041a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043c\u0430\u0441\u043a\u0430 \u0441\u0442\u0430\u043d\u0435\u0442 \u0432\u043b\u0430\u0436\u043d\u043e\u0439, \u0437\u0430\u043c\u0435\u043d\u0438\u0442\u0435 \u0435\u0435 \u043d\u0430 \u043d\u043e\u0432\u0443\u044e. \u041d\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043e\u0434\u043d\u043e\u0440\u0430\u0437\u043e\u0432\u044b\u0435 \u043c\u0430\u0441\u043a\u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e.\n\u0427\u0442\u043e\u0431\u044b \u0441\u043d\u044f\u0442\u044c \u043c\u0430\u0441\u043a\u0443: \u0441\u043d\u0438\u043c\u0438\u0442\u0435 \u043c\u0430\u0441\u043a\u0443, \u0434\u0435\u0440\u0436\u0430 \u0437\u0430 \u0440\u0435\u0437\u0438\u043d\u043a\u0438 \u0441\u0437\u0430\u0434\u0438 (\u043d\u0435 \u043f\u0440\u0438\u043a\u0430\u0441\u0430\u044f\u0441\u044c \u043a \u043f\u0435\u0440\u0435\u0434\u043d\u0435\u0439 \u0447\u0430\u0441\u0442\u0438 \u043c\u0430\u0441\u043a\u0438); \u0438 \u0441\u0440\u0430\u0437\u0443 \u0436\u0435 \u0432\u044b\u0431\u0440\u043e\u0441\u044c\u0442\u0435 \u0432 \u0437\u0430\u043a\u0440\u044b\u0432\u0430\u044e\u0449\u0438\u0439\u0441\u044f \u043a\u043e\u043d\u0442\u0435\u0439\u043d\u0435\u0440 \u0434\u043b\u044f \u043e\u0442\u0445\u043e\u0434\u043e\u0432; \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u0430\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u043c \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u0438\u043b\u0438 \u0432\u044b\u043c\u043e\u0439\u0442\u0435 \u0438\u0445 \u0441 \u043c\u044b\u043b\u043e\u043c.\n"
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "\u041f\u0440\u0435\u0436\u0434\u0435 \u0447\u0435\u043c \u043d\u0430\u0434\u0435\u0442\u044c \u043c\u0430\u0441\u043a\u0443, \u0432\u044b\u043c\u043e\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u0432\u044b\u043c \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e\u043c \u0434\u043b\u044f \u0440\u0443\u043a \u0438\u043b\u0438 \u0432\u043e\u0434\u043e\u0439 \u0441 \u043c\u044b\u043b\u043e\u043c."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "\u0417\u0430\u043a\u0440\u043e\u0439\u0442\u0435 \u0440\u043e\u0442 \u0438 \u043d\u043e\u0441 \u043c\u0430\u0441\u043a\u043e\u0439 \u0442\u0430\u043a, \u0447\u0442\u043e\u0431\u044b \u043c\u0435\u0436\u0434\u0443 \u043b\u0438\u0446\u043e\u043c \u0438 \u043c\u0430\u0441\u043a\u043e\u0439 \u043d\u0435 \u043e\u0441\u0442\u0430\u0432\u0430\u043b\u043e\u0441\u044c \u0437\u0430\u0437\u043e\u0440\u0430."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "\u0418\u0437\u0431\u0435\u0433\u0430\u0439\u0442\u0435 \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u043a \u043c\u0430\u0441\u043a\u0435 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f; \u0435\u0441\u043b\u0438 \u0432\u0441\u0435 \u0436\u0435 \u0432\u0430\u043c \u044d\u0442\u043e \u043d\u0435 \u0443\u0434\u0430\u043b\u043e\u0441\u044c, \u0432\u044b\u043c\u043e\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u043c \u0438\u043b\u0438 \u0432\u043e\u0434\u043e\u0439 \u0441 \u043c\u044b\u043b\u043e\u043c."
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "\u0417\u0430\u043c\u0435\u043d\u0438\u0442\u0435 \u043c\u0430\u0441\u043a\u0443 \u043d\u043e\u0432\u043e\u0439, \u043a\u0430\u043a \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u043d\u0430 \u0441\u0442\u0430\u043d\u0435\u0442 \u0432\u043b\u0430\u0436\u043d\u043e\u0439, \u043d\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u043e\u0434\u043d\u043e\u0440\u0430\u0437\u043e\u0432\u044b\u0435 \u043c\u0430\u0441\u043a\u0438 \u0438 \u043d\u0435 \u0434\u0435\u043b\u0438\u0442\u0435\u0441\u044c \u0441\u0432\u043e\u0435\u0439 \u043c\u0430\u0441\u043a\u043e\u0439 \u0441 \u0434\u0440\u0443\u0433\u0438\u043c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043c."
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "\u0427\u0442\u043e\u0431\u044b \u0441\u043d\u044f\u0442\u044c \u043c\u0430\u0441\u043a\u0443: "
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "\u0441\u043d\u0438\u043c\u0438\u0442\u0435 \u0435\u0435, \u043a\u0430\u0441\u0430\u044f\u0441\u044c \u0442\u044b\u043b\u044c\u043d\u043e\u0439 \u0441\u0442\u043e\u0440\u043e\u043d\u044b (\u043d\u0435 \u043a\u0430\u0441\u0430\u0439\u0442\u0435\u0441\u044c \u043d\u0430\u0440\u0443\u0436\u043d\u043e\u0439 \u0447\u0430\u0441\u0442\u0438 \u043c\u0430\u0441\u043a\u0438); "
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u044d\u0442\u043e \u0432\u0438\u0434\u0435\u043e \u043e \u0442\u043e\u043c, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0443\u044e \u043c\u0430\u0441\u043a\u0443:\nhttps://youtu.be/adB8RW4I3o4"
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u044d\u0442\u043e \u0432\u0438\u0434\u0435\u043e \u043e \u0442\u043e\u043c, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e \u043d\u043e\u0441\u0438\u0442\u044c \u043d\u0435\u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0443\u044e \u043c\u0430\u0441\u043a\u0443 \u0438\u0437 \u0442\u043a\u0430\u043d\u0438:\nhttps://youtu.be/ciUniZGD4tY"
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "\u043c\u0430\u0441\u043a\u0443 \u043c\u043d\u043e\u0433\u043e\u0440\u0430\u0437\u043e\u0432\u043e\u0433\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u043c\u043e\u0436\u043d\u043e \u0432\u044b\u043c\u044b\u0442\u044c \u0441 \u043c\u044b\u043b\u043e\u043c \u0438 \u0432\u043e\u0434\u043e\u0439, \u0440\u0443\u043a\u0438 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u043f\u0440\u043e\u0442\u0435\u0440\u0435\u0442\u044c \u0441\u043f\u0438\u0440\u0442\u043e\u0432\u043e\u0439 \u0441\u0430\u043b\u0444\u0435\u0442\u043a\u043e\u0439 \u0438\u043b\u0438 \u0432\u044b\u043c\u044b\u0442\u044c \u043c\u044b\u043b\u043e\u043c \u0441 \u0432\u043e\u0434\u043e\u0439."
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "\u0447\u0442\u043e\u0431\u044b \u0438\u0437\u0431\u0430\u0432\u0438\u0442\u044c\u0441\u044f \u043e\u0442 \u043e\u0434\u043d\u043e\u0440\u0430\u0437\u043e\u0432\u043e\u0439 \u043c\u0430\u0441\u043a\u0438, \u043d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0432\u044b\u0431\u0440\u043e\u0441\u044c\u0442\u0435 \u0435\u0435 \u0432 \u0437\u0430\u043a\u0440\u044b\u0442\u0443\u044e \u043c\u0443\u0441\u043e\u0440\u043d\u0443\u044e \u043a\u043e\u0440\u0437\u0438\u043d\u0443;"
+            ]
+          }
+        },
+        "ita": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "Prima di indossare una mascherina, pulisci le mani con un detergente a base di alcool oppure con acqua e sapone.\n\nCopri la bocca e il naso con la mascherina e assicurati che non vi siano spazi tra il viso e la mascherina.\n\nEvita di toccare la mascherina mentre la stai utilizzando. Nel caso questo avvenga, cerca di lavare accuratamente le mani con un detergente a base di alcool oppure con acqua e sapone."
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "Sostituisci la mascherina con una nuova non appena \u00e8 umida e non riutilizzare le mascherine monouso.\n\nPer rimuovere la mascherina: rimuovila da dietro (non toccare la parte anteriore della mascherina). Dopo l\u2019uso buttala immediatamente in un contenitore chiuso. Lava le mani con un detergente a base di alcool o con acqua e sapone."
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "Prima di indossare una mascherina, suggeriamo di lavarsi le mani con un detergente a base di alcool o sapone e acqua."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "Coprire la bocca e il naso con la mascherina e assicurarsi che non vi siano spazi tra il viso e la mascherina."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "Evitare di toccare la mascherina mentre la si utilizza; nel caso dovesse succedere, \u00e8 necessario lavarsi le mani con un detergente a base di alcool o acqua e sapone."
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "Sostituire la mascherina con una nuova non appena si inumidisce. Consigliamo di non riutilizzare le mascherine monouso o di condividerle con altre persone."
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "Per rimuovere la mascherina: "
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "rimuoverla da dietro (ossia, non toccare la parte anteriore della mascherina); "
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "Consigliamo la visione di questo video per comprendere come indossare una mascherina medica:\nhttps://youtu.be/adB8RW4I3o4 \n"
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "Consigliamo la visione di questo video per comprendere come indossare una mascherina non medica in tessuto:\nhttps://youtu.be/ciUniZGD4tY \n"
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "qualora si utilizzi una mascherina riutilizzabile, consigliamo di lavarla con acqua e sapone e di lavarsi le mani con un detergente a base di alcol o acqua e sapone."
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "qualora si sia utilizzata una mascherina monouso, suggeriamo di disporla immediatamente in un contenitore chiuso;"
+            ]
+          }
+        },
+        "kaz": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u043a\u0438\u044e\u0434\u0435\u043d \u0431\u04b1\u0440\u044b\u043d, \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u049b\u044b\u0448\u043f\u0435\u043d \u0441\u04af\u0440\u0442\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437. \n\n\u0410\u0443\u044b\u0437 \u0431\u0435\u043d \u043c\u04b1\u0440\u044b\u043d\u0434\u044b \u043c\u0430\u0441\u043a\u0430\u043c\u0435\u043d \u0436\u0430\u0443\u044b\u043f, \u0431\u0435\u0442 \u043f\u0435\u043d \u043c\u0430\u0441\u043a\u0430 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0431\u043e\u0441 \u043e\u0440\u044b\u043d \u0431\u043e\u043b\u043c\u0430\u0443\u044b\u043d \u049b\u0430\u0434\u0430\u0493\u0430\u043b\u0430\u04a3\u044b\u0437. \n\n\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u043e\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u043a\u0435\u0437\u0434\u0435 \u043e\u043d\u044b \u04b1\u0441\u0442\u0430\u043c\u0430\u04a3\u044b\u0437; \u0430\u043b \u0435\u0433\u0435\u0440 \u04b1\u0441\u0442\u0430\u0441\u0430\u04a3\u044b\u0437, \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u049b\u044b\u0448\u043f\u0435\u043d \u0441\u04af\u0440\u0442\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430 \u044b\u043b\u0493\u0430\u043b \u0431\u043e\u043b\u0493\u0430\u043d \u043a\u0435\u0437\u0434\u0435 \u043e\u043d\u044b \u0436\u0430\u04a3\u0430\u0441\u044b\u043d\u0430 \u0430\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u04a3\u044b\u0437 \u0436\u04d9\u043d\u0435 \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0431\u0430\u04a3\u044b\u0437. \n\n\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u0431\u0435\u0442\u0442\u0435\u043d \u0430\u043b\u044b\u043f \u0442\u0430\u0441\u0442\u0430\u0443 \u04af\u0448\u0456\u043d: \u043e\u043d\u044b \u0430\u0440\u0442\u049b\u044b \u0436\u0430\u0493\u044b\u043d\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u043f \u0430\u043b\u044b\u04a3\u044b\u0437 (\u043c\u0430\u0441\u043a\u0430\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u04a3\u0493\u044b \u0436\u0430\u0493\u044b\u043d\u0430 \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0442\u0438\u0433\u0456\u0437\u0431\u0435\u04a3\u0456\u0437); \u0434\u0435\u0440\u0435\u0443 \u0436\u0430\u0431\u044b\u049b \u049b\u043e\u049b\u044b\u0441 \u0442\u0430\u0441\u0442\u0430\u0439\u0442\u044b\u043d \u0436\u0435\u0440\u0433\u0435 \u0442\u0430\u0441\u0442\u0430\u04a3\u044b\u0437; \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0437\u0430\u0442\u043f\u0435\u043d \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u04af\u0440\u0442\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437"
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u043a\u0438\u043c\u0435\u0439 \u0442\u04b1\u0440\u044b\u043f \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0442\u0440 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u049b\u043e\u043b\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0437\u0430\u0440\u0430\u0440\u0441\u044b\u0437\u0434\u0430\u043d\u0434\u044b\u0440\u0443 \u049b\u04b1\u0440\u0430\u043b\u044b\u043c\u0435\u043d \u0442\u0430\u0437\u0430\u043b\u0430\u04a3\u044b\u0437."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "\u0410\u0443\u0437\u044b\u04a3\u044b\u0437 \u0431\u0435\u043d \u043c\u04b1\u0440\u043d\u044b\u04a3\u044b\u0437\u0434\u044b \u043c\u0430\u0441\u043a\u0430\u043c\u0435\u043d \u0436\u0430\u0443\u044b\u043f, \u0431\u0435\u0442\u0456\u04a3\u0456\u0437 \u0431\u0435\u043d \u043c\u0430\u0441\u043a\u0430 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0431\u043e\u0441 \u043e\u0440\u044b\u043d\u043d\u044b\u04a3 \u049b\u0430\u043b\u043c\u0430\u0493\u0430\u043d\u044b\u043d\u0430 \u043a\u04e9\u0437 \u0436\u0435\u0442\u043a\u0456\u0437\u0456\u04a3\u0456\u0437."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0493\u0430\u043d \u043a\u0435\u0437\u0434\u0435 \u043e\u043d\u044b \u04b1\u0441\u0442\u0430\u043c\u0430\u04a3\u044b\u0437; \u043a\u0435\u0440\u0456 \u0436\u0430\u0493\u0434\u0430\u0439\u0434\u0430 \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0442\u0440 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u049b\u043e\u043b\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0437\u0430\u0440\u0430\u0440\u0441\u044b\u0437\u0434\u0430\u043d\u0434\u044b\u0440\u0443 \u049b\u04b1\u0440\u0430\u043b\u044b\u043c\u0435\u043d \u0442\u0430\u0437\u0430\u043b\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430 \u044b\u043b\u0493\u0430\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0431\u043e\u0439\u0434\u0430 \u043e\u043d\u044b \u0436\u0430\u04a3\u0430\u0441\u044b\u043d\u0430 \u0430\u0443\u044b\u0441\u0442\u044b\u0440\u044b\u04a3\u044b\u0437, \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u0439\u0442\u0430 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0431\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u0431\u0430\u0441\u049b\u0430 \u0430\u0434\u0430\u043c\u0493\u0430 \u0431\u0435\u0440\u043c\u0435\u04a3\u0456\u0437."
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u0448\u0435\u0448\u0443 \u04af\u0448\u0456\u043d: "
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "\u043e\u043d\u044b \u0430\u0440\u0442 \u0436\u0430\u0493\u044b\u043d\u0430\u043d \u0448\u0435\u0448\u0456\u043f \u0430\u043b\u044b\u04a3\u044b\u0437 (\u043c\u0430\u0441\u043a\u0430\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u04a3\u0493\u044b \u0436\u0430\u0493\u044b\u043d \u04b1\u0441\u0442\u0430\u043c\u0430\u04a3\u044b\u0437); "
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "\u0435\u0433\u0435\u0440 \u0441\u0456\u0437 \u0431\u0456\u0440 \u0440\u0435\u0442\u0442\u0456\u043a \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u0442\u0430\u049b\u049b\u0430\u043d \u0431\u043e\u043b\u0441\u0430\u04a3\u044b\u0437, \u043e\u043d\u044b \u0434\u0435\u0440\u0435\u0443 \u0436\u0430\u0431\u044b\u049b \u049b\u043e\u049b\u044b\u0441 \u0436\u04d9\u0448\u0456\u0433\u0456\u043d\u0435 \u0442\u0430\u0441\u0442\u0430\u04a3\u044b\u0437;"
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "\u0435\u0433\u0435\u0440 \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0440\u0435\u0442 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u043b\u0430\u0442\u044b\u043d \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u0442\u0430\u049b\u0441\u0430\u04a3\u044b\u0437, \u043e\u043d\u044b \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437, \u049b\u043e\u043b\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u049b\u043e\u043b\u0493\u0430 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0437\u0430\u0440\u0430\u0440\u0441\u044b\u0437\u0434\u0430\u043d\u0434\u044b\u0440\u0443 \u049b\u04b1\u0440\u0430\u043b\u044b\u043c\u0435\u043d \u0442\u0430\u0437\u0430\u043b\u0430\u04a3\u044b\u0437."
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u0435\u043c\u0435\u0441 \u043c\u0430\u0442\u0430\u0434\u0430\u043d \u0436\u0430\u0441\u0430\u043b\u0493\u0430\u043d \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0493\u0443 \u043a\u0435\u0440\u0435\u043a\u0442\u0456\u0433\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u044b\u043d\u0430 \u0431\u0435\u0439\u043d\u0435\u043d\u0456 \u049b\u0430\u0440\u0430\u04a3\u044b\u0437:\nhttps://youtu.be/ciUniZGD4tY \n"
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0493\u0443 \u043a\u0435\u0440\u0435\u043a\u0442\u0456\u0433\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u044b\u043d\u0430 \u0431\u0435\u0439\u043d\u0435\u043d\u0456 \u049b\u0430\u0440\u0430\u04a3\u044b\u0437:\nhttps://youtu.be/adB8RW4I3o4 \n"
+            ]
+          }
+        },
+        "por": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "Antes de colocar uma m\u00e1scara, limpe as m\u00e3os com um sabonete \u00e0 base de \u00e1lcool ou \u00e1gua e sab\u00e3o. \nCubra a boca e o nariz com a m\u00e1scara e verifique se n\u00e3o h\u00e1 espa\u00e7os entre o rosto e a m\u00e1scara. \nEvite tocar na m\u00e1scara enquanto a estiver usando; se o fizer, limpe as m\u00e3os com um sabonete \u00e0 base de \u00e1lcool ou \u00e1gua e sab\u00e3o."
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "Substitua a m\u00e1scara por uma nova assim que estiver \u00famida e n\u00e3o reutilize m\u00e1scaras de uso \u00fanico. Para remover a m\u00e1scara: remova-a por tr\u00e1s (n\u00e3o toque na frente da m\u00e1scara); descartar imediatamente em uma lixeira fechada; limpe as m\u00e3os com \u00e1lcool ou \u00e1gua e sab\u00e3o."
+            ]
+          },
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {
+            "text": [
+              "Antes de colocar uma m\u00e1scara, lave as m\u00e3os com uma solu\u00e7\u00e3o \u00e0 base de \u00e1lcool ou com sab\u00e3o e \u00e1gua."
+            ]
+          },
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {
+            "text": [
+              "Tape a boca e o nariz com a m\u00e1scara e verifique se n\u00e3o existem espa\u00e7os entre a sua cara e a m\u00e1scara."
+            ]
+          },
+          "af5480fe-a2b5-404b-a09a-409e6148fffc": {
+            "text": [
+              "Veja este v\u00eddeo sobre como utilizar uma m\u00e1scara cir\u00fargica:\nhttps://youtu.be/adB8RW4I3o4"
+            ]
+          },
+          "24be4e57-ac53-47e0-9819-bb5006a26a07": {
+            "text": [
+              "Veja este v\u00eddeo sobre como utilizar uma m\u00e1scara n\u00e3o cir\u00fargica de tecido:\nhttps://youtu.be/ciUniZGD4tY"
+            ]
+          },
+          "2e440470-c31d-4422-a790-d311f420d8d0": {
+            "text": [
+              "se estiver a usar uma m\u00e1scara reutiliz\u00e1vel, lave-a com \u00e1gua e sab\u00e3o, lave as m\u00e3os com uma solu\u00e7\u00e3o \u00e0 base de \u00e1lcool ou igualmente com \u00e1gua e sab\u00e3o."
+            ]
+          },
+          "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0": {
+            "text": [
+              "se estiver a utilizar uma m\u00e1scara descart\u00e1vel, deite-a imediatamente num caixote de lixo fechado;"
+            ]
+          },
+          "af56344e-1dde-4c4f-b468-d1d994a900c1": {
+            "text": [
+              "remova-a por tr\u00e1s (n\u00e3o toque na parte da frente da m\u00e1scara); "
+            ]
+          },
+          "3f466da8-e5a8-42db-a7e6-75c8a2973653": {
+            "text": [
+              "Para remover a m\u00e1scara: "
+            ]
+          },
+          "5f1ea3a2-afc4-4374-aca3-47ab2288caf8": {
+            "text": [
+              "Substitua a m\u00e1scara por uma nova assim que ela estiver h\u00famida. N\u00e3o reutilize m\u00e1scaras descart\u00e1veis ou partilhe a sua m\u00e1scara com outra pessoa."
+            ]
+          },
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {
+            "text": [
+              "Evite tocar na m\u00e1scara enquanto a estiver a us\u00e1-la; se tocar, lave as m\u00e3os com uma solu\u00e7\u00e3o \u00e0 base de \u00e1lcool ou com \u00e1gua e sab\u00e3o."
+            ]
+          }
+        },
+        "mkd": {
+          "fbd63655-b380-4126-9be2-31fa166790cc": {
+            "text": [
+              "\u041f\u0440\u0435\u0434 \u0434\u0430 \u0441\u0442\u0430\u0432\u0438\u0442\u0435 \u043c\u0430\u0441\u043a\u0430, \u0438\u0441\u0447\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u043d\u0430 \u0431\u0430\u0437\u0430 \u043d\u0430 \u0430\u043b\u043a\u043e\u0445\u043e\u043b \u0438\u043b\u0438 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430.\n\n\u041f\u043e\u043a\u0440\u0438\u0458\u0442\u0435 \u0433\u0438 \u0443\u0441\u0442\u0430\u0442\u0430 \u0438 \u043d\u043e\u0441\u043e\u0442 \u0441\u043e \u043c\u0430\u0441\u043a\u0430 \u0438 \u043f\u043e\u0433\u0440\u0438\u0436\u0435\u0442\u0435 \u0441\u0435 \u0434\u0430 \u043d\u0435\u043c\u0430 \u043f\u0440\u0430\u0437\u043d\u0438\u043d\u0438 \u043c\u0435\u0453\u0443 \u043b\u0438\u0446\u0435\u0442\u043e \u0438 \u043c\u0430\u0441\u043a\u0430\u0442\u0430.\n\n\u0418\u0437\u0431\u0435\u0433\u043d\u0443\u0432\u0430\u0458\u0442\u0435 \u0434\u043e\u043f\u0438\u0440\u0430\u045a\u0435 \u043d\u0430 \u043c\u0430\u0441\u043a\u0430\u0442\u0430 \u0434\u043e\u0434\u0435\u043a\u0430 \u0458\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0438\u0442\u0435; \u0430\u043a\u043e \u0433\u043e \u0441\u0442\u043e\u0440\u0438\u0442\u0435 \u0442\u043e\u0430, \u0438\u0441\u0447\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u043d\u0430 \u0431\u0430\u0437\u0430 \u043d\u0430 \u0430\u043b\u043a\u043e\u0445\u043e\u043b \u0438\u043b\u0438 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430."
+            ]
+          },
+          "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce": {
+            "text": [
+              "\u0417\u0430\u043c\u0435\u043d\u0435\u0442\u0435 \u0458\u0430 \u043c\u0430\u0441\u043a\u0430\u0442\u0430 \u0441\u043e \u043d\u043e\u0432\u0430 \u0432\u0435\u0434\u043d\u0430\u0448 \u0448\u0442\u043e\u043c \u045c\u0435 \u0441\u0435 \u043d\u0430\u0432\u043b\u0430\u0436\u043d\u0438 \u0438 \u043d\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u043c\u0430\u0441\u043a\u0438\u0442\u0435 \u0437\u0430 \u0435\u0434\u043d\u0430 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u0430.\n\n\u0417\u0430 \u0434\u0430 \u0458\u0430 \u043e\u0442\u0441\u0442\u0440\u0430\u043d\u0438\u0442\u0435 \u043c\u0430\u0441\u043a\u0430\u0442\u0430: \u0438\u0437\u0432\u0430\u0434\u0435\u0442\u0435 \u0458\u0430 \u043e\u0434\u0437\u0430\u0434\u0438 (\u043d\u0435 \u0434\u043e\u043f\u0438\u0440\u0430\u0458\u0442\u0435 \u0433\u043e \u043f\u0440\u0435\u0434\u043d\u0438\u043e\u0442 \u0434\u0435\u043b \u043d\u0430 \u043c\u0430\u0441\u043a\u0430\u0442\u0430); \u0432\u0435\u0434\u043d\u0430\u0448 \u0444\u0440\u043b\u0435\u0442\u0435 \u0458\u0430 \u0432\u043e \u0437\u0430\u0442\u0432\u043e\u0440\u0435\u043d\u0430 \u043a\u0430\u043d\u0442\u0430; \u0438\u0441\u0447\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u043d\u0430 \u0431\u0430\u0437\u0430 \u043d\u0430 \u0430\u043b\u043a\u043e\u0445\u043e\u043b \u0438\u043b\u0438 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430."
+            ]
+          }
+        },
+        "tur": {
+          "1b80d71e-527c-4327-8036-ec9b92b1b457": {},
+          "2928a5f3-c011-48c5-b85a-b355cd336e84": {},
+          "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c": {}
+        }
+      },
+      "metadata": {
+        "revision": 123
+      },
+      "name": "Mask use",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "a548252e-f809-4b67-846b-9b500d0b048c",
+      "revision": 133,
+      "nodes": [
+        {
+          "uuid": "993c4fea-9ac1-43fa-bc27-e6421a229970",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Before putting on a mask, clean your hands with alcohol-based hand rub or soap and water.",
+              "type": "send_msg",
+              "all_urns": false,
+              "quick_replies": [],
+              "uuid": "1b80d71e-527c-4327-8036-ec9b92b1b457"
+            },
+            {
+              "attachments": [],
+              "text": "Cover your mouth and nose with the mask and make sure there are no gaps between your face and the mask.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "2928a5f3-c011-48c5-b85a-b355cd336e84"
+            },
+            {
+              "attachments": [],
+              "text": "Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5c97cc4c-ba0c-4b88-87fc-eaa991f3e41c"
+            },
+            {
+              "attachments": [],
+              "text": "Replace the mask with a new one as soon as it is damp, do not re-use single-use masks or share your mask with another person.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5f1ea3a2-afc4-4374-aca3-47ab2288caf8"
+            },
+            {
+              "attachments": [],
+              "text": "To remove the mask: ",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "3f466da8-e5a8-42db-a7e6-75c8a2973653"
+            },
+            {
+              "attachments": [],
+              "text": "Remove it from behind (do not touch the front of the mask);",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "af56344e-1dde-4c4f-b468-d1d994a900c1"
+            },
+            {
+              "attachments": [],
+              "text": "If you were wearing a single use mask discard immediately in a closed bin;",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "fd599fa7-4ae8-45bf-a39e-26af6b8c23b0"
+            },
+            {
+              "attachments": [],
+              "text": "If you are wearing a reusable mask wash it with soap and water, clean hands with alcohol-based hand rub or soap and water.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "2e440470-c31d-4422-a790-d311f420d8d0"
+            },
+            {
+              "attachments": [],
+              "text": "Watch this video on how to wear a non-medical, fabric mask:\nhttps://www.youtube.com/embed/ciUniZGD4tY",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "24be4e57-ac53-47e0-9819-bb5006a26a07"
+            },
+            {
+              "attachments": [],
+              "text": "Watch this video on how to wear a medical mask:\nhttps://www.youtube.com/embed/adB8RW4I3o4",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "af5480fe-a2b5-404b-a09a-409e6148fffc"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "846060ef-fe4e-487c-a2cb-1583c2e9e9cd",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.\nCover mouth and nose with mask and make sure there are no gaps between your face and the mask.\nAvoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "fbd63655-b380-4126-9be2-31fa166790cc"
+            },
+            {
+              "attachments": [],
+              "text": "Replace the mask with a new one as soon as it is damp and do not re-use single-use masks.\nTo remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "fa3cdda2-cb9f-47fe-90ad-a07ff9d9c0ce"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "82b5b368-1afd-4863-a2be-671378806a0a"
+            }
+          ],
+          "uuid": "4a976c18-deb9-44a5-8844-44e934d936f3"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

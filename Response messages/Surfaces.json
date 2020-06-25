@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "3ce5a9df-2048-490a-b3ea-19b89578e9ab": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "No se sabe con seguridad cu\u00e1nto tiempo sobrevive el virus en las superficies, pero la informaci\u00f3n preliminar sugiere que esto pueda durar unas pocas horas o hasta unos pocos d\u00edas."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "La supervivencia del virus fuera del cuerpo humano depende de la temperatura, la humedad y la luz. Se necesitan m\u00e1s investigaciones y an\u00e1lisis para comprender esto completamente. "
+            ]
+          }
+        },
+        "ell": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03b5\u03af\u03bc\u03b1\u03c3\u03c4\u03b5 \u03b2\u03ad\u03b2\u03b1\u03b9\u03bf\u03b9 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03c7\u03c1\u03cc\u03bd\u03bf \u03c0\u03bf\u03c5 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bf \u03b9\u03cc\u03c2 \u03bd\u03b1 \u03b5\u03c0\u03b9\u03b2\u03b9\u03ce\u03c3\u03b5\u03b9 \u03c3\u03b5 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2, \u03b1\u03bb\u03bb\u03ac \u03bf\u03b9 \u03c0\u03c1\u03ce\u03c4\u03b5\u03c2 \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03b4\u03b5\u03af\u03c7\u03bd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b1\u03c0\u03cc \u03bb\u03af\u03b3\u03b5\u03c2 \u03ce\u03c1\u03b5\u03c2 \u03bc\u03ad\u03c7\u03c1\u03b9 \u03bc\u03b5\u03c1\u03b9\u03ba\u03ad\u03c2 \u03b7\u03bc\u03ad\u03c1\u03b5\u03c2."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "\u0397 \u03b5\u03c0\u03b9\u03b2\u03af\u03c9\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03b9\u03bf\u03cd \u03ad\u03be\u03c9 \u03b1\u03c0\u03cc \u03c4\u03bf \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03b9\u03bd\u03bf \u03c3\u03ce\u03bc\u03b1 \u03b5\u03be\u03b1\u03c1\u03c4\u03ac\u03c4\u03b1\u03b9 \u03b1\u03c0\u03cc \u03c4\u03b7 \u03b8\u03b5\u03c1\u03bc\u03bf\u03ba\u03c1\u03b1\u03c3\u03af\u03b1, \u03c4\u03b7\u03bd \u03c5\u03b3\u03c1\u03b1\u03c3\u03af\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03bf \u03c6\u03c9\u03c2. \u03a7\u03c1\u03b5\u03b9\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b5\u03c2 \u03ad\u03c1\u03b5\u03c5\u03bd\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03bd\u03b1\u03bb\u03cd\u03c3\u03b5\u03b9\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03b1\u03c4\u03b1\u03bd\u03bf\u03b7\u03b8\u03b5\u03af \u03c0\u03bb\u03ae\u03c1\u03c9\u03c2 \u03b1\u03c5\u03c4\u03cc."
+            ]
+          }
+        },
+        "rus": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "\u0414\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0432\u0438\u0440\u0443\u0441\u0430 COVID-19 \u043d\u0430 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044f\u0445 \u043f\u043e\u043a\u0430 \u0442\u043e\u0447\u043d\u043e \u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430, \u043e\u0434\u043d\u0430\u043a\u043e \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e \u0432\u0438\u0440\u0443\u0441 \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u0435\u0442 \u0436\u0438\u0437\u043d\u0435\u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c \u043d\u0430 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044f\u0445 \u043e\u0442 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0447\u0430\u0441\u043e\u0432 \u0434\u043e \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0434\u043d\u0435\u0439."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "\u0412\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u0432\u0438\u0440\u0443\u0441\u0430 \u0432\u043d\u0435 \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0430 \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b, \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u0438 \u0438 \u0441\u0432\u0435\u0442\u0430. \u0414\u043b\u044f \u043f\u043e\u043b\u043d\u043e\u0433\u043e \u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u044f \u044d\u0442\u043e\u0433\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0430\u043d\u0430\u043b\u0438\u0437\u044b."
+            ]
+          }
+        },
+        "ita": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "Non \u00e8 sicuro per quanto tempo il virus sopravvive sulle superfici, ma le informazioni disponibili  mostrano che il virus riesce a sopravvivere per alcune ore o anche fino a qualche giorno."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "La sopravvivenza del virus al di fuori del corpo umano dipende da alcune caratteristiche ambientali quali la temperatura, l'umidit\u00e0 e la quantit\u00e0 di luce presente. Sono necessarie ulteriori indagini e analisi per comprendere pienamente queste dinamiche."
+            ]
+          }
+        },
+        "kaz": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0442\u044b\u04a3 \u0437\u0430\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u0431\u0435\u0442\u0456\u043d\u0434\u0435 \u049b\u0430\u043d\u0448\u0430 \u0443\u0430\u049b\u044b\u0442 \u0441\u0430\u049b\u0442\u0430\u043b\u0430\u0442\u044b\u043d\u044b \u0431\u0435\u043b\u0433\u0456\u0441\u0456\u0437, \u0431\u0456\u0440\u0430\u049b \u049b\u0430\u0437\u0456\u0440\u0433\u0456 \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u043e\u043b \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0441\u0430\u0493\u0430\u0442\u0442\u0430\u043d \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u043a\u04af\u043d\u0433\u0435 \u0434\u0435\u0439\u0456\u043d \u0441\u0430\u049b\u0442\u0430\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0442\u044b\u04a3 \u0430\u0434\u0430\u043c \u0430\u0493\u0437\u0430\u0441\u044b\u043d\u0430\u043d \u0442\u044b\u0441 \u0436\u0435\u0440\u0434\u0435 \u04e9\u043c\u0456\u0440 \u0441\u04af\u0440\u0443\u0456 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430\u0493\u0430, \u044b\u043b\u0493\u0430\u043b\u0434\u044b\u043b\u044b\u049b\u049b\u0430 \u0436\u04d9\u043d\u0435 \u0436\u0430\u0440\u044b\u049b\u049b\u0430 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u044b. \u041c\u04b1\u043d\u044b \u0442\u043e\u043b\u044b\u049b \u0442\u04af\u0441\u0456\u043d\u0443 \u04af\u0448\u0456\u043d \u043a\u04e9\u043f\u0442\u0435\u0433\u0435\u043d \u0437\u0435\u0440\u0442\u0442\u0435\u0443\u043b\u0435\u0440 \u043c\u0435\u043d \u0442\u0430\u043b\u0434\u0430\u0443\u043b\u0430\u0440 \u0436\u04af\u0440\u0433\u0456\u0437\u0443 \u049b\u0430\u0436\u0435\u0442."
+            ]
+          }
+        },
+        "por": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "N\u00e3o \u00e9 certo quanto tempo o v\u00edrus sobrevive nas superf\u00edcies, mas informa\u00e7\u00f5es preliminares sugerem que isso pode levar algumas horas ou at\u00e9 alguns dias."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "A sobreviv\u00eancia do v\u00edrus fora do corpo humano depende da temperatura, umidade e luz. S\u00e3o necess\u00e1rias mais investiga\u00e7\u00f5es e an\u00e1lises para entender isso completamente."
+            ]
+          }
+        },
+        "mkd": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "\u041d\u0435 \u0435 \u0441\u0438\u0433\u0443\u0440\u043d\u043e \u043a\u043e\u043b\u043a\u0443 \u0432\u0440\u0435\u043c\u0435 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u043f\u0440\u0435\u0436\u0438\u0432\u0443\u0432\u0430 \u043d\u0430 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0438, \u043d\u043e \u043f\u0440\u0435\u043b\u0438\u043c\u0438\u043d\u0430\u0440\u043d\u0438\u0442\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0441\u0443\u0433\u0435\u0440\u0438\u0440\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u043e\u0432\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0442\u0440\u0430\u0435 \u043d\u0435\u043a\u043e\u043b\u043a\u0443 \u0447\u0430\u0441\u0430 \u0438\u043b\u0438 \u0434\u043e \u043d\u0435\u043a\u043e\u043b\u043a\u0443 \u0434\u0435\u043d\u0430."
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "\u041e\u043f\u0441\u0442\u0430\u043d\u043e\u043a\u043e\u0442 \u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u043d\u0430\u0434\u0432\u043e\u0440 \u043e\u0434 \u0447\u043e\u0432\u0435\u0447\u043a\u043e\u0442\u043e \u0442\u0435\u043b\u043e \u0437\u0430\u0432\u0438\u0441\u0438 \u043e\u0434 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430\u0442\u0430, \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u0430 \u0438 \u0441\u0432\u0435\u0442\u043b\u0438\u043d\u0430\u0442\u0430. \u041f\u043e\u0442\u0440\u0435\u0431\u043d\u0438 \u0441\u0435 \u043f\u043e\u0432\u0435\u045c\u0435 \u0438\u0441\u0442\u0440\u0430\u0436\u0443\u0432\u0430\u045a\u0430 \u0438 \u0430\u043d\u0430\u043b\u0438\u0437\u0438 \u0437\u0430 \u043e\u0432\u0430 \u0446\u0435\u043b\u043e\u0441\u043d\u043e \u0434\u0430 \u0441\u0435 \u0440\u0430\u0437\u0431\u0435\u0440\u0435."
+            ]
+          }
+        },
+        "tur": {
+          "c37bb879-2f32-464c-98e3-911fd6876a7a": {
+            "text": [
+              "Vir\u00fcs\u00fcn y\u00fczeylerde ne kadar s\u00fcreyle kald\u0131\u011f\u0131 kesin olarak bilinmemektedir, ancak \u00f6n bilgiler bu s\u00fcrenin birka\u00e7 saat ile birka\u00e7 g\u00fcn aras\u0131nda oldu\u011funu g\u00f6stermektedir. "
+            ]
+          },
+          "6209e467-eff3-4c08-b930-1dea7f8c023b": {
+            "text": [
+              "Vir\u00fcs\u00fcn insan v\u00fccudu d\u0131\u015f\u0131ndaki sa\u011f kal\u0131m s\u00fcresi s\u0131cakl\u0131k, nem ve \u0131\u015f\u0131\u011fa ba\u011fl\u0131d\u0131r. Bu durumu tam olarak anlamak i\u00e7in daha \u00e7ok ara\u015ft\u0131rma ve analiz gerekmektedir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 23
+      },
+      "name": "Surfaces",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "48f24c22-3740-48fb-8148-5ee85227ca4a",
+      "revision": 25,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "It\u2019s not certain how long the virus survives on surfaces, but preliminary information suggests this can be a few hours or up to a few days.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c37bb879-2f32-464c-98e3-911fd6876a7a"
+            },
+            {
+              "attachments": [],
+              "text": "The survival of the virus outside the human body depends on temperature, humidity and light. More investigations and analyses are needed to understand this fully.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "6209e467-eff3-4c08-b930-1dea7f8c023b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "48f86b08-0969-4a93-b157-062044e04533"
+            }
+          ],
+          "uuid": "3ce5a9df-2048-490a-b3ea-19b89578e9ab"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

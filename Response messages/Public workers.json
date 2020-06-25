@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "74e0c745-f493-4994-8f53-58aba8695d68": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "Todos deben cumplir una buena higiene de manos y respiratoria. Esto se aplica a personas de cualquier trabajo."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "El distanciamiento f\u00edsico, o mantener una distancia de al menos 1 metro de otras personas, tambi\u00e9n puede ayudar, especialmente cuando el virus est\u00e1 circulando ampliamente, pero esto puede ser dif\u00edcil en algunos trabajos. Tambi\u00e9n puedes limpiar las superficies y el equipo para reducir el riesgo de transmisi\u00f3n de esta manera."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "Tambi\u00e9n hay pasos que puede seguir para limpiar superficies y equipos y as\u00ed reducir el riesgo de propagaci\u00f3n a trav\u00e9s de ellos."
+            ]
+          }
+        },
+        "ell": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "\u038c\u03bb\u03bf\u03b9 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b5\u03c6\u03b1\u03c1\u03bc\u03cc\u03b6\u03bf\u03c5\u03bc\u03b5 \u03c4\u03bf\u03c5\u03c2 \u03ba\u03b1\u03bd\u03cc\u03bd\u03b5\u03c2 \u03ba\u03b1\u03bb\u03ae\u03c2 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae\u03c2 \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd. \u0391\u03c5\u03c4\u03cc \u03b9\u03c3\u03c7\u03cd\u03b5\u03b9 \u03b3\u03b9\u03b1 \u03cc\u03bb\u03bf\u03c5\u03c2, \u03c3\u03b5 \u03bf\u03c0\u03bf\u03b9\u03bf\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03b5\u03c0\u03ac\u03b3\u03b3\u03b5\u03bb\u03bc\u03b1."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "\u0397 \u03c3\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03bf\u03c3\u03c4\u03b1\u03c3\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03ae \u03b4\u03b9\u03b1\u03c4\u03ae\u03c1\u03b7\u03c3\u03b7 \u03b1\u03c0\u03cc\u03c3\u03c4\u03b1\u03c3\u03b7\u03c2 \u03c4\u03bf\u03c5\u03bb\u03ac\u03c7\u03b9\u03c3\u03c4\u03bf\u03bd 1 \u03bc\u03ad\u03c4\u03c1\u03bf\u03c5, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03b5\u03c0\u03af\u03c3\u03b7\u03c2 \u03bd\u03b1 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03b5\u03b9 \u03b5\u03b9\u03b4\u03b9\u03ba\u03ac \u03cc\u03c4\u03b1\u03bd \u03bf \u03b9\u03cc\u03c2 \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03b5\u03af \u03b5\u03c5\u03c1\u03ad\u03c9\u03c2, \u03cc\u03bc\u03c9\u03c2 \u03ba\u03ac\u03c4\u03b9 \u03c4\u03ad\u03c4\u03bf\u03b9\u03bf \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03cd\u03c3\u03ba\u03bf\u03bb\u03bf \u03b3\u03b9\u03b1 \u03ba\u03ac\u03c0\u03bf\u03b9\u03b1 \u03b5\u03c0\u03b1\u03b3\u03b3\u03ad\u03bb\u03bc\u03b1\u03c4\u03b1."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "\u0395\u03c0\u03af\u03c3\u03b7\u03c2, \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ac\u03c4\u03b1\u03b9 \u03bf \u03ba\u03b1\u03b8\u03b1\u03c1\u03b9\u03c3\u03bc\u03cc\u03c2 \u03c4\u03c9\u03bd \u03b5\u03c0\u03b9\u03c6\u03b1\u03bd\u03b5\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5 \u03b5\u03be\u03bf\u03c0\u03bb\u03b9\u03c3\u03bc\u03bf\u03cd \u03ce\u03c3\u03c4\u03b5 \u03bd\u03b1 \u03bc\u03b5\u03b9\u03c9\u03b8\u03b5\u03af \u03bf \u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf\u03c2 \u03b5\u03be\u03ac\u03c0\u03bb\u03c9\u03c3\u03b7\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "\u041a\u0430\u0436\u0434\u044b\u0439 \u0434\u043e\u043b\u0436\u0435\u043d \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0440\u0443\u043a \u0438 \u044d\u0442\u0438\u043a\u0435\u0442 \u0434\u044b\u0445\u0430\u043d\u0438\u044f. \u042d\u0442\u043e \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0441\u044f \u043a \u043b\u044e\u0434\u044f\u043c \u043b\u044e\u0431\u043e\u0439 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u0438."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "\u0415\u0441\u043b\u0438 \u044d\u0442\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0439\u0442\u0435 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435, \u0442\u043e \u0435\u0441\u0442\u044c \u0434\u0435\u0440\u0436\u0438\u0442\u0435 \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u044e \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 1 \u043c\u0435\u0442\u0440\u0430 \u043f\u043e \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044e \u043a \u0434\u0440\u0443\u0433\u0438\u043c \u043b\u044e\u0434\u044f\u043c. \u042d\u0442\u043e \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u0432\u0430\u0436\u043d\u043e \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u0448\u0438\u0440\u043e\u043a\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0432\u0438\u0440\u0443\u0441\u0430, \u043d\u043e \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0442\u0440\u0443\u0434\u043d\u043e\u0432\u044b\u043f\u043e\u043b\u043d\u0438\u043c\u043e \u043f\u0440\u0438 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0440\u0430\u0431\u043e\u0442\u0430\u0445."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "\u0412\u044b \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043e\u0447\u0438\u0449\u0430\u0442\u044c \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u0438 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u0435, \u0447\u0442\u043e\u0431\u044b \u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u044c \u0440\u0438\u0441\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f."
+            ]
+          }
+        },
+        "ita": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "Tutti devono rispettare una corretta igiene delle mani e un corretto comportamento respiratorio. Questo vale per tutte le persone, qualsiasi lavoro esse svolgano. "
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "La distanza fisica, o mantenere una distanza di almeno 1 metro da altre persone, pu\u00f2 aiutare soprattutto quando il virus \u00e8 diffuso nella popolazione, tuttavia questo pu\u00f2 essere difficile per alcuni lavori specifici."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "Ci sono anche diversi passaggi che si possono adottare per pulire superfici e attrezzature e quindi  poter, in questo modo, ridurre il rischio di diffusione."
+            ]
+          }
+        },
+        "kaz": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "\u04d8\u0440 \u0430\u0434\u0430\u043c \u049b\u043e\u043b\u0434\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b\u043d \u0436\u04d9\u043d\u0435 \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u044d\u0442\u0438\u043a\u0435\u0442\u0456\u043d \u04b1\u0441\u0442\u0430\u043d\u0443\u044b \u043a\u0435\u0440\u0435\u043a. \u0411\u04b1\u043b \u0431\u0430\u0440\u043b\u044b\u049b  \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u049b\u0430\u0442\u044b\u0441\u0442\u044b."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "\u0424\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u0430\u043b\u044b\u0441\u0442\u0430\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u0430\u043d \u043a\u0435\u043c\u0456\u043d\u0434\u0435 1 \u043c\u0435\u0442\u0440 \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b \u0441\u0430\u049b\u0442\u0430\u0443, \u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u0432\u0438\u0440\u0443\u0441 \u043a\u0435\u04a3 \u0442\u0430\u0440\u0430\u043b\u0493\u0430\u043d \u043a\u0435\u0437\u0434\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456, \u0431\u0456\u0440\u0430\u049b \u043a\u0435\u0439\u0431\u0456\u0440 \u0436\u04b1\u043c\u044b\u0441\u0442\u0430\u0440\u0434\u0430 \u0431\u04b1\u043b \u0448\u0430\u0440\u0430\u043b\u0430\u0440\u0434\u044b \u04b1\u0441\u0442\u0430\u043d\u0443 \u049b\u0438\u044b\u043d \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "\u041e\u0441\u044b\u043d\u0434\u0430\u0439 \u0436\u043e\u043b\u043c\u0435\u043d \u0442\u0430\u0440\u0430\u043b\u0443 \u049b\u0430\u0443\u043f\u0456\u043d \u0430\u0437\u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d \u0441\u0456\u0437 \u0437\u0430\u0442\u0442\u0430\u0440\u0434\u044b \u0436\u04d9\u043d\u0435 \u0436\u0430\u0431\u0434\u044b\u049b\u0442\u044b \u0442\u0430\u0437\u0430\u043b\u0430\u0439 \u0430\u043b\u0430\u0441\u044b\u0437."
+            ]
+          }
+        },
+        "por": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "Todos devem praticar boa higiene das m\u00e3os e educa\u00e7\u00e3o respirat\u00f3ria. Isso se aplica a pessoas em qualquer trabalho."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "O distanciamento f\u00edsico, ou a dist\u00e2ncia de pelo menos 1 metro de outras pessoas, tamb\u00e9m pode ajudar, especialmente quando o v\u00edrus est\u00e1 circulando amplamente, mas isso pode ser dif\u00edcil em alguns trabalhos."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "Tamb\u00e9m existem etapas a serem seguidas para limpar superf\u00edcies e equipamentos para reduzir o risco de propaga\u00e7\u00e3o dessa maneira."
+            ]
+          }
+        },
+        "mkd": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "\u0421\u0435\u043a\u043e\u0458 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u043f\u0440\u0438\u043c\u0435\u043d\u0443\u0432\u0430 \u0434\u043e\u0431\u0440\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0437\u0430 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u043e \u043e\u0434\u043d\u0435\u0441\u0443\u0432\u0430\u045a\u0435. \u041e\u0432\u0430 \u0441\u0435 \u043e\u0434\u043d\u0435\u0441\u0443\u0432\u0430 \u043d\u0430 \u043b\u0438\u0446\u0430\u0442\u0430 \u0432\u043e \u0441\u0435\u043a\u043e\u0458\u0430 \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u0458\u0430."
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "\u0418\u0441\u0442\u043e \u0442\u0430\u043a\u0430, \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u0438 \u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0438\u0442\u0435 \u0438 \u043e\u043f\u0440\u0435\u043c\u0430\u0442\u0430 \u0437\u0430 \u0434\u0430 \u0433\u043e \u043d\u0430\u043c\u0430\u043b\u0438\u0442\u0435 \u0440\u0438\u0437\u0438\u043a\u043e\u0442 \u043e\u0434 \u0448\u0438\u0440\u0435\u045a\u0435 \u043d\u0430 \u043e\u0432\u043e\u0458 \u043d\u0430\u0447\u0438\u043d."
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "\u0424\u0438\u0437\u0438\u0447\u043a\u043e\u0442\u043e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u0430\u045a\u0435 \u0438\u043b\u0438 \u043e\u0434\u0434\u0430\u043b\u0435\u0447\u0435\u043d\u043e\u0441\u0442 \u043e\u0434 \u0431\u0430\u0440\u0435\u043c 1 \u043c\u0435\u0442\u0430\u0440 \u043e\u0434 \u0434\u0440\u0443\u0433\u0438\u0442\u0435 \u043b\u0443\u0453\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u043e\u043c\u043e\u0433\u043d\u0435, \u043e\u0441\u043e\u0431\u0435\u043d\u043e \u043a\u043e\u0433\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u043d\u0430\u0448\u0438\u0440\u043e\u043a\u043e \u0446\u0438\u0440\u043a\u0443\u043b\u0438\u0440\u0430, \u043d\u043e \u043e\u0432\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u0438\u0434\u0435 \u0442\u0435\u0448\u043a\u043e \u043a\u0430\u0458 \u043d\u0435\u043a\u043e\u0438 \u043f\u0440\u043e\u0444\u0435\u0441\u0438\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "263d87eb-2aff-43aa-b0e7-0d5735f47f02": {
+            "text": [
+              "Herkes el ve solunum hijyeni kurallar\u0131n\u0131 uygulamal\u0131d\u0131r. Bu durum herhangi bir i\u015fte \u00e7al\u0131\u015fan herkes i\u00e7in ge\u00e7erlidir.  "
+            ]
+          },
+          "8fceba18-222d-4e24-91f2-ab0896102d52": {
+            "text": [
+              "Baz\u0131 i\u015flerde zor olsa da fiziksel mesafeyi korumak ya da di\u011fer insanlardan en az 1 metre uzakta durmak vir\u00fcs geni\u015f \u00e7apta yay\u0131l\u0131rken yararl\u0131 olabilir. "
+            ]
+          },
+          "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9": {
+            "text": [
+              "Vir\u00fcs\u00fcn yay\u0131lma riskini azaltmak i\u00e7in y\u00fczeyleri ve ekipmanlar\u0131 d\u00fczenli olarak temizleyebilirsiniz. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 40
+      },
+      "name": "Public workers",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Everyone should practice good hand hygiene and respiratory etiquette. This applies to persons in any job.",
+              "type": "send_msg",
+              "uuid": "263d87eb-2aff-43aa-b0e7-0d5735f47f02"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Physical distancing, or keeping a distance of at least 1 meter from other people, may also help especially when the virus is widely circulating, but this may be difficult in some jobs.",
+              "type": "send_msg",
+              "uuid": "8fceba18-222d-4e24-91f2-ab0896102d52"
+            },
+            {
+              "attachments": [],
+              "text": "You can also clean surfaces and equipment to reduce the risk of spread this way.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "68aee4c2-08b7-45e1-a4fa-c54e4f565ac9"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "5801f9c8-ae5e-4e1c-abdc-2285cd157425"
+            }
+          ],
+          "uuid": "74e0c745-f493-4994-8f53-58aba8695d68"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "2bd2ce78-0b6a-4d51-8a88-a60cb976240f",
+      "revision": 41
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,297 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Report rumors",
+      "uuid": "d6621bb6-9918-4128-80cf-3c2d3b981978",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "nodes": [
+        {
+          "uuid": "ee9837c1-4add-4dc0-9993-a2cb2b2a72f3",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "You can have an active role in fighting rumors around COVID-19, please share with me any rumours or fake news you have heard.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c6369d5e-a51b-4733-bb47-9ebe90a55859"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "ba1ada1f-4473-43b1-bf9c-a7a8be37fbf5",
+              "destination_uuid": "b6b55ab2-09f5-46af-98d6-52f4c3c37cd8"
+            }
+          ]
+        },
+        {
+          "uuid": "b6b55ab2-09f5-46af-98d6-52f4c3c37cd8",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "d236692b-d0a7-49c1-bb87-ecd26823627f",
+            "cases": [],
+            "categories": [
+              {
+                "uuid": "d236692b-d0a7-49c1-bb87-ecd26823627f",
+                "name": "All Responses",
+                "exit_uuid": "d9dbcc00-43a7-4df0-857c-6361a243f624"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "fake_news"
+          },
+          "exits": [
+            {
+              "uuid": "d9dbcc00-43a7-4df0-857c-6361a243f624",
+              "destination_uuid": "1a0d4950-caec-4edb-ba74-399d6854b115"
+            }
+          ]
+        },
+        {
+          "uuid": "1a0d4950-caec-4edb-ba74-399d6854b115",
+          "actions": [
+            {
+              "type": "add_input_labels",
+              "labels": [
+                {
+                  "uuid": "f5b6ad36-6ec7-4bf1-913c-a3484e7c5b3f",
+                  "name": "Reported Rumors"
+                }
+              ],
+              "uuid": "51592a32-3ab4-4e0c-9ad0-14a2142ca0b2"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "63147e33-f8f2-4a8c-b953-a1d7d35b8da2",
+              "destination_uuid": "91b84959-9315-4196-92d5-bbfe1034d664"
+            }
+          ]
+        },
+        {
+          "uuid": "91b84959-9315-4196-92d5-bbfe1034d664",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Thank you for helping fight rumours around COVID-19!\nI've sent your report to our team who will analyze, verify and develop accurate information.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "1b5b2754-b86a-4123-8d33-a5d063d1651a"
+            },
+            {
+              "attachments": [],
+              "text": "This will assist in developing accurate and verifiable information that will benefit you and your community in the fight against COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "eca1f195-6d3a-4157-93f6-94a191c01f91"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "6bba431c-8805-4f8e-8e65-d7bf15f4ac85",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "_ui": {
+        "nodes": {
+          "ee9837c1-4add-4dc0-9993-a2cb2b2a72f3": {
+            "position": {
+              "left": 700,
+              "top": 140
+            },
+            "type": "execute_actions"
+          },
+          "b6b55ab2-09f5-46af-98d6-52f4c3c37cd8": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 700,
+              "top": 440
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "1a0d4950-caec-4edb-ba74-399d6854b115": {
+            "position": {
+              "left": 700,
+              "top": 580
+            },
+            "type": "execute_actions"
+          },
+          "91b84959-9315-4196-92d5-bbfe1034d664": {
+            "position": {
+              "left": 700,
+              "top": 680
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 78,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 75
+      },
+      "localization": {
+        "rus": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0432 \u0441\u043e\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0441\u0435\u0442\u044f\u0445 \u043f\u043e\u043f\u0430\u0434\u0430\u0435\u0442\u0441\u044f \u043c\u043d\u043e\u0433\u043e \u043b\u043e\u0436\u043d\u044b\u0445 \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439 \u043f\u0440\u043e \u043a\u043e\u0440\u043e\u043d\u043e\u0432\u0438\u0440\u0443\u0441, \u0435\u0441\u043b\u0438 \u043e\u043d\u0438 \u0442\u0435\u0431\u0435 \u043f\u043e\u043f\u0430\u0434\u0430\u043b\u0438\u0441\u044c \u043f\u043e\u0434\u0435\u043b\u0438\u0441\u044c \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430 \u0441\u0441\u044b\u043b\u043a\u043e\u0439. "
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "\u0421\u043f\u0430\u0441\u0438\u0431\u043e! \n\u041c\u044b \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u043b\u0438 \u0442\u0432\u043e\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435  \u043d\u0430\u0448\u0435\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u0435, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0438\u0442 \u0438 \u043f\u0440\u0438\u043c\u0435\u0442 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043c\u0435\u0440\u044b!"
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0447\u0442\u043e \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0448\u044c \u043d\u0430\u043c \u0431\u043e\u0440\u043e\u0442\u044c\u0441\u044f \u0441 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435\u043c \u043d\u0435\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438. \u041e\u043d\u0430 \u043c\u043e\u0436\u0435\u0442 \u0432\u044b\u0437\u0432\u0430\u0442\u044c \u0443 \u043b\u044e\u0434\u0435\u0439 \u043f\u0430\u043d\u0438\u043a\u0443 \u0438\u043b\u0438 \u043f\u043e\u0434\u0442\u043e\u043b\u043a\u043d\u0443\u0442\u044c \u0438\u0445 \u043a \u043d\u0435\u0432\u0435\u0440\u043d\u044b\u043c \u0440\u0435\u0448\u0435\u043d\u0438\u044f\u043c, \u043a\u0430\u0441\u0430\u044e\u0449\u0438\u0445\u0441\u044f \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f."
+            ]
+          }
+        },
+        "spa": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "Hay muchas noticias falsas en las redes sociales. Comparte con nosotros las que te has encontrado.  "
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "\u00a1Gracias!\nHe enviado tu denuncia a nuestro equipo para analizar y verificarla, y producir informaci\u00f3n precisa.\n"
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "Esto nos ayudar\u00e1 a proporcionar informaci\u00f3n precisa y verificable que te beneficiar\u00e1 tanto a ti como a tu comunidad en la lucha contra el COVID-19."
+            ]
+          }
+        },
+        "ell": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03c3\u03c5\u03bc\u03b2\u03ac\u03bb\u03b5\u03b9\u03c2 \u03b5\u03bd\u03b5\u03c1\u03b3\u03ac \u03c3\u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b7 \u03c6\u03b7\u03bc\u03ce\u03bd \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc, \u03c3\u03c4\u03ad\u03bb\u03bd\u03bf\u03bd\u03c4\u03ac\u03c2 \u03bc\u03bf\u03c5 \u03c6\u03ae\u03bc\u03b5\u03c2 \u03ae \u03c8\u03b5\u03c5\u03b4\u03b5\u03af\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2 \u03c0\u03bf\u03c5 \u03ad\u03c7\u03b5\u03b9\u03c2 \u03b1\u03ba\u03bf\u03cd\u03c3\u03b5\u03b9."
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "\u03a3\u03b5 \u03b5\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03c3\u03c5\u03bc\u03b2\u03bf\u03bb\u03ae \u03c3\u03bf\u03c5 \u03c3\u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b7 \u03c6\u03b7\u03bc\u03ce\u03bd \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd COVID-19! \u03a0\u03c1\u03bf\u03ce\u03b8\u03b7\u03c3\u03b1 \u03c4\u03bf \u03bc\u03ae\u03bd\u03c5\u03bc\u03ac \u03c3\u03bf\u03c5 \u03c3\u03c4\u03b7\u03bd \u03bf\u03bc\u03ac\u03b4\u03b1 \u03bc\u03b1\u03c2 \u03b3\u03b9\u03b1 \u03b1\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03b5\u03be\u03b1\u03ba\u03c1\u03af\u03b2\u03c9\u03c3\u03b7."
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "\u0397 \u03c3\u03c5\u03bc\u03b2\u03bf\u03bb\u03ae \u03c3\u03bf\u03c5 \u03b8\u03b1 \u03bc\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03b5\u03b9 \u03bd\u03b1 \u03c3\u03c5\u03bd\u03c4\u03ac\u03be\u03bf\u03c5\u03bc\u03b5 \u03b1\u03ba\u03c1\u03b9\u03b2\u03b5\u03af\u03c2 \u03ba\u03b1\u03b9 \u03ad\u03b3\u03ba\u03c5\u03c1\u03b5\u03c2 \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c0\u03bf\u03c5 \u03b8\u03b1 \u03c9\u03c6\u03b5\u03bb\u03ae\u03c3\u03bf\u03c5\u03bd \u03b5\u03c3\u03ad\u03bd\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5\u03c2 \u03b3\u03cd\u03c1\u03c9 \u03c3\u03bf\u03c5 \u03c3\u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c0\u03bf\u03bb\u03ad\u03bc\u03b7\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03bf\u03cd."
+            ]
+          },
+          "d236692b-d0a7-49c1-bb87-ecd26823627f": {
+            "name": [
+              "All Responses"
+            ]
+          }
+        },
+        "kaz": {
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "\u0411\u04b1\u043b \u0441\u0456\u0437\u0433\u0435 \u0436\u04d9\u043d\u0435 \u0441\u0456\u0437\u0434\u0456\u04a3 \u0436\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0493\u0430 COVID-19-\u0493\u0430 \u049b\u0430\u0440\u0441\u044b \u043a\u04af\u0440\u0435\u0441\u0442\u0435 \u043f\u0430\u0439\u0434\u0430\u043b\u044b \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u043d\u0430\u049b\u0442\u044b \u0436\u04d9\u043d\u0435 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0433\u0435\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u0442\u044b \u0436\u0438\u043d\u0430\u049b\u0442\u0430\u0443\u0493\u0430 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0434\u0456. "
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "\u0420\u0430\u049b\u043c\u0435\u0442!\n\u041c\u0435\u043d \u0441\u0456\u0437\u0434\u0456\u04a3 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u044b\u04a3\u044b\u0437\u0434\u044b \u043d\u0430\u049b\u0442\u044b \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u0442\u044b \u0442\u0430\u043b\u0434\u0430\u043f, \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043f \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u0436\u0430\u0437\u0430\u0442\u044b\u043d \u0442\u043e\u043f\u049b\u0430 \u0436\u0456\u0431\u0435\u0440\u0434\u0456\u043c.\n"
+            ]
+          },
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "\u04d8\u043b\u0435\u0443\u043c\u0435\u0442\u0442\u0456\u043a \u0436\u0435\u043b\u0456\u043b\u0435\u0440\u0434\u0435 \u04e9\u0442\u0456\u0440\u0456\u043a \u0436\u04d9\u043d\u0435 \u0436\u0430\u043b\u0493\u0430\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442 \u043a\u04e9\u043f. \u04e8\u0437\u0456\u04a3\u0456\u0437 \u043a\u0435\u0437 \u0435\u0442\u043a\u0435\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u043f\u0435\u043d \u0431\u04e9\u043b\u0456\u0441\u0456\u04a3\u0456\u0437. "
+            ]
+          }
+        },
+        "ita": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "Ci sono molte notizie false sui social media. Condividi con noi quelle che hai rilevato."
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "Grazie!\nHo inviato la tua segnalazione al nostro team che analizzer\u00e0, verificher\u00e0 e svilupper\u00e0 informazioni precise.\n"
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "Questo aiuter\u00e0 a sviluppare informazioni precise e verificabili a tuo vantaggio e della tua comunit\u00e0 nella lotta contro COVID-19."
+            ]
+          }
+        },
+        "mkd": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "\u0418\u043c\u0430 \u043c\u043d\u043e\u0433\u0443 \u043f\u043e\u0433\u0440\u0435\u0448\u043d\u0438 \u0438 \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438 \u043d\u0430 \u0441\u043e\u0446\u0438\u0458\u0430\u043b\u043d\u0438\u0442\u0435 \u043c\u0435\u0434\u0438\u0443\u043c\u0438. \u0412\u0435 \u043c\u043e\u043b\u0430\u043c \u0441\u043f\u043e\u0434\u0435\u043b\u0435\u0442\u0435 \u0433\u0438 \u0441\u043e \u043d\u0430\u0441 \u043e\u043d\u0438\u0435 \u0448\u0442\u043e \u0441\u0442\u0435 \u0433\u0438 \u0432\u0438\u0434\u0435\u043b\u0435."
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0430\u043c! \n\u0413\u0438 \u0438\u0441\u043f\u0440\u0430\u0442\u0438\u0432 \u0432\u0430\u0448\u0438\u0442\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0434\u043e \u043d\u0430\u0448\u0438\u043e\u0442 \u0442\u0438\u043c \u043a\u043e\u0458 \u045c\u0435 \u0433\u0438 \u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u0430, \u045c\u0435 \u0433\u0438 \u043f\u043e\u0442\u0432\u0440\u0434\u0438 \u0438 \u045c\u0435 \u0438\u0437\u0440\u0430\u0431\u043e\u0442\u0438 \u0442\u043e\u0447\u043d\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438.\n"
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "\u041e\u0432\u0430 \u045c\u0435 \u043f\u043e\u043c\u043e\u0433\u043d\u0435 \u0434\u0430 \u0441\u0435 \u043f\u043e\u0434\u0433\u043e\u0442\u0432\u0430\u0442 \u0442\u043e\u0447\u043d\u0438 \u0438 \u043f\u0440\u043e\u0432\u0435\u0440\u043b\u0438\u0432\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043a\u043e\u0440\u0438\u0441\u043d\u0438 \u0437\u0430 \u0432\u0430\u0441 \u0438 \u0437\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0437\u0430\u0435\u0434\u043d\u0438\u0446\u0430 \u0432\u043e \u0431\u043e\u0440\u0431\u0430\u0442\u0430 \u043f\u0440\u043e\u0442\u0438\u0432 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          }
+        },
+        "tur": {
+          "c6369d5e-a51b-4733-bb47-9ebe90a55859": {
+            "text": [
+              "KOV\u0130D-19 hastal\u0131\u011f\u0131na y\u00f6nelik s\u00f6ylentilerle m\u00fccadele etmek konusunda aktif bir rol oynayabilirsiniz, l\u00fctfen duydu\u011funuz s\u00f6ylentileri ya da yalan haberleri benimle payla\u015f\u0131n\u0131z. "
+            ]
+          },
+          "1b5b2754-b86a-4123-8d33-a5d063d1651a": {
+            "text": [
+              "KOV\u0130D-19 hastal\u0131\u011f\u0131na y\u00f6nelik s\u00f6ylentilerle m\u00fccadele etme konusunda yard\u0131mc\u0131 oldu\u011funuz i\u00e7in te\u015fekk\u00fcr ederim!\nRaporunuzu, analiz edecek, do\u011frulayacak ve do\u011fru bilgi geli\u015ftirecek olan ekibimize ilettim. "
+            ]
+          },
+          "eca1f195-6d3a-4157-93f6-94a191c01f91": {
+            "text": [
+              "Yard\u0131m\u0131n\u0131z, KOV\u0130D-19 hastal\u0131\u011f\u0131yla m\u00fccadelede, size ve toplumunuza faydal\u0131 olacak do\u011fru ve do\u011frulanabilir bilgiler geli\u015ftirmede yard\u0131mc\u0131 olacakt\u0131r. "
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [
+    {
+      "trigger_type": "N",
+      "keyword": null,
+      "flow": {
+        "uuid": "d6621bb6-9918-4128-80cf-3c2d3b981978",
+        "name": "Report rumors"
+      },
+      "groups": [],
+      "channel": "882c393f-29f1-4532-b917-aa760b8c46c1"
+    },
+    {
+      "trigger_type": "K",
+      "keyword": "reportrumors",
+      "flow": {
+        "uuid": "d6621bb6-9918-4128-80cf-3c2d3b981978",
+        "name": "Report rumors"
+      },
+      "groups": [],
+      "channel": null
+    }
+  ],
+  "fields": [],
+  "groups": []
+}

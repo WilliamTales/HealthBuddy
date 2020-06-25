@@ -1,0 +1,141 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "4c0e5dc1-b94b-4b5f-95db-11ce147e8196": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "Desde el inicio de los s\u00edntomas hasta la recuperaci\u00f3n, pueden pasar hasta 2 semanas para casos leves y de 3 a 6 semanas para casos severos."
+            ]
+          },
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "Desde el inicio de los s\u00edntomas hasta la recuperaci\u00f3n, puede que pasen 2 semanas para casos leves y de 3 a 6 semanas para casos graves."
+            ]
+          }
+        },
+        "ell": {
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "\u0391\u03c0\u03cc \u03c4\u03b7\u03bd \u03b5\u03bc\u03c6\u03ac\u03bd\u03b9\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c3\u03c5\u03bc\u03c0\u03c4\u03c9\u03bc\u03ac\u03c4\u03c9\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03ac\u03c1\u03c1\u03c9\u03c3\u03b7, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03c1\u03b5\u03b9\u03b1\u03c3\u03c4\u03bf\u03cd\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 2 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03ae\u03c0\u03b9\u03b5\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 3 \u03ad\u03c9\u03c2 6 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2."
+            ]
+          },
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "\u0391\u03c0\u03cc \u03c4\u03b7\u03bd \u03b5\u03bc\u03c6\u03ac\u03bd\u03b9\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c3\u03c5\u03bc\u03c0\u03c4\u03c9\u03bc\u03ac\u03c4\u03c9\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03ac\u03c1\u03c1\u03c9\u03c3\u03b7, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03c1\u03b5\u03b9\u03b1\u03c3\u03c4\u03bf\u03cd\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 2 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03ae\u03c0\u03b9\u03b5\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 3 \u03ad\u03c9\u03c2 6 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "\u041f\u0440\u0438 \u043b\u0435\u0433\u043a\u043e\u043c \u0442\u0435\u0447\u0435\u043d\u0438\u0438 \u0431\u043e\u043b\u0435\u0437\u043d\u0438 \u043e\u0442 \u043f\u043e\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432 \u0434\u043e \u0432\u044b\u0437\u0434\u043e\u0440\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u043e\u0439\u0442\u0438 \u0434\u043e 2 \u043d\u0435\u0434\u0435\u043b\u044c, \u0432 \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u044f\u0445 - \u043e\u0442 3 \u0434\u043e 6 \u043d\u0435\u0434\u0435\u043b\u044c."
+            ]
+          },
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "\u041f\u0440\u0438 \u043b\u0435\u0433\u043a\u043e\u043c \u0442\u0435\u0447\u0435\u043d\u0438\u0438 \u0431\u043e\u043b\u0435\u0437\u043d\u0438 \u043e\u0442 \u043f\u043e\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432 \u0434\u043e \u0432\u044b\u0437\u0434\u043e\u0440\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u043e\u0439\u0442\u0438 \u0434\u043e 2 \u043d\u0435\u0434\u0435\u043b\u044c, \u0432 \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u044f\u0445 - \u043e\u0442 3 \u0434\u043e 6 \u043d\u0435\u0434\u0435\u043b\u044c."
+            ]
+          }
+        },
+        "ita": {
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "Dalla comparsa dei sintomi al completo recupero, ci vogliono circa 2 settimane per i casi lievi e da 3 a 6 settimane per i casi piu gravi."
+            ]
+          },
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "Dalla comparsa dei sintomi al completo recupero, ci vogliono circa 2 settimane per i casi lievi e da 3 a 6 settimane per i casi piu gravi."
+            ]
+          }
+        },
+        "kaz": {
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "\u0410\u0443\u0440\u0443 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0493\u0430\u043d\u043d\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u043f \u0436\u0430\u0437\u044b\u043b\u0443\u0493\u0430 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u043a\u0435\u0437\u0435\u04a3 \u0436\u0435\u04a3\u0456\u043b \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 2 \u0430\u043f\u0442\u0430\u0493\u0430, \u0430\u0443\u044b\u0440 \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 3-6 \u0430\u043f\u0442\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0441\u043e\u0437\u044b\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "\u0410\u0443\u0440\u0443 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0493\u0430\u043d\u043d\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u043f \u0436\u0430\u0437\u044b\u043b\u0443\u0493\u0430 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u043a\u0435\u0437\u0435\u04a3 \u0436\u0435\u04a3\u0456\u043b \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 2 \u0430\u043f\u0442\u0430\u0493\u0430, \u0430\u0443\u044b\u0440 \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 3-6 \u0430\u043f\u0442\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0441\u043e\u0437\u044b\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          }
+        },
+        "por": {
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "Desde o in\u00edcio dos sintomas at\u00e9 a recupera\u00e7\u00e3o, pode levar at\u00e9 2 semanas para casos leves e 3 a 6 semanas para casos graves."
+            ]
+          },
+          "ebb4579f-9da8-4087-ba50-9a99866c77cb": {
+            "text": [
+              "Desde o in\u00edcio dos sintomas at\u00e9 a recupera\u00e7\u00e3o, pode levar at\u00e9 2 semanas para casos leves e 3 a 6 semanas para casos graves."
+            ]
+          }
+        },
+        "mkd": {
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "\u041e\u0434 \u043f\u043e\u0447\u0435\u0442\u043e\u043a\u043e\u0442 \u043d\u0430 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435 \u0434\u043e \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0443\u0432\u0430\u045a\u0435\u0442\u043e \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u043e\u043c\u0438\u043d\u0430\u0442 \u0438 \u0434\u043e 2 \u043d\u0435\u0434\u0435\u043b\u0438 \u043a\u0430\u0458 \u043b\u0435\u0441\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438, \u0430 3 \u0434\u043e 6 \u043d\u0435\u0434\u0435\u043b\u0438 \u043a\u0430\u0458 \u0442\u0435\u0448\u043a\u0438 \u0441\u043b\u0443\u0447\u0430\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "4b1716f7-327d-4446-9779-5ce9c5012b54": {
+            "text": [
+              "Semptomlar\u0131n ba\u015flang\u0131c\u0131ndan iyile\u015fmeye kadar ge\u00e7en s\u00fcre hafif vakalar i\u00e7in 2 haftay\u0131, \u015fiddetli vakalar i\u00e7in 3 ila 6 haftay\u0131 bulmaktad\u0131r. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 38
+      },
+      "name": "Recovery",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "12040a59-249c-431b-a028-946be2eba490",
+      "revision": 39,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "From the onset of symptoms to recovery, it can take up to 2 weeks for mild cases and 3 to 6 weeks for severe cases.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "4b1716f7-327d-4446-9779-5ce9c5012b54"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "43be5f49-d0ae-49ad-8c21-5e9312ebf04e"
+            }
+          ],
+          "uuid": "4c0e5dc1-b94b-4b5f-95db-11ce147e8196"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

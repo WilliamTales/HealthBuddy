@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "ab8a8049-f6b3-438c-b642-5e671fdc5dcd": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "La propagaci\u00f3n del COVID-19 depende en gran medida de los patrones de viaje y los v\u00ednculos entre pa\u00edses."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "Casi todos los pa\u00edses de Europa han informado de casos confirmados."
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "La OMS est\u00e1 trabajando con los pa\u00edses para garantizar que tengan capacidades de laboratorio suficientes para detectar casos y equipos de protecci\u00f3n para los trabajadores de la salud."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "Estamos haciendo un seguimiento de la situaci\u00f3n de varias maneras para identificar d\u00f3nde est\u00e1 el virus y c\u00f3mo se est\u00e1 propagando."
+            ]
+          }
+        },
+        "ell": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "\u0397 \u03b4\u03b9\u03ac\u03b4\u03bf\u03c3\u03b7 \u03c4\u03bf\u03c5 COVID-19 \u03b5\u03be\u03b1\u03c1\u03c4\u03ac\u03c4\u03b1\u03b9 \u03c3\u03b5 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf \u03b2\u03b1\u03b8\u03bc\u03cc \u03b1\u03c0\u03cc \u03c4\u03b1 \u03c4\u03b1\u03be\u03b9\u03b4\u03b9\u03c9\u03c4\u03b9\u03ba\u03ac \u03bc\u03bf\u03c4\u03af\u03b2\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5\u03c2 \u03b4\u03b5\u03c3\u03bc\u03bf\u03cd\u03c2 \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03c4\u03c9\u03bd \u03c7\u03c9\u03c1\u03ce\u03bd."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "\u03a3\u03c7\u03b5\u03b4\u03cc\u03bd \u03cc\u03bb\u03b5\u03c2 \u03bf\u03b9 \u03c7\u03ce\u03c1\u03b5\u03c2 \u03c4\u03b7\u03c2 \u0395\u03c5\u03c1\u03c9\u03c0\u03b1\u03ca\u03ba\u03ae\u03c2 \u03a0\u03b5\u03c1\u03b9\u03c6\u03ad\u03c1\u03b5\u03b9\u03b1\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03b1\u03bd\u03b1\u03c6\u03ad\u03c1\u03b5\u03b9 \u03b5\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03b9\u03c9\u03bc\u03ad\u03bd\u03b1 \u03ba\u03c1\u03bf\u03cd\u03c3\u03bc\u03b1\u03c4\u03b1. "
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "\u039f \u03a0\u039f\u03a5 \u03c3\u03c5\u03bd\u03b5\u03c1\u03b3\u03ac\u03b6\u03b5\u03c4\u03b1\u03b9 \u03bc\u03b5 \u03c4\u03b9\u03c2 \u03c7\u03ce\u03c1\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b5\u03be\u03b1\u03c3\u03c6\u03b1\u03bb\u03af\u03c3\u03b5\u03b9 \u03cc\u03c4\u03b9 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c4\u03bf\u03c5\u03bd \u03b5\u03c0\u03b1\u03c1\u03ba\u03b5\u03af\u03c2 \u03b5\u03c1\u03b3\u03b1\u03c3\u03c4\u03b7\u03c1\u03b9\u03b1\u03ba\u03ad\u03c2 \u03b4\u03c5\u03bd\u03b1\u03c4\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03b1\u03bd\u03af\u03c7\u03bd\u03b5\u03c5\u03c3\u03b7 \u03ba\u03c1\u03bf\u03c5\u03c3\u03bc\u03ac\u03c4\u03c9\u03bd, \u03ba\u03b1\u03b8\u03ce\u03c2 \u03ba\u03b1\u03b9 \u03b5\u03c0\u03b1\u03c1\u03ba\u03ae \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03b9\u03ba\u03cc \u03b5\u03be\u03bf\u03c0\u03bb\u03b9\u03c3\u03bc\u03cc \u03b3\u03b9\u03b1 \u03c4\u03bf\u03c5\u03c2 \u03b5\u03c1\u03b3\u03b1\u03b6\u03bf\u03bc\u03ad\u03bd\u03bf\u03c5\u03c2 \u03c3\u03c4\u03b7\u03bd \u03c5\u03b3\u03b5\u03b9\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03b8\u03b1\u03bb\u03c8\u03b7."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "\u03a0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03bc\u03b5 \u03b4\u03b9\u03ac\u03c6\u03bf\u03c1\u03bf\u03c5\u03c2 \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2 \u03c4\u03c1\u03cc\u03c0\u03bf\u03c5\u03c2, \u03ce\u03c3\u03c4\u03b5 \u03bd\u03b1 \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03c0\u03bf\u03cd \u03b2\u03c1\u03af\u03c3\u03ba\u03b5\u03c4\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2 \u03ba\u03b1\u03b9 \u03bc\u03b5 \u03c0\u03bf\u03b9\u03bf \u03c4\u03c1\u03cc\u03c0\u03bf \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9. "
+            ]
+          }
+        },
+        "rus": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "\u0420\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435 COVID-19 \u0432\u043e \u043c\u043d\u043e\u0433\u043e\u043c \u0437\u0430\u0432\u0438\u0441\u0438\u0442 \u043e\u0442 \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0439 \u043b\u044e\u0434\u0435\u0439 \u0438 \u0441\u0432\u044f\u0437\u0435\u0439 \u043c\u0435\u0436\u0434\u0443 \u0441\u0442\u0440\u0430\u043d\u0430\u043c\u0438."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "\u041f\u043e\u0447\u0442\u0438 \u0432\u0441\u0435 \u0441\u0442\u0440\u0430\u043d\u044b \u0415\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u043e\u0433\u043e \u0440\u0435\u0433\u0438\u043e\u043d\u0430 \u0441\u043e\u043e\u0431\u0449\u0438\u043b\u0438 \u043e \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u043d\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u044f\u0445."
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "\u0412\u041e\u0417 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0441\u043e \u0441\u0442\u0440\u0430\u043d\u0430\u043c\u0438, \u0447\u0442\u043e\u0431\u044b \u0443\u0431\u0435\u0434\u0438\u0442\u044c\u0441\u044f, \u0447\u0442\u043e \u043e\u043d\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u044e\u0442 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u043c\u0438 \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438 \u0434\u043b\u044f \u0432\u044b\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u043c \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0437\u0430\u0449\u0438\u0442\u043d\u044b\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u0434\u043b\u044f \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0445 \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u043a\u043e\u0432."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "\u041c\u044b \u0432\u043c\u0435\u0441\u0442\u0435 \u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u043c \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044e \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u043c\u0438 \u0441\u043f\u043e\u0441\u043e\u0431\u0430\u043c\u0438, \u0447\u0442\u043e\u0431\u044b \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c, \u0433\u0434\u0435 \u043d\u0430\u0445\u043e\u0434\u0438\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441 \u0438 \u043a\u0430\u043a \u043e\u043d \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f."
+            ]
+          }
+        },
+        "ita": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "La diffusione della COVID-19 dipende molto dalle modalit\u00e0 di viaggio e dai collegamenti tra i paesi."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "Quasi tutti i paesi della regione europea hanno segnalato casi confermati"
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "L'OMS collabora con i paesi per garantire che dispongano di sufficienti capacit\u00e0 di laboratorio per la rilevazione dei casi come anche dei dispositivi di protezione per gli operatori sanitari."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "Stiamo monitorando, in maniera congiunta,la situazione in diversi modi al fine di identificare dove si trovi il virus e come si stia diffondendo."
+            ]
+          }
+        },
+        "kaz": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "COVID-19-\u0434\u044b\u04a3 \u0442\u0430\u0440\u0430\u043b\u0443\u044b \u043a\u04e9\u043f\u0442\u0435\u0433\u0435\u043d \u0445\u0430\u043b\u044b\u049b\u0430\u0440\u0430\u043b\u044b\u049b \u0441\u0430\u044f\u0445\u0430\u0442\u0442\u0430\u0440 \u043c\u0435\u043d \u0435\u043b \u0430\u0440\u0430\u043b\u044b\u049b  \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430\u0440\u0493\u0430 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u044b."
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "\u0414\u0414\u0421\u04b0 \u0435\u043b\u0434\u0435\u0440\u043c\u0435\u043d \u043e\u043b\u0430\u0440\u0434\u044b\u04a3 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u049b\u044b\u0437\u043c\u0435\u0442\u043a\u0435\u0440\u043b\u0435\u0440\u0456 \u04af\u0448\u0456\u043d  \u049b\u043e\u0440\u0493\u0430\u043d\u044b\u0441 \u049b\u04b1\u0440\u0430\u043b\u0434\u0430\u0440\u044b\u043d\u044b\u04a3 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456 \u0431\u043e\u043b\u0443\u044b\u043d \u049b\u0430\u043c\u0442\u0430\u0441\u0430\u043c\u044b\u0437 \u0435\u0442\u0443 \u04af\u0448\u0456\u043d \u0436\u04d9\u043d\u0435 \u0430\u0443\u0440\u0443 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u0430\u043d\u049b\u044b\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0437\u0435\u0440\u0442\u0445\u0430\u043d\u0430\u043b\u044b\u049b \u043c\u04af\u043c\u043a\u0456\u043d\u0434\u0456\u043a\u0442\u0435\u0440\u0434\u0456 \u049b\u0430\u043c\u0442\u0430\u043c\u0430\u0441\u044b\u0437 \u0435\u0442\u0443 \u04af\u0448\u0456\u043d \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u0434\u0456."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0442\u044b\u04a3 \u049b\u0430\u0439 \u0436\u0435\u0440\u0434\u0435 \u0436\u04d9\u043d\u0435 \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0440\u0430\u0439\u0442\u044b\u043d\u044b\u043d \u0430\u043d\u044b\u049b\u0442\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0437 \u0442\u04af\u0440\u043b\u0456  \u0431\u0430\u049b\u044b\u043b\u0430\u0443\u043b\u0430\u0440 \u0436\u04af\u0440\u0433\u0456\u0437\u0456\u043f \u043e\u0442\u044b\u0440\u043c\u044b\u0437."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "\u0415\u0443\u0440\u043e\u043f\u0430\u043b\u044b\u049b \u0430\u0439\u043c\u0430\u049b\u0442\u044b\u04a3 \u0431\u0430\u0440\u043b\u044b\u049b \u0434\u0435\u0440\u043b\u0456\u043a \u0435\u043b\u0434\u0435\u0440\u0456 \u0432\u0438\u0440\u0443\u0441 \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d\u0434\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0434\u044b."
+            ]
+          }
+        },
+        "por": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "A dissemina\u00e7\u00e3o do COVID-19 depende muito dos padr\u00f5es de viagens e liga\u00e7\u00f5es entre os pa\u00edses."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "Quase todos os pa\u00edses da regi\u00e3o europeia relataram casos confirmados."
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "A OMS est\u00e1 trabalhando com os pa\u00edses para garantir que eles tenham capacidades laboratoriais suficientes para detectar casos e equipamentos de prote\u00e7\u00e3o para os profissionais de sa\u00fade."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "Estamos monitorando a situa\u00e7\u00e3o de v\u00e1rias outras maneiras, em conjunto, para identificar onde o v\u00edrus est\u00e1 e como est\u00e1 se espalhando."
+            ]
+          }
+        },
+        "mkd": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "\u0428\u0438\u0440\u0435\u045a\u0435\u0442\u043e \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u043c\u043d\u043e\u0433\u0443 \u0437\u0430\u0432\u0438\u0441\u0438 \u043e\u0434 \u043d\u0430\u0447\u0438\u043d\u0438\u0442\u0435\u043d\u0430 \u043f\u0430\u0442\u0443\u0432\u0430\u045a\u0435 \u0438 \u0432\u0440\u0441\u043a\u0438\u0442\u0435 \u043c\u0435\u0453\u0443 \u0437\u0435\u043c\u0458\u0438\u0442\u0435."
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "\u0421\u043a\u043e\u0440\u043e \u0441\u0438\u0442\u0435 \u0437\u0435\u043c\u0458\u0438 \u0432\u043e \u0435\u0432\u0440\u043e\u043f\u0441\u043a\u0438\u043e\u0442 \u0440\u0435\u0433\u0438\u043e\u043d \u0438\u043c\u0430\u0430\u0442 \u043f\u0440\u0438\u0458\u0430\u0432\u0435\u043d\u043e \u043f\u043e\u0442\u0432\u0440\u0434\u0435\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438."
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "\u0421\u0417\u041e \u0441\u043e\u0440\u0430\u0431\u043e\u0442\u0443\u0432\u0430 \u0441\u043e \u0437\u0435\u043c\u0458\u0438\u0442\u0435 \u0437\u0430 \u0434\u0430 \u0431\u0438\u0434\u0435 \u0441\u0438\u0433\u0443\u0440\u043d\u0430 \u0434\u0435\u043a\u0430 \u0438\u043c\u0430\u0430\u0442 \u0434\u043e\u0432\u043e\u043b\u043d\u043e \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0438\u0441\u043a\u0438 \u043a\u0430\u043f\u0430\u0446\u0438\u0442\u0435\u0442\u0438 \u0437\u0430 \u043e\u0442\u043a\u0440\u0438\u0432\u0430\u045a\u0435 \u0441\u043b\u0443\u0447\u0430\u0438, \u043a\u0430\u043a\u043e \u0438 \u0437\u0430\u0448\u0442\u0438\u0442\u043d\u0430 \u043e\u043f\u0440\u0435\u043c\u0430 \u0437\u0430 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0435\u043d\u0438\u0442\u0435 \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u0446\u0438."
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "\u041d\u0438\u0435 \u0458\u0430 \u0441\u043b\u0435\u0434\u0438\u043c\u0435 \u0441\u043e\u0441\u0442\u043e\u0458\u0431\u0430\u0442\u0430 \u043d\u0430 \u0440\u0430\u0437\u043d\u0438 \u0434\u0440\u0443\u0433\u0438 \u043d\u0430\u0447\u0438\u043d\u0438 \u0437\u0430 \u0434\u0430 \u0443\u0442\u0432\u0440\u0434\u0438\u043c\u0435 \u043a\u0430\u0434\u0435 \u0441\u0435 \u043d\u0430\u043e\u0453\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u0438 \u043a\u0430\u043a\u043e \u0441\u0435 \u0448\u0438\u0440\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "232cf28f-14d3-4e50-b19b-0716cfd94853": {
+            "text": [
+              "KOV\u0130D-19 yay\u0131l\u0131m\u0131 seyahat d\u00fczenlerine ve \u00fclkeler aras\u0131ndaki ba\u011flant\u0131lara ba\u011fl\u0131d\u0131r. "
+            ]
+          },
+          "80814c9c-a5eb-47d1-b1b1-1863f701982a": {
+            "text": [
+              "Avrupa B\u00f6lgesindeki neredeyse her \u00fclke onaylanm\u0131\u015f vaka bildirmi\u015ftir. "
+            ]
+          },
+          "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc": {
+            "text": [
+              "DS\u00d6, vakalar\u0131 tespit etmek i\u00e7in ve sa\u011fl\u0131k \u00e7al\u0131\u015fanlar\u0131na koruyucu ekipman verebilmek i\u00e7in yeterli laboratuvar kapasiteleri olmas\u0131 i\u00e7in \u00fclkelerle birlikte \u00e7al\u0131\u015fmaktad\u0131r. "
+            ]
+          },
+          "57691108-528b-464e-94ee-29595d8e11f3": {
+            "text": [
+              "Vir\u00fcs\u00fcn nerede oldu\u011funu ve nas\u0131l yay\u0131ld\u0131\u011f\u0131n\u0131 tespit edebilmek i\u00e7in bir\u00e7ok farkl\u0131 y\u00f6ntemle durumu izliyoruz. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 35
+      },
+      "name": "Cases",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "The spread of COVID-19 depends very much on travel patterns and links between countries.",
+              "type": "send_msg",
+              "uuid": "232cf28f-14d3-4e50-b19b-0716cfd94853"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Nearly all countries in the European Region have reported confirmed cases.",
+              "type": "send_msg",
+              "uuid": "80814c9c-a5eb-47d1-b1b1-1863f701982a"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "WHO is working with countries to ensure they have sufficient laboratory capacities to detect cases and protective equipment for healthcare workers.",
+              "type": "send_msg",
+              "uuid": "2c7769bd-0a51-4344-a98c-d9b8b65dc7fc"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "We are monitoring the situation in various other ways together to identify where the virus is and how it is spreading.",
+              "type": "send_msg",
+              "uuid": "57691108-528b-464e-94ee-29595d8e11f3"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "263cb1af-7042-4428-bbf3-11e7edc34a31"
+            }
+          ],
+          "uuid": "ab8a8049-f6b3-438c-b642-5e671fdc5dcd"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "7182c055-1e71-4b17-986a-67a9f7957371",
+      "revision": 39
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

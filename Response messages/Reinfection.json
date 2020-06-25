@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "a17c251b-44b0-487d-9511-13131b61d5b6": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "Como el COVID-19 es una enfermedad nueva, se est\u00e1n desarrollando estudios, pero necesitamos m\u00e1s datos para sacar esta y otras conclusiones."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "Por el momento, el nivel de inmunidad desarrollado en una persona que ha tenido la enfermedad es incierto."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "Sabremos m\u00e1s cuando tengamos pruebas y estudios entre personas a gran escala."
+            ]
+          }
+        },
+        "ell": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "\u0395\u03c0\u03b5\u03b9\u03b4\u03ae \u03c0\u03c1\u03cc\u03ba\u03b5\u03b9\u03c4\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03bd\u03ad\u03b1 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03bf\u03b9 \u03bc\u03ad\u03bb\u03b5\u03c4\u03b5\u03c2 \u03b2\u03c1\u03af\u03c3\u03ba\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c3\u03b5 \u03b5\u03be\u03ad\u03bb\u03b9\u03be\u03b7,  \u03c7\u03c1\u03b5\u03b9\u03b1\u03b6\u03cc\u03bc\u03b1\u03c3\u03c4\u03b5 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1 \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03b1\u03c4\u03b1\u03bb\u03ae\u03be\u03bf\u03c5\u03bc\u03b5 \u03c3\u03b5 \u03b1\u03c5\u03c4\u03cc \u03b1\u03bb\u03bb\u03ac \u03ba\u03b1\u03b9 \u03ac\u03bb\u03bb\u03b1 \u03c3\u03c5\u03bc\u03c0\u03b5\u03c1\u03ac\u03c3\u03bc\u03b1\u03c4\u03b1."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "\u0391\u03c5\u03c4\u03ae \u03c4\u03b7 \u03c3\u03c4\u03b9\u03b3\u03bc\u03ae \u03c4\u03bf \u03b5\u03c0\u03af\u03c0\u03b5\u03b4\u03bf \u03b1\u03bd\u03bf\u03c3\u03af\u03b1\u03c2 \u03c0\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03c4\u03cd\u03c3\u03c3\u03b5\u03b9 \u03ac\u03c4\u03bf\u03bc\u03bf \u03c0\u03bf\u03c5 \u03c0\u03b1\u03c1\u03bf\u03c5\u03c3\u03af\u03b1\u03c3\u03b5 \u03c4\u03b7\u03bd \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b1\u03b2\u03ad\u03b2\u03b1\u03b9\u03bf."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "\u0398\u03b1 \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1 \u03cc\u03c4\u03b1\u03bd \u03b8\u03b1 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03bf\u03c0\u03bf\u03b9\u03b7\u03b8\u03b5\u03af \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03bc\u03b5\u03bb\u03ad\u03c4\u03b5\u03c2 \u03bc\u03b5\u03b3\u03ac\u03bb\u03b7\u03c2 \u03ba\u03bb\u03af\u03bc\u03b1\u03ba\u03b1\u03c2 \u03c3\u03b5 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03bf\u03c5\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "\u041f\u043e\u0441\u043a\u043e\u043b\u044c\u043a\u0443 COVID-19 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043d\u043e\u0432\u044b\u043c \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435\u043c, \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u044e\u0442\u0441\u044f, \u043d\u043e \u043d\u0430\u043c \u043d\u0443\u0436\u043d\u043e \u0431\u043e\u043b\u044c\u0448\u0435 \u0434\u0430\u043d\u043d\u044b\u0445, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0438\u0439\u0442\u0438 \u043a \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u0438 \u0438\u043d\u044b\u043c \u0432\u044b\u0432\u043e\u0434\u0430\u043c."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "\u041d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e, \u043a\u0430\u043a\u043e\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0430 \u0432\u044b\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0443 \u043f\u0435\u0440\u0435\u0431\u043e\u043b\u0435\u0432\u0448\u0438\u0445 COVID-19."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "\u041c\u044b \u0441\u043c\u043e\u0436\u0435\u043c \u0443\u0437\u043d\u0430\u0442\u044c \u0431\u043e\u043b\u044c\u0448\u0435, \u043a\u043e\u0433\u0434\u0430 \u0431\u0443\u0434\u0443\u0442 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u044b \u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043d\u044b\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u0438 \u0442\u0435\u0441\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043b\u044e\u0434\u0435\u0439."
+            ]
+          }
+        },
+        "ita": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "Poich\u00e9 la COVID-19 \u00e8 una nuova malattia, sono in corso studi, ma abbiamo bisogno di pi\u00f9 dati per trarre questo tipo di conclusioni. "
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "Al momento, non si conosce esattamente qual \u00e8 il livello di immunit\u00e0 che una persona sviluppa dopo aver avuto la malattia."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "Avremo maggiore conoscenza nel momento in cui  completeremo test e studi su larga scala tra la popolazione."
+            ]
+          }
+        },
+        "kaz": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "COVID-19 \u0436\u0430\u04a3\u0430 \u0430\u0443\u0440\u0443 \u0431\u043e\u043b\u0493\u0430\u043d\u0434\u044b\u049b\u0442\u0430\u043d, \u0437\u0435\u0440\u0442\u0442\u0435\u0443\u043b\u0435\u0440 \u0436\u04af\u0440\u0433\u0456\u0437\u0456\u043b\u0443\u0434\u0435, \u0431\u0456\u0440\u0430\u049b \u043e\u0441\u044b \u0436\u04d9\u043d\u0435 \u0431\u0430\u0441\u049b\u0430 \u0442\u04b1\u0436\u044b\u0440\u044b\u043c\u0434\u0430\u0440 \u0436\u0430\u0441\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0456\u0437\u0433\u0435 \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440 \u049b\u0430\u0436\u0435\u0442."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "\u049a\u0430\u0437\u0456\u0440\u0433\u0456 \u0443\u0430\u049b\u044b\u0442\u0442\u0430 \u0430\u0443\u0440\u0443\u0493\u0430 \u0448\u0430\u043b\u0434\u044b\u049b\u049b\u0430\u043d \u0430\u0434\u0430\u043c\u043d\u044b\u04a3 \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0456\u0442\u0456\u04a3 \u0434\u0435\u04a3\u0433\u0435\u0439\u0456 \u0431\u0435\u043b\u0433\u0456\u0441\u0456\u0437."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "\u0411\u0456\u0437 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u043a\u0435\u04a3 \u0430\u0443\u049b\u044b\u043c\u0434\u044b \u0441\u044b\u043d\u0430\u049b\u0442\u0430\u0440 \u043c\u0435\u043d \u0437\u0435\u0440\u0442\u0442\u0435\u0443\u043b\u0435\u0440 \u0436\u04af\u0440\u0433\u0456\u0437\u0433\u0435\u043d \u0441\u043e\u04a3 \u043a\u04e9\u043f \u043d\u04d9\u0440\u0441\u0435\u043d\u0456 \u0431\u0456\u043b\u0435\u0442\u0456\u043d \u0431\u043e\u043b\u0430\u043c\u044b\u0437."
+            ]
+          }
+        },
+        "por": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "Como o COVID-19 \u00e9 uma doen\u00e7a nova, precisamos de mais dados para chegarmos a essa e outras conclus\u00f5es."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "At\u00e9 o momento, o n\u00edvel de imunidade desenvolvido por uma pessoa que teve a doen\u00e7a \u00e9 incerto."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "Saberemos mais quando tivermos testes e estudos em larga escala entre essas pessoas."
+            ]
+          }
+        },
+        "mkd": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "\u0411\u0438\u0434\u0435\u0458\u045c\u0438 \u041a\u041e\u0412\u0418\u0414-19 \u0435 \u043d\u043e\u0432\u0430 \u0431\u043e\u043b\u0435\u0441\u0442, \u0432\u043e \u0442\u0435\u043a \u0441\u0435 \u0438\u0441\u0442\u0440\u0430\u0436\u0443\u0432\u0430\u045a\u0430 \u0437\u0430 \u043d\u0435\u0430, \u043d\u043e \u043f\u043e\u0442\u0440\u0435\u0431\u043d\u0438 \u043d\u0438 \u0441\u0435 \u043f\u043e\u0432\u0435\u045c\u0435 \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438 \u0437\u0430 \u0434\u0430 \u0438\u0437\u0432\u043b\u0435\u0447\u0435\u043c\u0435 \u0432\u0430\u043a\u0432\u0438 \u0438 \u0434\u0440\u0443\u0433\u0438 \u0437\u0430\u043a\u043b\u0443\u0447\u043e\u0446\u0438."
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "\u0412\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432 \u0435 \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u043d\u043e \u043a\u043e\u043b\u043a\u0430\u0432\u043e \u0435 \u043d\u0438\u0432\u043e\u0442\u043e \u043d\u0430 \u0438\u043c\u0443\u043d\u0438\u0442\u0435\u0442 \u0440\u0430\u0437\u0432\u0438\u0435\u043d \u043a\u0430\u0458 \u043b\u0438\u0446\u0435 \u043a\u043e\u0435 \u0458\u0430 \u0438\u043c\u0430\u043b\u043e \u0431\u043e\u043b\u0435\u0441\u0442\u0430."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "\u040c\u0435 \u0437\u043d\u0430\u0435\u043c\u0435 \u043f\u043e\u0432\u0435\u045c\u0435 \u043a\u043e\u0433\u0430 \u045c\u0435 \u0438\u043c\u0430\u043c\u0435 \u043e\u0431\u0435\u043c\u043d\u0438 \u0442\u0435\u0441\u0442\u0438\u0440\u0430\u045a\u0430 \u0438 \u0441\u0442\u0443\u0434\u0438\u0438 \u043c\u0435\u0453\u0443 \u043b\u0443\u0453\u0435\u0442\u043e."
+            ]
+          }
+        },
+        "tur": {
+          "30bea4a3-2395-4313-8b76-b19c8a60cbb5": {
+            "text": [
+              "\u00c7al\u0131\u015fmalar devam etmektedir ancak KOV\u0130D-19 yeni bir hastal\u0131k oldu\u011fu i\u00e7in bu ve di\u011fer sonu\u00e7lara varmadan \u00f6nce daha fazla veriye ihtiyac\u0131m\u0131z var. "
+            ]
+          },
+          "2b7db4a8-a889-48cc-b44d-21f0f4120f20": {
+            "text": [
+              "\u015eu anda hastal\u0131\u011f\u0131 atlatm\u0131\u015f olan birinin hastal\u0131\u011fa ba\u011f\u0131\u015f\u0131kl\u0131k derecesi bilinmemektedir."
+            ]
+          },
+          "1abca14f-d879-45ef-a7e0-61f875414a93": {
+            "text": [
+              "Daha geni\u015f \u00e7apta testler yap\u0131p insanlar aras\u0131nda \u00e7al\u0131\u015fmalar y\u00fcr\u00fctt\u00fck\u00e7e daha fazla bilgiye sahip olaca\u011f\u0131z."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 38
+      },
+      "name": "Reinfection",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "11832916-7b03-421e-9e85-f45e9474fb8f",
+      "revision": 39,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "As COVID-19 is a new disease, studies are underway but we need more data to draw this and other conclusions.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "30bea4a3-2395-4313-8b76-b19c8a60cbb5"
+            },
+            {
+              "attachments": [],
+              "text": "At the moment the level of immunity developed in a person who has had the disease is uncertain.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "2b7db4a8-a889-48cc-b44d-21f0f4120f20"
+            },
+            {
+              "attachments": [],
+              "text": "We will know more when we have large-scale tests and studies among people.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "1abca14f-d879-45ef-a7e0-61f875414a93"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "e3b14174-8e63-4d38-a33d-53e86ca289ca"
+            }
+          ],
+          "uuid": "a17c251b-44b0-487d-9511-13131b61d5b6"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

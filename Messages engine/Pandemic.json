@@ -1,0 +1,473 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "223ad08d-1d1f-4dbb-8c1c-d0c87cdcd2e6": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 440,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "342bbb9e-7267-4cb6-9dc0-75646b7172d9": {
+            "config": {},
+            "position": {
+              "left": 220,
+              "top": 60
+            },
+            "type": "split_by_subflow"
+          },
+          "e2478fee-3f47-436b-8067-49f2558e1442": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 440,
+              "top": 160
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "01982637-423f-4ce2-b88e-6e70e7bfbc53": {
+            "config": {},
+            "position": {
+              "left": 220,
+              "top": 220
+            },
+            "type": "split_by_subflow"
+          },
+          "f3d5b293-4905-44c6-885d-6cd720a5f360": {
+            "position": {
+              "left": 220,
+              "top": 360
+            },
+            "type": "execute_actions"
+          },
+          "d99ef260-7d6d-464d-9801-e452966cbfaa": {
+            "position": {
+              "left": 440,
+              "top": 360
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "ell": {
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              "\u03c4\u03ad\u03bb\u03bf\u03c2"
+            ]
+          },
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              ""
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              "\u03bc\u03ac\u03b8\u03b7\u03bc\u03b1"
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fffbae0-bf5d-43b5-90a9-6df410e2f573": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "f4bdbd48-1e31-4540-b384-91bba07917f6": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          }
+        },
+        "mkd": {
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              "\u043a\u0440\u0430\u0458"
+            ]
+          },
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              ""
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              "\u043f\u043e\u0443\u043a\u0430"
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              " "
+            ]
+          },
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              " fine"
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              "lezione"
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              "fin"
+            ]
+          },
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              ""
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              "lecci\u00f3n"
+            ]
+          }
+        },
+        "rus": {
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              ""
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "kaz": {
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              ""
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              ""
+            ]
+          },
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              "\u0441\u043e\u04a3\u044b"
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              "\u0421\u0430\u0431\u0430\u049b"
+            ]
+          }
+        },
+        "tur": {
+          "7c843d70-d54d-4c86-bd08-f3bc52b07ad3": {
+            "name": [
+              "son"
+            ]
+          },
+          "8fffbae0-bf5d-43b5-90a9-6df410e2f573": {
+            "name": [
+              "di\u011fer"
+            ]
+          },
+          "80612d5a-206d-4e8d-959e-2a4ca3a6a421": {
+            "arguments": [
+              " son"
+            ]
+          },
+          "fa70b739-38ae-4231-b681-2e91a6aeb76e": {
+            "name": [
+              " lessons learned"
+            ]
+          },
+          "f4bdbd48-1e31-4540-b384-91bba07917f6": {
+            "name": [
+              "di\u011fer"
+            ]
+          },
+          "47e454f0-4eae-485d-90e3-5dbfa7748e54": {
+            "arguments": [
+              " lessons learned"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 56
+      },
+      "name": "Pandemic",
+      "nodes": [
+        {
+          "uuid": "223ad08d-1d1f-4dbb-8c1c-d0c87cdcd2e6",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "8fffbae0-bf5d-43b5-90a9-6df410e2f573",
+            "categories": [
+              {
+                "exit_uuid": "72eccfec-e3aa-43ef-b300-e7ec771cd6fe",
+                "name": "End",
+                "uuid": "7c843d70-d54d-4c86-bd08-f3bc52b07ad3"
+              },
+              {
+                "exit_uuid": "6be29ad3-454e-411b-88f7-9fb6eab238c0",
+                "name": "Other",
+                "uuid": "8fffbae0-bf5d-43b5-90a9-6df410e2f573"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "end"
+                ],
+                "type": "has_any_word",
+                "uuid": "80612d5a-206d-4e8d-959e-2a4ca3a6a421",
+                "category_uuid": "7c843d70-d54d-4c86-bd08-f3bc52b07ad3"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "342bbb9e-7267-4cb6-9dc0-75646b7172d9",
+              "uuid": "72eccfec-e3aa-43ef-b300-e7ec771cd6fe"
+            },
+            {
+              "destination_uuid": "e2478fee-3f47-436b-8067-49f2558e1442",
+              "uuid": "6be29ad3-454e-411b-88f7-9fb6eab238c0"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Pandemic ends",
+                "uuid": "8ae7aae6-b48b-4a98-b57d-97787dc2a46b"
+              },
+              "type": "enter_flow",
+              "uuid": "140fa8ce-5397-4b84-9c21-4a542ddc4cf2"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f3d5b293-4905-44c6-885d-6cd720a5f360",
+              "uuid": "849cb59e-68d1-4646-8ef7-567e62ed528a"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "19e9e95f-c932-4daa-9290-da3254f85646"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "5e7bb2e8-5ff8-4049-8fc2-80f92b433d75",
+                "type": "has_only_text",
+                "uuid": "68eae5ea-0673-4660-9b26-2d8f8d0e8f17"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "52ca2906-0db4-44dc-82b8-afd5b51dc847",
+                "type": "has_only_text",
+                "uuid": "26faa84b-3852-4ffe-9658-9d3cb30e4331"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "849cb59e-68d1-4646-8ef7-567e62ed528a",
+                "name": "Complete",
+                "uuid": "5e7bb2e8-5ff8-4049-8fc2-80f92b433d75"
+              },
+              {
+                "exit_uuid": "19e9e95f-c932-4daa-9290-da3254f85646",
+                "name": "Expired",
+                "uuid": "52ca2906-0db4-44dc-82b8-afd5b51dc847"
+              }
+            ],
+            "default_category_uuid": "52ca2906-0db4-44dc-82b8-afd5b51dc847",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "342bbb9e-7267-4cb6-9dc0-75646b7172d9"
+        },
+        {
+          "uuid": "e2478fee-3f47-436b-8067-49f2558e1442",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "f4bdbd48-1e31-4540-b384-91bba07917f6",
+            "categories": [
+              {
+                "exit_uuid": "e1b38dc2-5ff2-40ba-a6e5-1e4dca0bfc71",
+                "name": "Lesson",
+                "uuid": "fa70b739-38ae-4231-b681-2e91a6aeb76e"
+              },
+              {
+                "exit_uuid": "d878a0d4-7faf-4bf6-83bc-2113ca5e7519",
+                "name": "Other",
+                "uuid": "f4bdbd48-1e31-4540-b384-91bba07917f6"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "lesson"
+                ],
+                "type": "has_any_word",
+                "uuid": "47e454f0-4eae-485d-90e3-5dbfa7748e54",
+                "category_uuid": "fa70b739-38ae-4231-b681-2e91a6aeb76e"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "01982637-423f-4ce2-b88e-6e70e7bfbc53",
+              "uuid": "e1b38dc2-5ff2-40ba-a6e5-1e4dca0bfc71"
+            },
+            {
+              "destination_uuid": "d99ef260-7d6d-464d-9801-e452966cbfaa",
+              "uuid": "d878a0d4-7faf-4bf6-83bc-2113ca5e7519"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Lessons",
+                "uuid": "8287dc1a-0e62-4127-985b-d60a09f46137"
+              },
+              "type": "enter_flow",
+              "uuid": "9cb872ed-2a4d-4f9e-8881-be443339ec32"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "f3d5b293-4905-44c6-885d-6cd720a5f360",
+              "uuid": "66277693-f2c5-415a-a9dd-c276f3510c00"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "0ac601ea-60bd-4ce1-a14c-cd967a9f5962"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "3ac7b2c6-52e4-4a7f-858c-b3ed589667c7",
+                "type": "has_only_text",
+                "uuid": "4b74b9b2-a4d6-4558-acf1-bece3a509402"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "73c2788f-a329-41a6-81b9-113101897b9a",
+                "type": "has_only_text",
+                "uuid": "ce436989-c058-4e6d-92ca-ec73201706da"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "66277693-f2c5-415a-a9dd-c276f3510c00",
+                "name": "Complete",
+                "uuid": "3ac7b2c6-52e4-4a7f-858c-b3ed589667c7"
+              },
+              {
+                "exit_uuid": "0ac601ea-60bd-4ce1-a14c-cd967a9f5962",
+                "name": "Expired",
+                "uuid": "73c2788f-a329-41a6-81b9-113101897b9a"
+              }
+            ],
+            "default_category_uuid": "73c2788f-a329-41a6-81b9-113101897b9a",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "01982637-423f-4ce2-b88e-6e70e7bfbc53"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "6b245895-8da8-42f9-bcf5-7f1f87bd8459",
+              "value": "off"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "37635e5b-9114-4bdd-a563-3b781d1c0877"
+            }
+          ],
+          "uuid": "f3d5b293-4905-44c6-885d-6cd720a5f360"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "d7414677-3ecd-4dcb-b533-462d85a3848f",
+              "value": "on"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "ec79454a-92b9-497d-9af5-a967c8e9269e"
+            }
+          ],
+          "uuid": "d99ef260-7d6d-464d-9801-e452966cbfaa"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "f17d61be-0398-40d3-97c9-d9947efd0182",
+      "revision": 58
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

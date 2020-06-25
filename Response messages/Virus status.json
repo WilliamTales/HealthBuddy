@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Virus status",
+      "uuid": "c0e9bb2d-dd1d-4f5f-a93a-7c25c5e5a6e3",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "nodes": [
+        {
+          "uuid": "47e00d0a-e3df-4b75-adac-bb41b1493e1c",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "The actual numbers about Coronavirus are: @globals.total_confirmed people are confirmed to be infected, @globals.total_deaths deaths have been registered and @globals.total_recovered are recovered from the illness. (as of @(date(today()))).",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "585ec256-f534-4176-956b-00f45dd642c4"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "c9ab2823-e2c7-49a5-a7e9-a980e1a83d62",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "_ui": {
+        "nodes": {
+          "47e00d0a-e3df-4b75-adac-bb41b1493e1c": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 12,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 11
+      },
+      "localization": {
+        "por": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "Os dados atuais do Coronav\u00edrus s\u00e3o: @globals.total_confirmed pessoas foram diagnosticadas, @globals.total_deaths mortes foram registradas e @globals.total_recovered se recuperaram da doen\u00e7a. (informa\u00e7\u00f5es atualizadas @(date(today())))."
+            ]
+          }
+        },
+        "ell": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "\u039f \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc\u03c2 \u03c3\u03b5 \u03b1\u03c1\u03b9\u03b8\u03bc\u03bf\u03cd\u03c2:\n@globals.total_confirmed \u03b5\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03b9\u03c9\u03bc\u03ad\u03bd\u03b1 \u03ba\u03c1\u03bf\u03cd\u03c3\u03bc\u03b1\u03c4\u03b1, @globals.total_deaths \u03b4\u03b7\u03bb\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf\u03b9 \u03ba\u03b1\u03b9 @globals.total_recovered \u03ad\u03c7\u03bf\u03c5\u03bd \u03b1\u03bd\u03b1\u03c1\u03c1\u03ce\u03c3\u03b5\u03b9 \u03b1\u03c0\u03cc \u03c4\u03b7 \u03bd\u03cc\u03c3\u03bf."
+            ]
+          }
+        },
+        "mkd": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0438\u0442\u0435 \u0431\u0440\u043e\u0458\u043a\u0438 \u0437\u0430 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u0441\u0435: \n@globals.total_confirmed \u043b\u0438\u0446\u0430 \u0441\u0435 \u043f\u043e\u0442\u0432\u0440\u0434\u0435\u043d\u0438 \u0434\u0435\u043a\u0430 \u0441\u0435 \u0437\u0430\u0440\u0430\u0437\u0435\u043d\u0438, \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u0430\u043d\u0438 \u0441\u0435 @globals.total_deaths deaths \u0441\u043c\u0440\u0442\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438, \u0430 @globals.total_recovered  \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0430\u043b\u0435 \u043e\u0434 \u0431\u043e\u043b\u0435\u0441\u0442\u0430. (as of @(date(today()))).\n"
+            ]
+          }
+        },
+        "rus": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "\u0410\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u044b\u0435 \u0446\u0438\u0444\u0440\u044b \u043f\u043e \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0443:\n\u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u043e, \u0447\u0442\u043e \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u044b @globals.total_confirmed  \u0447\u0435\u043b\u043e\u0432\u0435\u043a,  \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u044b @globals.total_deaths \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0441\u043c\u0435\u0440\u0442\u0438 \u0438 @globals.total_recovered \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0432\u044b\u043b\u0435\u0447\u0438\u043b\u0438\u0441\u044c \u043e\u0442 \u0431\u043e\u043b\u0435\u0437\u043d\u0438. (as of @(date(today()))).\n"
+            ]
+          }
+        },
+        "kaz": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0442\u0443\u0440\u0430\u043b\u044b \u043d\u0430\u049b\u0442\u044b \u0441\u0430\u043d\u0434\u0430\u0440:\n@globals.total_confirmed \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d\u044b \u0440\u0430\u0441\u0442\u0430\u043b\u0434\u044b, @globals.total_deaths \u04e9\u043b\u0456\u043c \u0442\u0456\u0440\u043a\u0435\u043b\u0434\u0456 \u0436\u04d9\u043d\u0435 @globals.total_recovered \u0430\u0443\u0440\u0443\u0434\u0430\u043d \u0430\u0439\u044b\u049b\u0442\u044b. (as of @(date(today()))).\n"
+            ]
+          }
+        },
+        "ita": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "I numeri attuali del coronavirus  sono:\n@globals.total_confirmed casi positivi , @globals.total_deaths deaths deceduti  , @globals.total_recovered  guariti. (as of @(date(today())))."
+            ]
+          }
+        },
+        "spa": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "Los n\u00fameros actuales del coronavirus son:\n@globals.total_confirmed casos confirmados, @globals.total_deaths fallecimientos registrados, @globals.total_recovered han recuperado. (as of @(date(today())))."
+            ]
+          }
+        },
+        "tur": {
+          "585ec256-f534-4176-956b-00f45dd642c4": {
+            "text": [
+              "Koronavir\u00fcsle ilgili mevcut say\u0131lar \u015f\u00f6yledir: @globals.total_confirmed ki\u015fiye bula\u015ft\u0131\u011f\u0131 do\u011frulanm\u0131\u015f, @globals.total_deaths say\u0131da \u00f6l\u00fcm kayda ge\u00e7mi\u015f ve @globals.total_recovered say\u0131da ki\u015fi iyile\u015fmi\u015ftir. (as of @(date(today())))"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

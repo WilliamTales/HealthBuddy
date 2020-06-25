@@ -1,0 +1,2525 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "f96720b0-f66a-49df-b32b-b101ed43e002": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 140,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "87f4fefa-2d34-4e2a-bbc6-3ef4f2c1298b": {
+            "config": {},
+            "position": {
+              "left": 60,
+              "top": 120
+            },
+            "type": "split_by_subflow"
+          },
+          "19bd90ed-45a8-40b5-9f1b-96f38f992960": {
+            "config": {},
+            "position": {
+              "left": 300,
+              "top": 120
+            },
+            "type": "split_by_subflow"
+          },
+          "f1960c05-04cb-48b0-8ceb-cb3ebcd96478": {
+            "config": {},
+            "position": {
+              "left": 540,
+              "top": 120
+            },
+            "type": "split_by_subflow"
+          },
+          "8dc89794-ec8a-4e9b-81f7-1a3ecb4f76b3": {
+            "config": {},
+            "position": {
+              "left": 140,
+              "top": 260
+            },
+            "type": "split_by_subflow"
+          },
+          "6decb259-5e2b-47df-a52b-601115fd58ce": {
+            "config": {},
+            "position": {
+              "left": 380,
+              "top": 280
+            },
+            "type": "split_by_subflow"
+          },
+          "72e09df1-663e-4bfd-bfdf-59cd56e073f5": {
+            "config": {},
+            "position": {
+              "left": 620,
+              "top": 280
+            },
+            "type": "split_by_subflow"
+          },
+          "129257b4-9f21-4a5c-86dd-b9bb267c3b2c": {
+            "config": {},
+            "position": {
+              "left": 220,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "2faafc96-e206-4441-af50-0f6f1fe00653": {
+            "config": {},
+            "position": {
+              "left": 460,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "23ab1ac1-deed-4773-b095-3dd2759f0f52": {
+            "config": {},
+            "position": {
+              "left": 700,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "431180f7-61c6-46b5-93a5-9545b373fd72": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 260,
+              "top": 560
+            },
+            "type": "split_by_expression"
+          },
+          "248c69ab-bfc1-455f-b6bc-1575e970b677": {
+            "config": {},
+            "position": {
+              "left": 160,
+              "top": 660
+            },
+            "type": "split_by_subflow"
+          },
+          "9dabc3d8-d77d-4a53-93de-dfd2c9813445": {
+            "config": {},
+            "position": {
+              "left": 400,
+              "top": 660
+            },
+            "type": "split_by_subflow"
+          },
+          "a97e387e-2342-4d11-9f4a-18af9754ce49": {
+            "config": {},
+            "position": {
+              "left": 640,
+              "top": 660
+            },
+            "type": "split_by_subflow"
+          },
+          "4c61cd32-b0d9-4041-8b85-cb205ba7154d": {
+            "config": {},
+            "position": {
+              "left": 880,
+              "top": 660
+            },
+            "type": "split_by_subflow"
+          },
+          "cb8ba381-1263-43ae-934a-1302b43b082d": {
+            "config": {},
+            "position": {
+              "left": 220,
+              "top": 800
+            },
+            "type": "split_by_subflow"
+          },
+          "7e2f1902-cdb2-405b-86c4-8527a8570186": {
+            "config": {},
+            "position": {
+              "left": 460,
+              "top": 800
+            },
+            "type": "split_by_subflow"
+          },
+          "f1b7f9f1-d39a-4302-b2d3-20ea169599ec": {
+            "config": {},
+            "position": {
+              "left": 720,
+              "top": 800
+            },
+            "type": "split_by_subflow"
+          },
+          "41f859c3-14d6-4494-a7f6-b444e59323e7": {
+            "config": {},
+            "position": {
+              "left": 320,
+              "top": 940
+            },
+            "type": "split_by_subflow"
+          },
+          "5d76cce0-6cf6-4809-b752-e377a7d0d581": {
+            "config": {},
+            "position": {
+              "left": 560,
+              "top": 940
+            },
+            "type": "split_by_subflow"
+          },
+          "b1b5b2f1-571a-4ed4-8d33-efd1372e27f3": {
+            "config": {},
+            "position": {
+              "left": 800,
+              "top": 940
+            },
+            "type": "split_by_subflow"
+          },
+          "fab7ae19-e4c1-4461-8dcf-16e812f20ea0": {
+            "position": {
+              "left": 20,
+              "top": 1180
+            },
+            "type": "execute_actions"
+          },
+          "e644eb53-a39f-4cf9-bb0f-9005bed3d37b": {
+            "position": {
+              "left": 340,
+              "top": 1180
+            },
+            "type": "execute_actions"
+          },
+          "c584b698-076f-4f9e-8b3a-5cf58b78925d": {
+            "position": {
+              "left": 1040,
+              "top": 1180
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {}
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "ell": {
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "\u039d\u03b1 \u03c0\u03ac\u03c1\u03c9 ibuprofen;"
+            ]
+          },
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "\u03a6\u03ae\u03bc\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c8\u03b5\u03c5\u03b4\u03b5\u03af\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "\u03a4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03c3\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03bf\u03c3\u03c4\u03b1\u03c3\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7;"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "\u03a0\u03cc\u03c3\u03bf \u03b5\u03c0\u03b9\u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2;"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "\u03a0\u03ce\u03c2 \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bf COVID-19;"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "\u03a0\u03bf\u03b9\u03b5\u03c2 \u03c6\u03ae\u03bc\u03b5\u03c2 \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03bf\u03cd\u03bd;"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1;"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "\u0393\u03c1\u03b1\u03bc\u03bc\u03ae \u03c5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7\u03c2"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u039d\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03bc\u03ac\u03c3\u03ba\u03b1;"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "\u039d\u03b1 \u03c0\u03ac\u03c1\u03c9 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac;"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "\u039a\u03b1\u03c4\u03ac\u03b3\u03b3\u03b5\u03b9\u03bb\u03b5 \u03c6\u03ae\u03bc\u03b5\u03c2/ \u03c8\u03b5\u03c5\u03b4\u03ad\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2"
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "\u03a0\u03ce\u03c2 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03c9 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1;"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "\u03a0\u03ce\u03c2 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1;"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "\u038c\u03c7\u03b9, \u03b5\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce."
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1;"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "\u03a5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf;"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03b1\u03bb\u03ae\u03b8\u03b5\u03b9\u03b5\u03c2"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "\u039d\u03b1 \u03b1\u03bd\u03b7\u03c3\u03c5\u03c7\u03ce;"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "\u0388\u03c7\u03bf\u03c5\u03bd \u03ba\u03ac\u03c0\u03bf\u03b9\u03bf\u03b9 \u03b1\u03bd\u03bf\u03c3\u03af\u03b1 \u03c3\u03c4\u03bf\u03bd COVID-19;"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03b3\u03c1\u03b1\u03bc\u03bc\u03ae \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1\u03c2 \u03c3\u03c4\u03b7 \u03c7\u03ce\u03c1\u03b1 \u03bc\u03bf\u03c5;"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "\u03a0\u03bf\u03b9\u03bf\u03b9 \u03ba\u03b9\u03bd\u03b4\u03c5\u03bd\u03b5\u03cd\u03bf\u03c5\u03bd \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03bf;"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "\u03a0\u03ce\u03c2 \u03bc\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03ce;"
+            ]
+          }
+        },
+        "ita": {
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "voci/notizie false"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "Come si diffonde il virus?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "Hotline"
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "Come devo lavarmi le mani?"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "Come indossare una maschera"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "Quali sono i miti"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "Dovrei essere preoccupato"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "le persone sono immuni?"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "Qual \u00e8 la hotline nel mio paese?"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "Chi \u00e8 pi\u00f9 a rischio?"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "Come posso proteggermi?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "No, grazie, basta cos\u00ec."
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u041c\u0435\u043d \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u043a\u0438\u0456\u0443\u0456\u043c \u049b\u0430\u0436\u0435\u0442 \u043f\u0435?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "Quali sono i miti?"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "Segnalare voci/notizie false."
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "Quali sono i sintomi?"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "Esiste un vaccino?"
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "Qual \u00e8 il trattamento?"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "Posso prendere antibiotici?"
+            ]
+          },
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "Posso prendere ibuprofene?"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "Quanto \u00e8 grave il virus?"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "Cosa significa distanziamento fisico?"
+            ]
+          }
+        },
+        "kaz": {
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "\u0416\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u043c\u0435\u043d \u049b\u0430\u0443\u0435\u0441\u0435\u0442\u0442\u0435\u0440"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "\u0412\u0438\u0440\u0443\u0441 \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "\u049a\u0430\u043d\u0434\u0430\u0439 \u043c\u0438\u0444\u0442\u0435\u0440 \u0431\u0430\u0440?"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "\u041e\u043d\u044b\u04a3 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0434\u0430\u0440\u044b \u049b\u0430\u043d\u0434\u0430\u0439?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "\u0441\u0435\u043d\u0456\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u0430\u043b\u0430\u0439 \u043a\u0438\u044e \u043a\u0435\u0440\u0435\u043a?"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "\u0412\u0438\u0440\u0443\u0441 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u0438\u0444"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "\u041c\u0430\u0493\u0430\u043d \u0430\u043b\u0430\u04a3\u0434\u0430\u0443 \u043a\u0435\u0440\u0435\u043a \u043f\u0435?"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "\u0410\u0434\u0430\u043c\u0434\u0430\u0440 COVID-19-\u0434\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0430\u0434\u044b \u043c\u0430?"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "\u0415\u04a3 \u043e\u0441\u0430\u043b \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u043a\u0456\u043c\u0434\u0435\u0440?"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "\u041c\u0435\u043d \u04e9\u0437\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "\u0416\u043e\u049b, \u043c\u0435\u043d \u0430\u044f\u049b\u0442\u0430\u0434\u044b\u043c"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u041c\u0435\u043d \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u043a\u0438\u0456\u0443\u0456\u043c \u049b\u0430\u0436\u0435\u0442 \u043f\u0435?"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "\u041c\u0435\u043d \u0435\u043b\u0456\u043c\u0434\u0435\u0433\u0456 \u0436\u0435\u0434\u0435\u043b \u0436\u0435\u043b\u0456\u043b\u0435\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u043b\u0433\u0456\u043c \u043a\u0435\u043b\u0435\u0434\u0456."
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "\u041c\u0435\u043d \u0444\u0435\u0439\u043a/\u0436\u0430\u043b\u0493\u0430\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u0442\u044b \u0436\u0435\u0442\u043a\u0456\u0437\u0433\u0456\u043c \u043a\u0435\u043b\u0435\u0434\u0456."
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "\u041c\u0435\u043d \u049b\u043e\u043b\u044b\u043c\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0436\u0443\u0443\u044b\u043c \u043a\u0435\u0440\u0435\u043a?"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "\u0412\u0430\u043a\u0446\u0438\u043d\u0430 \u0431\u0430\u0440 \u043c\u0430?"
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "\u0415\u043c\u0434\u0435\u0443 \u0436\u043e\u043b\u0434\u0430\u0440\u044b \u049b\u0430\u043d\u0434\u0430\u0439?"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b \u043c\u0430?"
+            ]
+          },
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "\u0418\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0441\u0430\u043c \u0431\u043e\u043b\u0430\u0434\u044b \u043c\u0430?"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "\u0412\u0438\u0440\u0443\u0441 \u04e9\u0442\u0435 \u049b\u0430\u0443\u0456\u043f\u0442\u0456 \u043c\u0435?"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "\u0424\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b \u0434\u0435\u0433\u0435\u043d \u043d\u0435?"
+            ]
+          }
+        },
+        "por": {
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "Posso usar ibuprofeno?"
+            ]
+          },
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "Fake News e Rumores"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "O que \u00e9 distanciamento f\u00edsico?"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "Qual a gravidade desse v\u00edrus?"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "Como o v\u00edrus se espalha?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "Quais s\u00e3o os mitos?"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "Quais s\u00e3o os sintomas?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "Linha direta"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "Devo usar m\u00e1scaras?"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "Posso usar antibi\u00f3ticos?"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "Fake news e rumores"
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "Como lavar as m\u00e3os?"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "Como usar m\u00e1scaras?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "N\u00e3o, at\u00e9 logo"
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "Qual o tratamento?"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "Existe uma vacina?"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "Mitos sobre o v\u00edrus"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "Devo me preocupar?"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "Existem pessoas imunes ao COVID-19?"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "Qual a linha direta no meu pa\u00eds?"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "Quem corre mais perigo?"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "Como me proteger?"
+            ]
+          }
+        },
+        "rus": {
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "\u041a\u0430\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "\u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "\u041a\u0430\u043a\u043e\u0432\u044b \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "\u0433\u043e\u0440\u044f\u0447\u0430\u044f \u043b\u0438\u043d\u0438\u044f"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u0414\u043e\u043b\u0436\u0435\u043d \u043b\u0438 \u044f \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443?"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "\u041a\u0430\u043a \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0443 \u043c\u0435\u043d\u044f \u0432\u0441\u0435."
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "\u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "\u042f \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u0442\u044c\u0441\u044f?"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "\u042f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u043b\u0438 \u043b\u044e\u0434\u0438 \u043d\u0435\u0432\u043e\u0441\u043f\u0440\u0438\u0438\u043c\u0447\u0438\u0432\u044b\u043c\u0438 \u043a COVID-19?"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "\u0433\u043e\u0440\u044f\u0447\u0430\u044f \u043b\u0438\u043d\u0438\u044f"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "\u041a\u0442\u043e \u043f\u043e\u0434\u0432\u0435\u0440\u0433\u0430\u0435\u0442\u0441\u044f \u043d\u0430\u0438\u0431\u043e\u043b\u044c\u0448\u0435\u043c\u0443 \u0440\u0438\u0441\u043a\u0443?"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f?"
+            ]
+          }
+        },
+        "spa": {
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "\u00bfPuedo tomar ibuprofeno?"
+            ]
+          },
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "Noticias falsas y bulos"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "\u00bfQu\u00e9 es el distanciamiento f\u00edsico?"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "\u00bfQu\u00e9 tan malo es el virus?"
+            ]
+          },
+          "2c7b5b71-eb2e-4a44-82c1-03c389196ada": {
+            "arguments": [
+              "\u00bfC\u00f3mo se transmite el virus?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "\u00bfCu\u00e1les son los mitos?"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "\u00bfCu\u00e1les son los s\u00edntomas?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "L\u00edneas directas"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u00bfDebo usar una mascarilla?"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "\u00bfPuedo tomar antibi\u00f3ticos?"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "Denuncia rumores / noticias falsas"
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "\u00bfC\u00f3mo debo lavarme las manos?"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "\u00bfC\u00f3mo utilizar una mascarilla?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "No, nada m\u00e1s"
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "\u00bfCu\u00e1l es el tratamiento?"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "\u00bfHay vacuna?"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "Mitos sobre el virus"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "\u00bfDebo preocuparme?"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "\u00bfHay personas inmunes al COVID-19?"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "\u00bfCu\u00e1l es la l\u00ednea directa en mi pa\u00eds?"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "\u00bfQui\u00e9n tiene mayor riesgo?"
+            ]
+          },
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "\u00bfC\u00f3mo me puedo proteger?"
+            ]
+          }
+        },
+        "mkd": {
+          "f01dd2ef-a7cd-4022-95fe-fe560620216c": {
+            "arguments": [
+              "\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c?"
+            ]
+          },
+          "7df1ad31-8497-40eb-887b-2577d68087d4": {
+            "arguments": [
+              "\u041a\u0430\u043a\u043e \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?"
+            ]
+          },
+          "be401e89-a5b7-427d-8afa-4c0215a0141d": {
+            "arguments": [
+              "\u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442"
+            ]
+          },
+          "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8": {
+            "arguments": [
+              "\u041a\u043e\u0438 \u0441\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435?"
+            ]
+          },
+          "458b0fe2-8449-4028-b39d-7470cc94c985": {
+            "arguments": [
+              "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0441\u043a\u0438 \u043b\u0438\u043d\u0438\u0438 \u0437\u0430 \u043f\u043e\u043c\u043e\u0448"
+            ]
+          },
+          "0d2e82fe-50ae-46f5-9efe-39502fe5a75e": {
+            "arguments": [
+              "\u041b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438 \u0438 \u0433\u043b\u0430\u0441\u0438\u043d\u0438"
+            ]
+          },
+          "c740981e-0018-4da8-8273-5ca6fac28f1d": {
+            "arguments": [
+              "\u0422\u0440\u0435\u0431\u0430 \u043b\u0438 \u0434\u0430 \u0441\u0435 \u0437\u0430\u0433\u0440\u0438\u0436\u0430\u043c?"
+            ]
+          },
+          "e6c10ef3-36ad-41fa-97fe-9c52d8712d93": {
+            "arguments": [
+              "\u041a\u043e\u0458 \u0435 \u0432\u043e \u043d\u0430\u0458\u0433\u043e\u043b\u0435\u043c \u0440\u0438\u0437\u0438\u043a?"
+            ]
+          },
+          "d1c3f270-e2c2-4234-a19e-260fa8987716": {
+            "arguments": [
+              "\u0414\u0430\u043b\u0438 \u043b\u0443\u0453\u0435\u0442\u043e \u0441\u0435 \u0438\u043c\u0443\u043d\u0438 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19?"
+            ]
+          },
+          "8d5b1858-387b-47be-b0b8-b5ebee4231c4": {
+            "arguments": [
+              "\u041d\u0435, \u0437\u0430\u0432\u0440\u0448\u0438\u0432"
+            ]
+          },
+          "55bbbc8d-b87b-45a5-9092-8931148f9c0f": {
+            "arguments": [
+              "\u0422\u0440\u0435\u0431\u0430 \u043b\u0438 \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?"
+            ]
+          },
+          "7d532a6a-71a2-49c6-9a13-1b4d7c07acee": {
+            "arguments": [
+              "\u041a\u0430\u043a\u043e \u0434\u0430 \u0433\u0438 \u043c\u0438\u0458\u0430\u043c \u0440\u0430\u0446\u0435\u0442\u0435?"
+            ]
+          },
+          "327d3172-73cb-4953-a21e-e08cc6864781": {
+            "arguments": [
+              "\u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442"
+            ]
+          },
+          "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135": {
+            "arguments": [
+              "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0441\u043a\u0430 \u043b\u0438\u043d\u0438\u0458\u0430 \u0437\u0430 \u043f\u043e\u043c\u043e\u0448"
+            ]
+          },
+          "5eec3751-7b74-43ee-88af-47bdcaf82ced": {
+            "arguments": [
+              "\u041f\u0440\u0438\u0458\u0430\u0432\u0435\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 / \u043b\u0430\u0436\u043d\u0438"
+            ]
+          },
+          "b26b00f6-4703-40b1-a993-d7514d6225df": {
+            "arguments": [
+              "\u0418\u043c\u0430 \u043b\u0438 \u0432\u0430\u043a\u0446\u0438\u043d\u0430?"
+            ]
+          },
+          "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8": {
+            "arguments": [
+              "\u041a\u0430\u043a\u0432\u043e \u0435 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435\u0442\u043e?"
+            ]
+          },
+          "5a1aa95b-52f7-4918-be8e-c9eff4478f95": {
+            "arguments": [
+              "\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043c \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438?"
+            ]
+          },
+          "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5": {
+            "arguments": [
+              "\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043c \u0438\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d?"
+            ]
+          },
+          "2693514e-c503-46f7-a130-59c13b80a97c": {
+            "arguments": [
+              "\u041a\u043e\u043b\u043a\u0443 \u0435 \u043b\u043e\u0448 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?"
+            ]
+          },
+          "108c8080-155a-4896-a03c-d283528ef205": {
+            "arguments": [
+              "\u0428\u0442\u043e \u0435 \u0444\u0438\u0437\u0438\u0447\u043a\u043e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u0430\u045a\u0435?"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 11
+      },
+      "name": "temporary Quick-replies",
+      "nodes": [
+        {
+          "uuid": "f96720b0-f66a-49df-b32b-b101ed43e002",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "380cc9d8-ff6b-42a7-96ab-9a77c73c5296",
+            "categories": [
+              {
+                "exit_uuid": "a8115762-2425-4978-92e9-f27d581854ff",
+                "name": "Finish",
+                "uuid": "4286bcb0-c6d5-4e42-a866-2902ec34177d"
+              },
+              {
+                "exit_uuid": "1f5e1d5e-e724-4b7d-9f36-9a8a4df7d354",
+                "name": "How mask",
+                "uuid": "144a2da3-209c-4a0c-9c62-b51def3378bc"
+              },
+              {
+                "exit_uuid": "f7d1e2bc-d091-4a1e-882a-0b1a0b9d3bb7",
+                "name": "Should Mask",
+                "uuid": "967963cc-361e-4471-8956-36500d1d54b4"
+              },
+              {
+                "exit_uuid": "2982e15d-449d-4122-bd54-2ab1f3bc9a6e",
+                "name": "Myths",
+                "uuid": "a92f7bb6-db22-4153-9e1e-ed612c4b9914"
+              },
+              {
+                "exit_uuid": "5e4bf7a5-5afc-4d8b-84d3-6280c56b9193",
+                "name": "Hotlines",
+                "uuid": "7c7c4b4d-c057-41f5-ac0b-9303722ebe75"
+              },
+              {
+                "exit_uuid": "20021e15-694f-4961-9f10-c256a7995606",
+                "name": "Rumors",
+                "uuid": "5a0e07d3-07fc-4823-ac9e-3ee134ffcfde"
+              },
+              {
+                "exit_uuid": "23c27899-7902-480e-85e2-8d6b8bf45a70",
+                "name": "Worried",
+                "uuid": "491bc115-06ab-4049-ae8e-08c907781662"
+              },
+              {
+                "exit_uuid": "3dc56963-856f-4a05-a106-0d4338c8b280",
+                "name": "Risk",
+                "uuid": "942cebe5-0878-4f6f-bcd7-a4e7e1537031"
+              },
+              {
+                "exit_uuid": "1e19e834-2700-4540-a378-3806224c3ad8",
+                "name": "Immunity",
+                "uuid": "f446543e-baf5-482b-8eb9-fddb750d69c3"
+              },
+              {
+                "exit_uuid": "fdd16a16-d5a0-4ace-83c5-ec8d0e1ae685",
+                "name": "Other",
+                "uuid": "380cc9d8-ff6b-42a7-96ab-9a77c73c5296"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "No, I'm done"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "8d5b1858-387b-47be-b0b8-b5ebee4231c4",
+                "category_uuid": "4286bcb0-c6d5-4e42-a866-2902ec34177d"
+              },
+              {
+                "arguments": [
+                  "How to wear a mask?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "7df1ad31-8497-40eb-887b-2577d68087d4",
+                "category_uuid": "144a2da3-209c-4a0c-9c62-b51def3378bc"
+              },
+              {
+                "arguments": [
+                  "Should I wear a mask?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "55bbbc8d-b87b-45a5-9092-8931148f9c0f",
+                "category_uuid": "967963cc-361e-4471-8956-36500d1d54b4"
+              },
+              {
+                "arguments": [
+                  "Myths about the virus"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "be401e89-a5b7-427d-8afa-4c0215a0141d",
+                "category_uuid": "a92f7bb6-db22-4153-9e1e-ed612c4b9914"
+              },
+              {
+                "arguments": [
+                  "What are the myths?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "327d3172-73cb-4953-a21e-e08cc6864781",
+                "category_uuid": "a92f7bb6-db22-4153-9e1e-ed612c4b9914"
+              },
+              {
+                "arguments": [
+                  "Which is the hotline in my country?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "e316681b-7f9b-4c3e-8c5e-ca78cfdcf135",
+                "category_uuid": "7c7c4b4d-c057-41f5-ac0b-9303722ebe75"
+              },
+              {
+                "arguments": [
+                  "Hotlines"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "458b0fe2-8449-4028-b39d-7470cc94c985",
+                "category_uuid": "7c7c4b4d-c057-41f5-ac0b-9303722ebe75"
+              },
+              {
+                "arguments": [
+                  "Fake News and Rumors"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "0d2e82fe-50ae-46f5-9efe-39502fe5a75e",
+                "category_uuid": "5a0e07d3-07fc-4823-ac9e-3ee134ffcfde"
+              },
+              {
+                "arguments": [
+                  "Report rumors or fake news"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "5eec3751-7b74-43ee-88af-47bdcaf82ced",
+                "category_uuid": "5a0e07d3-07fc-4823-ac9e-3ee134ffcfde"
+              },
+              {
+                "arguments": [
+                  "Should I be worried?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "c740981e-0018-4da8-8273-5ca6fac28f1d",
+                "category_uuid": "491bc115-06ab-4049-ae8e-08c907781662"
+              },
+              {
+                "arguments": [
+                  "Who is most at risk?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "e6c10ef3-36ad-41fa-97fe-9c52d8712d93",
+                "category_uuid": "942cebe5-0878-4f6f-bcd7-a4e7e1537031"
+              },
+              {
+                "arguments": [
+                  "Are people immune to COVID-19?"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "d1c3f270-e2c2-4234-a19e-260fa8987716",
+                "category_uuid": "f446543e-baf5-482b-8eb9-fddb750d69c3"
+              }
+            ],
+            "operand": "@fields.message"
+          },
+          "exits": [
+            {
+              "destination_uuid": "87f4fefa-2d34-4e2a-bbc6-3ef4f2c1298b",
+              "uuid": "a8115762-2425-4978-92e9-f27d581854ff"
+            },
+            {
+              "destination_uuid": "8dc89794-ec8a-4e9b-81f7-1a3ecb4f76b3",
+              "uuid": "1f5e1d5e-e724-4b7d-9f36-9a8a4df7d354"
+            },
+            {
+              "destination_uuid": "129257b4-9f21-4a5c-86dd-b9bb267c3b2c",
+              "uuid": "f7d1e2bc-d091-4a1e-882a-0b1a0b9d3bb7"
+            },
+            {
+              "destination_uuid": "19bd90ed-45a8-40b5-9f1b-96f38f992960",
+              "uuid": "2982e15d-449d-4122-bd54-2ab1f3bc9a6e"
+            },
+            {
+              "destination_uuid": "6decb259-5e2b-47df-a52b-601115fd58ce",
+              "uuid": "5e4bf7a5-5afc-4d8b-84d3-6280c56b9193"
+            },
+            {
+              "destination_uuid": "2faafc96-e206-4441-af50-0f6f1fe00653",
+              "uuid": "20021e15-694f-4961-9f10-c256a7995606"
+            },
+            {
+              "destination_uuid": "f1960c05-04cb-48b0-8ceb-cb3ebcd96478",
+              "uuid": "23c27899-7902-480e-85e2-8d6b8bf45a70"
+            },
+            {
+              "destination_uuid": "72e09df1-663e-4bfd-bfdf-59cd56e073f5",
+              "uuid": "3dc56963-856f-4a05-a106-0d4338c8b280"
+            },
+            {
+              "destination_uuid": "23ab1ac1-deed-4773-b095-3dd2759f0f52",
+              "uuid": "1e19e834-2700-4540-a378-3806224c3ad8"
+            },
+            {
+              "destination_uuid": "431180f7-61c6-46b5-93a5-9545b373fd72",
+              "uuid": "fdd16a16-d5a0-4ace-83c5-ec8d0e1ae685"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Finishing",
+                "uuid": "bfaa5fa0-fa99-48fc-ae57-2defc41831a2"
+              },
+              "type": "enter_flow",
+              "uuid": "e151e066-cbd4-4460-8c72-8b6112bbeefa"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "fab7ae19-e4c1-4461-8dcf-16e812f20ea0",
+              "uuid": "1a4b15f1-a837-43e7-b377-58455e0b2d56"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "4540690c-dc76-402c-a25b-e283f7181d0a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "8c70d17c-0989-43d3-a2cc-c80f39fda869",
+                "type": "has_only_text",
+                "uuid": "62eb9a37-f555-4014-a0d1-0e3af832e973"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "bd72c24e-6c6c-4271-8c1a-a77774f545a5",
+                "type": "has_only_text",
+                "uuid": "25b81c91-8cee-4b62-8ad1-ce20232c0124"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1a4b15f1-a837-43e7-b377-58455e0b2d56",
+                "name": "Complete",
+                "uuid": "8c70d17c-0989-43d3-a2cc-c80f39fda869"
+              },
+              {
+                "exit_uuid": "4540690c-dc76-402c-a25b-e283f7181d0a",
+                "name": "Expired",
+                "uuid": "bd72c24e-6c6c-4271-8c1a-a77774f545a5"
+              }
+            ],
+            "default_category_uuid": "bd72c24e-6c6c-4271-8c1a-a77774f545a5",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "87f4fefa-2d34-4e2a-bbc6-3ef4f2c1298b"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths",
+                "uuid": "b5be2b3a-7c2f-471c-ae6f-7c470675a326"
+              },
+              "type": "enter_flow",
+              "uuid": "1508daee-4a82-4a7c-b3f3-401743ce3caa"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "1fa1a7c4-5c08-441b-bcce-dd1e143ddad0"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "d2a221aa-2fb3-417f-9fe1-5d15ac5d0533"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "4def16f1-ff90-4997-9272-290263ebcf0f",
+                "type": "has_only_text",
+                "uuid": "24effb16-8db0-4597-82c5-508f0570a1ae"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "dd5c8a7f-2c14-4887-9c42-a894147650c8",
+                "type": "has_only_text",
+                "uuid": "48efe9da-2b8c-45da-a7c2-a5ceeca2ada5"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1fa1a7c4-5c08-441b-bcce-dd1e143ddad0",
+                "name": "Complete",
+                "uuid": "4def16f1-ff90-4997-9272-290263ebcf0f"
+              },
+              {
+                "exit_uuid": "d2a221aa-2fb3-417f-9fe1-5d15ac5d0533",
+                "name": "Expired",
+                "uuid": "dd5c8a7f-2c14-4887-9c42-a894147650c8"
+              }
+            ],
+            "default_category_uuid": "dd5c8a7f-2c14-4887-9c42-a894147650c8",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "19bd90ed-45a8-40b5-9f1b-96f38f992960"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Worries",
+                "uuid": "3d9a9ebd-2685-43a9-b639-e294a05d93d0"
+              },
+              "type": "enter_flow",
+              "uuid": "2d3567ee-5014-4983-88de-1ca39f45191b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "8cf6088e-032f-4ca5-bb53-9c5faf4f1994"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "aa648fca-de49-42c1-9eb6-c3efd514d9ca"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "00a748a5-0e82-4679-87d4-b32d1b6bd549",
+                "type": "has_only_text",
+                "uuid": "ee3279eb-16f3-4d7b-9015-8a0e34bd5a7d"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "d1cd3e15-d9cf-4609-b948-6100f1d5b7c9",
+                "type": "has_only_text",
+                "uuid": "40dcc11c-5309-4dcb-86c5-30529909ac5e"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "8cf6088e-032f-4ca5-bb53-9c5faf4f1994",
+                "name": "Complete",
+                "uuid": "00a748a5-0e82-4679-87d4-b32d1b6bd549"
+              },
+              {
+                "exit_uuid": "aa648fca-de49-42c1-9eb6-c3efd514d9ca",
+                "name": "Expired",
+                "uuid": "d1cd3e15-d9cf-4609-b948-6100f1d5b7c9"
+              }
+            ],
+            "default_category_uuid": "d1cd3e15-d9cf-4609-b948-6100f1d5b7c9",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "f1960c05-04cb-48b0-8ceb-cb3ebcd96478"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Mask use",
+                "uuid": "a548252e-f809-4b67-846b-9b500d0b048c"
+              },
+              "type": "enter_flow",
+              "uuid": "52643eab-71e9-453a-8e0b-f8f26ee78cf1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "12603c45-c114-4c5b-a6aa-cdd47eab6101"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "484994e0-ad6d-4c51-9ede-c7338fffc293"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "0a6ef4b6-ed25-4d87-88d5-b9da8ccc0e00",
+                "type": "has_only_text",
+                "uuid": "481c5620-5e0b-4a88-8fee-17e751eecfe6"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "44107342-f3b7-4910-be77-f68d1f0703b6",
+                "type": "has_only_text",
+                "uuid": "d498c2f4-84c7-4ff4-9605-d303e19a13b5"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "12603c45-c114-4c5b-a6aa-cdd47eab6101",
+                "name": "Complete",
+                "uuid": "0a6ef4b6-ed25-4d87-88d5-b9da8ccc0e00"
+              },
+              {
+                "exit_uuid": "484994e0-ad6d-4c51-9ede-c7338fffc293",
+                "name": "Expired",
+                "uuid": "44107342-f3b7-4910-be77-f68d1f0703b6"
+              }
+            ],
+            "default_category_uuid": "44107342-f3b7-4910-be77-f68d1f0703b6",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "8dc89794-ec8a-4e9b-81f7-1a3ecb4f76b3"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Hotlines",
+                "uuid": "48f00994-efdf-43c8-80de-fbb64c67a2b4"
+              },
+              "type": "enter_flow",
+              "uuid": "0b4ef923-b787-4cb9-b875-beb534eefcd6"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "1703d68c-42b1-4ef3-9c09-d4990b53ccfe"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "2daf9e80-08af-4c81-b6ca-729ac55a121e"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "df6460aa-5adf-424b-9794-86057f95d155",
+                "type": "has_only_text",
+                "uuid": "e5023192-3e26-409d-8f5c-58de3c32285c"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "485971a0-db7f-4a4d-a404-47d4b58d73cc",
+                "type": "has_only_text",
+                "uuid": "f54ab63c-aead-48a1-b251-3dc038540884"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "1703d68c-42b1-4ef3-9c09-d4990b53ccfe",
+                "name": "Complete",
+                "uuid": "df6460aa-5adf-424b-9794-86057f95d155"
+              },
+              {
+                "exit_uuid": "2daf9e80-08af-4c81-b6ca-729ac55a121e",
+                "name": "Expired",
+                "uuid": "485971a0-db7f-4a4d-a404-47d4b58d73cc"
+              }
+            ],
+            "default_category_uuid": "485971a0-db7f-4a4d-a404-47d4b58d73cc",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "6decb259-5e2b-47df-a52b-601115fd58ce"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Risk",
+                "uuid": "efc1a8d7-0872-4ca1-bdd6-9fd538b89e1b"
+              },
+              "type": "enter_flow",
+              "uuid": "090c832e-48f7-43fb-92aa-943719de6657"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "cf518f0a-f14c-40ea-8957-f8f8e58a9d39"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "3e45bc3a-fc55-4239-a915-fef75fc17f44"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "30b06dc9-57a7-4e10-921e-1dff38c8d2a2",
+                "type": "has_only_text",
+                "uuid": "4889d91d-2ec6-41d5-befd-d4c9f6d19af9"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "2ea90c56-9039-4546-84a1-16a9ff445f8e",
+                "type": "has_only_text",
+                "uuid": "e3d0f7d7-ab3f-4513-9de8-ddf4b4775d36"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "cf518f0a-f14c-40ea-8957-f8f8e58a9d39",
+                "name": "Complete",
+                "uuid": "30b06dc9-57a7-4e10-921e-1dff38c8d2a2"
+              },
+              {
+                "exit_uuid": "3e45bc3a-fc55-4239-a915-fef75fc17f44",
+                "name": "Expired",
+                "uuid": "2ea90c56-9039-4546-84a1-16a9ff445f8e"
+              }
+            ],
+            "default_category_uuid": "2ea90c56-9039-4546-84a1-16a9ff445f8e",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "72e09df1-663e-4bfd-bfdf-59cd56e073f5"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Should wear mask",
+                "uuid": "653509c8-1fde-4cf0-be66-0db4d6e52805"
+              },
+              "type": "enter_flow",
+              "uuid": "5ad8a6f9-3c3d-46e3-bb2b-62a20e451dcc"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "192c50ba-61ef-470f-a248-e2e1313777f4"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "d3704d36-0726-4db0-91cb-35426d1fc0b9"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "65a17e3c-b97e-42aa-896f-4418dc2c1779",
+                "type": "has_only_text",
+                "uuid": "dd34d5d7-2b4b-475e-af0e-e6ae2cfa4e71"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "764a966a-9cab-4c4c-ab75-aa1444c5c581",
+                "type": "has_only_text",
+                "uuid": "fc2d714f-9e07-44ce-bfe6-dbc0bb45344b"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "192c50ba-61ef-470f-a248-e2e1313777f4",
+                "name": "Complete",
+                "uuid": "65a17e3c-b97e-42aa-896f-4418dc2c1779"
+              },
+              {
+                "exit_uuid": "d3704d36-0726-4db0-91cb-35426d1fc0b9",
+                "name": "Expired",
+                "uuid": "764a966a-9cab-4c4c-ab75-aa1444c5c581"
+              }
+            ],
+            "default_category_uuid": "764a966a-9cab-4c4c-ab75-aa1444c5c581",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "129257b4-9f21-4a5c-86dd-b9bb267c3b2c"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Rumors",
+                "uuid": "25e9a623-5bf2-4736-a8f5-df00e509d014"
+              },
+              "type": "enter_flow",
+              "uuid": "7b914410-7ca2-481f-a88f-439d4af7c417"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "bd4280bf-5b82-4167-b49b-ffaccb418a73"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "d74d6c27-b958-46cd-977a-83f6c26b7d9c"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "4da8c4d0-f52f-49f4-8d52-73353884fa5c",
+                "type": "has_only_text",
+                "uuid": "1745a465-cf93-436b-b7bb-8d3b92a879c5"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "d3eb0f67-ed8f-42c5-a08d-e5ce8a3e8df2",
+                "type": "has_only_text",
+                "uuid": "2eb0a322-2d0a-4428-bc73-21d6ee460571"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "bd4280bf-5b82-4167-b49b-ffaccb418a73",
+                "name": "Complete",
+                "uuid": "4da8c4d0-f52f-49f4-8d52-73353884fa5c"
+              },
+              {
+                "exit_uuid": "d74d6c27-b958-46cd-977a-83f6c26b7d9c",
+                "name": "Expired",
+                "uuid": "d3eb0f67-ed8f-42c5-a08d-e5ce8a3e8df2"
+              }
+            ],
+            "default_category_uuid": "d3eb0f67-ed8f-42c5-a08d-e5ce8a3e8df2",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "2faafc96-e206-4441-af50-0f6f1fe00653"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "COVID19 immunity",
+                "uuid": "5bd1b693-85a3-4322-ad8f-20221e06dc1f"
+              },
+              "type": "enter_flow",
+              "uuid": "13ae9a88-233d-43d8-be1a-b1aa51ca0f63"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "4289bfcf-2d1f-4e12-a7c8-a0b1a1abc682"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "afa72f39-8d96-45ee-8025-b8dc918923be"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "43fdbcf1-9354-4d90-9ad4-50839af80fdb",
+                "type": "has_only_text",
+                "uuid": "e0d60acc-6a76-4a63-949e-6bcb180477bb"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "e6005a30-ee1a-4f90-8e3e-6f52860f2b45",
+                "type": "has_only_text",
+                "uuid": "71fe2ed7-91f6-4f30-b4a4-48a0dec2722b"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "4289bfcf-2d1f-4e12-a7c8-a0b1a1abc682",
+                "name": "Complete",
+                "uuid": "43fdbcf1-9354-4d90-9ad4-50839af80fdb"
+              },
+              {
+                "exit_uuid": "afa72f39-8d96-45ee-8025-b8dc918923be",
+                "name": "Expired",
+                "uuid": "e6005a30-ee1a-4f90-8e3e-6f52860f2b45"
+              }
+            ],
+            "default_category_uuid": "e6005a30-ee1a-4f90-8e3e-6f52860f2b45",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "23ab1ac1-deed-4773-b095-3dd2759f0f52"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "248c69ab-bfc1-455f-b6bc-1575e970b677",
+              "uuid": "6324d36e-ea1d-4041-bdf1-5cdac4b20eba"
+            },
+            {
+              "destination_uuid": "cb8ba381-1263-43ae-934a-1302b43b082d",
+              "uuid": "36259d4f-1542-42a7-acb6-475c0bd6ee81"
+            },
+            {
+              "destination_uuid": "41f859c3-14d6-4494-a7f6-b444e59323e7",
+              "uuid": "b63e3ec5-e416-4236-a844-4853655fef0c"
+            },
+            {
+              "destination_uuid": "9dabc3d8-d77d-4a53-93de-dfd2c9813445",
+              "uuid": "425e151e-7f82-4f19-b264-31ea82ac9909"
+            },
+            {
+              "destination_uuid": "7e2f1902-cdb2-405b-86c4-8527a8570186",
+              "uuid": "5ccbae63-221e-44e7-b822-fa95366dd161"
+            },
+            {
+              "destination_uuid": "5d76cce0-6cf6-4809-b752-e377a7d0d581",
+              "uuid": "74b0a421-4d7c-49c3-9e51-aadb69ef5cb9"
+            },
+            {
+              "destination_uuid": "a97e387e-2342-4d11-9f4a-18af9754ce49",
+              "uuid": "cad2b9e4-8748-4cdf-b8c0-4c91b595d073"
+            },
+            {
+              "destination_uuid": "f1b7f9f1-d39a-4302-b2d3-20ea169599ec",
+              "uuid": "bf61e128-c506-42cf-a89b-45794ce43487"
+            },
+            {
+              "destination_uuid": "b1b5b2f1-571a-4ed4-8d33-efd1372e27f3",
+              "uuid": "716d0e73-5332-4866-8704-ed51e2f7d66f"
+            },
+            {
+              "destination_uuid": "4c61cd32-b0d9-4041-8b85-cb205ba7154d",
+              "uuid": "5315bb4c-4cc1-4684-8dae-f7bd190295e9"
+            },
+            {
+              "destination_uuid": "c584b698-076f-4f9e-8b3a-5cf58b78925d",
+              "uuid": "d2942865-3558-4a56-b0c1-e680441aafb0"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "How does the virus spread?"
+                ],
+                "category_uuid": "f2e0612a-c63c-40b1-8092-907e30fbf8e1",
+                "type": "has_only_phrase",
+                "uuid": "2c7b5b71-eb2e-4a44-82c1-03c389196ada"
+              },
+              {
+                "arguments": [
+                  "How can I protect myself?"
+                ],
+                "category_uuid": "a025c9e7-d8cf-4f86-81e6-5997b4a20f3f",
+                "type": "has_only_phrase",
+                "uuid": "f01dd2ef-a7cd-4022-95fe-fe560620216c"
+              },
+              {
+                "arguments": [
+                  "How should I wash hands?"
+                ],
+                "category_uuid": "12e54cc8-6b73-4bd4-b619-b69063308de1",
+                "type": "has_only_phrase",
+                "uuid": "7d532a6a-71a2-49c6-9a13-1b4d7c07acee"
+              },
+              {
+                "arguments": [
+                  "What are the symptoms?"
+                ],
+                "category_uuid": "7e55d34a-f430-4814-a066-f29392015400",
+                "type": "has_only_phrase",
+                "uuid": "3ad2bcad-f9fe-4325-8b34-0778eac0b1a8"
+              },
+              {
+                "arguments": [
+                  "Is there a vaccine?"
+                ],
+                "category_uuid": "693ff502-1181-42c5-a633-e2577cbfa0f3",
+                "type": "has_only_phrase",
+                "uuid": "b26b00f6-4703-40b1-a993-d7514d6225df"
+              },
+              {
+                "arguments": [
+                  "What is the treatment?"
+                ],
+                "category_uuid": "565b809e-0ea0-4c0a-b054-11ea76c9a402",
+                "type": "has_only_phrase",
+                "uuid": "aa050ce6-2128-45d5-a0e7-e9eb8faf3dc8"
+              },
+              {
+                "arguments": [
+                  "Can I use antibiotics?"
+                ],
+                "category_uuid": "3ebd5fc4-9ca0-4c24-894a-c0457eca02d9",
+                "type": "has_only_phrase",
+                "uuid": "5a1aa95b-52f7-4918-be8e-c9eff4478f95"
+              },
+              {
+                "arguments": [
+                  "Can I use ibuprofen?"
+                ],
+                "category_uuid": "ab3d9370-c051-4c89-9542-3d0a5d50860c",
+                "type": "has_only_phrase",
+                "uuid": "044bf5f9-5626-4dab-a3ac-d7d57b75c9a5"
+              },
+              {
+                "arguments": [
+                  "How bad is the virus?"
+                ],
+                "category_uuid": "493ffdb2-b4c8-448a-ae40-a54fae87f203",
+                "type": "has_only_phrase",
+                "uuid": "2693514e-c503-46f7-a130-59c13b80a97c"
+              },
+              {
+                "arguments": [
+                  "What\u2019s physical distancing"
+                ],
+                "category_uuid": "2608c145-98d6-4238-89da-e22e7f6fb450",
+                "type": "has_only_phrase",
+                "uuid": "108c8080-155a-4896-a03c-d283528ef205"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "6324d36e-ea1d-4041-bdf1-5cdac4b20eba",
+                "name": "spread",
+                "uuid": "f2e0612a-c63c-40b1-8092-907e30fbf8e1"
+              },
+              {
+                "exit_uuid": "36259d4f-1542-42a7-acb6-475c0bd6ee81",
+                "name": "Protect",
+                "uuid": "a025c9e7-d8cf-4f86-81e6-5997b4a20f3f"
+              },
+              {
+                "exit_uuid": "b63e3ec5-e416-4236-a844-4853655fef0c",
+                "name": "Hands wash",
+                "uuid": "12e54cc8-6b73-4bd4-b619-b69063308de1"
+              },
+              {
+                "exit_uuid": "425e151e-7f82-4f19-b264-31ea82ac9909",
+                "name": "Symptoms",
+                "uuid": "7e55d34a-f430-4814-a066-f29392015400"
+              },
+              {
+                "exit_uuid": "5ccbae63-221e-44e7-b822-fa95366dd161",
+                "name": "Vaccine",
+                "uuid": "693ff502-1181-42c5-a633-e2577cbfa0f3"
+              },
+              {
+                "exit_uuid": "74b0a421-4d7c-49c3-9e51-aadb69ef5cb9",
+                "name": "Treatment",
+                "uuid": "565b809e-0ea0-4c0a-b054-11ea76c9a402"
+              },
+              {
+                "exit_uuid": "cad2b9e4-8748-4cdf-b8c0-4c91b595d073",
+                "name": "Antibiotics",
+                "uuid": "3ebd5fc4-9ca0-4c24-894a-c0457eca02d9"
+              },
+              {
+                "exit_uuid": "bf61e128-c506-42cf-a89b-45794ce43487",
+                "name": "Ibuprofen",
+                "uuid": "ab3d9370-c051-4c89-9542-3d0a5d50860c"
+              },
+              {
+                "exit_uuid": "716d0e73-5332-4866-8704-ed51e2f7d66f",
+                "name": "Severity",
+                "uuid": "493ffdb2-b4c8-448a-ae40-a54fae87f203"
+              },
+              {
+                "exit_uuid": "5315bb4c-4cc1-4684-8dae-f7bd190295e9",
+                "name": "Physical distancing",
+                "uuid": "2608c145-98d6-4238-89da-e22e7f6fb450"
+              },
+              {
+                "exit_uuid": "d2942865-3558-4a56-b0c1-e680441aafb0",
+                "name": "Other",
+                "uuid": "47898956-a08c-41db-8bab-cf4c4ee31276"
+              }
+            ],
+            "default_category_uuid": "47898956-a08c-41db-8bab-cf4c4ee31276",
+            "operand": "@fields.message",
+            "type": "switch"
+          },
+          "uuid": "431180f7-61c6-46b5-93a5-9545b373fd72"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Spread",
+                "uuid": "2dd941e9-125f-443c-af27-a2d559142547"
+              },
+              "type": "enter_flow",
+              "uuid": "ddb040b1-a885-492b-995a-a702e7380da6"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "80776a64-60e0-4c32-8ad5-7ebeb8d69f06"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "4faaa711-db29-4c1a-a65e-cbf40a0faaf9"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "a278e39b-479c-40c4-8046-c5c9fb0a1f72",
+                "type": "has_only_text",
+                "uuid": "1b487620-3586-4451-bcec-dca9d11bbdd5"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "69cf27d6-9293-4c3b-9b26-f467370ea68b",
+                "type": "has_only_text",
+                "uuid": "37e28fa1-c126-45ee-8eab-7f159978c903"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "80776a64-60e0-4c32-8ad5-7ebeb8d69f06",
+                "name": "Complete",
+                "uuid": "a278e39b-479c-40c4-8046-c5c9fb0a1f72"
+              },
+              {
+                "exit_uuid": "4faaa711-db29-4c1a-a65e-cbf40a0faaf9",
+                "name": "Expired",
+                "uuid": "69cf27d6-9293-4c3b-9b26-f467370ea68b"
+              }
+            ],
+            "default_category_uuid": "69cf27d6-9293-4c3b-9b26-f467370ea68b",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "248c69ab-bfc1-455f-b6bc-1575e970b677"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Symptoms",
+                "uuid": "947300da-7720-4c8b-a2ac-dbf16f340b4d"
+              },
+              "type": "enter_flow",
+              "uuid": "f8279f11-5018-4697-b1ee-5ac3a8283b02"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "b1952564-dd75-406c-a901-2469f984c0db"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "950802a6-1cdb-4312-8dc8-00bd79b2e430"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "9608693d-05fa-4542-a6db-c02fb877475a",
+                "type": "has_only_text",
+                "uuid": "fae0994c-09a2-4b92-a524-e8578f69defe"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "7aabaf34-ff7c-4a4d-a444-d7255ae59fad",
+                "type": "has_only_text",
+                "uuid": "c7a2cc94-9bea-46c8-88a9-a2f96227fb5f"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "b1952564-dd75-406c-a901-2469f984c0db",
+                "name": "Complete",
+                "uuid": "9608693d-05fa-4542-a6db-c02fb877475a"
+              },
+              {
+                "exit_uuid": "950802a6-1cdb-4312-8dc8-00bd79b2e430",
+                "name": "Expired",
+                "uuid": "7aabaf34-ff7c-4a4d-a444-d7255ae59fad"
+              }
+            ],
+            "default_category_uuid": "7aabaf34-ff7c-4a4d-a444-d7255ae59fad",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "9dabc3d8-d77d-4a53-93de-dfd2c9813445"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Antibiotics",
+                "uuid": "f94d3b61-8c10-4d71-8591-cd21e2135d48"
+              },
+              "type": "enter_flow",
+              "uuid": "d6ae5bdc-20c8-4752-b422-77a5dbd668f4"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "c9d9e3b5-a056-4a6d-8d76-6dc8778db9aa"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "4277af47-81ff-4b04-9975-fc7e37e1a539"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "70fd4f42-6777-41e4-98e5-6434bfbf0a6c",
+                "type": "has_only_text",
+                "uuid": "591fcd34-75b5-44f9-b561-e4d805ceecd6"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "effed3a1-5ed7-4c7f-9d6f-33e3a770f049",
+                "type": "has_only_text",
+                "uuid": "82466c8a-1947-4770-9342-7752f224fd34"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "c9d9e3b5-a056-4a6d-8d76-6dc8778db9aa",
+                "name": "Complete",
+                "uuid": "70fd4f42-6777-41e4-98e5-6434bfbf0a6c"
+              },
+              {
+                "exit_uuid": "4277af47-81ff-4b04-9975-fc7e37e1a539",
+                "name": "Expired",
+                "uuid": "effed3a1-5ed7-4c7f-9d6f-33e3a770f049"
+              }
+            ],
+            "default_category_uuid": "effed3a1-5ed7-4c7f-9d6f-33e3a770f049",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "a97e387e-2342-4d11-9f4a-18af9754ce49"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "physical distancing",
+                "uuid": "c9d09483-9643-404e-96e5-021ba7c577c8"
+              },
+              "type": "enter_flow",
+              "uuid": "276ced8f-ffee-4efd-8fe4-92413f5240e5"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "f3772023-9c4a-491b-ad56-2879a96dc6c2"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "0e4fbd12-f894-47b3-9210-c057f954c828"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ad56353e-ff7b-4d63-ad40-7b764b7e3dba",
+                "type": "has_only_text",
+                "uuid": "0018f217-f28e-4813-a57f-ed88da325624"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "babcb9ba-6bcf-4b4c-b3e6-335c8bcf35a9",
+                "type": "has_only_text",
+                "uuid": "d8a55aff-e783-4c1e-bf27-981bff262b8d"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "f3772023-9c4a-491b-ad56-2879a96dc6c2",
+                "name": "Complete",
+                "uuid": "ad56353e-ff7b-4d63-ad40-7b764b7e3dba"
+              },
+              {
+                "exit_uuid": "0e4fbd12-f894-47b3-9210-c057f954c828",
+                "name": "Expired",
+                "uuid": "babcb9ba-6bcf-4b4c-b3e6-335c8bcf35a9"
+              }
+            ],
+            "default_category_uuid": "babcb9ba-6bcf-4b4c-b3e6-335c8bcf35a9",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "4c61cd32-b0d9-4041-8b85-cb205ba7154d"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Protection",
+                "uuid": "c939b94e-a76e-40fd-ba1b-68d04903c754"
+              },
+              "type": "enter_flow",
+              "uuid": "8f42e798-18dd-4945-9383-dbb79262159d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "d9f416cc-306f-4b89-9628-f3f0a22c13d8"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "9a763299-ba96-4084-8846-d719d64e6ba4"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ad691732-7686-42c0-85ed-6fd0b85b5260",
+                "type": "has_only_text",
+                "uuid": "d1b41e17-c6ac-4c41-989c-dd7a44a57d70"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "77904ef7-c6d9-4785-8d69-48ce86f9ec9c",
+                "type": "has_only_text",
+                "uuid": "22f4f971-6825-4108-8bf0-235d4c834c93"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "d9f416cc-306f-4b89-9628-f3f0a22c13d8",
+                "name": "Complete",
+                "uuid": "ad691732-7686-42c0-85ed-6fd0b85b5260"
+              },
+              {
+                "exit_uuid": "9a763299-ba96-4084-8846-d719d64e6ba4",
+                "name": "Expired",
+                "uuid": "77904ef7-c6d9-4785-8d69-48ce86f9ec9c"
+              }
+            ],
+            "default_category_uuid": "77904ef7-c6d9-4785-8d69-48ce86f9ec9c",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "cb8ba381-1263-43ae-934a-1302b43b082d"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Vaccine",
+                "uuid": "3ad06a22-3c98-4b9c-9d5e-db8aba9c851d"
+              },
+              "type": "enter_flow",
+              "uuid": "21c8f32f-4e85-4db2-afb3-9c659f8c056e"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "43960b93-87ca-4e32-869f-dd790348b230"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "da2f8e7d-20c4-4e27-9c93-00734a03a0e0"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "594881f5-ab7c-4bd8-a57f-2f90e88b0b92",
+                "type": "has_only_text",
+                "uuid": "eef0e99b-4d03-45b9-b593-5aedad7bd2f5"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "4f6fc4e9-514f-4b77-b390-de6b7686c69b",
+                "type": "has_only_text",
+                "uuid": "6aa79e4a-35cd-4594-8e8b-2a4d17e67487"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "43960b93-87ca-4e32-869f-dd790348b230",
+                "name": "Complete",
+                "uuid": "594881f5-ab7c-4bd8-a57f-2f90e88b0b92"
+              },
+              {
+                "exit_uuid": "da2f8e7d-20c4-4e27-9c93-00734a03a0e0",
+                "name": "Expired",
+                "uuid": "4f6fc4e9-514f-4b77-b390-de6b7686c69b"
+              }
+            ],
+            "default_category_uuid": "4f6fc4e9-514f-4b77-b390-de6b7686c69b",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "7e2f1902-cdb2-405b-86c4-8527a8570186"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Ibuprofen",
+                "uuid": "49fce05f-c206-4409-b3a1-f74029d29157"
+              },
+              "type": "enter_flow",
+              "uuid": "2f88bb74-e46e-4892-8565-a57bd15209a6"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "3d3459b9-b4b8-49da-8fc3-610164578f8f"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "ba64d0aa-8b0d-40f9-a85f-d451b0349618"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "551603ff-dde8-4e32-80fa-4ceeaf543d5d",
+                "type": "has_only_text",
+                "uuid": "c02571ae-8eea-462e-867a-0f3f02dc7297"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "4b51650a-553e-477a-b8c9-3dd152684dd8",
+                "type": "has_only_text",
+                "uuid": "b88d4fbe-6ecb-487c-a127-a7a880ec9d9b"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3d3459b9-b4b8-49da-8fc3-610164578f8f",
+                "name": "Complete",
+                "uuid": "551603ff-dde8-4e32-80fa-4ceeaf543d5d"
+              },
+              {
+                "exit_uuid": "ba64d0aa-8b0d-40f9-a85f-d451b0349618",
+                "name": "Expired",
+                "uuid": "4b51650a-553e-477a-b8c9-3dd152684dd8"
+              }
+            ],
+            "default_category_uuid": "4b51650a-553e-477a-b8c9-3dd152684dd8",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "f1b7f9f1-d39a-4302-b2d3-20ea169599ec"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Hand wash",
+                "uuid": "2fd05d68-9dae-4fdc-bae6-bd75d460ef7b"
+              },
+              "type": "enter_flow",
+              "uuid": "efcb5dca-e162-48f8-8e25-b4e9ce1962c8"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "7c56d2e3-30be-490a-8093-9104096930b5"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "aa6ad90e-4321-4a67-baa8-3c1ba394503f"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "4f6cc2f1-beb9-4978-a7d1-af3c4ce3e94b",
+                "type": "has_only_text",
+                "uuid": "6fb76ab0-f866-4134-b226-8ec06e983cfa"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "753b6fa4-3e11-4a5a-b088-27620289d3fe",
+                "type": "has_only_text",
+                "uuid": "a4e72d5f-26ad-411d-bfe8-c33b959f68a8"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "7c56d2e3-30be-490a-8093-9104096930b5",
+                "name": "Complete",
+                "uuid": "4f6cc2f1-beb9-4978-a7d1-af3c4ce3e94b"
+              },
+              {
+                "exit_uuid": "aa6ad90e-4321-4a67-baa8-3c1ba394503f",
+                "name": "Expired",
+                "uuid": "753b6fa4-3e11-4a5a-b088-27620289d3fe"
+              }
+            ],
+            "default_category_uuid": "753b6fa4-3e11-4a5a-b088-27620289d3fe",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "41f859c3-14d6-4494-a7f6-b444e59323e7"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Treatment",
+                "uuid": "86158c49-0e93-42d8-a818-f09e431c584b"
+              },
+              "type": "enter_flow",
+              "uuid": "76fa85f5-9483-4569-a883-23d0d55d3f73"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "0a2ff83d-a0bd-43f4-b11e-bedc8cc98c93"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "80ac8e09-0330-407c-b1ee-38427313c0ef"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "f0a09fe7-115b-4aab-9643-df63a6f6b56b",
+                "type": "has_only_text",
+                "uuid": "83372450-c7ee-4625-aa21-5507bff38c49"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "9e8a97f6-de39-4e44-8de2-0a6b3aa61864",
+                "type": "has_only_text",
+                "uuid": "1b50e47a-2dc0-45cd-934b-623c4ad45f9b"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "0a2ff83d-a0bd-43f4-b11e-bedc8cc98c93",
+                "name": "Complete",
+                "uuid": "f0a09fe7-115b-4aab-9643-df63a6f6b56b"
+              },
+              {
+                "exit_uuid": "80ac8e09-0330-407c-b1ee-38427313c0ef",
+                "name": "Expired",
+                "uuid": "9e8a97f6-de39-4e44-8de2-0a6b3aa61864"
+              }
+            ],
+            "default_category_uuid": "9e8a97f6-de39-4e44-8de2-0a6b3aa61864",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "5d76cce0-6cf6-4809-b752-e377a7d0d581"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Severity",
+                "uuid": "b703e526-a4d5-4844-978c-7fe69cd6735a"
+              },
+              "type": "enter_flow",
+              "uuid": "869ed62f-5dd5-4ced-a0b9-d107e9693d1f"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b",
+              "uuid": "233bc42e-ddc8-4cdd-b6df-f4c538f2784d"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "ab28f4d2-9bbd-4296-8fcf-535f23d76edb"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "d08e79ca-d2f3-4bd2-be85-1716f834ec84",
+                "type": "has_only_text",
+                "uuid": "9b16d3cf-d927-4cc8-b3fc-c5a5be0ece77"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "62c967c5-7dba-4268-8da9-66872be2fc59",
+                "type": "has_only_text",
+                "uuid": "3eb42e88-d0bf-4475-a6b2-ea5bf25eb0d1"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "233bc42e-ddc8-4cdd-b6df-f4c538f2784d",
+                "name": "Complete",
+                "uuid": "d08e79ca-d2f3-4bd2-be85-1716f834ec84"
+              },
+              {
+                "exit_uuid": "ab28f4d2-9bbd-4296-8fcf-535f23d76edb",
+                "name": "Expired",
+                "uuid": "62c967c5-7dba-4268-8da9-66872be2fc59"
+              }
+            ],
+            "default_category_uuid": "62c967c5-7dba-4268-8da9-66872be2fc59",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "b1b5b2f1-571a-4ed4-8d33-efd1372e27f3"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "quickreply",
+              "type": "set_run_result",
+              "uuid": "12c68fea-b651-4016-b10f-b365f4852a25",
+              "value": "end"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "3c482a72-4e49-46dc-872c-260317600c0a"
+            }
+          ],
+          "uuid": "fab7ae19-e4c1-4461-8dcf-16e812f20ea0"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "quickreply",
+              "type": "set_run_result",
+              "uuid": "1c4b681e-3153-49a1-95a7-920786f97565",
+              "value": "on"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "9e39f775-0e7e-43ba-b2bb-5f30e5b7fe9c"
+            }
+          ],
+          "uuid": "e644eb53-a39f-4cf9-bb0f-9005bed3d37b"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "quickreply",
+              "type": "set_run_result",
+              "uuid": "92c14187-67c8-4c33-98b9-eab1143a5ada",
+              "value": "off"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "f8a94f5c-93ae-4db4-8023-44b8860779e2"
+            }
+          ],
+          "uuid": "c584b698-076f-4f9e-8b3a-5cf58b78925d"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "8d5eb1f4-9a43-44d1-b469-88c6f19a25f8",
+      "revision": 27
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

@@ -1,0 +1,128 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "08ce87cf-c1ef-42e9-aab1-7029ac9534cd": {
+            "position": {
+              "left": 300,
+              "top": 40
+            },
+            "type": "execute_actions"
+          },
+          "7d78ba5c-38e4-4e8a-ba3d-068a36b983c5": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 300,
+              "top": 160
+            },
+            "config": {}
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {},
+      "metadata": {
+        "revision": 2
+      },
+      "name": "New message",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "field": {
+                "key": "message",
+                "name": "Message"
+              },
+              "type": "set_contact_field",
+              "uuid": "8d892f4d-e701-4358-bcbe-f35f07b1c5e4",
+              "value": "@input.text"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "7d78ba5c-38e4-4e8a-ba3d-068a36b983c5",
+              "uuid": "5afae492-5e41-4db3-9db1-ab4baa70da0c"
+            }
+          ],
+          "uuid": "08ce87cf-c1ef-42e9-aab1-7029ac9534cd"
+        },
+        {
+          "uuid": "7d78ba5c-38e4-4e8a-ba3d-068a36b983c5",
+          "actions": [
+            {
+              "uuid": "e3988eb4-1b28-4c51-bc8a-6dfea1ef2daa",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "bea89f01-5ea1-4720-8d32-62e509e924aa",
+                "name": "Classifier"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "0d0a3df0-ce2a-440e-9136-5831c371ee76",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "1170e9b5-c205-4bad-b7b1-cfacf10f3000"
+              },
+              {
+                "uuid": "193c3db4-cba9-45b4-841f-d7304acd7a05",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "d3e726be-f86e-405c-acbd-02573b26d06a"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "1170e9b5-c205-4bad-b7b1-cfacf10f3000",
+                "name": "Complete",
+                "exit_uuid": "fc2df791-c1a4-4a8a-a6a3-a69dd49ba00d"
+              },
+              {
+                "uuid": "d3e726be-f86e-405c-acbd-02573b26d06a",
+                "name": "Expired",
+                "exit_uuid": "f9d19c96-a086-426e-8625-ac93ffd6b096"
+              }
+            ],
+            "default_category_uuid": "d3e726be-f86e-405c-acbd-02573b26d06a"
+          },
+          "exits": [
+            {
+              "uuid": "fc2df791-c1a4-4a8a-a6a3-a69dd49ba00d",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "f9d19c96-a086-426e-8625-ac93ffd6b096",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "0361d1e8-a93d-434c-a23d-31e0a619c18d",
+      "revision": 3
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

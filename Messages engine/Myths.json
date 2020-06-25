@@ -1,0 +1,1769 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Myths",
+      "uuid": "b5be2b3a-7c2f-471c-ae6f-7c470675a326",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "49c406fd-be91-4746-bb42-6409ea3f8bc9": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 400,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "f7c26df3-5c97-4fe9-accc-2ca48b0f6d1e": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 180,
+              "top": 60
+            },
+            "config": {}
+          },
+          "576a86c7-ecd5-4c3e-b6d2-e93d9a047d8c": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 400,
+              "top": 180
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "2f31b13a-e3f1-4340-ba60-942137c72e8d": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 180,
+              "top": 240
+            },
+            "config": {}
+          },
+          "be8ab022-ca44-4a29-b6ef-7362c7dea6f8": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 400,
+              "top": 360
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "1105ba26-fcb9-4653-a5f0-39e90c04d2a2": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 180,
+              "top": 420
+            },
+            "config": {}
+          },
+          "d04b18ba-5ed3-447f-8c03-9bb5f8b49a60": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 400,
+              "top": 540
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "8e57a003-2668-44a4-b9fc-43ecf5bd69b7": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 180,
+              "top": 600
+            },
+            "config": {}
+          },
+          "f4e3abbc-81df-4dbd-8c1d-fb5757c9bfa6": {
+            "type": "split_by_contact_field",
+            "position": {
+              "left": 400,
+              "top": 740
+            },
+            "config": {
+              "operand": {
+                "id": "channel",
+                "type": "property",
+                "name": "Channel"
+              },
+              "cases": {}
+            }
+          },
+          "fcc2ef9d-e16b-4b85-b8db-93185e49d278": {
+            "position": {
+              "left": 180,
+              "top": 800
+            },
+            "type": "execute_actions"
+          },
+          "32cf6159-bbbd-4272-b29d-bbaf32ee8f81": {
+            "position": {
+              "left": 620,
+              "top": 800
+            },
+            "type": "execute_actions"
+          },
+          "488820cb-dc72-410c-8589-e881f877e19d": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 400,
+              "top": 1100
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "3a4d9317-4234-40d4-bb57-e5ca504aaf11": {
+            "position": {
+              "left": 440,
+              "top": 1320
+            }
+          },
+          "0a964876-c712-444d-83be-e53ae80e4996": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 440,
+              "top": 1420
+            },
+            "config": {}
+          }
+        }
+      },
+      "revision": 257,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 252
+      },
+      "localization": {
+        "por": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "Aqui est\u00e3o algumas coisas que voc\u00ea pode ter ouvido. Qual deles voc\u00ea quer aprender?"
+            ],
+            "quick_replies": [
+              "Animais de estima\u00e7\u00e3o podem transmitir COVID-19",
+              "Pessoas jovens n\u00e3o precis\u00e3o se preocupar.",
+              "H\u00e1 medicamentos para tratar COVID-19",
+              "Antibi\u00f3ticos podem tratar COVID-19"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a estima\u00e7\u00e3o estimacao gato cachorro pet"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "b velho jovem adulto novo idoso"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "c antibi\u00f3tico antibiotico antibi\u00f3ticos antibioticos"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "d medicamentos medicamento rem\u00e9dio remedio"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "rus": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "\u0412\u043e\u0442 \u0441\u043f\u0438\u0441\u043e\u043a \u043c\u0438\u0444\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u044b, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0443\u0436\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0438. \u041e \u0447\u0435\u043c \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0437\u043d\u0430\u0442\u044c \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435?\n"
+            ],
+            "quick_replies": [
+              "\u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435 \u043c\u043e\u0433\u0443\u0442 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441",
+              "\u041c\u043e\u043b\u043e\u0434\u044b\u0435 \u043b\u044e\u0434\u0438 \u043d\u0435 \u0431\u043e\u043b\u0435\u044e\u0442 \u043d\u043e\u0432\u044b\u043c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043e\u043c",
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438 \u043c\u043e\u0433\u0443\u0442 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0430\u0442\u044c \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043b\u0435\u0447\u0438\u0442\u044c COVID-19",
+              "\u0423\u0436\u0435 \u0435\u0441\u0442\u044c \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 \u0434\u043b\u044f \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-19"
+            ]
+          },
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "\u0412\u043e\u0442 \u0441\u043f\u0438\u0441\u043e\u043a \u043c\u0438\u0444\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u044b, \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e, \u0443\u0436\u0435 \u0441\u043b\u044b\u0448\u0430\u043b\u0438. \u041e \u0447\u0435\u043c \u0432\u044b \u0445\u043e\u0442\u0438\u0442\u0435 \u0443\u0437\u043d\u0430\u0442\u044c \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0435\u0435?\nA. \u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435 \u043c\u043e\u0433\u0443\u0442 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441.\nB. \u041c\u043e\u043b\u043e\u0434\u044b\u0435 \u043b\u044e\u0434\u0438 \u043d\u0435 \u0431\u043e\u043b\u0435\u044e\u0442 \u043d\u043e\u0432\u044b\u043c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043e\u043c.\nC. \u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438 \u043c\u043e\u0433\u0443\u0442 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0449\u0430\u0442\u044c \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u0435, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043b\u0435\u0447\u0438\u0442\u044c COVID-19.\nD. \u0423\u0436\u0435 \u0435\u0441\u0442\u044c \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 \u0434\u043b\u044f \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-19.\n\n\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "\u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435 \u043f\u0438\u0442\u043e\u043c\u0446\u044b"
+            ]
+          },
+          "fed21cf4-6d6b-4a10-867c-4a9f0945225a": {
+            "name": [
+              " \u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              " \u0432\u043e\u0437\u0440\u0430\u0441\u0442"
+            ]
+          },
+          "315f9856-a9e5-4ab2-835d-9472bdf4234b": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              "\u043c\u043e\u043b\u043e\u0434\u043e\u0439"
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              " \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430"
+            ]
+          },
+          "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2629df4e-0642-4dea-871c-9e07cc56c7eb": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "a83fc57a-d7c1-408f-907a-fc00e79d30a2": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a"
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435 \u043a\u043e\u0448\u043a\u0430 \u0441\u043e\u0431\u0430\u043a\u0430 \u043f\u0438\u0442\u043e\u043c\u0446\u044b"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "b \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u043c\u043e\u043b\u043e\u0434 \u0412\u0437\u0440\u043e\u0441\u043b\u044b\u0435 \u041f\u043e\u0436\u0438\u043b\u044b\u0435 \u0441\u0442\u0430\u0440\u044b\u0435 "
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "c \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "d \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u043e \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "B"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "C"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "D"
+            ]
+          },
+          "3788e6dc-5b7e-44f2-a828-85a74dace728": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "5cc85b7d-08a6-43e2-b2da-6e23ee935e57": {
+            "name": [
+              "Telegram"
+            ]
+          }
+        },
+        "spa": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "Aqu\u00ed hay algunas cosas que quiz\u00e1s hayas o\u00eddo. \u00bfDe cu\u00e1l quieres saber m\u00e1s?\n\n"
+            ],
+            "quick_replies": [
+              "Las mascotas en casa pueden transmitir el coronavirus.",
+              "El nuevo coronavirus no afecta a los j\u00f3venes.",
+              "Los antibi\u00f3ticos pueden prevenir y tratar el COVID-19.",
+              "Ahora hay medicamentos para tratar el COVID-19."
+            ]
+          },
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "Aqu\u00ed hay algunas cosas que quiz\u00e1s hayas o\u00eddo. \u00bfDe cu\u00e1l quieres saber m\u00e1s?\n\nA. Las mascotas en casa pueden transmitir el coronavirus.\nB. El nuevo coronavirus no afecta a los j\u00f3venes.\nC. Los antibi\u00f3ticos pueden prevenir y tratar el COVID-19.\nD. Ahora hay medicamentos para tratar el COVID-19."
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "B"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "C"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "D"
+            ]
+          },
+          "3788e6dc-5b7e-44f2-a828-85a74dace728": {
+            "name": [
+              "otros"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a mascotas mascota"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "b  mayor  antiguo  joven  j\u00f3venes mas joven mayores"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "c antibi\u00f3ticos Antibi\u00f3tico Antibi\u00f3tica"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "d medicamento  medicamentos"
+            ]
+          },
+          "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a": {
+            "name": [
+              "otros"
+            ]
+          },
+          "2629df4e-0642-4dea-871c-9e07cc56c7eb": {
+            "name": [
+              "otros"
+            ]
+          },
+          "315f9856-a9e5-4ab2-835d-9472bdf4234b": {
+            "name": [
+              "otros"
+            ]
+          },
+          "fed21cf4-6d6b-4a10-867c-4a9f0945225a": {
+            "name": [
+              "otros"
+            ]
+          },
+          "a83fc57a-d7c1-408f-907a-fc00e79d30a2": {
+            "name": [
+              "otros"
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              " mascotas"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              " a\u00f1os"
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "antibi\u00f3ticos"
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "medicamento"
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ell": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "\u0395\u03b4\u03ce \u03ad\u03c7\u03c9 \u03ba\u03ac\u03c0\u03bf\u03b9\u03b1 \u03c0\u03c1\u03ac\u03b3\u03bc\u03b1\u03c4\u03b1 \u03c0\u03bf\u03c5 \u03af\u03c3\u03c9\u03c2 \u03ad\u03c7\u03b5\u03b9\u03c2 \u03b1\u03ba\u03bf\u03cd\u03c3\u03b5\u03b9. \u0393\u03b9\u03b1 \u03c0\u03bf\u03b9\u03bf \u03b8\u03b1 \u03ae\u03b8\u03b5\u03bb\u03b5\u03c2 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03b9\u03c2;\n\n"
+            ],
+            "quick_replies": [
+              "\u03a4\u03b1 \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03b4\u03ce\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc",
+              "\u039f \u03bd\u03ad\u03bf\u03c2 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc\u03c2 \u03b4\u03b5\u03bd \u03c0\u03c1\u03bf\u03c3\u03b2\u03ac\u03bb\u03bb\u03b5\u03b9 \u03c4\u03bf\u03c5\u03c2 \u03bd\u03ad\u03bf\u03c5\u03c2",
+              "\u03a4\u03b1 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03c0\u03c1\u03bf\u03bb\u03b1\u03bc\u03b2\u03ac\u03bd\u03bf\u03c5\u03bd \u03ba\u03b1\u03b9 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03cd\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd COVID-19",
+              "\u03a5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1 \u03c4\u03bf\u03c5 COVID-19"
+            ]
+          },
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "\u0395\u03b4\u03ce \u03ad\u03c7\u03c9 \u03ba\u03ac\u03c0\u03bf\u03b9\u03b1 \u03c0\u03c1\u03ac\u03b3\u03bc\u03b1\u03c4\u03b1 \u03c0\u03bf\u03c5 \u03af\u03c3\u03c9\u03c2 \u03ad\u03c7\u03b5\u03b9\u03c2 \u03b1\u03ba\u03bf\u03cd\u03c3\u03b5\u03b9. \u0393\u03b9\u03b1 \u03c0\u03bf\u03b9\u03bf \u03b8\u03b1 \u03ae\u03b8\u03b5\u03bb\u03b5\u03c2 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03b9\u03c2;\n\n\u0391. \u03a4\u03b1 \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03b4\u03ce\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc.\n\n\u0392. \u039f \u03bd\u03ad\u03bf\u03c2 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc\u03c2 \u03b4\u03b5\u03bd \u03c0\u03c1\u03bf\u03c3\u03b2\u03ac\u03bb\u03bb\u03b5\u03b9 \u03c4\u03bf\u03c5\u03c2 \u03bd\u03ad\u03bf\u03c5\u03c2.\n\n\u0393. \u03a4\u03b1 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03c0\u03c1\u03bf\u03bb\u03b1\u03bc\u03b2\u03ac\u03bd\u03bf\u03c5\u03bd \u03ba\u03b1\u03b9 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03cd\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd COVID-19.\n\n\u0394. \u03a5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1 \u03c4\u03bf\u03c5 COVID-19.\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "\u0393",
+              "\u0394"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "B"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "\u0393"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "\u0394"
+            ]
+          },
+          "3788e6dc-5b7e-44f2-a828-85a74dace728": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1  \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03bf \u03b6\u03ce\u03bf"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "b \u03b7\u03bb\u03b9\u03ba\u03b9\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 \u03a0\u03b1\u03bb\u03b1\u03b9\u03cc\u03c4\u03b5\u03c1\u03b1  \u03c0\u03b1\u03bb\u03b1\u03b9\u03cc\u03c2"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "\u0393 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03cc"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "\u0394 \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf  \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03b1"
+            ]
+          },
+          "a83fc57a-d7c1-408f-907a-fc00e79d30a2": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "fed21cf4-6d6b-4a10-867c-4a9f0945225a": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "315f9856-a9e5-4ab2-835d-9472bdf4234b": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "2629df4e-0642-4dea-871c-9e07cc56c7eb": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "\u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf"
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "\u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac "
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              "\u03b7\u03bb\u03b9\u03ba\u03af\u03b1"
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "\u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "5cc85b7d-08a6-43e2-b2da-6e23ee935e57": {
+            "name": [
+              "Telegram"
+            ]
+          }
+        },
+        "ita": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "Ecco alcune cose che potresti aver sentito. Quale vuoi conoscere?"
+            ],
+            "quick_replies": [
+              "Gli animali domestici possono diffondere il coronavirus.",
+              "Il nuovo coronavirus non influisce sui giovani.",
+              "Gli antibiotici possono prevenire e curare la COVID-19.",
+              "Ora ci sono medicinali per il trattamento della COVID-19."
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "medicinale"
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "antibiotici"
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "animali domestici"
+            ]
+          },
+          "5cc85b7d-08a6-43e2-b2da-6e23ee935e57": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "Ecco alcune cose che potresti aver sentito. Quale vuoi conoscere?\n\nA. Gli animali domestici possono diffondere il coronavirus.\nB. Il nuovo coronavirus non colpisce i giovani.\nC. Gli antibiotici possono prevenire e curare la COVID-19.\nD. Ora ci sono medicinali per il trattamento della COVID-19.\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "B"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "C"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "D"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "A animali domestici"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "B minore giovane pi\u00f9 vecchio vecchio minore giovane"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "C antibiotici"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "D medicinale  medicinali"
+            ]
+          }
+        },
+        "kaz": {
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "\u0421\u0456\u0437 \u0435\u0441\u0442\u0456\u0433\u0435\u043d \u0434\u0430\u049b\u043f\u044b\u0440\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u043a\u0435\u0439\u0431\u0456\u0440\u0435\u0443\u0456 \u043e\u0441\u044b\u043d\u0434\u0430 \u0436\u0430\u0437\u044b\u043b\u0493\u0430\u043d. \u049a\u0430\u0439\u0441\u044b\u0441\u044b \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u043b\u0433\u0456\u04a3\u0456\u0437 \u043a\u0435\u043b\u0435\u0434\u0456?"
+            ],
+            "quick_replies": [
+              "\u04ae\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u044b \u0442\u0430\u0440\u0430\u0442\u0430 \u0430\u043b\u0430\u0434\u044b.",
+              "\u0416\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0436\u0430\u0441\u0442\u0430\u0440\u0493\u0430 \u04d9\u0441\u0435\u0440 \u0435\u0442\u043f\u0435\u0439\u0434\u0456.",
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440 COVID-19 \u0430\u0443\u0440\u0443\u044b\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d \u0430\u043b\u0430\u0434\u044b \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u0435\u043c\u0434\u0435\u0439\u0434\u0456.",
+              "\u049a\u0430\u0437\u0456\u0440 COVID-19-\u0434\u044b \u0435\u043c\u0434\u0435\u0443\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440 \u0431\u0430\u0440."
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "\u0411"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "C"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "\u0414"
+            ]
+          },
+          "3788e6dc-5b7e-44f2-a828-85a74dace728": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a \u04ae\u0439\u0434\u0435\u0433\u0456 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440  \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b\u043d\u0430\u043d  \u043c\u044b\u0441\u044b\u0493\u044b\u043c \u0438\u0442\u0456\u043c  \u04ae\u0439\u0434\u0435\u0433\u0456 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u0493\u0430"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "\u0411 \u0436\u0430\u0441\u0442\u0430\u0440\u0493\u0430  \u0416\u0430\u0441\u0442\u0430\u0440  \u0416\u0430\u0441\u0442\u0430\u0440\u0434\u044b\u04a3  \u0436\u0430\u0441\u043f\u044b\u043d \u049b\u0430\u0440\u0442 \u0415\u0440\u0435\u0441\u0435\u043a\u0442\u0435\u0440 \u0415\u0433\u0434\u0435  "
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "c \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a  \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "\u0414 \u0434\u04d9\u0440\u0456\u043b\u0435\u0440 \u0434\u04d9\u0440\u0456"
+            ]
+          },
+          "a83fc57a-d7c1-408f-907a-fc00e79d30a2": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "fed21cf4-6d6b-4a10-867c-4a9f0945225a": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "315f9856-a9e5-4ab2-835d-9472bdf4234b": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440"
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "\u04af\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              "\u0436\u0430\u0441\u044b"
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2629df4e-0642-4dea-871c-9e07cc56c7eb": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "\u0434\u04d9\u0440\u0456 "
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              ""
+            ]
+          },
+          "5cc85b7d-08a6-43e2-b2da-6e23ee935e57": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "\u0421\u0456\u0437 \u0435\u0441\u0442\u0456\u0433\u0435\u043d \u0434\u0430\u049b\u043f\u044b\u0440\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u043a\u0435\u0439\u0431\u0456\u0440\u0435\u0443\u0456 \u043e\u0441\u044b\u043d\u0434\u0430 \u0436\u0430\u0437\u044b\u043b\u0493\u0430\u043d. \u049a\u0430\u0439\u0441\u044b\u0441\u044b \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u043b\u0433\u0456\u04a3\u0456\u0437 \u043a\u0435\u043b\u0435\u0434\u0456? \n\u0410. \u04ae\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u044b \u0442\u0430\u0440\u0430\u0442\u0430 \u0430\u043b\u0430\u0434\u044b. \nB. \u0416\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0436\u0430\u0441\u0442\u0430\u0440\u0493\u0430 \u04d9\u0441\u0435\u0440 \u0435\u0442\u043f\u0435\u0439\u0434\u0456.\nC. \u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440 COVID-19 \u0430\u0443\u0440\u0443\u044b\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d \u0430\u043b\u0430\u0434\u044b \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u0435\u043c\u0434\u0435\u0439\u0434\u0456. \nD. \u049a\u0430\u0437\u0456\u0440 COVID-19-\u0434\u044b \u0435\u043c\u0434\u0435\u0443\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440 \u0431\u0430\u0440. "
+            ],
+            "quick_replies": [
+              "A",
+              "\u0411",
+              "\u0421",
+              "\u0414"
+            ]
+          }
+        },
+        "mkd": {
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "\u0415\u0432\u0435 \u043d\u0435\u043a\u043e\u043b\u043a\u0443 \u0440\u0430\u0431\u043e\u0442\u0438 \u0448\u0442\u043e \u043c\u043e\u0436\u0435\u0431\u0438 \u0441\u0442\u0435 \u0433\u0438 \u0447\u0443\u043b\u0435. \u0417\u0430 \u043a\u043e\u0458\u0430 \u0441\u0430\u043a\u0430\u0442\u0435 \u0434\u0430 \u0434\u043e\u0437\u043d\u0430\u0435\u0442\u0435 \u043f\u043e\u0432\u0435\u045c\u0435?\n\n\u0410.    \u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0442\u0435 \u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u043e \u0448\u0438\u0440\u0430\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442.\n\u0411.    \u041d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441 \u043d\u0435 \u0432\u043b\u0438\u0458\u0430\u0435 \u0432\u0440\u0437 \u043c\u043b\u0430\u0434\u0438\u0442\u0435.\n\u0412.    \u0421\u043e \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0441\u043f\u0440\u0435\u0447\u0438 \u0438 \u0434\u0430 \u0441\u0435 \u0438\u0437\u043b\u0435\u0447\u0438 \u041a\u041e\u0412\u0418\u0414-19.\n\u0413.    \u0421\u0435\u0433\u0430 \u043f\u043e\u0441\u0442\u043e\u0458\u0430\u0442 \u043b\u0435\u043a\u043e\u0432\u0438 \u0437\u0430 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19. \n\n"
+            ],
+            "quick_replies": [
+              "A",
+              "\u0411",
+              "B",
+              "\u0413"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "\u0411"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "B"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "\u0413"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a \u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438 "
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "\u0411 \u043c\u043b\u0430\u0434\u0438 \u043f\u043e\u0441\u0442\u0430\u0440\u0430 \u0441\u0442\u0430\u0440 \u043f\u043e\u043c\u043b\u0430\u0434 \u043c\u043b\u0430\u0434"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "b \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438 \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "\u0413 \u043b\u0435\u043a  \u041b\u0435\u043a\u043e\u0432\u0438"
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              "\u043b\u0435\u043a"
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "\u043b\u0435\u043a"
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438"
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              ""
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "\u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438 "
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "\u0415\u0432\u0435 \u043d\u0435\u043a\u043e\u043b\u043a\u0443 \u0440\u0430\u0431\u043e\u0442\u0438 \u0448\u0442\u043e \u043c\u043e\u0436\u0435\u0431\u0438 \u0441\u0442\u0435 \u0433\u0438 \u0447\u0443\u043b\u0435. \u0417\u0430 \u043a\u043e\u0458\u0430 \u0441\u0430\u043a\u0430\u0442\u0435 \u0434\u0430 \u0434\u043e\u0437\u043d\u0430\u0435\u0442\u0435 \u043f\u043e\u0432\u0435\u045c\u0435?"
+            ],
+            "quick_replies": [
+              "\u0414\u043e\u043c\u0430\u0448\u043d\u0438\u0442\u0435 \u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u043e \u0448\u0438\u0440\u0430\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442.",
+              "\u041d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441 \u043d\u0435 \u0432\u043b\u0438\u0458\u0430\u0435 \u0432\u0440\u0437 \u043c\u043b\u0430\u0434\u0438\u0442\u0435.",
+              "\u0421\u043e \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0441\u043f\u0440\u0435\u0447\u0438 \u0438 \u0434\u0430 \u0441\u0435 \u0438\u0437\u043b\u0435\u0447\u0438 \u041a\u041e\u0412\u0418\u0414-19.",
+              "\u0421\u0435\u0433\u0430 \u043f\u043e\u0441\u0442\u043e\u0458\u0430\u0442 \u043b\u0435\u043a\u043e\u0432\u0438 \u0437\u0430 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              "\u0432\u043e\u0437\u0440\u0430\u0441\u0442"
+            ]
+          }
+        },
+        "tur": {
+          "423a3791-8f62-4456-962d-0751a662b967": {
+            "text": [
+              "\u0130\u015fte duymu\u015f olabilece\u011finiz baz\u0131 s\u00f6ylentiler. Hangileri hakk\u0131nda daha \u00e7ok bilgi \u00f6\u011frenmek istersiniz? \n\nA.\tEvcil hayvanlar koronavir\u00fcs bula\u015ft\u0131rabilir. \nB.\tYeni koronavir\u00fcs gen\u00e7leri etkilemez. \nC.\tAntibiyotikler KOV\u0130D-19\u2019u \u00f6nler ve tedavi eder. \nD.\tKOV\u0130D-19 tedavisi i\u00e7in ila\u00e7 vard\u0131r.  \n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "df3c1e18-595f-419c-9d72-442a13831f6b": {
+            "name": [
+              "A"
+            ]
+          },
+          "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b": {
+            "name": [
+              "B"
+            ]
+          },
+          "7c66ac30-1b58-46a3-8709-2f5110c3bcbe": {
+            "name": [
+              "C"
+            ]
+          },
+          "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0": {
+            "name": [
+              "D"
+            ]
+          },
+          "3788e6dc-5b7e-44f2-a828-85a74dace728": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "1c7dff0a-0df5-45f9-997b-361f60c42abd": {
+            "arguments": [
+              "a  Evcil Hayvanlar Hayvan"
+            ]
+          },
+          "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5": {
+            "arguments": [
+              "b daha eski eski daha gen\u00e7 gen\u00e7"
+            ]
+          },
+          "fbd7717d-83eb-425b-9481-211e7f87759e": {
+            "arguments": [
+              "c antibiyotik antibiyotikler"
+            ]
+          },
+          "f857de4d-54cd-4639-b775-456d67f42a00": {
+            "arguments": [
+              "d ila\u00e7 ila\u00e7lar tedavisi "
+            ]
+          },
+          "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2": {
+            "text": [
+              "\u0130\u015fte duymu\u015f olabilece\u011finiz baz\u0131 s\u00f6ylentiler. Hangileri hakk\u0131nda daha \u00e7ok bilgi \u00f6\u011frenmek istersiniz? "
+            ],
+            "quick_replies": [
+              "Evcil hayvanlar koronavir\u00fcs bula\u015ft\u0131rabilir",
+              "Yeni koronavir\u00fcs gen\u00e7leri etkilemez",
+              "Antibiyotikler KOV\u0130D-19\u2019u \u00f6nler ve tedavi eder",
+              "KOV\u0130D-19 tedavisi i\u00e7in ila\u00e7 vard\u0131r"
+            ]
+          },
+          "d155dff8-ec22-4e31-920f-578b0c7bebdd": {
+            "name": [
+              "ila\u00e7"
+            ]
+          },
+          "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "e16b2c16-63ab-4324-b7da-b450f330bbe0": {
+            "arguments": [
+              "tedavisi i\u00e7in ila\u00e7 "
+            ]
+          },
+          "2629df4e-0642-4dea-871c-9e07cc56c7eb": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "315f9856-a9e5-4ab2-835d-9472bdf4234b": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "a83fc57a-d7c1-408f-907a-fc00e79d30a2": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "f5cd45c1-a380-4504-b2fe-ea98eb597df7": {
+            "name": [
+              "Evcil Hayvanlar"
+            ]
+          },
+          "fed21cf4-6d6b-4a10-867c-4a9f0945225a": {
+            "name": [
+              " di\u011fer"
+            ]
+          },
+          "89e2fded-4e92-4da3-be4a-c657380bdafa": {
+            "arguments": [
+              "Evcil Hayvanlar Hayvan"
+            ]
+          },
+          "5cc85b7d-08a6-43e2-b2da-6e23ee935e57": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2": {
+            "name": [
+              "Ya\u015f"
+            ]
+          },
+          "5073a7e4-9484-4dc6-be57-451cc2bb20fe": {
+            "arguments": [
+              "gen\u00e7"
+            ]
+          },
+          "af454e06-f0c5-4a1e-b5e3-e0b5f697043e": {
+            "name": [
+              "Antibiyotikler"
+            ]
+          },
+          "97b31ceb-88f0-42d8-b36a-db3b07fda937": {
+            "arguments": [
+              "Antibiyotikler Antibiyotik"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "49c406fd-be91-4746-bb42-6409ea3f8bc9",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a",
+            "categories": [
+              {
+                "uuid": "d155dff8-ec22-4e31-920f-578b0c7bebdd",
+                "name": "Medicine",
+                "exit_uuid": "bd3182f4-df10-48fb-843c-86a7ce4b7202"
+              },
+              {
+                "uuid": "a03518bf-cb5b-4bf2-9e41-60dcd1ae837a",
+                "name": "Other",
+                "exit_uuid": "a30049bd-fbae-463b-bd6b-bbad78b808d5"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "medicine"
+                ],
+                "type": "has_any_word",
+                "uuid": "e16b2c16-63ab-4324-b7da-b450f330bbe0",
+                "category_uuid": "d155dff8-ec22-4e31-920f-578b0c7bebdd"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "bd3182f4-df10-48fb-843c-86a7ce4b7202",
+              "destination_uuid": "f7c26df3-5c97-4fe9-accc-2ca48b0f6d1e"
+            },
+            {
+              "uuid": "a30049bd-fbae-463b-bd6b-bbad78b808d5",
+              "destination_uuid": "576a86c7-ecd5-4c3e-b6d2-e93d9a047d8c"
+            }
+          ]
+        },
+        {
+          "uuid": "f7c26df3-5c97-4fe9-accc-2ca48b0f6d1e",
+          "actions": [
+            {
+              "uuid": "08234305-6699-4c5d-9409-73c11296a587",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "54dcd5b4-f52c-4f9b-b403-0ff5bfca5683",
+                "name": "Myths - Medicines"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "b57a1003-48b5-42e9-8fcc-ab4d91b5e9b5",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "6c8867e4-43f7-4f14-8f6c-6c3788f614ff"
+              },
+              {
+                "uuid": "087774b3-1fe4-40bd-bdde-df7834d73dac",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "4f2e7ef0-db77-40bc-962d-fe0f198f75c6"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "6c8867e4-43f7-4f14-8f6c-6c3788f614ff",
+                "name": "Complete",
+                "exit_uuid": "c5e5b343-231b-4883-9de8-79a7db3d0e64"
+              },
+              {
+                "uuid": "4f2e7ef0-db77-40bc-962d-fe0f198f75c6",
+                "name": "Expired",
+                "exit_uuid": "5a873fae-17bf-4fd0-afcd-e1cd606fd16b"
+              }
+            ],
+            "default_category_uuid": "4f2e7ef0-db77-40bc-962d-fe0f198f75c6"
+          },
+          "exits": [
+            {
+              "uuid": "c5e5b343-231b-4883-9de8-79a7db3d0e64",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "5a873fae-17bf-4fd0-afcd-e1cd606fd16b",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "576a86c7-ecd5-4c3e-b6d2-e93d9a047d8c",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "2629df4e-0642-4dea-871c-9e07cc56c7eb",
+            "categories": [
+              {
+                "uuid": "af454e06-f0c5-4a1e-b5e3-e0b5f697043e",
+                "name": "Antibiotics",
+                "exit_uuid": "71c25669-ed0f-4413-9aaf-38277d5ab08e"
+              },
+              {
+                "uuid": "2629df4e-0642-4dea-871c-9e07cc56c7eb",
+                "name": "Other",
+                "exit_uuid": "c446a9d2-984a-4432-9381-442d0b9e6ea3"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "antibiotics"
+                ],
+                "type": "has_any_word",
+                "uuid": "97b31ceb-88f0-42d8-b36a-db3b07fda937",
+                "category_uuid": "af454e06-f0c5-4a1e-b5e3-e0b5f697043e"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "71c25669-ed0f-4413-9aaf-38277d5ab08e",
+              "destination_uuid": "2f31b13a-e3f1-4340-ba60-942137c72e8d"
+            },
+            {
+              "uuid": "c446a9d2-984a-4432-9381-442d0b9e6ea3",
+              "destination_uuid": "be8ab022-ca44-4a29-b6ef-7362c7dea6f8"
+            }
+          ]
+        },
+        {
+          "uuid": "2f31b13a-e3f1-4340-ba60-942137c72e8d",
+          "actions": [
+            {
+              "uuid": "24672a00-a28d-454e-87f1-8ca2af33abd9",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "61862995-d34b-4118-b3f5-db1489002a52",
+                "name": "Myths - Antibiotics"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "d706a93a-dbcb-4d7a-af48-c0f6c4e3de9d",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "7c6518d5-9826-4a3d-8e96-29ab2b787c4d"
+              },
+              {
+                "uuid": "84636b7c-4307-4a34-98b6-bd3212d3fc5a",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "f7bd8f04-216d-417a-a4bf-72f75f5e1193"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "7c6518d5-9826-4a3d-8e96-29ab2b787c4d",
+                "name": "Complete",
+                "exit_uuid": "82b8d734-ebf7-489a-819d-c4e8f7ae9d41"
+              },
+              {
+                "uuid": "f7bd8f04-216d-417a-a4bf-72f75f5e1193",
+                "name": "Expired",
+                "exit_uuid": "f31cfbd9-3154-44b0-bcfa-f45ee0d7de22"
+              }
+            ],
+            "default_category_uuid": "f7bd8f04-216d-417a-a4bf-72f75f5e1193"
+          },
+          "exits": [
+            {
+              "uuid": "82b8d734-ebf7-489a-819d-c4e8f7ae9d41",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "f31cfbd9-3154-44b0-bcfa-f45ee0d7de22",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "be8ab022-ca44-4a29-b6ef-7362c7dea6f8",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "315f9856-a9e5-4ab2-835d-9472bdf4234b",
+            "categories": [
+              {
+                "uuid": "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2",
+                "name": "Age",
+                "exit_uuid": "f50f2055-e10c-4581-a8d3-f61a1d6f94df"
+              },
+              {
+                "uuid": "315f9856-a9e5-4ab2-835d-9472bdf4234b",
+                "name": "Other",
+                "exit_uuid": "aef66bcf-c49a-4aa8-8610-769f4ec35311"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "young"
+                ],
+                "type": "has_any_word",
+                "uuid": "5073a7e4-9484-4dc6-be57-451cc2bb20fe",
+                "category_uuid": "4a82a23f-6148-43e7-b9ce-7dc9bb1a6df2"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "f50f2055-e10c-4581-a8d3-f61a1d6f94df",
+              "destination_uuid": "1105ba26-fcb9-4653-a5f0-39e90c04d2a2"
+            },
+            {
+              "uuid": "aef66bcf-c49a-4aa8-8610-769f4ec35311",
+              "destination_uuid": "d04b18ba-5ed3-447f-8c03-9bb5f8b49a60"
+            }
+          ]
+        },
+        {
+          "uuid": "1105ba26-fcb9-4653-a5f0-39e90c04d2a2",
+          "actions": [
+            {
+              "uuid": "18688b95-eee1-4067-b445-51748f750c74",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "3d983e41-44a1-4747-9006-e84c5ef70de1",
+                "name": "Myths - Older"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "b424f17f-bda9-4d7b-ab73-765421dd67ca",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "6b37f890-06af-4eaa-92fe-8da6a18b06e0"
+              },
+              {
+                "uuid": "ac89b9ee-6115-4151-80e9-21e41d2f7b07",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "906b0c7a-1a62-4d62-bc07-120455443c95"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "6b37f890-06af-4eaa-92fe-8da6a18b06e0",
+                "name": "Complete",
+                "exit_uuid": "9a81257c-add3-4d5d-94fc-9fcace925336"
+              },
+              {
+                "uuid": "906b0c7a-1a62-4d62-bc07-120455443c95",
+                "name": "Expired",
+                "exit_uuid": "e22d3bd2-b52b-46d0-b646-8fef8dc23507"
+              }
+            ],
+            "default_category_uuid": "906b0c7a-1a62-4d62-bc07-120455443c95"
+          },
+          "exits": [
+            {
+              "uuid": "9a81257c-add3-4d5d-94fc-9fcace925336",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "e22d3bd2-b52b-46d0-b646-8fef8dc23507",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "d04b18ba-5ed3-447f-8c03-9bb5f8b49a60",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "fed21cf4-6d6b-4a10-867c-4a9f0945225a",
+            "categories": [
+              {
+                "uuid": "f5cd45c1-a380-4504-b2fe-ea98eb597df7",
+                "name": "Pets",
+                "exit_uuid": "3c040460-3cdb-46c0-bcca-b8ffb38fee29"
+              },
+              {
+                "uuid": "fed21cf4-6d6b-4a10-867c-4a9f0945225a",
+                "name": "Other",
+                "exit_uuid": "1847f899-4675-4bc3-bf28-2250ba7a6ca4"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "pet"
+                ],
+                "type": "has_any_word",
+                "uuid": "89e2fded-4e92-4da3-be4a-c657380bdafa",
+                "category_uuid": "f5cd45c1-a380-4504-b2fe-ea98eb597df7"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "3c040460-3cdb-46c0-bcca-b8ffb38fee29",
+              "destination_uuid": "8e57a003-2668-44a4-b9fc-43ecf5bd69b7"
+            },
+            {
+              "uuid": "1847f899-4675-4bc3-bf28-2250ba7a6ca4",
+              "destination_uuid": "f4e3abbc-81df-4dbd-8c1d-fb5757c9bfa6"
+            }
+          ]
+        },
+        {
+          "uuid": "8e57a003-2668-44a4-b9fc-43ecf5bd69b7",
+          "actions": [
+            {
+              "uuid": "6d7e8a8c-a2bf-4f89-9bde-e40c186900ae",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "361e8468-c156-4fa7-9195-dd924430d1a1",
+                "name": "Myths - Pets"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "cb958cbf-40e2-4cf0-8463-e2c66003ece6",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "4b47eb50-175b-49c8-8e4d-58dd1041656c"
+              },
+              {
+                "uuid": "6d89bc96-b73a-4de5-a0be-406927f4d71f",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "20ec351d-73f1-4fe0-a0d4-af6ce2aeca29"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "4b47eb50-175b-49c8-8e4d-58dd1041656c",
+                "name": "Complete",
+                "exit_uuid": "09cc8e00-9111-4c32-b2c8-76043d808dae"
+              },
+              {
+                "uuid": "20ec351d-73f1-4fe0-a0d4-af6ce2aeca29",
+                "name": "Expired",
+                "exit_uuid": "d3a4aebb-5a74-4fa7-ab9b-88461328e5d0"
+              }
+            ],
+            "default_category_uuid": "20ec351d-73f1-4fe0-a0d4-af6ce2aeca29"
+          },
+          "exits": [
+            {
+              "uuid": "09cc8e00-9111-4c32-b2c8-76043d808dae",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "d3a4aebb-5a74-4fa7-ab9b-88461328e5d0",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "f4e3abbc-81df-4dbd-8c1d-fb5757c9bfa6",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "a83fc57a-d7c1-408f-907a-fc00e79d30a2",
+            "cases": [
+              {
+                "arguments": [
+                  "Telegram"
+                ],
+                "type": "has_any_word",
+                "uuid": "e5df53f8-2de1-4ba4-a7e5-30e0ad3ceb00",
+                "category_uuid": "5cc85b7d-08a6-43e2-b2da-6e23ee935e57"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "5cc85b7d-08a6-43e2-b2da-6e23ee935e57",
+                "name": "Telegram",
+                "exit_uuid": "d2fc8388-a8bc-4651-8df4-1dbcc9ef43d3"
+              },
+              {
+                "uuid": "a83fc57a-d7c1-408f-907a-fc00e79d30a2",
+                "name": "Other",
+                "exit_uuid": "b8ed7def-f49f-499a-a80f-73bea2a2f2d9"
+              }
+            ],
+            "operand": "@contact.channel"
+          },
+          "exits": [
+            {
+              "uuid": "d2fc8388-a8bc-4651-8df4-1dbcc9ef43d3",
+              "destination_uuid": "fcc2ef9d-e16b-4b85-b8db-93185e49d278"
+            },
+            {
+              "uuid": "b8ed7def-f49f-499a-a80f-73bea2a2f2d9",
+              "destination_uuid": "32cf6159-bbbd-4272-b29d-bbaf32ee8f81"
+            }
+          ]
+        },
+        {
+          "uuid": "fcc2ef9d-e16b-4b85-b8db-93185e49d278",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Here are some things you may have heard. Which one do you want to learn about?\n\nA. Pets at home can spread the coronavirus.\nB. The new coronavirus doesn\u2019t affect young people.\nC. Antibiotics can prevent and treat COVID-19. \nD. There are now medicines to treat COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "uuid": "423a3791-8f62-4456-962d-0751a662b967"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "6b3d5b29-0972-4d75-8479-3ea46b149d3a",
+              "destination_uuid": "488820cb-dc72-410c-8589-e881f877e19d"
+            }
+          ]
+        },
+        {
+          "uuid": "32cf6159-bbbd-4272-b29d-bbaf32ee8f81",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Here are some things you may have heard. Which one do you want to learn about?\n",
+              "type": "send_msg",
+              "quick_replies": [
+                "Pets can spread the virus.",
+                "Young people don't have to worry.",
+                "Antibiotics can treat COVID-19.",
+                "There are medicines to treat COVID-19."
+              ],
+              "uuid": "8ee5e4ae-4cf4-4e0f-9c93-299dca3acef2"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "85d9ed47-1ce6-4e2b-9fb5-e55803d0e043",
+              "destination_uuid": "488820cb-dc72-410c-8589-e881f877e19d"
+            }
+          ]
+        },
+        {
+          "uuid": "488820cb-dc72-410c-8589-e881f877e19d",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "3788e6dc-5b7e-44f2-a828-85a74dace728",
+            "cases": [
+              {
+                "arguments": [
+                  "a pets pet"
+                ],
+                "type": "has_any_word",
+                "uuid": "1c7dff0a-0df5-45f9-997b-361f60c42abd",
+                "category_uuid": "df3c1e18-595f-419c-9d72-442a13831f6b"
+              },
+              {
+                "arguments": [
+                  "b older old younger young"
+                ],
+                "type": "has_any_word",
+                "uuid": "fcba82f5-2297-4cf0-b09b-7c14ba5be5b5",
+                "category_uuid": "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b"
+              },
+              {
+                "arguments": [
+                  "c antibiotic antibiotics"
+                ],
+                "type": "has_any_word",
+                "uuid": "fbd7717d-83eb-425b-9481-211e7f87759e",
+                "category_uuid": "7c66ac30-1b58-46a3-8709-2f5110c3bcbe"
+              },
+              {
+                "arguments": [
+                  "d medicine medicines"
+                ],
+                "type": "has_any_word",
+                "uuid": "f857de4d-54cd-4639-b775-456d67f42a00",
+                "category_uuid": "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "df3c1e18-595f-419c-9d72-442a13831f6b",
+                "name": "A",
+                "exit_uuid": "21563f45-8eda-4c20-84fe-fb4c870f10af"
+              },
+              {
+                "uuid": "a79af8fb-3fe3-4cc9-a6b1-98a9209ee31b",
+                "name": "B",
+                "exit_uuid": "1974dbcb-0778-4203-a92f-056f34ae0984"
+              },
+              {
+                "uuid": "7c66ac30-1b58-46a3-8709-2f5110c3bcbe",
+                "name": "C",
+                "exit_uuid": "0aebfb36-8938-4abe-9a0a-6530ef232008"
+              },
+              {
+                "uuid": "ee3c2bdf-5fbc-4fb3-9a5f-7f547206d4f0",
+                "name": "D",
+                "exit_uuid": "e514af4e-8fdb-4d4c-86ae-6f327d89f2df"
+              },
+              {
+                "uuid": "3788e6dc-5b7e-44f2-a828-85a74dace728",
+                "name": "Other",
+                "exit_uuid": "e00d3dc1-b700-4562-8b0f-69ebc5c281d0"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "message"
+          },
+          "exits": [
+            {
+              "uuid": "21563f45-8eda-4c20-84fe-fb4c870f10af",
+              "destination_uuid": "8e57a003-2668-44a4-b9fc-43ecf5bd69b7"
+            },
+            {
+              "uuid": "1974dbcb-0778-4203-a92f-056f34ae0984",
+              "destination_uuid": "1105ba26-fcb9-4653-a5f0-39e90c04d2a2"
+            },
+            {
+              "uuid": "0aebfb36-8938-4abe-9a0a-6530ef232008",
+              "destination_uuid": "2f31b13a-e3f1-4340-ba60-942137c72e8d"
+            },
+            {
+              "uuid": "e514af4e-8fdb-4d4c-86ae-6f327d89f2df",
+              "destination_uuid": "f7c26df3-5c97-4fe9-accc-2ca48b0f6d1e"
+            },
+            {
+              "uuid": "e00d3dc1-b700-4562-8b0f-69ebc5c281d0",
+              "destination_uuid": "3a4d9317-4234-40d4-bb57-e5ca504aaf11"
+            }
+          ]
+        },
+        {
+          "uuid": "3a4d9317-4234-40d4-bb57-e5ca504aaf11",
+          "actions": [
+            {
+              "uuid": "da8aa16f-08d2-4a7d-a810-1cbff25ebadc",
+              "type": "set_contact_field",
+              "field": {
+                "key": "message",
+                "name": "Message"
+              },
+              "value": "@input.text"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "8878eed3-67a6-4c60-a687-7cf1ce90fee1",
+              "destination_uuid": "0a964876-c712-444d-83be-e53ae80e4996"
+            }
+          ]
+        },
+        {
+          "uuid": "0a964876-c712-444d-83be-e53ae80e4996",
+          "actions": [
+            {
+              "uuid": "b8f8cbac-10fb-463c-b33f-b0d612d68535",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "bea89f01-5ea1-4720-8d32-62e509e924aa",
+                "name": "Classifier"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "66351dd1-4e3e-410c-ba7d-52ea9a39a89d",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ec6e756a-f5db-460d-9980-c65fde264c18"
+              },
+              {
+                "uuid": "420a6dd0-69e4-4fdd-8ae4-7c001ef0784e",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "7c532b03-c4f8-436b-be12-334c1f3b00ca"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "ec6e756a-f5db-460d-9980-c65fde264c18",
+                "name": "Complete",
+                "exit_uuid": "1d9a43d8-615c-47f3-b9c4-35a93955f37f"
+              },
+              {
+                "uuid": "7c532b03-c4f8-436b-be12-334c1f3b00ca",
+                "name": "Expired",
+                "exit_uuid": "fa21414a-86f3-4120-91e9-fbb1c3db6217"
+              }
+            ],
+            "default_category_uuid": "7c532b03-c4f8-436b-be12-334c1f3b00ca"
+          },
+          "exits": [
+            {
+              "uuid": "1d9a43d8-615c-47f3-b9c4-35a93955f37f",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "fa21414a-86f3-4120-91e9-fbb1c3db6217",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

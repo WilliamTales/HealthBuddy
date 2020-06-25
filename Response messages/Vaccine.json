@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "29c4ba47-8900-450e-b56c-afc115c62a82": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "Todav\u00eda no existe una vacuna ni un medicamento antiviral espec\u00edfico para prevenir o tratar COVID-2019."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "Pero las personas con s\u00edntomas pueden recibir atenci\u00f3n para aliviar los s\u00edntomas."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "Las personas con enfermedades graves deben ser hospitalizadas. La mayor\u00eda de los pacientes se recuperan gracias a la atenci\u00f3n m\u00e9dica."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "Se est\u00e1n desarrollando posibles vacunas y algunos tratamientos farmacol\u00f3gicos espec\u00edficos."
+            ]
+          }
+        },
+        "ell": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b1\u03ba\u03cc\u03bc\u03b7 \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf \u03bf\u03cd\u03c4\u03b5 \u03c3\u03c5\u03b3\u03ba\u03b5\u03ba\u03c1\u03b9\u03bc\u03ad\u03bd\u03bf \u03b1\u03bd\u03c4\u03b9\u03b9\u03ba\u03cc \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7 \u03ae \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1 \u03c4\u03bf\u03c5 COVID-2019. "
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "\u0391\u03bb\u03bb\u03ac \u03cc\u03c3\u03bf\u03b9 \u03c0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03b6\u03bf\u03c5\u03bd \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bb\u03ac\u03b2\u03bf\u03c5\u03bd \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03b1\u03bd\u03b1\u03ba\u03bf\u03cd\u03c6\u03b9\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c3\u03c5\u03bc\u03c0\u03c4\u03c9\u03bc\u03ac\u03c4\u03c9\u03bd"
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "\u0386\u03c4\u03bf\u03bc\u03b1 \u03bc\u03b5 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03bd\u03bf\u03c3\u03b7\u03bb\u03b5\u03cd\u03bf\u03bd\u03c4\u03b1\u03b9. \u039f\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03bf\u03b9 \u03b1\u03c3\u03b8\u03b5\u03bd\u03b5\u03af\u03c2 \u03b1\u03bd\u03b1\u03c1\u03c1\u03ce\u03bd\u03bf\u03c5\u03bd \u03c7\u03ac\u03c1\u03b7 \u03c3\u03c4\u03b7\u03bd \u03c5\u03c0\u03bf\u03c3\u03c4\u03b7\u03c1\u03b9\u03ba\u03c4\u03b9\u03ba\u03ae \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1. "
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "\u0391\u03c5\u03c4\u03ae \u03c4\u03b7 \u03c3\u03c4\u03b9\u03b3\u03bc\u03ae \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c0\u03b9\u03b8\u03b1\u03bd\u03ac \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c3\u03c5\u03b3\u03ba\u03b5\u03ba\u03c1\u03b9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03c6\u03b1\u03c1\u03bc\u03b1\u03ba\u03b5\u03c5\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b5\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "\u041f\u043e\u043a\u0430 \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0445 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u043e\u0432 \u0434\u043b\u044f \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438 \u0438\u043b\u0438 \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-2019."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "\u041d\u043e \u043b\u044e\u0434\u0438 \u043c\u043e\u0433\u0443\u0442 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0443\u044e \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0443\u044e \u043f\u043e\u043c\u043e\u0449\u044c \u0434\u043b\u044f \u043e\u0431\u043b\u0435\u0433\u0447\u0435\u043d\u0438\u044f \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "\u041b\u044e\u0434\u0438 \u0441 \u0442\u044f\u0436\u0435\u043b\u044b\u043c \u0442\u0435\u0447\u0435\u043d\u0438\u0435\u043c \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u0433\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u044b. \u0411\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u043e\u0432 \u0432\u044b\u0437\u0434\u043e\u0440\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0435\u0439 \u0442\u0435\u0440\u0430\u043f\u0438\u0438."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0432\u0435\u0434\u0435\u0442\u0441\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u043d\u0430\u0434 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435\u043c \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u043e\u0432."
+            ]
+          }
+        },
+        "ita": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "Non esiste ancora un vaccino e neanche un medicinale antivirale specifico per prevenire o curare COVID-2019."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "Tuttavia, le persone con sintomi possono ricevere cure per alleviare i sintomi."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "Le persone con malattie gravi devono essere ricoverate in ospedale. La maggior parte dei pazienti guarisce grazie a cure di supporto."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "Sono attualmente in via di sviluppo vaccini e altri farmaci specifici per trattare la COVID-19. "
+            ]
+          }
+        },
+        "kaz": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "COVID-2019 \u0430\u043b\u0434\u044b\u043d-\u0430\u043b\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0435\u043c\u0434\u0435\u0443 \u04af\u0448\u0456\u043d \u04d9\u043b\u0456 \u0434\u0435 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0436\u04d9\u043d\u0435 \u0432\u0438\u0440\u0443\u0441\u049b\u0430 \u049b\u0430\u0440\u0441\u044b \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a \u0436\u043e\u049b."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "\u0411\u0456\u0440\u0430\u049b \u0430\u0443\u0440\u0443\u0434\u044b\u04a3 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 \u0431\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0434\u0430\u0440\u0434\u044b \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0443 \u04af\u0448\u0456\u043d \u043a\u04e9\u043c\u0435\u043a \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u0435\u0434\u0456."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "\u0410\u0443\u044b\u0440 \u0430\u0443\u0440\u0443\u044b \u0431\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0443\u0440\u0443\u0445\u0430\u043d\u0430\u0493\u0430 \u0436\u0430\u0442\u049b\u044b\u0437\u044b\u043b\u0443\u044b \u043a\u0435\u0440\u0435\u043a. \u041f\u0430\u0446\u0438\u0435\u043d\u0442\u0442\u0435\u0440\u0434\u0456\u04a3 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u0433\u0456 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u049b\u043e\u043b\u0434\u0430\u0443\u0434\u044b\u04a3 \u0430\u0440\u049b\u0430\u0441\u044b\u043d\u0434\u0430 \u049b\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0435\u0434\u0456."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "\u041c\u04af\u043c\u043a\u0456\u043d \u0435\u043c \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u0432\u0430\u043a\u0446\u0438\u043d\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u043a\u0435\u0439\u0431\u0456\u0440 \u043d\u0430\u049b\u0442\u044b \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440 \u0436\u0430\u0441\u0430\u043b\u0443\u0434\u0430."
+            ]
+          }
+        },
+        "por": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "Ainda n\u00e3o existe vacina nem medicamento antiviral espec\u00edfico para prevenir ou tratar o COVID-2019."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "Mas as pessoas com sintomas podem receber cuidados para aliviar os sintomas."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "Pessoas com doen\u00e7as graves devem ser hospitalizadas. A maioria dos pacientes se recupera gra\u00e7as \u00e0 cuidados m\u00e9dicos."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "Poss\u00edveis vacinas e alguns tratamentos medicamentosos espec\u00edficos est\u00e3o sendo desenvolvidos."
+            ]
+          }
+        },
+        "mkd": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "\u0421\u00e8 \u0443\u0448\u0442\u0435 \u043d\u0435\u043c\u0430 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0438 \u043d\u0435\u043c\u0430 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u0435\u043d \u0430\u043d\u0442\u0438\u0432\u0438\u0440\u0443\u0441\u0435\u043d \u043b\u0435\u043a \u0437\u0430 \u0441\u043f\u0440\u0435\u0447\u0443\u0432\u0430\u045a\u0435 \u0438\u043b\u0438 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "\u041d\u043e, \u043b\u0443\u0453\u0435\u0442\u043e \u0441\u043e \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0434\u043e\u0431\u0438\u0458\u0430\u0442 \u0433\u0440\u0438\u0436\u0430 \u0437\u0430 \u0434\u0430 \u0438\u043c \u0441\u0435 \u043e\u043b\u0435\u0441\u043d\u0430\u0442 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "\u041b\u0443\u0453\u0435\u0442\u043e \u0441\u043e \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u0445\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u0430\u043d\u0438. \u041f\u043e\u0432\u0435\u045c\u0435\u0442\u043e \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0438 \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0443\u0432\u0430\u0430\u0442 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0435\u043d\u0438\u0435 \u043d\u0430 \u0433\u0440\u0438\u0436\u0430\u0442\u0430 \u0441\u043e \u043f\u043e\u0434\u0434\u0440\u0448\u043a\u0430."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "\u0412\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432 \u0441\u0435 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0430\u0442 \u0432\u0430\u043a\u0446\u0438\u043d\u0438 \u0438 \u043d\u0435\u043a\u043e\u0438 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0438 \u0442\u0440\u0435\u0442\u043c\u0430\u043d\u0438 \u0441\u043e \u043b\u0435\u043a\u043e\u0432\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "c051339b-e371-4291-a35e-adea9eac1ef5": {
+            "text": [
+              "KOV\u0130D-19 salg\u0131n\u0131n\u0131 \u00f6nlemek ya da tedavi etmeye y\u00f6nelik herhangi bir spesifik antiviral ila\u00e7 bulunamam\u0131\u015ft\u0131r."
+            ]
+          },
+          "c1e8664f-29b1-4047-9220-e38174e3a85b": {
+            "text": [
+              "Ancak semptomlar\u0131 olan bireyler bu semptomlar\u0131 hafifletmek amac\u0131yla bak\u0131m alabilir."
+            ]
+          },
+          "beb3f9a2-9441-45b9-b7d1-731dd84f0643": {
+            "text": [
+              "Ciddi hastal\u0131klar\u0131 olan bireyler hastaneye yat\u0131r\u0131lmal\u0131d\u0131r. Destekleyici bak\u0131m sayesinde \u00e7o\u011fu hasta iyile\u015fmektedir."
+            ]
+          },
+          "ee1ef232-195e-49fa-80d9-938d7eef7cce": {
+            "text": [
+              "Olas\u0131 a\u015f\u0131lar ve baz\u0131 spesifik ila\u00e7 tedavileri geli\u015ftirilmekte ve test edilmektedir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 49
+      },
+      "name": "Vaccine",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "3ad06a22-3c98-4b9c-9d5e-db8aba9c851d",
+      "revision": 53,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "There is no vaccine and no specific antiviral medicine yet to prevent or treat COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c051339b-e371-4291-a35e-adea9eac1ef5"
+            },
+            {
+              "attachments": [],
+              "text": "But people with symptoms can receive care to relieve symptoms.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c1e8664f-29b1-4047-9220-e38174e3a85b"
+            },
+            {
+              "attachments": [],
+              "text": "People with serious illnesses should be hospitalized. Most patients recover thanks to supportive care.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "beb3f9a2-9441-45b9-b7d1-731dd84f0643"
+            },
+            {
+              "attachments": [],
+              "text": "Possible vaccines and some specific drug treatments are being developed.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "ee1ef232-195e-49fa-80d9-938d7eef7cce"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "9f1c1621-d3e2-4458-89a4-523ecf1dd028"
+            }
+          ],
+          "uuid": "29c4ba47-8900-450e-b56c-afc115c62a82"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

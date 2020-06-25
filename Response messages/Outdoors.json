@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "58eeb2b6-233d-42c8-8514-efe712ed2162": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "El aire fresco y el ejercicio son esenciales para la buena salud y el bienestar."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "Debes mantener una distancia f\u00edsica (de al menos 1 metro) de los dem\u00e1s, tanto dentro como fuera, y seguir las indicaciones de tus autoridades."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "Adem\u00e1s, mant\u00e9n una buena higiene de manos con un lavado frecuente de las mismas, especialmente despu\u00e9s de tocar una superficie potencialmente contaminada."
+            ]
+          }
+        },
+        "ell": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "\u039f \u03ba\u03b1\u03b8\u03b1\u03c1\u03cc\u03c2 \u03b1\u03ad\u03c1\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03b7 \u03ac\u03c3\u03ba\u03b7\u03c3\u03b7 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b1\u03c0\u03b1\u03c1\u03b1\u03af\u03c4\u03b7\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ad\u03c7\u03bf\u03c5\u03bc\u03b5 \u03ba\u03b1\u03bb\u03ae \u03c5\u03b3\u03b5\u03af\u03b1 \u03ba\u03b1\u03b9 \u03b5\u03c5\u03b5\u03be\u03af\u03b1."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "\u0398\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03c4\u03b7\u03c1\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b7 \u03c3\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03cc\u03c3\u03c4\u03b1\u03c3\u03b7 (\u03c4\u03bf\u03c5\u03bb\u03ac\u03c7\u03b9\u03c3\u03c4\u03bf\u03bd 1 \u03bc.) \u03b1\u03c0\u03cc \u03c4\u03bf\u03c5\u03c2 \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2 \u03c4\u03cc\u03c3\u03bf \u03b5\u03bd\u03c4\u03cc\u03c2 \u03cc\u03c3\u03bf \u03ba\u03b1\u03b9 \u03b5\u03ba\u03c4\u03cc\u03c2 \u03c3\u03c0\u03b9\u03c4\u03b9\u03bf\u03cd \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b9\u03c2 \u03bf\u03b4\u03b7\u03b3\u03af\u03b5\u03c2 \u03c4\u03c9\u03bd \u03b1\u03c1\u03bc\u03cc\u03b4\u03b9\u03c9\u03bd \u03b1\u03c1\u03c7\u03ce\u03bd."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "\u0395\u03c0\u03af\u03c3\u03b7\u03c2, \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03bf\u03c5\u03bc\u03b5 \u03c3\u03c5\u03c7\u03bd\u03ac \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1, \u03ba\u03c5\u03c1\u03af\u03c9\u03c2 \u03cc\u03c4\u03b1\u03bd \u03ad\u03c7\u03bf\u03c5\u03bc\u03b5 \u03b1\u03b3\u03b3\u03af\u03be\u03b5\u03b9 \u03b5\u03bd\u03b4\u03b5\u03c7\u03bf\u03bc\u03ad\u03bd\u03c9\u03c2 \u03bc\u03bf\u03bb\u03c5\u03c3\u03bc\u03ad\u03bd\u03b5\u03c2 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "\u0421\u0432\u0435\u0436\u0438\u0439 \u0432\u043e\u0437\u0434\u0443\u0445 \u0438 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0443\u043f\u0440\u0430\u0436\u043d\u0435\u043d\u0438\u044f \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b \u0434\u043b\u044f \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u0445\u043e\u0440\u043e\u0448\u0435\u0433\u043e \u0441\u0430\u043c\u043e\u0447\u0443\u0432\u0441\u0442\u0432\u0438\u044f."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "\u0412\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0443\u044e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u044e (\u043d\u0435 \u043c\u0435\u043d\u0435\u0435 1 \u043c\u0435\u0442\u0440\u0430) \u043e\u0442 \u0434\u0440\u0443\u0433\u0438\u0445 \u043b\u044e\u0434\u0435\u0439 \u043a\u0430\u043a \u0432 \u043f\u043e\u043c\u0435\u0449\u0435\u043d\u0438\u0438, \u0442\u0430\u043a \u0438 \u043d\u0430 \u0443\u043b\u0438\u0446\u0435. \u041f\u043e\u043c\u043d\u0438\u0442\u0435, \u0447\u0442\u043e \u0432\u0430\u0448\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0440\u0435\u0447\u0438\u0442\u044c \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f\u043c \u0432\u043b\u0430\u0441\u0442\u0435\u0439."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "\u0422\u0430\u043a\u0436\u0435 \u043d\u0435\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0447\u0430\u0441\u0442\u043e \u043c\u044b\u0442\u044c \u0440\u0443\u043a\u0438 \u0441 \u043c\u044b\u043b\u043e\u043c, \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043f\u043e\u0441\u043b\u0435 \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u043e\u0432\u0435\u043d\u0438\u044f \u043a \u043f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u043d\u043e\u0439 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438."
+            ]
+          }
+        },
+        "ita": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "L'aria fresca e l'esercizio fisico sono essenziali per la buona salute ed il benessere."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "Bisogna mantenere una distanza fisica (di almeno 1 metro) dagli altri sia all'interno che all'esterno e seguire le indicazioni delle autorit\u00e0 locali."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "Inoltre, \u00e8 necessario rispettare una corretta igiene delle mani con frequenti lavaggi, soprattutto dopo aver toccato una superficie potenzialmente contaminata."
+            ]
+          }
+        },
+        "kaz": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "\u0422\u0430\u0437\u0430 \u0430\u0443\u0430 \u043c\u0435\u043d \u0436\u0430\u0442\u0442\u044b\u0493\u0443\u043b\u0430\u0440 \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b\u0442\u044b \u043d\u044b\u0493\u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d \u049b\u0430\u0436\u0435\u0442."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "\u0421\u0456\u0437 \u0456\u0448\u0442\u0435 \u0434\u0435, \u0441\u044b\u0440\u0442\u0442\u0430 \u0434\u0430 \u0431\u0430\u0441\u049b\u0430\u043b\u0430\u0440\u0434\u0430\u043d \u0444\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u0430\u0440\u0430\u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b\u0442\u044b (\u043a\u0435\u043c \u0434\u0435\u0433\u0435\u043d\u0434\u0435 1 \u043c\u0435\u0442\u0440) \u04b1\u0441\u0442\u0430\u043d\u044b\u043f, \u0443\u04d9\u043a\u0456\u043b\u0435\u0442\u0442\u0456 \u043e\u0440\u0433\u0430\u043d\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b\u04a3 \u043d\u04b1\u0441\u049b\u0430\u0443\u043b\u044b\u049b\u0442\u0430\u0440\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443\u044b\u04a3\u044b\u0437 \u043a\u0435\u0440\u0435\u043a."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "\u0421\u043e\u043d\u0434\u0430\u0439-\u0430\u049b, \u049b\u043e\u043b\u0434\u044b \u0436\u0438\u0456 \u0436\u0443\u044b\u043f, \u049b\u043e\u043b\u0434\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b\u043d \u049b\u0430\u0434\u0430\u0493\u0430\u043b\u0430\u04a3\u044b\u0437, \u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u043b\u0430\u0441\u0442\u0430\u043d\u0493\u0430\u043d \u0436\u0435\u0440\u0434\u0456 \u04b1\u0441\u0442\u0430\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d."
+            ]
+          }
+        },
+        "por": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "Ar fresco e exerc\u00edcios s\u00e3o essenciais para uma boa sa\u00fade e bem-estar."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "Voc\u00ea deve manter dist\u00e2ncia f\u00edsica (de pelo menos um metro) de outras pessoas, dentro e fora de casa, e seguir as orienta\u00e7\u00f5es de suas autoridades."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "Al\u00e9m disso, pratique a higiene das m\u00e3os com lavagens frequentes, principalmente ap\u00f3s tocar em uma superf\u00edcie potencialmente contaminada."
+            ]
+          }
+        },
+        "mkd": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "\u0421\u0432\u0435\u0436\u0438\u043e\u0442 \u0432\u043e\u0437\u0434\u0443\u0445 \u0438 \u0432\u0435\u0436\u0431\u0430\u045a\u0435\u0442\u043e \u0441\u0435 \u043d\u0435\u043e\u043f\u0445\u043e\u0434\u043d\u0438 \u0437\u0430 \u0434\u043e\u0431\u0440\u043e \u0437\u0434\u0440\u0430\u0432\u0458\u0435 \u0438 \u0431\u043b\u0430\u0433\u043e\u0441\u043e\u0441\u0442\u043e\u0458\u0431\u0430."
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "\u0422\u0440\u0435\u0431\u0430 \u0434\u0430 \u0434\u0440\u0436\u0438\u0442\u0435 \u0444\u0438\u0437\u0438\u0447\u043a\u043e \u0440\u0430\u0441\u0442\u043e\u0458\u0430\u043d\u0438\u0435 \u043e\u0434 \u0434\u0440\u0443\u0433\u0438\u0442\u0435 (\u043e\u0434 \u043d\u0430\u0458\u043c\u0430\u043b\u043a\u0443 1 \u043c\u0435\u0442\u0430\u0440) \u043a\u0430\u043a\u043e \u0432\u043d\u0430\u0442\u0440\u0435, \u0442\u0430\u043a\u0430 \u0438 \u043d\u0430\u0434\u0432\u043e\u0440, \u0438 \u0434\u0430 \u0433\u0438 \u0441\u043b\u0435\u0434\u0438\u0442\u0435 \u0443\u043f\u0430\u0442\u0441\u0442\u0432\u0430\u0442\u0430 \u043d\u0430 \u0432\u0430\u0448\u0438\u0442\u0435 \u0432\u043b\u0430\u0441\u0442\u0438."
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "\u0418\u0441\u0442\u043e \u0442\u0430\u043a\u0430, \u0441\u043b\u0435\u0434\u0435\u0442\u0435 \u0433\u0438 \u0443\u043f\u0430\u0442\u0441\u0442\u0432\u0430\u0442\u0430 \u0437\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0447\u0435\u0441\u0442\u043e \u043c\u0438\u0435\u045a\u0435 \u0440\u0430\u0446\u0435, \u043e\u0441\u043e\u0431\u0435\u043d\u043e \u043e\u0442\u043a\u0430\u043a\u043e \u045c\u0435 \u0434\u043e\u043f\u0440\u0435\u0442\u0435 \u043f\u043e\u0442\u0435\u043d\u0446\u0438\u0458\u0430\u043b\u043d\u043e \u0437\u0430\u0433\u0430\u0434\u0435\u043d\u0430 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0430."
+            ]
+          }
+        },
+        "tur": {
+          "4c9d4fcd-555d-4b8e-966a-f5205dddfac6": {
+            "text": [
+              "Sa\u011fl\u0131k i\u00e7in temiz hava ve egzersiz gerekir. "
+            ]
+          },
+          "deb3f601-5a46-4b30-8b3e-7277314c3a8a": {
+            "text": [
+              "Hem i\u00e7eride hem d\u0131\u015far\u0131da di\u011fer insanlarla aran\u0131zdaki fiziksel mesafeyi (en az 1 metre) korumal\u0131 ve yetkililerin \u00f6nerilerini dikkate almal\u0131s\u0131n\u0131z. "
+            ]
+          },
+          "d6177b84-6e65-492c-90c0-a0c2a30a7156": {
+            "text": [
+              "\u00d6zellikle kirlenmi\u015f olabilece\u011fini d\u00fc\u015f\u00fcnd\u00fc\u011f\u00fcn\u00fcz bir y\u00fczeye dokunduktan sonra olmak \u00fczere ellerinizi s\u0131k s\u0131k y\u0131kayarak el hijyeni kurallar\u0131na uyun. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 33
+      },
+      "name": "Outdoors",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Fresh air and exercise are essential for good health and wellbeing.",
+              "type": "send_msg",
+              "uuid": "4c9d4fcd-555d-4b8e-966a-f5205dddfac6"
+            },
+            {
+              "attachments": [],
+              "text": "You should maintain physical distance (of at least 1 metre) from others both inside and outdoors and follow your authorities\u2019 guidance.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "deb3f601-5a46-4b30-8b3e-7277314c3a8a"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Also, follow hand hygiene with frequent hand washing, especially after touching a potentially contaminated surface.",
+              "type": "send_msg",
+              "uuid": "d6177b84-6e65-492c-90c0-a0c2a30a7156"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "7907466f-8014-4ec4-98ff-55aa84d75f29"
+            }
+          ],
+          "uuid": "58eeb2b6-233d-42c8-8514-efe712ed2162"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "1f65d871-57d5-47d1-be74-7538a47d9f47",
+      "revision": 36
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

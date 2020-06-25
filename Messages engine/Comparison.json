@@ -1,0 +1,1228 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "9527e433-e102-4107-8982-6a5152887204": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 660,
+              "top": 0
+            },
+            "type": "split_by_expression"
+          },
+          "c9b49233-f906-4e73-9199-04c66308b3c1": {
+            "config": {},
+            "position": {
+              "left": 440,
+              "top": 60
+            },
+            "type": "split_by_subflow"
+          },
+          "1f492422-dd08-4c92-826a-60ed6b935e65": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 660,
+              "top": 180
+            },
+            "type": "split_by_expression"
+          },
+          "92ebcb78-a173-4646-8968-77007c186e32": {
+            "config": {},
+            "position": {
+              "left": 440,
+              "top": 240
+            },
+            "type": "split_by_subflow"
+          },
+          "9123fc5e-0d82-41fd-acfb-da3355c5ddb6": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 660,
+              "top": 360
+            },
+            "type": "split_by_expression"
+          },
+          "4e85561e-4f87-4b9e-9120-aea387d46b77": {
+            "config": {},
+            "position": {
+              "left": 440,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "e4cb3f64-2902-49b0-95e2-52cddcf92c3f": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 660,
+              "top": 540
+            },
+            "type": "split_by_expression"
+          },
+          "fdb4691e-1517-4af2-955c-9e1c86dd8e6d": {
+            "config": {},
+            "position": {
+              "left": 440,
+              "top": 600
+            },
+            "type": "split_by_subflow"
+          },
+          "2c3798ee-9805-4be1-8e42-3091386da499": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 660,
+              "top": 720
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "152acecb-3880-489d-889f-849e1de42530": {
+            "config": {},
+            "position": {
+              "left": 440,
+              "top": 780
+            },
+            "type": "split_by_subflow"
+          },
+          "4d75b1aa-014a-485b-a8f9-e1d4a9d67f06": {
+            "position": {
+              "left": 660,
+              "top": 900
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "rus": {
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "sars"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "\u0413\u0440\u0438\u043f\u043f "
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "\u0438\u0437\u043e\u043b\u044f\u0446\u0438\u044f"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "\u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "\u041f\u0440\u043e\u0441\u0442\u0443\u0434\u0430"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ell": {
+          "2d1920c1-13b5-463c-b220-7c2a2adb5e93": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "7e71ddb0-253f-471e-a172-1e47ac15d7ac": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "82c086cd-c4db-4189-a277-e980b45863a2": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "5879bc97-dc63-4c6d-9d75-0730b51382c0": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "4130b9cc-0310-4e39-9723-b6298390d175": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "SARS"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "\u0393\u03c1\u03af\u03c0\u03b7"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "\u0391\u03c0\u03bf\u03bc\u03cc\u03bd\u03c9\u03c3\u03b7"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "\u0391\u03c0\u03bf\u03bc\u03ac\u03ba\u03c1\u03c5\u03bd\u03c3\u03b7"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "\u0393\u03c1\u03af\u03c0\u03b7"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "SARS"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "Influenza"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "isolamento"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              " distanziamento "
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "Influenza"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "gripe"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "distanciamiento"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "SARS"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "gripe"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "Aislamiento"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2d1920c1-13b5-463c-b220-7c2a2adb5e93": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "7e71ddb0-253f-471e-a172-1e47ac15d7ac": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "82c086cd-c4db-4189-a277-e980b45863a2": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "5879bc97-dc63-4c6d-9d75-0730b51382c0": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "4130b9cc-0310-4e39-9723-b6298390d175": {
+            "name": [
+              "Otro"
+            ]
+          }
+        },
+        "mkd": {
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "\u0421\u0430\u0440\u0441"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "\u0413\u0440\u0438\u043f"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "\u0418\u0437\u043e\u043b\u0430\u0446\u0438\u0458\u0430"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "\u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u0430\u045a\u0435"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "\u0413\u0440\u0438\u043f"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2d1920c1-13b5-463c-b220-7c2a2adb5e93": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "7e71ddb0-253f-471e-a172-1e47ac15d7ac": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "82c086cd-c4db-4189-a277-e980b45863a2": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "5879bc97-dc63-4c6d-9d75-0730b51382c0": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "4130b9cc-0310-4e39-9723-b6298390d175": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          }
+        },
+        "kaz": {
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "sars"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "\u0422\u04b1\u043c\u0430\u0443"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              ""
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "\u041e\u049b\u0448\u0430\u0443\u043b\u0430\u043d\u0443"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              ""
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "\u0430\u043b\u0448\u0430\u049b\u0442\u0430\u0443"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "\u0422\u04b1\u043c\u0430\u0443"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "tur": {
+          "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6": {
+            "name": [
+              "SARS"
+            ]
+          },
+          "2d1920c1-13b5-463c-b220-7c2a2adb5e93": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "eec69689-eb73-4ac2-b9f0-3193052187ac": {
+            "arguments": [
+              "Koronavir\u00fcs SARS"
+            ]
+          },
+          "e74119f9-e8b2-49a7-ab50-61c20f45e3ce": {
+            "arguments": [
+              "KOV\u0130D19 SARS"
+            ]
+          },
+          "e6669e64-1d2c-4dc5-9cb2-623ae54213f1": {
+            "name": [
+              "Grip"
+            ]
+          },
+          "4130b9cc-0310-4e39-9723-b6298390d175": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "4708ea17-b930-41b1-bd66-40b64b329db9": {
+            "arguments": [
+              "Koronavir\u00fcs Grip"
+            ]
+          },
+          "b2839e03-9b79-434f-ba6e-be426a93b58a": {
+            "arguments": [
+              "Grip KOV\u0130D19"
+            ]
+          },
+          "c6ddb850-b4d0-425e-abab-c1444c54a99c": {
+            "name": [
+              "Mesafelendirme"
+            ]
+          },
+          "5879bc97-dc63-4c6d-9d75-0730b51382c0": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "17101554-d019-4dfa-95ee-589b7d4d3448": {
+            "arguments": [
+              "Mesafelendirme Mesafe"
+            ]
+          },
+          "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f": {
+            "name": [
+              "\u0130zolasyon"
+            ]
+          },
+          "82c086cd-c4db-4189-a277-e980b45863a2": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "00453afb-1ed0-4064-8be4-f6ac9d40b255": {
+            "arguments": [
+              "\u0130zolasyon  karantina"
+            ]
+          },
+          "8f77921a-5716-4fa6-a601-007f51bc8ad2": {
+            "name": [
+              "Enflenza"
+            ]
+          },
+          "7e71ddb0-253f-471e-a172-1e47ac15d7ac": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "5c2b9f30-df54-489c-90d0-2ccf3cb9df52": {
+            "arguments": [
+              "Koronavir\u00fcs Enflenza"
+            ]
+          },
+          "87033e37-8a47-48ef-a297-aeab44f210cf": {
+            "arguments": [
+              "KOV\u0130D19 Enflenza"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 83
+      },
+      "name": "Comparison",
+      "nodes": [
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "c9b49233-f906-4e73-9199-04c66308b3c1",
+              "uuid": "d85c72bd-0348-40b8-807f-66737511307c"
+            },
+            {
+              "destination_uuid": "1f492422-dd08-4c92-826a-60ed6b935e65",
+              "uuid": "4e6018ee-0795-48df-9e88-621d3aa0f941"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "coronavirus sars"
+                ],
+                "category_uuid": "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6",
+                "type": "has_all_words",
+                "uuid": "eec69689-eb73-4ac2-b9f0-3193052187ac"
+              },
+              {
+                "arguments": [
+                  "covid19 sars"
+                ],
+                "category_uuid": "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6",
+                "type": "has_all_words",
+                "uuid": "e74119f9-e8b2-49a7-ab50-61c20f45e3ce"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "d85c72bd-0348-40b8-807f-66737511307c",
+                "name": "SARS",
+                "uuid": "9ca6ae78-2cca-4647-a4a4-aa20d8e80bd6"
+              },
+              {
+                "exit_uuid": "4e6018ee-0795-48df-9e88-621d3aa0f941",
+                "name": "Other",
+                "uuid": "2d1920c1-13b5-463c-b220-7c2a2adb5e93"
+              }
+            ],
+            "default_category_uuid": "2d1920c1-13b5-463c-b220-7c2a2adb5e93",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "9527e433-e102-4107-8982-6a5152887204"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "SARS",
+                "uuid": "c29460c7-506c-469b-9232-eae7f4cea946"
+              },
+              "type": "enter_flow",
+              "uuid": "b0bea752-0dd8-4290-ba6b-f62c25070c5d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "98947275-4f94-488f-9a8a-d4832d294fea"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "d77c857e-893b-43eb-8c43-91f61c3b5b0e"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "07ea2eff-e1a4-4f24-ba56-b3e79f23fbfa",
+                "type": "has_only_text",
+                "uuid": "f44e7d8f-dc34-4ae5-90ce-fa61b4d76f64"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "be44a353-195f-4950-87dc-5d177d1e32d6",
+                "type": "has_only_text",
+                "uuid": "419fe63b-00fa-4bb8-bef7-dec1514922be"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "98947275-4f94-488f-9a8a-d4832d294fea",
+                "name": "Complete",
+                "uuid": "07ea2eff-e1a4-4f24-ba56-b3e79f23fbfa"
+              },
+              {
+                "exit_uuid": "d77c857e-893b-43eb-8c43-91f61c3b5b0e",
+                "name": "Expired",
+                "uuid": "be44a353-195f-4950-87dc-5d177d1e32d6"
+              }
+            ],
+            "default_category_uuid": "be44a353-195f-4950-87dc-5d177d1e32d6",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "c9b49233-f906-4e73-9199-04c66308b3c1"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "92ebcb78-a173-4646-8968-77007c186e32",
+              "uuid": "420d82c4-0c27-43aa-b853-d7775eedce7a"
+            },
+            {
+              "destination_uuid": "9123fc5e-0d82-41fd-acfb-da3355c5ddb6",
+              "uuid": "8144594a-c175-4f68-a957-98603192ed04"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "coronavirus influenza"
+                ],
+                "category_uuid": "8f77921a-5716-4fa6-a601-007f51bc8ad2",
+                "type": "has_all_words",
+                "uuid": "5c2b9f30-df54-489c-90d0-2ccf3cb9df52"
+              },
+              {
+                "arguments": [
+                  "covid19 influenza"
+                ],
+                "category_uuid": "8f77921a-5716-4fa6-a601-007f51bc8ad2",
+                "type": "has_all_words",
+                "uuid": "87033e37-8a47-48ef-a297-aeab44f210cf"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "420d82c4-0c27-43aa-b853-d7775eedce7a",
+                "name": "Influenza",
+                "uuid": "8f77921a-5716-4fa6-a601-007f51bc8ad2"
+              },
+              {
+                "exit_uuid": "8144594a-c175-4f68-a957-98603192ed04",
+                "name": "Other",
+                "uuid": "7e71ddb0-253f-471e-a172-1e47ac15d7ac"
+              }
+            ],
+            "default_category_uuid": "7e71ddb0-253f-471e-a172-1e47ac15d7ac",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "1f492422-dd08-4c92-826a-60ed6b935e65"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "influenza",
+                "uuid": "8f2f6b6c-2a58-4102-9f13-7f276bbf863f"
+              },
+              "type": "enter_flow",
+              "uuid": "ef93fa10-e498-483e-baa1-f02648f5db8d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "c8a324cb-d080-4c62-91eb-76348e703d8a"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "b9a4b089-ac68-4e4a-a20b-8603bb815cef"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "7d21b150-6de1-484c-bdee-db23683b2f0b",
+                "type": "has_only_text",
+                "uuid": "e079f54a-864f-4336-844a-72764f2b9cd8"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "32163162-89a6-4c1e-8fb2-24d4a1e400a3",
+                "type": "has_only_text",
+                "uuid": "f2adc6be-a729-4a02-b515-b3ceb0d7e897"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "c8a324cb-d080-4c62-91eb-76348e703d8a",
+                "name": "Complete",
+                "uuid": "7d21b150-6de1-484c-bdee-db23683b2f0b"
+              },
+              {
+                "exit_uuid": "b9a4b089-ac68-4e4a-a20b-8603bb815cef",
+                "name": "Expired",
+                "uuid": "32163162-89a6-4c1e-8fb2-24d4a1e400a3"
+              }
+            ],
+            "default_category_uuid": "32163162-89a6-4c1e-8fb2-24d4a1e400a3",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "92ebcb78-a173-4646-8968-77007c186e32"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "4e85561e-4f87-4b9e-9120-aea387d46b77",
+              "uuid": "6768aad8-910b-4381-b3a8-c6a15314012c"
+            },
+            {
+              "destination_uuid": "e4cb3f64-2902-49b0-95e2-52cddcf92c3f",
+              "uuid": "2c56a368-d7f5-4bfc-8604-fb38decc067b"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "isolation quarantine"
+                ],
+                "category_uuid": "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f",
+                "type": "has_all_words",
+                "uuid": "00453afb-1ed0-4064-8be4-f6ac9d40b255"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "6768aad8-910b-4381-b3a8-c6a15314012c",
+                "name": "Isolation",
+                "uuid": "b18a2dbd-3be1-4cf5-bc5c-3b3e89e0e42f"
+              },
+              {
+                "exit_uuid": "2c56a368-d7f5-4bfc-8604-fb38decc067b",
+                "name": "Other",
+                "uuid": "82c086cd-c4db-4189-a277-e980b45863a2"
+              }
+            ],
+            "default_category_uuid": "82c086cd-c4db-4189-a277-e980b45863a2",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "9123fc5e-0d82-41fd-acfb-da3355c5ddb6"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "isolation",
+                "uuid": "c149da82-46ce-4866-8404-8e0f6b238367"
+              },
+              "type": "enter_flow",
+              "uuid": "36c2ffc6-15be-4357-95d0-41111ad22e6d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "daa3f18c-80fb-4dad-8eac-01ad6a393275"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "6ff2d311-941d-4394-b34a-9417cf15d140"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "a7ea6293-b316-4863-8a26-8bdd400112bf",
+                "type": "has_only_text",
+                "uuid": "01140745-f301-4ac1-8d79-2e81655073d0"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "17f20673-adb3-4072-a709-044a12f1b25a",
+                "type": "has_only_text",
+                "uuid": "73d20257-547e-4cad-931d-ef3912deb6c3"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "daa3f18c-80fb-4dad-8eac-01ad6a393275",
+                "name": "Complete",
+                "uuid": "a7ea6293-b316-4863-8a26-8bdd400112bf"
+              },
+              {
+                "exit_uuid": "6ff2d311-941d-4394-b34a-9417cf15d140",
+                "name": "Expired",
+                "uuid": "17f20673-adb3-4072-a709-044a12f1b25a"
+              }
+            ],
+            "default_category_uuid": "17f20673-adb3-4072-a709-044a12f1b25a",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "4e85561e-4f87-4b9e-9120-aea387d46b77"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "fdb4691e-1517-4af2-955c-9e1c86dd8e6d",
+              "uuid": "9ce02b9f-52a4-41a1-b0d7-7d8d747a9b4e"
+            },
+            {
+              "destination_uuid": "2c3798ee-9805-4be1-8e42-3091386da499",
+              "uuid": "3e4ad041-843e-41ce-8ecb-fec44f02d3c7"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "distancing"
+                ],
+                "category_uuid": "c6ddb850-b4d0-425e-abab-c1444c54a99c",
+                "type": "has_any_word",
+                "uuid": "17101554-d019-4dfa-95ee-589b7d4d3448"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "9ce02b9f-52a4-41a1-b0d7-7d8d747a9b4e",
+                "name": "Distancing",
+                "uuid": "c6ddb850-b4d0-425e-abab-c1444c54a99c"
+              },
+              {
+                "exit_uuid": "3e4ad041-843e-41ce-8ecb-fec44f02d3c7",
+                "name": "Other",
+                "uuid": "5879bc97-dc63-4c6d-9d75-0730b51382c0"
+              }
+            ],
+            "default_category_uuid": "5879bc97-dc63-4c6d-9d75-0730b51382c0",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "e4cb3f64-2902-49b0-95e2-52cddcf92c3f"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "social distancing",
+                "uuid": "f5d9285b-6852-4a8e-bfa1-6b0f593971e5"
+              },
+              "type": "enter_flow",
+              "uuid": "b56e6aa1-9d35-45ff-bfd9-ab17b60eec82"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "960067c1-a7b4-49ef-8984-e07e80478919"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "aa47a8aa-95e3-4398-b8da-83179e59023e"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "51fd16ca-cfa0-4a7c-8171-873f0424e9dd",
+                "type": "has_only_text",
+                "uuid": "40041598-1f67-464b-bc3d-c71bc66cdb8a"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "acbcf8e9-191a-4914-a989-b7c7a54f15da",
+                "type": "has_only_text",
+                "uuid": "46f14f9e-3832-4ec9-8dbb-3969017c50cb"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "960067c1-a7b4-49ef-8984-e07e80478919",
+                "name": "Complete",
+                "uuid": "51fd16ca-cfa0-4a7c-8171-873f0424e9dd"
+              },
+              {
+                "exit_uuid": "aa47a8aa-95e3-4398-b8da-83179e59023e",
+                "name": "Expired",
+                "uuid": "acbcf8e9-191a-4914-a989-b7c7a54f15da"
+              }
+            ],
+            "default_category_uuid": "acbcf8e9-191a-4914-a989-b7c7a54f15da",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "fdb4691e-1517-4af2-955c-9e1c86dd8e6d"
+        },
+        {
+          "uuid": "2c3798ee-9805-4be1-8e42-3091386da499",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "4130b9cc-0310-4e39-9723-b6298390d175",
+            "categories": [
+              {
+                "exit_uuid": "4e708f4d-51a4-45b8-9b74-0ee6d8a0c2d4",
+                "name": "Flu",
+                "uuid": "e6669e64-1d2c-4dc5-9cb2-623ae54213f1"
+              },
+              {
+                "exit_uuid": "b7c7c010-bb9f-44b4-acbb-3c2aaf63fce5",
+                "name": "Other",
+                "uuid": "4130b9cc-0310-4e39-9723-b6298390d175"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "cold coronavirus"
+                ],
+                "type": "has_all_words",
+                "uuid": "4708ea17-b930-41b1-bd66-40b64b329db9",
+                "category_uuid": "e6669e64-1d2c-4dc5-9cb2-623ae54213f1"
+              },
+              {
+                "arguments": [
+                  "cold covid19"
+                ],
+                "type": "has_all_words",
+                "uuid": "b2839e03-9b79-434f-ba6e-be426a93b58a",
+                "category_uuid": "e6669e64-1d2c-4dc5-9cb2-623ae54213f1"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "152acecb-3880-489d-889f-849e1de42530",
+              "uuid": "4e708f4d-51a4-45b8-9b74-0ee6d8a0c2d4"
+            },
+            {
+              "destination_uuid": "4d75b1aa-014a-485b-a8f9-e1d4a9d67f06",
+              "uuid": "b7c7c010-bb9f-44b4-acbb-3c2aaf63fce5"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Dangerous",
+                "uuid": "c3a75244-4016-4a71-adf9-4887acaeeb2c"
+              },
+              "type": "enter_flow",
+              "uuid": "6da30fa2-549c-4867-a7f5-abf5ae626ab0"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "60af191a-0230-4174-b016-e294b2b3fd88"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "086bc066-1216-4b19-a54c-20a0096608a1"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "6836da3e-992f-4c6b-bbca-8f736b4e25cc",
+                "type": "has_only_text",
+                "uuid": "15eaeddf-faf0-44b9-8fe9-70a557c5ac0e"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "4a72eeef-1659-4f7a-b1bb-833f4a3a0285",
+                "type": "has_only_text",
+                "uuid": "126f99d3-d31a-4a64-a8c3-68f36a0e46a7"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "60af191a-0230-4174-b016-e294b2b3fd88",
+                "name": "Complete",
+                "uuid": "6836da3e-992f-4c6b-bbca-8f736b4e25cc"
+              },
+              {
+                "exit_uuid": "086bc066-1216-4b19-a54c-20a0096608a1",
+                "name": "Expired",
+                "uuid": "4a72eeef-1659-4f7a-b1bb-833f4a3a0285"
+              }
+            ],
+            "default_category_uuid": "4a72eeef-1659-4f7a-b1bb-833f4a3a0285",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "152acecb-3880-489d-889f-849e1de42530"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "1261f5b2-762f-49d5-a1ae-fe8774e2f57b",
+              "value": "on"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "535baba3-dee0-49d1-aa93-34dafc28cd44"
+            }
+          ],
+          "uuid": "4d75b1aa-014a-485b-a8f9-e1d4a9d67f06"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "a42dadce-0f1f-4ede-bb58-34b81a77dad7",
+      "revision": 88
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

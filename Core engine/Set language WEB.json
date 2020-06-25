@@ -1,0 +1,949 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "aec7afa0-c28e-4ae2-bebc-12a371d21a2d": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 560,
+              "top": 20
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "c46bf4c9-f027-4c84-8819-0fc36ad2b50f": {
+            "position": {
+              "left": 0,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "1f1b6370-2e8e-49ed-a59e-d871e58eed7e": {
+            "position": {
+              "left": 220,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "0dfbbd94-30f4-4922-a1f1-b8702e4cd9d0": {
+            "position": {
+              "left": 440,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "735fd552-44ee-479f-9a71-23a3073f2862": {
+            "position": {
+              "left": 660,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "32cd9375-393e-4286-b30c-e0f85c3d8102": {
+            "position": {
+              "left": 880,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "75e1467f-fe61-4b0d-903d-40b0fa81fd00": {
+            "position": {
+              "left": 1100,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "6a0be154-1734-4213-863a-8b54abc47bf2": {
+            "position": {
+              "left": 1320,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "1162c8c1-3e12-4282-8a83-3068f8f09bde": {
+            "position": {
+              "left": 1540,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "9ce3403e-80a1-4f54-91bb-854fdbbb3e7e": {
+            "position": {
+              "left": 1980,
+              "top": 200
+            },
+            "type": "execute_actions"
+          },
+          "c3d17372-7cee-4264-b028-6fb737195fdd": {
+            "config": {},
+            "position": {
+              "left": 720,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "b1a6cb19-ef4e-4985-9068-2678f43eb6da": {
+            "config": {},
+            "position": {
+              "left": 720,
+              "top": 580
+            },
+            "type": "split_by_subflow"
+          },
+          "a8e41e61-4738-464e-830b-aed764540f3a": {
+            "position": {
+              "left": 1760,
+              "top": 200
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {
+          "d8c96579-f5df-4290-a249-30bf8b59aa59": {
+            "body": "\nLanguage\t\tCode\nEnglish\t- English\t       en\nRussian\t- \u0440\u0443\u0441\u0441\u043a\u0438\u0439\tru\nItalian - Italiano \t         it\nSpanish - Espa\u00f1ol\tes\nKazakh\t- \u049b\u0430\u0437\u0430\u049b \u0442\u0456\u043b\u0456\tkk\nGreek\t- \u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac \tel\nTurkish\t- T\u00fcrk\u00e7e\t        tr",
+            "color": "yellow",
+            "position": {
+              "bottom": 360,
+              "left": 1180,
+              "right": -580,
+              "top": 480
+            },
+            "title": "Language code"
+          }
+        }
+      },
+      "expire_after_minutes": 60,
+      "language": "eng",
+      "localization": {
+        "kaz": {
+          "038e13ba-a68e-481e-a512-b8fc0fc4a868": {
+            "name": [
+              "Italian"
+            ]
+          },
+          "10ac03d2-f2d2-4f56-8f3b-7cc43b0e150e": {
+            "arguments": [
+              "en"
+            ]
+          },
+          "1a02ef4c-9eb7-4bae-a759-ff6ee91863df": {
+            "name": [
+              "Portuguese"
+            ]
+          },
+          "2425d9f8-46f4-43bc-b7ee-9b259fa6c3a4": {
+            "arguments": [
+              "es"
+            ]
+          },
+          "261e00a2-5c53-41ee-b15d-ce04b28ab80b": {
+            "name": [
+              "Russian"
+            ]
+          },
+          "4b16888a-2ba6-431b-811c-905be30c078b": {
+            "name": [
+              "Kazakh"
+            ]
+          },
+          "99c6bc3f-881d-4c87-a1b1-3f19fc7613f5": {
+            "arguments": [
+              "pt"
+            ]
+          },
+          "9c19194b-5871-449a-a96c-caa64048334f": {
+            "arguments": [
+              "az"
+            ]
+          },
+          "a6b196ca-5111-4572-bc1b-299ef830ab31": {
+            "name": [
+              "Spanish"
+            ]
+          },
+          "bcb3ea0d-3be0-49eb-83b8-f61d0b5ee7ee": {
+            "arguments": [
+              "ru"
+            ]
+          },
+          "c57e316b-1401-4dca-bc57-d7c5ac443ee2": {
+            "arguments": [
+              "pt"
+            ]
+          },
+          "de71001c-432c-4f68-82b7-55e7394f6f1b": {
+            "arguments": [
+              "el-GR"
+            ]
+          },
+          "f4bbbfc8-da32-4a61-a265-e93f9a206bca": {
+            "name": [
+              "Greek"
+            ]
+          },
+          "ff54bb33-7b45-42d8-8034-c2677056bd8e": {
+            "name": [
+              "English"
+            ]
+          }
+        },
+        "por": {},
+        "rus": {
+          "038e13ba-a68e-481e-a512-b8fc0fc4a868": {
+            "name": [
+              "Italian"
+            ]
+          },
+          "10ac03d2-f2d2-4f56-8f3b-7cc43b0e150e": {
+            "arguments": [
+              "en"
+            ]
+          },
+          "1a02ef4c-9eb7-4bae-a759-ff6ee91863df": {
+            "name": [
+              "Portuguese"
+            ]
+          },
+          "2425d9f8-46f4-43bc-b7ee-9b259fa6c3a4": {
+            "arguments": [
+              "es"
+            ]
+          },
+          "261e00a2-5c53-41ee-b15d-ce04b28ab80b": {
+            "name": [
+              "Russian"
+            ]
+          },
+          "4b16888a-2ba6-431b-811c-905be30c078b": {
+            "name": [
+              "Kazakh"
+            ]
+          },
+          "99c6bc3f-881d-4c87-a1b1-3f19fc7613f5": {
+            "arguments": [
+              "it"
+            ]
+          },
+          "9c19194b-5871-449a-a96c-caa64048334f": {
+            "arguments": [
+              "kaz"
+            ]
+          },
+          "a6b196ca-5111-4572-bc1b-299ef830ab31": {
+            "name": [
+              "Spanish"
+            ]
+          },
+          "bcb3ea0d-3be0-49eb-83b8-f61d0b5ee7ee": {
+            "arguments": [
+              "ru"
+            ]
+          },
+          "c57e316b-1401-4dca-bc57-d7c5ac443ee2": {
+            "arguments": [
+              "pt"
+            ]
+          },
+          "de71001c-432c-4f68-82b7-55e7394f6f1b": {
+            "arguments": [
+              "el-GR"
+            ]
+          },
+          "f4bbbfc8-da32-4a61-a265-e93f9a206bca": {
+            "name": [
+              "Greek"
+            ]
+          },
+          "ff54bb33-7b45-42d8-8034-c2677056bd8e": {
+            "name": [
+              "English"
+            ]
+          }
+        },
+        "spa": {
+          "038e13ba-a68e-481e-a512-b8fc0fc4a868": {
+            "name": [
+              "Italian"
+            ]
+          },
+          "10ac03d2-f2d2-4f56-8f3b-7cc43b0e150e": {
+            "arguments": [
+              "en"
+            ]
+          },
+          "1a02ef4c-9eb7-4bae-a759-ff6ee91863df": {
+            "name": [
+              "Portuguese"
+            ]
+          },
+          "2425d9f8-46f4-43bc-b7ee-9b259fa6c3a4": {
+            "arguments": [
+              "es"
+            ]
+          },
+          "261e00a2-5c53-41ee-b15d-ce04b28ab80b": {
+            "name": [
+              "Russian"
+            ]
+          },
+          "4b16888a-2ba6-431b-811c-905be30c078b": {
+            "name": [
+              "Kazakh"
+            ]
+          },
+          "99c6bc3f-881d-4c87-a1b1-3f19fc7613f5": {
+            "arguments": [
+              "it"
+            ]
+          },
+          "9c19194b-5871-449a-a96c-caa64048334f": {
+            "arguments": [
+              "az"
+            ]
+          },
+          "a6b196ca-5111-4572-bc1b-299ef830ab31": {
+            "name": [
+              "Spanish"
+            ]
+          },
+          "bcb3ea0d-3be0-49eb-83b8-f61d0b5ee7ee": {
+            "arguments": [
+              "ru"
+            ]
+          },
+          "c57e316b-1401-4dca-bc57-d7c5ac443ee2": {
+            "arguments": [
+              "pt"
+            ]
+          },
+          "de71001c-432c-4f68-82b7-55e7394f6f1b": {
+            "arguments": [
+              "el-GR"
+            ]
+          },
+          "f4bbbfc8-da32-4a61-a265-e93f9a206bca": {
+            "name": [
+              "Greek"
+            ]
+          },
+          "ff54bb33-7b45-42d8-8034-c2677056bd8e": {
+            "name": [
+              "English"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 97
+      },
+      "name": "Set language WEB",
+      "nodes": [
+        {
+          "uuid": "aec7afa0-c28e-4ae2-bebc-12a371d21a2d",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "4256d477-80eb-4fe0-a867-083645ac208c",
+            "categories": [
+              {
+                "exit_uuid": "700a3317-e315-4223-9cd2-c6038978ba74",
+                "name": "Portuguese",
+                "uuid": "1a02ef4c-9eb7-4bae-a759-ff6ee91863df"
+              },
+              {
+                "exit_uuid": "c710464d-46f4-48da-8726-3a5fcebb9857",
+                "name": "Russian",
+                "uuid": "261e00a2-5c53-41ee-b15d-ce04b28ab80b"
+              },
+              {
+                "exit_uuid": "711f8427-3da9-4c3f-9ed4-85abe19753cb",
+                "name": "Spanish",
+                "uuid": "a6b196ca-5111-4572-bc1b-299ef830ab31"
+              },
+              {
+                "exit_uuid": "ea236840-1e40-4f49-95c6-83a7bb178f74",
+                "name": "Italian",
+                "uuid": "038e13ba-a68e-481e-a512-b8fc0fc4a868"
+              },
+              {
+                "exit_uuid": "197f304a-6d30-4e43-a94f-dc8b2a0c0e34",
+                "name": "Kazakh",
+                "uuid": "4b16888a-2ba6-431b-811c-905be30c078b"
+              },
+              {
+                "exit_uuid": "a24071b8-b195-4bd3-b3cf-25d5b82b5026",
+                "name": "Greek",
+                "uuid": "f4bbbfc8-da32-4a61-a265-e93f9a206bca"
+              },
+              {
+                "exit_uuid": "bf387f04-9f5f-40bb-976f-2b134ccad206",
+                "name": "Macedonian",
+                "uuid": "0402da99-8425-43b7-b6e6-7f2e244ff2db"
+              },
+              {
+                "exit_uuid": "6e75eade-298a-4da7-aa3b-171e00169528",
+                "name": "Turkish",
+                "uuid": "1f85099f-068b-4f27-a92d-a16293942aae"
+              },
+              {
+                "uuid": "49d66f73-c2f3-413f-b265-b3605eb9ced0",
+                "name": "Hungarian",
+                "exit_uuid": "6ca5e929-5938-4900-96a7-18c8549fbef6"
+              },
+              {
+                "exit_uuid": "2e51d1f4-9401-4454-919f-bca46f1df040",
+                "name": "English",
+                "uuid": "ff54bb33-7b45-42d8-8034-c2677056bd8e"
+              },
+              {
+                "exit_uuid": "4eb8ad78-af78-488b-a8b7-ec4964e00192",
+                "name": "Other",
+                "uuid": "4256d477-80eb-4fe0-a867-083645ac208c"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "pt"
+                ],
+                "type": "has_any_word",
+                "uuid": "c57e316b-1401-4dca-bc57-d7c5ac443ee2",
+                "category_uuid": "1a02ef4c-9eb7-4bae-a759-ff6ee91863df"
+              },
+              {
+                "arguments": [
+                  "ru"
+                ],
+                "type": "has_any_word",
+                "uuid": "bcb3ea0d-3be0-49eb-83b8-f61d0b5ee7ee",
+                "category_uuid": "261e00a2-5c53-41ee-b15d-ce04b28ab80b"
+              },
+              {
+                "arguments": [
+                  "es"
+                ],
+                "type": "has_any_word",
+                "uuid": "2425d9f8-46f4-43bc-b7ee-9b259fa6c3a4",
+                "category_uuid": "a6b196ca-5111-4572-bc1b-299ef830ab31"
+              },
+              {
+                "arguments": [
+                  "it"
+                ],
+                "type": "has_any_word",
+                "uuid": "99c6bc3f-881d-4c87-a1b1-3f19fc7613f5",
+                "category_uuid": "038e13ba-a68e-481e-a512-b8fc0fc4a868"
+              },
+              {
+                "arguments": [
+                  "kaz"
+                ],
+                "type": "has_any_word",
+                "uuid": "9c19194b-5871-449a-a96c-caa64048334f",
+                "category_uuid": "4b16888a-2ba6-431b-811c-905be30c078b"
+              },
+              {
+                "arguments": [
+                  "el-GR"
+                ],
+                "type": "has_any_word",
+                "uuid": "de71001c-432c-4f68-82b7-55e7394f6f1b",
+                "category_uuid": "f4bbbfc8-da32-4a61-a265-e93f9a206bca"
+              },
+              {
+                "arguments": [
+                  "mk"
+                ],
+                "type": "has_any_word",
+                "uuid": "0208e4b2-98a9-4e1c-8a85-2cccd267e7ea",
+                "category_uuid": "0402da99-8425-43b7-b6e6-7f2e244ff2db"
+              },
+              {
+                "arguments": [
+                  "tr"
+                ],
+                "type": "has_any_word",
+                "uuid": "0b0a505f-53fe-4453-a0cc-697033e38819",
+                "category_uuid": "1f85099f-068b-4f27-a92d-a16293942aae"
+              },
+              {
+                "arguments": [
+                  "hu"
+                ],
+                "type": "has_any_word",
+                "uuid": "c4a7f465-5cde-43dd-be76-a8f0fba8f8fd",
+                "category_uuid": "49d66f73-c2f3-413f-b265-b3605eb9ced0"
+              },
+              {
+                "arguments": [
+                  "en"
+                ],
+                "type": "has_any_word",
+                "uuid": "10ac03d2-f2d2-4f56-8f3b-7cc43b0e150e",
+                "category_uuid": "ff54bb33-7b45-42d8-8034-c2677056bd8e"
+              }
+            ],
+            "operand": "@input.text"
+          },
+          "exits": [
+            {
+              "destination_uuid": "c46bf4c9-f027-4c84-8819-0fc36ad2b50f",
+              "uuid": "700a3317-e315-4223-9cd2-c6038978ba74"
+            },
+            {
+              "destination_uuid": "1f1b6370-2e8e-49ed-a59e-d871e58eed7e",
+              "uuid": "c710464d-46f4-48da-8726-3a5fcebb9857"
+            },
+            {
+              "destination_uuid": "0dfbbd94-30f4-4922-a1f1-b8702e4cd9d0",
+              "uuid": "711f8427-3da9-4c3f-9ed4-85abe19753cb"
+            },
+            {
+              "destination_uuid": "735fd552-44ee-479f-9a71-23a3073f2862",
+              "uuid": "ea236840-1e40-4f49-95c6-83a7bb178f74"
+            },
+            {
+              "destination_uuid": "32cd9375-393e-4286-b30c-e0f85c3d8102",
+              "uuid": "197f304a-6d30-4e43-a94f-dc8b2a0c0e34"
+            },
+            {
+              "destination_uuid": "75e1467f-fe61-4b0d-903d-40b0fa81fd00",
+              "uuid": "a24071b8-b195-4bd3-b3cf-25d5b82b5026"
+            },
+            {
+              "destination_uuid": "6a0be154-1734-4213-863a-8b54abc47bf2",
+              "uuid": "bf387f04-9f5f-40bb-976f-2b134ccad206"
+            },
+            {
+              "destination_uuid": "1162c8c1-3e12-4282-8a83-3068f8f09bde",
+              "uuid": "6e75eade-298a-4da7-aa3b-171e00169528"
+            },
+            {
+              "uuid": "6ca5e929-5938-4900-96a7-18c8549fbef6",
+              "destination_uuid": "a8e41e61-4738-464e-830b-aed764540f3a"
+            },
+            {
+              "destination_uuid": "9ce3403e-80a1-4f54-91bb-854fdbbb3e7e",
+              "uuid": "2e51d1f4-9401-4454-919f-bca46f1df040"
+            },
+            {
+              "destination_uuid": "9ce3403e-80a1-4f54-91bb-854fdbbb3e7e",
+              "uuid": "4eb8ad78-af78-488b-a8b7-ec4964e00192"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "language": "por",
+              "type": "set_contact_language",
+              "uuid": "ae95e589-fa30-49d1-96f8-f44000d2026b"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "d486f904-0ee0-4e25-a87a-a5d5f6ff4808",
+              "value": "pt_br"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "d2b7c19b-c226-4a35-886c-e9fe306d4567"
+            }
+          ],
+          "uuid": "c46bf4c9-f027-4c84-8819-0fc36ad2b50f"
+        },
+        {
+          "actions": [
+            {
+              "language": "rus",
+              "type": "set_contact_language",
+              "uuid": "222f0545-10e1-4c35-b39f-dbb8f3ad3fe6"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "2dcbddf3-a3bd-4872-9960-5c48c4232ea0",
+              "value": "ru"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "be7b09de-7793-44c7-a361-123cb92ec6af"
+            }
+          ],
+          "uuid": "1f1b6370-2e8e-49ed-a59e-d871e58eed7e"
+        },
+        {
+          "actions": [
+            {
+              "language": "spa",
+              "type": "set_contact_language",
+              "uuid": "65ea4dee-5efb-4342-85ae-95bd14ad9521"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "53c24749-58d6-460b-ad6c-8283db1d63c3",
+              "value": "es"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "c6a24100-655d-4745-8db9-f4ad5700fd08"
+            }
+          ],
+          "uuid": "0dfbbd94-30f4-4922-a1f1-b8702e4cd9d0"
+        },
+        {
+          "actions": [
+            {
+              "language": "ita",
+              "type": "set_contact_language",
+              "uuid": "56582ac9-9cc0-4d16-9174-1489128cd0df"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "91a9b2ac-a8be-4b15-82a8-86338a7ddcea",
+              "value": "it"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "5b28eb9e-01e4-4027-8823-8eda25998bde"
+            }
+          ],
+          "uuid": "735fd552-44ee-479f-9a71-23a3073f2862"
+        },
+        {
+          "actions": [
+            {
+              "language": "kaz",
+              "type": "set_contact_language",
+              "uuid": "c11350d0-a8f9-4529-ae73-3cecace64e8c"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "2ee389f6-6c60-4b9d-a8fd-635d937fe120",
+              "value": "kk"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "e972fda2-4ea7-430a-8394-a2ab3e54399b"
+            }
+          ],
+          "uuid": "32cd9375-393e-4286-b30c-e0f85c3d8102"
+        },
+        {
+          "actions": [
+            {
+              "language": "ell",
+              "type": "set_contact_language",
+              "uuid": "018f0b55-6d78-408d-9c2a-a17aaa355cb3"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "4d1020ac-88b3-47d0-b686-79e634bf504e",
+              "value": "el"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "d5d3f368-b0f7-475e-a661-d780db6ff1a1"
+            }
+          ],
+          "uuid": "75e1467f-fe61-4b0d-903d-40b0fa81fd00"
+        },
+        {
+          "actions": [
+            {
+              "language": "mkd",
+              "type": "set_contact_language",
+              "uuid": "6d75d6e8-edfe-4547-8bd5-e9caba3f9ef0"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "3b13cd2d-da88-4288-a3a0-7679f6d09552",
+              "value": "mk"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "0f8e8195-7bcf-4ea2-a883-84c5206a6478"
+            }
+          ],
+          "uuid": "6a0be154-1734-4213-863a-8b54abc47bf2"
+        },
+        {
+          "actions": [
+            {
+              "language": "tur",
+              "type": "set_contact_language",
+              "uuid": "196e45bd-27b8-452b-a40f-2fbb142e4005"
+            },
+            {
+              "language": "tur",
+              "type": "set_contact_language",
+              "uuid": "3d9272fa-816a-440a-88be-8f8bbf7d3830"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "beace7e4-22b7-43d3-a5a4-596d3d523047"
+            }
+          ],
+          "uuid": "1162c8c1-3e12-4282-8a83-3068f8f09bde"
+        },
+        {
+          "uuid": "a8e41e61-4738-464e-830b-aed764540f3a",
+          "actions": [
+            {
+              "uuid": "1154ac58-8567-4982-bdca-acaaf1bbbd61",
+              "type": "set_contact_language",
+              "language": "hun"
+            },
+            {
+              "uuid": "4e291f3a-ca1c-4287-98ea-92349f20150a",
+              "type": "set_contact_field",
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "value": "hu"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "9bbb19fa-0ab7-45af-bf8e-68bcfc6f694c",
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "language": "eng",
+              "type": "set_contact_language",
+              "uuid": "83674019-7036-4f07-a5a9-0d54c7c5972c"
+            },
+            {
+              "field": {
+                "key": "bothub_lang",
+                "name": "bothub lang"
+              },
+              "type": "set_contact_field",
+              "uuid": "b4538b01-991e-4409-b1ea-36adeda98db1",
+              "value": "en"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "c3d17372-7cee-4264-b028-6fb737195fdd",
+              "uuid": "16f31544-a5c4-4e63-a49c-f31c7f2154f4"
+            }
+          ],
+          "uuid": "9ce3403e-80a1-4f54-91bb-854fdbbb3e7e"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Interaction counter",
+                "uuid": "f7015954-1564-4e44-84f0-124843428498"
+              },
+              "type": "enter_flow",
+              "uuid": "22aed684-6194-48ec-b239-321b2f4dd135"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "b1a6cb19-ef4e-4985-9068-2678f43eb6da",
+              "uuid": "ad853c33-9cd6-4a2d-bcd7-a4e7ec940f6c"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "691af8e2-e16d-4a4b-9c44-631be77bb1c6"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "7ab1d5b0-ec2a-4395-887d-16023e4c952e",
+                "type": "has_only_text",
+                "uuid": "26d24123-e30a-4f66-871c-5f367d06ddb2"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "93a26161-3567-43cc-bb1c-316f7c0b8002",
+                "type": "has_only_text",
+                "uuid": "ffb48ca5-35a0-4898-bd0c-7754b46804a9"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "ad853c33-9cd6-4a2d-bcd7-a4e7ec940f6c",
+                "name": "Complete",
+                "uuid": "7ab1d5b0-ec2a-4395-887d-16023e4c952e"
+              },
+              {
+                "exit_uuid": "691af8e2-e16d-4a4b-9c44-631be77bb1c6",
+                "name": "Expired",
+                "uuid": "93a26161-3567-43cc-bb1c-316f7c0b8002"
+              }
+            ],
+            "default_category_uuid": "93a26161-3567-43cc-bb1c-316f7c0b8002",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "c3d17372-7cee-4264-b028-6fb737195fdd"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Greetings",
+                "uuid": "d5b95261-a71c-4a6a-b13d-2b6bb260ad4e"
+              },
+              "type": "enter_flow",
+              "uuid": "ec415ad1-d625-4d0d-b37c-41695be46181"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "3d585509-d01c-433b-b7cf-7bb5b7665632"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "fff71766-51c1-4e7a-8d4e-3dadde8b50d5"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "d5d7e2a8-51ab-4ec0-aa6f-63c34bb352d3",
+                "type": "has_only_text",
+                "uuid": "49bdde42-8f07-4b91-996e-0e9b060e4394"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "179d7539-0069-4b8d-9c9e-a76f9a9f7521",
+                "type": "has_only_text",
+                "uuid": "32e560d5-a072-4b19-8d1b-513b60642faa"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "3d585509-d01c-433b-b7cf-7bb5b7665632",
+                "name": "Complete",
+                "uuid": "d5d7e2a8-51ab-4ec0-aa6f-63c34bb352d3"
+              },
+              {
+                "exit_uuid": "fff71766-51c1-4e7a-8d4e-3dadde8b50d5",
+                "name": "Expired",
+                "uuid": "179d7539-0069-4b8d-9c9e-a76f9a9f7521"
+              }
+            ],
+            "default_category_uuid": "179d7539-0069-4b8d-9c9e-a76f9a9f7521",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "b1a6cb19-ef4e-4985-9068-2678f43eb6da"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "e4efc25e-cf88-4fa3-bf21-39ad62de3ed9",
+      "revision": 104
+    }
+  ],
+  "campaigns": [],
+  "triggers": [
+    {
+      "trigger_type": "K",
+      "keyword": "hello",
+      "flow": {
+        "uuid": "e4efc25e-cf88-4fa3-bf21-39ad62de3ed9",
+        "name": "Set language WEB"
+      },
+      "groups": [],
+      "channel": null
+    },
+    {
+      "trigger_type": "N",
+      "keyword": null,
+      "flow": {
+        "uuid": "e4efc25e-cf88-4fa3-bf21-39ad62de3ed9",
+        "name": "Set language WEB"
+      },
+      "groups": [],
+      "channel": "feee5021-496d-4819-93c9-6d9e7da1e8fe"
+    },
+    {
+      "trigger_type": "N",
+      "keyword": null,
+      "flow": {
+        "uuid": "e4efc25e-cf88-4fa3-bf21-39ad62de3ed9",
+        "name": "Set language WEB"
+      },
+      "groups": [],
+      "channel": "dd1d81a0-bd24-4164-8021-e81003328f2d"
+    }
+  ],
+  "fields": [
+    {
+      "key": "bothub_lang",
+      "name": "bothub lang",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

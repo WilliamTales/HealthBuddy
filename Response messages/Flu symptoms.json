@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Flu symptoms",
+      "uuid": "9042b790-f30f-4f68-a8fe-1e26ea154684",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "7ba2c052-5e97-4974-9e16-db8ffa6fd586": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 19,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 18
+      },
+      "localization": {
+        "por": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "Qualquer pessoa com sintomas respirat\u00f3rios (tosse, espirro, falta de ar) no contexto de dissemina\u00e7\u00e3o comunit\u00e1ria do COVID-19 deve prestar aten\u00e7\u00e3o."
+            ]
+          }
+        },
+        "rus": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "\u041b\u044e\u0431\u043e\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u0441 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0430\u043c\u0438 (\u043a\u0430\u0448\u0435\u043b\u044c, \u0447\u0438\u0445\u0430\u043d\u0438\u0435, \u043e\u0434\u044b\u0448\u043a\u0430) \u0432 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f COVID-19 \u0441\u0440\u0435\u0434\u0438 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f \u0434\u043e\u043b\u0436\u0435\u043d \u043f\u043e\u043c\u043d\u0438\u0442\u044c \u043e \u0434\u0440\u0443\u0433\u0438\u0445 \u0438 \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0440\u0443\u043a \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043f\u0440\u0438 \u0433\u0440\u0438\u043f\u043f\u0435."
+            ]
+          }
+        },
+        "spa": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "Cualquier persona con s\u00edntomas respiratorios (tos, estornudos, dificultad para respirar) en el contexto de la propagaci\u00f3n del COVID-19 debe ser considerado con los dem\u00e1s y llevar a cabo una correcta higiene de manos y seguir un protocolo de gripe."
+            ]
+          }
+        },
+        "ell": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "\u039f\u03c0\u03bf\u03b9\u03bf\u03c3\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03ad\u03c7\u03b5\u03b9 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03ac \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1 (\u03b2\u03ae\u03c7\u03b1, \u03c6\u03c4\u03ad\u03c1\u03bd\u03b9\u03c3\u03bc\u03b1, \u03b4\u03c5\u03c3\u03ba\u03bf\u03bb\u03af\u03b1 \u03c3\u03c4\u03b7\u03bd \u03b1\u03bd\u03b1\u03c0\u03bd\u03bf\u03ae) \u03c3\u03b5 \u03c0\u03b5\u03c1\u03b9\u03bf\u03c7\u03ae \u03cc\u03c0\u03bf\u03c5 \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b5\u03be\u03ac\u03c0\u03bb\u03c9\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03b9\u03bf\u03cd, \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03c1\u03bf\u03c3\u03b5\u03ba\u03c4\u03b9\u03ba\u03cc\u03c2 \u03b1\u03c0\u03ad\u03bd\u03b1\u03bd\u03c4\u03b9 \u03c3\u03c4\u03bf\u03c5\u03c2 \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2, \u03bd\u03b1 \u03b5\u03c6\u03b1\u03c1\u03bc\u03cc\u03b6\u03b5\u03b9 \u03c4\u03bf\u03c5\u03c2 \u03ba\u03b1\u03bd\u03cc\u03bd\u03b5\u03c2 \u03ba\u03b1\u03bb\u03ae\u03c2 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae\u03c2 \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd. "
+            ]
+          }
+        },
+        "ita": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "Chiunque abbia sintomi respiratori (tosse, starnuti, respiro corto), in un contesto in cui la trasmissione della COVID-19 \u00e8 gi\u00e0 presenta nella popolazione generale, dovrebbe prestare attenzione e praticare un'igiene adeguata delle mani e seguire adeguate precauzioni per l\u2019influenza."
+            ]
+          }
+        },
+        "kaz": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "\u0422\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 (\u0436\u04e9\u0442\u0435\u043b, \u0442\u04af\u0448\u043a\u0456\u0440\u0443, \u0435\u043d\u0442\u0456\u0433\u0443) \u0431\u0430\u0440 \u043a\u0435\u0437-\u043a\u0435\u043b\u0433\u0435\u043d \u0430\u0434\u0430\u043c COVID-19-\u0442\u0456\u04a3 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u043a\u043a\u0435 \u0442\u0430\u0440\u0430\u043b\u0443\u044b \u0430\u044f\u0441\u044b\u043d\u0434\u0430 \u0431\u0430\u0441\u049b\u0430\u043b\u0430\u0440\u0434\u044b \u0435\u0441\u043a\u0435\u0440\u0456\u043f, \u049b\u043e\u043b\u0434\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b \u043c\u0435\u043d \u0442\u04b1\u043c\u0430\u0443 \u044d\u0442\u0438\u043a\u0435\u0442\u0456\u043c\u0435\u043d \u0430\u0439\u043d\u0430\u043b\u044b\u0441\u0443\u044b \u043a\u0435\u0440\u0435\u043a."
+            ]
+          }
+        },
+        "mkd": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "\u0421\u0435\u043a\u043e\u0458 \u0441\u043e \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438 (\u043a\u0430\u0448\u043b\u0430\u045a\u0435, \u043a\u0438\u0432\u0430\u045a\u0435, \u0433\u0443\u0431\u0435\u045a\u0435 \u043d\u0430 \u0437\u0434\u0438\u0432\u043e\u0442) \u0432\u043e \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u043d\u0430 \u0448\u0438\u0440\u0435\u045a\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u0432\u043e \u0437\u0430\u0435\u0434\u043d\u0438\u0446\u0430\u0442\u0430, \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0432\u043e\u0434\u0438 \u0441\u043c\u0435\u0442\u043a\u0430 \u0437\u0430 \u0434\u0440\u0443\u0433\u0438\u0442\u0435 \u0438 \u0434\u0430 \u043f\u0440\u0438\u043c\u0435\u043d\u0443\u0432\u0430 \u0441\u043e\u043e\u0434\u0432\u0435\u0442\u043d\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u043d\u0430 \u043e\u0434\u043d\u0435\u0441\u0443\u0432\u0430\u045a\u0435 \u0432\u043e \u0441\u043b\u0443\u0447\u0430\u0458 \u043d\u0430 \u0433\u0440\u0438\u043f."
+            ]
+          }
+        },
+        "tur": {
+          "6136421c-e84f-4b61-81c7-688dea952eec": {
+            "text": [
+              "Solunum yolu semptomlar\u0131 (\u00f6ks\u00fcr\u00fck, hap\u015f\u0131rma, nefes darl\u0131\u011f\u0131) olan herkes KOV\u0130D-19\u2019un toplum bula\u015f\u0131 oldu\u011fu bir ba\u011flamda di\u011fer insanlara da dikkat ederek el hijyeni ve uygun grip hijyen kurallar\u0131na uymal\u0131d\u0131r."
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "7ba2c052-5e97-4974-9e16-db8ffa6fd586",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Anyone with respiratory symptoms (coughing, sneezing, shortness of breath) in the context of community spread of COVID-19 should be mindful of others and practice proper hand hygiene and flu etiquette.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "6136421c-e84f-4b61-81c7-688dea952eec"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "671f104c-dabe-4abd-960b-945169eac982",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

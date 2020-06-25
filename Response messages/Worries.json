@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Worries",
+      "uuid": "3d9a9ebd-2685-43a9-b639-e294a05d93d0",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "4e88abe6-fa4a-42a2-961b-7821ca46f046": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 59,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 55
+      },
+      "localization": {
+        "por": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "A doen\u00e7a devido \u00e0 infec\u00e7\u00e3o por COVID-19 \u00e9 geralmente leve, especialmente para crian\u00e7as e adultos jovens."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "Mas tamb\u00e9m pode causar doen\u00e7as graves: cerca de 1 em cada 5 pessoas que a pegam precisa de cuidados hospitalares. Portanto, sua preocupa\u00e7\u00e3o \u00e9 humana e compreens\u00edvel."
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "Voc\u00ea pode canalizar suas preocupa\u00e7\u00f5es em a\u00e7\u00f5es para se proteger, a seus entes queridos e a sua comunidade."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "O mais importante dentre essas a\u00e7\u00f5es \u00e9 a lavagem regular e completa das m\u00e3os, a boa higiene respirat\u00f3ria e a orienta\u00e7\u00e3o das autoridades de sa\u00fade."
+            ]
+          }
+        },
+        "rus": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "\u0411\u043e\u043b\u0435\u0437\u043d\u044c, \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u0430\u044f \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0435\u0439 COVID-19, \u043e\u0431\u044b\u0447\u043d\u043e \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u0442 \u0432 \u043b\u0435\u0433\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u0435, \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u0443 \u0434\u0435\u0442\u0435\u0439 \u0438 \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u043b\u044e\u0434\u0435\u0439."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "\u041d\u043e \u0432\u0438\u0440\u0443\u0441 \u043c\u043e\u0436\u0435\u0442 \u0432\u044b\u0437\u0432\u0430\u0442\u044c \u0438 \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u043e\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435: \u043f\u0440\u0438\u043c\u0435\u0440\u043d\u043e 1 \u0438\u0437 \u043a\u0430\u0436\u0434\u044b\u0445 5 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0448\u0438\u0445 \u043d\u0443\u0436\u0434\u0430\u0435\u0442\u0441\u044f \u0432 \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u043c \u043b\u0435\u0447\u0435\u043d\u0438\u0438. \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0430\u0448\u0435 \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0439\u0441\u0442\u0432\u043e \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u0438 \u043e\u0431\u044a\u044f\u0441\u043d\u0438\u043c\u043e."
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "\u0415\u0441\u043b\u0438 \u0432\u044b \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u0442\u0435\u0441\u044c, \u0442\u043e \u043d\u0430\u0447\u0442\u0438\u0442\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c: \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u0435 \u0441\u0435\u0431\u044f, \u0441\u0432\u043e\u0438\u0445 \u0431\u043b\u0438\u0437\u043a\u0438\u0445 \u0438 \u0441\u0432\u043e\u0438\u0445 \u0441\u043e\u0441\u0435\u0434\u0435\u0439."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "\u0421\u0430\u043c\u043e\u0435 \u0433\u043b\u0430\u0432\u043d\u043e\u0435 -  \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u0438 \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043c\u043e\u0439\u0442\u0435 \u0440\u0443\u043a\u0438, \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0439\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0434\u044b\u0445\u0430\u043d\u0438\u044f, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043b\u0435\u0434\u0443\u0439\u0442\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u044f\u043c \u043e\u0440\u0433\u0430\u043d\u043e\u0432 \u0437\u0434\u0440\u0430\u0432\u043e\u043e\u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f."
+            ]
+          }
+        },
+        "spa": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "La enfermedad debida a la infecci\u00f3n por COVID-19 es generalmente leve, especialmente para ni\u00f1os y adultos j\u00f3venes."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "Pero tambi\u00e9n puede causar enfermedades graves: aproximadamente 1 de cada 5 personas que la contraen necesita atenci\u00f3n hospitalaria. Entonces, su preocupaci\u00f3n es humana y comprensible."
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "Puede canalizar sus preocupaciones en acciones para protegerse a s\u00ed mismo, a sus seres queridos y a su comunidad."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "Lo m\u00e1s importante entre tales acciones es lavarse las manos de manera regular y minuciosa, tener una buena higiene respiratoria y seguir las indicaciones de las autoridades sanitarias."
+            ]
+          }
+        },
+        "ell": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "\u0397 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1 \u03c0\u03bf\u03c5 \u03bf\u03c6\u03b5\u03af\u03bb\u03b5\u03c4\u03b1\u03b9 \u03c3\u03b5 \u03bc\u03cc\u03bb\u03c5\u03bd\u03c3\u03b7 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b3\u03b5\u03bd\u03b9\u03ba\u03ac \u03ae\u03c0\u03b9\u03b1, \u03b5\u03b9\u03b4\u03b9\u03ba\u03ac \u03c3\u03b5 \u03c0\u03b1\u03b9\u03b4\u03b9\u03ac \u03ba\u03b1\u03b9 \u03bd\u03b5\u03b1\u03c1\u03bf\u03cd\u03c2 \u03b5\u03bd\u03ae\u03bb\u03b9\u03ba\u03b5\u03c2."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "\u0391\u03bb\u03bb\u03ac \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03b5\u03c0\u03af\u03c3\u03b7\u03c2 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03ad\u03c3\u03b5\u03b9 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ae \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1: \u03c0\u03b5\u03c1\u03af\u03c0\u03bf\u03c5 1 \u03c3\u03c4\u03b1 5 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03c3\u03b2\u03ac\u03bb\u03bb\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c7\u03c1\u03b5\u03b9\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03bd\u03bf\u03c3\u03bf\u03ba\u03bf\u03bc\u03b5\u03b9\u03b1\u03ba\u03ae \u03c0\u03b5\u03c1\u03af\u03b8\u03b1\u03bb\u03c8\u03b7. \u0393\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc \u03ba\u03b1\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03b9\u03bd\u03bf \u03ba\u03b1\u03b9 \u03ba\u03b1\u03c4\u03b1\u03bd\u03bf\u03b7\u03c4\u03cc \u03bd\u03b1 \u03b1\u03bd\u03b7\u03c3\u03c5\u03c7\u03b5\u03af\u03c2."
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03b4\u03b9\u03bf\u03c7\u03b5\u03c4\u03b5\u03cd\u03c3\u03b5\u03b9\u03c2 \u03c4\u03b9\u03c2 \u03b1\u03bd\u03b7\u03c3\u03c5\u03c7\u03af\u03b5\u03c2 \u03c3\u03bf\u03c5 \u03c3\u03b5 \u03b5\u03bd\u03ad\u03c1\u03b3\u03b5\u03b9\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03c3\u03b5\u03b9\u03c2 \u03c4\u03bf\u03bd \u03b5\u03b1\u03c5\u03c4\u03cc \u03c3\u03bf\u03c5, \u03c4\u03bf\u03c5\u03c2 \u03b1\u03b3\u03b1\u03c0\u03b7\u03bc\u03ad\u03bd\u03bf\u03c5\u03c2 \u03c3\u03bf\u03c5 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03bd \u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "\u0397 \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03cc\u03c4\u03b5\u03c1\u03b7 \u03b1\u03c0\u03cc \u03b1\u03c5\u03c4\u03ad\u03c2 \u03c4\u03b9\u03c2 \u03b5\u03bd\u03ad\u03c1\u03b3\u03b5\u03b9\u03b5\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03bf \u03c4\u03b1\u03ba\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u03c3\u03c7\u03bf\u03bb\u03b1\u03c3\u03c4\u03b9\u03ba\u03cc \u03c0\u03bb\u03cd\u03c3\u03b9\u03bc\u03bf \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd, \u03b1\u03bb\u03bb\u03ac \u03ba\u03b1\u03b9 \u03b7 \u03ba\u03b1\u03bb\u03ae \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd \u03c3\u03cd\u03bc\u03c6\u03c9\u03bd\u03b1 \u03bc\u03b5 \u03c4\u03b9\u03c2 \u03bf\u03b4\u03b7\u03b3\u03af\u03b5\u03c2 \u03c4\u03c9\u03bd \u03c5\u03b3\u03b5\u03b9\u03bf\u03bd\u03bf\u03bc\u03b9\u03ba\u03ce\u03bd \u03b1\u03c1\u03c7\u03ce\u03bd."
+            ]
+          }
+        },
+        "ita": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "Tipicamente, la malattia causata da infezione COVID-19 presenta sintomi lievi, soprattutto tra i giovani e i bambini. "
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "L\u2019infezione pu\u00f2 anche portare a malattie pi\u00f9 gravi. In media, un paziente su 5 ha bisogno di ricovero ospedaliero. Quindi, le tue preoccupazioni sono normali e comprensibili. "
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "Puoi usare le tue preoccupazioni come stimolo a concentrarti su gesti semplici che aiutino a proteggere te, i tuoi cari e la tua comunit\u00e0 dall\u2019infezione. "
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "Tra le misure di igiene pi\u00f9 importanti vi sono il lavaggio frequente delle mani, buona igiene respiratoria ed il rispetto delle indicazioni ministeriali. "
+            ]
+          }
+        },
+        "kaz": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "COVID-19 \u0430\u0443\u0440\u0443 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456,  \u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u0431\u0430\u043b\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0436\u0430\u0441 \u0435\u0440\u0435\u0441\u0435\u043a\u0442\u0435\u0440 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430, \u0436\u04b1\u043c\u0441\u0430\u049b \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "\u0411\u0456\u0440\u0430\u049b \u0431\u04b1\u043b \u0441\u043e\u043d\u044b\u043c\u0435\u043d \u049b\u0430\u0442\u0430\u0440 \u0430\u0443\u044b\u0440 \u0430\u0443\u0440\u0443\u0434\u044b \u0442\u0443\u0434\u044b\u0440\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d: \u043e\u043d\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d \u04d9\u0440\u0431\u0456\u0440 5 \u0430\u0434\u0430\u043c\u043d\u044b\u04a3 1-\u0456 \u0430\u0443\u0440\u0443\u0445\u0430\u043d\u0430\u043b\u044b\u049b \u043a\u04e9\u043c\u0435\u043a \u0430\u043b\u0443\u044b \u0442\u0438\u0456\u0441. \u0421\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d, \u0441\u0456\u0437\u0434\u0456\u04a3 \u0430\u043b\u0430\u04a3\u0434\u0430\u0443\u0448\u044b\u043b\u044b\u0493\u044b\u04a3\u044b\u0437 \u0430\u0434\u0430\u043c\u0438 \u0436\u04d9\u043d\u0435 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0456 \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u0430\u0434\u044b"
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "\u0421\u0456\u0437 \u04e9\u0437\u0456\u04a3\u0456\u0437\u0434\u0456, \u0436\u0430\u049b\u044b\u043d\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b \u0436\u04d9\u043d\u0435 \u049b\u043e\u0493\u0430\u043c\u0434\u0430\u0441\u0442\u044b\u0493\u044b\u04a3\u044b\u0437\u0434\u044b \u049b\u043e\u0440\u0493\u0430\u0443\u0493\u0430 \u0431\u0430\u0493\u044b\u0442\u0442\u0430\u043b\u0493\u0430\u043d \u049b\u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u0436\u0430\u0441\u0430\u0439 \u0430\u043b\u0430\u0441\u044b\u0437."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "\u041e\u0441\u044b\u043d\u0434\u0430\u0439 \u04d9\u0440\u0435\u043a\u0435\u0442\u0442\u0435\u0440\u0434\u0456\u04a3 \u0456\u0448\u0456\u043d\u0434\u0435\u0433\u0456 \u0435\u04a3 \u043c\u0430\u04a3\u044b\u0437\u0434\u044b\u0441\u044b - \u049b\u043e\u043b\u0434\u044b \u04af\u043d\u0435\u043c\u0456 \u0436\u04d9\u043d\u0435 \u043c\u04b1\u049b\u0438\u044f\u0442 \u0436\u0443\u0443 \u0436\u04d9\u043d\u0435 \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u0436\u043e\u043b\u0434\u0430\u0440\u044b\u043d\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u0443; \u0441\u0456\u0437\u0434\u0456\u04a3 \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b \u0441\u0430\u049b\u0442\u0430\u0443 \u043e\u0440\u0433\u0430\u043d\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b\u04a3 \u0431\u0430\u0441\u0448\u044b\u043b\u044b\u0493\u044b\u043c\u0435\u043d \u0436\u04af\u0440\u0443."
+            ]
+          }
+        },
+        "mkd": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "\u0411\u043e\u043b\u0435\u0441\u0442\u0430 \u043e\u0434 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430 \u0441\u043e \u041a\u041e\u0412\u0418\u0414-19 \u043e\u0431\u0438\u0447\u043d\u043e \u0435 \u0431\u043b\u0430\u0433\u0430, \u043e\u0441\u043e\u0431\u0435\u043d\u043e \u043a\u0430\u0458 \u0434\u0435\u0446\u0430\u0442\u0430 \u0438 \u043c\u043b\u0430\u0434\u0438\u0442\u0435."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "\u041d\u043e, \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0430 \u0438 \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442: \u0440\u0435\u0447\u0438\u0441\u0438 \u0441\u0435\u043a\u043e\u0435 5-\u0442\u043e \u043b\u0438\u0446\u0435 \u0448\u0442\u043e \u0433\u043e \u043f\u0440\u0435\u0444\u0430\u045c\u0430 \u0438\u043c\u0430 \u043f\u043e\u0442\u0440\u0435\u0431\u0430 \u043e\u0434 \u0431\u043e\u043b\u043d\u0438\u0447\u043a\u0430 \u043f\u043e\u043c\u043e\u0448. \u0417\u043d\u0430\u0447\u0438, \u0432\u0430\u0448\u0430\u0442\u0430 \u0437\u0430\u0433\u0440\u0438\u0436\u0435\u043d\u043e\u0441\u0442 \u0435 \u0440\u0430\u0437\u0431\u0438\u0440\u043b\u0438\u0432\u0430."
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "\u041c\u043e\u0436\u0435 \u0434\u0430 \u0458\u0430 \u043a\u0430\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u0430\u0442\u0435 \u0437\u0430\u0433\u0440\u0438\u0436\u0435\u043d\u043e\u0441\u0442\u0430 \u0432\u043e \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0441\u043e \u043a\u043e\u0438 \u045c\u0435 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0438\u0442\u0435 \u0441\u0435\u0431\u0435\u0441\u0438, \u043d\u0430\u0458\u0431\u043b\u0438\u0441\u043a\u0438\u0442\u0435 \u0438 \u0437\u0430\u0435\u0434\u043d\u0438\u0446\u0430\u0442\u0430."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "\u041d\u0430\u0458\u0432\u0430\u0436\u043d\u043e \u043a\u0430\u0458 \u0432\u0430\u043a\u0432\u0438\u0442\u0435 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0435 \u0440\u0435\u0434\u043e\u0432\u043d\u043e\u0442\u043e \u0438 \u0442\u0435\u043c\u0435\u043b\u043d\u043e \u043c\u0438\u0435\u045a\u0435 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0438 \u0434\u043e\u0431\u0440\u0430\u0442\u0430 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430, \u043a\u0430\u043a\u043e \u0438 \u0441\u043b\u0435\u0434\u0435\u045a\u0435 \u043d\u0430 \u0443\u043f\u0430\u0442\u0441\u0442\u0432\u0430\u0442\u0430 \u043d\u0430 \u0432\u0430\u0448\u0438\u0442\u0435 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0435\u043d\u0438 \u0432\u043b\u0430\u0441\u0442\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "9775fc65-ca86-4ad7-8f7b-aa2180df3e50": {
+            "text": [
+              "KOV\u0130D-19 enfeksiyonu nedeniyle hastal\u0131k genellikle \u00f6zellikle \u00e7ocuklar ve gen\u00e7 yeti\u015fkinler i\u00e7in hafif d\u00fczeydedir."
+            ]
+          },
+          "1ad374f6-d06f-4e16-8b84-539cc3a104a8": {
+            "text": [
+              "Ayn\u0131 zamanda ciddi hastal\u0131klara da neden olabilir: Hastal\u0131\u011f\u0131 kapan 5 ki\u015fiden 1\u2019i hastane bak\u0131m\u0131na ihtiya\u00e7 duymaktad\u0131r. Bu nedenle, kayg\u0131n\u0131z gayet normal.  "
+            ]
+          },
+          "74eff372-e227-43d5-a150-901a126604e4": {
+            "text": [
+              "Endi\u015felerinizi kendinizi, sevdiklerinizi ve toplumunuzu korumak amac\u0131yla eylemlerinize kanalize edebilirsiniz."
+            ]
+          },
+          "7235e6ab-6ceb-433e-9cf2-b64d58e0f017": {
+            "text": [
+              "Bu eylemlerden en \u00f6nemlisi g\u00fczelce ve d\u00fczenlice elleri y\u0131kamak, solununm yolu hijyenine dikkat etmek ve sa\u011fl\u0131k yetkililerinizin y\u00f6nlendirmelerine uymakt\u0131r."
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "4e88abe6-fa4a-42a2-961b-7821ca46f046",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Illness due to COVID-19 infection is generally mild, especially for children and young adults.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "9775fc65-ca86-4ad7-8f7b-aa2180df3e50"
+            },
+            {
+              "attachments": [],
+              "text": "But it can also cause serious illness: about 1 in every 5 people who catch it needs hospital care. So, your concern is human and understandable.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "1ad374f6-d06f-4e16-8b84-539cc3a104a8"
+            },
+            {
+              "attachments": [],
+              "text": "You can channel your concerns into actions to protect yourselves, your loved ones and your community.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "74eff372-e227-43d5-a150-901a126604e4"
+            },
+            {
+              "attachments": [],
+              "text": "Most important among such actions is regular and thorough hand-washing and good respiratory hygiene and following your health authorities\u2019 guidance.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "7235e6ab-6ceb-433e-9cf2-b64d58e0f017"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "ce7b29fb-3ebb-4eed-a4eb-1e6000f13b02",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

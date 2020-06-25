@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "d9535736-2b79-412a-b939-1a77eb143179": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "Los secadores de manos no son eficaces para matar el virus del COVID-19."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "Una vez que haya limpiado sus manos, debe secarlas completamente con toallas de papel o un secador de aire caliente."
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "Para protegerse contra el nuevo coronavirus, debe limpiarse las manos con frecuencia con un desinfectante para manos a base de alcohol o lavarlas con agua y jab\u00f3n."
+            ]
+          }
+        },
+        "ell": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "\u038c\u03c7\u03b9. \u039f\u03b9 \u03c3\u03c4\u03b5\u03b3\u03bd\u03c9\u03c4\u03ae\u03c1\u03b5\u03c2 \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03b4\u03b5\u03bd \u03c3\u03ba\u03bf\u03c4\u03ce\u03bd\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03b9\u03cc COVID-19. "
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03b5\u03af\u03c2 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc, \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03ba\u03b1\u03b8\u03b1\u03c1\u03af\u03b6\u03b5\u03b9\u03c2 \u03c3\u03c5\u03c7\u03bd\u03ac \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03bd\u03b1 \u03c4\u03b1 \u03c0\u03bb\u03ad\u03bd\u03b5\u03b9\u03c2 \u03bc\u03b5 \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc. "
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "\u039c\u03b5\u03c4\u03ac \u03c4\u03bf \u03c0\u03bb\u03cd\u03c3\u03b9\u03bc\u03bf, \u03c3\u03c4\u03ad\u03b3\u03bd\u03c9\u03c3\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03ba\u03b1\u03bb\u03ac \u03bc\u03b5 \u03c7\u03b1\u03c1\u03c4\u03af \u03ae \u03c3\u03c4\u03b5\u03b3\u03bd\u03c9\u03c4\u03ae\u03c1\u03b1 \u03bc\u03b5 \u03b6\u03b5\u03c3\u03c4\u03cc \u03b1\u03ad\u03c1\u03b1.."
+            ]
+          }
+        },
+        "rus": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "\u041d\u0435\u0442. \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0443\u0448\u0438\u0442\u0435\u043b\u0438 \u0434\u043b\u044f \u0440\u0443\u043a \u043d\u0435 \u0443\u0431\u0438\u0432\u0430\u044e\u0442 \u0432\u0438\u0440\u0443\u0441 COVID-19. "
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "\u0414\u043b\u044f \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438 \u043d\u043e\u0432\u043e\u0439 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u043e\u0431\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0442\u044c \u0440\u0443\u043a\u0438 \u0441\u043f\u0438\u0440\u0442\u043e\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u043c \u0430\u043d\u0442\u0438\u0441\u0435\u043f\u0442\u0438\u043a\u043e\u043c \u0438\u043b\u0438 \u043c\u044b\u0442\u044c \u0438\u0445 \u043f\u0440\u043e\u0442\u043e\u0447\u043d\u043e\u0439 \u0432\u043e\u0434\u043e\u0439 \u0441 \u043c\u044b\u043b\u043e\u043c."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "\u0412\u044b\u043c\u044b\u0442\u044b\u0435 \u0440\u0443\u043a\u0438 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0432\u044b\u0441\u0443\u0448\u0438\u0442\u044c \u0431\u0443\u043c\u0430\u0436\u043d\u044b\u043c\u0438 \u043f\u043e\u043b\u043e\u0442\u0435\u043d\u0446\u0430\u043c\u0438 \u0438\u043b\u0438 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0443\u0448\u0438\u0442\u0435\u043b\u044f."
+            ]
+          }
+        },
+        "ita": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "No. Gli asciugamani elettrici non sono efficaci nell'uccidere il virus COVID-19."
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "Per proteggersi dal nuovo coronavirus bisogna lavarsi spesso le mani con un detergente a base di alcool o lavarle con acqua e sapone."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "Dopo aver lavato le mani, asciugarle accuratamente utilizzando asciugamani di carta o un asciumano elettrico ad aria calda."
+            ]
+          }
+        },
+        "kaz": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "\u0416\u043e\u049b. \u049a\u043e\u043b \u043a\u0435\u043f\u0442\u0456\u0440\u0433\u0456\u0448\u0442\u0435\u0440\u0456 COVID-19 \u0432\u0438\u0440\u0443\u0441\u044b\u043d \u04e9\u043b\u0442\u0456\u0440\u0443\u0434\u0435 \u0442\u0438\u0456\u043c\u0434\u0456 \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u043c\u0430\u0439\u0434\u044b."
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "\u0416\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u0430\u043d \u049b\u043e\u0440\u0493\u0430\u043d\u0443 \u04af\u0448\u0456\u043d \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u049b\u044b\u0448\u043f\u0435\u043d \u0436\u0438\u0456 \u0441\u04af\u0440\u0442\u0456\u043f \u0442\u04b1\u0440\u044b\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "\u049a\u043e\u043b\u0434\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b \u0436\u0443\u044b\u043f \u0431\u043e\u043b\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u043e\u043b\u0430\u0440\u0434\u044b \u049b\u0430\u0493\u0430\u0437 \u0441\u04af\u043b\u0433\u0456\u043c\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u043a\u0435\u043f\u0442\u0456\u0440\u0433\u0456\u0448\u043f\u0435\u043d \u0436\u0430\u049b\u0441\u044b\u043b\u0430\u043f \u049b\u04b1\u0440\u0493\u0430\u0442\u044b\u04a3\u044b\u0437."
+            ]
+          }
+        },
+        "por": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "N\u00e3o, os secadores de m\u00e3os n\u00e3o s\u00e3o eficazes para matar o v\u00edrus COVID-19."
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "Para se proteger contra o novo coronav\u00edrus, voc\u00ea deve limpar frequentemente as m\u00e3os com \u00e1lcool ou lav\u00e1-las com \u00e1gua e sab\u00e3o."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "Depois de limpar as m\u00e3os, voc\u00ea deve sec\u00e1-las cuidadosamente usando toalhas de papel ou um secador de ar quente."
+            ]
+          }
+        },
+        "mkd": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "\u041d\u0435. \u0424\u0435\u043d\u043e\u0432\u0438\u0442\u0435 \u0437\u0430 \u0440\u0430\u0446\u0435 \u043d\u0435 \u0441\u0435 \u0435\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u0438 \u0432\u043e \u0443\u0431\u0438\u0432\u0430\u045a\u0435 \u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "\u0417\u0430 \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0438\u0442\u0435 \u043e\u0434 \u043d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441, \u0442\u0440\u0435\u0431\u0430 \u0447\u0435\u0441\u0442\u043e \u0434\u0430 \u0433\u0438 \u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u043d\u0430 \u0431\u0430\u0437\u0430 \u043d\u0430 \u0430\u043b\u043a\u043e\u0445\u043e\u043b \u0438\u043b\u0438 \u0434\u0430 \u0433\u0438 \u043c\u0438\u0435\u0442\u0435 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430."
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "\u041a\u043e\u0433\u0430 \u045c\u0435 \u0433\u0438 \u0438\u0441\u0447\u0438\u0441\u0442\u0438\u0442\u0435 \u0440\u0430\u0446\u0435\u0442\u0435, \u0442\u0440\u0435\u0431\u0430 \u0442\u0435\u043c\u0435\u043b\u043d\u043e \u0434\u0430 \u0433\u0438 \u0438\u0441\u0443\u0448\u0438\u0442\u0435 \u0441\u043e \u043f\u043e\u043c\u043e\u0448 \u043d\u0430 \u0445\u0430\u0440\u0442\u0438\u0435\u043d\u0438 \u043a\u0440\u043f\u0438 \u0438\u043b\u0438 \u0441\u043e \u0444\u0435\u043d \u043d\u0430 \u0442\u043e\u043f\u043e\u043b \u0432\u043e\u0437\u0434\u0443\u0445."
+            ]
+          }
+        },
+        "tur": {
+          "4e427c4f-368d-47e0-b29c-a69a4a54fd58": {
+            "text": [
+              "Hay\u0131r. El kurutma makineleri KOV\u0130D-19 vir\u00fcs\u00fcn\u00fc \u00f6ld\u00fcrme konusunda etkili de\u011fildir.  "
+            ]
+          },
+          "617002e9-2b22-4d1a-bde9-a1761e06b686": {
+            "text": [
+              "Kendinizi yeni koronavir\u00fcse kar\u015f\u0131 korumak i\u00e7in ellerinizi s\u0131k s\u0131k alkol bazl\u0131 el dezenfektan\u0131 ya da su ve sabun ile temizlemelisiniz. "
+            ]
+          },
+          "b935da30-8578-4efa-9037-1cba883b07d4": {
+            "text": [
+              "Ellerinizi y\u0131kad\u0131ktan sonra k\u00e2\u011f\u0131t havlu ile ya da \u0131l\u0131k hava \u00fcfleyen el kurutma makinesinde iyice kurutmal\u0131s\u0131n\u0131z. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 24
+      },
+      "name": "Myths - hand dryers",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "No, hand dryers are not effective in killing the COVID-19 virus.",
+              "type": "send_msg",
+              "uuid": "4e427c4f-368d-47e0-b29c-a69a4a54fd58"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "To protect yourself against the new coronavirus, you should frequently clean your hands with an alcohol-based hand rub or wash them with soap and water.",
+              "type": "send_msg",
+              "uuid": "617002e9-2b22-4d1a-bde9-a1761e06b686"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Once your hands are cleaned, you should dry them thoroughly by using paper towels or a warm air dryer.",
+              "type": "send_msg",
+              "uuid": "b935da30-8578-4efa-9037-1cba883b07d4"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "af67ef0c-7ccb-4d2c-b3a7-bd9d59e94015"
+            }
+          ],
+          "uuid": "d9535736-2b79-412a-b939-1a77eb143179"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "a84be5ac-8b6a-4055-ba8b-4e76f9b83577",
+      "revision": 27
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

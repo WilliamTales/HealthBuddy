@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "3a4dc8c1-af1f-40c9-9251-444c680de066": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "El ajo es un alimento saludable que puede tener algunas propiedades antimicrobianas"
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "Pero no hay evidencia en el brote actual de que comer ajo haya protegido a las personas del nuevo coronavirus."
+            ]
+          }
+        },
+        "ell": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "\u03a4\u03bf \u03c3\u03ba\u03cc\u03c1\u03b4\u03bf \u03b5\u03af\u03bd\u03b1\u03b9 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03cc \u03ba\u03b1\u03b9 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03ad\u03c7\u03b5\u03b9 \u03ba\u03ac\u03c0\u03bf\u03b9\u03b5\u03c2 \u03b1\u03bd\u03c4\u03b9\u03bc\u03b9\u03ba\u03c1\u03bf\u03b2\u03b9\u03b1\u03ba\u03ad\u03c2 \u03b9\u03b4\u03b9\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2."
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "\u0391\u03bb\u03bb\u03ac \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u03c4\u03c9\u03c1\u03b9\u03bd\u03ae \u03ba\u03b1\u03c4\u03ac\u03c3\u03c4\u03b1\u03c3\u03b7 \u03c0\u03bf\u03c5 \u03bd\u03b1 \u03b1\u03c0\u03bf\u03b4\u03b5\u03b9\u03ba\u03bd\u03cd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03c4\u03c1\u03ce\u03b3\u03bf\u03bd\u03c4\u03b1\u03c2 \u03c3\u03ba\u03cc\u03c1\u03b4\u03bf \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03b5\u03c3\u03b1\u03b9 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc. "
+            ]
+          }
+        },
+        "rus": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "\u0427\u0435\u0441\u043d\u043e\u043a \u2013 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0439 \u0434\u043b\u044f \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u043f\u0440\u043e\u0434\u0443\u043a\u0442, \u043e\u0431\u043b\u0430\u0434\u0430\u044e\u0449\u0438\u0439 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u043c\u0438\u043a\u0440\u043e\u0431\u043d\u044b\u043c\u0438 \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438."
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "\u0422\u0435\u043c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435, \u0432 \u0445\u043e\u0434\u0435 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0432\u0441\u043f\u044b\u0448\u043a\u0438 \u043d\u0435 \u0431\u044b\u043b\u043e \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043e \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u0439 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u044f \u0447\u0435\u0441\u043d\u043e\u043a\u0430 \u043a\u0430\u043a \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438 \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043d\u043e\u0432\u044b\u043c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043e\u043c."
+            ]
+          }
+        },
+        "ita": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "L'aglio \u00e8 un alimento sano che pu\u00f2 avere alcune propriet\u00e0 antimicrobiche."
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "Tuttavia non ci sono prove che dimostrino che il consumo di aglio protegga dal nuovo coronavirus."
+            ]
+          }
+        },
+        "kaz": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "\u0421\u0430\u0440\u044b\u043c\u0441\u0430\u049b \u043a\u0435\u0439\u0431\u0456\u0440 \u043c\u0438\u043a\u0440\u043e\u0431\u0442\u0430\u0440\u0493\u0430 \u049b\u0430\u0440\u0441\u044b \u049b\u0430\u0441\u0438\u0435\u0442\u0442\u0435\u0440\u0456 \u0431\u0430\u0440 \u043f\u0430\u0439\u0434\u0430\u043b\u044b \u043a\u04e9\u043a\u04e9\u043d\u0456\u0441 \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u0430\u0434\u044b"
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "\u0410\u043b\u0430\u0439\u0434\u0430 \u0441\u0430\u0440\u044b\u043c\u0441\u0430\u049b \u0436\u0435\u0443 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u0436\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u0430\u043d \u049b\u043e\u0440\u0493\u0430\u0439\u0442\u044b\u043d\u044b \u0442\u0443\u0440\u0430\u043b\u044b \u0435\u0448\u049b\u0430\u043d\u0434\u0430\u0439 \u0434\u04d9\u043b\u0435\u043b \u0436\u043e\u049b."
+            ]
+          }
+        },
+        "por": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "O alho \u00e9 um alimento saud\u00e1vel que pode ter algumas propriedades antimicrobianas."
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "Mas n\u00e3o h\u00e1 evid\u00eancias do surto atual de que comer alho tenha protegido as pessoas do novo coronav\u00edrus."
+            ]
+          }
+        },
+        "mkd": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "\u041b\u0443\u043a\u043e\u0442 \u0435 \u0437\u0434\u0440\u0430\u0432\u0430 \u0445\u0440\u0430\u043d\u0430 \u043a\u043e\u0458\u0430 \u043c\u043e\u0436\u0435\u0431\u0438 \u0438\u043c\u0430 \u0430\u043d\u0442\u0438\u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u043a\u0438 \u0441\u0432\u043e\u0458\u0441\u0442\u0432\u0430."
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "\u041d\u043e, \u043d\u0435 \u043f\u043e\u0441\u0442\u043e\u0458\u0430\u0442 \u0434\u043e\u043a\u0430\u0437\u0438 \u043e\u0434 \u0441\u0435\u0433\u0430\u0448\u043d\u0430\u0442\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0458\u0430 \u0434\u0435\u043a\u0430 \u0458\u0430\u0434\u0435\u045a\u0435\u0442\u043e \u043b\u0443\u043a \u0433\u0438 \u0437\u0430\u0448\u0442\u0438\u0442\u0438\u043b\u043e \u043b\u0443\u0453\u0435\u0442\u043e \u043e\u0434 \u043d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441."
+            ]
+          }
+        },
+        "tur": {
+          "aa85bc52-1032-44ce-bd54-38f6ef38a231": {
+            "text": [
+              "Sar\u0131msak, birtak\u0131m antimikrobiyal \u00f6zelliklere sahip sa\u011fl\u0131kl\u0131 bir yiyecektir. "
+            ]
+          },
+          "aa13050d-174e-45ef-a43e-a0dd6f48f553": {
+            "text": [
+              "Ancak mevcut salg\u0131nda sar\u0131msak yemenin insanlar\u0131 yeni koronavir\u00fcsten korudu\u011funa dair herhangi bir kan\u0131t bulunmamaktad\u0131r. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 21
+      },
+      "name": "Myths - garlic",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Garlic is a healthy food that may have some antimicrobial properties.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "aa85bc52-1032-44ce-bd54-38f6ef38a231"
+            },
+            {
+              "attachments": [],
+              "text": "But there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "aa13050d-174e-45ef-a43e-a0dd6f48f553"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "91e25083-ecfd-455c-8d71-365157166d84"
+            }
+          ],
+          "uuid": "3a4dc8c1-af1f-40c9-9251-444c680de066"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "20659e80-b9f8-46d3-b2f3-be49547e5f80",
+      "revision": 23
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "a918c1a8-a87d-44b2-a4d2-7ee5c7495b62": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "No debes viajar si no te encuentras bien.\n\nSi te detectan en el aeropuerto que te encuentras enfermo, las autoridades te dir\u00e1n lo que tienes que hacer."
+            ]
+          }
+        },
+        "ell": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c4\u03b1\u03be\u03b9\u03b4\u03b5\u03cd\u03b5\u03b9\u03c2, \u03b1\u03bd \u03b4\u03b5\u03bd \u03b1\u03b9\u03c3\u03b8\u03ac\u03bd\u03b5\u03c3\u03b1\u03b9 \u03ba\u03b1\u03bb\u03ac.\n\n\u0391\u03bd \u03c3\u03c4\u03bf\u03bd \u03ad\u03bb\u03b5\u03b3\u03c7\u03bf \u03c4\u03bf\u03c5 \u03b1\u03b5\u03c1\u03bf\u03b4\u03c1\u03bf\u03bc\u03af\u03bf\u03c5 \u03b4\u03b9\u03b1\u03c0\u03b9\u03c3\u03c4\u03c9\u03b8\u03b5\u03af \u03cc\u03c4\u03b9 \u03b5\u03af\u03c3\u03b1\u03b9 \u03ac\u03c1\u03c1\u03c9\u03c3\u03c4\u03bf\u03c2, \u03bf\u03b9 \u03b1\u03c1\u03bc\u03cc\u03b4\u03b9\u03b5\u03c2 \u03b1\u03c1\u03c7\u03ad\u03c2 \u03b8\u03b1 \u03c3\u03bf\u03c5 \u03c0\u03bf\u03c5\u03bd \u03c4\u03b9 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03ba\u03ac\u03bd\u03b5\u03b9\u03c2.\n"
+            ]
+          }
+        },
+        "rus": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "\u0412\u044b \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c, \u0435\u0441\u043b\u0438 \u0432\u044b \u043f\u043b\u043e\u0445\u043e \u0441\u0435\u0431\u044f \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0435\u0442\u0435.\n\n\u0415\u0441\u043b\u0438 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0438 \u0432 \u0430\u044d\u0440\u043e\u043f\u043e\u0440\u0442\u0443 \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0430\u0442, \u0447\u0442\u043e \u0432\u044b \u0431\u043e\u043b\u044c\u043d\u044b, \u0432\u0430\u043c \u0441\u043e\u043e\u0431\u0449\u0430\u0442, \u0447\u0442\u043e \u043d\u0443\u0436\u043d\u043e \u0434\u0435\u043b\u0430\u0442\u044c."
+            ]
+          }
+        },
+        "ita": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "Non bisogna viaggiare se non ci sente bene.\n\nSe si viene identificati allo screening dell'aeroporto e si scopre di essere ammalati, le autorit\u00e0 locali comunicheranno cosa fare.\n"
+            ]
+          }
+        },
+        "kaz": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "\u0415\u0433\u0435\u0440 \u0441\u0456\u0437 \u04e9\u0437\u0456\u04a3\u0456\u0437\u0434\u0456 \u043d\u0430\u0448\u0430\u0440 \u0441\u0435\u0437\u0456\u043d\u0441\u0435\u04a3\u0456\u0437, \u0441\u0430\u044f\u0445\u0430\u0442\u0442\u0430\u0443\u0493\u0430 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b. \u0415\u0433\u0435\u0440 \u0441\u0456\u0437\u0434\u0456 \u04d9\u0443\u0435\u0436\u0430\u0439\u0434\u0430 \u0442\u0435\u043a\u0441\u0435\u0440\u0441\u0435, \u0436\u04d9\u043d\u0435 \u043e\u043b \u043a\u0435\u0437\u0434\u0435 \u0430\u0443\u044b\u0440\u044b\u043f \u049b\u0430\u043b\u0493\u0430\u043d\u044b\u04a3\u044b\u0437 \u0430\u043d\u044b\u049b\u0442\u0430\u043b\u0441\u0430, \u0443\u04d9\u043a\u0456\u043b\u0435\u0442\u0442\u0456\u043b\u0435\u0440 \u0441\u0456\u0437\u0433\u0435 \u043d\u0435 \u0456\u0441\u0442\u0435\u0443 \u043a\u0435\u0440\u0435\u043a\u0442\u0456\u0433\u0456\u043d \u0430\u0439\u0442\u0430\u0434\u044b\n"
+            ]
+          }
+        },
+        "por": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "Voc\u00ea n\u00e3o deve viajar se n\u00e3o estiver bem. \n\nSe voc\u00ea for analisado na inspe\u00e7\u00e3o do aeroporto e estiver doente, as autoridades lhe dir\u00e3o o que fazer."
+            ]
+          }
+        },
+        "mkd": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "\u041d\u0435 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u043f\u0430\u0442\u0443\u0432\u0430\u0442\u0435 \u0430\u043a\u043e \u043d\u0435 \u0441\u0435 \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u0432\u0430\u0442\u0435 \u0434\u043e\u0431\u0440\u043e.\n\n\u0410\u043a\u043e \u043f\u0440\u0438 \u0441\u043a\u0440\u0438\u043d\u0438\u043d\u0433 \u043d\u0430 \u0430\u0435\u0440\u043e\u0434\u0440\u043e\u043c \u043e\u0442\u043a\u0440\u0438\u0458\u0430\u0442 \u0434\u0435\u043a\u0430 \u0441\u0442\u0435 \u0431\u043e\u043b\u043d\u0438, \u043d\u0430\u0434\u043b\u0435\u0436\u043d\u0438\u0442\u0435 \u045c\u0435 \u0432\u0438 \u043a\u0430\u0436\u0430\u0442 \u0448\u0442\u043e \u0434\u0430 \u043f\u0440\u0430\u0432\u0438\u0442\u0435."
+            ]
+          }
+        },
+        "tur": {
+          "c2a559aa-0b3d-4152-9349-8a97be499753": {
+            "text": [
+              "Kendinizi iyi hissetmiyorsan\u0131z seyahat etmemelisiniz. \n\nHavalan\u0131 taramas\u0131nda tespit edilir ve hasta oldu\u011funuz ortaya \u00e7\u0131karsa, yetkililer ne yapman\u0131z gerekti\u011fini s\u00f6yleyecektir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 10
+      },
+      "name": "Travel airport",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "You should not be traveling if you are unwell.\n\nIf you are detected at airport screening and found to be ill, the authorities will tell you what to do.",
+              "type": "send_msg",
+              "uuid": "c2a559aa-0b3d-4152-9349-8a97be499753"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "e626ec39-9baa-4b14-8998-7ff785a2716f"
+            }
+          ],
+          "uuid": "a918c1a8-a87d-44b2-a4d2-7ee5c7495b62"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "c85aa259-23a8-49ff-9c51-123f8b28b874",
+      "revision": 11
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

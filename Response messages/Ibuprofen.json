@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "81f59630-f1f5-426c-af5b-9fec36de033a": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "La OMS est\u00e1 recopilando m\u00e1s evidencia para poder hacer una recomendaci\u00f3n clara sobre el uso de ibuprofeno en el contexto del COVID-19."
+            ]
+          }
+        },
+        "ell": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "\u039f \u03a0\u039f\u03a5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c3\u03c4\u03b7 \u03b4\u03b9\u03b1\u03b4\u03b9\u03ba\u03b1\u03c3\u03af\u03b1 \u03c3\u03c5\u03bb\u03bb\u03bf\u03b3\u03ae\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03c9\u03bd \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03c9\u03bd \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03c0\u03bf\u03c1\u03ad\u03c3\u03b5\u03b9 \u03bd\u03b1 \u03b4\u03ce\u03c3\u03b5\u03b9 \u03c3\u03b1\u03c6\u03ae \u03c3\u03cd\u03c3\u03c4\u03b1\u03c3\u03b7 \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03b9\u03b2\u03bf\u03c5\u03c0\u03c1\u03bf\u03c6\u03b1\u03af\u03bd\u03b7\u03c2 (ibuprofen) \u03c3\u03c4\u03b1 \u03c0\u03bb\u03b1\u03af\u03c3\u03b9\u03b1 \u03c4\u03bf\u03c5 COVID-19."
+            ]
+          }
+        },
+        "rus": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "\u041d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0412\u041e\u0417 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0434\u0430\u0442\u044c \u0447\u0435\u0442\u043a\u0443\u044e \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0430\u0446\u0438\u044e \u043f\u043e \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044e \u0438\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d\u0430 \u0434\u043b\u044f \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-19, \u0442\u0430\u043a \u043a\u0430\u043a \u0441\u0431\u043e\u0440 \u0434\u0430\u043d\u043d\u044b\u0445 \u0435\u0449\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0435\u0442\u0441\u044f."
+            ]
+          }
+        },
+        "ita": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "L'OMS sta raccogliendo maggiore evidenza scientifica per poter formulare chiare raccomandazioni sull'uso dell'ibuprofene nel contesto della COVID-19."
+            ]
+          }
+        },
+        "kaz": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "\u0414\u0414\u0421\u04b0 COVID-19 \u049b\u0430\u0440\u0441\u044b \u0438\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0443 \u0442\u0443\u0440\u0430\u043b\u044b \u043d\u0430\u049b\u0442\u044b \u04b1\u0441\u044b\u043d\u044b\u0441\u0442\u0430\u0440 \u0431\u0435\u0440\u0443 \u04af\u0448\u0456\u043d \u0434\u04d9\u043b\u0435\u043b\u0434\u0435\u043c\u0435\u043b\u0435\u0440 \u0436\u0438\u043d\u0430\u043f \u0436\u0430\u0442\u044b\u0440."
+            ]
+          }
+        },
+        "por": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "A OMS est\u00e1 coletando mais evid\u00eancias para poder fazer recomenda\u00e7\u00f5es claras sobre o uso do ibuprofeno no contexto do COVID-19."
+            ]
+          }
+        },
+        "mkd": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "\u0421\u0417\u041e \u0441\u043e\u0431\u0438\u0440\u0430 \u043f\u043e\u0432\u0435\u045c\u0435 \u0434\u043e\u043a\u0430\u0437\u0438 \u0437\u0430 \u0434\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0434\u0430\u0434\u0435 \u0458\u0430\u0441\u043d\u0438 \u043f\u0440\u0435\u043f\u043e\u0440\u0430\u043a\u0438 \u043e\u043a\u043e\u043b\u0443 \u0443\u043f\u043e\u0442\u0440\u0435\u0431\u0430 \u043d\u0430 \u0438\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d \u0432\u043e \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          }
+        },
+        "tur": {
+          "cf1dd259-118f-42ff-b6c2-bac71fdcd304": {
+            "text": [
+              "DS\u00d6, KOV\u0130D-19 kapsam\u0131nda ibuprofren kullan\u0131m\u0131 hakk\u0131nda daha net \u00f6nerilerde bulunmak i\u00e7in daha fazla kan\u0131t toplamaktad\u0131r."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 13
+      },
+      "name": "Ibuprofen",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "WHO is collecting more evidence to be able to make clear recommendations on use of ibuprofen in the context of COVID-19.",
+              "type": "send_msg",
+              "uuid": "cf1dd259-118f-42ff-b6c2-bac71fdcd304"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "97c0669a-df63-430e-a1b7-7bb115ef043c"
+            }
+          ],
+          "uuid": "81f59630-f1f5-426c-af5b-9fec36de033a"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "49fce05f-c206-4409-b3a1-f74029d29157",
+      "revision": 14
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

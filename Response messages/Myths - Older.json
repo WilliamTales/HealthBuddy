@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Myths - Older",
+      "uuid": "3d983e41-44a1-4747-9006-e84c5ef70de1",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "21b2fb3c-9531-4338-9f95-d9236bd35cdc": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 31,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 29
+      },
+      "localization": {
+        "por": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "Pessoas de todas as idades podem ser infectadas pelo novo coronav\u00edrus. As evid\u00eancias sugerem que a maioria das pessoas mais jovens experimenta uma doen\u00e7a leve."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "Pessoas idosas e pessoas com condi\u00e7\u00f5es m\u00e9dicas pr\u00e9-existentes (como asma, diabetes, hipertens\u00e3o, doen\u00e7as card\u00edacas) parecem ser mais vulner\u00e1veis \u200b\u200ba ficar gravemente doentes com o v\u00edrus."
+            ]
+          }
+        },
+        "rus": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "\u041b\u044e\u0434\u0438 \u0432\u0441\u0435\u0445 \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043e\u0432 \u043c\u043e\u0433\u0443\u0442 \u0437\u0430\u0440\u0430\u0437\u0438\u0442\u044c\u0441\u044f \u043d\u043e\u0432\u044b\u043c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043e\u043c. \n\n\u0414\u0430\u043d\u043d\u044b\u0435 \u0441\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0443\u044e\u0442 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u043c\u043e\u043b\u043e\u0434\u044b\u0445 \u043b\u044e\u0434\u0435\u0439 \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u044f\u0442 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435 \u0432 \u043b\u0435\u0433\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u0435."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "\u041f\u043e\u0436\u0438\u043b\u044b\u0435 \u043b\u044e\u0434\u0438 \u0438 \u043b\u044e\u0434\u0438, \u0431\u043e\u043b\u044c\u043d\u044b\u0435 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u043d\u044b\u043c\u0438 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f\u043c\u0438 (\u043d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u0430\u0441\u0442\u043c\u043e\u0439, \u0434\u0438\u0430\u0431\u0435\u0442\u043e\u043c, \u0431\u043e\u043b\u0435\u0437\u043d\u044c\u044e \u0441\u0435\u0440\u0434\u0446\u0430), \u043f\u043e\u0434\u0432\u0435\u0440\u0436\u0435\u043d\u044b \u043f\u043e\u0432\u044b\u0448\u0435\u043d\u043d\u043e\u043c\u0443 \u0440\u0438\u0441\u043a\u0443 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0444\u043e\u0440\u043c \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438."
+            ]
+          }
+        },
+        "spa": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "El nuevo coronavirus puede infectar a personas de todas las edades. La evidencia sugiere que la mayor\u00eda de las personas m\u00e1s j\u00f3venes experimentan una enfermedad leve."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "Las personas mayores y las personas con cuadros m\u00e9dicos preexistentes (como asma, diabetes, hipertensi\u00f3n, enfermedades card\u00edacas) parecen ser m\u00e1s vulnerables a enfermarse gravemente con el virus."
+            ]
+          }
+        },
+        "ell": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "\u038c\u03bb\u03b5\u03c2 \u03bf\u03b9 \u03b7\u03bb\u03b9\u03ba\u03af\u03b5\u03c2 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03ba\u03bf\u03bb\u03bb\u03ae\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc. \u03a4\u03b1 \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03b1\u03c0\u03bf\u03b4\u03b5\u03b9\u03ba\u03bd\u03cd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03bf\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03bf\u03b9 \u03bd\u03ad\u03bf\u03b9 \u03c0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03b6\u03bf\u03c5\u03bd \u03ae\u03c0\u03b9\u03b1 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "\u039f\u03b9 \u03b7\u03bb\u03b9\u03ba\u03b9\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03cc\u03c3\u03bf\u03b9 \u03ad\u03c7\u03bf\u03c5\u03bd \u03c0\u03c1\u03bf\u03cb\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03c3\u03b5\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 (\u03cc\u03c0\u03c9\u03c2 \u03ac\u03c3\u03b8\u03bc\u03b1, \u03b4\u03b9\u03b1\u03b2\u03ae\u03c4\u03b7\u03c2, \u03c5\u03c0\u03ad\u03c1\u03c4\u03b1\u03c3\u03b7, \u03ba\u03b1\u03c1\u03b4\u03b9\u03bf\u03c0\u03ac\u03b8\u03b5\u03b9\u03b5\u03c2) \u03c6\u03b1\u03af\u03bd\u03b5\u03c4\u03b1\u03b9 \u03cc\u03c4\u03b9 \u03ad\u03c7\u03bf\u03c5\u03bd \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b5\u03c5\u03b1\u03b9\u03c3\u03b8\u03b7\u03c3\u03af\u03b1 \u03bd\u03b1 \u03b1\u03c1\u03c1\u03c9\u03c3\u03c4\u03ae\u03c3\u03bf\u03c5\u03bd \u03b2\u03b1\u03c1\u03b9\u03ac \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03b9\u03cc."
+            ]
+          }
+        },
+        "ita": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "Le persone di tutte le et\u00e0 possono essere contagiate dal nuovo coronavirus. L\u2019evidenza scientifica mostra che la maggior parte dei giovani sviluppa una forma lieve della malattia."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "Le persone anziane e le persone con condizioni mediche preesistenti (come l'asma, il diabete, l'ipertensione, le malattie cardiache) sembrano essere pi\u00f9 vulnerabili a contrarre una formal grave della malattia."
+            ]
+          }
+        },
+        "kaz": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "\u0416\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0431\u0430\u0440\u043b\u044b\u049b \u0436\u0430\u0441\u0442\u0430\u0493\u044b \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u0436\u04b1\u0493\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d. \u0414\u04d9\u043b\u0435\u043b\u0434\u0435\u043c\u0435\u043b\u0435\u0440 \u0436\u0430\u0441\u0442\u0430\u0440\u0434\u044b\u04a3 \u0430\u0443\u0440\u0443\u044b \u043a\u04e9\u0431\u0456\u043d\u0435 \u0436\u0435\u04a3\u0456\u043b \u0442\u04af\u0440\u0434\u0435 \u04e9\u0442\u0435\u0442\u0456\u043d\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0434\u0456."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "\u049a\u0430\u0440\u0442 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u043c\u0435\u043d \u0431\u04b1\u0440\u044b\u043d\u043d\u0430\u043d \u0442\u04af\u0440\u043b\u0456 \u0430\u0443\u0440\u0430\u043b\u0430\u0440\u044b \u0431\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b\u04a3 (\u043c\u044b\u0441\u0430\u043b\u044b, \u0430\u0441\u0442\u043c\u0430, \u049b\u0430\u043d\u0442 \u0434\u0438\u0430\u0431\u0435\u0442\u0456, \u0433\u0438\u043f\u0435\u0440\u0442\u043e\u043d\u0438\u044f, \u0436\u04af\u0440\u0435\u043a \u0430\u0443\u0440\u0443\u044b) \u049b\u0430\u0442\u0442\u044b \u0430\u0443\u044b\u0440\u044b\u043f \u049b\u0430\u043b\u0443 \u049b\u0430\u0443\u043f\u0456 \u0431\u0430\u0440 \u0441\u0438\u044f\u049b\u0442\u044b."
+            ]
+          }
+        },
+        "mkd": {
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "\u041b\u0438\u0446\u0430 \u043e\u0434 \u0441\u0438\u0442\u0435 \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0437\u0430\u0440\u0430\u0437\u0430\u0442 \u0441\u043e \u043d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441. \u0414\u043e\u043a\u0430\u0437\u0438\u0442\u0435 \u0441\u0443\u0433\u0435\u0440\u0438\u0440\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u043f\u043e\u0432\u0435\u045c\u0435\u0442\u043e \u043f\u043e\u043c\u043b\u0430\u0434\u0438 \u043b\u0443\u0453\u0435 \u043c\u0438\u043d\u0443\u0432\u0430\u0430\u0442 \u043d\u0438\u0437 \u0431\u043b\u0430\u0433\u0430 \u0431\u043e\u043b\u0435\u0441\u0442."
+            ]
+          },
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "\u0421\u0435 \u0447\u0438\u043d\u0438 \u0434\u0435\u043a\u0430 \u043f\u043e\u0441\u0442\u0430\u0440\u0438\u0442\u0435 \u043b\u0438\u0446\u0430 \u0438 \u043b\u0438\u0446\u0430\u0442\u0430 \u0441\u043e \u043f\u0440\u0435\u0442\u0445\u043e\u0434\u043d\u043e \u043f\u043e\u0441\u0442\u043e\u0435\u0447\u043a\u0438 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438 \u0441\u043e\u0441\u0442\u043e\u0458\u0431\u0438 (\u043a\u0430\u043a\u043e \u0430\u0441\u0442\u043c\u0430, \u0434\u0438\u0458\u0430\u0431\u0435\u0442\u0435\u0441, \u0445\u0438\u043f\u0435\u0440\u0442\u0435\u043d\u0437\u0438\u0458\u0430, \u0441\u0440\u0446\u0435\u0432\u0438 \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0430) \u0441\u0435 \u043f\u043e\u0434\u043b\u043e\u0436\u043d\u0438 \u043d\u0430 \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u043e \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0435 \u043e\u0434 \u0432\u0438\u0440\u0443\u0441\u043e\u0442."
+            ]
+          }
+        },
+        "tur": {
+          "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52": {
+            "text": [
+              "\u0130leri ya\u015ftaki insanlar ve daha \u00f6nceden var olan hastal\u0131klara (ast\u0131m, diyabet, hipertansiyon, kalp hastal\u0131\u011f\u0131 gibi) sahip olanlar vir\u00fcsle daha ciddi bir hastal\u0131\u011fa yakalanmaya daha savunmas\u0131z g\u00f6r\u00fcnmektedirler.  "
+            ]
+          },
+          "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd": {
+            "text": [
+              "Her ya\u015ftaki insana yeni koronavir\u00fcs bula\u015fabilir. Mevcut kan\u0131tlar, gen\u00e7lerin \u00e7o\u011funun daha hafif hastal\u0131k ge\u00e7irdi\u011fini g\u00f6stermektedir. "
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "21b2fb3c-9531-4338-9f95-d9236bd35cdc",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "People of all ages can get infected by the new coronavirus. Evidence suggests that younger people experience a mild form of the disease.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "0b5d3d07-b2e9-4dbe-a0cd-c61e77e898fd"
+            },
+            {
+              "attachments": [],
+              "text": "Older people, and people with pre-existing medical conditions (such as asthma, diabetes, hypertension, heart disease) appear to be more vulnerable to becoming severely ill with the virus.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "b6ec4e8c-d434-4e27-8a3b-6c755e2c5f52"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "399c5105-ba96-4126-8045-5131b200c5f3",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

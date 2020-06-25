@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "96cd1b42-04ba-406b-ba1d-906642b0cd1a": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "Seg\u00fan la informaci\u00f3n disponible, el COVID-19 es m\u00e1s agresivo que una gripe com\u00fan. La tasa de letalidad se desconoce por el momento, pero se cree que pueda ser elevada."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "La vacuna en determinados grupos es la mejor medida de protecci\u00f3n contra la gripe com\u00fan, pero el COVID-19 es un nuevo virus y no hay ni vacuna ni tratamiento."
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "Como resultado, hay un \u00edndice elevado de enfermos graves y de muertes. Esta es la raz\u00f3n por la que hay que tom\u00e1rselo en serio."
+            ]
+          }
+        },
+        "ell": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "\u039c\u03b5 \u03b2\u03ac\u03c3\u03b7 \u03c4\u03b1 \u03c4\u03c9\u03c1\u03b9\u03bd\u03ac \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1, \u03bf \u03c1\u03c5\u03b8\u03bc\u03cc\u03c2 \u03c0\u03c1\u03bf\u03c3\u03b2\u03bf\u03bb\u03ae\u03c2 \u03c4\u03b7\u03c2 \u03af\u03c9\u03c3\u03b7\u03c2 COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf\u03c2 \u03b1\u03c0\u03cc \u03b1\u03c5\u03c4\u03cc\u03bd \u03c4\u03b7\u03c2 \u03b5\u03c0\u03bf\u03c7\u03b9\u03ba\u03ae\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2. \u0397 \u03b8\u03bd\u03b7\u03c4\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c0\u03c1\u03bf\u03c2 \u03c4\u03bf \u03c0\u03b1\u03c1\u03cc\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03ac\u03b3\u03bd\u03c9\u03c3\u03c4\u03b7, \u03b1\u03bb\u03bb\u03ac \u03b5\u03bd\u03b4\u03ad\u03c7\u03b5\u03c4\u03b1\u03b9 \u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03c4\u03b7\u03bd \u03b5\u03c0\u03bf\u03c7\u03b9\u03ba\u03ae \u03b3\u03c1\u03af\u03c0\u03b7, \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b1\u03c3\u03c6\u03b1\u03bb\u03ad\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03bf\u03c4\u03b5\u03bb\u03b5\u03c3\u03bc\u03b1\u03c4\u03b9\u03ba\u03cc \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03c0\u03bf\u03c5 \u03c4\u03bf \u03c7\u03c1\u03b5\u03b9\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9. \u0393\u03b9\u03b1 \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03bf\u03cd\u03c4\u03b5 \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf \u03bf\u03cd\u03c4\u03b5 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1. "
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "\u03a3\u03c5\u03bd\u03b5\u03c0\u03ce\u03c2, \u03c4\u03b1 \u03c0\u03bf\u03c3\u03bf\u03c3\u03c4\u03ac \u03c3\u03bf\u03b2\u03b1\u03c1\u03ac \u03b1\u03c3\u03b8\u03b5\u03bd\u03ce\u03bd \u03ba\u03b1\u03b9 \u03b8\u03b1\u03bd\u03ac\u03c4\u03c9\u03bd \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b1. \u0393\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc \u03ba\u03b1\u03b9 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c4\u03bf\u03bd \u03c0\u03ac\u03c1\u03bf\u03c5\u03bc\u03b5 \u03c0\u03bf\u03bb\u03cd \u03c3\u03bf\u03b2\u03b1\u03c1\u03ac."
+            ]
+          }
+        },
+        "rus": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "\u0418\u043c\u0435\u044e\u0449\u0438\u0435\u0441\u044f \u043d\u0430 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0438\u0439 \u0434\u0435\u043d\u044c \u0434\u0430\u043d\u043d\u044b\u0435 \u0433\u043e\u0432\u043e\u0440\u044f\u0442 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0432\u0438\u0440\u0443\u0441\u043e\u043c COVID-19 \u0432\u044b\u0448\u0435, \u0447\u0435\u043c \u0443 \u0441\u0435\u0437\u043e\u043d\u043d\u043e\u0433\u043e \u0433\u0440\u0438\u043f\u043f\u0430. \u0423\u0440\u043e\u0432\u0435\u043d\u044c \u0441\u043c\u0435\u0440\u0442\u043d\u043e\u0441\u0442\u0438 \u043e\u0442 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438 \u0432 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d, \u043d\u043e \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0432\u044b\u0441\u043e\u043a\u0438\u043c."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "\u0417\u0430\u0449\u0438\u0442\u0430 \u043e\u0442 \u0441\u0435\u0437\u043e\u043d\u043d\u043e\u0433\u043e \u0433\u0440\u0438\u043f\u043f\u0430 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u0430 \u0432 \u0432\u0438\u0434\u0435 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0439 \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0439 \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0434\u043b\u044f \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0433\u0440\u0443\u043f\u043f. \u041d\u043e COVID-19 - \u044d\u0442\u043e \u043d\u043e\u0432\u044b\u0439 \u0432\u0438\u0440\u0443\u0441, \u0438 \u043e\u0442 \u043d\u0435\u0433\u043e \u043d\u0435\u0442 \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438\u043b\u0438 \u043b\u0435\u0447\u0435\u043d\u0438\u044f."
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "\u0412 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0435 \u043d\u0430\u0431\u043b\u044e\u0434\u0430\u0435\u0442\u0441\u044f \u0431\u043e\u043b\u044c\u0448\u0435\u0435 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043b\u044e\u0434\u0435\u0439, \u0442\u044f\u0436\u0435\u043b\u043e \u043f\u0435\u0440\u0435\u043d\u043e\u0441\u044f\u0449\u0438\u0445 \u0431\u043e\u043b\u0435\u0437\u043d\u044c, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043b\u044c\u0448\u0435\u0435 \u0447\u0438\u0441\u043b\u043e \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u0435\u0432. \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u043c\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u044c\u0441\u044f \u043a \u0434\u0430\u043d\u043d\u043e\u043c\u0443 \u0432\u0438\u0440\u0443\u0441\u0443 \u043e\u0447\u0435\u043d\u044c \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u043e."
+            ]
+          }
+        },
+        "ita": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "I dati disponibili finora indicano che il numero di casi della COVID-19 \u00e8 pi\u00f9 alto di quello dell\u2019influenza stagionale. Attualmente, il tasso di fatalit\u00e0 causato dall\u2019infezione \u00e8 sconosciuto al momento, ma potrebbe essere pi\u00f9 alto dell\u2019influenza. "
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "Attualmente esiste un vaccino per l\u2019influenza stagionale, efficace e sicuro, disponibile per quei gruppi di popolazione maggiormente a rischio. Tuttavia, COVID-19 \u00e8 causato da un nuovo virus, per cui non vi sono n\u00e9 vaccini, n\u00e9 cure. "
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "Di conseguenza, vi \u00e8 un tasso pi\u00f9 alto di persone gravemente malate e di decessi. Ecco perch\u00e9 il virus va preso molto seriamente."
+            ]
+          }
+        },
+        "kaz": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "\u04d8\u0437\u0456\u0440\u0433\u0435 \u049b\u043e\u043b \u0436\u0435\u0442\u0456\u043c\u0434\u0456 \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440 COVID-19 \u0432\u0438\u0440\u0443\u0441\u044b\u043d\u044b\u04a3 \u043c\u0430\u0443\u0441\u044b\u043c\u0434\u044b\u049b \u0442\u04b1\u043c\u0430\u0443\u0493\u0430 \u049b\u0430\u0440\u0430\u0493\u0430\u043d\u0434\u0430\u0493\u044b \u0448\u0430\u0431\u0443\u044b\u043b \u0434\u0435\u04a3\u0433\u0435\u0439\u0456 \u0436\u043e\u0493\u0430\u0440\u044b \u0435\u043a\u0435\u043d\u0434\u0456\u0433\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0434\u0456. \u0418\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u043d\u044b\u04a3 \u04e9\u043b\u0456\u043c \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u0456 \u0434\u04d9\u043b \u049b\u0430\u0437\u0456\u0440 \u0431\u0435\u043b\u0433\u0456\u0441\u0456\u0437, \u0431\u0456\u0440\u0430\u049b \u043e\u0434\u0430\u043d \u0436\u043e\u0493\u0430\u0440\u044b \u0431\u043e\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "\u041c\u0430\u0443\u0441\u044b\u043c\u0434\u044b\u049b \u0442\u04b1\u043c\u0430\u0443\u0434\u0430\u043d \u049b\u043e\u0440\u0493\u0430\u043d\u0443\u0493\u0430 \u0436\u0430\u0440\u0430\u043c\u0434\u044b \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0436\u04d9\u043d\u0435 \u0442\u0438\u0456\u043c\u0434\u0456 \u0432\u0430\u043a\u0446\u0438\u043d\u0430\u043b\u0430\u0440 \u0431\u0430\u0440. \u0411\u0456\u0440\u0430\u049b COVID-19 - \u0431\u04b1\u043b \u0436\u0430\u04a3\u0430 \u0432\u0438\u0440\u0443\u0441 \u0436\u04d9\u043d\u0435 \u043e\u0493\u0430\u043d \u049b\u0430\u0440\u0441\u044b \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 \u0435\u043c\u0434\u0435\u0443 \u0436\u043e\u049b."
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "\u041d\u04d9\u0442\u0438\u0436\u0435\u0441\u0456\u043d\u0434\u0435 \u0430\u0443\u044b\u0440 \u043d\u0430\u0443\u049b\u0430\u0441\u0442\u0430\u0440 \u043c\u0435\u043d \u04e9\u043b\u0456\u043c-\u0436\u0456\u0442\u0456\u043c\u043d\u0456\u04a3 \u043a\u04e9\u0431\u0435\u044e\u0456 \u0431\u0430\u0439\u049b\u0430\u043b\u0430\u0434\u044b. \u0421\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u0431\u0456\u0437 \u0431\u04b1\u0493\u0430\u043d \u04e9\u0442\u0435 \u0431\u0430\u0439\u044b\u043f\u0442\u044b \u049b\u0430\u0440\u0430\u0443\u044b\u043c\u044b\u0437 \u043a\u0435\u0440\u0435\u043a."
+            ]
+          }
+        },
+        "por": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "Os dados dispon\u00edveis at\u00e9 o momento sugerem que a taxa de ataque do v\u00edrus COVID-19 \u00e9 maior que a influenza sazonal. A taxa de fatalidade devido a infec\u00e7\u00e3o \u00e9 desconhecida no momento, mas pode ser maior."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "A prote\u00e7\u00e3o contra o influenza sazonal est\u00e1 dispon\u00edvel,  em uma vacina segura e eficaz para grupos eleg\u00edveis. Mas o COVID-19 \u00e9 um v\u00edrus novo e n\u00e3o existe vacina ou tratamento para ele."
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "Como resultado, h\u00e1 uma taxa mais alta de pessoas gravemente doentes e mortes. \u00c9 por isso que precisamos levar isso muito a s\u00e9rio."
+            ]
+          }
+        },
+        "mkd": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "\u0414\u043e\u0441\u0435\u0433\u0430 \u0434\u043e\u0441\u0442\u0430\u043f\u043d\u0438\u0442\u0435 \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438 \u0441\u0443\u0433\u0435\u0440\u0438\u0440\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u0441\u0442\u0430\u043f\u043a\u0430\u0442\u0430 \u043d\u0430 \u0437\u0430\u0431\u043e\u043b\u0435\u043d\u0438 \u0441\u043e \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u041a\u041e\u0412\u0418\u0414-19 \u0435 \u043f\u043e\u0432\u0438\u0441\u043e\u043a\u0430 \u043e\u0434 \u0441\u0435\u0437\u043e\u043d\u0441\u043a\u0438\u043e\u0442 \u0433\u0440\u0438\u043f. \u0421\u0442\u0430\u043f\u043a\u0430\u0442\u0430 \u043d\u0430 \u0441\u043c\u0440\u0442\u043d\u043e\u0441\u0442 \u043e\u0434 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430\u0442\u0430 \u0432\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432 \u0435 \u043d\u0435\u043f\u043e\u0437\u043d\u0430\u0442\u0430, \u043d\u043e \u043c\u043e\u0436\u0435 \u0434\u0430 \u0431\u0438\u0434\u0435 \u043f\u043e\u0432\u0438\u0441\u043e\u043a\u0430."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "\u0417\u0430\u0448\u0442\u0438\u0442\u0430 \u043e\u0434 \u0441\u0435\u0437\u043e\u043d\u0441\u043a\u0438 \u0433\u0440\u0438\u043f \u0435 \u0434\u043e\u0441\u0442\u0430\u043f\u043d\u0430 \u0441\u043e \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u0430 \u0438 \u0434\u0435\u043b\u043e\u0442\u0432\u043e\u0440\u043d\u0430 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0437\u0430 \u043f\u043e\u0434\u043e\u0431\u043d\u0438\u0442\u0435 \u0433\u0440\u0443\u043f\u0438. \u041d\u043e, \u041a\u041e\u0412\u0418\u0414-19 \u0435 \u043d\u043e\u0432 \u0432\u0438\u0440\u0443\u0441 \u0438 \u0437\u0430 \u043d\u0435\u0433\u043e \u043d\u0435\u043c\u0430 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0438\u043b\u0438 \u0442\u0440\u0435\u0442\u043c\u0430\u043d."
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "\u041f\u043e\u0440\u0430\u0434\u0438 \u0442\u043e\u0430, \u043f\u043e\u0441\u0442\u043e\u0438 \u043f\u043e\u0433\u043e\u043b\u0435\u043c\u0430 \u0441\u0442\u0430\u043f\u043a\u0430 \u043d\u0430 \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u043e \u0437\u0430\u0431\u043e\u043b\u0435\u043d\u0438 \u043b\u0438\u0446\u0430 \u0438 \u043d\u0430 \u0441\u043c\u0440\u0442\u043d\u0438 \u0441\u043b\u0443\u0447\u0430\u0438. \u0417\u0430\u0442\u043e\u0430 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0433\u043e \u0441\u0444\u0430\u0442\u0438\u043c\u0435 \u043c\u043d\u043e\u0433\u0443 \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u043e."
+            ]
+          }
+        },
+        "tur": {
+          "1099c2e0-b41b-4d60-b85f-3b04c156c19e": {
+            "text": [
+              "Elde edilen mevcut veriler KOV\u0130D-19 vir\u00fcs\u00fc vaka say\u0131lar\u0131n\u0131n mevsimlik influenzadan daha y\u00fcksek oldu\u011funu g\u00f6stermektedir."
+            ]
+          },
+          "831f1213-1230-47a9-981c-301a6d44e973": {
+            "text": [
+              "Mevsimlik enfluenzaya kar\u015f\u0131 koruma uygun gruplar i\u00e7in g\u00fcvenli ve etkili bir a\u015f\u0131 i\u00e7erisinde mevcuttur. Ancak, KOV\u0130D-19 yeni bir vir\u00fcst\u00fcr ve bu hastal\u0131k i\u00e7in bir a\u015f\u0131 ya da tedavi mevcut de\u011fildir. "
+            ]
+          },
+          "169c7789-b9f9-455d-ad02-b628b62f76aa": {
+            "text": [
+              "Sonu\u00e7 itibariyla, ciddi bi\u00e7imde hasta olan insan ve \u00f6l\u00fcm oran\u0131 daha y\u00fcksektir. Bu nedenle bu konuyu ger\u00e7ekten \u00e7ok ciddiye almam\u0131z gerekmektedir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 42
+      },
+      "name": "Dangerous",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "c3a75244-4016-4a71-adf9-4887acaeeb2c",
+      "revision": 43,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Data available so far suggest the attack rate of the COVID-19 virus is higher than seasonal influenza. The infection fatality ratio is right now unknown but may be higher.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "1099c2e0-b41b-4d60-b85f-3b04c156c19e"
+            },
+            {
+              "attachments": [],
+              "text": "Protection against seasonal influenza is available in a safe and effective vaccine for eligible groups. But COVID-19 is a new virus and there is no vaccine or treatment for it.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "831f1213-1230-47a9-981c-301a6d44e973"
+            },
+            {
+              "attachments": [],
+              "text": "As a result, there is a higher rate of seriously ill people and deaths. This is why we need to take it very seriously.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "169c7789-b9f9-455d-ad02-b628b62f76aa"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "8c9bbee4-9f52-4ba1-afec-8fdbd8edb826"
+            }
+          ],
+          "uuid": "96cd1b42-04ba-406b-ba1d-906642b0cd1a"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

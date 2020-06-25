@@ -1,0 +1,1319 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "93fa8108-ccd3-4dfd-b542-282d49676c01": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 460,
+              "top": 20
+            },
+            "type": "split_by_expression"
+          },
+          "369358de-7890-4dc3-87df-9bf105c0b413": {
+            "config": {},
+            "position": {
+              "left": 240,
+              "top": 80
+            },
+            "type": "split_by_subflow"
+          },
+          "9ecb6bb6-6c77-4d12-8a28-119ddd3c9eb4": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 200
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "541a527c-8ec0-431d-b459-08f61f53eb34": {
+            "config": {},
+            "position": {
+              "left": 240,
+              "top": 260
+            },
+            "type": "split_by_subflow"
+          },
+          "de64acf3-130a-472e-b3d4-7ae00dd95a1b": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 380
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "c422ff95-0847-4970-9e4c-0c8533702b30": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 460,
+              "top": 520
+            },
+            "type": "split_by_expression"
+          },
+          "37244caa-80d1-41bc-9583-d4657573786a": {
+            "config": {},
+            "position": {
+              "left": 240,
+              "top": 580
+            },
+            "type": "split_by_subflow"
+          },
+          "b6e4823d-b5e0-4c0b-819f-63064e767903": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 700
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "85cc5ad2-556e-4add-bf74-f063c56dc393": {
+            "config": {},
+            "position": {
+              "left": 240,
+              "top": 760
+            },
+            "type": "split_by_subflow"
+          },
+          "120a253a-68ea-44ff-abd8-ad1297082b81": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 900
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "22aa62d4-9556-4b4e-9363-7a4c70fb087e": {
+            "config": {},
+            "position": {
+              "left": 240,
+              "top": 960
+            },
+            "type": "split_by_subflow"
+          },
+          "6a23aa07-7a6c-49b2-a485-331775439948": {
+            "config": {},
+            "position": {
+              "left": 460,
+              "top": 1100
+            },
+            "type": "split_by_subflow"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "rus": {
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "\u0420\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              ""
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u044b"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u044b"
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 "
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "\u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 \u043f\u0438\u0442\u043e\u043c\u0446\u044b"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "\u041a\u043e\u043c\u0430\u0440\u044b "
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u044b"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u044b"
+            ]
+          }
+        },
+        "ell": {
+          "559aad33-6189-4afc-90a6-b375b3333cf1": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "3b59bb53-a476-4d13-9c2d-178d750be16e": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "1fd927c8-2020-409c-959e-cac511a0ea9b": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "4eef1bd6-181b-4c34-aa29-b1eb9d178f96": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "acd02cd3-8538-41df-ba03-989a3dac6f36": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "972709fa-e736-49ab-a40d-4ac90838f48a": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "\u03b5\u03be\u03ac\u03c0\u03bb\u03c9\u03c3\u03b7"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              ""
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "\u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "\u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1"
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "\u03b8\u03b5\u03c1\u03bc\u03bf\u03ba\u03c1\u03b1\u03c3\u03af\u03b1"
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "\u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "\u03ba\u03bf\u03c5\u03bd\u03bf\u03cd\u03c0\u03b9\u03b1"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "\u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "\u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1"
+            ]
+          }
+        },
+        "spa": {
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "Propagaci\u00f3n"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              ""
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "billetes de banco"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "Temperatura"
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "mascotas"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "Mosquitos Mosquito"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "billetes de banco"
+            ]
+          },
+          "1fd927c8-2020-409c-959e-cac511a0ea9b": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "3b59bb53-a476-4d13-9c2d-178d750be16e": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "4eef1bd6-181b-4c34-aa29-b1eb9d178f96": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "972709fa-e736-49ab-a40d-4ac90838f48a": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "acd02cd3-8538-41df-ba03-989a3dac6f36": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "billetes de banco"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "billetes de banco"
+            ]
+          }
+        },
+        "mkd": {
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "\u0421\u0435 \u0448\u0438\u0440\u0438"
+            ]
+          },
+          "559aad33-6189-4afc-90a6-b375b3333cf1": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              ""
+            ]
+          },
+          "3b59bb53-a476-4d13-9c2d-178d750be16e": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "4eef1bd6-181b-4c34-aa29-b1eb9d178f96": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "1fd927c8-2020-409c-959e-cac511a0ea9b": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "972709fa-e736-49ab-a40d-4ac90838f48a": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "\u041a\u043e\u043c\u0430\u0440\u0446\u0438"
+            ]
+          },
+          "acd02cd3-8538-41df-ba03-989a3dac6f36": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "\u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430"
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "\u043a\u043d\u0438\u0436\u043d\u0438 \u043f\u0430\u0440\u0438"
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "\u043a\u043d\u0438\u0436\u043d\u0438 \u043f\u0430\u0440\u0438"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "\u043a\u043d\u0438\u0436\u043d\u0438 \u043f\u0430\u0440\u0438"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "\u043a\u043d\u0438\u0436\u043d\u0438 \u043f\u0430\u0440\u0438"
+            ]
+          }
+        },
+        "kaz": {
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "\u0422\u0430\u0440\u0430\u043b\u0443"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              ""
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0442\u0430\u0440"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0442\u0430\u0440"
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430"
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "\u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "\u041c\u0430\u0441\u0430\u043b\u0430\u0440"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0442\u0430\u0440"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "\u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0442\u0430\u0440"
+            ]
+          }
+        },
+        "ita": {
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              "Diffusione"
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "banconote"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1e6dd862-e617-4990-be27-33678865e938": {
+            "name": [
+              "banconote"
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "temperatura"
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              ""
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              " animali domestici"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "zanzare"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "banconote"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "banconote"
+            ]
+          }
+        },
+        "por": {
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "dinheiro cedula c\u00e9dula"
+            ]
+          }
+        },
+        "tur": {
+          "559aad33-6189-4afc-90a6-b375b3333cf1": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "4eef1bd6-181b-4c34-aa29-b1eb9d178f96": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "3b59bb53-a476-4d13-9c2d-178d750be16e": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "972709fa-e736-49ab-a40d-4ac90838f48a": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "acd02cd3-8538-41df-ba03-989a3dac6f36": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b": {
+            "name": [
+              "Yay\u0131l\u0131m"
+            ]
+          },
+          "f210b63c-a361-4ce0-8bde-02ae5e572055": {
+            "arguments": [
+              "Yay\u0131l\u0131m"
+            ]
+          },
+          "880ac850-497f-421f-a7e7-3224ec3febc9": {
+            "name": [
+              "Banknotlar"
+            ]
+          },
+          "a64c72d6-215c-4fa1-bb89-cd3e12ee982e": {
+            "arguments": [
+              "Banknotlar"
+            ]
+          },
+          "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9": {
+            "name": [
+              "Banknotlar"
+            ]
+          },
+          "51614a7c-32ad-4ab7-b342-3ecdd29771d3": {
+            "arguments": [
+              "Banknotlar"
+            ]
+          },
+          "3631beb5-df0e-4c3a-924b-3817e925bb43": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "9567f43b-9c9c-45e2-abc2-1cfaea53b644": {
+            "name": [
+              "V\u00fccut \u0131s\u0131s\u0131 "
+            ]
+          },
+          "e37a0484-1b2b-41c4-990d-9527f6714132": {
+            "arguments": [
+              "V\u00fccut \u0131s\u0131s\u0131 "
+            ]
+          },
+          "b4b94d0b-c7dd-421a-a252-e91615735ff5": {
+            "name": [
+              "Evcil hayvanlar"
+            ]
+          },
+          "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb": {
+            "arguments": [
+              "Evcil hayvanlar"
+            ]
+          },
+          "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da": {
+            "name": [
+              "Sivrisinekler"
+            ]
+          },
+          "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88": {
+            "arguments": [
+              "Sivrisinekler Sivrisinek"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 114
+      },
+      "name": "Transmission",
+      "nodes": [
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "369358de-7890-4dc3-87df-9bf105c0b413",
+              "uuid": "e75cdf93-b365-47a7-84a4-28cb6a064121"
+            },
+            {
+              "destination_uuid": "9ecb6bb6-6c77-4d12-8a28-119ddd3c9eb4",
+              "uuid": "961235f6-b79d-4376-8123-f1e59a59a7ba"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "spread"
+                ],
+                "category_uuid": "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b",
+                "type": "has_any_word",
+                "uuid": "f210b63c-a361-4ce0-8bde-02ae5e572055"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "e75cdf93-b365-47a7-84a4-28cb6a064121",
+                "name": "Spread",
+                "uuid": "3bfb7fc3-fc1d-42cc-b65f-b00461748a9b"
+              },
+              {
+                "exit_uuid": "961235f6-b79d-4376-8123-f1e59a59a7ba",
+                "name": "Other",
+                "uuid": "559aad33-6189-4afc-90a6-b375b3333cf1"
+              }
+            ],
+            "default_category_uuid": "559aad33-6189-4afc-90a6-b375b3333cf1",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "93fa8108-ccd3-4dfd-b542-282d49676c01"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Spread",
+                "uuid": "2dd941e9-125f-443c-af27-a2d559142547"
+              },
+              "type": "enter_flow",
+              "uuid": "300a02b4-c25e-4721-a009-aa1f22b595d5"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "5268f931-ef93-44e2-8465-312452ed4042"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "4fc8751d-7f8d-4726-ace1-3052ed430537"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "04260d8f-b95e-430c-8fd3-4f39586a2744",
+                "type": "has_only_text",
+                "uuid": "4435830e-0931-41eb-a0a3-a0e0f84dea78"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "6ba7ec65-5383-4b00-8d6a-c43708fb3412",
+                "type": "has_only_text",
+                "uuid": "fa8771f8-3708-4245-ba8f-5311928c2b87"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "5268f931-ef93-44e2-8465-312452ed4042",
+                "name": "Complete",
+                "uuid": "04260d8f-b95e-430c-8fd3-4f39586a2744"
+              },
+              {
+                "exit_uuid": "4fc8751d-7f8d-4726-ace1-3052ed430537",
+                "name": "Expired",
+                "uuid": "6ba7ec65-5383-4b00-8d6a-c43708fb3412"
+              }
+            ],
+            "default_category_uuid": "6ba7ec65-5383-4b00-8d6a-c43708fb3412",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "369358de-7890-4dc3-87df-9bf105c0b413"
+        },
+        {
+          "uuid": "9ecb6bb6-6c77-4d12-8a28-119ddd3c9eb4",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "3b59bb53-a476-4d13-9c2d-178d750be16e",
+            "categories": [
+              {
+                "exit_uuid": "e5a855b5-61da-4985-9889-d8be0f005c4f",
+                "name": "Banknotes",
+                "uuid": "880ac850-497f-421f-a7e7-3224ec3febc9"
+              },
+              {
+                "exit_uuid": "920ab817-5ad5-46d4-b508-acaad7be5f33",
+                "name": "Other",
+                "uuid": "3b59bb53-a476-4d13-9c2d-178d750be16e"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "banknotes"
+                ],
+                "type": "has_any_word",
+                "uuid": "a64c72d6-215c-4fa1-bb89-cd3e12ee982e",
+                "category_uuid": "880ac850-497f-421f-a7e7-3224ec3febc9"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "541a527c-8ec0-431d-b459-08f61f53eb34",
+              "uuid": "e5a855b5-61da-4985-9889-d8be0f005c4f"
+            },
+            {
+              "destination_uuid": "de64acf3-130a-472e-b3d4-7ae00dd95a1b",
+              "uuid": "920ab817-5ad5-46d4-b508-acaad7be5f33"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths - bank notes",
+                "uuid": "d47dcf49-3bb8-4e71-affb-63ee75526d0a"
+              },
+              "type": "enter_flow",
+              "uuid": "091422fa-f102-458a-918b-176d6cdd1d0b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "200b8ccf-8e7e-4606-a659-4a0042faa3fd"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "3bb2d289-8ec7-4456-89ff-8361735006bf"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "c5ac9bbf-801b-4495-a2e5-54eda9d12a0d",
+                "type": "has_only_text",
+                "uuid": "7a76e0c4-c7e0-40fe-bef6-ddf04873c044"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "a7d0b3d3-fb45-449a-80ed-fe36ea671b78",
+                "type": "has_only_text",
+                "uuid": "eecb142c-9741-4c74-a9d3-57456106f06d"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "200b8ccf-8e7e-4606-a659-4a0042faa3fd",
+                "name": "Complete",
+                "uuid": "c5ac9bbf-801b-4495-a2e5-54eda9d12a0d"
+              },
+              {
+                "exit_uuid": "3bb2d289-8ec7-4456-89ff-8361735006bf",
+                "name": "Expired",
+                "uuid": "a7d0b3d3-fb45-449a-80ed-fe36ea671b78"
+              }
+            ],
+            "default_category_uuid": "a7d0b3d3-fb45-449a-80ed-fe36ea671b78",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "541a527c-8ec0-431d-b459-08f61f53eb34"
+        },
+        {
+          "uuid": "de64acf3-130a-472e-b3d4-7ae00dd95a1b",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "3631beb5-df0e-4c3a-924b-3817e925bb43",
+            "categories": [
+              {
+                "uuid": "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9",
+                "name": "Banknotes",
+                "exit_uuid": "0b1df505-832d-4e83-9645-9749332d7a45"
+              },
+              {
+                "uuid": "3631beb5-df0e-4c3a-924b-3817e925bb43",
+                "name": "Other",
+                "exit_uuid": "cf2f8467-0bd9-48a9-a50e-671408bc7371"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "banknotes"
+                ],
+                "type": "has_any_word",
+                "uuid": "51614a7c-32ad-4ab7-b342-3ecdd29771d3",
+                "category_uuid": "8d4d3b09-b6d1-4eb2-8e0c-f1b3c39e79a9"
+              }
+            ],
+            "operand": "@fields.message"
+          },
+          "exits": [
+            {
+              "uuid": "0b1df505-832d-4e83-9645-9749332d7a45",
+              "destination_uuid": "541a527c-8ec0-431d-b459-08f61f53eb34"
+            },
+            {
+              "uuid": "cf2f8467-0bd9-48a9-a50e-671408bc7371",
+              "destination_uuid": "c422ff95-0847-4970-9e4c-0c8533702b30"
+            }
+          ]
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "37244caa-80d1-41bc-9583-d4657573786a",
+              "uuid": "eca1fa02-6942-4bea-8e9c-2fcdf041ec1a"
+            },
+            {
+              "destination_uuid": "b6e4823d-b5e0-4c0b-819f-63064e767903",
+              "uuid": "51ec7cfd-1e6c-4117-ae70-b613e0f08e0f"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "temperature"
+                ],
+                "category_uuid": "9567f43b-9c9c-45e2-abc2-1cfaea53b644",
+                "type": "has_any_word",
+                "uuid": "e37a0484-1b2b-41c4-990d-9527f6714132"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "eca1fa02-6942-4bea-8e9c-2fcdf041ec1a",
+                "name": "Temperature",
+                "uuid": "9567f43b-9c9c-45e2-abc2-1cfaea53b644"
+              },
+              {
+                "exit_uuid": "51ec7cfd-1e6c-4117-ae70-b613e0f08e0f",
+                "name": "Other",
+                "uuid": "4eef1bd6-181b-4c34-aa29-b1eb9d178f96"
+              }
+            ],
+            "default_category_uuid": "4eef1bd6-181b-4c34-aa29-b1eb9d178f96",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "c422ff95-0847-4970-9e4c-0c8533702b30"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Temperature",
+                "uuid": "15dadac9-cae9-494d-8341-b0295c68b6f1"
+              },
+              "type": "enter_flow",
+              "uuid": "9793460b-dea6-47d6-affa-7f7e37243d6b"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "f80f9b75-90fd-4df4-b029-6dd919ccd566"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "58bb3e18-e696-4298-908b-1116cc89f2af"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "1d5f8f81-391c-46ec-a120-4006774ae313",
+                "type": "has_only_text",
+                "uuid": "ec9bc501-6d17-46d2-934a-32fffc45337e"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "1e11c505-1b33-4198-9555-67c6f8c36558",
+                "type": "has_only_text",
+                "uuid": "dd57d9f5-3d05-495b-8543-ba0dc1c09c48"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "f80f9b75-90fd-4df4-b029-6dd919ccd566",
+                "name": "Complete",
+                "uuid": "1d5f8f81-391c-46ec-a120-4006774ae313"
+              },
+              {
+                "exit_uuid": "58bb3e18-e696-4298-908b-1116cc89f2af",
+                "name": "Expired",
+                "uuid": "1e11c505-1b33-4198-9555-67c6f8c36558"
+              }
+            ],
+            "default_category_uuid": "1e11c505-1b33-4198-9555-67c6f8c36558",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "37244caa-80d1-41bc-9583-d4657573786a"
+        },
+        {
+          "uuid": "b6e4823d-b5e0-4c0b-819f-63064e767903",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "972709fa-e736-49ab-a40d-4ac90838f48a",
+            "categories": [
+              {
+                "exit_uuid": "940f90c8-4b88-481e-a320-a0a9ad33fbb4",
+                "name": "Pets",
+                "uuid": "b4b94d0b-c7dd-421a-a252-e91615735ff5"
+              },
+              {
+                "exit_uuid": "2390b605-f1e6-4751-9b4d-6a539e2cee4d",
+                "name": "Other",
+                "uuid": "972709fa-e736-49ab-a40d-4ac90838f48a"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "pet"
+                ],
+                "type": "has_any_word",
+                "uuid": "c4f29db4-e005-4f7d-a9e5-54bf3f410ecb",
+                "category_uuid": "b4b94d0b-c7dd-421a-a252-e91615735ff5"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "85cc5ad2-556e-4add-bf74-f063c56dc393",
+              "uuid": "940f90c8-4b88-481e-a320-a0a9ad33fbb4"
+            },
+            {
+              "destination_uuid": "120a253a-68ea-44ff-abd8-ad1297082b81",
+              "uuid": "2390b605-f1e6-4751-9b4d-6a539e2cee4d"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths - Pets",
+                "uuid": "361e8468-c156-4fa7-9195-dd924430d1a1"
+              },
+              "type": "enter_flow",
+              "uuid": "0d01651b-458e-4c51-8812-0571ef1039f1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "417285cc-619b-4ec8-b671-db09d14c4d5b"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "9fbd4754-a156-40ba-8754-56eb005a5975"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "fb28dd3b-cb12-4aaa-9980-cfd79876dd23",
+                "type": "has_only_text",
+                "uuid": "c579e6ad-73cb-486d-859e-1110194d924a"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "87da7df9-ca50-4dde-9f6b-da13bdde026a",
+                "type": "has_only_text",
+                "uuid": "dfb8bbf0-0997-407a-bc38-608858280a80"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "417285cc-619b-4ec8-b671-db09d14c4d5b",
+                "name": "Complete",
+                "uuid": "fb28dd3b-cb12-4aaa-9980-cfd79876dd23"
+              },
+              {
+                "exit_uuid": "9fbd4754-a156-40ba-8754-56eb005a5975",
+                "name": "Expired",
+                "uuid": "87da7df9-ca50-4dde-9f6b-da13bdde026a"
+              }
+            ],
+            "default_category_uuid": "87da7df9-ca50-4dde-9f6b-da13bdde026a",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "85cc5ad2-556e-4add-bf74-f063c56dc393"
+        },
+        {
+          "uuid": "120a253a-68ea-44ff-abd8-ad1297082b81",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "acd02cd3-8538-41df-ba03-989a3dac6f36",
+            "categories": [
+              {
+                "exit_uuid": "832a1a9c-bd5e-434e-a0d5-f82915041cf1",
+                "name": "Mosquitoes",
+                "uuid": "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da"
+              },
+              {
+                "exit_uuid": "133ea226-f5d4-44aa-9ce1-5e8073328b92",
+                "name": "Other",
+                "uuid": "acd02cd3-8538-41df-ba03-989a3dac6f36"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "mosquitoes"
+                ],
+                "type": "has_any_word",
+                "uuid": "6d3d10c4-d5b9-43d8-b6ac-6c0ab5f15c88",
+                "category_uuid": "8fbd78f2-a5b3-45e8-98c9-0d605c8d35da"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "22aa62d4-9556-4b4e-9363-7a4c70fb087e",
+              "uuid": "832a1a9c-bd5e-434e-a0d5-f82915041cf1"
+            },
+            {
+              "destination_uuid": "6a23aa07-7a6c-49b2-a485-331775439948",
+              "uuid": "133ea226-f5d4-44aa-9ce1-5e8073328b92"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths - mosquitoes",
+                "uuid": "9ef01109-0989-4231-a82e-f9e3f29b3f71"
+              },
+              "type": "enter_flow",
+              "uuid": "b4c939f2-77eb-4cb3-9f2a-b28634118ed7"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "89286090-e3f8-4834-9492-1b917e58d37e"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "a9c89740-eda9-498e-918f-8a6b234ff292"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "25adaca1-4ed4-4a7a-96d2-00f9398e683d",
+                "type": "has_only_text",
+                "uuid": "7c869a83-c340-46b4-9dc6-bdaa036bf0fb"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "45d13fc3-cf52-4dad-9e88-a00b5c96874c",
+                "type": "has_only_text",
+                "uuid": "83598d4e-1a22-4d38-8048-eb45e1498422"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "89286090-e3f8-4834-9492-1b917e58d37e",
+                "name": "Complete",
+                "uuid": "25adaca1-4ed4-4a7a-96d2-00f9398e683d"
+              },
+              {
+                "exit_uuid": "a9c89740-eda9-498e-918f-8a6b234ff292",
+                "name": "Expired",
+                "uuid": "45d13fc3-cf52-4dad-9e88-a00b5c96874c"
+              }
+            ],
+            "default_category_uuid": "45d13fc3-cf52-4dad-9e88-a00b5c96874c",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "22aa62d4-9556-4b4e-9363-7a4c70fb087e"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Air transmission",
+                "uuid": "ae1b097d-7d91-4599-9af9-eb30158834fc"
+              },
+              "type": "enter_flow",
+              "uuid": "e8f2f2f0-5812-47ae-b450-758319e98e88"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "8c0109a5-aa8c-4084-8a8d-a3ebf2fc37d4"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "30f0643b-e87f-4a91-bf11-ef074ff7741b"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "1e8b1ebf-d93d-4ff6-b567-1758ca3136b4",
+                "type": "has_only_text",
+                "uuid": "3fb192c3-6ce6-4074-9d93-5011eaceeccf"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "cf0264e8-7715-4b25-907c-77d14f1a2011",
+                "type": "has_only_text",
+                "uuid": "b2e7abe3-8462-48c2-8601-79d11ca41c11"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "8c0109a5-aa8c-4084-8a8d-a3ebf2fc37d4",
+                "name": "Complete",
+                "uuid": "1e8b1ebf-d93d-4ff6-b567-1758ca3136b4"
+              },
+              {
+                "exit_uuid": "30f0643b-e87f-4a91-bf11-ef074ff7741b",
+                "name": "Expired",
+                "uuid": "cf0264e8-7715-4b25-907c-77d14f1a2011"
+              }
+            ],
+            "default_category_uuid": "cf0264e8-7715-4b25-907c-77d14f1a2011",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "6a23aa07-7a6c-49b2-a485-331775439948"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "12b617ce-03bf-47c0-b1ba-5a299b9f275e",
+      "revision": 126
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

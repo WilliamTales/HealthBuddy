@@ -1,0 +1,612 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Risk",
+      "uuid": "efc1a8d7-0872-4ca1-bdd6-9fd538b89e1b",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "559f1c25-9bdf-4cab-b79e-b60f85082254": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 300,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "6d59aebc-53c4-4991-a684-7bd7edff7ed4": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 80,
+              "top": 60
+            },
+            "config": {}
+          },
+          "2b3fd650-c639-4ade-b9da-350ea649e6a5": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 300,
+              "top": 160
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "21757f5c-49e7-49ed-9a2c-d974904ee8ad": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 80,
+              "top": 240
+            },
+            "config": {}
+          },
+          "62152a53-978f-4f6a-b85e-a885d7717ebd": {
+            "position": {
+              "left": 300,
+              "top": 340
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 90,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 89
+      },
+      "localization": {
+        "por": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "O COVID-19 \u00e9 um novo v\u00edrus, por isso ainda estamos aprendendo como isso afeta as crian\u00e7as. At\u00e9 o momento, h\u00e1 relativamente poucos casos relatados entre crian\u00e7as e a doen\u00e7a parece ter um curso mais moderado nessa faixa et\u00e1ria."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "At\u00e9 agora, a maioria dos casos ocorre em pessoas com idades entre 20 e 79 anos."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "Pessoas idosas e pessoas com condi\u00e7\u00f5es m\u00e9dicas, como diabetes, hipertens\u00e3o, doen\u00e7as card\u00edacas e doen\u00e7as pulmonares, parecem ter mais risco de desenvolver sintomas graves."
+            ]
+          }
+        },
+        "rus": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "COVID-19 - \u044d\u0442\u043e \u043d\u043e\u0432\u044b\u0439 \u0432\u0438\u0440\u0443\u0441, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043c\u044b \u0432\u0441\u0435 \u0435\u0449\u0435 \u0438\u0437\u0443\u0447\u0430\u0435\u043c, \u043a\u0430\u043a \u043e\u043d \u0432\u043b\u0438\u044f\u0435\u0442 \u043d\u0430 \u0434\u0435\u0442\u0435\u0439. \u041a \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u043c\u0443 \u043c\u043e\u043c\u0435\u043d\u0442\u0443 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442, \u0447\u0442\u043e \u0434\u0435\u0442\u0438, \u043f\u043e-\u0432\u0438\u0434\u0438\u043c\u043e\u043c\u0443, \u043c\u0435\u043d\u0435\u0435 \u043f\u043e\u0434\u0432\u0435\u0440\u0436\u0435\u043d\u044b \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e, \u0430 \u0443 \u0434\u0435\u0442\u0435\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0437\u0430\u0440\u0430\u0437\u0438\u043b\u0438\u0441\u044c \u0438 \u0432\u044b\u044f\u0432\u043b\u0435\u043d\u044b \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u044d\u043f\u0438\u0434\u043d\u0430\u0434\u0437\u043e\u0440\u0430, \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u0435\u043a\u0430\u0435\u0442 \u0432 \u043b\u0435\u0433\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0438 \u043e\u043d\u0438 \u0432\u044b\u0437\u0434\u043e\u0440\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "\u041f\u043e\u043a\u0430 \u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0441\u0440\u0435\u0434\u0438 \u043b\u044e\u0434\u0435\u0439 \u0432 \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0435 \u043e\u0442 20 \u0434\u043e 79 \u043b\u0435\u0442."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "\u041f\u043e\u0436\u0438\u043b\u044b\u0435 \u043b\u044e\u0434\u0438 \u0438 \u043b\u044e\u0434\u0438 \u0441 \u0442\u0430\u043a\u0438\u043c\u0438 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f\u043c\u0438, \u043a\u0430\u043a \u0434\u0438\u0430\u0431\u0435\u0442, \u0433\u0438\u043f\u0435\u0440\u0442\u043e\u043d\u0438\u044f, \u0431\u043e\u043b\u0435\u0437\u043d\u0438 \u0441\u0435\u0440\u0434\u0446\u0430 \u0438 \u043b\u0435\u0433\u043a\u0438\u0445, \u043f\u043e-\u0432\u0438\u0434\u0438\u043c\u043e\u043c\u0443, \u043f\u043e\u0434\u0432\u0435\u0440\u0436\u0435\u043d\u044b \u0431\u043e\u043b\u044c\u0448\u0435\u043c\u0443 \u0440\u0438\u0441\u043a\u0443 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432."
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "\u0434\u0435\u0442\u0438"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              ""
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "El COVID-19 es un virus nuevo, por lo que todav\u00eda estamos aprendiendo c\u00f3mo afecta a los ni\u00f1os. Hasta ahora hay relativamente pocos casos conocidos entre los ni\u00f1os y los que se infectan y se detectan a trav\u00e9s de sistemas de vigilancia, cursan una enfermedad m\u00e1s leve y se recuperan."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "La mayor\u00eda de los casos hasta ahora se dan en personas de entre 20 y 79 a\u00f1os."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "Las personas mayores y las personas con cuadros m\u00e9dicos como diabetes, hipertensi\u00f3n, enfermedad card\u00edaca y enfermedad pulmonar parecen estar en mayor riesgo de desarrollar s\u00edntomas graves."
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "ni\u00f1os"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              ""
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              ""
+            ]
+          },
+          "ea352411-1a6b-4459-a72b-90495c6deb07": {
+            "name": [
+              "mayor riesgo"
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8e57bfc5-a662-4e12-b41b-c67a35b65aed": {
+            "name": [
+              "otros"
+            ]
+          },
+          "a1a20bcd-f74c-4d7e-b144-5151dd2d73fe": {
+            "name": [
+              "otros"
+            ]
+          }
+        },
+        "ell": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "\u0395\u03c0\u03b5\u03b9\u03b4\u03ae \u03bf COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bd\u03ad\u03bf\u03c2 \u03b9\u03cc\u03c2, \u03b1\u03ba\u03cc\u03bc\u03b7 \u03b4\u03b9\u03b5\u03c1\u03b5\u03c5\u03bd\u03ac\u03c4\u03b1\u03b9 \u03c4\u03bf \u03c0\u03ce\u03c2 \u03b5\u03c0\u03b7\u03c1\u03b5\u03ac\u03b6\u03b5\u03b9 \u03c4\u03b1 \u03c0\u03b1\u03b9\u03b4\u03b9\u03ac. \u03a3\u03cd\u03bc\u03c6\u03c9\u03bd\u03b1 \u03bc\u03b5 \u03c4\u03b1 \u03c9\u03c2 \u03c4\u03ce\u03c1\u03b1 \u03b5\u03c5\u03c1\u03ae\u03bc\u03b1\u03c4\u03b1, \u03c4\u03b1 \u03c0\u03b1\u03b9\u03b4\u03b9\u03ac \u03c6\u03b1\u03af\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bd\u03b1 \u03b5\u03c0\u03b7\u03c1\u03b5\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03bb\u03b9\u03b3\u03cc\u03c4\u03b5\u03c1\u03bf, \u03b5\u03bd\u03ce \u03cc\u03c3\u03b1 \u03ad\u03c7\u03bf\u03c5\u03bd \u03bc\u03bf\u03bb\u03c5\u03bd\u03b8\u03b5\u03af \u03ba\u03b1\u03b9 \u03b5\u03bd\u03c4\u03bf\u03c0\u03b9\u03c3\u03c4\u03b5\u03af \u03b1\u03c0\u03cc \u03c3\u03cd\u03c3\u03c4\u03b7\u03bc\u03b1 \u03c0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03cd\u03b8\u03b7\u03c3\u03b7\u03c2, \u03bd\u03bf\u03c3\u03bf\u03cd\u03bd \u03ae\u03c0\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03bd\u03b1\u03c1\u03c1\u03ce\u03bd\u03bf\u03c5\u03bd."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "\u03a4\u03b1 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1 \u03ba\u03c1\u03bf\u03cd\u03c3\u03bc\u03b1\u03c4\u03b1, \u03c9\u03c2 \u03c4\u03ce\u03c1\u03b1, \u03ad\u03c7\u03bf\u03c5\u03bd \u03c3\u03b7\u03bc\u03b5\u03b9\u03c9\u03b8\u03b5\u03af \u03c3\u03b5 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03bc\u03b5\u03c4\u03b1\u03be\u03cd 20 \u03ba\u03b1\u03b9 79 \u03b5\u03c4\u03ce\u03bd."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "\u0397\u03bb\u03b9\u03ba\u03b9\u03c9\u03bc\u03ad\u03bd\u03bf\u03b9 \u03b1\u03bb\u03bb\u03ac \u03ba\u03b1\u03b9 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03bc\u03b5 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 - \u03cc\u03c0\u03c9\u03c2 \u03b4\u03b9\u03b1\u03b2\u03ae\u03c4\u03b7\u03c2, \u03c5\u03c0\u03ad\u03c1\u03c4\u03b1\u03c3\u03b7, \u03ba\u03b1\u03c1\u03b4\u03b9\u03bf\u03c0\u03ac\u03b8\u03b5\u03b9\u03b1, \u03c0\u03bd\u03b5\u03c5\u03bc\u03bf\u03bd\u03bf\u03c0\u03ac\u03b8\u03b5\u03b9\u03b5\u03c2 - \u03c6\u03b1\u03af\u03bd\u03b5\u03c4\u03b1\u03b9 \u03c0\u03c9\u03c2 \u03b4\u03b9\u03b1\u03c4\u03c1\u03ad\u03c7\u03bf\u03c5\u03bd \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf \u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf \u03bd\u03b1 \u03c0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03c3\u03bf\u03c5\u03bd \u03c3\u03bf\u03b2\u03b1\u03c1\u03ac \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1."
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "\u03c0\u03b1\u03b9\u03b4\u03b9\u03ac"
+            ]
+          },
+          "8e57bfc5-a662-4e12-b41b-c67a35b65aed": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              ""
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              ""
+            ]
+          },
+          "ea352411-1a6b-4459-a72b-90495c6deb07": {
+            "name": [
+              "\u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf\u03c2 \u03ba\u03b9\u03bd\u03b4\u03cd\u03bd\u03bf\u03c5 "
+            ]
+          },
+          "a1a20bcd-f74c-4d7e-b144-5151dd2d73fe": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "Il virus che causa la COVID-19 \u00e8 un nuovo virus, quindi stiamo ancora studiando come colpisce i bambini. Finora, i risultati mostrano che i bambini sembrano essere meno colpiti e quelli contagiati e rilevati attraverso i sistemi di sorveglianza, manifestano una malattia lieve e guariscono."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "Per ora, la maggior parte dei casi colpisce adulti tra i 20 e i 79 anni. "
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "Le persone anziane e i pazienti con patologie croniche come diabete, ipertensione, malattie cardiovascolari e respiratorie sembrano avere maggiori probabilit\u00e0 di sviluppare forme gravi di malattia. "
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "bambini"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              ""
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              "gruppo di rischio infetti"
+            ]
+          }
+        },
+        "kaz": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "COVID-19 - \u0431\u04b1\u043b \u0436\u0430\u04a3\u0430 \u0432\u0438\u0440\u0443\u0441, \u0441\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u0431\u0456\u0437 \u043e\u043d\u044b\u04a3 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u049b\u0430\u043b\u0430\u0439 \u04d9\u0441\u0435\u0440 \u0435\u0442\u0435\u0442\u0456\u043d\u0456\u043d \u04d9\u043b\u0456 \u0437\u0435\u0440\u0442\u0442\u0435\u0443\u0434\u0435\u043c\u0456\u0437. \u041e\u0441\u044b \u0443\u0430\u049b\u044b\u0442\u049b\u0430 \u0434\u0435\u0439\u0456\u043d \u0430\u043b\u044b\u043d\u0493\u0430\u043d \u043c\u04d9\u043b\u0456\u043c\u0435\u0442\u0442\u0435\u0440\u0433\u0435 \u049b\u0430\u0440\u0430\u0493\u0430\u043d\u0434\u0430 \u0431\u0430\u043b\u0430\u043b\u0430\u0440\u0493\u0430 \u0430\u0437\u044b\u0440\u0430\u049b \u04d9\u0441\u0435\u0440 \u0435\u0442\u0435\u0442\u0456\u043d \u0441\u0438\u044f\u049b\u0442\u044b, \u0436\u04d9\u043d\u0435 \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d\u0434\u0430\u0440 \u0436\u04d9\u04a3\u0456\u043b\u0434\u0435\u0443 \u0430\u0443\u0440\u0443\u043c\u0435\u043d \u0430\u0443\u044b\u0440\u044b\u043f, \u0441\u0430\u0443\u044b\u0493\u044b\u043f \u0436\u0430\u0442\u0430\u0434\u044b."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "\u049a\u0430\u0440\u0442 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u043c\u0435\u043d \u049b\u0430\u043d\u0442 \u0434\u0438\u0430\u0431\u0435\u0442\u0456, \u0433\u0438\u043f\u0435\u0440\u0442\u0435\u043d\u0437\u0438\u044f, \u0436\u04af\u0440\u0435\u043a \u0436\u04d9\u043d\u0435 \u04e9\u043a\u043f\u0435 \u0430\u0443\u0440\u0443\u043b\u0430\u0440\u044b \u0431\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0443\u044b\u0440 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0434\u0456\u04a3 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0443 \u049b\u0430\u0443\u043f\u0456\u043d\u0435 \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u04b1\u0448\u044b\u0440\u0430\u0439\u0434\u044b."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "\u04d8\u0437\u0456\u0440\u0433\u0435 \u0430\u0443\u0440\u0443\u0434\u044b\u04a3 \u043a\u04e9\u043f \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u044b 20 \u043c\u0435\u043d 79 \u0436\u0430\u0441 \u0430\u0440\u0430\u043b\u044b\u0493\u044b\u043d\u0434\u0430\u0493\u044b \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u0430 \u043a\u0435\u0437\u0434\u0435\u0441\u0435\u0434\u0456."
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "\u0431\u0430\u043b\u0430\u043b\u0430\u0440"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              ""
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              "\u049b\u0430\u0443\u043f\u0456 \u0436\u043e\u0493\u0430\u0440\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d"
+            ]
+          }
+        },
+        "mkd": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "\u041a\u041e\u0412\u0418\u0414-19 \u0435 \u043d\u043e\u0432 \u0432\u0438\u0440\u0443\u0441, \u0442\u0430\u043a\u0430 \u0448\u0442\u043e \u0441\u00e8 \u0443\u0448\u0442\u0435 \u0443\u0447\u0438\u043c\u0435 \u043a\u0430\u043a\u043e \u0432\u043b\u0438\u0458\u0430\u0435 \u0432\u0440\u0437 \u0434\u0435\u0446\u0430\u0442\u0430. \u0414\u043e\u0441\u0435\u0433\u0430\u0448\u043d\u0438\u0442\u0435 \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438  \u043f\u043e\u043a\u0430\u0436\u0443\u0432\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u0434\u0435\u0446\u0430\u0442\u0430 \u043f\u043e\u043c\u0430\u043b\u043a\u0443 \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u0430\u0442, \u0430 \u043e\u043d\u0438\u0435 \u0448\u0442\u043e \u045c\u0435 \u0441\u0435 \u0437\u0430\u0440\u0430\u0437\u0430\u0442 \u0438 \u0448\u0442\u043e \u045c\u0435 \u0441\u0435 \u043e\u0442\u043a\u0440\u0438\u0458\u0430\u0442 \u043f\u0440\u0435\u043a\u0443 \u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0442 \u0437\u0430 \u0441\u043b\u0435\u0434\u0435\u045a\u0435  \u0438\u043c\u0430\u0430\u0442 \u043f\u043e\u0431\u043b\u0430\u0433\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u0438 \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0443\u0432\u0430\u0430\u0442."
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435\u0442\u043e \u0441\u043b\u0443\u0447\u0430\u0438 \u0434\u043e\u0441\u0435\u0433\u0430 \u0441\u0435 \u043a\u0430\u0458 \u043b\u0443\u0453\u0435 \u043d\u0430 \u0432\u043e\u0437\u0440\u0430\u0441\u0442 \u043c\u0435\u0453\u0443 20 \u0438 79 \u0433\u043e\u0434\u0438\u043d\u0438."
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "\u0421\u0435 \u0447\u0438\u043d\u0438 \u0434\u0435\u043a\u0430 \u043f\u043e\u0441\u0442\u0430\u0440\u0438\u0442\u0435 \u0438 \u043b\u0438\u0446\u0430\u0442\u0430 \u0441\u043e \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438 \u0441\u043e\u0441\u0442\u043e\u0458\u0431\u0438 \u043a\u0430\u043a\u043e \u0434\u0438\u0458\u0430\u0431\u0435\u0442\u0435\u0441, \u0445\u0438\u043f\u0435\u0440\u0442\u0435\u043d\u0437\u0438\u0458\u0430, \u0441\u0440\u0446\u0435\u0432\u0438 \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0430 \u0438 \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0430 \u043d\u0430 \u0431\u0435\u043b\u0438\u0442\u0435 \u0434\u0440\u043e\u0431\u043e\u0432\u0438 \u0441\u0435 \u0432\u043e \u043f\u043e\u0433\u043e\u043b\u0435\u043c \u0440\u0438\u0437\u0438\u043a \u043e\u0434 \u043f\u043e\u0458\u0430\u0432\u0430 \u043d\u0430 \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "60e239b9-f89c-4faa-9981-49662c5a3aab": {
+            "text": [
+              "KOV\u0130D-19 yeni bir vir\u00fcst\u00fcr, bu nedenle \u00e7ocuklar\u0131 nas\u0131l etkiledi\u011fini halen \u00f6\u011freniyoruz. \u015eu ana kadar, bulgular \u00e7ocuklar\u0131n daha az etkilendi\u011fini ve enfekte olan ve s\u00fcrveyans sistemiyle tespit edilenlerin hafif hastal\u0131k ge\u00e7irdi\u011fini ve iyile\u015fti\u011fini g\u00f6stermektedir. "
+            ]
+          },
+          "30c1d54d-8dbe-458c-9372-d139662a1563": {
+            "text": [
+              "\u015eu ana kadar olan vakalar\u0131n \u00e7o\u011fu 20 ila 79 ya\u015flar\u0131 aras\u0131ndaki bireylerdir. "
+            ]
+          },
+          "6778625f-9690-4946-b952-3ffbda7c306d": {
+            "text": [
+              "Ya\u015fl\u0131 bireyler ve diyabet, hipertansiyon, kalp hastal\u0131\u011f\u0131 ve akci\u011fer hastal\u0131\u011f\u0131 gibi sa\u011fl\u0131k durumlar\u0131 olan bireylerin \u015fiddetli semptomlar geli\u015ftirmek konusunda daha \u00e7ok risk alt\u0131nda olduklar\u0131n\u0131 g\u00f6stermektedir. "
+            ]
+          },
+          "77149a2a-b56c-4345-b6d2-33d273ddd52b": {
+            "name": [
+              "\u00c7ocuklar"
+            ]
+          },
+          "8e57bfc5-a662-4e12-b41b-c67a35b65aed": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "1de0af78-d81d-4734-af9c-ffda7e6ef046": {
+            "arguments": [
+              "\u00c7ocuklar KOV\u0130D19"
+            ]
+          },
+          "6464e7a8-94de-4e5d-b014-508e11d38e14": {
+            "arguments": [
+              "\u00c7ocuklar Koronavir\u00fcs"
+            ]
+          },
+          "ea352411-1a6b-4459-a72b-90495c6deb07": {
+            "name": [
+              "Y\u00fcksek risk"
+            ]
+          },
+          "a1a20bcd-f74c-4d7e-b144-5151dd2d73fe": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "8959fc9f-5597-4fe7-8ff6-483363fa00f8": {
+            "arguments": [
+              "risk grubu Bula\u015fan"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "559f1c25-9bdf-4cab-b79e-b60f85082254",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "8e57bfc5-a662-4e12-b41b-c67a35b65aed",
+            "categories": [
+              {
+                "uuid": "77149a2a-b56c-4345-b6d2-33d273ddd52b",
+                "name": "Children",
+                "exit_uuid": "cc9ea6c9-9698-4b8a-926d-8c958c4579dd"
+              },
+              {
+                "uuid": "8e57bfc5-a662-4e12-b41b-c67a35b65aed",
+                "name": "Other",
+                "exit_uuid": "125fbf8f-0230-42c5-aa2d-98e60326a61a"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "children covid19"
+                ],
+                "type": "has_all_words",
+                "uuid": "1de0af78-d81d-4734-af9c-ffda7e6ef046",
+                "category_uuid": "77149a2a-b56c-4345-b6d2-33d273ddd52b"
+              },
+              {
+                "arguments": [
+                  "children coronavirus"
+                ],
+                "type": "has_all_words",
+                "uuid": "6464e7a8-94de-4e5d-b014-508e11d38e14",
+                "category_uuid": "77149a2a-b56c-4345-b6d2-33d273ddd52b"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "cc9ea6c9-9698-4b8a-926d-8c958c4579dd",
+              "destination_uuid": "6d59aebc-53c4-4991-a684-7bd7edff7ed4"
+            },
+            {
+              "uuid": "125fbf8f-0230-42c5-aa2d-98e60326a61a",
+              "destination_uuid": "2b3fd650-c639-4ade-b9da-350ea649e6a5"
+            }
+          ]
+        },
+        {
+          "uuid": "6d59aebc-53c4-4991-a684-7bd7edff7ed4",
+          "actions": [
+            {
+              "uuid": "bb7b21c8-fe45-401e-91a7-b97450d9c72e",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "7a8be883-7eca-42de-9ef3-983e21a6839e",
+                "name": "Risk - children"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "d415d131-a65a-471a-aa61-035f91066f57",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "bfc1489e-4ff8-4df2-a7a8-0d8b06b249b2"
+              },
+              {
+                "uuid": "303876fe-62f3-489e-a0f1-6a2dab393afc",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "f4624190-0174-4ee9-92e8-a44324a202d8"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "bfc1489e-4ff8-4df2-a7a8-0d8b06b249b2",
+                "name": "Complete",
+                "exit_uuid": "53258d9e-cf5c-4a7e-98a5-1578cd560949"
+              },
+              {
+                "uuid": "f4624190-0174-4ee9-92e8-a44324a202d8",
+                "name": "Expired",
+                "exit_uuid": "412072f3-cd43-4fdc-9b77-c99202d57395"
+              }
+            ],
+            "default_category_uuid": "f4624190-0174-4ee9-92e8-a44324a202d8"
+          },
+          "exits": [
+            {
+              "uuid": "53258d9e-cf5c-4a7e-98a5-1578cd560949",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "412072f3-cd43-4fdc-9b77-c99202d57395",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "2b3fd650-c639-4ade-b9da-350ea649e6a5",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "a1a20bcd-f74c-4d7e-b144-5151dd2d73fe",
+            "categories": [
+              {
+                "uuid": "ea352411-1a6b-4459-a72b-90495c6deb07",
+                "name": "Higher risk",
+                "exit_uuid": "76402579-09fa-45df-ae57-a37ca662cd73"
+              },
+              {
+                "uuid": "a1a20bcd-f74c-4d7e-b144-5151dd2d73fe",
+                "name": "Other",
+                "exit_uuid": "4dea9eec-32da-41d4-bc31-17f9e26e6824"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "risk_group infected"
+                ],
+                "type": "has_all_words",
+                "uuid": "8959fc9f-5597-4fe7-8ff6-483363fa00f8",
+                "category_uuid": "ea352411-1a6b-4459-a72b-90495c6deb07"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "76402579-09fa-45df-ae57-a37ca662cd73",
+              "destination_uuid": "21757f5c-49e7-49ed-9a2c-d974904ee8ad"
+            },
+            {
+              "uuid": "4dea9eec-32da-41d4-bc31-17f9e26e6824",
+              "destination_uuid": "62152a53-978f-4f6a-b85e-a885d7717ebd"
+            }
+          ]
+        },
+        {
+          "uuid": "21757f5c-49e7-49ed-9a2c-d974904ee8ad",
+          "actions": [
+            {
+              "uuid": "4d59532d-4c03-4917-92c0-c2d5bcbabcdb",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "dd5fb8dd-725c-4729-a116-2a7dd3dfc125",
+                "name": "Risk - high risk group"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "0d26fc61-b0aa-41a9-9587-ca25697c1e1a",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "45c19492-2563-4980-bc6e-b8f03b7f8e21"
+              },
+              {
+                "uuid": "2d0966b3-5e63-4125-8bd5-d7e08bd2b7f0",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "33b66827-70ff-4c39-9768-19dfcec5c9c1"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "45c19492-2563-4980-bc6e-b8f03b7f8e21",
+                "name": "Complete",
+                "exit_uuid": "54df7c56-07eb-4b4f-adb5-4992deccdac7"
+              },
+              {
+                "uuid": "33b66827-70ff-4c39-9768-19dfcec5c9c1",
+                "name": "Expired",
+                "exit_uuid": "7a7307ff-b5fd-4900-95b2-36d2820bf96f"
+              }
+            ],
+            "default_category_uuid": "33b66827-70ff-4c39-9768-19dfcec5c9c1"
+          },
+          "exits": [
+            {
+              "uuid": "54df7c56-07eb-4b4f-adb5-4992deccdac7",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "7a7307ff-b5fd-4900-95b2-36d2820bf96f",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "62152a53-978f-4f6a-b85e-a885d7717ebd",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "COVID-19 is a new virus, so we are still learning how it affects children. So far the findings show that children seem to be less affected and those who are infected and detected through surveillance system, have mild disease and recover.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "60e239b9-f89c-4faa-9981-49662c5a3aab"
+            },
+            {
+              "attachments": [],
+              "text": "Most cases so far are in people aged between 20 and 79 years.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "30c1d54d-8dbe-458c-9372-d139662a1563"
+            },
+            {
+              "attachments": [],
+              "text": "Older people and people with medical conditions\u202flike diabetes, hypertension, heart disease, and lung disease\u202fappear to be more at risk of developing severe symptoms.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "6778625f-9690-4946-b952-3ffbda7c306d"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "3f254b63-e2a9-4015-a7fe-c0b01796faa1",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

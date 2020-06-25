@@ -1,0 +1,2006 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "21c43166-d226-4cfa-a9e7-fba566d0adb3": {
+            "type": "split_by_contact_field",
+            "position": {
+              "left": 700,
+              "top": 0
+            },
+            "config": {
+              "operand": {
+                "id": "channel",
+                "type": "property",
+                "name": "Channel"
+              },
+              "cases": {}
+            }
+          },
+          "dfd45e34-9dbd-42eb-b00a-3c8140ea565c": {
+            "position": {
+              "left": 460,
+              "top": 40
+            },
+            "type": "execute_actions"
+          },
+          "79f4e1ad-01c1-43ba-992f-0d3bee6c7a83": {
+            "position": {
+              "left": 940,
+              "top": 60
+            },
+            "type": "execute_actions"
+          },
+          "992f9b51-0e7e-484e-af27-0d5d9f6a6bb5": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 260,
+              "top": 340
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "e0a787a7-1f53-4b8a-a148-5c80fb64380e": {
+            "position": {
+              "left": 0,
+              "top": 420
+            },
+            "type": "execute_actions"
+          },
+          "682af191-682f-4183-872c-6921978336da": {
+            "position": {
+              "left": 1360,
+              "top": 460
+            },
+            "type": "execute_actions"
+          },
+          "16462019-abe6-4cba-a202-a297041a4b77": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 940,
+              "top": 540
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "3b3045dd-0037-43e7-8541-672ed182e5e3": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 1360,
+              "top": 600
+            },
+            "config": {}
+          },
+          "595f3f13-8d35-4d31-b7a3-be5e0cb63714": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 160,
+              "top": 680
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "e4b40c7a-f915-45e4-acc4-054629aba9f0": {
+            "position": {
+              "left": 940,
+              "top": 700
+            },
+            "type": "execute_actions"
+          },
+          "f7fae7e8-702a-4221-b3c0-9afe7628ff26": {
+            "position": {
+              "left": 700,
+              "top": 960
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 1440,
+      "language": "eng",
+      "metadata": {
+        "revision": 268
+      },
+      "name": "Finishing",
+      "revision": 278,
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "bfaa5fa0-fa99-48fc-ae57-2defc41831a2",
+      "localization": {
+        "por": {
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "Posso te ajudar com algo mais?"
+            ],
+            "quick_replies": [
+              "N\u00e3o, at\u00e9 logo",
+              "Como me proteger?",
+              "Devo usar m\u00e1scaras?",
+              "Como lavar as m\u00e3os?",
+              "Quais s\u00e3o os mitos?",
+              "Quais s\u00e3o os sintomas?",
+              "Qual a linha direta no meu pa\u00eds?",
+              "Fake news e rumores",
+              "Mais..."
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "mais"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "Outro"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "mais"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "Existe uma vacina?",
+              "Qual o tratamento?",
+              "Posso usar antibi\u00f3ticos?",
+              "Posso usar ibuprofeno?",
+              "Qual a gravidade desse v\u00edrus?",
+              "O que \u00e9 distanciamento f\u00edsico?"
+            ]
+          }
+        },
+        "rus": {
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**\u041e\u0441\u0442\u0430\u043b\u0438\u0441\u044c \u043b\u0438 \u0435\u0449\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b?**"
+            ],
+            "quick_replies": [
+              "\u0421\u043f\u0430\u0441\u0438\u0431\u043e, \u0443 \u043c\u0435\u043d\u044f \u0432\u0441\u0435.",
+              "\u041a\u0430\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441?",
+              "\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f?",
+              "\u0414\u043e\u043b\u0436\u0435\u043d \u043b\u0438 \u044f \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443?",
+              "\u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435",
+              "\u041a\u0430\u043a\u043e\u0432\u044b \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b?",
+              "\u0433\u043e\u0440\u044f\u0447\u0430\u044f \u043b\u0438\u043d\u0438\u044f",
+              "\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438",
+              "\u0415\u0449\u0451"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "\u042f \u0434\u043e\u043b\u0436\u0435\u043d \u0431\u0435\u0441\u043f\u043e\u043a\u043e\u0438\u0442\u044c\u0441\u044f?",
+              "\u041a\u0442\u043e \u043f\u043e\u0434\u0432\u0435\u0440\u0433\u0430\u0435\u0442\u0441\u044f \u043d\u0430\u0438\u0431\u043e\u043b\u044c\u0448\u0435\u043c\u0443 \u0440\u0438\u0441\u043a\u0443?"
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "\u0415\u0449\u0451"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          },
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "\u041e\u0441\u0442\u0430\u043b\u0438\u0441\u044c \u043b\u0438 \u0435\u0449\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b?\n\nA - \u041d\u0435\u0442 \u044f \u0437\u0430\u043a\u043e\u043d\u0447\u0438\u043b\u0430\nB - \u041a\u0430\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441?\nC - \u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f?\nD - \u042f \u0434\u043e\u043b\u0436\u0435\u043d \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "\u0415\u0449\u0451"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "\u0415\u0449\u0451"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "A"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "\u0411\u043e\u043b\u044c\u0448\u0435"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "A. \u041a\u0430\u043a \u043c\u043d\u0435 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u043c\u044b\u0442\u044c \u0440\u0443\u043a\u0438?\nB. \u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435\nC. \u041a\u0430\u043a\u043e\u0432\u044b \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b?\nD. \u0433\u043e\u0440\u044f\u0447\u0438\u0435 \u043b\u0438\u043d\u0438\u0438\nE. \u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c \u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "\u041a\u0430\u043a\u043e\u0432\u044b \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "\u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "\u041a\u0430\u043a \u043c\u043d\u0435 \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u043c\u044b\u0442\u044c \u0440\u0443\u043a\u0438?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "Hotlines"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "\u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c \u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          },
+          "9796eb8f-1d0a-4482-b015-b8359f14aafe": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "\u041a\u0430\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f?"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "\u042f \u0434\u043e\u043b\u0436\u0435\u043d \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "\u0411\u043e\u043b\u044c\u0448\u0435"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              "\u0443\u0432\u043e\u043b\u0438\u0442\u044c\u0441\u044f"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          }
+        },
+        "spa": {
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**\u00bfTe puedo ayudar con algo m\u00e1s?**"
+            ],
+            "quick_replies": [
+              "No, nada m\u00e1s",
+              "\u00bfComo me puedo proteger?",
+              "\u00bfDebo usar una mascarilla?",
+              "\u00bfC\u00f3mo debo lavarme las manos?",
+              "Mitos sobre el virus",
+              "\u00bfCu\u00e1les son los s\u00edntomas?",
+              "\u00bfHay l\u00edneas directas para el COVID-19 en mi pa\u00eds?",
+              "Denuncia bulos/ noticias falsas",
+              "M\u00e1s..."
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "\u00bfHay vacuna?",
+              "\u00bfCu\u00e1l es el tratamiento?",
+              "\u00bfPuedo tomar antibi\u00f3ticos?",
+              "\u00bfPuedo tomar ibuprofeno?",
+              "\u00bfQu\u00e9 tan malo es el virus?",
+              "\u00bfQu\u00e9 es el distanciamiento f\u00edsico?"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "\u00bfC\u00f3mo debo lavarme las manos?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "Mitos sobre el virus"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "\u00bfCu\u00e1les son los s\u00edntomas?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "L\u00edneas directas"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "Denuncia bulos/ noticias falsas"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "A. \u00bfC\u00f3mo debo lavarme las manos?\nB. Mitos sobre el virus\nC. \u00bfCu\u00e1les son los s\u00edntomas?\nD. L\u00edneas directas\nE. Denuncia bulos / noticias falsas\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "M\u00e1s"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              " dejar"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              " \u00bfC\u00f3mo se transmite el virus?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "\u00bfComo me puedo proteger?"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "\u00bfDebo usar una mascarilla?"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "M\u00e1s"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "A"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "\u00bfTe puedo ayudar con algo m\u00e1s?\n\nA. No, nada m\u00e1s.\nB. \u00bfC\u00f3mo se transmite el virus?\nC. \u00bfComo me puedo proteger?\nD. \u00bfDebo usar una mascarilla?\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "M\u00e1s"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "M\u00e1s"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "M\u00e1s..."
+            ]
+          }
+        },
+        "ell": {
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**\u039c\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03c9 \u03c3\u03b5 \u03ba\u03ac\u03c4\u03b9 \u03ac\u03bb\u03bb\u03bf;**"
+            ],
+            "quick_replies": [
+              "\u038c\u03c7\u03b9, \u03b5\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce.",
+              "\u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03ce;",
+              "\u03a0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03bc\u03ac\u03c3\u03ba\u03b1;",
+              "\u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03c9 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03bf\u03c5;",
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03b9\u03cc",
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1;",
+              "\u03a5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b3\u03c1\u03b1\u03bc\u03bc\u03ae \u03c5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7\u03c2 \u03c3\u03c4\u03b7 \u03c7\u03ce\u03c1\u03b1 \u03bc\u03bf\u03c5",
+              "\u039a\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03bb\u03af\u03b1 \u03c6\u03b7\u03bc\u03ce\u03bd / \u03c8\u03b5\u03c5\u03b4\u03ce\u03bd \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03c9\u03bd",
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1\u2026"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf;",
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1;",
+              "\u039d\u03b1 \u03c0\u03ac\u03c1\u03c9 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac;",
+              "\u039d\u03b1 \u03c0\u03ac\u03c1\u03c9 ibuprofen;",
+              "\u03a0\u03cc\u03c3\u03bf \u03b5\u03c0\u03b9\u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2;",
+              "\u03a4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b7 \u03c3\u03c9\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03bf\u03c3\u03c4\u03b1\u03c3\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7;"
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "\u2018\u0391\u03bb\u03bb\u03bf"
+            ]
+          },
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "\u039c\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03c9 \u03c3\u03b5 \u03ba\u03ac\u03c4\u03b9 \u03ac\u03bb\u03bb\u03bf;\n\n\u0391. \u038c\u03c7\u03b9, \u03b5\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce.\n\u0392. \u03a0\u03ce\u03c2 \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2;\n\u0393. \u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03ce;\n\u0394. \u03a0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03bc\u03ac\u03c3\u03ba\u03b1;\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "\u0393",
+              "\u0394"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "\u0391. \u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03c9 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03bf\u03c5;\n\u0392. \u03a0\u03bf\u03b9\u03bf\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bf\u03b9 \u03bc\u03cd\u03b8\u03bf\u03b9 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03b9\u03cc;\n\u0393. \u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1;\n\u0394. \u0393\u03c1\u03b1\u03bc\u03bc\u03ad\u03c2 \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1\u03c2\n\u0395. \u039a\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03bb\u03af\u03b1 \u03c6\u03b7\u03bc\u03ce\u03bd / \u03c8\u03b5\u03c5\u03b4\u03ce\u03bd \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03c9\u03bd\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "\u0393",
+              "\u0394",
+              "\u0395"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              "\u0388\u03be\u03bf\u03b4\u03bf\u03c2"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "\u03a0\u03ce\u03c2 \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2;"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "\u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03ce;"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "\u03a0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03bc\u03ac\u03c3\u03ba\u03b1;"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "\u0393"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "\u0394"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "\u03a0\u03ce\u03c2 \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03c9 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03bf\u03c5;"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "\u03a0\u03bf\u03b9\u03bf\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bf\u03b9 \u03bc\u03cd\u03b8\u03bf\u03b9 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03b9\u03cc;"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1;"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "\u0393\u03c1\u03b1\u03bc\u03bc\u03ad\u03c2 \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03af\u03b1\u03c2"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "\u039a\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03bb\u03af\u03b1 \u03c6\u03b7\u03bc\u03ce\u03bd / \u03c8\u03b5\u03c5\u03b4\u03ce\u03bd \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03c9\u03bd"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "\u0393"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "\u0394"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1..."
+            ]
+          },
+          "9796eb8f-1d0a-4482-b015-b8359f14aafe": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          }
+        },
+        "kaz": {
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**\u041c\u0435\u043d \u0441\u0456\u0437\u0433\u0435 \u0442\u0430\u0493\u044b \u043a\u04e9\u043c\u0435\u043a \u043a\u04e9\u0440\u0441\u0435\u0442\u0435 \u0430\u043b\u0430\u043c\u044b\u043d \u0431\u0430?**\n"
+            ],
+            "quick_replies": [
+              "\u0416\u043e\u049b, \u043c\u0435\u043d \u0430\u044f\u049b\u0442\u0430\u0434\u044b\u043c",
+              "\u041c\u0435\u043d \u04e9\u0437\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?",
+              "\u041c\u0435\u043d \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u043a\u0438\u0456\u0443\u0456\u043c \u049b\u0430\u0436\u0435\u0442 \u043f\u0435?",
+              "\u041c\u0435\u043d \u049b\u043e\u043b\u044b\u043c\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0436\u0443\u0443\u044b\u043c \u043a\u0435\u0440\u0435\u043a?",
+              "\u049a\u0430\u043d\u0434\u0430\u0439 \u043c\u0438\u0444\u0442\u0435\u0440 \u0431\u0430\u0440?",
+              "\u041e\u043d\u044b\u04a3 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0434\u0430\u0440\u044b \u049b\u0430\u043d\u0434\u0430\u0439?",
+              "\u041c\u0435\u043d \u0435\u043b\u0456\u043c\u0434\u0435\u0433\u0456 \u0436\u0435\u0434\u0435\u043b \u0436\u0435\u043b\u0456\u043b\u0435\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u043b\u0433\u0456\u043c \u043a\u0435\u043b\u0435\u0434\u0456.",
+              "\u041c\u0435\u043d \u0444\u0435\u0439\u043a/\u0436\u0430\u043b\u0493\u0430\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u0442\u044b \u0436\u0435\u0442\u043a\u0456\u0437\u0433\u0456\u043c \u043a\u0435\u043b\u0435\u0434\u0456.",
+              "\u0422\u041e\u041b\u042b\u0492\u042b\u0420\u0410\u049a"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "\u041c\u0435\u043d \u043c\u0430\u0441\u043a\u0430 \u043a\u0438\u044e\u0456\u043c \u043a\u0435\u0440\u0435\u043a \u043f\u0435?"
+            ]
+          },
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "\u041c\u0435\u043d \u0441\u0456\u0437\u0433\u0435 \u0442\u0430\u0493\u044b \u043a\u04e9\u043c\u0435\u043a \u043a\u04e9\u0440\u0441\u0435\u0442\u0435 \u0430\u043b\u0430\u043c\u044b\u043d \u0431\u0430?\nA - \u0416\u043e\u049b, \u043c\u0435\u043d \u0431\u0456\u0442\u0456\u0440\u0434\u0456\u043c\nB - \u0412\u0438\u0440\u0443\u0441 \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b?\nC - \u041c\u0435\u043d \u04e9\u0437\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?\nD - \u041c\u0435\u043d \u043c\u0430\u0441\u043a\u0430 \u043a\u0438\u044e\u0456\u043c \u043a\u0435\u0440\u0435\u043a \u043f\u0435?"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "A - \u049a\u043e\u043b\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0436\u0443\u0443 \u043a\u0435\u0440\u0435\u043a?\nB - \u0412\u0438\u0440\u0443\u0441 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u0438\u0444\nC - \u0411\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 \u049b\u0430\u043d\u0434\u0430\u0439?\nD - \u0441\u0435\u043d\u0456\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b\nE - \u04e8\u0442\u0456\u0440\u0456\u043a \u043d\u0435\u043c\u0435\u0441\u0435 \u0436\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0443"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "\u041a\u04e9\u0431\u0456\u0440\u0435\u043a"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              " \u0442\u0430\u0441\u0442\u0430\u04a3\u044b\u0437"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "\u0412\u0438\u0440\u0443\u0441 \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "\u041c\u0435\u043d \u04e9\u0437\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              " \u041a\u04e9\u0431\u0456\u0440\u0435\u043a"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "\u049a\u043e\u043b\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u0436\u0443\u0443 \u043a\u0435\u0440\u0435\u043a?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "\u0412\u0438\u0440\u0443\u0441 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u0438\u0444"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "\u049a\u0430\u043d\u0434\u0430\u0439 \u043c\u0438\u0444\u0442\u0435\u0440 \u0431\u0430\u0440?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "\u0441\u0435\u043d\u0456\u043c \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "\u04e8\u0442\u0456\u0440\u0456\u043a \u043d\u0435\u043c\u0435\u0441\u0435 \u0436\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0443"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              " \u0431\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b "
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e "
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              " \u041a\u04e9\u0431\u0456\u0440\u0435\u043a"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              " \u0431\u0430\u0441\u049b\u0430"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              " \u041a\u04e9\u0431\u0456\u0440\u0435\u043a"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              " \u041a\u04e9\u0431\u0456\u0440\u0435\u043a..."
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "\u0412\u0430\u043a\u0446\u0438\u043d\u0430 \u0431\u0430\u0440 \u043c\u0430?",
+              "\u0415\u043c\u0434\u0435\u0443 \u0436\u043e\u043b\u0434\u0430\u0440\u044b \u049b\u0430\u043d\u0434\u0430\u0439?",
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b \u043c\u0430?",
+              "\u0418\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0441\u0430\u043c \u0431\u043e\u043b\u0430\u0434\u044b \u043c\u0430?",
+              "\u0412\u0438\u0440\u0443\u0441 \u04e9\u0442\u0435 \u049b\u0430\u0443\u0456\u043f\u0442\u0456 \u043c\u0435?",
+              "\u0424\u0438\u0437\u0438\u043a\u0430\u043b\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b \u0434\u0435\u0433\u0435\u043d \u043d\u0435?"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430"
+            ]
+          }
+        },
+        "ita": {
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "Posso aiutarti con qualcos'altro?\nA - No, grazie, basta cos\u00ec. \nB - Come si diffonde il virus?\nC - Come posso proteggermi?\nD - Devo indossare una mascherina?"
+            ]
+          },
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**Posso aiutarti con qualcos'altro?**"
+            ],
+            "quick_replies": [
+              "No, grazie, basta cos\u00ec.",
+              "Come posso proteggermi?",
+              "Devo indossare una mascherina?",
+              "Come devo lavarmi le mani?",
+              "Quali sono i miti?",
+              "Quali sono i sintomi?",
+              "Qual \u00e8 la hotline nel mio paese?",
+              "Segnalare voci/notizie false.",
+              "Di Pi\u00f9"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "A - Come devo lavarmi le mani?\nB - Quali sono i miti?\nC - Quali sono i sintomi?\nD - Hotline\nE - Segnalare voci/notizie false."
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "Come devo lavarmi le mani?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "Quali sono i miti?"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "Quali sono i sintomi?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "Hotline"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "Segnalare voci/notizie false"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "altro"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "Esiste un vaccino?",
+              "Qual \u00e8 il trattamento?",
+              "Posso prendere antibiotici?",
+              "Posso prendere ibuprofene?",
+              "Quanto \u00e8 grave il virus?",
+              "Cosa significa distanziamento fisico?"
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "pi\u00f9"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "altro"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "Di Pi\u00f9"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "pi\u00f9"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "Di Pi\u00f9"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              "Smettere"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "Come si diffonde il virus?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "Come posso proteggermi?"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "Devo indossare una mascherina?"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "Altro"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "Di Pi\u00f9"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "d"
+            ]
+          }
+        },
+        "mkd": {
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u0432\u0438 \u043f\u043e\u043c\u043e\u0433\u043d\u0430\u043c \u0441\u043e \u043d\u0435\u0448\u0442\u043e \u0434\u0440\u0443\u0433\u043e?\n\n\u0410.   \u041d\u0435, \u0437\u0430\u0432\u0440\u0448\u0438\u0432.\n\u0411.   \u041a\u0430\u043a\u043e \u0441\u0435 \u0448\u0438\u0440\u0438 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?\n\u0412.   \u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c?\n\u0413.   \u0422\u0440\u0435\u0431\u0430 \u043b\u0438 \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?\n"
+            ],
+            "quick_replies": [
+              "A",
+              "\u0411",
+              "\u0412",
+              "\u0413"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              "\u041f\u0440\u0435\u043a\u0438\u043d\u0438"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "\u041a\u0430\u043a\u043e \u0441\u0435 \u0448\u0438\u0440\u0438 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c?"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "\u0422\u0440\u0435\u0431\u0430 \u043b\u0438 \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "\u0411"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "\u0412"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "\u0413"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "\u0410.   \u041a\u0430\u043a\u043e \u0434\u0430 \u0433\u0438 \u043c\u0438\u0458\u0430\u043c \u0440\u0430\u0446\u0435\u0442\u0435?\n\u0411.   \u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?\n\u0412.   \u041a\u043e\u0438 \u0441\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435?\n\u0413.    \u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0441\u043a\u0438 \u043b\u0438\u043d\u0438\u0438 \u0437\u0430 \u043f\u043e\u043c\u043e\u0448\n\u0414.   \u041f\u0440\u0438\u0458\u0430\u0432\u0435\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 / \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438\n"
+            ],
+            "quick_replies": [
+              "A",
+              "\u0411",
+              "\u0412",
+              "\u0413",
+              "\u0414"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "\u041a\u0430\u043a\u043e \u0434\u0430 \u0433\u0438 \u043c\u0438\u0458\u0430\u043c \u0440\u0430\u0446\u0435\u0442\u0435?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "\u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "\u041a\u043e\u0438 \u0441\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0441\u043a\u0438 \u043b\u0438\u043d\u0438\u0438 \u0437\u0430 \u043f\u043e\u043c\u043e\u0448"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "\u041f\u0440\u0438\u0458\u0430\u0432\u0435\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 / \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "\u0411"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "\u0412"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "\u0413"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "\u0414"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "\u0418\u043c\u0430 \u043b\u0438 \u0432\u0430\u043a\u0446\u0438\u043d\u0430?",
+              "\u041a\u0430\u043a\u0432\u043e \u0435 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435\u0442\u043e?",
+              "\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043c \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438?",
+              "\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043c \u0438\u0431\u0443\u043f\u0440\u043e\u0444\u0435\u043d?",
+              "\u041a\u043e\u043b\u043a\u0443 \u0435 \u043b\u043e\u0448 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?",
+              "\u0428\u0442\u043e \u0435 \u0444\u0438\u0437\u0438\u0447\u043a\u043e \u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u0430\u045a\u0435?"
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "\u041f\u043e\u0432\u0435\u045c\u0435..."
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**\u041c\u043e\u0436\u0435 \u043b\u0438 \u0434\u0430 \u0432\u0438 \u043f\u043e\u043c\u043e\u0433\u043d\u0430\u043c \u0441\u043e \u043d\u0435\u0448\u0442\u043e \u0434\u0440\u0443\u0433\u043e?**"
+            ],
+            "quick_replies": [
+              "\u041d\u0435, \u0437\u0430\u0432\u0440\u0448\u0438\u0432",
+              "\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c?",
+              "\u0422\u0440\u0435\u0431\u0430 \u043b\u0438 \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?",
+              "\u041a\u0430\u043a\u043e \u0434\u0430 \u0433\u0438 \u043c\u0438\u0458\u0430\u043c \u0440\u0430\u0446\u0435\u0442\u0435?",
+              "\u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442",
+              "\u041a\u043e\u0438 \u0441\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435?",
+              "\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u0441\u043a\u0430 \u043b\u0438\u043d\u0438\u0458\u0430 \u0437\u0430 \u043f\u043e\u043c\u043e\u0448",
+              "\u041f\u0440\u0438\u0458\u0430\u0432\u0435\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 / \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438",
+              "\u041f\u043e\u0432\u0435\u045c\u0435..."
+            ]
+          }
+        },
+        "tur": {
+          "f62f80d5-aaeb-42ec-88df-37110b2f89dc": {
+            "text": [
+              "Size ba\u015fka bir konuda yard\u0131mc\u0131 olabilir miyim?\n\nA.\tHay\u0131r, te\u015fekk\u00fcr ederim.\nB.\tVir\u00fcs nas\u0131l yay\u0131l\u0131yor?\nC.\tKendimi nas\u0131l koruyabilirim?\nD.\tMaske kullanmal\u0131 m\u0131y\u0131m?\n"
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "Ek bilgi"
+            ]
+          },
+          "9796eb8f-1d0a-4482-b015-b8359f14aafe": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "33d9c095-846b-4851-9b47-040f47268634": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "5a5096d7-8da1-4f4d-bbd1-d86d74143717": {
+            "text": [
+              "A.\tEllerimi nas\u0131l y\u0131kamal\u0131y\u0131m?\nB.\tVir\u00fcsle ilgili s\u00f6ylentiler nelerdir?\nC.\tSemptomlar nelerdir?\nD.\tDestek hatlar\u0131\nE.\tS\u00f6ylenti/ yalan haber bildir."
+            ],
+            "quick_replies": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          "8ed13dd7-32bd-4c25-8933-2701e104a3d5": {
+            "name": [
+              "Ek bilgi"
+            ]
+          },
+          "79eb9ae9-b73b-40b5-b3b9-5802dea7f678": {
+            "name": [
+              "Vazge\u00e7"
+            ]
+          },
+          "3b259f77-5d96-4854-97cb-6dc534681e1b": {
+            "name": [
+              "Vir\u00fcs nas\u0131l yay\u0131l\u0131yor?"
+            ]
+          },
+          "9a674f6c-9ea9-4636-bde7-8e58eda869a7": {
+            "name": [
+              "Kendimi nas\u0131l koruyabilirim?"
+            ]
+          },
+          "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16": {
+            "name": [
+              "Maske kullanmal\u0131 m\u0131y\u0131m?"
+            ]
+          },
+          "588d3899-fc09-47b2-b5bd-14b2f5d8511d": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "677c58e5-88eb-4360-910a-dfd7aa03866c": {
+            "arguments": [
+              "Ek bilgi"
+            ]
+          },
+          "3186f212-8c2e-473d-a81f-db3c5e8d0c6f": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "fdb1c264-0756-49e9-af85-767f79aa2967": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "a42f21fc-e778-4f6a-9c9b-12ea39857f2e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "3963bd28-e668-40a9-9683-bb50cb47366d": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "ae06c013-b31f-4b60-ae75-17be33e35137": {
+            "text": [
+              "**Size ba\u015fka bir konuda yard\u0131mc\u0131 olabilir miyim?**"
+            ],
+            "quick_replies": [
+              "Hay\u0131r, te\u015fekk\u00fcr ederim",
+              "Kendimi nas\u0131l koruyabilirim?",
+              "Maske kullanmal\u0131 m\u0131y\u0131m?",
+              "Ellerimi nas\u0131l y\u0131kamal\u0131y\u0131m?",
+              "Vir\u00fcsle ilgili s\u00f6ylentiler nelerdir?",
+              "Semptomlar nelerdir?",
+              "\u00dclkemde bir KOV\u0130D-19 destek hatt\u0131 mevcut mu?",
+              "E.\tS\u00f6ylenti/ yalan haber bildir",
+              "Ek bilgi..."
+            ]
+          },
+          "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8": {
+            "name": [
+              "Ek bilgi"
+            ]
+          },
+          "9ffac007-a601-4f22-8155-367d918c7dd0": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40": {
+            "arguments": [
+              "Ek bilgi"
+            ]
+          },
+          "987d5d38-a125-4ad1-8c52-8852ec5b70e4": {
+            "arguments": [
+              "Ek bilgi"
+            ]
+          },
+          "1cbcea33-183d-4db4-a95b-e2222a62ac13": {
+            "text": [
+              "@(\"\")"
+            ],
+            "quick_replies": [
+              "A\u015f\u0131s\u0131 var m\u0131?",
+              "Tedavisi nedir?",
+              "Antibiyotik kullanabililr miyim?",
+              "\u0130buprofen kullanabilir miyim?",
+              "Vir\u00fcs ne kadar etkili?",
+              "Fiziksel mesafe nedir?"
+            ]
+          },
+          "f9bdf5f0-7d10-4c55-acf0-35e717ece55d": {
+            "name": [
+              "Ellerimi nas\u0131l y\u0131kamal\u0131y\u0131m?"
+            ]
+          },
+          "3610fe23-5e0f-4550-b6db-f96485a6bd30": {
+            "name": [
+              "Vir\u00fcsle ilgili s\u00f6ylentiler nelerdir?"
+            ]
+          },
+          "85bcf979-09dd-4563-aeba-0c4dd53c8af4": {
+            "name": [
+              "Semptomlar nelerdir?"
+            ]
+          },
+          "3002032e-c7dd-43cf-89ff-466e4723a493": {
+            "name": [
+              "Destek hatlar\u0131"
+            ]
+          },
+          "6b37a1b8-ddd9-4fec-bd72-f353487fb66b": {
+            "name": [
+              "S\u00f6ylenti/ yalan haber bildir"
+            ]
+          },
+          "47c1d3e1-9e36-4eca-9f97-456eecbd5d11": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e": {
+            "arguments": [
+              "a"
+            ]
+          },
+          "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b": {
+            "arguments": [
+              "b"
+            ]
+          },
+          "7e111d16-4145-4287-83fb-c1c4a05d602e": {
+            "arguments": [
+              "c"
+            ]
+          },
+          "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56": {
+            "arguments": [
+              "d"
+            ]
+          },
+          "be450208-b179-41b4-b09c-28361d27b5ef": {
+            "arguments": [
+              "e"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "21c43166-d226-4cfa-a9e7-fba566d0adb3",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "33d9c095-846b-4851-9b47-040f47268634",
+            "cases": [
+              {
+                "arguments": [
+                  "Telegram"
+                ],
+                "type": "has_any_word",
+                "uuid": "c10b383b-9cf9-4d0f-933e-a68da34306ce",
+                "category_uuid": "9796eb8f-1d0a-4482-b015-b8359f14aafe"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "9796eb8f-1d0a-4482-b015-b8359f14aafe",
+                "name": "Telegram",
+                "exit_uuid": "6b04acb9-7e5b-41e2-b474-608ee9b6aa6f"
+              },
+              {
+                "uuid": "33d9c095-846b-4851-9b47-040f47268634",
+                "name": "Other",
+                "exit_uuid": "219fe92a-64cf-44d4-808e-2851fe96eff5"
+              }
+            ],
+            "operand": "@contact.channel"
+          },
+          "exits": [
+            {
+              "uuid": "6b04acb9-7e5b-41e2-b474-608ee9b6aa6f",
+              "destination_uuid": "dfd45e34-9dbd-42eb-b00a-3c8140ea565c"
+            },
+            {
+              "uuid": "219fe92a-64cf-44d4-808e-2851fe96eff5",
+              "destination_uuid": "79f4e1ad-01c1-43ba-992f-0d3bee6c7a83"
+            }
+          ]
+        },
+        {
+          "uuid": "dfd45e34-9dbd-42eb-b00a-3c8140ea565c",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Can I help you with something else?\n\nA - No, I'm done.\nB - How does the virus spread?\nC - How can I protect myself?\nD - Should I wear a mask?",
+              "type": "send_msg",
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "More"
+              ],
+              "uuid": "f62f80d5-aaeb-42ec-88df-37110b2f89dc"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "9cac4b0c-5a1d-49f7-a2ea-900e1c79a35b",
+              "destination_uuid": "992f9b51-0e7e-484e-af27-0d5d9f6a6bb5"
+            }
+          ]
+        },
+        {
+          "uuid": "79f4e1ad-01c1-43ba-992f-0d3bee6c7a83",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "**Can I help you with something else? **",
+              "type": "send_msg",
+              "quick_replies": [
+                "No, I'm done",
+                "How can I protect myself?",
+                "Should I wear a mask?",
+                "How should I wash hands?",
+                "What are the myths?",
+                "What are the symptoms?",
+                "Which is the COVID-19 hotline in my country?",
+                "Report rumours or fake news",
+                "More\u2026"
+              ],
+              "uuid": "ae06c013-b31f-4b60-ae75-17be33e35137"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "e49f0db1-6505-4c9f-bb8f-82e2684d0d34",
+              "destination_uuid": "16462019-abe6-4cba-a202-a297041a4b77"
+            }
+          ]
+        },
+        {
+          "uuid": "992f9b51-0e7e-484e-af27-0d5d9f6a6bb5",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "588d3899-fc09-47b2-b5bd-14b2f5d8511d",
+            "cases": [
+              {
+                "arguments": [
+                  "more"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "677c58e5-88eb-4360-910a-dfd7aa03866c",
+                "category_uuid": "8ed13dd7-32bd-4c25-8933-2701e104a3d5"
+              },
+              {
+                "arguments": [
+                  "a"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "3186f212-8c2e-473d-a81f-db3c5e8d0c6f",
+                "category_uuid": "79eb9ae9-b73b-40b5-b3b9-5802dea7f678"
+              },
+              {
+                "arguments": [
+                  "b"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "fdb1c264-0756-49e9-af85-767f79aa2967",
+                "category_uuid": "3b259f77-5d96-4854-97cb-6dc534681e1b"
+              },
+              {
+                "arguments": [
+                  "c"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "a42f21fc-e778-4f6a-9c9b-12ea39857f2e",
+                "category_uuid": "9a674f6c-9ea9-4636-bde7-8e58eda869a7"
+              },
+              {
+                "arguments": [
+                  "d"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "3963bd28-e668-40a9-9683-bb50cb47366d",
+                "category_uuid": "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "8ed13dd7-32bd-4c25-8933-2701e104a3d5",
+                "name": "More",
+                "exit_uuid": "dd8da421-6d37-44a0-b02a-49dcf6e7bb37"
+              },
+              {
+                "uuid": "79eb9ae9-b73b-40b5-b3b9-5802dea7f678",
+                "name": "Quit",
+                "exit_uuid": "40d882a9-a905-4dde-a22e-106a8668f486"
+              },
+              {
+                "uuid": "3b259f77-5d96-4854-97cb-6dc534681e1b",
+                "name": "How does the virus spread?",
+                "exit_uuid": "72c466dd-c966-4588-aa66-64c8960aae51"
+              },
+              {
+                "uuid": "9a674f6c-9ea9-4636-bde7-8e58eda869a7",
+                "name": "How can I protect myself?",
+                "exit_uuid": "98b955e5-d4d0-45b8-8254-e98de9f1902a"
+              },
+              {
+                "uuid": "e7c87cb7-5fc1-49a9-87b2-b6d73cc0eb16",
+                "name": "Should I wear a mask?",
+                "exit_uuid": "03b587d4-5cca-40bd-9948-27abb8c5eb33"
+              },
+              {
+                "uuid": "588d3899-fc09-47b2-b5bd-14b2f5d8511d",
+                "name": "Other",
+                "exit_uuid": "c5b57c7d-9556-442e-ba9f-e2ffea8f7762"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "message"
+          },
+          "exits": [
+            {
+              "uuid": "dd8da421-6d37-44a0-b02a-49dcf6e7bb37",
+              "destination_uuid": "e0a787a7-1f53-4b8a-a148-5c80fb64380e"
+            },
+            {
+              "uuid": "40d882a9-a905-4dde-a22e-106a8668f486",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "72c466dd-c966-4588-aa66-64c8960aae51",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "98b955e5-d4d0-45b8-8254-e98de9f1902a",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "03b587d4-5cca-40bd-9948-27abb8c5eb33",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "c5b57c7d-9556-442e-ba9f-e2ffea8f7762",
+              "destination_uuid": "682af191-682f-4183-872c-6921978336da"
+            }
+          ]
+        },
+        {
+          "uuid": "e0a787a7-1f53-4b8a-a148-5c80fb64380e",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "A - How should I wash hands?\nB - Myths about the virus.\nC - What are the symptoms?\nD - Hotlines.\nE - Report rumours / fake news",
+              "type": "send_msg",
+              "quick_replies": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+              ],
+              "uuid": "5a5096d7-8da1-4f4d-bbd1-d86d74143717"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "6d5f6077-b6a0-4b14-aecd-0a46f5287da5",
+              "destination_uuid": "595f3f13-8d35-4d31-b7a3-be5e0cb63714"
+            }
+          ]
+        },
+        {
+          "uuid": "682af191-682f-4183-872c-6921978336da",
+          "actions": [
+            {
+              "uuid": "8f1fea4e-8e12-4ea4-a3ec-a305644a4eff",
+              "type": "set_contact_field",
+              "field": {
+                "key": "message",
+                "name": "Message"
+              },
+              "value": "@input.text"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "4dfb3e97-534b-4792-9939-e2e9f38934f7",
+              "destination_uuid": "3b3045dd-0037-43e7-8541-672ed182e5e3"
+            }
+          ]
+        },
+        {
+          "uuid": "16462019-abe6-4cba-a202-a297041a4b77",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "9ffac007-a601-4f22-8155-367d918c7dd0",
+            "cases": [
+              {
+                "arguments": [
+                  "More"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "d93f68c0-7bda-45ad-b5f2-8db0eb9fbe40",
+                "category_uuid": "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8"
+              },
+              {
+                "arguments": [
+                  "more..."
+                ],
+                "type": "has_only_phrase",
+                "uuid": "987d5d38-a125-4ad1-8c52-8852ec5b70e4",
+                "category_uuid": "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "dfe1f104-c4b9-4398-8f7f-39d22fd59cc8",
+                "name": "More",
+                "exit_uuid": "7a24ab52-bb37-4ab5-a294-7ef099e3c13e"
+              },
+              {
+                "uuid": "9ffac007-a601-4f22-8155-367d918c7dd0",
+                "name": "Other",
+                "exit_uuid": "cb782735-093a-484c-ae37-a14a6ea0c0f3"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "more"
+          },
+          "exits": [
+            {
+              "uuid": "7a24ab52-bb37-4ab5-a294-7ef099e3c13e",
+              "destination_uuid": "e4b40c7a-f915-45e4-acc4-054629aba9f0"
+            },
+            {
+              "uuid": "cb782735-093a-484c-ae37-a14a6ea0c0f3",
+              "destination_uuid": "682af191-682f-4183-872c-6921978336da"
+            }
+          ]
+        },
+        {
+          "uuid": "3b3045dd-0037-43e7-8541-672ed182e5e3",
+          "actions": [
+            {
+              "uuid": "ca8bbba9-14e2-4558-8f15-5c019bb35edc",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "bea89f01-5ea1-4720-8d32-62e509e924aa",
+                "name": "Classifier"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "51747ad4-4b7d-4143-8e68-ff99093b02fa",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "849dfa22-db6f-44f6-aab4-3c1f0c9d9eb1"
+              },
+              {
+                "uuid": "12dc3fdc-2eff-42d1-9049-9920930d6622",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "547d84c0-8fbc-4f69-9605-c19674479f0b"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "849dfa22-db6f-44f6-aab4-3c1f0c9d9eb1",
+                "name": "Complete",
+                "exit_uuid": "f398abaf-09ad-47e3-9b2d-8f4cf03b9117"
+              },
+              {
+                "uuid": "547d84c0-8fbc-4f69-9605-c19674479f0b",
+                "name": "Expired",
+                "exit_uuid": "2f910884-12ec-497b-8f80-3da90c96e62d"
+              }
+            ],
+            "default_category_uuid": "547d84c0-8fbc-4f69-9605-c19674479f0b"
+          },
+          "exits": [
+            {
+              "uuid": "f398abaf-09ad-47e3-9b2d-8f4cf03b9117",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "2f910884-12ec-497b-8f80-3da90c96e62d",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "595f3f13-8d35-4d31-b7a3-be5e0cb63714",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "47c1d3e1-9e36-4eca-9f97-456eecbd5d11",
+            "cases": [
+              {
+                "arguments": [
+                  "a"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "69ab5d6b-ec21-41b5-b51e-b5e5f3f0a64e",
+                "category_uuid": "f9bdf5f0-7d10-4c55-acf0-35e717ece55d"
+              },
+              {
+                "arguments": [
+                  "b"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "f94c50a1-4fed-4eb4-b22b-75cfdedfeb1b",
+                "category_uuid": "3610fe23-5e0f-4550-b6db-f96485a6bd30"
+              },
+              {
+                "arguments": [
+                  "c"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "7e111d16-4145-4287-83fb-c1c4a05d602e",
+                "category_uuid": "85bcf979-09dd-4563-aeba-0c4dd53c8af4"
+              },
+              {
+                "arguments": [
+                  "d"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "e77d8ad3-f0cd-4bf4-a0f6-183d4e006d56",
+                "category_uuid": "3002032e-c7dd-43cf-89ff-466e4723a493"
+              },
+              {
+                "arguments": [
+                  "e"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "be450208-b179-41b4-b09c-28361d27b5ef",
+                "category_uuid": "6b37a1b8-ddd9-4fec-bd72-f353487fb66b"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "f9bdf5f0-7d10-4c55-acf0-35e717ece55d",
+                "name": "How should I wash hands?",
+                "exit_uuid": "816a69f0-b2ec-46cb-ae4d-a2db169b78e9"
+              },
+              {
+                "uuid": "3610fe23-5e0f-4550-b6db-f96485a6bd30",
+                "name": "Myths about the virus",
+                "exit_uuid": "b4117865-9fd1-4393-bbbc-608cdc6860c4"
+              },
+              {
+                "uuid": "85bcf979-09dd-4563-aeba-0c4dd53c8af4",
+                "name": "What are the symptoms?",
+                "exit_uuid": "f48b56d5-fdc9-41dc-a883-7dad1455091e"
+              },
+              {
+                "uuid": "3002032e-c7dd-43cf-89ff-466e4723a493",
+                "name": "Hotlines",
+                "exit_uuid": "338e3435-0648-4b96-a87c-c946db2df900"
+              },
+              {
+                "uuid": "6b37a1b8-ddd9-4fec-bd72-f353487fb66b",
+                "name": "Report rumors / fake news",
+                "exit_uuid": "9a25a8d1-9505-4d01-995b-bdee11649ba0"
+              },
+              {
+                "uuid": "47c1d3e1-9e36-4eca-9f97-456eecbd5d11",
+                "name": "Other",
+                "exit_uuid": "18cea0cf-2916-40af-86f6-a9cdb253019a"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "message"
+          },
+          "exits": [
+            {
+              "uuid": "816a69f0-b2ec-46cb-ae4d-a2db169b78e9",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "b4117865-9fd1-4393-bbbc-608cdc6860c4",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "f48b56d5-fdc9-41dc-a883-7dad1455091e",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "338e3435-0648-4b96-a87c-c946db2df900",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "9a25a8d1-9505-4d01-995b-bdee11649ba0",
+              "destination_uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26"
+            },
+            {
+              "uuid": "18cea0cf-2916-40af-86f6-a9cdb253019a",
+              "destination_uuid": "682af191-682f-4183-872c-6921978336da"
+            }
+          ]
+        },
+        {
+          "uuid": "e4b40c7a-f915-45e4-acc4-054629aba9f0",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "@(\"\")",
+              "type": "send_msg",
+              "quick_replies": [
+                "Is there a vaccine?",
+                "What is the treatment?",
+                "Can I use antibiotics?",
+                "Can I use ibuprofen?",
+                "How bad is the virus?",
+                "What\u2019s physical distancing?"
+              ],
+              "uuid": "1cbcea33-183d-4db4-a95b-e2222a62ac13"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "08121bd5-0e43-493f-96b7-0a9d6eedb04d",
+              "destination_uuid": "16462019-abe6-4cba-a202-a297041a4b77"
+            }
+          ]
+        },
+        {
+          "uuid": "f7fae7e8-702a-4221-b3c0-9afe7628ff26",
+          "actions": [
+            {
+              "uuid": "98692750-1088-4f96-b4eb-31a104a76a89",
+              "type": "set_contact_field",
+              "field": {
+                "key": "message",
+                "name": "Message"
+              },
+              "value": "@results.message.category"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "22394ba5-0afb-4306-939e-1103b0a5ad14",
+              "destination_uuid": "3b3045dd-0037-43e7-8541-672ed182e5e3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

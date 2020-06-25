@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "8a94cf48-295c-4da8-9c7f-a9180c9647ec": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "Todav\u00eda no hay evidencia suficiente para saber si el virus est\u00e1 cambiando."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "Esto se est\u00e1 observando y se continuar\u00e1 haciendo un seguimiento a lo largo del tiempo. "
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "A medida que los pa\u00edses suministren m\u00e1s informaci\u00f3n a la OMS, podremos proporcionar m\u00e1s an\u00e1lisis."
+            ]
+          }
+        },
+        "ell": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03b1\u03ba\u03cc\u03bc\u03b7 \u03b1\u03c1\u03ba\u03b5\u03c4\u03ac \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03b1\u03bd \u03bf \u03b9\u03cc\u03c2 \u03bc\u03b5\u03c4\u03b1\u03bb\u03bb\u03ac\u03c3\u03c3\u03b5\u03c4\u03b1\u03b9. "
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "\u0397 \u03b5\u03be\u03ad\u03bb\u03b9\u03be\u03b7 \u03c4\u03bf\u03c5 \u03b9\u03bf\u03cd \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b1\u03b9 \u03b8\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c5\u03c0\u03cc \u03c0\u03b1\u03c1\u03b1\u03ba\u03bf\u03bb\u03bf\u03cd\u03b8\u03b7\u03c3\u03b7."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u039c\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b1\u03bd\u03ac\u03bb\u03c5\u03c3\u03b7 \u03b8\u03b1 \u03bc\u03c0\u03bf\u03c1\u03ad\u03c3\u03bf\u03c5\u03bc\u03b5 \u03bd\u03b1 \u03b4\u03ce\u03c3\u03bf\u03c5\u03bc\u03b5 \u03b1\u03c1\u03b3\u03cc\u03c4\u03b5\u03c1\u03b1, \u03ba\u03b1\u03b8\u03ce\u03c2 \u03bf\u03b9 \u03c7\u03ce\u03c1\u03b5\u03c2 \u03c0\u03b1\u03c1\u03ad\u03c7\u03bf\u03c5\u03bd \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1 \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03c3\u03c4\u03bf\u03bd \u03a0\u039f\u03a5."
+            ]
+          }
+        },
+        "rus": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "\u041f\u043e\u043a\u0430 \u043d\u0435\u0442 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0445 \u0434\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432 \u0442\u043e\u0433\u043e, \u0447\u0442\u043e \u0432\u0438\u0440\u0443\u0441 \u043c\u043e\u0436\u0435\u0442 \u043c\u0435\u043d\u044f\u0442\u044c\u0441\u044f."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "\u0417\u0430 \u044d\u0442\u0438\u043c \u0441\u043b\u0435\u0434\u044f\u0442 \u0438 \u0431\u0443\u0434\u0443\u0442 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0442\u044c \u043d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u0432 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u043c."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u0412\u041e\u0417 \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0435 \u0438\u0437 \u0440\u0430\u0437\u043d\u044b\u0445 \u0441\u0442\u0440\u0430\u043d, \u044d\u0442\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0431\u0443\u0434\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0430 \u0434\u043b\u044f \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0438\u0445 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0439."
+            ]
+          }
+        },
+        "ita": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "Non ci sono dati sufficienti che confermino la mutazione del virus. "
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "\u00c8 in corso un monitoraggio costante per seguire l\u2019evoluzione del virus nel corso dell\u2019epidemia."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "Man mano che i governi nazionali condividono le proprie informazioni con l\u2019Organizzazione Mondiale della Sanit\u00e0 (OMS), saremo in grado di fornire ulteriori analisi."
+            ]
+          }
+        },
+        "kaz": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0442\u044b\u04a3 \u04e9\u0437\u0433\u0435\u0440\u0435\u0442\u0456\u043d\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u0434\u04d9\u043b\u0435\u043b\u0434\u0435\u0440 \u0436\u0435\u0442\u043a\u0456\u043b\u0456\u043a\u0442\u0456 \u0435\u043c\u0435\u0441."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "\u0411\u04b1\u043b \u043c\u04d9\u0441\u0435\u043b\u0435 \u0431\u0430\u049b\u044b\u043b\u0430\u043d\u044b\u043f \u0436\u0430\u0442\u044b\u0440, \u0436\u04d9\u043d\u0435 \u04d9\u0440\u0456 \u049b\u0430\u0440\u0430\u0439 \u0431\u0430\u049b\u044b\u043b\u0430\u043d\u0430\u0442\u044b\u043d \u0431\u043e\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u0414\u04af\u043d\u0438\u0435\u0436\u04af\u0437\u0456\u043b\u0456\u043a \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b \u0441\u0430\u049b\u0442\u0430\u0443 \u04b1\u0439\u044b\u043c\u044b\u043d\u0430 \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u0430\u049b\u043f\u0430\u0440\u0430\u0442 \u0431\u0435\u0440\u0433\u0435\u043d \u0435\u043b\u0434\u0435\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u0437 \u043a\u04e9\u0431\u0456\u0440\u0435\u043a \u0442\u0430\u043b\u0434\u0430\u0443 \u0436\u0430\u0441\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u0437."
+            ]
+          }
+        },
+        "por": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "Ainda n\u00e3o h\u00e1 evid\u00eancias suficientes para saber se o v\u00edrus est\u00e1 mudando."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "Isso est\u00e1 sendo observado e continuar\u00e1 sendo monitorado ao longo do tempo."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u00c0 medida que os pa\u00edses fornecerem mais informa\u00e7\u00f5es \u00e0 OMS, poderemos fornecer mais an\u00e1lises."
+            ]
+          }
+        },
+        "mkd": {
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "\u0421\u00e8 \u0443\u0448\u0442\u0435 \u043d\u0435\u043c\u0430 \u0434\u043e\u0432\u043e\u043b\u043d\u043e \u0434\u043e\u043a\u0430\u0437\u0438 \u0437\u0430 \u0434\u0430 \u0441\u0435 \u0437\u043d\u0430\u0435 \u0434\u0430\u043b\u0438 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u0441\u0435 \u043c\u0435\u043d\u0443\u0432\u0430."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "\u041e\u0432\u0430 \u0441\u0435 \u043d\u0430\u0431\u0459\u0443\u0434\u0443\u0432\u0430 \u0438 \u043d\u0430\u0442\u0430\u043c\u0443 \u045c\u0435 \u0441\u0435 \u0441\u043b\u0435\u0434\u0438 \u0441\u043e \u0442\u0435\u043a\u043e\u0442 \u043d\u0430 \u0432\u0440\u0435\u043c\u0435\u0442\u043e."
+            ]
+          },
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u0421\u043e \u043f\u043e\u0432\u0435\u045c\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0448\u0442\u043e \u0437\u0435\u043c\u0458\u0438\u0442\u0435 \u0433\u0438 \u0434\u043e\u0441\u0442\u0430\u0432\u0443\u0432\u0430\u0430\u0442 \u0434\u043e \u0421\u0417\u041e, \u045c\u0435 \u043c\u043e\u0436\u0435\u043c\u0435 \u0434\u0430 \u043d\u0430\u043f\u0440\u0430\u0432\u0438\u043c\u0435 \u043f\u043e\u0432\u0435\u045c\u0435 \u0430\u043d\u0430\u043b\u0438\u0437\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1": {
+            "text": [
+              "\u00dclkeler DS\u00d6\u2019ye daha fazla bilgi sa\u011flad\u0131k\u00e7a daha fazla analiz sa\u011flayabilece\u011fiz."
+            ]
+          },
+          "91e53a27-43d5-4feb-801d-c92700ccc71d": {
+            "text": [
+              "Bu konuda takip devam etmektedir ve zamanla izlenmeye devam edilecektir."
+            ]
+          },
+          "accbb181-a0b9-4b2e-bd1d-87754b54be0b": {
+            "text": [
+              "Vir\u00fcs\u00fcn de\u011fi\u015fip de\u011fi\u015fmedi\u011fini tespit etmek i\u00e7in hen\u00fcz yeteri kadar kan\u0131t elde edilememi\u015ftir."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 31
+      },
+      "name": "Mutation",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "39e34125-e68e-48ba-8845-a483b408a548",
+      "revision": 34,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "There is not yet enough evidence to know if the virus is changing.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "accbb181-a0b9-4b2e-bd1d-87754b54be0b"
+            },
+            {
+              "attachments": [],
+              "text": "This is being watched and will continue to be monitored over time.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "91e53a27-43d5-4feb-801d-c92700ccc71d"
+            },
+            {
+              "attachments": [],
+              "text": "As countries supply WHO more information we will be able to supply more analysis.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "d0c718b6-5b74-4ca2-80b0-dd5d28f0c6a1"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "3bb6ee3f-2d84-484d-a1af-75d561562950"
+            }
+          ],
+          "uuid": "8a94cf48-295c-4da8-9c7f-a9180c9647ec"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Myths - Antibiotics",
+      "uuid": "61862995-d34b-4118-b3f5-db1489002a52",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "65e6ef30-f32e-40dd-b562-2b7dec2fd018": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 45,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 42
+      },
+      "localization": {
+        "por": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "N\u00e3o, os antibi\u00f3ticos n\u00e3o funcionam contra v\u00edrus, apenas bact\u00e9rias."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "O novo coronav\u00edrus \u00e9 um v\u00edrus e, por isso, antibi\u00f3ticos n\u00e3o devem ser usados \u200b\u200bpara preven\u00e7\u00e3o ou tratamento."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "Mas se voc\u00ea estiver hospitalizado, poder\u00e1 receber antibi\u00f3ticos para evitar a co-infec\u00e7\u00e3o bacteriana."
+            ]
+          }
+        },
+        "rus": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "\u041d\u0435\u0442, \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0438\u0440\u0443\u0441\u043e\u0432 \u043d\u0435 \u0434\u0435\u0439\u0441\u0442\u0432\u0443\u044e\u0442. \u041e\u043d\u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u043b\u0435\u0447\u0438\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "\u041d\u043e\u0432\u044b\u0439 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u2013 \u044d\u0442\u043e \u0432\u0438\u0440\u0443\u0441, \u0438, \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e, \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438 \u043d\u0435 \u043f\u043e\u043c\u043e\u0433\u0443\u0442 \u043d\u0438 \u0434\u043b\u044f \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438, \u043d\u0438 \u0434\u043b\u044f \u043b\u0435\u0447\u0435\u043d\u0438\u044f \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "\u0422\u0435\u043c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435, \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0430\u043c, \u0433\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c \u0441 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0435\u0439, \u043c\u043e\u0433\u0443\u0442 \u043d\u0430\u0437\u043d\u0430\u0447\u0430\u0442\u044c \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438 \u0434\u043b\u044f \u043b\u0435\u0447\u0435\u043d\u0438\u044f \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0445 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0439."
+            ]
+          }
+        },
+        "spa": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "No, los antibi\u00f3ticos no funcionan contra virus, solo bacterias."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "El nuevo coronavirus es un virus y, por eso, los antibi\u00f3ticos no deben usarse para prevenci\u00f3n o tratamiento."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "Pero si es hospitalizado, puede recibir antibi\u00f3ticos para prevenir la coinfecci\u00f3n bacteriana."
+            ]
+          }
+        },
+        "ell": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "\u038c\u03c7\u03b9. \u03a4\u03b1 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03b4\u03b5\u03bd \u03b5\u03c0\u03b9\u03b4\u03c1\u03bf\u03c5\u03bd \u03c3\u03b5 \u03b9\u03bf\u03cd\u03c2, \u03bc\u03cc\u03bd\u03bf \u03c3\u03b5 \u03b2\u03b1\u03ba\u03c4\u03ae\u03c1\u03b9\u03b1."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "\u039f \u03bd\u03ad\u03bf\u03c2 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b9\u03cc\u03c2, \u03b3\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c7\u03bf\u03c1\u03b7\u03b3\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03b3\u03b9\u03b1 \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7 \u03ae \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "\u03a9\u03c3\u03c4\u03cc\u03c3\u03bf, \u03c3\u03c4\u03b7\u03bd \u03c0\u03b5\u03c1\u03af\u03c0\u03c4\u03c9\u03c3\u03b7 \u03bd\u03bf\u03c3\u03b7\u03bb\u03b5\u03af\u03b1\u03c2 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03bf\u03c1\u03b7\u03b3\u03b7\u03b8\u03bf\u03cd\u03bd \u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7 \u03c4\u03b1\u03c5\u03c4\u03cc\u03c7\u03c1\u03bf\u03bd\u03b7\u03c2 \u03bb\u03bf\u03af\u03bc\u03c9\u03be\u03b7\u03c2 \u03b1\u03c0\u03cc \u03b2\u03b1\u03ba\u03c4\u03ae\u03c1\u03b9\u03b1."
+            ]
+          }
+        },
+        "ita": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "No, gli antibiotici non funzionano contro i virus, ma solo contro i batteri."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "Il nuovo coronavirus \u00e8 un virus e, per questo motivo, gli antibiotici non dovrebbero essere usati per la prevenzione o il trattamento."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "Tuttavia, se si \u00e8 ricoverati in ospedale, il personale sanitario potrebbe decidere di somministrare degli antibiotici, per prevenire un eventuale contagio batterico."
+            ]
+          }
+        },
+        "kaz": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "\u0416\u043e\u049b, \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440 \u0432\u0438\u0440\u0443\u0441\u049b\u0430 \u049b\u0430\u0440\u0441\u044b \u043a\u04af\u0440\u0435\u0441\u0435 \u0430\u043b\u043c\u0430\u0439\u0434\u044b; \u043e\u043b\u0430\u0440 \u0442\u0435\u043a \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u044f\u043b\u0430\u0440\u043c\u0435\u043d \u0493\u0430\u043d\u0430 \u043a\u04af\u0440\u0435\u0441\u0435 \u0430\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "\u0416\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0432\u0438\u0440\u0443\u0441 \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u0430\u0434\u044b, \u0441\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440\u0434\u0456 \u043e\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d-\u0430\u043b\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u043d\u044b \u0435\u043c\u0434\u0435\u0443 \u04af\u0448\u0456\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0493\u0430 \u0431\u043e\u043b\u043c\u0430\u0439\u0434\u044b."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "\u0415\u0433\u0435\u0440 \u0441\u0456\u0437\u0434\u0456 \u0430\u0443\u0440\u0443\u0445\u0430\u043d\u0430\u0493\u0430 \u0436\u0430\u0442\u049b\u044b\u0437\u0441\u0430, \u0441\u0456\u0437 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0430\u043b\u0434\u044b \u0431\u0456\u0440\u043b\u0435\u0441\u043a\u0435\u043d \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d-\u0430\u043b\u0443 \u04af\u0448\u0456\u043d \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440 \u0430\u043b\u0430\u0441\u044b\u0437."
+            ]
+          }
+        },
+        "mkd": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "\u041d\u0435, \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438\u0442\u0435 \u043d\u0435 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u0430\u0430\u0442 \u043f\u0440\u043e\u0442\u0438\u0432 \u0432\u0438\u0440\u0443\u0441\u0438, \u0441\u0430\u043c\u043e \u043f\u0440\u043e\u0442\u0438\u0432 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0438."
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "\u041d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441 \u0435 \u0432\u0438\u0440\u0443\u0441, \u043f\u0430 \u0437\u0430\u0442\u043e\u0430 \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438\u0442\u0435 \u043d\u0435 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0441\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0430\u0442 \u0437\u0430 \u043f\u0440\u0435\u0432\u0435\u043d\u0446\u0438\u0458\u0430 \u0438\u043b\u0438 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "\u041d\u043e, \u0430\u043a\u043e \u0441\u0442\u0435 \u0445\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u0430\u043d\u0438, \u043c\u043e\u0436\u0435 \u0434\u0430 \u0434\u043e\u0431\u0438\u0435\u0442\u0435 \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438 \u0437\u0430 \u0434\u0430 \u0441\u0435 \u0441\u043f\u0440\u0435\u0447\u0438 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u043a\u0430 \u043a\u043e\u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430"
+            ]
+          }
+        },
+        "tur": {
+          "e2d5b92e-5c1d-4287-8752-741f85425bd1": {
+            "text": [
+              "Hay\u0131r, antibiyotikler vir\u00fcslere kar\u015f\u0131 etki etmez, yaln\u0131zca bakterilere kar\u015f\u0131 eder. "
+            ]
+          },
+          "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0": {
+            "text": [
+              "Yeni koronavir\u00fcs bir vir\u00fcst\u00fcr ve bu nedenle antibiyotikler \u00f6nleme ya da tedavi amac\u0131yla kullan\u0131lmamal\u0131d\u0131r."
+            ]
+          },
+          "6065ea26-8ef7-4ea8-8eba-28b46e5bab28": {
+            "text": [
+              "Ancak hastaneye yat\u0131r\u0131lman\u0131z durumunda bakteriyel koenfeksiyonu engellemeye y\u00f6nelik antibiyotik alabilirsiniz."
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "65e6ef30-f32e-40dd-b562-2b7dec2fd018",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "No, antibiotics do not work against viruses, only bacteria.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e2d5b92e-5c1d-4287-8752-741f85425bd1"
+            },
+            {
+              "attachments": [],
+              "text": "The new coronavirus is a virus and, that\u2019s why, antibiotics should not be used for prevention or treatment.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "8cd8f1d0-e2a0-4083-88e3-ebbf354d18f0"
+            },
+            {
+              "attachments": [],
+              "text": "But if you are hospitalized you may receive antibiotics to prevent bacterial co-infection.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "6065ea26-8ef7-4ea8-8eba-28b46e5bab28"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "164bbd68-679a-4f0a-8974-3e70fcdfb6ab",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

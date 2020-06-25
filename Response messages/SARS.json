@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "SARS",
+      "uuid": "c29460c7-506c-469b-9232-eae7f4cea946",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "1fd3cf0f-e4ad-4f66-9c0f-97eca8be7d57": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 35,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 33
+      },
+      "localization": {
+        "por": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "N\u00e3o. Embora o v\u00edrus causador do COVID-19 e o causador do surto de SARS (S\u00edndrome Respirat\u00f3ria Aguda Grave) em 2003 perten\u00e7am \u00e0 mesma fam\u00edlia, as doen\u00e7as causadas s\u00e3o diferentes."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "N\u00e3o houve surtos de SARS em nenhum lugar do mundo desde 2003."
+            ]
+          }
+        },
+        "rus": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "\u041d\u0435\u0442. \u043d\u0435\u0441\u043c\u043e\u0442\u0440\u044f \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0432\u0438\u0440\u0443\u0441, \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0449\u0438\u0439 COVID-19, \u0438 \u0432\u0438\u0440\u0443\u0441, \u0432\u044b\u0437\u0432\u0430\u0432\u0448\u0438\u0439 \u0432\u0441\u043f\u044b\u0448\u043a\u0443 SARS (\u0442\u044f\u0436\u0435\u043b\u044b\u0439 \u043e\u0441\u0442\u0440\u044b\u0439 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0438\u043d\u0434\u0440\u043e\u043c) \u0432 2003 \u0433\u043e\u0434\u0443, \u043f\u0440\u0438\u043d\u0430\u0434\u043b\u0435\u0436\u0430\u0442 \u043a \u043e\u0434\u043d\u043e\u043c\u0443 \u0438 \u0442\u043e\u043c\u0443 \u0436\u0435 \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u0443, \u043e\u043d\u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 \u0440\u0430\u0437\u043d\u044b\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "\u0421 2003 \u0433\u043e\u0434\u0430 \u043d\u0438\u0433\u0434\u0435 \u0432 \u043c\u0438\u0440\u0435 \u043d\u0435 \u0431\u044b\u043b\u043e \u0432\u0441\u043f\u044b\u0448\u0435\u043a SARS."
+            ]
+          }
+        },
+        "spa": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "No. El virus que causa la enfermedad COVID-19 y el que caus\u00f3 el SARS en el 2003 pertenecen a la misma familia, pero producen enfermedades diferentes."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "No ha habido ninguna epidemia de SARS en el mundo desde el a\u00f1o 2003."
+            ]
+          }
+        },
+        "ell": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "\u038c\u03c7\u03b9. \u0391\u03bd \u03ba\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2 \u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03b5\u03af \u03c4\u03b7\u03bd \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1 COVID-19 \u03ba\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2 \u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03ba\u03ac\u03bb\u03b5\u03c3\u03b5 \u03c4\u03b7\u03bd \u03ad\u03be\u03b1\u03c1\u03c3\u03b7 \u03c4\u03bf\u03c5 SARS (\u03c3\u03bf\u03b2\u03b1\u03c1\u03cc \u03bf\u03be\u03cd \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03cc \u03c3\u03cd\u03bd\u03b4\u03c1\u03bf\u03bc\u03bf) \u03c4\u03bf 2003 \u03b1\u03bd\u03ae\u03ba\u03bf\u03c5\u03bd \u03c3\u03c4\u03b7\u03bd \u03af\u03b4\u03b9\u03b1 \u03bf\u03b9\u03ba\u03bf\u03b3\u03ad\u03bd\u03b5\u03b9\u03b1, \u03bf\u03b9 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b5\u03c2 \u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03bf\u03cd\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03b5\u03c4\u03b9\u03ba\u03ad\u03c2."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "\u0391\u03c0\u03cc \u03c4\u03bf 2003 \u03b4\u03b5\u03bd \u03ad\u03c7\u03b5\u03b9 \u03c3\u03b7\u03bc\u03b5\u03b9\u03c9\u03b8\u03b5\u03af \u03c0\u03bf\u03c5\u03b8\u03b5\u03bd\u03ac \u03c3\u03c4\u03bf\u03bd \u03ba\u03cc\u03c3\u03bc\u03bf \u03ad\u03be\u03b1\u03c1\u03c3\u03b7 \u03c4\u03bf\u03c5 SARS."
+            ]
+          }
+        },
+        "ita": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "No. I virus che causano la COVID-19 e la SARS appartengono alla stessa famiglia, ma le malattie che ne derivano sono diverse. "
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "Non si registrano epidemie di SARS dal 2003. "
+            ]
+          }
+        },
+        "kaz": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "\u0416\u043e\u049b. \u0410\u043b\u0430\u0439\u0434\u0430, COVID-19-\u0434\u044b\u04a3 \u049b\u043e\u0437\u0434\u044b\u0440\u0493\u044b\u0448 \u0432\u0438\u0440\u0443\u0441\u044b \u0436\u04d9\u043d\u0435 2003 \u0436\u044b\u043b\u044b \u0442\u0430\u0440\u0430\u043b\u0493\u0430\u043d SARS-\u0442\u044b\u04a3 (\u0410\u0443\u044b\u0440 \u0436\u0435\u0434\u0435\u043b \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u0441\u0438\u043d\u0434\u0440\u043e\u043c\u044b) \u049b\u043e\u0437\u0434\u044b\u0440\u0493\u044b\u0448 \u0432\u0438\u0440\u0443\u0441\u044b \u0431\u0456\u0440 \u0442\u043e\u043f\u049b\u0430 \u0436\u0430\u0442\u0430\u0434\u044b, \u0431\u0456\u0440\u0430\u049b \u043e\u043b\u0430\u0440 \u0442\u0443\u0434\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0443\u0440\u0443\u043b\u0430\u0440 \u04d9\u0440\u0442\u04af\u0440\u043b\u0456 \u0431\u043e\u043b\u044b\u043f \u0442\u0430\u0431\u044b\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "2003 \u0436\u044b\u043b\u0434\u0430\u043d \u0431\u0435\u0440\u0456 \u04d9\u043b\u0435\u043c\u0434\u0435 SARS-\u0442\u044b\u04a3 \u0442\u0430\u0440\u0430\u043b\u0443\u044b \u0435\u0448 \u0436\u0435\u0440\u0434\u0435 \u0442\u0456\u0440\u043a\u0435\u043b\u043c\u0435\u0433\u0435\u043d."
+            ]
+          }
+        },
+        "mkd": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "\u041d\u0435. \u0418\u0430\u043a\u043e \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u0448\u0442\u043e \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0443\u0432\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u0438 \u043e\u043d\u043e\u0458 \u0448\u0442\u043e \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0430 \u043f\u043e\u0458\u0430\u0432\u0430 \u043d\u0430 \u0421\u0410\u0420\u0421 (\u0441\u0438\u043b\u0435\u043d \u0430\u043a\u0443\u0442\u0435\u043d \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u0435\u043d \u0441\u0438\u043d\u0434\u0440\u043e\u043c) \u0432\u043e 2003 \u0433\u043e\u0434\u0438\u043d\u0430 \u043f\u0440\u0438\u043f\u0430\u0453\u0430\u0430\u0442 \u043d\u0430 \u0438\u0441\u0442\u0430\u0442\u0430 \u0444\u0430\u043c\u0438\u043b\u0438\u0458\u0430, \u0431\u043e\u043b\u0435\u0441\u0442\u0438\u0442\u0435 \u0448\u0442\u043e \u0433\u0438 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0443\u0432\u0430\u0430\u0442 \u0441\u0435 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438."
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "\u041e\u0434 2003 \u0433\u043e\u0434\u0438\u043d\u0430 \u0434\u043e\u0441\u0435\u0433\u0430 \u043d\u0435\u043c\u0430\u043b\u043e \u043f\u043e\u0458\u0430\u0432\u0430 \u043d\u0430 \u0421\u0410\u0420\u0421."
+            ]
+          }
+        },
+        "tur": {
+          "ca9a11cb-91d0-4325-9e79-f3cc80bd1976": {
+            "text": [
+              "Hay\u0131r. 2003 y\u0131l\u0131nda SARS salg\u0131n\u0131na sebep olan ve KOV\u0130D-19 salg\u0131n\u0131na sebep olan virus ayn\u0131 aileden olmas\u0131na ragmen, sebep olduklar\u0131 hastal\u0131klar farkl\u0131d\u0131r.  "
+            ]
+          },
+          "55a952c2-be12-4d6b-8b3f-53d328274b47": {
+            "text": [
+              "2003 y\u0131l\u0131ndan bu yana d\u00fcnya genelinde SARS\u2019a y\u00f6nelik bir salg\u0131n olmam\u0131\u015ft\u0131r. "
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "1fd3cf0f-e4ad-4f66-9c0f-97eca8be7d57",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "No. While the virus that causes COVID-19 and the one that caused the outbreak of SARS (Severe Acute Respiratory Syndrome) in 2003 belong to the same family, the diseases they cause are different.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "ca9a11cb-91d0-4325-9e79-f3cc80bd1976"
+            },
+            {
+              "attachments": [],
+              "text": "There have been no outbreaks of SARS anywhere in the world since 2003.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "55a952c2-be12-4d6b-8b3f-53d328274b47"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "e808523e-9ebb-42c2-a89c-12f046291b5b",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

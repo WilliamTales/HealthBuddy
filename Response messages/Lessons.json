@@ -1,0 +1,243 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "7cf00677-2297-4523-8be2-b49885f61701": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "Esta pandemia le ha dado al mundo el mensaje de que todos estamos conectados y juntos en esta lucha."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "COVID-19 es una prueba de solidaridad que simplemente no podemos permitirnos fallar. Es crucial que todos cumplamos con los principios de cooperaci\u00f3n, colaboraci\u00f3n y transparencia, y que actuemos sin arrepentimientos."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "La transparencia y el intercambio de informaci\u00f3n son elementos esenciales de la solidaridad."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "Tambi\u00e9n se ha demostrado que la protecci\u00f3n y la preparaci\u00f3n para la salud deben ser una prioridad no solo para las personas sino tambi\u00e9n para los gobiernos. Los pa\u00edses estar\u00e1n mejor preparados para un brote en el futuro."
+            ]
+          }
+        },
+        "ell": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "\u0397 \u03c0\u03b1\u03bd\u03b4\u03b7\u03bc\u03af\u03b1 \u03ad\u03b4\u03c9\u03c3\u03b5 \u03c3\u03c4\u03bf\u03bd \u03ba\u03cc\u03c3\u03bc\u03bf \u03c4\u03bf \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03cc\u03c4\u03b9 \u03cc\u03bb\u03bf\u03b9 \u03c3\u03c5\u03bd\u03b4\u03b5\u03cc\u03bc\u03b1\u03c3\u03c4\u03b5 \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03bc\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03ba\u03b1\u03b9 \u03c3\u03b5 \u03b1\u03c5\u03c4\u03cc\u03bd \u03c4\u03bf\u03bd \u03b1\u03b3\u03ce\u03bd\u03b1 \u03b5\u03af\u03bc\u03b1\u03c3\u03c4\u03b5 \u03bc\u03b1\u03b6\u03af."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "\u039f COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03b4\u03bf\u03ba\u03b9\u03bc\u03b1\u03c3\u03af\u03b1 \u03c4\u03b7\u03c2 \u03b1\u03bb\u03bb\u03b7\u03bb\u03b5\u03b3\u03b3\u03cd\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03ad\u03c7\u03bf\u03c5\u03bc\u03b5 \u03c0\u03b5\u03c1\u03b9\u03b8\u03ce\u03c1\u03b9\u03b1 \u03b1\u03c0\u03bf\u03c4\u03c5\u03c7\u03af\u03b1\u03c2. \u0395\u03af\u03bd\u03b1\u03b9 \u03ba\u03c1\u03af\u03c3\u03b9\u03bc\u03bf \u03bd\u03b1 \u03c4\u03b7\u03c1\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b9\u03c2 \u03b1\u03c1\u03c7\u03ad\u03c2 \u03c4\u03b7\u03c2 \u03c3\u03c5\u03bd\u03b5\u03c1\u03b3\u03b1\u03c3\u03af\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03c4\u03b7\u03c2 \u03b4\u03b9\u03b1\u03c6\u03ac\u03bd\u03b5\u03b9\u03b1\u03c2, \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03c0\u03b1\u03af\u03c1\u03bd\u03bf\u03c5\u03bc\u03b5 \u03bc\u03ad\u03c4\u03c1\u03b1 \u03c0\u03bf\u03c5 \u03b4\u03b5\u03bd \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03bd\u03b9\u03ce\u03bd\u03bf\u03c5\u03bc\u03b5 \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03ac."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "\u0397 \u03b4\u03b9\u03b1\u03c6\u03ac\u03bd\u03b5\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03b7 \u03b1\u03bd\u03c4\u03b1\u03bb\u03bb\u03b1\u03b3\u03ae \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03b9\u03ce\u03bd \u03b1\u03c0\u03bf\u03c4\u03b5\u03bb\u03bf\u03cd\u03bd \u03b2\u03b1\u03c3\u03b9\u03ba\u03ac \u03c3\u03c5\u03c3\u03c4\u03b1\u03c4\u03b9\u03ba\u03ac \u03c4\u03b7\u03c2 \u03b1\u03bb\u03bb\u03b7\u03bb\u03b5\u03b3\u03b3\u03cd\u03b7\u03c2."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "\u0388\u03c7\u03b5\u03b9 \u03b5\u03c0\u03af\u03c3\u03b7\u03c2 \u03b1\u03c0\u03bf\u03b4\u03b5\u03b9\u03c7\u03b8\u03b5\u03af \u03cc\u03c4\u03b9 \u03b7 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1 \u03c4\u03b7\u03c2 \u03c5\u03b3\u03b5\u03af\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03b7 \u03b5\u03c4\u03bf\u03b9\u03bc\u03cc\u03c4\u03b7\u03c4\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03c0\u03bf\u03c4\u03b5\u03bb\u03bf\u03cd\u03bd \u03c0\u03c1\u03bf\u03c4\u03b5\u03c1\u03b1\u03b9\u03cc\u03c4\u03b7\u03c4\u03b1 \u03cc\u03c7\u03b9 \u03bc\u03cc\u03bd\u03bf \u03b3\u03b9\u03b1 \u03c4\u03b1 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03b1\u03bb\u03bb\u03ac \u03ba\u03b1\u03b9 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03ba\u03c5\u03b2\u03b5\u03c1\u03bd\u03ae\u03c3\u03b5\u03b9\u03c2. \u0388\u03c4\u03c3\u03b9, \u03bf\u03b9 \u03c7\u03ce\u03c1\u03b5\u03c2 \u03b8\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b1 \u03c0\u03c1\u03bf\u03b5\u03c4\u03bf\u03b9\u03bc\u03b1\u03c3\u03bc\u03ad\u03bd\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03bc\u03b9\u03b1 \u03bc\u03b5\u03bb\u03bb\u03bf\u03bd\u03c4\u03b9\u03ba\u03ae \u03b5\u03c0\u03b9\u03b4\u03b7\u03bc\u03b9\u03ba\u03ae \u03ad\u03be\u03b1\u03c1\u03c3\u03b7."
+            ]
+          }
+        },
+        "rus": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "\u042d\u0442\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u044f \u043f\u043e\u043a\u0430\u0437\u0430\u043b\u0430 \u043c\u0438\u0440\u0443 \u0442\u043e, \u0447\u0442\u043e \u043c\u044b \u0432\u0441\u0435 \u0441\u0432\u044f\u0437\u0430\u043d\u044b \u0434\u0440\u0443\u0433 \u0441 \u0434\u0440\u0443\u0433\u043e\u043c, \u0438 \u0431\u043e\u0440\u043e\u0442\u044c\u0441\u044f \u0441 \u0432\u0438\u0440\u0443\u0441\u043e\u043c \u043d\u0430\u0434\u043e \u0432\u0441\u0435\u043c \u0432\u043c\u0435\u0441\u0442\u0435."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "COVID-19 - \u044d\u0442\u043e \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430 \u0442\u043e\u0433\u043e, \u043d\u0430\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u044b \u0435\u0434\u0438\u043d\u044b \u043a\u0430\u043a \u0447\u0435\u043b\u043e\u0432\u0435\u0447\u0435\u0441\u0442\u0432\u043e. \u0418 \u043c\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u043e\u0439\u0442\u0438 \u0435\u0435. \u041d\u0430\u043c \u0432\u0441\u0435\u043c \u043a\u0440\u0430\u0439\u043d\u0435 \u0432\u0430\u0436\u043d\u043e \u043f\u0440\u0438\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430, \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u0438 \u043f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u043e\u0441\u0442\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0442\u044c \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c, \u043d\u0438 \u043e \u0447\u0435\u043c \u043d\u0435 \u0441\u043e\u0436\u0430\u043b\u0435\u044f."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "\u041f\u0440\u043e\u0437\u0440\u0430\u0447\u043d\u043e\u0441\u0442\u044c \u0438 \u043e\u0431\u043c\u0435\u043d \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0435\u0439 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0432\u0430\u0436\u043d\u044b\u043c\u0438 \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043c\u0438 \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0430 \u043d\u0430\u0446\u0438\u0439."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "\u041f\u0430\u043d\u0434\u0435\u043c\u0438\u044f \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043b\u0430, \u0447\u0442\u043e \u0437\u0430\u0449\u0438\u0442\u0430 \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0438 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0433\u043e\u0442\u043e\u0432\u043d\u043e\u0441\u0442\u0438 \u043a \u0440\u0435\u0430\u0433\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e \u043d\u0430 \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u044e\u0449\u0438\u0435 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442\u043e\u043c \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0434\u043b\u044f \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u043b\u0438\u0446, \u043d\u043e \u0438 \u0434\u043b\u044f \u043f\u0440\u0430\u0432\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432. \u0410 \u0437\u043d\u0430\u0447\u0438\u0442, \u0441\u0442\u0440\u0430\u043d\u044b \u0431\u0443\u0434\u0443\u0442 \u043b\u0443\u0447\u0448\u0435 \u043f\u043e\u0434\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u044b \u043a \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u043c \u0432\u0441\u043f\u044b\u0448\u043a\u0430\u043c \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043c."
+            ]
+          }
+        },
+        "ita": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "Questa pandemia ha dato al mondo intero il messaggio che siamo tutti legati e uniti in questa lotta."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "COVID-19 \u00e8 un test di solidariet\u00e0 che semplicemente non possiamo permetterci di fallire. \u00c8 fondamentale rispettare tutti i principi di cooperazione, collaborazione e trasparenza e agire senza remore."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "Trasparenza e condivisione delle informazioni sono elementi essenziali della solidariet\u00e0."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "\u00c8 stato inoltredimostrato che la protezione della salute e la preparazione alle epidemie devono essere una priorit\u00e0 non solo per gli individui ma anche per i governi. Solo in questo modo le nazioni  potranno essere meglio preparate per futuri focolai."
+            ]
+          }
+        },
+        "kaz": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "\u0411\u04b1\u043b \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u044f \u0431\u04af\u043a\u0456\u043b \u04d9\u043b\u0435\u043c\u0433\u0435 \u0431\u04d9\u0440\u0456\u043c\u0456\u0437 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430 \u0435\u043a\u0435\u043d\u0456\u043c\u0456\u0437\u0434\u0456 \u0436\u04d9\u043d\u0435 \u043e\u0441\u044b \u043a\u04af\u0440\u0435\u0441\u0442\u0435 \u0431\u0456\u0440\u0433\u0435 \u0431\u043e\u043b\u0443 \u043a\u0435\u0440\u0435\u043a\u0442\u0456\u0433\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0442\u0456."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "COVID-19 - \u0431\u04b1\u043b \u0431\u0456\u0437\u0434\u0456\u04a3 \u044b\u043d\u0442\u044b\u043c\u0430\u049b\u0442\u0430\u0441\u0442\u044b\u0493\u044b\u043c\u044b\u0437\u0434\u044b\u04a3 \u0441\u044b\u043d\u0430\u0493\u044b. \u0411\u0456\u0437 \u0431\u04d9\u0440\u0456\u043c\u0456\u0437 \u044b\u043d\u0442\u044b\u043c\u0430\u049b\u0442\u0430\u0441\u0442\u044b\u049b \u0436\u04d9\u043d\u0435 \u0430\u0448\u044b\u049b\u0442\u044b\u049b \u049b\u0430\u0493\u0438\u0434\u0430\u0442\u0442\u0430\u0440\u044b\u043d \u04b1\u0441\u0442\u0430\u043d\u0443\u044b\u043c\u044b\u0437 \u0436\u04d9\u043d\u0435 \u0435\u0448 \u04e9\u043a\u0456\u043d\u0456\u0448\u0441\u0456\u0437 \u04d9\u0440\u0435\u043a\u0435\u0442 \u0435\u0442\u0443\u0456\u043c\u0456\u0437 \u04e9\u0442\u0435 \u043c\u0430\u04a3\u044b\u0437\u0434\u044b."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "\u0410\u0448\u044b\u049b\u0442\u044b\u049b \u0436\u04d9\u043d\u0435 \u0430\u049b\u043f\u0430\u0440\u0430\u0442 \u0430\u043b\u043c\u0430\u0441\u0443 - \u044b\u043d\u0442\u044b\u043c\u0430\u049b\u0442\u0430\u0441\u0442\u044b\u049b\u0442\u044b\u04a3 \u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0442\u0435\u0440\u0456."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "\u0411\u04b1\u043b \u0441\u043e\u043d\u044b\u043c\u0435\u043d \u049b\u0430\u0442\u0430\u0440 \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443 \u043c\u0435\u043d \u0434\u0430\u0439\u044b\u043d\u0434\u044b\u049b \u0442\u0435\u043a \u0436\u0435\u043a\u0435 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u04af\u0448\u0456\u043d \u0493\u0430\u043d\u0430 \u0435\u043c\u0435\u0441, \u0441\u043e\u043d\u044b\u043c\u0435\u043d \u049b\u0430\u0442\u0430\u0440 \u04af\u043a\u0456\u043c\u0435\u0442\u0442\u0435\u0440 \u04af\u0448\u0456\u043d \u0434\u0435 \u0431\u0430\u0441\u044b\u043c\u0434\u044b\u049b\u049b\u0430 \u0438\u0435 \u0431\u043e\u043b\u0443\u044b \u043a\u0435\u0440\u0435\u043a \u0435\u043a\u0435\u043d\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0442\u0456. \u041e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0435\u043b\u0434\u0435\u0440 \u0431\u043e\u043b\u0430\u0448\u0430\u049b \u0436\u0430\u0439\u0442\u0442\u0430\u0440\u0493\u0430 \u0434\u0430\u0439\u044b\u043d \u0431\u043e\u043b\u0430\u0434\u044b."
+            ]
+          }
+        },
+        "por": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "Essa pandemia deu ao mundo a mensagem de que estamos todos juntos nessa luta."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "COVID-19 \u00e9 um teste de solidariedade que simplesmente n\u00e3o podemos dar ao luxo de falhar. \u00c9 crucial que todos n\u00f3s respeitemos os princ\u00edpios de coopera\u00e7\u00e3o, colabora\u00e7\u00e3o e transpar\u00eancia e agimos sem arrependimentos."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "Transpar\u00eancia e compartilhamento de informa\u00e7\u00f5es s\u00e3o elementos essenciais de solidariedade."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "Tamb\u00e9m demonstrou que a prote\u00e7\u00e3o e a prepara\u00e7\u00e3o da sa\u00fade precisam ser uma prioridade n\u00e3o apenas para os indiv\u00edduos, mas tamb\u00e9m para os governos. Os pa\u00edses estar\u00e3o ent\u00e3o melhor preparados para um futuro surto."
+            ]
+          }
+        },
+        "mkd": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "\u041e\u0432\u0430\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0458\u0430 \u043c\u0443 \u0438\u0441\u043f\u0440\u0430\u0442\u0438 \u043d\u0430 \u0441\u0432\u0435\u0442\u043e\u0442 \u043f\u043e\u0440\u0430\u043a\u0430 \u0434\u0435\u043a\u0430 \u0441\u0438\u0442\u0435 \u0441\u043c\u0435 \u043f\u043e\u0432\u0440\u0437\u0430\u043d\u0438 \u0438 \u0437\u0430\u0435\u0434\u043d\u043e \u0432\u043e \u043e\u0432\u0430\u0430 \u0431\u043e\u0440\u0431\u0430."
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {
+            "text": [
+              "\u0422\u0440\u0430\u043d\u0441\u043f\u0430\u0440\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u0430 \u0438 \u0440\u0430\u0437\u043c\u0435\u043d\u0430\u0442\u0430 \u043d\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0441\u0435 \u0441\u0443\u0448\u0442\u0438\u043d\u0441\u043a\u0438 \u0435\u043b\u0435\u043c\u0435\u043d\u0442\u0438 \u043d\u0430 \u0441\u043e\u043b\u0438\u0434\u0430\u0440\u043d\u043e\u0441\u0442\u0430."
+            ]
+          },
+          "194f842d-ac4b-4ea4-bc69-ef23920bbe7d": {
+            "text": [
+              "\u0418\u0441\u0442\u043e \u0442\u0430\u043a\u0430, \u0442\u0440\u0430\u043d\u0441\u043f\u0430\u0440\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u0430 \u043f\u043e\u043a\u0430\u0436\u0443\u0432\u0430 \u0434\u0435\u043a\u0430 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0435\u043d\u0430\u0442\u0430 \u0437\u0430\u0448\u0442\u0438\u0442\u0430 \u0438 \u043f\u043e\u0434\u0433\u043e\u0442\u0432\u0435\u043d\u043e\u0441\u0442\u0430 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442 \u043d\u0435 \u0441\u0430\u043c\u043e \u0437\u0430 \u043f\u043e\u0435\u0434\u0438\u043d\u0446\u0438\u0442\u0435, \u0442\u0443\u043a\u0443 \u0438 \u0437\u0430 \u0432\u043b\u0430\u0434\u0438\u0442\u0435. \u041f\u043e\u0442\u043e\u0430, \u0437\u0435\u043c\u0458\u0438\u0442\u0435 \u045c\u0435 \u0431\u0438\u0434\u0430\u0442 \u043f\u043e\u0434\u043e\u0431\u0440\u043e \u043f\u043e\u0434\u0433\u043e\u0442\u0432\u0435\u043d\u0438 \u0437\u0430 \u0438\u0434\u043d\u0430 \u0435\u043f\u0438\u0434\u0435\u043c\u0438\u0458\u0430."
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "\u041a\u041e\u0412\u0418\u0414-19 \u0435 \u0442\u0435\u0441\u0442 \u043d\u0430 \u0441\u043e\u043b\u0438\u0434\u0430\u0440\u043d\u043e\u0441\u0442, \u043d\u0430 \u043a\u043e\u0458\u0448\u0442\u043e \u0435\u0434\u043d\u043e\u0441\u0442\u0430\u0432\u043d\u043e \u043d\u0435 \u043c\u043e\u0436\u0435\u043c\u0435 \u0434\u0430 \u0441\u0438 \u0434\u043e\u0437\u0432\u043e\u043b\u0438\u043c\u0435 \u0434\u0430 \u043f\u043e\u0442\u0444\u0440\u043b\u0438\u043c\u0435. \u041a\u043b\u0443\u0447\u043d\u043e \u0435 \u0441\u0438\u0442\u0435 \u0434\u0430 \u0441\u0435 \u043f\u0440\u0438\u0434\u0440\u0436\u0443\u0432\u0430\u043c\u0435 \u043a\u043e\u043d \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0442\u0435 \u043d\u0430 \u0441\u043e\u0440\u0430\u0431\u043e\u0442\u043a\u0430\u0438 \u0442\u0440\u0430\u043d\u0441\u043f\u0430\u0440\u0435\u043d\u0442\u043d\u043e\u0441\u0442, \u0438 \u0434\u0430 \u043f\u043e\u0441\u0442\u0430\u043f\u0443\u0432\u0430\u043c\u0435 \u0431\u0435\u0437 \u0434\u0432\u043e\u0443\u043c\u0435\u045a\u0435."
+            ]
+          }
+        },
+        "tur": {
+          "80faa8f8-c9bf-4fda-989b-240769f627eb": {
+            "text": [
+              "Bu pandemi, b\u00fct\u00fcn d\u00fcnyaya bu m\u00fccadelede beraber oldu\u011fumuzu g\u00f6stermi\u015ftir. "
+            ]
+          },
+          "126ac438-861b-4187-9098-5573e91deee7": {
+            "text": [
+              "KOV\u0130D-19, ba\u015far\u0131s\u0131z olmay\u0131 g\u00f6ze alamayaca\u011f\u0131m\u0131z bir dayan\u0131\u015fma testidir. \u0130\u015f birli\u011fi, birlikte \u00e7al\u0131\u015fma ve \u015feffafl\u0131k ilkelerine uymam\u0131z ve pi\u015fmanl\u0131k duymadan ilerlememiz \u00e7ok \u00f6nemlidir. "
+            ]
+          },
+          "f2baa147-6528-49ba-8065-718e2f43da91": {}
+        }
+      },
+      "metadata": {
+        "revision": 43
+      },
+      "name": "Lessons",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "This pandemic has given the world the message that we are all connected and in this fight together.",
+              "type": "send_msg",
+              "uuid": "80faa8f8-c9bf-4fda-989b-240769f627eb"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "COVID-19 is a test of solidarity that we simply cannot afford to fail. It is crucial that we all abide by the principles of cooperation, collaboration and transparency, and acting on a no regrets basis.",
+              "type": "send_msg",
+              "uuid": "126ac438-861b-4187-9098-5573e91deee7"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Transparency and information sharing are essential elements of solidarity.",
+              "type": "send_msg",
+              "uuid": "f2baa147-6528-49ba-8065-718e2f43da91"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "It has also demonstrated that health protection and preparedness need to be a priority not only for individuals but also for governments. Countries will then be better prepared for a future outbreak.",
+              "type": "send_msg",
+              "uuid": "194f842d-ac4b-4ea4-bc69-ef23920bbe7d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "359abb1f-e24a-4179-99f7-3a3d52e5abb8"
+            }
+          ],
+          "uuid": "7cf00677-2297-4523-8be2-b49885f61701"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "8287dc1a-0e62-4127-985b-d60a09f46137",
+      "revision": 49
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

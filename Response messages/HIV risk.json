@@ -1,0 +1,299 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "ce48fe2d-b411-4ea0-92c2-0c555f4c743f": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "Actualmente no hay ning\u00fan caso declarado de infecci\u00f3n por COVID-19 entre las personas que viven con el VIH, aunque esto puede cambiar r\u00e1pidamente a medida que el virus se propaga."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "Sabemos que durante los brotes de SARS y MERS hubo s\u00f3lo unos pocos informes de casos de enfermedades leves entre las personas que viven con el VIH."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "Los principales factores de riesgo de mortalidad est\u00e1n relacionados con la edad avanzada y otras enfermedades, como enfermedades cardiovasculares, diabetes, enfermedades respiratorias cr\u00f3nicas e hipertensi\u00f3n."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "Las personas que saben que su estado de VIH es positivo deben tomar las mismas precauciones que la poblaci\u00f3n en general."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "Las personas que toman medicamentos antirretrovirales (ARV) deben asegurarse de tener al menos 30 d\u00edas de ARV y de que sus vacunas est\u00e9n actualizadas."
+            ]
+          }
+        },
+        "ell": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "\u03a0\u03c1\u03bf\u03c2 \u03c4\u03bf \u03c0\u03b1\u03c1\u03cc\u03bd, \u03b4\u03b5\u03bd \u03ad\u03c7\u03b5\u03b9 \u03b1\u03bd\u03b1\u03c6\u03b5\u03c1\u03b8\u03b5\u03af \u03ba\u03c1\u03bf\u03cd\u03c3\u03bc\u03b1 COVID-19 \u03c3\u03b5 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03b6\u03bf\u03c5\u03bd \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b9\u03cc HIV, \u03b1\u03bd \u03ba\u03b1\u03b9 \u03b1\u03c5\u03c4\u03cc \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b1\u03bb\u03bb\u03ac\u03be\u03b5\u03b9 \u03b3\u03c1\u03ae\u03b3\u03bf\u03c1\u03b1 \u03ba\u03b1\u03b8\u03ce\u03c2 \u03bf \u03b9\u03cc\u03c2 \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "\u0393\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03cc\u03c4\u03b9 \u03c3\u03c4\u03b9\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03c4\u03c9\u03bd SARS \u03ba\u03b1\u03b9 MERS \u03c5\u03c0\u03ae\u03c1\u03be\u03b1\u03bd \u03bc\u03cc\u03bd\u03bf \u03bb\u03af\u03b3\u03b5\u03c2 \u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ad\u03c2 \u03ae\u03c0\u03b9\u03c9\u03bd \u03b1\u03c3\u03b8\u03b5\u03bd\u03b5\u03b9\u03ce\u03bd \u03c3\u03b5 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03b6\u03bf\u03c5\u03bd \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b9\u03cc HIV."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "\u039f\u03b9 \u03ba\u03cd\u03c1\u03b9\u03bf\u03b9 \u03c0\u03b1\u03c1\u03ac\u03b3\u03bf\u03bd\u03c4\u03b5\u03c2 \u03ba\u03b9\u03bd\u03b4\u03cd\u03bd\u03bf\u03c5 \u03b8\u03bd\u03b7\u03c3\u03b9\u03bc\u03cc\u03c4\u03b7\u03c4\u03b1\u03c2 \u03c3\u03c5\u03bd\u03b4\u03ad\u03bf\u03bd\u03c4\u03b1\u03b9 \u03bc\u03b5 \u03c4\u03b7 \u03bc\u03b5\u03b3\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b7 \u03b7\u03bb\u03b9\u03ba\u03af\u03b1 \u03ba\u03b1\u03b9 \u03ac\u03bb\u03bb\u03b5\u03c2 \u03c3\u03c5\u03bd\u03bd\u03bf\u03c3\u03b7\u03c1\u03cc\u03c4\u03b7\u03c4\u03b5\u03c2, \u03cc\u03c0\u03c9\u03c2 \u03ba\u03b1\u03c1\u03b4\u03b9\u03b1\u03b3\u03b3\u03b5\u03b9\u03b1\u03ba\u03ad\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2, \u03b4\u03b9\u03b1\u03b2\u03ae\u03c4\u03b7\u03c2, \u03c7\u03c1\u03cc\u03bd\u03b9\u03b5\u03c2 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03ad\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 \u03c5\u03c0\u03ad\u03c1\u03c4\u03b1\u03c3\u03b7."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "\u03a4\u03b1 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b8\u03b5\u03c4\u03b9\u03ba\u03ac \u03c3\u03c4\u03bf\u03bd \u03b9\u03cc HIV, \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c0\u03b1\u03af\u03c1\u03bd\u03bf\u03c5\u03bd \u03c4\u03b9\u03c2 \u03af\u03b4\u03b9\u03b5\u03c2 \u03c0\u03c1\u03bf\u03c6\u03c5\u03bb\u03ac\u03be\u03b5\u03b9\u03c2 \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b3\u03b5\u03bd\u03b9\u03ba\u03cc \u03c0\u03bb\u03b7\u03b8\u03c5\u03c3\u03bc\u03cc."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "\u03a4\u03b1 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c3\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c1\u03b5\u03c4\u03c1\u03bf\u03ca\u03ba\u03ae \u03b1\u03b3\u03c9\u03b3\u03ae \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b5\u03be\u03b1\u03c3\u03c6\u03b1\u03bb\u03af\u03c3\u03bf\u03c5\u03bd \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03c5\u03bb\u03ac\u03c7\u03b9\u03c3\u03c4\u03bf\u03bd 30 \u03b7\u03bc\u03ad\u03c1\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03cc\u03c4\u03b9 \u03c4\u03bf \u03c0\u03bb\u03ac\u03bd\u03bf \u03c4\u03c9\u03bd \u03b5\u03bc\u03b2\u03bf\u03bb\u03b9\u03b1\u03c3\u03bc\u03ce\u03bd \u03c4\u03bf\u03c5\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b5\u03bd\u03b7\u03bc\u03b5\u03c1\u03c9\u03bc\u03ad\u03bd\u03bf."
+            ]
+          }
+        },
+        "rus": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0435 \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u043d\u0438 \u043e\u0434\u043d\u043e\u0433\u043e \u0441\u043b\u0443\u0447\u0430\u044f \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u044f COVID-19 \u0441\u0440\u0435\u0434\u0438 \u0412\u0418\u0427-\u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445, \u0445\u043e\u0442\u044f \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0441\u0442\u0440\u043e \u0438\u0437\u043c\u0435\u043d\u0438\u0442\u044c\u0441\u044f \u043f\u043e \u043c\u0435\u0440\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u0432\u0438\u0440\u0443\u0441\u0430."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "\u041c\u044b \u0437\u043d\u0430\u0435\u043c, \u0447\u0442\u043e \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0432\u0441\u043f\u044b\u0448\u0435\u043a SARS \u0438 MERS \u0431\u044b\u043b\u043e \u0432\u0441\u0435\u0433\u043e \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 \u043e \u0441\u043b\u0443\u0447\u0430\u044f\u0445 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f \u0432 \u043b\u0435\u0433\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0443 \u0412\u0418\u0427-\u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u043b\u044e\u0434\u0435\u0439."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "\u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0444\u0430\u043a\u0442\u043e\u0440\u044b \u0440\u0438\u0441\u043a\u0430 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0438\u0441\u0445\u043e\u0434\u0430 \u0441\u0432\u044f\u0437\u0430\u043d\u044b \u0441 \u043f\u043e\u0436\u0438\u043b\u044b\u043c \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043e\u043c \u0438 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u043c\u0438 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f\u043c\u0438, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0441\u0435\u0440\u0434\u0435\u0447\u043d\u043e-\u0441\u043e\u0441\u0443\u0434\u0438\u0441\u0442\u044b\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f, \u0434\u0438\u0430\u0431\u0435\u0442, \u0445\u0440\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f \u043e\u0440\u0433\u0430\u043d\u043e\u0432 \u0434\u044b\u0445\u0430\u043d\u0438\u044f \u0438 \u0433\u0438\u043f\u0435\u0440\u0442\u043e\u043d\u0438\u044e."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "\u041b\u044e\u0434\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0437\u043d\u0430\u044e\u0442, \u0447\u0442\u043e \u0438\u0445 \u0412\u0418\u0427-\u0441\u0442\u0430\u0442\u0443\u0441 \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0439, \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u0442\u044c \u0442\u0435 \u0436\u0435 \u043c\u0435\u0440\u044b \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u043e\u0440\u043e\u0436\u043d\u043e\u0441\u0442\u0438, \u0447\u0442\u043e \u0438 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435 \u0432 \u0446\u0435\u043b\u043e\u043c."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "\u041b\u044e\u0434\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0440\u0438\u043d\u0438\u043c\u0430\u044e\u0442 \u0430\u043d\u0442\u0438\u0440\u0435\u0442\u0440\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0435 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u044b, \u0434\u043e\u043b\u0436\u043d\u044b \u0443\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u0438\u0442\u044c\u0441\u044f, \u0447\u0442\u043e \u0443 \u043d\u0438\u0445 \u0435\u0441\u0442\u044c \u0430\u043d\u0442\u0438\u0440\u0435\u0442\u0440\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0435 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u044b \u043a\u0430\u043a \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u043d\u0430 30 \u0434\u043d\u0435\u0439, \u0438 \u0447\u0442\u043e \u043e\u043d\u0438 \u0432\u0430\u043a\u0446\u0438\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u044b \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u0433\u0440\u0430\u0444\u0438\u043a\u0443. "
+            ]
+          }
+        },
+        "ita": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "Al momento non \u00e8 stato segnalato alcun caso di infezione da COVID-19 tra le persone che hanno contratto l'HIV, sebbene ci\u00f2 possa cambiare rapidamente con la diffusione del virus."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "Sappiamo che durante le epidemie di SARS e MERS ci sono stati solo alcuni casi di malattia lieve tra le persone che avevano contratto l'HIV."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "I principali fattori di rischio di mortalit\u00e0 sono collegati all'et\u00e0 avanzata e ad altre comorbilit\u00e0 tra cui malattie cardiovascolari, diabete, malattie respiratorie croniche e ipertensione."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "Le persone sieropositive (risultate positive al virus HIV) dovrebbero rispettare le stesse precauzioni."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "Le persone sieropositive (risultate positive al virus HIV) dovrebbero rispettare le stesse precauzioni."
+            ]
+          }
+        },
+        "kaz": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "\u049a\u0430\u0437\u0456\u0440\u0433\u0456 \u0443\u0430\u049b\u044b\u0442\u0442\u0430 \u0410\u0418\u0422\u0412-\u043c\u0435\u043d \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b\u04a3 COVID-19-\u0434\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d\u044b \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u04d9\u043b\u0456\u043c\u0435\u0442 \u0436\u043e\u049b, \u0434\u0435\u0433\u0435\u043d\u043c\u0435\u043d \u0431\u04b1\u043b \u0436\u0430\u0493\u0434\u0430\u0439 \u0432\u0438\u0440\u0443\u0441 \u043a\u0435\u04a3\u0456\u043d\u0435\u043d \u0442\u0430\u0440\u043b\u0493\u0430\u043d\u0434\u0430 \u0442\u0435\u0437 \u04e9\u0437\u0433\u0435\u0440\u0443\u0456 \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "SARS \u0436\u04d9\u043d\u0435 MERS \u0456\u043d\u0434\u0435\u0442\u0442\u0435\u0440\u0456 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u0410\u0418\u0422\u0412-\u043c\u0435\u043d \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0430\u0443\u0440\u0443\u0434\u044b\u04a3 \u0436\u0435\u04a3\u0456\u043b \u0442\u04af\u0440\u0434\u0435 \u04e9\u0442\u043a\u0435\u043d\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u0431\u0456\u0440\u043d\u0435\u0448\u0435 \u0445\u0430\u0431\u0430\u0440 \u0430\u043b\u0493\u0430\u043d\u0431\u044b\u0437."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "\u04e8\u043b\u0456\u043c \u049b\u0430\u0443\u043f\u0456 \u0435\u0433\u0434\u0435 \u0436\u0430\u0441\u049b\u0430 \u0436\u04d9\u043d\u0435 \u0436\u04af\u0440\u0435\u043a-\u0442\u0430\u043c\u044b\u0440 \u0430\u0443\u0440\u0443\u043b\u0430\u0440\u044b, \u049b\u0430\u043d\u0442 \u0434\u0438\u0430\u0431\u0435\u0442\u0456, \u0441\u043e\u0437\u044b\u043b\u043c\u0430\u043b\u044b \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043b\u044b\u049b \u0430\u0443\u0440\u0443\u043b\u0430\u0440\u044b, \u0433\u0438\u043f\u0435\u0440\u0442\u043e\u043d\u0438\u044f\u0433\u044b\u04a3 \u0431\u0430\u0440 \u0431\u043e\u043b\u0443\u044b\u043d\u0430 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u044b."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "\u0410\u0418\u0422\u0412-\u043c\u0435\u043d \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0436\u0430\u043b\u043f\u044b \u0430\u0434\u0430\u043c\u0437\u0430\u0442\u043f\u0435\u043d \u0431\u0456\u0440\u0434\u0435\u0439 \u0441\u0430\u049b\u0442\u044b\u049b \u0448\u0430\u0440\u0430\u043b\u0430\u0440\u044b\u043d \u04b1\u0441\u0442\u0430\u043d\u0443\u044b \u043a\u0435\u0440\u0435\u043a."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "ARV \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u0442\u0430\u0440\u044b\u043d \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0439\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u043e\u043d\u044b \u043a\u0435\u043c \u0434\u0435\u0433\u0435\u043d\u0434\u0435 30 \u043a\u04af\u043d \u0431\u04b1\u0440\u044b\u043d \u049b\u0430\u0431\u044b\u043b\u0434\u0430\u0493\u0430\u043d\u044b\u043d\u0430 \u0436\u04d9\u043d\u0435 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0441\u0430\u043b\u0434\u044b\u0440\u0493\u0430\u043d\u044b\u043d \u043a\u04e9\u0437 \u0436\u0435\u0442\u043a\u0456\u0437\u0443\u043b\u0435\u0440\u0456 \u043a\u0435\u0440\u0435\u043a."
+            ]
+          }
+        },
+        "por": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "Atualmente, n\u00e3o h\u00e1 casos relatados de infec\u00e7\u00e3o por COVID-19 entre pessoas vivendo com HIV, embora isso possa mudar rapidamente \u00e0 medida que o v\u00edrus se espalha."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "Sabemos que durante os surtos de SARS e MERS houve apenas alguns relatos de casos de doen\u00e7a leve entre pessoas vivendo com HIV."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "Os principais fatores de risco de mortalidade est\u00e3o relacionados \u00e0 idade avan\u00e7ada e outras comorbidades, incluindo doen\u00e7as cardiovasculares, diabetes, doen\u00e7as respirat\u00f3rias cr\u00f4nicas e hipertens\u00e3o."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "Pessoas que sabem que seu status de HIV \u00e9 positivo devem tomar as mesmas precau\u00e7\u00f5es que toda popula\u00e7\u00e3o geral."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "As pessoas que tomam medicamentos ARV devem se certificar de que t\u00eam pelo menos 30 dias de ARVs e que suas vacinas est\u00e3o atualizadas."
+            ]
+          }
+        },
+        "mkd": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "\u0412\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432 \u043d\u0435\u043c\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0435\u043d\u043e \u0441\u043b\u0443\u0447\u0430\u0438 \u043d\u0430 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430 \u0441\u043e \u041a\u041e\u0412\u0418\u0414-19 \u043a\u0430\u0458 \u043b\u0438\u0446\u0430\u0442\u0430 \u043a\u043e\u0438 \u0436\u0438\u0432\u0435\u0430\u0442 \u0441\u043e \u0425\u0418\u0412, \u0438\u0430\u043a\u043e \u0442\u043e\u0430 \u043c\u043e\u0436\u0435 \u0431\u0440\u0433\u0443 \u0434\u0430 \u0441\u0435 \u043f\u0440\u043e\u043c\u0435\u043d\u0438 \u0441\u043e \u0448\u0438\u0440\u0435\u045a\u0435\u0442\u043e \u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442."
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "\u0417\u043d\u0430\u0435\u043c\u0435 \u0434\u0435\u043a\u0430 \u0437\u0430 \u0432\u0440\u0435\u043c\u0435 \u043d\u0430 \u0435\u043f\u0438\u0434\u0435\u043c\u0438\u0438\u0442\u0435 \u0441\u043e \u0421\u0410\u0420\u0421 \u0438 \u041c\u0415\u0420\u0421 \u0438\u043c\u0430\u0448\u0435 \u0441\u0430\u043c\u043e \u043d\u0435\u043a\u043e\u043b\u043a\u0443 \u0441\u043b\u0443\u0447\u0430\u0438 \u043d\u0430 \u043b\u0435\u0441\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u043a\u0430\u0458 \u043b\u0438\u0446\u0430\u0442\u0430 \u043a\u043e\u0438 \u0436\u0438\u0432\u0435\u0430\u0442 \u0441\u043e \u0425\u0418\u0412."
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "\u0413\u043b\u0430\u0432\u043d\u0438\u0442\u0435 \u0444\u0430\u043a\u0442\u043e\u0440\u0438 \u043d\u0430 \u0440\u0438\u0437\u0438\u043a \u043e\u0434 \u0441\u043c\u0440\u0442 \u0441\u0435 \u043f\u043e\u0432\u0440\u0437\u0430\u043d\u0438 \u0441\u043e \u043f\u043e\u0441\u0442\u0430\u0440\u0430 \u0432\u043e\u0437\u0440\u0430\u0441\u0442 \u0438 \u0441\u043e \u0434\u0440\u0443\u0433\u0438 \u043f\u043e\u0441\u0442\u043e\u0435\u0447\u043a\u0438 \u0431\u043e\u043b\u0435\u0441\u0442\u0438  \u0432\u043a\u043b\u0443\u0447\u0443\u0432\u0430\u0458\u045c\u0438 \u043a\u0430\u0440\u0434\u0438\u043e\u0432\u0430\u0441\u043a\u0443\u043b\u0430\u0440\u043d\u0438 \u0431\u043e\u043b\u0435\u0441\u0442\u0438, \u0434\u0438\u0458\u0430\u0431\u0435\u0442\u0435\u0441, \u0445\u0440\u043e\u043d\u0438\u0447\u043d\u0430 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u0438 \u0445\u0438\u043f\u0435\u0440\u0442\u0435\u043d\u0437\u0438\u0458\u0430."
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "\u041b\u0443\u0453\u0435\u0442\u043e \u043a\u043e\u0438 \u0437\u043d\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u043d\u0438\u0432\u043d\u0438\u043e\u0442 \u0425\u0418\u0412-\u0441\u0442\u0430\u0442\u0443\u0441 \u0435 \u043f\u043e\u0437\u0438\u0442\u0438\u0432\u0435\u043d, \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0433\u0438 \u043f\u0440\u0435\u0437\u0435\u043c\u0430\u0442 \u0438\u0441\u0442\u0438\u0442\u0435 \u043c\u0435\u0440\u043a\u0438 \u043d\u0430 \u043f\u0440\u0435\u0442\u043f\u0430\u0437\u043b\u0438\u0432\u043e\u0441\u0442 \u043a\u0430\u043a\u043e \u0438 \u043e\u043f\u0448\u0442\u0430\u0442\u0430 \u043f\u043e\u043f\u0443\u043b\u0430\u0446\u0438\u0458\u0430."
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "\u041b\u0438\u0446\u0430\u0442\u0430 \u043a\u043e\u0438 \u0437\u0435\u043c\u0430\u0430\u0442 \u0410\u0420\u0412-\u0442\u0435\u0440\u0430\u043f\u0438\u0458\u0430 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0441\u0435 \u043f\u043e\u0433\u0440\u0438\u0436\u0430\u0442 \u0434\u0430 \u0438\u043c\u0430\u0430\u0442 \u0410\u0420\u0412-\u0442\u0435\u0440\u0430\u043f\u0438\u0458\u0430 \u0437\u0430 \u0431\u0430\u0440\u0435\u043c 30 \u0434\u0435\u043d\u0430 \u0438 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u0440\u0435\u0434\u043e\u0432\u043d\u043e \u0432\u0430\u043a\u0446\u0438\u043d\u0438\u0440\u0430\u043d\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "457c7cee-c125-47c1-acfe-42760addb782": {
+            "text": [
+              "Vir\u00fcs yay\u0131ld\u0131k\u00e7a durum h\u0131zl\u0131ca de\u011fi\u015febilecek olsa da \u015fu an i\u00e7in HIV olan insanlarda KOV\u0130D-19 vakalar\u0131 bildirilmemi\u015ftir. "
+            ]
+          },
+          "618ed8b8-78dd-4ad6-9327-b802e27f81cb": {
+            "text": [
+              "SARS ve MERS salg\u0131nlar\u0131nda, HIV olan insanlarda sadece birka\u00e7 hafif hastal\u0131k vakas\u0131 oldu\u011funu biliyoruz. "
+            ]
+          },
+          "1e3577cf-fec5-4572-b4f8-c4faeba0753b": {
+            "text": [
+              "Genel mortalite riskleri ileri ya\u015f ve kardiyovask\u00fcler hastal\u0131klar, diyabet, kronik solunum yolu hastal\u0131klar\u0131 ve hipertansiyon gibi komorbiditelere ba\u011fl\u0131d\u0131r. "
+            ]
+          },
+          "45edac99-c58a-45c1-bc49-ed182251b2b8": {
+            "text": [
+              "HIV pozitif olduklar\u0131n\u0131 bilenler, genel n\u00fcfusla ayn\u0131 \u00f6nlemleri almal\u0131d\u0131r. "
+            ]
+          },
+          "e5bdfa24-4a92-450b-8d38-5328719838fa": {
+            "text": [
+              "ARV ila\u00e7lar\u0131 kullanan ki\u015filer en az 30 g\u00fcnl\u00fck ARV\u2019leri ve a\u015f\u0131 takvimlerinin g\u00fcncel oldu\u011fundan emin olmal\u0131d\u0131r. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 49
+      },
+      "name": "HIV risk",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "There is currently no reported case of COVID-19 infection among people living with HIV, though this can rapidly change as the virus spreads.",
+              "type": "send_msg",
+              "uuid": "457c7cee-c125-47c1-acfe-42760addb782"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "We know that during the SARS and MERS outbreaks there were only a few case reports of mild disease among people living with HIV.",
+              "type": "send_msg",
+              "uuid": "618ed8b8-78dd-4ad6-9327-b802e27f81cb"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "The main mortality risk factors are linked to older age and other co-morbidities including cardiovascular disease, diabetes, chronic respiratory disease, and hypertension.",
+              "type": "send_msg",
+              "uuid": "1e3577cf-fec5-4572-b4f8-c4faeba0753b"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "People who know their HIV status to be positive are should take the same precautions as the general population.",
+              "type": "send_msg",
+              "uuid": "45edac99-c58a-45c1-bc49-ed182251b2b8"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "People who are taking ARV drugs should make sure that they have at least 30 days of ARVs and their vaccinations are up to date.",
+              "type": "send_msg",
+              "uuid": "e5bdfa24-4a92-450b-8d38-5328719838fa"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "fca8feb1-e7c3-4c99-89f2-8075cb3f18ec"
+            }
+          ],
+          "uuid": "ce48fe2d-b411-4ea0-92c2-0c555f4c743f"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "86926bb1-d600-4b71-a6d7-d19225d79975",
+      "revision": 55
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

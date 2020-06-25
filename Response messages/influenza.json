@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "f51b87d5-88ce-4daa-8af3-56cdb0398bb8": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "ell": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "\u039f COVID-19 \u03ba\u03b1\u03b9 \u03bf \u03b9\u03cc\u03c2 \u03c4\u03b7\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03bf\u03cd\u03bd \u03c0\u03b1\u03c1\u03cc\u03bc\u03bf\u03b9\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1. "
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "\u039a\u03b1\u03b9 \u03bf\u03b9 \u03b4\u03cd\u03bf \u03b9\u03bf\u03af \u03bc\u03b5\u03c4\u03b1\u03b4\u03af\u03b4\u03bf\u03bd\u03c4\u03b1\u03b9 \u03bc\u03b5 \u03c4\u03b7\u03bd \u03b5\u03c0\u03b1\u03c6\u03ae. \u0393\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc, \u03c4\u03b1 \u03af\u03b4\u03b9\u03b1 \u03bc\u03ad\u03c4\u03c1\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1\u03c2 \u03c4\u03b7\u03c2 \u03b4\u03b7\u03bc\u03cc\u03c3\u03b9\u03b1\u03c2 \u03c5\u03b3\u03b5\u03af\u03b1\u03c2, \u03cc\u03c0\u03c9\u03c2 \u03b7 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u03b7 \u03c3\u03c9\u03c3\u03c4\u03ae \u03c3\u03c5\u03bc\u03c0\u03b5\u03c1\u03b9\u03c6\u03bf\u03c1\u03ac \u03cc\u03c4\u03b1\u03bd \u03b2\u03ae\u03c7\u03bf\u03c5\u03bc\u03b5 \u03ae \u03c6\u03c4\u03b5\u03c1\u03bd\u03b9\u03b6\u03cc\u03bc\u03b1\u03c3\u03c4\u03b5, \u03b5\u03af\u03bd\u03b1\u03b9 \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03ac \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c6\u03c5\u03bb\u03b1\u03c7\u03c4\u03bf\u03cd\u03bc\u03b5 \u03b1\u03c0\u03cc \u03bb\u03bf\u03af\u03bc\u03c9\u03be\u03b7."
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "\u03a5\u03b9\u03bf\u03b8\u03ad\u03c4\u03b7\u03c3\u03b5 \u03c4\u03b9\u03c2 \u03b5\u03be\u03ae\u03c2 \u03c3\u03c5\u03bd\u03ae\u03b8\u03b5\u03b9\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd: \u03b2\u03ae\u03be\u03b5 \u03c3\u03c4\u03bf\u03bd \u03b1\u03b3\u03ba\u03ce\u03bd\u03b1 \u03ae \u03c3\u03b5 \u03c7\u03b1\u03c1\u03c4\u03bf\u03bc\u03ac\u03bd\u03c4\u03b7\u03bb\u03bf \u03ba\u03b1\u03b9 \u03c0\u03ad\u03c4\u03b1\u03be\u03ad \u03c4\u03bf \u03b1\u03bc\u03ad\u03c3\u03c9\u03c2."
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "\u039a\u03b1\u03b9 \u03bf\u03b9 \u03b4\u03cd\u03bf \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03bf\u03cd\u03bd \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b5\u03c2 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd, \u03b1\u03c0\u03cc \u03b1\u03c1\u03c1\u03ce\u03c3\u03c4\u03b9\u03b1 \u03c7\u03c9\u03c1\u03af\u03c2 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1 \u03bc\u03ad\u03c7\u03c1\u03b9 \u03ae\u03c0\u03b9\u03b1 \u03ae \u03c3\u03bf\u03b2\u03b1\u03c1\u03ae \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1, \u03b1\u03ba\u03cc\u03bc\u03b7 \u03ba\u03b1\u03b9 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf. "
+            ]
+          }
+        },
+        "spa": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "El virus COVID-19 y el de la gripe presentan s\u00edntomas parecidos."
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "Ambos causan enfermedades respiratorias que van desde enfermedad sin s\u00edntomas aparentes a enfermedades leves, graves, produciendo incluso la muerte."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "Ambos virus se transmiten por contacto. Por ello, seguir unas medidas b\u00e1sicas en salud p\u00fablica como higiene de manos y un protocolo para la higiene respiratoria son pasos importantes a seguir para evitar el contagio. "
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "Sigue estos estos h\u00e1bitos de higiene: al toser o estornudar, c\u00fabrete la boca y la nariz con el codo flexionado o con un pa\u00f1uelo desechable y t\u00edralo tras su uso."
+            ]
+          }
+        },
+        "ita": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "I virus della COVID-19 e dell\u2019influenza causano sintomi simili. "
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "Entrambi i virus causano malattie respiratorie. Le malattie causate possono essere asintomatiche o lievi, ma vi sono anche casi gravi e persino decessi.  "
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "Entrambi i virus si trasmettono da persona a persona, tramite contatto stretto. Per questo motivo, si consigliano le stesse modalit\u00e0 di prevenzione dell\u2019infezione, tra cui il lavaggio frequente delle mani e il tossire/starnutire in un fazzoletto o nel gomito flesso. "
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "Per una giusta igiene delle mani, segui questi consigli: tossisci nel tuo gomito flesso o in un fazzoletto. Ricordati di gettare i fazzoletti utilizzati in un cestino chiuso immediatamente dopo l'uso. "
+            ]
+          }
+        },
+        "rus": {
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "\u041e\u043d\u0438 \u043e\u0431\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u043e\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u0442\u044c \u0431\u0435\u0441\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043d\u043e, \u043b\u0435\u0433\u043a\u043e \u0438\u043b\u0438 \u0442\u044f\u0436\u0435\u043b\u043e, \u0430 \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043a \u0441\u043c\u0435\u0440\u0442\u0438."
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "\u0421\u043e\u0431\u043b\u044e\u0434\u0430\u0439\u0442\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0440\u0443\u043a: \u043a\u0430\u0448\u043b\u044f\u0439\u0442\u0435 \u0432 \u043b\u043e\u043a\u043e\u0442\u044c \u0438\u043b\u0438 \u0432 \u0441\u0430\u043b\u0444\u0435\u0442\u043a\u0443 \u0438 \u043d\u0435\u043c\u0435\u0434\u043b\u0435\u043d\u043d\u043e \u0432\u044b\u0431\u0440\u0430\u0441\u044b\u0432\u0430\u0439\u0442\u0435 \u0435\u0451."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "\u041e\u0431\u0430 \u0432\u0438\u0440\u0443\u0441\u0430 \u043f\u0435\u0440\u0435\u0434\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0435. \u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u043a\u0430\u0436\u0434\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u043e\u0441\u0442\u044b\u0435 \u043c\u0435\u0440\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u043c\u043e\u0433\u0430\u044e\u0442 \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u044c \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438. \u041d\u0430\u043f\u0440\u0438\u043c\u0435\u0440, \u043d\u0430\u0434\u043e \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u0433\u0438\u0433\u0438\u0435\u043d\u0443 \u0440\u0443\u043a \u0438 \u044d\u0442\u0438\u043a\u0435\u0442 \u0434\u044b\u0445\u0430\u043d\u0438\u044f."
+            ]
+          },
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "COVID-19 \u0438 \u0432\u0438\u0440\u0443\u0441 \u0433\u0440\u0438\u043f\u043f\u0430 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442 \u043f\u043e\u0445\u043e\u0436\u0438\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b.\n"
+            ]
+          }
+        },
+        "por": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "Os v\u00edrus COVID-19 e influenza apresentam sintomas semelhantes."
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "Ambos causam doen\u00e7as respirat\u00f3rias, variando de doen\u00e7a assintom\u00e1tica a doen\u00e7a leve at\u00e9 grave e morte."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "Ambos os v\u00edrus s\u00e3o transmitidos por contato. Portanto, as mesmas medidas de sa\u00fade p\u00fablica, como higiene das m\u00e3os e boa etiqueta respirat\u00f3ria, s\u00e3o medidas importantes que todos podem tomar para prevenir a infec\u00e7\u00e3o."
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "Siga estes h\u00e1bitos de higiene das m\u00e3os: tosse no cotovelo ou no len\u00e7o de papel e descarte-o imediatamente."
+            ]
+          }
+        },
+        "mkd": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0438\u0442\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u0438 \u043d\u0430 \u0433\u0440\u0438\u043f \u0434\u0430\u0432\u0430\u0430\u0442 \u0441\u043b\u0438\u0447\u043d\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438."
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "\u0418 \u0434\u0432\u0430\u0442\u0430 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0443\u0432\u0430\u0430\u0442 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u043e \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0435, \u043f\u043e\u0447\u043d\u0443\u0432\u0430\u0458\u045c\u0438 \u043e\u0434 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0430\u0442\u0441\u043a\u0430 \u0431\u043e\u043b\u0435\u0441\u0442, \u043f\u0440\u0435\u043a\u0443 \u0431\u043b\u0430\u0433\u0430, \u043f\u0430 \u0441\u0450 \u0434\u043e \u0442\u0435\u0448\u043a\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u0438 \u0441\u043c\u0440\u0442."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "\u0414\u0432\u0430\u0442\u0430 \u0432\u0438\u0440\u0443\u0441\u0430 \u0441\u0435 \u043f\u0440\u0435\u043d\u0435\u0441\u0443\u0432\u0430\u0430\u0442 \u043f\u0440\u0435\u043a\u0443 \u043a\u043e\u043d\u0442\u0430\u043a\u0442. \u0417\u043d\u0430\u0447\u0438, \u0438\u0441\u0442\u0438\u0442\u0435 \u0458\u0430\u0432\u043d\u043e-\u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0435\u043d\u0438 \u043c\u0435\u0440\u043a\u0438, \u0442.\u0435. \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0438 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u043d\u0430 \u0434\u043e\u0431\u0440\u043e \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u043e \u043e\u0434\u043d\u0435\u0441\u0443\u0432\u0430\u045a\u0435, \u0441\u0435 \u0432\u0430\u0436\u043d\u0438 \u0447\u0435\u043a\u043e\u0440\u0438 \u0448\u0442\u043e \u0441\u0435\u043a\u043e\u0458 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u0438 \u043f\u0440\u0435\u0437\u0435\u043c\u0435 \u0437\u0430 \u0434\u0430 \u0441\u043f\u0440\u0435\u0447\u0438 \u0437\u0430\u0440\u0430\u0437\u0430."
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "\u0421\u043b\u0435\u0434\u0435\u0442\u0435 \u0433\u0438 \u043e\u0432\u0438\u0435 \u043d\u0430\u0432\u0438\u043a\u0438 \u0437\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435: \u043a\u0430\u0448\u043b\u0430\u0458\u0442\u0435 \u0432\u043e \u043f\u043e\u0434\u043b\u0430\u043a\u0442\u0438\u0446\u0430\u0442\u0430 \u0438\u043b\u0438 \u0432\u043e \u0445\u0430\u0440\u0442\u0438\u0435\u043d\u043e \u043c\u0430\u0440\u0430\u043c\u0447\u0435 \u0438 \u0432\u0435\u0434\u043d\u0430\u0448 \u0444\u0440\u043b\u0435\u0442\u0435 \u0433\u043e \u043c\u0430\u0440\u0430\u043c\u0447\u0435\u0442\u043e."
+            ]
+          }
+        },
+        "kaz": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "COVID-19 \u0436\u04d9\u043d\u0435 \u0442\u04b1\u043c\u0430\u0443 \u0432\u0438\u0440\u0443\u0441\u0442\u0430\u0440\u044b \u04b1\u049b\u0441\u0430\u0441 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0434\u0456 \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0434\u0456."
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "\u041e\u043b\u0430\u0440\u0434\u044b\u04a3 \u0435\u043a\u0435\u0443\u0456 \u0434\u0435 \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u043e\u0440\u0433\u0430\u043d\u0434\u0430\u0440\u044b\u043d\u044b\u04a3 \u0430\u0443\u0440\u0443\u044b, \u0436\u0435\u04a3\u0456\u043b \u0434\u04d9\u0440\u0435\u0436\u0435\u043b\u0456 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0430\u0442\u0438\u043a\u0430\u043b\u044b\u049b \u0430\u0443\u0440\u0443\u0434\u0430\u043d \u04e9\u043b\u0456\u043c\u0433\u0435 \u0434\u0435\u0439\u0456\u043d\u0433\u0456 \u0430\u043f\u0430\u0440\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u0442\u0430\u0440\u0434\u044b\u04a3 \u0435\u043a\u0435\u0443\u0456 \u0434\u0435 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441 \u0430\u0440\u049b\u044b\u043b\u044b \u0431\u0435\u0440\u0456\u043b\u0435\u0434\u0456. \u0421\u043e\u043d\u044b\u043c\u0435\u043d, \u0434\u0435\u043d\u0441\u0430\u0443\u043b\u044b\u049b\u0442\u044b \u0441\u0430\u049b\u0442\u0430\u0443\u0434\u044b\u04a3 \u0448\u0430\u0440\u0430\u043b\u0430\u0440\u044b, \u043c\u044b\u0441\u0430\u043b\u044b, \u049b\u043e\u043b \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b \u0436\u04d9\u043d\u0435 \u0436\u0430\u049b\u0441\u044b \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u044d\u0442\u0438\u043a\u0435\u0442\u0456, \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u043d\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d \u0430\u043b\u0443 \u04af\u0448\u0456\u043d \u04d9\u0440\u043a\u0456\u043c \u0436\u0430\u0441\u0430\u0439 \u0430\u043b\u0430\u0442\u044b\u043d \u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u049b\u0430\u0434\u0430\u043c\u0434\u0430\u0440."
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "\u049a\u043e\u043b\u0434\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u043b\u044b\u049b \u04d9\u0434\u0435\u0442\u0442\u0435\u0440\u0456\u043d \u0441\u0430\u049b\u0442\u0430\u04a3\u044b\u0437: \u0436\u04e9\u0442\u0435\u043b\u0434\u0456 \u0441\u0456\u0437\u0434\u0456\u04a3 \u0448\u044b\u043d\u0442\u0430\u0493\u044b\u04a3\u044b\u0437\u0493\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u0440\u0430\u043c\u0430\u043b\u0493\u0430 \u0442\u04af\u0448\u043a\u0456\u0440\u0456\u04a3\u0456\u0437 \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u0431\u0456\u0440\u0434\u0435\u043d \u0442\u0430\u0441\u0442\u0430\u04a3\u044b\u0437."
+            ]
+          }
+        },
+        "tur": {
+          "d97bdec3-db87-48e3-8a4e-2f3b74d337bf": {
+            "text": [
+              "KOV\u0130D-19 ve influenza vir\u00fcsleri benzer semptomlar sergilemektedir. "
+            ]
+          },
+          "80798036-5f2d-474b-8dd4-88b510c12fe6": {
+            "text": [
+              "Her iki virus de asemptomatik hastal\u0131ktan hafif ve \u015fiddetli hastal\u0131\u011fa ve hatta \u00f6l\u00fcme kadar solunum yolu hastal\u0131klar\u0131na neden olur."
+            ]
+          },
+          "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa": {
+            "text": [
+              "Her iki vir\u00fcs de temas yoluyla bula\u015f\u0131r. Bu nedenle, el hijyeni ve iyi solunum yolu \u00f6nlemleri gibi benzer halk sa\u011fl\u0131\u011f\u0131 \u00f6nlemleri enfeksiyonu engellemek i\u00e7in herkesin alabilece\u011fi \u00f6nemli tedbirlerdir.  "
+            ]
+          },
+          "b3d94941-ac03-4e6c-8488-e70a79b665f7": {
+            "text": [
+              "Dirse\u011finize ya da bir pe\u00e7eteye \u00f6ks\u00fcrme ve derhal pe\u00e7eteden kurtulma gibi el hijyeni al\u0131\u015fkanl\u0131klar\u0131na uyun. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 41
+      },
+      "name": "influenza",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "8f2f6b6c-2a58-4102-9f13-7f276bbf863f",
+      "revision": 45,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "COVID-19 and influenza viruses present similar symptoms.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "d97bdec3-db87-48e3-8a4e-2f3b74d337bf"
+            },
+            {
+              "attachments": [],
+              "text": "They both cause respiratory disease, ranging from asymptomatic illness to mild to severe disease and death.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "80798036-5f2d-474b-8dd4-88b510c12fe6"
+            },
+            {
+              "attachments": [],
+              "text": "Both viruses are transmitted by contact. So, the same public health measures, such as hand hygiene and good respiratory etiquette, are important steps everyone can take to prevent infection.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "46d28e15-f2ad-4a8e-b3a7-5e334ecdb6fa"
+            },
+            {
+              "attachments": [],
+              "text": "Follow these hand hygiene habits: cough into your elbow or into a tissue and immediately dispose of the tissue.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "b3d94941-ac03-4e6c-8488-e70a79b665f7"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "28fcc488-36ad-438d-9f20-bb656c67b10e"
+            }
+          ],
+          "uuid": "f51b87d5-88ce-4daa-8af3-56cdb0398bb8"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

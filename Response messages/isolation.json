@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "e24048f1-1eb9-4161-887b-720ef633e911": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "El aislamiento es la separaci\u00f3n de personas enfermas o infectadas de otras, para no propagar la infecci\u00f3n o el contagio."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "La cuarentena es diferente. En una cuarentena, el movimiento est\u00e1 restringido para personas sanas que pueden haber estado expuestas al virus, pero que no est\u00e1n enfermas."
+            ]
+          }
+        },
+        "ell": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "\u0391\u03c0\u03bf\u03bc\u03cc\u03bd\u03c9\u03c3\u03b7 \u03c3\u03b7\u03bc\u03b1\u03af\u03bd\u03b5\u03b9 \u03b1\u03c0\u03bf\u03bc\u03ac\u03ba\u03c1\u03c5\u03bd\u03c3\u03b7 \u03c4\u03c9\u03bd \u03b1\u03c3\u03b8\u03b5\u03bd\u03ce\u03bd \u03ae \u03c6\u03bf\u03c1\u03ad\u03c9\u03bd \u03b1\u03c0\u03cc \u03c4\u03bf\u03c5\u03c2 \u03c5\u03c0\u03cc\u03bb\u03bf\u03b9\u03c0\u03bf\u03c5\u03c2, \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03b7 \u03bc\u03b5\u03c4\u03b1\u03b4\u03bf\u03b8\u03b5\u03af \u03b7 \u03bc\u03cc\u03bb\u03c5\u03bd\u03c3\u03b7. "
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "\u0397 \u03ba\u03b1\u03c1\u03b1\u03bd\u03c4\u03af\u03bd\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03b5\u03c4\u03b9\u03ba\u03ae. \u03a3\u03c4\u03b7\u03bd \u03ba\u03b1\u03c1\u03b1\u03bd\u03c4\u03af\u03bd\u03b1, \u03c0\u03b5\u03c1\u03b9\u03bf\u03c1\u03af\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c4\u03b1 \u03c5\u03b3\u03b9\u03ae \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03b5\u03bd\u03b4\u03ad\u03c7\u03b5\u03c4\u03b1\u03b9 \u03bd\u03b1 \u03ad\u03c7\u03bf\u03c5\u03bd \u03b5\u03ba\u03c4\u03b5\u03b8\u03b5\u03af \u03c3\u03c4\u03bf\u03bd \u03b9\u03cc \u03b1\u03bb\u03bb\u03ac \u03b4\u03b5\u03bd \u03bd\u03bf\u03c3\u03bf\u03cd\u03bd. "
+            ]
+          }
+        },
+        "rus": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "\u0418\u0437\u043e\u043b\u044f\u0446\u0438\u044f - \u044d\u0442\u043e \u043e\u0442\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0431\u043e\u043b\u044c\u043d\u044b\u0445 \u0438\u043b\u0438 \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u043d\u044b\u0445 \u043b\u044e\u0434\u0435\u0439 \u043e\u0442 \u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0445, \u0447\u0442\u043e\u0431\u044b \u043d\u0435 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0442\u044c \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044e \u0438 \u043d\u0435 \u0437\u0430\u0440\u0430\u0436\u0430\u0442\u044c \u0434\u0440\u0443\u0433\u0438\u0445."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "\u041f\u0440\u0438 \u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d\u0435 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f \u0434\u0440\u0443\u0433\u0430\u044f. \u041e\u0433\u0440\u0430\u043d\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043f\u0435\u0440\u0435\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435 \u0437\u0434\u043e\u0440\u043e\u0432\u044b\u0445 \u043b\u044e\u0434\u0435\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u043b\u0438 \u043f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e \u0437\u0430\u0440\u0430\u0437\u0438\u0442\u044c\u0441\u044f, \u043d\u043e \u0435\u0449\u0435 \u043d\u0435 \u0431\u043e\u043b\u044c\u043d\u044b."
+            ]
+          }
+        },
+        "ita": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "L'isolamento \u00e8 la separazione di persone malate o infette da altre persone, in modo da non diffondere l'infezione o la contaminazione."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "La quarantena \u00e8 diversa. La quarantena prevede la limitazione di movimento soltanto a persone sane che possono essere state esposte al virus, ma che non sono malate."
+            ]
+          }
+        },
+        "kaz": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "\u041e\u049b\u0448\u0430\u0443\u043b\u0430\u043d\u0443 - \u0431\u04b1\u043b \u0430\u0443\u0440\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u043e\u043d\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u043d\u044b \u043d\u0435\u043c\u0435\u0441\u0435 \u043b\u0430\u0441\u0442\u0430\u043d\u0443\u0434\u044b \u0442\u0430\u0440\u0430\u0442\u043f\u0430\u0443 \u04af\u0448\u0456\u043d \u0431\u0430\u0441\u049b\u0430\u043b\u0430\u0440\u0434\u0430\u043d \u0431\u04e9\u043b\u0443 \u0448\u0430\u0440\u0430\u0441\u044b."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "\u041a\u0430\u0440\u0430\u043d\u0442\u0438\u043d \u0431\u0430\u0441\u049b\u0430\u0448\u0430. \u041a\u0430\u0440\u0430\u043d\u0442\u0438\u043d\u0434\u0435 \u0432\u0438\u0440\u0443\u0441\u049b\u0430 \u04b1\u0448\u044b\u0440\u0430\u0493\u0430\u043d \u0430\u0434\u0430\u043c\u043c\u0435\u043d \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430 \u0431\u043e\u043b\u0493\u0430\u043d, \u0431\u0456\u0440\u0430\u049b \u04e9\u0437\u0456 \u0430\u0443\u0440\u0443\u0493\u0430 \u0448\u0430\u043b\u0434\u044b\u049b\u043f\u0430\u0493\u0430\u043d \u0441\u0430\u0443 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b\u04a3 \u049b\u043e\u0437\u0493\u0430\u043b\u044b\u0441\u044b \u0448\u0435\u043a\u0442\u0435\u043b\u0435\u0434\u0456."
+            ]
+          }
+        },
+        "por": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "Isolamento \u00e9 a separa\u00e7\u00e3o de pessoas doentes ou infectadas de outras pessoas, para n\u00e3o espalhar a infec\u00e7\u00e3o ou contamina\u00e7\u00e3o."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "Quarentena \u00e9 diferente. Em quarentena, o movimento \u00e9 restrito a pessoas saud\u00e1veis que podem ter sido expostas ao v\u00edrus, mas que n\u00e3o est\u00e3o doentes."
+            ]
+          }
+        },
+        "mkd": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "\u0418\u0437\u043e\u043b\u0430\u0446\u0438\u0458\u0430\u0442\u0430 \u0435 \u0440\u0430\u0437\u0434\u0432\u043e\u0458\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u0431\u043e\u043b\u043d\u0438 \u0438\u043b\u0438 \u0437\u0430\u0440\u0430\u0437\u0435\u043d\u0438 \u043b\u0438\u0446\u0430 \u043e\u0434 \u0434\u0440\u0443\u0433\u0438 \u0437\u0430 \u0434\u0430 \u043d\u0435 \u0441\u0435 \u0448\u0438\u0440\u0438 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430\u0442\u0430 \u0438\u043b\u0438 \u043a\u043e\u043d\u0442\u0430\u043c\u0438\u043d\u0430\u0446\u0438\u0458\u0430\u0442\u0430."
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "\u041a\u0430\u0440\u0430\u043d\u0442\u0438\u043d\u043e\u0442 \u0435 \u043f\u043e\u0438\u043d\u0430\u043a\u043e\u0432. \u0412\u043e \u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d \u0441\u0435 \u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0443\u0432\u0430 \u0434\u0432\u0438\u0436\u0435\u045a\u0435\u0442\u043e \u043d\u0430 \u0437\u0434\u0440\u0430\u0432\u0438 \u043b\u0443\u0453\u0435 \u043a\u043e\u0438 \u043c\u043e\u0436\u0435\u0431\u0438 \u0431\u0438\u043b\u0435 \u0438\u0437\u043b\u043e\u0436\u0435\u043d\u0438 \u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442, \u043d\u043e \u043d\u0435 \u0441\u0435 \u0431\u043e\u043b\u043d\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "e79cdcc6-cafc-4bf6-9473-e9f872810a79": {
+            "text": [
+              "\u0130zolasyon hasta ya da enfekte olan bireylerin enfeksiyonun yay\u0131lmas\u0131n\u0131 \u00f6nlemek amac\u0131yla di\u011ferlerinden ayr\u0131lmas\u0131d\u0131r.  "
+            ]
+          },
+          "ab0ea410-84b0-49a5-ad4a-f77792c501d4": {
+            "text": [
+              "Karantina bundan farkl\u0131d\u0131r. Karantina esnas\u0131nda, vir\u00fcse maruz kalm\u0131\u015f olabilecek ama kendileri hasta olmayan sa\u011fl\u0131kl\u0131 bireylerin hareketleri k\u0131s\u0131tlan\u0131r. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 22
+      },
+      "name": "isolation",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "c149da82-46ce-4866-8404-8e0f6b238367",
+      "revision": 24,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Isolation is the separation of ill or infected persons from others, so as not to spread the infection or contamination.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e79cdcc6-cafc-4bf6-9473-e9f872810a79"
+            },
+            {
+              "attachments": [],
+              "text": "Quarantine is different. In a quarantine, movement is restricted to healthy people who may have been exposed to the virus, but who are not ill.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "ab0ea410-84b0-49a5-ad4a-f77792c501d4"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "8f28a056-a015-48de-a0a6-8c5af51d9ae5"
+            }
+          ],
+          "uuid": "e24048f1-1eb9-4161-887b-720ef633e911"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

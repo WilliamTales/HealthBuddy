@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Myths - Pets",
+      "uuid": "361e8468-c156-4fa7-9195-dd924430d1a1",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "92c23961-253a-4254-90a6-ef497b71edda": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 68,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 67
+      },
+      "localization": {
+        "por": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "N\u00e3o h\u00e1 evid\u00eancias de que um c\u00e3o, gato ou qualquer animal de estima\u00e7\u00e3o possa transmitir o COVID-19."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "O COVID-19 se espalha principalmente por got\u00edculas produzidas quando uma pessoa infectada tosse, espirra ou fala. Para se proteger, limpe as m\u00e3os com freq\u00fc\u00eancia e em profundidade."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "Mas \u00e9 sempre uma boa ideia lavar as m\u00e3os com \u00e1gua e sab\u00e3o ap\u00f3s o contato com animais de estima\u00e7\u00e3o."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "Isso tamb\u00e9m protege voc\u00ea contra v\u00e1rias bact\u00e9rias comuns, como E.coli e Salmonella, que podem passar entre animais de estima\u00e7\u00e3o e humanos."
+            ]
+          }
+        },
+        "rus": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "\u041d\u0435\u0442 \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u0434\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432 \u0442\u043e\u0433\u043e, \u0447\u0442\u043e \u0441\u043e\u0431\u0430\u043a\u0430, \u043a\u043e\u0448\u043a\u0430 \u0438\u043b\u0438 \u043b\u044e\u0431\u043e\u0435 \u0434\u043e\u043c\u0430\u0448\u043d\u0435\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c COVID-19."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "COVID-19 \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0447\u0435\u0440\u0435\u0437 \u043c\u0438\u043a\u0440\u043e\u043a\u0430\u043f\u043b\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u044b\u0434\u0435\u043b\u044f\u044e\u0442\u0441\u044f, \u043a\u043e\u0433\u0434\u0430 \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0447\u0435\u043b\u043e\u0432\u0435\u043a \u043a\u0430\u0448\u043b\u044f\u0435\u0442, \u0447\u0438\u0445\u0430\u0435\u0442 \u0438\u043b\u0438 \u0440\u0430\u0437\u0433\u043e\u0432\u0430\u0440\u0438\u0432\u0430\u0435\u0442. \u0427\u0442\u043e\u0431\u044b \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f, \u043c\u043e\u0439\u0442\u0435 \u0440\u0443\u043a\u0438 \u0447\u0430\u0441\u0442\u043e \u0438 \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "\u0422\u0435\u043c \u043d\u0435 \u043c\u0435\u043d\u0435\u0435, \u043c\u044b\u0442\u044c \u0440\u0443\u043a\u0438 \u0441 \u043c\u044b\u043b\u043e\u043c \u043f\u043e\u0441\u043b\u0435 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0430 \u0441 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u043c\u0438 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u043c\u0438 \u043f\u043e\u043b\u0435\u0437\u043d\u043e \u0432\u0441\u0435\u0433\u0434\u0430."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "\u042d\u0442\u043e \u0442\u0430\u043a\u0436\u0435 \u0437\u0430\u0449\u0438\u0449\u0430\u0435\u0442 \u0432\u0430\u0441 \u043e\u0442 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u043d\u044b\u0445 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0439, \u0442\u0430\u043a\u0438\u0445 \u043a\u0430\u043a \u043a\u0438\u0448\u0435\u0447\u043d\u0430\u044f \u043f\u0430\u043b\u043e\u0447\u043a\u0430 \u0438 \u0441\u0430\u043b\u044c\u043c\u043e\u043d\u0435\u043b\u043b\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u0443\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u043c\u0435\u0436\u0434\u0443 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u043c\u0438 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u043c\u0438 \u0438 \u043b\u044e\u0434\u044c\u043c\u0438."
+            ]
+          }
+        },
+        "spa": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "No hay evidencia de que un perro, gato o cualquier mascota pueda transmitir el COVID-19."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "COVID-19 se transmite principalmente a trav\u00e9s de gotas producidas cuando una persona infectada tose, estornuda o habla. Para protegerte, limpia tus manos con frecuencia y a fondo."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "Pero siempre es una buena idea lavarse las manos con agua y jab\u00f3n despu\u00e9s del contacto con las mascotas."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "Esto tambi\u00e9n protege contra varias bacterias comunes como E. coli y Salmonella que pueden transmitirse entre mascotas y humanos."
+            ]
+          }
+        },
+        "ell": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03b1 \u03c0\u03bf\u03c5 \u03bd\u03b1 \u03b1\u03c0\u03bf\u03b4\u03b5\u03b9\u03ba\u03bd\u03cd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03c4\u03b1 \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03b4\u03ce\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd COVID-19."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "\u039f \u03b9\u03cc\u03c2 \u03bc\u03b5\u03c4\u03b1\u03b4\u03af\u03b4\u03b5\u03c4\u03b1\u03b9 \u03ba\u03c5\u03c1\u03af\u03c9\u03c2 \u03b1\u03c0\u03cc \u03c4\u03b1 \u03c3\u03c4\u03b1\u03b3\u03bf\u03bd\u03af\u03b4\u03b9\u03b1 \u03b5\u03bd\u03cc\u03c2 \u03b1\u03c4\u03cc\u03bc\u03bf\u03c5 \u03cc\u03c4\u03b1\u03bd \u03b2\u03ae\u03c7\u03b5\u03b9, \u03c6\u03c4\u03b5\u03c1\u03bd\u03af\u03b6\u03b5\u03c4\u03b1\u03b9, \u03ae \u03bc\u03b9\u03bb\u03ac\u03b5\u03b9. \u0393\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03b5\u03af\u03c2, \u03ba\u03b1\u03b8\u03ac\u03c1\u03b9\u03b6\u03b5 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03c3\u03bf\u03c5 \u03c3\u03c5\u03c7\u03bd\u03ac \u03ba\u03b1\u03b9 \u03c3\u03c7\u03bf\u03bb\u03b1\u03c3\u03c4\u03b9\u03ba\u03ac."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "\u0391\u03bb\u03bb\u03ac \u03c0\u03ac\u03bd\u03c4\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ba\u03b1\u03bb\u03cc \u03bd\u03b1 \u03c0\u03bb\u03ad\u03bd\u03b5\u03b9\u03c2 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03bc\u03b5 \u03bd\u03b5\u03c1\u03cc \u03ba\u03b1\u03b9 \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03bc\u03b5\u03c4\u03ac \u03b1\u03c0\u03cc \u03b5\u03c0\u03b1\u03c6\u03ae \u03bc\u03b5 \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03af\u03b4\u03b9\u03b1."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "\u03c5\u03c4\u03cc \u03c3\u03b5 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03b5\u03b9, \u03b5\u03c0\u03af\u03c3\u03b7\u03c2, \u03b1\u03c0\u03cc \u03b4\u03b9\u03ac\u03c6\u03bf\u03c1\u03b1 \u03ba\u03bf\u03b9\u03bd\u03ac \u03b2\u03b1\u03ba\u03c4\u03ae\u03c1\u03b9\u03b1 \u03cc\u03c0\u03c9\u03c2 \u03c4\u03bf E.coli \u03ba\u03b1\u03b9 \u03b7 \u03c3\u03b1\u03bb\u03bc\u03bf\u03bd\u03ad\u03bb\u03b1, \u03c4\u03b1 \u03bf\u03c0\u03bf\u03af\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03b4\u03bf\u03b8\u03bf\u03cd\u03bd \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03ba\u03b1\u03c4\u03bf\u03b9\u03ba\u03b9\u03b4\u03af\u03c9\u03bd \u03ba\u03b1\u03b9 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03c9\u03bd."
+            ]
+          }
+        },
+        "ita": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "Non c\u2019\u00e8 nessuna evidenza scientifica che un cane o un gatto o qualsiasi animale domestico possa trasmettere la COVID-19. "
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "La COVID-19 si diffonde principalmente attraverso le goccioline prodotte quando una persona infetta tossisce, starnutisce o parla. Per proteggerti, pulisci le mani frequentemente e accuratamente."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "Comunque, \u00e8 sempre una buona idea lavarsi le mani con acqua e sapone dopo il contatto con gli animali domestici."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "Questo protegge anche da vari batteri comuni come E. coli e Salmonella che possono essere trasmessi attraverso il contatto tra animali domestici e persone umane."
+            ]
+          }
+        },
+        "kaz": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "\u0418\u0442\u0442\u0456\u04a3, \u043c\u044b\u0441\u044b\u049b\u0442\u044b\u04a3 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u0434\u0430 \u04af\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b\u043d\u044b\u04a3 COVID-19-\u0434\u044b \u0442\u0430\u0440\u0430\u0442\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043a\u0435\u043d\u0434\u0456\u0433\u0456 \u0442\u0443\u0440\u0430\u043b\u044b \u0435\u0448\u049b\u0430\u043d\u0434\u0430\u0439 \u0434\u04d9\u043b\u0435\u043b \u0436\u043e\u049b."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "COVID-19 \u0430\u0443\u0440\u0443 \u0430\u0434\u0430\u043c \u0436\u04e9\u0442\u0435\u043b\u0433\u0435\u043d\u0434\u0435, \u0442\u04af\u0448\u043a\u0456\u0440\u0433\u0435\u043d\u0434\u0435 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u04e9\u0439\u043b\u0435\u0433\u0435\u043d\u0434\u0435 \u043f\u0430\u0439\u0434\u0430 \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u0442\u0430\u043c\u0448\u044b\u043b\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b. \u04e8\u0437\u0456\u04a3\u0456\u0437\u0434\u0456 \u049b\u043e\u0440\u0493\u0430\u0443 \u04af\u0448\u0456\u043d \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0436\u0438\u0456 \u0436\u04d9\u043d\u0435 \u043c\u04b1\u049b\u0438\u044f\u0442 \u0436\u0443\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "\u04ae\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b\u043c\u0435\u043d \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430 \u0431\u043e\u043b\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u0493\u0430\u043d \u0434\u04b1\u0440\u044b\u0441."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "\u0411\u04b1\u043b \u0441\u043e\u043d\u044b\u043c\u0435\u043d \u049b\u0430\u0442\u0430\u0440 \u0441\u0456\u0437\u0434\u0456 \u04af\u0439 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u044b \u043c\u0435\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u0431\u0435\u0440\u0456\u043b\u0443\u0456 \u043c\u04af\u043c\u043a\u0456\u043d E. coli \u0436\u04d9\u043d\u0435 Salmonella \u0441\u0438\u044f\u049b\u0442\u044b \u04d9\u0440\u0442\u04af\u0440\u043b\u0456 \u0436\u0430\u043b\u043f\u044b \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u044f\u043b\u0430\u0440\u0434\u0430\u043d \u049b\u043e\u0440\u0493\u0430\u0439\u0434\u044b."
+            ]
+          }
+        },
+        "mkd": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "\u041d\u0435\u043c\u0430 \u0434\u043e\u043a\u0430\u0437\u0438 \u0434\u0435\u043a\u0430 \u043a\u0443\u0447\u0435, \u043c\u0430\u0447\u043a\u0430 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u043e \u0434\u043e\u043c\u0430\u0448\u043d\u043e \u043c\u0438\u043b\u0435\u043d\u0438\u0447\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0435\u043d\u0435\u0441\u0435 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "\u041a\u041e\u0412\u0418\u0414-19 \u0433\u043b\u0430\u0432\u043d\u043e \u0441\u0435 \u0448\u0438\u0440\u0438 \u043f\u0440\u0435\u043a\u0443 \u043c\u0430\u043b\u0438 \u043a\u0430\u043f\u043a\u0438 \u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438 \u043a\u043e\u0433\u0430 \u0437\u0430\u0440\u0430\u0437\u0435\u043d\u043e \u043b\u0438\u0446\u0435 \u043a\u0430\u0448\u043b\u0430, \u043a\u0438\u0432\u0430 \u0438\u043b\u0438 \u0437\u0431\u043e\u0440\u0443\u0432\u0430. \u0417\u0430 \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0438\u0442\u0435, \u0447\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u0440\u0430\u0446\u0435\u0442\u0435 \u0447\u0435\u0441\u0442\u043e \u0438 \u0442\u0435\u043c\u0435\u043b\u043d\u043e."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "\u041d\u043e, \u0441\u0435\u043a\u043e\u0433\u0430\u0448 \u0435 \u0434\u043e\u0431\u0440\u043e \u0434\u0430 \u0433\u0438 \u043c\u0438\u0435\u0442\u0435 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430 \u043f\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442 \u0441\u043e \u0434\u043e\u043c\u0430\u0448\u043d\u0438 \u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438."
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "\u041e\u0432\u0430 \u0432\u0435 \u0448\u0442\u0438\u0442\u0438 \u0438 \u043e\u0434 \u0440\u0430\u0437\u043d\u0438 \u0432\u043e\u043e\u0431\u0438\u0447\u0430\u0435\u043d\u0438 \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0438 \u043a\u0430\u043a\u043e \u0415\u0448\u0435\u0440\u0438\u0445\u0438\u0458\u0430 \u043a\u043e\u043b\u0438 \u0438 \u0421\u0430\u043b\u043c\u043e\u043d\u0435\u043b\u0430, \u043a\u043e\u0438 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u043f\u0440\u0435\u043d\u0435\u0441\u0430\u0442 \u043c\u0435\u0453\u0443 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0442\u0435 \u043c\u0438\u043b\u0435\u043d\u0438\u0446\u0438 \u0438 \u043b\u0443\u0453\u0435\u0442\u043e."
+            ]
+          }
+        },
+        "tur": {
+          "09d80df1-040d-4264-a020-db6e1da6265e": {
+            "text": [
+              "Bir k\u00f6pe\u011fin, kedinin ya da herhangi bir evcil hayvan\u0131n KOV\u0130D-19 bula\u015ft\u0131rabilece\u011fine dair bir kan\u0131t yoktur. "
+            ]
+          },
+          "455f71e6-ae14-4766-b7f2-682d149f4474": {
+            "text": [
+              "KOV\u0130D-19 genel olarak enfekte bir ki\u015fi \u00f6ks\u00fcrd\u00fc\u011f\u00fcnde, hap\u015f\u0131rd\u0131\u011f\u0131nda ya da konu\u015ftu\u011funda yay\u0131l\u0131r. Kendinizi korumak i\u00e7in ellerinizi s\u0131k s\u0131k iyice y\u0131kay\u0131n. "
+            ]
+          },
+          "e52864c2-358d-4a3f-80f9-681a740d570b": {
+            "text": [
+              "Ellerinizi y\u0131kamak, hayvanlar ve insanlar aras\u0131nda aras\u0131nda bula\u015fabilen E.coli ve Salmonella gibi \u00e7e\u015fitli yayg\u0131n bakterilere kar\u015f\u0131 da korur."
+            ]
+          },
+          "9b45228e-ed23-42b0-b346-0cb3eff7a21b": {
+            "text": [
+              "Ancak, evcil hayvanlar\u0131n\u0131za dokunduktan sonra ellerinizi su ve sabun ile y\u0131kamak her zaman i\u00e7in iyi bir fikirdir."
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "92c23961-253a-4254-90a6-ef497b71edda",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "There is no evidence that a dog, cat or any pet can transmit COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "09d80df1-040d-4264-a020-db6e1da6265e"
+            },
+            {
+              "attachments": [],
+              "text": "COVID-19 is mainly spread through droplets produced when an infected person coughs, sneezes, or speaks. To protect yourself, clean your hands frequently and thoroughly.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "455f71e6-ae14-4766-b7f2-682d149f4474"
+            },
+            {
+              "attachments": [],
+              "text": "But it\u2019s always a good idea to wash your hands with soap and water after contact with pets.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "9b45228e-ed23-42b0-b346-0cb3eff7a21b"
+            },
+            {
+              "attachments": [],
+              "text": "This also protects you against various common bacteria such as E.coli and Salmonella that can be transmitted between pets and humans.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e52864c2-358d-4a3f-80f9-681a740d570b"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "89e28efb-f484-453c-aaf5-3f27c6965753",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Disease course",
+      "uuid": "74ce8f1c-a826-4722-804b-6165c28b11e3",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "b4db91ae-b13e-47e3-92db-e42c781d4e53": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 18,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 17
+      },
+      "localization": {
+        "por": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "\u2713 O tempo m\u00e9dio entre a infec\u00e7\u00e3o e o in\u00edcio dos sintomas (per\u00edodo de incuba\u00e7\u00e3o) \u00e9 de 5 a 6 dias;\n\u2713 Desde o in\u00edcio dos sintomas at\u00e9 a recupera\u00e7\u00e3o nos casos leves, \u00e9 de 2 semanas e nos casos graves, em 3-6 semanas;\n\u2713 A infec\u00e7\u00e3o assintom\u00e1tica \u00e9 rara e a maioria dos indiv\u00edduos infectados progride para alguma forma de doen\u00e7a;\n\u2713 As crian\u00e7as tendem a ter doen\u00e7as mais leves que os adultos, mas essas informa\u00e7\u00f5es ainda precisam de confirma\u00e7\u00e3o adicional."
+            ]
+          }
+        },
+        "rus": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "\u041f\u0440\u0438 \u043b\u0435\u0433\u043a\u043e\u043c \u0442\u0435\u0447\u0435\u043d\u0438\u0438 \u0431\u043e\u043b\u0435\u0437\u043d\u0438 \u043e\u0442 \u043f\u043e\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432 \u0434\u043e \u0432\u044b\u0437\u0434\u043e\u0440\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u043e\u0439\u0442\u0438 \u0434\u043e 2 \u043d\u0435\u0434\u0435\u043b\u044c, \u0432 \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u044f\u0445 - \u043e\u0442 3 \u0434\u043e 6 \u043d\u0435\u0434\u0435\u043b\u044c."
+            ]
+          }
+        },
+        "spa": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "Desde el inicio de los s\u00edntomas hasta la recuperaci\u00f3n, puede que pasen 2 semanas para casos leves y de 3 a 6 semanas para casos graves."
+            ]
+          }
+        },
+        "ita": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "Dalla comparsa dei sintomi al completo recupero, ci vogliono circa 2 settimane per i casi lievi e da 3 a 6 settimane per i casi pi\u00f9 gravi."
+            ]
+          }
+        },
+        "ell": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "\u0391\u03c0\u03cc \u03c4\u03b7\u03bd \u03b5\u03bc\u03c6\u03ac\u03bd\u03b9\u03c3\u03b7 \u03c4\u03c9\u03bd \u03c3\u03c5\u03bc\u03c0\u03c4\u03c9\u03bc\u03ac\u03c4\u03c9\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c4\u03b7\u03bd \u03b1\u03bd\u03ac\u03c1\u03c1\u03c9\u03c3\u03b7, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c7\u03c1\u03b5\u03b9\u03b1\u03c3\u03c4\u03bf\u03cd\u03bd \u03bc\u03ad\u03c7\u03c1\u03b9 2 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03ae\u03c0\u03b9\u03b5\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2 \u03ba\u03b1\u03b9 3 \u03ad\u03c9\u03c2 6 \u03b5\u03b2\u03b4\u03bf\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b9\u03c2 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03c0\u03b5\u03c1\u03b9\u03c0\u03c4\u03ce\u03c3\u03b5\u03b9\u03c2."
+            ]
+          }
+        },
+        "mkd": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "Desde el inicio de los s\u00edntomas hasta la recuperaci\u00f3n, puede que pasen 2 semanas para casos leves y de 3 a 6 semanas para casos graves."
+            ]
+          }
+        },
+        "kaz": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "\u0411\u0435\u043b\u0433\u0456\u043b\u0435\u0440 \u0431\u0430\u0439\u049b\u0430\u043b\u0493\u0430\u043d\u043d\u0430\u043d \u0431\u0430\u0441\u0442\u0430\u043f \u0441\u0430\u0443\u044b\u0493\u0443\u0493\u0430 \u0434\u0435\u0439\u0456\u043d, \u0436\u0435\u04a3\u0456\u043b \u0434\u04d9\u0440\u0435\u0436\u0435\u0434\u0435 2 \u0430\u043f\u0442\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d, \u0430\u0443\u044b\u0440 \u0436\u0430\u0493\u0434\u0430\u0439\u043b\u0430\u0440\u0434\u0430 3-6 \u0430\u043f\u0442\u0430\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0441\u043e\u0437\u044b\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          }
+        },
+        "tur": {
+          "58a79b88-06e0-410d-95f8-c99e39c6e6cc": {
+            "text": [
+              "Semptom ba\u015flang\u0131c\u0131ndan iyile\u015fme s\u00fcreci, hafif vakalarda 2 hafta, a\u011f\u0131r vakalarda 3 ila 6 hafta s\u00fcrebilir. "
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "b4db91ae-b13e-47e3-92db-e42c781d4e53",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "From the onset of symptoms to recovery, it can take up to 2 weeks for mild cases and 3 to 6 weeks for severe cases. ",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "58a79b88-06e0-410d-95f8-c99e39c6e6cc"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "07bc1c87-fbeb-4e00-9b03-da54520ec606",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

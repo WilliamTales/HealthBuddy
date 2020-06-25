@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "8ea0083d-86bb-4233-abb7-8565b7575ebf": {
+            "position": {
+              "left": 240,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "metadata": {
+        "revision": 20
+      },
+      "name": "Bad words",
+      "revision": 21,
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "022e0209-ae15-4f4a-8ed7-ddea67f9e6ea",
+      "localization": {
+        "por": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "Ei! N\u00e3o gosto de palavr\u00f5es como este. Se voc\u00ea quiser falar direito, estou aqui."
+            ]
+          }
+        },
+        "rus": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435! \u041d\u043e \u043c\u043d\u0435 \u043d\u0435 \u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f, \u043a\u043e\u0433\u0434\u0430 \u0432\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0435 \u043f\u043e\u0434\u043e\u0431\u043d\u0443\u044e \u043b\u0435\u043a\u0441\u0438\u043a\u0443 \u0438 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u044f. \u041d\u0435 \u043c\u043e\u0433\u043b\u0438 \u0431\u044b \u0432\u044b \u0432\u044b\u0440\u0430\u0436\u0430\u0442\u044c\u0441\u044f \u043f\u043e\u0432\u0435\u0436\u043b\u0438\u0432\u0435\u0435? "
+            ]
+          }
+        },
+        "spa": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "\u00a1Hola!  Por favor, no escribas palabrotas.\n\nSi tienes alguna pregunta sobre el COVID-19, ser\u00eda un placer ayudarte. Gracias.\n"
+            ]
+          }
+        },
+        "ell": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "\u0393\u03b5\u03b9\u03b1 \u03c3\u03bf\u03c5! \u039c\u03b7 \u03b2\u03c1\u03af\u03b6\u03b5\u03b9\u03c2, \u03c3\u03b5 \u03c0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce.\n\n\u0391\u03bd \u03ad\u03c7\u03b5\u03b9\u03c2 \u03b5\u03c1\u03c9\u03c4\u03ae\u03bc\u03b1\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd COVID-19, \u03b5\u03c5\u03c7\u03b1\u03c1\u03af\u03c3\u03c4\u03c9\u03c2 \u03bd\u03b1 \u03c3\u03b5 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03c9. \n\u0395\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce.\n"
+            ]
+          }
+        },
+        "ita": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "Ciao! Non usare parolacce, per favore.\n\nSe hai domande su COVID-19, sono felice di aiutarti. Grazie.\n"
+            ]
+          }
+        },
+        "mkd": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "\u0417\u0434\u0440\u0430\u0432\u043e! \u0412\u0435 \u043c\u043e\u043b\u0430\u043c \u043d\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u0442\u0435 \u043f\u043e\u0433\u0440\u0434\u043d\u0438 \u0437\u0431\u043e\u0440\u043e\u0432\u0438.\n\n\u0410\u043a\u043e \u0438\u043c\u0430\u0442\u0435 \u043f\u0440\u0430\u0448\u0430\u045a\u0430 \u0437\u0430 \u041a\u041e\u0412\u0418\u0414-19, \u0441\u043e \u0437\u0430\u0434\u043e\u0432\u043e\u043b\u0441\u0442\u0432\u043e \u045c\u0435 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0430\u043c.  \n\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0430\u043c.\n"
+            ]
+          }
+        },
+        "kaz": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "\u0421\u04d9\u043b\u0435\u043c\u0435\u0442\u0441\u0456\u0437\u0434\u0435\u0440 \u043c\u0435, \u0436\u0430\u043c\u0430\u043d \u0441\u04e9\u0437\u0434\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0431\u0430\u04a3\u044b\u0437.\n\u0415\u0433\u0435\u0440 \u0441\u0456\u0437\u0434\u0435 COVID-19 \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440\u044b\u04a3\u044b\u0437 \u0431\u043e\u043b\u0441\u0430, \u043c\u0435\u043d \u0441\u0456\u0437\u0433\u0435 \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0443\u0433\u0435 \u049b\u0443\u0430\u043d\u044b\u0448\u0442\u044b\u043c\u044b\u043d.\n\n\u0420\u0430\u0445\u043c\u0435\u0442.\n"
+            ]
+          }
+        },
+        "tur": {
+          "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1": {
+            "text": [
+              "Merhaba!, l\u00fctfen k\u00fcf\u00fcrl\u00fc s\u00f6zler kullanmay\u0131n\u0131nz.\nKOV\u0130D-19\u2019a y\u00f6nelik sorular\u0131n\u0131z varsa sorular\u0131n\u0131z\u0131 yan\u0131tlamaktan memnuniyet duyar\u0131m. \nTe\u015fekk\u00fcr ederim.\n"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "8ea0083d-86bb-4233-abb7-8565b7575ebf",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Hello! Please don't use bad words.\nIf you have questions about COVID-19, I am happy to respond to you. Thank you.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "9aca8e18-6b5f-47f7-9179-b44f6ac4abf1"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "0557e30d-a7bf-4409-a02f-2733672f3326",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

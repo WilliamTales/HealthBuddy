@@ -1,0 +1,253 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "8a2b987f-011e-4951-8b2e-86003e3bfc48": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {}
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "La informaci\u00f3n actual sugiere que el virus puede causar s\u00edntomas leves parecidos a los de la gripe, as\u00ed como enfermedades m\u00e1s graves e incluso la muerte."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "Se sabe que m\u00e1s del 80% de los pacientes tienen una enfermedad leve y se recuperar\u00e1n."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "Pero el otro 20% de los pacientes tiene una enfermedad grave o cr\u00edtica, que va desde dificultad para respirar hasta shock s\u00e9ptico e insuficiencia multiorg\u00e1nica."
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "En aproximadamente un 7% de los casos reportados, el virus es mortal y el riesgo de muerte aumenta a medida que el paciente tiene m\u00e1s edad y padece enfermedades subyacentes."
+            ]
+          }
+        },
+        "ell": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "\u039f\u03b9 \u03c9\u03c2 \u03c4\u03ce\u03c1\u03b1 \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03c5\u03c0\u03bf\u03b4\u03b7\u03bb\u03ce\u03bd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03bf \u03b9\u03cc\u03c2 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03ad\u03c3\u03b5\u03b9 \u03ae\u03c0\u03b9\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1 \u03c0\u03bf\u03c5 \u03bc\u03bf\u03b9\u03ac\u03b6\u03bf\u03c5\u03bd \u03bc\u03b5 \u03b1\u03c5\u03c4\u03ac \u03c4\u03b7\u03c2 \u03b3\u03c1\u03af\u03c0\u03b7\u03c2, \u03b1\u03bb\u03bb\u03ac \u03ba\u03b1\u03b9 \u03c0\u03b9\u03bf \u03c3\u03bf\u03b2\u03b1\u03c1\u03ae \u03b5\u03ba\u03b4\u03ae\u03bb\u03c9\u03c3\u03b7 - \u03b1\u03ba\u03cc\u03bc\u03b7 \u03ba\u03b1\u03b9 \u03b8\u03ac\u03bd\u03b1\u03c4\u03bf."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "\u0393\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bc\u03b5 \u03cc\u03c4\u03b9 \u03c0\u03ac\u03bd\u03c9 \u03b1\u03c0\u03cc \u03c4\u03bf 80% \u03c4\u03c9\u03bd \u03b1\u03c3\u03b8\u03b5\u03bd\u03ce\u03bd \u03c0\u03b1\u03c1\u03bf\u03c5\u03c3\u03b9\u03ac\u03b6\u03bf\u03c5\u03bd \u03ae\u03c0\u03b9\u03b1 \u03c0\u03c1\u03bf\u03c2 \u03bc\u03ad\u03c4\u03c1\u03b9\u03b1 \u03b5\u03ba\u03b4\u03ae\u03bb\u03c9\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03b1\u03bd\u03b1\u03c1\u03c1\u03ce\u03bd\u03bf\u03c5\u03bd."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "\u038c\u03bc\u03c9\u03c2, \u03c4\u03bf \u03c5\u03c0\u03cc\u03bb\u03bf\u03b9\u03c0\u03bf 20% \u03b5\u03bc\u03c6\u03b1\u03bd\u03af\u03b6\u03b5\u03b9 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03ae \u03ba\u03b1\u03b9 \u03ba\u03c1\u03af\u03c3\u03b9\u03bc\u03b5\u03c2 \u03b5\u03ba\u03b4\u03b7\u03bb\u03ce\u03c3\u03b5\u03b9\u03c2, \u03cc\u03c0\u03c9\u03c2 \u03b4\u03c5\u03c3\u03ba\u03bf\u03bb\u03af\u03b1 \u03c3\u03c4\u03b7\u03bd \u03b1\u03bd\u03b1\u03c0\u03bd\u03bf\u03ae, \u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03c3\u03bf\u03ba \u03ba\u03b1\u03b9  \u03c0\u03bf\u03bb\u03c5\u03bf\u03c1\u03b3\u03b1\u03bd\u03b9\u03ba\u03ae \u03b1\u03bd\u03b5\u03c0\u03ac\u03c1\u03ba\u03b5\u03b9\u03b1"
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "\u03a3\u03c4\u03bf 7% \u03c0\u03b5\u03c1\u03af\u03c0\u03bf\u03c5 \u03c4\u03c9\u03bd \u03b5\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03b9\u03c9\u03bc\u03ad\u03bd\u03c9\u03bd \u03ba\u03c1\u03bf\u03c5\u03c3\u03bc\u03ac\u03c4\u03c9\u03bd \u03bf \u03b9\u03cc\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03b8\u03b1\u03bd\u03b1\u03c4\u03b7\u03c6\u03cc\u03c1\u03bf\u03c2, \u03b5\u03bd\u03ce \u03bf \u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf\u03c2 \u03b8\u03b1\u03bd\u03ac\u03c4\u03bf\u03c5 \u03b1\u03c5\u03be\u03ac\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bc\u03b5 \u03c4\u03b7\u03bd \u03b7\u03bb\u03b9\u03ba\u03af\u03b1 \u03c4\u03bf\u03c5 \u03b1\u03c3\u03b8\u03b5\u03bd\u03bf\u03cd\u03c2 \u03ba\u03b1\u03b9 \u03bc\u03b5 \u03c4\u03b9\u03c2 \u03c5\u03c0\u03bf\u03ba\u03b5\u03af\u03bc\u03b5\u03bd\u03b5\u03c2 \u03bd\u03cc\u03c3\u03bf\u03c5\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u0441\u0432\u0438\u0434\u0435\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0443\u0435\u044e \u043e \u0442\u043e\u043c, \u0447\u0442\u043e \u0432\u0438\u0440\u0443\u0441 \u043c\u043e\u0436\u0435\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0442\u044c \u043b\u0435\u0433\u043a\u0438\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b \u0433\u0440\u0438\u043f\u043f\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0431\u043e\u043b\u0435\u0435 \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b \u0438\u043b\u0438 \u0434\u0430\u0436\u0435 \u0441\u043c\u0435\u0440\u0442\u044c."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "\u041c\u044b \u0437\u043d\u0430\u0435\u043c, \u0447\u0442\u043e \u0443 \u0431\u043e\u043b\u0435\u0435 80% \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u043e\u0432 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u0435\u043a\u0430\u0435\u0442 \u0432 \u043b\u0435\u0433\u043a\u043e\u0439 \u0438\u043b\u0438 \u0443\u043c\u0435\u0440\u0435\u043d\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0438 \u043e\u043d\u0438 \u0432\u044b\u0437\u0434\u043e\u0440\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "\u041d\u043e \u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435 20% \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u043e\u0432 \u0431\u043e\u043b\u0435\u044e\u0442 \u0432 \u0442\u044f\u0436\u0435\u043b\u043e\u0439 \u0438\u043b\u0438 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0444\u043e\u0440\u043c\u0435, \u0441 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435\u043c \u0442\u044f\u0436\u0435\u043b\u044b\u0445 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432, \u043e\u0442 \u043e\u0434\u044b\u0448\u043a\u0438 \u0434\u043e \u0441\u0435\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0448\u043e\u043a\u0430 \u0438 \u043f\u043e\u043b\u0438\u043e\u0440\u0433\u0430\u043d\u043d\u043e\u0439 \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e\u0441\u0442\u0438."
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "\u041f\u0440\u0438\u0431\u043b\u0438\u0437\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0432 7% \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u0435\u0432 \u0432\u0438\u0440\u0443\u0441 \u0441\u043c\u0435\u0440\u0442\u0435\u043b\u0435\u043d, \u0438 \u0447\u0435\u043c \u0441\u0442\u0430\u0440\u0448\u0435 \u043f\u0430\u0446\u0438\u0435\u043d\u0442, \u0442\u0435\u043c \u0432\u044b\u0448\u0435 \u0440\u0438\u0441\u043a \u0441\u043c\u0435\u0440\u0442\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u0440\u0435\u0434\u0438 \u0442\u0435\u0445, \u043a\u0442\u043e \u0438\u043c\u0435\u0435\u0442 \u0441\u043e\u043f\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f."
+            ]
+          }
+        },
+        "ita": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "Al momento, le informazioni disponibili indicano che questo virus pu\u00f2 causare sintomi influenzali lievi, ma anche pi\u00f9 gravi persino la morte. "
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "Sappiamo che pi\u00f9 dell\u201980% dei pazienti presenta sintomi lievi e guarisce senza complicazioni.  "
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "Tuttavia, il restante 20% si ammala gravemente e presenta difficolt\u00e0 respiratorie, shock settico e pu\u00f2 causare collasso sistemico degli organi. "
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "Finora, sul totale dei casi riportati, il virus sembra essere fatale nel 4% dei casi. Il rischio di morte aumenta con l\u2019aumentare dell\u2019et\u00e0 del paziente, ed in presenza di patologie croniche preesistenti. "
+            ]
+          }
+        },
+        "kaz": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "Al momento, le informazioni disponibili indicano che questo virus pu\u00f2 causare sintomi lievi simil-influenzali, nonch\u00e9 sintomi pi\u00f9 gravi e persino la morte."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "Sappiamo che pi\u00f9 dell\u201980% dei pazienti presenta sintomi da lievi a moderati e guarisce senza complicazioni."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "Tuttavia, il restante 20% si ammala gravemente e presenta difficolt\u00e0 respiratorie e shock setticemico che pu\u00f2 causare collasso sistemico degli organi. "
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "In circa il 7% dei casi segnalati, il virus \u00e8 fatale e il rischio di morte aumenta con l'avanzare dell'et\u00e0 del paziente in presenza di patologie croniche preesistenti."
+            ]
+          }
+        },
+        "por": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "As informa\u00e7\u00f5es atuais sugerem que o v\u00edrus pode causar sintomas leves, semelhantes aos da gripe, bem como doen\u00e7as mais graves e at\u00e9 morte."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "Sabemos que mais de 80% dos pacientes apresentam sintomas leves da doen\u00e7a e se recuperam."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "Mas os outros 20% dos pacientes apresentam a forma grave ou cr\u00edtica da doen\u00e7a, variando de falta de ar a choque s\u00e9ptico e fal\u00eancia de m\u00faltiplos \u00f3rg\u00e3os."
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "Em cerca de 4% dos casos relatados, o v\u00edrus \u00e9 fatal e o risco de morte aumenta \u00e0 medida que o paciente \u00e9 idoso e com as condi\u00e7\u00f5es de sa\u00fade agravantes."
+            ]
+          }
+        },
+        "mkd": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "\u0421\u0435\u0433\u0430\u0448\u043d\u0438\u0442\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0443\u043a\u0430\u0436\u0443\u0432\u0430\u0430\u0442 \u0434\u0435\u043a\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0430 \u0431\u043b\u0430\u0433\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438 \u0441\u043b\u0438\u0447\u043d\u0438 \u043d\u0430 \u0433\u0440\u0438\u043f, \u043a\u0430\u043a\u043e \u0438 \u043f\u043e\u0442\u0435\u0448\u043a\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438, \u043f\u0430 \u0434\u0443\u0440\u0438 \u0438 \u0441\u043c\u0440\u0442."
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "\u0417\u043d\u0430\u0435\u043c\u0435 \u0434\u0435\u043a\u0430 \u043d\u0430\u0434 80% \u043e\u0434 \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0438\u0442\u0435 \u0438\u043c\u0430\u0430\u0442 \u043b\u0435\u0441\u043d\u0430 \u0434\u043e \u0443\u043c\u0435\u0440\u0435\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442 \u0438 \u0434\u0435\u043a\u0430 \u045c\u0435 \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0430\u0442."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "\u041d\u043e, \u0434\u0440\u0443\u0433\u0438\u0442\u0435 20% \u043e\u0434 \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0438\u0442\u0435 \u0438\u043c\u0430\u0430\u0442 \u0442\u0435\u0448\u043a\u0430 \u0438\u043b\u0438 \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u0430 \u0431\u043e\u043b\u0435\u0441\u0442, \u043f\u043e\u0447\u043d\u0443\u0432\u0430\u0458\u045c\u0438 \u043e\u0434 \u0433\u0443\u0431\u0435\u045a\u0435 \u043d\u0430 \u0437\u0434\u0438\u0432\u043e\u0442, \u043f\u0430 \u0441\u0450 \u0434\u043e \u0441\u0435\u043f\u0442\u0438\u0447\u0435\u043d \u0448\u043e\u043a \u0438 \u043e\u0442\u043a\u0430\u0436\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u043f\u043e\u0432\u0435\u045c\u0435 \u043e\u0440\u0433\u0430\u043d\u0438."
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "\u041a\u0430\u0458 \u043e\u043a\u043e\u043b\u0443 7% \u043e\u0434 \u043f\u0440\u0438\u0458\u0430\u0432\u0435\u043d\u0438\u0442\u0435 \u0441\u043b\u0443\u0447\u0430\u0438, \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u0435 \u0444\u0430\u0442\u0430\u043b\u0435\u043d, \u0430 \u0440\u0438\u0437\u0438\u043a\u043e\u0442 \u043e\u0434 \u0441\u043c\u0440\u0442 \u0441\u0435 \u0437\u0433\u043e\u043b\u0435\u043c\u0443\u0432\u0430 \u0441\u043e \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430 \u043d\u0430 \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u043e\u0442 \u0438 \u043a\u0430\u0458 \u043b\u0438\u0446\u0430\u0442\u0430 \u043a\u043e\u0438 \u0438\u043c\u0430\u0430\u0442  \u0434\u0440\u0443\u0433\u0438 \u0437\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0435\u043d\u0438 \u0441\u043e\u0441\u0442\u043e\u0458\u0431\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "888a03ee-184f-4695-a73c-838bf54fff7d": {
+            "text": [
+              "Mevcut bilgiler vir\u00fcs\u00fcn hafif, grip benzeri semptomlar\u0131n yan\u0131s\u0131ra daha \u015fiddetli semptomlara ve hatta \u00f6l\u00fcme sebep olabilece\u011fini g\u00f6stermektedir.   "
+            ]
+          },
+          "02972fc4-6b08-466a-bffa-a737de2c3679": {
+            "text": [
+              "Bilindi\u011fi kadar\u0131yla, hastalar\u0131n %80\u2019inden fazlas\u0131 hafif-orta dereceli hastal\u0131\u011fa sahip ve iyile\u015fecektir."
+            ]
+          },
+          "5a029196-928e-4450-a65c-f76a7ceb56f2": {
+            "text": [
+              "Ancak kalan %20 hasta grubu, nefes darl\u0131\u011f\u0131ndan septik \u015foka ve hatta \u00e7oklu organ yetmezli\u011fine kadar, \u015fiddetli ya da kritik hastal\u0131\u011fa sahiptir."
+            ]
+          },
+          "80f60d29-b06b-4725-b48e-2755770e8ee2": {
+            "text": [
+              "Bildirilen vakalar\u0131n yakla\u015f\u0131k %7\u2019sinde vir\u00fcs \u00f6l\u00fcmc\u00fcld\u00fcr ve e\u011fer hasta alt\u0131nda yatan sa\u011fl\u0131k durumu olan hastalar\u0131n aras\u0131ndaysa, \u00f6l\u00fcm risk artar."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 73
+      },
+      "name": "Severity",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "b703e526-a4d5-4844-978c-7fe69cd6735a",
+      "revision": 76,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Current information suggests that the virus can cause mild, flu-like symptoms as well as more severe symptoms or even death.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "888a03ee-184f-4695-a73c-838bf54fff7d"
+            },
+            {
+              "attachments": [],
+              "text": "We know that more than 80% of patients have mild to moderate disease and will recover.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "02972fc4-6b08-466a-bffa-a737de2c3679"
+            },
+            {
+              "attachments": [],
+              "text": "But the other 20% of patients have severe or critical disease, ranging from shortness of breath to septic shock and multi-organ failure.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5a029196-928e-4450-a65c-f76a7ceb56f2"
+            },
+            {
+              "attachments": [],
+              "text": "In about 7% of reported cases, the virus is fatal, and the risk of death increases the older a patient is and among those with underlying health conditions.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "80f60d29-b06b-4725-b48e-2755770e8ee2"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "478c97d7-e9d5-401f-9b4f-c20c609e7ac2"
+            }
+          ],
+          "uuid": "8a2b987f-011e-4951-8b2e-86003e3bfc48"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

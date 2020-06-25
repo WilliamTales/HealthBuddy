@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "522aef47-4d5a-4518-8b61-748ef8420b8d": {
+            "position": {
+              "left": 40,
+              "top": 20
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "El clima fr\u00edo no puede matar el nuevo coronavirus u otras enfermedades."
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "La temperatura normal del cuerpo humano permanece alrededor de 36,5\u00b0C a 37\u00b0C, independientemente de la temperatura externa o el clima."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "La forma m\u00e1s eficaz de protegerse es limpiarse las manos con frecuencia con un desinfectante para manos a base de alcohol o lavarlas con agua y jab\u00f3n."
+            ]
+          }
+        },
+        "ell": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "\u03a4\u03bf \u03ba\u03c1\u03cd\u03bf \u03b4\u03b5\u03bd \u03c3\u03ba\u03bf\u03c4\u03ce\u03bd\u03b5\u03b9 \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03bf \u03bf\u03cd\u03c4\u03b5 \u03c4\u03b9\u03c2 \u03ac\u03bb\u03bb\u03b5\u03c2 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b5\u03c2.. "
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "\u0397 \u03ba\u03b1\u03bd\u03bf\u03bd\u03b9\u03ba\u03ae \u03b8\u03b5\u03c1\u03bc\u03bf\u03ba\u03c1\u03b1\u03c3\u03af\u03b1 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03b9\u03bd\u03bf\u03c5 \u03c3\u03ce\u03bc\u03b1\u03c4\u03bf\u03c2 \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03b5\u03b9 \u03c3\u03c4\u03bf\u03c5\u03c2 36.5\u00b0C \u03bc\u03b5 37\u00b0C, \u03b1\u03bd\u03b5\u03be\u03ac\u03c1\u03c4\u03b7\u03c4\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u03b5\u03be\u03c9\u03c4\u03b5\u03c1\u03b9\u03ba\u03ae \u03b8\u03b5\u03c1\u03bc\u03bf\u03ba\u03c1\u03b1\u03c3\u03af\u03b1 \u03ae \u03c4\u03b9\u03c2 \u03ba\u03b1\u03b9\u03c1\u03b9\u03ba\u03ad\u03c2 \u03c3\u03c5\u03bd\u03b8\u03ae\u03ba\u03b5\u03c2. "
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "\u039f \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03bf\u03c2 \u03c4\u03c1\u03cc\u03c0\u03bf\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03b5\u03af\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bd\u03b1 \u03ba\u03b1\u03b8\u03b1\u03c1\u03af\u03b6\u03b5\u03b9\u03c2 \u03c4\u03b1 \u03c7\u03ad\u03c1\u03b9\u03b1 \u03c3\u03c5\u03c7\u03bd\u03ac \u03bc\u03b5 \u03b1\u03bd\u03c4\u03b9\u03c3\u03b7\u03c0\u03c4\u03b9\u03ba\u03cc \u03ae \u03bd\u03b1 \u03c4\u03b1 \u03c0\u03bb\u03ad\u03bd\u03b5\u03b9\u03c2 \u03bc\u03b5 \u03c3\u03b1\u03c0\u03bf\u03cd\u03bd\u03b9 \u03ba\u03b1\u03b9 \u03bd\u03b5\u03c1\u03cc. "
+            ]
+          }
+        },
+        "rus": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "\u0425\u043e\u043b\u043e\u0434\u043d\u0430\u044f \u043f\u043e\u0433\u043e\u0434\u0430 \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0443\u0431\u0438\u0442\u044c \u043d\u043e\u0432\u044b\u0439 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u0438\u0435 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f."
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "\u0422\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u0442\u0435\u043b\u0430 \u0437\u0434\u043e\u0440\u043e\u0432\u043e\u0433\u043e \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044f \u0432 \u043f\u0440\u0435\u0434\u0435\u043b\u0430\u0445 \u043e\u0442 36,5\u00b0 \u0434\u043e 37\u00b0 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u043e\u0442 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u044b \u043e\u043a\u0440\u0443\u0436\u0430\u044e\u0449\u0435\u0439 \u0441\u0440\u0435\u0434\u044b \u0438\u043b\u0438 \u043f\u043e\u0433\u043e\u0434\u044b."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "\u0421\u0430\u043c\u044b\u043c \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u043c \u0441\u043f\u043e\u0441\u043e\u0431\u043e\u043c \u0437\u0430\u0449\u0438\u0442\u044b \u043e\u0442 \u043d\u043e\u0432\u043e\u0439 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0439 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043c\u044b\u0442\u044c\u0435 \u0440\u0443\u043a \u0441 \u043c\u044b\u043b\u043e\u043c \u0438\u043b\u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0440\u0443\u043a \u0441\u043f\u0438\u0440\u0442\u043e\u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0449\u0438\u043c \u0430\u043d\u0442\u0438\u0441\u0435\u043f\u0442\u0438\u043a\u043e\u043c."
+            ]
+          }
+        },
+        "ita": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "Il freddo non pu\u00f2 uccidere il nuovo coronavirus o altre malattie. "
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              " La normale temperatura del corpo umano rimane tra i 36,5 \u00b0 C e 37 \u00b0 C, indipendentemente dalla temperatura esterna o dalle condizioni meteorologiche."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "Il modo pi\u00f9 efficace per proteggersi \u00e8 lavarsi frequentemente le mani con un detergente a base di alcool o lavarle con acqua e sapone.\n"
+            ]
+          }
+        },
+        "kaz": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "\u0421\u0443\u044b\u049b \u0430\u0443\u0430 \u0440\u0430\u0439\u044b \u0436\u0430\u04a3\u0430 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u044b \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u0430\u0443\u0440\u0443\u043b\u0430\u0440\u0434\u044b \u04e9\u043b\u0442\u0456\u0440\u0435 \u0430\u043b\u043c\u0430\u0439\u0434\u044b."
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "\u0414\u0435\u043d\u0435\u0434\u0435\u0433\u0456 \u049b\u0430\u043b\u044b\u043f\u0442\u044b \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430, \u0441\u044b\u0440\u0442\u049b\u044b \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u043c\u0435\u043d \u0430\u0443\u0430-\u0440\u0430\u0439\u044b\u043d\u0430 \u049b\u0430\u0440\u0430\u043c\u0430\u0441\u0442\u0430\u043d, \u0448\u0430\u043c\u0430\u043c\u0435\u043d 36,5\u00b0\u0421-37\u00b0C \u0430\u0440\u0430\u043b\u044b\u0493\u044b\u043d\u0434\u0430 \u0442\u04b1\u0440\u0430\u049b\u0442\u044b \u0431\u043e\u043b\u044b\u043f \u049b\u0430\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "\u04e8\u0437\u0456\u04a3\u0456\u0437\u0434\u0456 \u049b\u043e\u0440\u0493\u0430\u0443\u0434\u044b\u04a3 \u0435\u04a3 \u0442\u0438\u0456\u043c\u0434\u0456 \u04d9\u0434\u0456\u0441\u0456 - \u049b\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u0441\u043f\u0438\u0440\u0442 \u043d\u0435\u0433\u0456\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0442\u0430\u0437\u0430\u0440\u0442\u049b\u044b\u0448\u043f\u0435\u043d \u0441\u04af\u0440\u0442\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0441\u0430\u0431\u044b\u043d\u0434\u0430\u043f \u0436\u0443\u0443."
+            ]
+          }
+        },
+        "por": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "O clima frio n\u00e3o pode matar o novo coronav\u00edrus ou outras doen\u00e7as."
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "A temperatura normal do corpo humano permanece em torno de 36,5 \u00b0 C a 37 \u00b0 C, independentemente da temperatura externa ou do clima."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "A maneira mais eficaz de se proteger \u00e9 limpando frequentemente as m\u00e3os com \u00e1lcool ou lavando-as com \u00e1gua e sab\u00e3o."
+            ]
+          }
+        },
+        "mkd": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "\u0421\u0442\u0443\u0434\u0435\u043d\u043e\u0442\u043e \u0432\u0440\u0435\u043c\u0435 \u043d\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u043e \u0443\u0431\u0438\u0435 \u043d\u043e\u0432\u0438\u043e\u0442 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441 \u0438\u043b\u0438 \u0434\u0440\u0443\u0433\u0438 \u0431\u043e\u043b\u0435\u0441\u0442\u0438."
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "\u041d\u043e\u0440\u043c\u0430\u043b\u043d\u0430\u0442\u0430 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u043d\u0430 \u0447\u043e\u0432\u0435\u0447\u043a\u043e\u0442\u043e \u0442\u0435\u043b\u043e \u043e\u0441\u0442\u0430\u043d\u0443\u0432\u0430 \u043e\u043a\u043e\u043b\u0443 36,5\u00b0C \u0434\u043e 37\u00b0C, \u0431\u0435\u0437 \u043e\u0433\u043b\u0435\u0434 \u043d\u0430 \u043d\u0430\u0434\u0432\u043e\u0440\u0435\u0448\u043d\u0430\u0442\u0430 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0430 \u0438\u043b\u0438 \u0432\u0440\u0435\u043c\u0435\u0442\u043e."
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "\u041d\u0430\u0458\u0435\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u0438\u043e\u0442 \u043d\u0430\u0447\u0438\u043d \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0438\u0442\u0435 \u0435 \u0441\u043e \u0447\u0435\u0441\u0442\u043e \u0447\u0438\u0441\u0442\u0435\u045a\u0435 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0441\u043e \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e \u043d\u0430 \u0431\u0430\u0437\u0430 \u043d\u0430 \u0430\u043b\u043a\u043e\u0445\u043e\u043b \u0438\u043b\u0438 \u043f\u0440\u0435\u043a\u0443 \u043c\u0438\u0435\u045a\u0435 \u0441\u043e \u0441\u0430\u043f\u0443\u043d \u0438 \u0432\u043e\u0434\u0430."
+            ]
+          }
+        },
+        "tur": {
+          "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57": {
+            "text": [
+              "So\u011fuk hava yeni koronavir\u00fcs\u00fc ya da di\u011fer hastal\u0131klar\u0131 \u00f6ld\u00fcremez. "
+            ]
+          },
+          "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523": {
+            "text": [
+              "D\u0131\u015f s\u0131cakl\u0131ktan ya da havadan ba\u011f\u0131ms\u0131z olarak insanlar\u0131n normal v\u00fccut s\u0131cakl\u0131\u011f\u0131 36,5\u00b0C ila 37\u00b0C aras\u0131ndad\u0131r.  "
+            ]
+          },
+          "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006": {
+            "text": [
+              "Kendinizi koruman\u0131n en etkili yolu ellerinizi alkol bazl\u0131 el dezenfektan\u0131 ya da su ve sabun ile s\u0131k s\u0131k temizlemektir."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 25
+      },
+      "name": "Myths - cold weather",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Cold weather cannot kill the new coronavirus or other diseases.",
+              "type": "send_msg",
+              "uuid": "10fa3d21-bbeb-47e8-ba3f-a7fc74b05f57"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "The normal human body temperature remains around 36.5\u00b0C to 37\u00b0C, regardless of the external temperature or weather.",
+              "type": "send_msg",
+              "uuid": "a55cad08-ccb4-4f48-bb3a-9da4a1ce0523"
+            },
+            {
+              "attachments": [],
+              "text": "The most effective way to protect yourself is by frequently washing them with soap and water or using alcohol-based hand rub.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "3b1a78b7-7e6b-457d-bcb2-c8f26c31c006"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "cbc0a345-dd8e-4460-9af5-c7a1fb4ef0ba"
+            }
+          ],
+          "uuid": "522aef47-4d5a-4518-8b61-748ef8420b8d"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "7daeb2ea-1fb8-4d4b-8a5b-4ad5a151f62a",
+      "revision": 29
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

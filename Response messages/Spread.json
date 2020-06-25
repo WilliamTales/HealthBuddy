@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Spread",
+      "uuid": "2dd941e9-125f-443c-af27-a2d559142547",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "bf71ec93-8bd7-4dc6-a129-ea518b0a2924": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 58,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 52
+      },
+      "localization": {
+        "por": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "As pessoas podem pegar o COVID-19 de outras pessoas que t\u00eam o v\u00edrus."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "A doen\u00e7a pode se espalhar de pessoa para pessoa atrav\u00e9s de pequenas got\u00edculas do nariz ou da boca que se espalham quando uma pessoa com COVID-19 tosse, espirra ou exala."
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "\u00c9 por isso que \u00e9 importante ficar a mais de 1 metro de dist\u00e2ncia de uma pessoa doente."
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "Os indiv\u00edduos tamb\u00e9m podem ser infectados por tocar superf\u00edcies contaminadas com o v\u00edrus e tocar seu rosto (por exemplo, olhos, nariz, boca)."
+            ]
+          }
+        },
+        "rus": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "\u0417\u0430\u0440\u0430\u0437\u0438\u0442\u044c\u0441\u044f COVID-19 \u043c\u043e\u0436\u043d\u043e \u043e\u0442 \u0434\u0440\u0443\u0433\u0438\u0445 \u043b\u044e\u0434\u0435\u0439, \u0435\u0441\u043b\u0438 \u043e\u043d\u0438 \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u044b \u0432\u0438\u0440\u0443\u0441\u043e\u043c."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "\u0417\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0435 \u043c\u043e\u0436\u0435\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u043a \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0443 \u0447\u0435\u0440\u0435\u0437 \u043c\u0438\u043a\u0440\u043e\u043a\u0430\u043f\u043b\u0438, \u0432\u044b\u0434\u0435\u043b\u044f\u0435\u043c\u044b\u0435 \u0438\u0437 \u043d\u043e\u0441\u0430 \u0438\u043b\u0438 \u0440\u0442\u0430 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 COVID\u201119 \u043f\u0440\u0438 \u043a\u0430\u0448\u043b\u0435, \u0447\u0438\u0445\u0430\u043d\u0438\u0438 \u0438\u043b\u0438 \u0432\u044b\u0434\u043e\u0445\u0435.  "
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "\u041f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0430\u0436\u043d\u043e \u0434\u0435\u0440\u0436\u0430\u0442\u044c\u0441\u044f \u043e\u0442 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0437\u0430\u0431\u043e\u043b\u0435\u043b, \u043d\u0430 \u0440\u0430\u0441\u0441\u0442\u043e\u044f\u043d\u0438\u0438 \u0431\u043e\u043b\u0435\u0435 1 \u043c\u0435\u0442\u0440\u0430."
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "\u0422\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u043d\u043e \u0437\u0430\u0440\u0430\u0437\u0438\u0442\u044c\u0441\u044f, \u0435\u0441\u043b\u0438 \u0432\u044b \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u0443\u043b\u0438\u0441\u044c \u0440\u0443\u043a\u0430\u043c\u0438 \u043a \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430\u043c \u0438\u043b\u0438 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044f\u043c, \u043a\u0443\u0434\u0430 \u043e\u0441\u0435\u043b\u0438 \u044d\u0442\u0438 \u043c\u0438\u043a\u0440\u043e\u043a\u0430\u043f\u043b\u0438, \u0430  \u0437\u0430\u0442\u0435\u043c \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u0443\u043b\u0438\u0441\u044c \u044d\u0442\u0438\u043c\u0438 \u0440\u0443\u043a\u0430\u043c\u0438 \u043a \u0433\u043b\u0430\u0437\u0430\u043c, \u043d\u043e\u0441\u0443 \u0438\u043b\u0438 \u0440\u0442\u0443.  "
+            ]
+          }
+        },
+        "spa": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "Las personas pueden contraer COVID-19 de otras personas que tienen el virus."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "La enfermedad puede propagarse de persona a persona a trav\u00e9s de peque\u00f1as gotas en la nariz o en la boca que se propagan cuando una persona con COVID-19 tose, estornuda o exhala. "
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "Por eso es importante mantenerse a m\u00e1s de 1 metro de distancia de una persona enferma.\n"
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "Las personas tambi\u00e9n pueden infectarse al tocar superficies contaminadas con el virus y tocarse la cara (por ejemplo, ojos, nariz, boca)."
+            ]
+          }
+        },
+        "ell": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "\u039f\u03b9 \u03ac\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf\u03b9 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03ba\u03bf\u03bb\u03bb\u03ae\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03b9\u03cc \u03b1\u03c0\u03cc \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2 \u03b1\u03bd\u03b8\u03c1\u03ce\u03c0\u03bf\u03c5\u03c2 \u03c0\u03bf\u03c5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ae\u03b4\u03b7 \u03c6\u03bf\u03c1\u03b5\u03af\u03c2. "
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "\u0397 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b1 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03be\u03b1\u03c0\u03bb\u03c9\u03b8\u03b5\u03af \u03b1\u03c0\u03cc \u03ac\u03c4\u03bf\u03bc\u03bf \u03c3\u03b5 \u03ac\u03c4\u03bf\u03bc\u03bf \u03bc\u03ad\u03c3\u03c9 \u03bc\u03b9\u03ba\u03c1\u03ce\u03bd \u03c3\u03c4\u03b1\u03b3\u03bf\u03bd\u03b9\u03b4\u03af\u03c9\u03bd \u03b1\u03c0\u03cc \u03c4\u03b7 \u03bc\u03cd\u03c4\u03b7 \u03ae \u03c4\u03bf \u03c3\u03c4\u03cc\u03bc\u03b1, \u03c4\u03b1 \u03bf\u03c0\u03bf\u03af\u03b1 \u03b4\u03b9\u03b1\u03c3\u03c0\u03b5\u03af\u03c1\u03bf\u03bd\u03c4\u03b1\u03b9 \u03cc\u03c4\u03b1\u03bd \u03ad\u03bd\u03b1 \u03ac\u03c4\u03bf\u03bc\u03bf \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b9\u03cc \u03b2\u03ae\u03c7\u03b5\u03b9, \u03c6\u03c4\u03b5\u03c1\u03bd\u03af\u03b6\u03b5\u03c4\u03b1\u03b9 \u03ae \u03b5\u03ba\u03c0\u03bd\u03ad\u03b5\u03b9."
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "\u0393\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc \u03ba\u03b1\u03b9 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03bc\u03ad\u03bd\u03bf\u03c5\u03bc\u03b5 1 \u03bc\u03ad\u03c4\u03c1\u03bf \u03bc\u03b1\u03ba\u03c1\u03b9\u03ac \u03b1\u03c0\u03cc \u03ac\u03c4\u03bf\u03bc\u03bf \u03c0\u03bf\u03c5 \u03b5\u03af\u03bd\u03b1\u03b9 \u03ac\u03c1\u03c1\u03c9\u03c3\u03c4\u03bf. \n"
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "\u039c\u03c0\u03bf\u03c1\u03b5\u03af \u03b5\u03c0\u03af\u03c3\u03b7\u03c2 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03b2\u03bb\u03b7\u03b8\u03bf\u03cd\u03bc\u03b5 \u03b1\u03bd \u03b1\u03b3\u03b3\u03af\u03be\u03bf\u03c5\u03bc\u03b5 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2 \u03c0\u03bf\u03c5 \u03ad\u03c7\u03bf\u03c5\u03bd \u03bc\u03bf\u03bb\u03c5\u03bd\u03b8\u03b5\u03af \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03b9\u03cc \u03ba\u03b1\u03b9 \u03bc\u03b5\u03c4\u03ac \u03b1\u03b3\u03b3\u03af\u03be\u03bf\u03c5\u03bc\u03b5 \u03c4\u03bf \u03c0\u03c1\u03cc\u03c3\u03c9\u03c0\u03cc (\u03c0.\u03c7. \u03bc\u03ac\u03c4\u03b9\u03b1, \u03bc\u03cd\u03c4\u03b7, \u03c3\u03c4\u03cc\u03bc\u03b1)."
+            ]
+          }
+        },
+        "ita": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "Le persone possono contrarre la COVID-19 da altre persone che hanno il virus."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "La malattia pu\u00f2 diffondersi da persona a persona attraverso piccole goccioline dal naso o dalla bocca che si diffondono quando una persona con COVID-19 tossisce, starnutisce o espira. "
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "Ecco perch\u00e9 \u00e8 importante stare a pi\u00f9 di 1 metro di distanza da una persona malata.\n"
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "Gli individui possono anche essere infettati toccando superfici contaminate dal virus e successivamente toccandosi il loro viso (ad es. occhi, naso, bocca)."
+            ]
+          }
+        },
+        "kaz": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "\u0410\u0434\u0430\u043c\u0434\u0430\u0440 COVID-19-\u0431\u0435\u0433 \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u0430\u043d \u0436\u04b1\u049b\u0442\u044b\u0440\u0430\u0434\u044b."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "\u0410\u0443\u0440\u0443 \u0430\u0434\u0430\u043c\u043d\u0430\u043d \u0430\u0434\u0430\u043c\u0493\u0430 \u043c\u04b1\u0440\u044b\u043d\u043d\u0430\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0443\u044b\u0437\u0434\u0430\u043d \u043a\u0456\u0448\u043a\u0435\u043d\u0442\u0430\u0439 \u0442\u0430\u043c\u0448\u044b\u043b\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u0442\u0430\u0440\u0430\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d, \u043e\u043b\u0430\u0440 COVID-19-\u0431\u0435\u043d \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c \u0436\u04e9\u0442\u0435\u043b\u0433\u0435\u043d, \u0442\u04af\u0448\u043a\u0456\u0440\u0433\u0435\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0434\u0435\u043c \u0430\u043b\u0493\u0430\u043d \u043a\u0435\u0437\u0434\u0435 \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "\u0421\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u0430\u0443\u0440\u0443 \u0430\u0434\u0430\u043c\u043d\u0430\u043d 1 \u043c\u0435\u0442\u0440\u0434\u0435\u043d \u0430\u0440\u0442\u044b\u049b \u049b\u0430\u0448\u044b\u049b\u0442\u044b\u049b\u0442\u0430 \u0431\u043e\u043b\u0443 \u04e9\u0442\u0435 \u043c\u0430\u04a3\u044b\u0437\u0434\u044b."
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u043f\u0435\u043d \u043b\u0430\u0441\u0442\u0430\u043d\u0493\u0430\u043d \u0436\u0435\u0440\u043b\u0435\u0440\u0434\u0456 \u049b\u043e\u043b\u044b\u043c\u0435\u043d \u04b1\u0441\u0442\u0430\u043f, \u0441\u043e\u0441\u044b\u043d \u043e\u043b \u0430\u0434\u0430\u043c \u049b\u043e\u043b\u044b\u043d \u043a\u04e9\u0437\u0456\u043d\u0435, \u043c\u04b1\u0440\u043d\u044b\u043d\u0430, \u0430\u0443\u0437\u044b\u043d\u0430 \u0442\u0438\u0433\u0456\u0437\u0441\u0435, \u043e\u0493\u0430\u043d \u0432\u0438\u0440\u0443\u0441 \u0436\u04b1\u0493\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          }
+        },
+        "mkd": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "\u041b\u0443\u0453\u0435\u0442\u043e \u043c\u043e\u0436\u0435 \u0434\u0430 \u0444\u0430\u0442\u0430\u0442 \u041a\u041e\u0412\u0418\u0414-19 \u043e\u0434 \u0434\u0440\u0443\u0433\u0438 \u043b\u0438\u0446\u0430 \u043a\u043e\u0438 \u0433\u043e \u0438\u043c\u0430\u0430\u0442 \u0432\u0438\u0440\u0443\u0441\u043e\u0442."
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "\u0411\u043e\u043b\u0435\u0441\u0442\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0448\u0438\u0440\u0438 \u043e\u0434 \u043b\u0438\u0446\u0435 \u043d\u0430 \u043b\u0438\u0446\u0435 \u043f\u0440\u0435\u043a\u0443 \u043c\u0430\u043b\u0438 \u043a\u0430\u043f\u043a\u0438\u043e\u0434 \u043d\u043e\u0441\u043e\u0442 \u0438\u043b\u0438 \u0443\u0441\u0442\u0430\u0442\u0430 \u043a\u043e\u0438 \u0441\u0435 \u0448\u0438\u0440\u0430\u0442 \u043a\u043e\u0433\u0430 \u043b\u0438\u0446\u0435 \u0441\u043e \u041a\u041e\u0412\u0418\u0414-19 \u043a\u0430\u0448\u043b\u0430, \u043a\u0438\u0432\u0430 \u0438\u043b\u0438 \u0438\u0437\u0434\u0438\u0448\u0443\u0432\u0430.  "
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "\u0422\u043e\u043a\u043c\u0443 \u043f\u043e\u0440\u0430\u0434\u0438 \u043e\u0432\u0430, \u0432\u0430\u0436\u043d\u043e \u0435 \u0434\u0430 \u0441\u0442\u043e\u0438\u0442\u0435 \u043d\u0430 \u043d\u0430\u0434 1 \u043c\u0435\u0442\u0430\u0440 \u043f\u043e\u0434\u0430\u043b\u0435\u043a\u0443 \u043e\u0434 \u043b\u0438\u0446\u0435 \u0448\u0442\u043e \u0435 \u0431\u043e\u043b\u043d\u043e."
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "\u041b\u0438\u0446\u0430\u0442\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u0437\u0430\u0440\u0430\u0437\u0430\u0442 \u0438 \u043f\u0440\u0435\u043a\u0443 \u0434\u043e\u043f\u0438\u0440\u0430\u045a\u0435 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0438 \u0437\u0430\u0433\u0430\u0434\u0435\u043d\u0438 \u0441\u043e \u0432\u0438\u0440\u0443\u0441\u043e\u0442, \u0430 \u0438 \u0441\u043e \u0434\u043e\u043f\u0438\u0440\u0430\u045a\u0435 \u043d\u0430 \u043b\u0438\u0446\u0435\u0442\u043e (\u043d\u0430 \u043f\u0440., \u043e\u0447\u0438, \u043d\u043e\u0441, \u0443\u0441\u0442\u0430)."
+            ]
+          }
+        },
+        "tur": {
+          "f8b3feba-a96d-46d4-be01-b089d9b48ff1": {
+            "text": [
+              "KOV\u0130D-19 vir\u00fcs\u00fc ta\u015f\u0131yan di\u011fer insanlardan vir\u00fcs bula\u015fabilir.  "
+            ]
+          },
+          "d130a827-e96c-43db-95b1-8f56afb71410": {
+            "text": [
+              "Hastal\u0131k, KOV\u0130D-19 ta\u015f\u0131yan birisi konu\u015ftu\u011funda, \u00f6ks\u00fcrd\u00fc\u011f\u00fcnde ya da hap\u015f\u0131rd\u0131\u011f\u0131nda olu\u015fan k\u00fc\u00e7\u00fck damlac\u0131klarla a\u011f\u0131z ya da burun yoluyla insandan insana bula\u015fabilir."
+            ]
+          },
+          "83996f78-ce8d-4cc2-9342-3100f1a30bf5": {
+            "text": [
+              "Bunun yan\u0131 s\u0131ra insanlar, kirlenmi\u015f y\u00fczeylere dokunduktan sonra y\u00fczlerine (\u00f6rn. g\u00f6z, burun, a\u011f\u0131z) dokunduklar\u0131 takdirde enfekte olabilirler.  "
+            ]
+          },
+          "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88": {
+            "text": [
+              "Bu y\u00fczden hasta olan birinden 1 metre uzakta durmak \u00f6nemlidir. "
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "bf71ec93-8bd7-4dc6-a129-ea518b0a2924",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "People can catch COVID-19 from others who have the virus.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "f8b3feba-a96d-46d4-be01-b089d9b48ff1"
+            },
+            {
+              "attachments": [],
+              "text": "The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs, sneezes or exhales.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "d130a827-e96c-43db-95b1-8f56afb71410"
+            },
+            {
+              "attachments": [],
+              "text": "This is why it is important to stay more than 1 metre away from a person who is sick.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c40c5e15-c25e-47d1-8c7d-585bd3f9ca88"
+            },
+            {
+              "attachments": [],
+              "text": "Individuals can also be infected from touching surfaces contaminated with the virus and touching their face (e.g., eyes, nose, mouth).",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "83996f78-ce8d-4cc2-9342-3100f1a30bf5"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "c3ff6981-b420-4b65-bf3a-d00264ca7b41",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,2302 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "27ff61f2-bc9d-4d1d-95d1-85f35e7e091e": {
+            "type": "split_by_contact_field",
+            "position": {
+              "left": 820,
+              "top": 80
+            },
+            "config": {
+              "operand": {
+                "id": "authenticated",
+                "type": "field",
+                "name": "Authenticated"
+              },
+              "cases": {}
+            }
+          },
+          "b45dfe33-802f-497c-b5b1-c9a1197bfa39": {
+            "position": {
+              "left": 460,
+              "top": 180
+            },
+            "type": "execute_actions"
+          },
+          "f78740a9-a047-4d22-90b2-9bdcec6b0ced": {
+            "position": {
+              "left": 1140,
+              "top": 180
+            },
+            "type": "execute_actions"
+          },
+          "b36aff54-2895-4fe7-b300-c06fa95cdb9f": {
+            "position": {
+              "left": 880,
+              "top": 400
+            },
+            "type": "execute_actions"
+          },
+          "258fc196-1bdd-414e-ab6b-8c53af5aadc2": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 460,
+              "top": 520
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "26393462-334d-498f-b38a-075d30351431": {
+            "position": {
+              "left": 1140,
+              "top": 580
+            },
+            "type": "execute_actions"
+          },
+          "32e81b32-fb4c-4def-a526-a964a01a6082": {
+            "position": {
+              "left": 460,
+              "top": 660
+            },
+            "type": "execute_actions"
+          },
+          "50a789b9-d134-43bd-8fc7-5248dd6f1bfd": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 460,
+              "top": 760
+            },
+            "config": {}
+          },
+          "26a56d65-1c80-436d-bfde-bba823346411": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 1580,
+              "top": 780
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "124abdaf-8351-4fa3-818b-783cdf4b2b1d": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 920,
+              "top": 840
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "305abcaa-3335-4e8d-9023-bab9e834adcf": {
+            "position": {
+              "left": 740,
+              "top": 1000
+            },
+            "type": "execute_actions"
+          },
+          "86081453-a5ff-46ac-81b3-c883de29ae77": {
+            "position": {
+              "left": 1180,
+              "top": 1000
+            },
+            "type": "execute_actions"
+          },
+          "b21556ed-f296-447d-b15f-5a8977404a0b": {
+            "position": {
+              "left": 1180,
+              "top": 1140
+            },
+            "type": "execute_actions"
+          },
+          "623d8d1b-7633-404f-96a7-093869082fdb": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 920,
+              "top": 1180
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "a57b9e9e-8144-41af-9d1b-470b6afac72a": {
+            "position": {
+              "left": 760,
+              "top": 1320
+            },
+            "type": "execute_actions"
+          },
+          "03da9049-08e5-42a9-b368-c4d5bea79a95": {
+            "position": {
+              "left": 760,
+              "top": 1480
+            },
+            "type": "execute_actions"
+          },
+          "a2ee5021-b3d5-4361-a797-1998a15d3cf4": {
+            "position": {
+              "left": 760,
+              "top": 1740
+            },
+            "type": "execute_actions"
+          },
+          "871549c7-ae5b-40fe-baa5-3d5c212b868d": {
+            "type": "wait_for_response",
+            "position": {
+              "left": 760,
+              "top": 1860
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "f875be9b-012f-4ad3-8df9-3388a61e72ee": {
+            "position": {
+              "left": 460,
+              "top": 1900
+            },
+            "type": "execute_actions"
+          },
+          "88afb28b-42d4-4ee7-ba2c-b96b3c41f937": {
+            "position": {
+              "left": 1240,
+              "top": 1900
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {
+          "53616b14-abec-4c7b-bd7d-229e09a8d298": {
+            "position": {
+              "left": 660,
+              "top": 1180,
+              "right": 320,
+              "bottom": 420
+            },
+            "title": "New Note",
+            "body": "add binary answers",
+            "color": "yellow"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "metadata": {
+        "revision": 560
+      },
+      "name": "Rumors",
+      "revision": 561,
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "25e9a623-5bf2-4736-a8f5-df00e509d014",
+      "localization": {
+        "por": {
+          "ba4a55e3-3e3c-4a8a-86f0-bea160dced59": {
+            "text": [
+              "Essa funcionalidade ser\u00e1 implementada em breve.\nObrigado."
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "Por raz\u00f5es de seguran\u00e7a, voc\u00ea precisa se autenticar antes de relatar rumores e not\u00edcias falsas."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "Tenha certeza de que as informa\u00e7\u00f5es que voc\u00ea nos fornece no HealthBuddy permanecer\u00e3o an\u00f4nimas e n\u00e3o ser\u00e3o compartilhadas com ningu\u00e9m."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "Ent\u00e3o, digite seu endere\u00e7o de e-mail para que eu possa enviar um c\u00f3digo de verifica\u00e7\u00e3o! Se voc\u00ea n\u00e3o deseja denunciar agora, envie *Sair*.\n"
+            ],
+            "quick_replies": [
+              "Sair"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "sair"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "sair"
+            ]
+          },
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "Tudo bem!"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "Agora voc\u00ea pode denunciar boatos e not\u00edcias falsas sobre o COVID-19."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "Digite o nome do pa\u00eds de onde voc\u00ea est\u00e1 denunciando."
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "Confirmando, @results.email \u00e9 seu email?"
+            ],
+            "quick_replies": [
+              "Sim",
+              "N\u00e3o"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "Desculpe, mas esse n\u00e3o parece ser um email v\u00e1lido. Por favor tente novamente."
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "sim "
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "n\u00e3o nao"
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "Tudo bem.\n\nEnt\u00e3o por favor informe o email novamente."
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "Ok!\n\nO c\u00f3digo de verifica\u00e7\u00e3o foi enviado para seu email."
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "C\u00f3digo de verifica\u00e7\u00e3o - Healthbuddy"
+            ],
+            "body": [
+              "Seu c\u00f3digo de verifica\u00e7\u00e3o \u00e9: @results.generated_code\n\nDigite ele na p\u00e1gina do Healthbuddy para continuar."
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "Por favor informe o c\u00f3digo aqui."
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "O c\u00f3digo que voc\u00ea informou n\u00e3o \u00e9 v\u00e1lido ou expirou.\n\nPor favor tente novamente ou pe\u00e7a um novo envio de c\u00f3digo."
+            ],
+            "quick_replies": [
+              "Tentar novamente",
+              "Reenviar",
+              "Sair"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "Tentar"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "Reenviar"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "Sair"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "tentar novamente"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "reenviar"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "sair"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          }
+        },
+        "rus": {
+          "ba4a55e3-3e3c-4a8a-86f0-bea160dced59": {
+            "text": [
+              "\u042d\u0442\u043e\u0442 \u0440\u0430\u0437\u0434\u0435\u043b \u0431\u0443\u0434\u0435\u0442 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d \u0432 \u0431\u043b\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043c\u044f.\n\u0421\u043f\u0430\u0441\u0438\u0431\u043e."
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "\u0422\u0435\u043f\u0435\u0440\u044c \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u043e\u043e\u0431\u0449\u0430\u0442\u044c \u043d\u0430\u043c \u043e \u0441\u043b\u0443\u0445\u0430\u0445 \u0438 \u043d\u0435\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u043d\u044b\u0445 \u043d\u043e\u0432\u043e\u0441\u0442\u044f\u0445 \u043e COVID-19."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0441\u043e\u043e\u0431\u0449\u0430\u0439\u0442\u0435 \u043d\u0430\u043c \u043e \u043d\u0438\u0445 \u0441 \u0443\u043a\u0430\u0437\u0430\u043d\u0438\u0435\u043c \u0432\u0430\u0448\u0435\u0439 \u0441\u0442\u0440\u0430\u043d\u044b."
+            ]
+          },
+          "be1944fe-ba78-47cd-be45-2ef4a7ff491d": {
+            "text": [
+              "\u0418\u0437\u0432\u0438\u043d\u0438\u0442\u0435, \u043d\u043e \u044f \u0432\u0430\u0441 \u043d\u0435 \u043f\u043e\u043d\u044f\u043b. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043a\u0430\u043d\u0430\u043b, \u0447\u0435\u0440\u0435\u0437 \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u044b \u0431\u044b \u0445\u043e\u0442\u0435\u043b\u0438 \u0441\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043d\u0430\u043c \u043e \u0441\u043b\u0443\u0445\u0430\u0445."
+            ]
+          },
+          "38d4cefe-6c46-4e6f-9c0c-770b4dd0e57b": {
+            "text": [
+              "https://m.me/AskHealthBuddy?ref=reportrumors"
+            ]
+          },
+          "340f2d1c-a75b-4287-b2ed-d2696871ed92": {
+            "text": [
+              "whatsapp link"
+            ]
+          },
+          "635584ee-0033-4067-ae59-4f0bac1e12b5": {
+            "text": [
+              "https://t.me/HealthBuddyBot"
+            ]
+          },
+          "22b05058-43cc-4b74-9772-438ab523ec64": {
+            "text": [
+              "viber://pa?chatURI=<healthbuddy>"
+            ]
+          },
+          "bcbf706c-5364-473f-aa6d-7475544d552a": {
+            "name": [
+              "Facebook"
+            ]
+          },
+          "d3eda387-a011-47d5-b7c5-d89a23929bcd": {
+            "name": [
+              "Whatsapp"
+            ]
+          },
+          "0c8f0ab2-5820-4a5b-b7df-dee2f89d70c2": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "20ba11de-f54d-419e-b755-18639d72be2b": {
+            "name": [
+              "Viber"
+            ]
+          },
+          "63f477e4-7abd-4b2f-80d0-e61a8dc322bf": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "\u0425\u043e\u0440\u043e\u0448\u043e!"
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "\u0427\u0442\u043e\u0431\u044b \u0441\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043d\u0430\u043c \u043e \u043d\u0435\u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0438\u0440\u0443\u0439\u0442\u0435\u0441\u044c."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "\u0412\u0441\u044f \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u043d\u0430\u0448\u0435\u043c \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0435 \u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0439.  "
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0443\u043a\u0430\u0436\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441, \u0434\u043b\u044f \u0442\u043e\u0433\u043e \u0447\u0442\u043e\u0431\u044b \u044f \u043c\u043e\u0433 \u043f\u043e\u0441\u043b\u0430\u0442\u044c \u0442\u0435\u0431\u0435 \u043a\u043e\u0434 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f!"
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "\u044d\u0442\u043e \u0442\u043e\u0447\u043d\u043e  @results.email \u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u0440\u0435\u0441?"
+            ],
+            "quick_replies": [
+              "\u0414\u0430",
+              "\u041d\u0435\u0442"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "\u0414\u0430"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "\u041d\u0435\u0442"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "\u041e\u0442\u043b\u0438\u0447\u043d\u043e!!\n\n\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u0432\u043e\u044e \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0443\u044e \u043f\u043e\u0447\u0442\u0443 \u0435\u0449\u0435 \u0440\u0430\u0437."
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "\u0410\u0434\u0440\u0435\u0441 \u043d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439! \u041f\u0440\u043e\u0432\u0435\u0440\u044c, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430. "
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "\u0443\u043f\u0435\u0440!\n\n\u042f \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u043b \u0442\u0435\u0431\u0435 \u043a\u043e\u0434 \u0434\u043b\u044f \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f."
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "\u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438 \u043a\u043e\u0434 \u0434\u043b\u044f \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f"
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "\u0412\u0432\u0435\u0434\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u0434 \u043d\u0435\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u0435\u043d;\n\n\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439 \u0432\u0432\u0435\u0441\u0442\u0438 \u043a\u043e\u0434 \u0438\u043b\u0438 \u0432\u0432\u0435\u0434\u0438 \u043f\u043e\u0441\u043b\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439, \u0434\u043b\u044f \u0442\u043e\u0433\u043e \u0447\u0442\u043e\u0431\u044b \u044f \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u043b \u0435\u0433\u043e \u0435\u0449\u0435 \u0440\u0430\u0437."
+            ],
+            "quick_replies": [
+              "\u041f\u043e\u043f\u0440\u043e\u0431\u043e\u0432\u0430\u0442\u044c \u0435\u0449\u0435 \u0440\u0430\u0437",
+              "\u041f\u043e\u0441\u043b\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439",
+              "\u0412\u044b\u0445\u043e\u0434"
+            ]
+          },
+          "d97e28a5-6fcc-4bcd-89a9-6b439577aca9": {
+            "name": [
+              "All Responses"
+            ]
+          },
+          "3963871c-b3ec-4fc6-9c18-cc7410a24af6": {
+            "name": [
+              "\u0418\u043c\u0435\u0435\u0442 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0443\u044e \u043f\u043e\u0447\u0442\u0443"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "\u041f\u043e\u043f\u0440\u043e\u0431\u043e\u0432\u0430\u0442\u044c \u0435\u0449\u0435 \u0440\u0430"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "\u041f\u043e\u0441\u043b\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "\u0412\u044b\u0445\u043e\u0434"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0435"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "Health Buddy - \u043a\u043e\u0434 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f!"
+            ],
+            "body": [
+              "\u0412\u0430\u0448 \u043a\u043e\u0434 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043d\u0438\u044f:  @results.generated_code \n\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0435\u0433\u043e \u043d\u0430 Health Buddy, \u0447\u0442\u043e\u0431\u044b \u0441\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e \u0437\u0430\u0431\u043b\u0443\u0436\u0434\u0435\u043d\u0438\u044f\u0445, \u0441\u043b\u0443\u0445\u0430\u0445 \u0438\u043b\u0438 \u043b\u043e\u0436\u043d\u044b\u0445 \u043d\u043e\u0432\u043e\u0441\u0442\u044f\u0445."
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "Code"
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "\u0414\u0430"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "\u041d\u0435\u0442"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "\u0443\u0432\u043e\u043b\u0438\u0442\u044c\u0441\u044f"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "\u0443\u0432\u043e\u043b\u0438\u0442\u044c\u0441\u044f"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e\u0439"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              " \u043f\u044b\u0442\u0430\u0442\u044c\u0441\u044f"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "\u041f\u043e\u0441\u043b\u0430\u0442\u044c \u043d\u043e\u0432\u044b\u0439"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "\u0412\u044b\u0445\u043e\u0434 \u043c\u0435\u043d\u044e \u0432\u044b\u0445\u043e\u0434\u0430"
+            ]
+          }
+        },
+        "spa": {
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "\u00a1Muy bien!"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "Ahora puedes denunciar rumores y noticias falsas sobre el COVID-19"
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "Contesta con el nombre del pa\u00eds desde el cual haces la denuncia."
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "Por razones de seguridad, tengo que verificar tu identidad antes de denunciar bulos y noticias falsas."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "Es importante que tu privacidad est\u00e9 protegida en cuanto a toda la informaci\u00f3n enviada por Health Buddy y no se comparta con nadie."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "Inserta tu correo electr\u00f3nico para que pueda enviarte el c\u00f3digo de verificaci\u00f3n.\n\nSi no quieres hacer una denuncia ahora, inserta *Cerrar*."
+            ],
+            "quick_replies": [
+              "Cerrar"
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "\u00bfPuedes confirmar que la direcci\u00f3n @results.email  es la correcta?"
+            ],
+            "quick_replies": [
+              "S\u00ed",
+              "No"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "Lo siento, pero esta direcci\u00f3n de correo no es v\u00e1lida. Intenta de nuevo."
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "Por favor, escribe de nuevo tu direcci\u00f3n de correo."
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "\u00a1Muy bien!\n\nEl c\u00f3digo de verificaci\u00f3n ha sido enviado. \n"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy - El c\u00f3digo de verificaci\u00f3n "
+            ],
+            "body": [
+              "Tu c\u00f3digo de verificaci\u00f3n es: @results.generated_code\nIns\u00e9rtalo en HealthBuddy para denunciar noticias falsas."
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "Inserta el c\u00f3digo."
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "El c\u00f3digo insertado no es v\u00e1lido.\n\nPuedes intentar de nuevo o insertar \u201creenviar\u201d para que te lo env\u00ede de nuevo.\n"
+            ],
+            "quick_replies": [
+              "Intenta de nuevo",
+              "Reenviar",
+              "Salir del men\u00fa"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "S\u00ed"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "No"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "Intenta de nuevo"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "Reenviar"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "Salir del men\u00fa"
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "S\u00ed"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "No"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "3963871c-b3ec-4fc6-9c18-cc7410a24af6": {
+            "name": [
+              " Tiene Correo electr\u00f3nico"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "Cerrar"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "c\u00f3digo"
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "Int\u00e9ntalo de nuevo"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "Reenviar"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              " Salir del men\u00fa"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "Otro"
+            ]
+          }
+        },
+        "ell": {
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "\u0395\u03bd\u03c4\u03ac\u03be\u03b5\u03b9!"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "\u03a4\u03ce\u03c1\u03b1 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03ba\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03af\u03bb\u03b5\u03b9\u03c2 \u03c6\u03ae\u03bc\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03c8\u03b5\u03c5\u03b4\u03b5\u03af\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "\u0393\u03c1\u03ac\u03c8\u03b5 \u03c4\u03b7 \u03c7\u03ce\u03c1\u03b1 \u03cc\u03c0\u03bf\u03c5 \u03b2\u03c1\u03af\u03c3\u03ba\u03b5\u03c3\u03b1\u03b9."
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03bb\u03cc\u03b3\u03bf\u03c5\u03c2 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1\u03c2, \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03c0\u03c1\u03ce\u03c4\u03b1 \u03bd\u03b1 \u03b5\u03c0\u03b1\u03bb\u03b7\u03b8\u03b5\u03cd\u03c3\u03bf\u03c5\u03bc\u03b5 \u03c4\u03b7\u03bd \u03c4\u03b1\u03c5\u03c4\u03cc\u03c4\u03b7\u03c4\u03ac \u03c3\u03bf\u03c5."
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "\u039f \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2 \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03c3\u03c9\u03c3\u03c4\u03cc\u03c2.\n\n\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03be\u03b1\u03bd\u03b1\u03c0\u03c1\u03bf\u03c3\u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 \u03ae \u03b3\u03c1\u03ac\u03c8\u03b5 \u201c\u0395\u03c0\u03b1\u03bd\u03b1\u03c0\u03bf\u03c3\u03c4\u03bf\u03bb\u03ae\u201d \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c3\u03bf\u03c5 \u03c4\u03bf \u03be\u03b1\u03bd\u03b1\u03c3\u03c4\u03b5\u03af\u03bb\u03c9.\n"
+            ],
+            "quick_replies": [
+              "\u0395\u03c0\u03b1\u03bd\u03ac\u03bb\u03b7\u03c8\u03b7",
+              "\u0395\u03c0\u03b1\u03bd\u03b1\u03c0\u03bf\u03c3\u03c4\u03bf\u03bb\u03ae",
+              "\u0388\u03be\u03bf\u03b4\u03bf\u03c2"
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "\u03a0\u03bb\u03b7\u03ba\u03c4\u03c1\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03b5 \u03c4\u03bf\u03bd \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc \u03c0\u03b1\u03c1\u03b1\u03ba\u03ac\u03c4\u03c9."
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "OK!\n\u03a3\u03bf\u03c5 \u03ad\u03c3\u03c4\u03b5\u03b9\u03bb\u03b1 \u03c4\u03bf\u03bd \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc \u03b5\u03c0\u03b1\u03bb\u03ae\u03b8\u03b5\u03c5\u03c3\u03b7\u03c2 \u03c3\u03c4\u03bf email \u03c3\u03bf\u03c5.\n"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy \u2013 \u039a\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2 \u03b5\u03c0\u03b1\u03bb\u03ae\u03b8\u03b5\u03c5\u03c3\u03b7\u03c2\n"
+            ],
+            "body": [
+              "\u039f \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2 \u03b5\u03c0\u03b1\u03bb\u03ae\u03b8\u03b5\u03c5\u03c3\u03b7\u03c2 \u03b5\u03af\u03bd\u03b1\u03b9:  @results.generated_code \n\u03a0\u03bb\u03b7\u03ba\u03c4\u03c1\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03ad \u03c4\u03bf\u03bd \u03c3\u03c4\u03bf HealthBuddy \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03af\u03bb\u03b5\u03b9\u03c2 \u03c8\u03b5\u03c5\u03b4\u03b5\u03af\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2."
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "\u039e\u03b1\u03bd\u03b1\u03b3\u03c1\u03ac\u03c8\u03b5 \u03c3\u03b5 \u03c0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03ce \u03c4\u03bf email \u03c3\u03bf\u03c5."
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "\u0393\u03b9\u03b1 \u03bd\u03b1 \u03b5\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03b9\u03ce\u03c3\u03c9, \u03b7 \u03c3\u03c9\u03c3\u03c4\u03ae \u03b4\u03b9\u03b5\u03cd\u03b8\u03c5\u03bd\u03c3\u03b7 email \u03b5\u03af\u03bd\u03b1\u03b9 @results.email "
+            ],
+            "quick_replies": [
+              "\u039d\u03b1\u03b9",
+              "\u038c\u03c7\u03b9"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "\u039b\u03c5\u03c0\u03ac\u03bc\u03b1\u03b9. \u0391\u03c5\u03c4\u03ae \u03b7 \u03b4\u03b9\u03b5\u03cd\u03b8\u03c5\u03bd\u03c3\u03b7 email \u03b4\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03c3\u03c9\u03c3\u03c4\u03ae. \u03a0\u03bb\u03b7\u03ba\u03c4\u03c1\u03bf\u03bb\u03cc\u03b3\u03b7\u03c3\u03ad \u03c4\u03b7\u03bd \u03be\u03b1\u03bd\u03ac."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "\u0393\u03c1\u03ac\u03c8\u03b5 \u03c4\u03bf email \u03c3\u03bf\u03c5 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03c3\u03bf\u03c5 \u03c3\u03c4\u03b5\u03af\u03bb\u03c9 \u03ad\u03bd\u03b1\u03bd \u03ba\u03c9\u03b4\u03b9\u03ba\u03cc \u03b5\u03c0\u03b1\u03bb\u03ae\u03b8\u03b5\u03c5\u03c3\u03b7\u03c2.\n\n\n\u0391\u03bd \u03b4\u03b5\u03bd \u03b8\u03ad\u03bb\u03b5\u03b9\u03c2 \u03bd\u03b1 \u03c3\u03c4\u03b5\u03af\u03bb\u03b5\u03b9\u03c2 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03b3\u03b3\u03b5\u03bb\u03af\u03b1 \u03c3\u03bf\u03c5 \u03c4\u03ce\u03c1\u03b1, \u03c3\u03c4\u03b5\u03af\u03bb\u03b5 *\u0388\u03be\u03bf\u03b4\u03bf\u03c2*"
+            ],
+            "quick_replies": [
+              "\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "\u039d\u03b1\u03b9"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "\u038c\u03c7\u03b9"
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "\u0395\u03c0\u03b1\u03bd\u03ac\u03bb\u03b7\u03c8\u03b7"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "\u0395\u03c0\u03b1\u03bd\u03b1\u03c0\u03bf\u03c3\u03c4\u03bf\u03bb\u03ae"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "\u0388\u03be\u03bf\u03b4\u03bf\u03c2 \u03b1\u03c0\u03cc \u03c4\u03bf \u03bc\u03b5\u03bd\u03bf\u03cd"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "\u2018\u0391\u03bb\u03bb\u03bf"
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "\u039f\u03b9 \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03c0\u03bf\u03c5 \u03c0\u03b1\u03c1\u03ad\u03c7\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c3\u03c4\u03bf HealthBuddy \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03bf\u03c5\u03bd \u03b1\u03bd\u03ce\u03bd\u03c5\u03bc\u03b5\u03c2 \u03ba\u03b1\u03b9 \u03b4\u03b5\u03bd \u03ba\u03bf\u03b9\u03bd\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03c3\u03b5 \u03ba\u03b1\u03bd\u03ad\u03bd\u03b1."
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "\u039d\u03b1\u03b9"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "\u038c\u03c7\u03b9"
+            ]
+          },
+          "3963871c-b3ec-4fc6-9c18-cc7410a24af6": {
+            "name": [
+              "\u03ad\u03c7\u03b5\u03b9 email"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf"
+            ]
+          },
+          "dcc0f29e-3cdf-4a9c-9eae-76fc6b612d66": {
+            "arguments": [
+              "\u03ad\u03c7\u03b5\u03b9 \u03ad\u03bd\u03b1 email"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "\u0395\u03c0\u03b1\u03bd\u03ac\u03bb\u03b7\u03c8\u03b7"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "\u0395\u03c0\u03b1\u03bd\u03b1\u03c0\u03bf\u03c3\u03c4\u03bf\u03bb\u03ae"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "\u0388\u03be\u03bf\u03b4\u03bf\u03c2"
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "\u03ba\u03c9\u03b4\u03b9\u03ba\u03cc"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "d97e28a5-6fcc-4bcd-89a9-6b439577aca9": {
+            "name": [
+              "All Responses"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "7ad0dd9a-b43f-4701-bfc8-4dcffd0576d0": {
+            "text": [
+              "\u03ba\u03c9\u03b4\u03b9\u03ba\u03cc\u03c2 \u03b4\u03bf\u03ba\u03b9\u03bc\u03ae\u03c2"
+            ]
+          }
+        },
+        "kaz": {
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "\u0415\u043d\u0434\u0456 \u0441\u0456\u0437 COVID-19 \u0442\u0443\u0440\u0430\u043b\u044b \u049b\u0430\u0443\u0435\u0441\u0435\u0442\u0442\u0435\u0440 \u043c\u0435\u043d \u0436\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0439 \u0430\u043b\u0430\u0441\u044b\u0437. "
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "\u0416\u0430\u0443\u0430\u043f\u049b\u0430 \u0441\u0456\u0437 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043f \u043e\u0442\u044b\u0440\u0493\u0430\u043d \u0435\u043b\u0434\u0456\u04a3 \u0430\u0442\u044b\u043d \u049b\u043e\u0441\u044b\u04a3\u044b\u0437. "
+            ]
+          },
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "\u0416\u0430\u0440\u0430\u0439\u0434\u044b!"
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a \u043c\u0430\u049b\u0441\u0430\u0442\u0442\u0430\u0440\u044b\u043d\u0434\u0430 COVID-19 \u0442\u0443\u0440\u0430\u043b\u044b \u049b\u0430\u0443\u0435\u0441\u0435\u0442 \u04d9\u04a3\u0433\u0456\u043c\u0435\u043b\u0435\u0440\u0434\u0456 \u0436\u04d9\u043d\u0435 \u0436\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440\u0434\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u0441 \u0431\u04b1\u0440\u044b\u043d \u0436\u0435\u043a\u0435 \u0442\u04b1\u043b\u0493\u0430\u04a3\u044b\u0437\u0434\u044b \u0440\u0430\u0441\u0442\u0430\u0443 \u049b\u0430\u0436\u0435\u0442."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "\u0421\u0456\u0437 \u0431\u0456\u0437\u0431\u0435\u043d HealthBuddy-\u0434\u0435 \u0431\u04e9\u043b\u0456\u0441\u043a\u0435\u043d \u0430\u049b\u043f\u0430\u0440\u0430\u0442\u049b\u0430 \u049b\u0430\u0442\u044b\u0441\u0442\u044b \u0441\u0456\u0437\u0434\u0456\u04a3 \u0430\u0442\u044b-\u0436\u04e9\u043d\u0456\u04a3\u0456\u0437 \u0435\u0448 \u0436\u0435\u0440\u0434\u0435 \u043a\u04e9\u0440\u0441\u0435\u0442\u0456\u043b\u043c\u0435\u0439\u0434\u0456 \u0436\u04d9\u043d\u0435 \u0435\u0448\u043a\u0456\u043c\u0433\u0435 \u0431\u0435\u0440\u0456\u043b\u043c\u0435\u0439\u0434\u0456."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "\u0421\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d, \u04e9\u0442\u0456\u043d\u0435\u043c\u0456\u0437, \u0441\u0456\u0437\u0433\u0435 \u0440\u0430\u0441\u0442\u0430\u0443 \u043a\u043e\u0434\u044b\u043d \u0436\u0456\u0431\u0435\u0440\u0443 \u04af\u0448\u0456\u043d \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u043c\u0435\u043a\u0435\u043d-\u0436\u0430\u0439\u044b\u043d \u0436\u0430\u0437\u044b\u04a3\u044b\u0437.\n\n\u049a\u0430\u0437\u0456\u0440 \u0435\u0448\u0442\u0435\u04a3\u0435 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0493\u044b\u04a3\u044b\u0437 \u043a\u0435\u043b\u043c\u0435\u0441\u0435, *\u041a\u0435\u0442\u0443* \u043f\u0435\u0440\u043d\u0435\u0441\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437."
+            ],
+            "quick_replies": [
+              "\u041a\u0435\u0442\u0443"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "\u041a\u0435\u0442\u0443"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "\u041a\u0435\u0442\u0443"
+            ]
+          },
+          "3963871c-b3ec-4fc6-9c18-cc7410a24af6": {
+            "name": [
+              "\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u0441\u044b \u0431\u0430\u0440"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430 "
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "\u0418\u04d9 "
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "\u0416\u043e\u049b "
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430 "
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "\u0418\u04d9 "
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "\u0416\u043e\u049b "
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "\u0422\u0435\u043a \u043a\u04e9\u0437 \u0436\u0435\u0442\u043a\u0456\u0437\u0433\u0456\u043c\u0456\u0437 \u043a\u0435\u043b\u0435\u0434\u0456, @results.email \u0434\u04b1\u0440\u044b\u0441 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430 \u043c\u0435\u043a\u0435\u043d-\u0436\u0430\u0439\u044b \u043c\u0430?"
+            ],
+            "quick_replies": [
+              "\u0418\u04d9",
+              "\u0416\u043e\u049b"
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "\u0416\u0430\u0440\u0430\u0439\u0434\u044b!\n\n\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b\u04a3 \u043c\u0435\u043a\u0435\u043d-\u0436\u0430\u0439\u044b\u043d \u0442\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0436\u0430\u0437\u044b\u04a3\u044b\u0437!\n"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "\u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0442\u044b\u0440\u044b\u0441\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "\u049a\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u0436\u0456\u0431\u0435\u0440\u0443"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "\u041c\u04d9\u0437\u0456\u0440\u0434\u0435\u043d \u0448\u044b\u0493\u0443"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430 "
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "\u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0442\u044b\u0440\u044b\u0441\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "\u049a\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u0436\u0456\u0431\u0435\u0440\u0443"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "\u0428\u044b\u0493\u0443 "
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "\u041a\u0435\u0448\u0456\u0440\u0456\u04a3\u0456\u0437, \u0431\u0456\u0440\u0430\u049b, \u0431\u04b1\u043b \u2013 \u0436\u0430\u0440\u0430\u043c\u0441\u044b\u0437 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430 \u043c\u0435\u043a\u0435\u043d-\u0436\u0430\u0439\u044b. \u04e8\u0442\u0456\u043d\u0435\u043c\u0456\u0437, \u0442\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0436\u0430\u0437\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "\u0416\u0430\u049b\u0441\u044b!\n\u0420\u0430\u0441\u0442\u0430\u0443 \u043a\u043e\u0434\u044b \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0493\u0430 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456.\n"
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "\u04e8\u0442\u0456\u043d\u0435\u043c\u0456\u0437, \u043a\u043e\u0434\u0442\u044b \u0442\u04e9\u043c\u0435\u043d\u0434\u0435 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437."
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "\u0421\u0456\u0437 \u0435\u043d\u0433\u0456\u0437\u0433\u0435\u043d \u043a\u043e\u0434 \u0436\u0430\u0440\u0430\u043c\u0441\u044b\u0437.\n\n\u0422\u0430\u0493\u044b \u0440\u0435\u0442 \u0440\u0435\u0442 \u0435\u043d\u0433\u0456\u0437\u0456\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u043c\u0435\u043d \u0441\u0456\u0437\u0433\u0435 \u049b\u0430\u0439\u0442\u0430 \u043a\u043e\u0434 \u0436\u0456\u0431\u0435\u0440\u0443\u0456\u043c \u04af\u0448\u0456\u043d \u00ab\u049a\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u0436\u0456\u0431\u0435\u0440\u0443\u00bb \u043f\u0435\u0440\u043d\u0435\u0441\u0456\u043d \u0431\u0430\u0441\u044b\u04a3\u044b\u0437.\n"
+            ],
+            "quick_replies": [
+              "\u0422\u0430\u0493\u044b \u0431\u0456\u0440 \u0440\u0435\u0442 \u0442\u044b\u0440\u044b\u0441\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437",
+              "\u049a\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u0436\u0456\u0431\u0435\u0440\u0443",
+              "\u0428\u044b\u0493\u0443"
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "\u041a\u043e\u0434 "
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430 "
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy \u2013 \u0420\u0430\u0441\u0442\u0430\u0443 \u043a\u043e\u0434\u044b"
+            ],
+            "body": [
+              "\u0420\u0430\u0441\u0442\u0430\u0443 \u043a\u043e\u0434\u044b: @results.generated_code \n\u049a\u0430\u0442\u0435 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0442\u0435\u0440, \u049b\u0430\u0443\u0435\u0441\u0435\u0442\u0442\u0435\u0440 \u043d\u0435\u043c\u0435\u0441\u0435 \u0436\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u0442\u0443\u0440\u0430\u043b\u044b \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0443 \u04af\u0448\u0456\u043d \u043e\u043d\u044b HealthBuddy-\u0493\u0430 \u0436\u0430\u0437\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "\u0411\u0430\u0441\u049b\u0430 "
+            ]
+          }
+        },
+        "ita": {
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "Va bene!\n"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "Ora puoi segnalare voci e notizie false su COVID-19."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "Rispondi con il nome del paese da cui stai segnalando."
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "Per motivi di sicurezza, devi autenticarti prima di segnalare voci e notizie false su COVID-19."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "Ti assicuriamo che le informazioni che ci fornisci su HealthBuddy rimarranno anonime e non saranno condivise con nessuno."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "Digita il tuo indirizzo e-mail e ti invier\u00f2 un codice di verifica.\n\nSe non vuoi segnalare ora, invia *Termina*."
+            ],
+            "quick_replies": [
+              "Termina"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "Riprova"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "Invia di nuovo"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "Esci da questo menu"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "altro"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "altro"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "Riprova"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "Invia di nuovo"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "Esci"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "Mi dispiace, ma questo non \u00e8 un indirizzo e-mail valido. Digitalo di nuovo."
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "Bene!\nInserisci di nuovo il tuo indirizzo e-mail!\n"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "S\u00ec"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "No"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "altro"
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "Si"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "no"
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "Giusto per confermare, @results.email \u00e8 l'indirizzo e-mail corretto?\n"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "Esci"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "Esci"
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "OK!\nIl codice di verifica \u00e8 stato inviato al tuo indirizzo e-mail.\n"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy - Codice di verifica"
+            ],
+            "body": [
+              "Tu codice di verifica \u00e8: @results.generated_code . Digitalo sul HealthBuddy per segnalare notizie false.\n\n\n"
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "Inserisci il codice qui sotto."
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "codice"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "altro"
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "l codice che hai inserito non \u00e8 valido.\nPuoi riprovare o ridigitare, in modo che io possa inviarvelo di nuovo.\n"
+            ],
+            "quick_replies": [
+              "Riprova",
+              "Invia di nuovo",
+              "Esci"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "altro"
+            ]
+          },
+          "3963871c-b3ec-4fc6-9c18-cc7410a24af6": {
+            "name": [
+              "ha un'e-mail"
+            ]
+          }
+        },
+        "mkd": {
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "\u0414\u043e\u0431\u0440\u043e!"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "\u0421\u0435\u0433\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 \u0438 \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438 \u0437\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "\u0412\u0435 \u043c\u043e\u043b\u0430\u043c, \u043d\u0430\u043f\u0438\u0448\u0435\u0442\u0435 \u0433\u043e \u0438\u043c\u0435\u0442\u043e \u043d\u0430 \u0437\u0435\u043c\u0458\u0430\u0442\u0430 \u043e\u0434 \u043a\u043e\u0458\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0443\u0432\u0430\u0442\u0435."
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "\u041e\u0434 \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u043e\u0441\u043d\u0438 \u043f\u0440\u0438\u0447\u0438\u043d\u0438, \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0441\u0435 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0443\u0432\u0430\u0442\u0435 \u043f\u0440\u0435\u0434 \u0434\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0433\u043b\u0430\u0441\u0438\u043d\u0438 \u0438 \u043b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438 \u0437\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "\u0417\u043d\u0430\u0458\u0442\u0435 \u0434\u0435\u043a\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438\u0442\u0435 \u0448\u0442\u043e \u045c\u0435 \u043d\u0438 \u0433\u0438 \u0434\u0430\u0434\u0435\u0442\u0435 \u043d\u0430 HealthBuddy \u045c\u0435 \u043e\u0441\u0442\u0430\u043d\u0430\u0442 \u0430\u043d\u043e\u043d\u0438\u043c\u043d\u0438 \u0438 \u043d\u0435\u043c\u0430 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u0441\u043f\u043e\u0434\u0435\u043b\u0435\u043d\u0438 \u0441\u043e \u043d\u0438\u043a\u043e\u0433\u043e."
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "\u0417\u0430\u0442\u043e\u0430, \u0432\u0435 \u043c\u043e\u043b\u0430\u043c \u0432\u043d\u0435\u0441\u0435\u0442\u0435 \u0458\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0441\u043a\u0430\u0430\u0434\u0440\u0435\u0441\u0430 \u0437\u0430 \u0434\u0430 \u0432\u0438 \u0438\u0441\u043f\u0440\u0430\u0442\u0430\u043c \u043a\u043e\u0434 \u0437\u0430 \u0432\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0458\u0430.\n\n\u0410\u043a\u043e \u043d\u0435 \u0441\u0430\u043a\u0430\u0442\u0435 \u0441\u0435\u0433\u0430 \u0434\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435, \u0438\u0441\u043f\u0440\u0430\u0442\u0435\u0442\u0435 *\u041f\u0440\u0435\u043a\u0438\u043d\u0438*."
+            ],
+            "quick_replies": [
+              "\u041f\u0440\u0435\u043a\u0438\u043d\u0438"
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "\u0421\u0430\u043c\u043e \u0434\u0430 \u043f\u043e\u0442\u0432\u0440\u0434\u0430\u043c, \u0434\u0430\u043b\u0438 @results.email  \u0435 \u0442\u043e\u0447\u043d\u0430\u0442\u0430 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0441\u043a\u0430\u0430\u0434\u0440\u0435\u0441\u0430?"
+            ],
+            "quick_replies": [
+              "\u0414\u0430",
+              "\u041d\u0435"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "\u0416\u0430\u043b\u0430\u043c, \u043d\u043e \u0442\u043e\u0430 \u043d\u0435 \u0435 \u0432\u0430\u043b\u0438\u0434\u043d\u0430 \u0438\u043c\u0435\u0458\u043b-\u0430\u0434\u0440\u0435\u0441\u0430. \u0412\u0435 \u043c\u043e\u043b\u0430\u043c, \u043d\u0430\u043f\u0438\u0448\u0435\u0442\u0435 \u0458\u0430 \u043f\u0430\u043a."
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "\u0414\u043e\u0431\u0440\u043e! \n\u0412\u0435 \u043c\u043e\u043b\u0430\u043c, \u0432\u043d\u0435\u0441\u0435\u0442\u0435 \u0458\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0438\u043c\u0435\u0458\u043b-\u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u0430\u043a!\n"
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "\u0414\u043e\u0431\u0440\u043e! \n\u041a\u043e\u0434\u043e\u0442 \u0437\u0430 \u0432\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0458\u0430 \u0435 \u0438\u0441\u043f\u0440\u0430\u0442\u0435\u043d \u043d\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0438\u043c\u0435\u0458\u043b-\u0430\u0434\u0440\u0435\u0441\u0430.\n"
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "\u0412\u0435 \u043c\u043e\u043b\u0430\u043c \u0432\u043d\u0435\u0441\u0435\u0442\u0435 \u0433\u043e \u043a\u043e\u0434\u043e\u0442 \u043f\u043e\u0434\u043e\u043b\u0443."
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "\u041a\u043e\u0434\u043e\u0442 \u0448\u0442\u043e \u0433\u043e \u0432\u043d\u0435\u0441\u043e\u0432\u0442\u0435 \u043d\u0435 \u0435 \u0432\u0430\u043b\u0438\u0434\u0435\u043d. \n\u041c\u043e\u0436\u0435 \u0434\u0430 \u0441\u0435 \u043e\u0431\u0438\u0434\u0435\u0442\u0435 \u043f\u0430\u043a \u0438\u043b\u0438 \u043d\u0430\u043f\u0438\u0448\u0435\u0442\u0435 \u201e\u0438\u0441\u043f\u0440\u0430\u0442\u0438 \u043f\u0430\u043a\u201c \u0437\u0430 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u0434\u0430 \u0432\u0438 \u0433\u043e \u0438\u0441\u043f\u0440\u0430\u0442\u0430\u043c.\n"
+            ],
+            "quick_replies": [
+              "\u041e\u0431\u0438\u0434\u0438 \u0441\u0435 \u043f\u0430\u043a",
+              "\u0418\u0441\u043f\u0440\u0430\u0442\u0438 \u043f\u0430\u043a",
+              "\u0418\u0437\u043b\u0435\u0437\u0438"
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "\u043a\u043e\u0434 "
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "\u0414\u0430"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "\u041d\u0435"
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "\u0414\u0430"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "\u041d\u0435"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "\u041f\u0440\u0435\u043a\u0438\u043d\u0438"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "\u041f\u0440\u0435\u043a\u0438\u043d\u0438"
+            ]
+          },
+          "76e51028-bcd2-4e06-83a9-a54cf4bf7d27": {
+            "name": [
+              "\u041e\u0431\u0438\u0434\u0438 \u0441\u0435 \u043f\u0430\u043a"
+            ]
+          },
+          "11b40cb6-4220-4cca-9f33-0722b1fe9544": {
+            "name": [
+              "\u0418\u0441\u043f\u0440\u0430\u0442\u0438 \u043f\u0430\u043a"
+            ]
+          },
+          "5425afa8-6995-4a1c-9f9d-6ff1557f28a9": {
+            "name": [
+              "\u0418\u0437\u043b\u0435\u0437\u0438"
+            ]
+          },
+          "c7d74a62-fa46-44bc-aa0f-816e461e8244": {
+            "arguments": [
+              "\u041e\u0431\u0438\u0434\u0438 \u0441\u0435 \u043f\u0430\u043a"
+            ]
+          },
+          "e74c1957-5f8a-4268-b553-dba149d85ca6": {
+            "arguments": [
+              "\u0418\u0441\u043f\u0440\u0430\u0442\u0438 \u043f\u0430\u043a"
+            ]
+          },
+          "524d5a34-8e5e-42b7-84b0-7ce0a671b08c": {
+            "arguments": [
+              "\u0418\u0437\u043b\u0435\u0437\u0438"
+            ]
+          },
+          "2aeff641-c112-433b-9e0d-68357f29ad72": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy - \u043a\u043e\u0434 \u0437\u0430 \u0432\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0458\u0430"
+            ],
+            "body": [
+              "\u0412\u0430\u0448\u0438\u043e\u0442 \u043a\u043e\u0434 \u0437\u0430 \u0432\u0435\u0440\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0458\u0430 \u0435: @results.generated_code \u041d\u0430\u043f\u0438\u0448\u0438 \u043d\u0430 HealthBuddy \u0437\u0430 \u0434\u0430 \u0433\u0438 \u043f\u0440\u0438\u0458\u0430\u0432\u0438\u0448 \u043b\u0430\u0436\u043d\u0438\u0442\u0435 \u0432\u0435\u0441\u0442\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "853a37db-0daa-4f08-a8d1-5d4263e98cb4": {
+            "text": [
+              "Harika!"
+            ]
+          },
+          "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf": {
+            "text": [
+              "\u015eimdi KOV\u0130D-19\u2019a y\u00f6nelik s\u00f6ylenti ve yalan haberleri rapor edebilirsiniz."
+            ]
+          },
+          "acc5f365-984a-435a-88c0-84e202838b8c": {
+            "text": [
+              "L\u00fctfen hangi \u00fclkeden raporlama yapt\u0131\u011f\u0131n\u0131z\u0131 bildiriniz. "
+            ]
+          },
+          "81e9622f-0cd0-4e47-9127-0c57afcacde6": {
+            "text": [
+              "G\u00fcvenlik gerek\u00e7esiyle, KOV\u0130D-19\u2019a y\u00f6nelik s\u00f6ylenti ve yalan haber rapor etmeden \u00f6nce kimli\u011finizi do\u011frulay\u0131n\u0131z. "
+            ]
+          },
+          "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103": {
+            "text": [
+              "HealthBuddy \u00fczerinden bizimle payla\u015fm\u0131\u015f oldu\u011funuz bilgilerin sakl\u0131 kalaca\u011f\u0131 ve kimseyle payla\u015f\u0131lmayaca\u011f\u0131 konusunda hi\u00e7 \u015f\u00fcpheniz olmas\u0131n. "
+            ]
+          },
+          "e016d820-e851-4fd4-a5be-9cfaafccd823": {
+            "text": [
+              "Bir do\u011frulama kodu g\u00f6nderebilmem ad\u0131na l\u00fctfen e-mail adresinizi giriniz.\n\n\u015eu anda rapor etmek istemiyorsan\u0131z l\u00fctfen *Vazge\u00e7*\u2019e bas\u0131n\u0131z. "
+            ],
+            "quick_replies": [
+              "Vazge\u00e7"
+            ]
+          },
+          "8f794dfc-ee46-4eef-995f-aed5c8fa0466": {
+            "text": [
+              "\u00dczg\u00fcn\u00fcm, ge\u00e7erli bir e-mail adresi girmediniz. L\u00fctfen tekrar deneyin. "
+            ]
+          },
+          "53850337-90cf-4a0d-af4f-0d13d3fa39a5": {
+            "text": [
+              "Harika!\nL\u00fctfen e-mail adresinizi tekrar giriniz.\n"
+            ]
+          },
+          "920d524d-d99f-407c-a887-ec5403d6fdd6": {
+            "text": [
+              "M\u00fckemmel!\nE-mail adresinize do\u011frulama kodu g\u00f6nderilmi\u015ftir.\n"
+            ]
+          },
+          "ce6aa884-e1cd-4289-876e-299052bf0fad": {
+            "subject": [
+              "HealthBuddy \u2013 Do\u011frulama kodu"
+            ],
+            "body": [
+              "Do\u011frulama kodunuz - @results.generated_code. Do\u011frulama kodunuzu yalan haberler rapor etmek i\u00e7in HealthBuddy sitesine giriniz."
+            ]
+          },
+          "9acabbda-8cf2-4350-84e1-e4ec3bef5912": {
+            "text": [
+              "L\u00fctfen do\u011frulama kodunu a\u015fa\u011f\u0131ya giriniz."
+            ]
+          },
+          "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4": {
+            "name": [
+              "kodu "
+            ]
+          },
+          "d0270e37-e603-46f4-ae36-931c7f85abec": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "023cec3b-4c41-41d8-af5e-8e89979a3470": {
+            "arguments": [
+              "@results.generated_code"
+            ]
+          },
+          "d6eb8376-6281-44d4-96c6-73d46f1e2228": {
+            "text": [
+              "Girmi\u015f oldu\u011funuz kod ge\u00e7ersizdir.\n\nTekrar deneyebilir ya da do\u011frulama kodunu tekrar g\u00f6ndermem i\u00e7in yeniden g\u00f6nder yazabilirsiniz.\n"
+            ],
+            "quick_replies": [
+              "Tekrar dene",
+              "Tekrar g\u00f6nder",
+              "\u00c7\u0131k\u0131\u015f"
+            ]
+          },
+          "90f15176-2119-4a2c-8544-e638d1713067": {
+            "name": [
+              "Evet"
+            ]
+          },
+          "876adccf-d245-4723-937c-948650f88339": {
+            "name": [
+              "Hay\u0131r"
+            ]
+          },
+          "a051c7bd-f9af-4408-b141-2736ca6797c7": {
+            "arguments": [
+              "Evet"
+            ]
+          },
+          "96291858-d599-46d1-9c4d-d434e98efb92": {
+            "arguments": [
+              "Hay\u0131r"
+            ]
+          },
+          "40e7108e-b8d8-4399-a385-e755d3f82634": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "d0cd580d-cbff-4059-a6c8-84e859fd677f": {
+            "text": [
+              "Yaln\u0131zca do\u011frulamak amac\u0131yla, @results.email adresi do\u011fru e-mail adresiniz midir?"
+            ],
+            "quick_replies": [
+              "Evet",
+              "Hay\u0131r"
+            ]
+          },
+          "1d51c994-2ead-4dc7-b639-4f5acb57fb29": {
+            "name": [
+              "Vazge\u00e7"
+            ]
+          },
+          "6bc53d4b-d396-4993-b735-6e563da253c4": {
+            "arguments": [
+              "Vazge\u00e7"
+            ]
+          },
+          "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "bdbb5d74-a6e1-4c11-af23-63f078835653": {
+            "name": [
+              "Di\u011fer"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "27ff61f2-bc9d-4d1d-95d1-85f35e7e091e",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "bdbb5d74-a6e1-4c11-af23-63f078835653",
+            "cases": [
+              {
+                "arguments": [
+                  "Yes"
+                ],
+                "type": "has_any_word",
+                "uuid": "6361b81e-fdf4-4182-be54-09380628fe11",
+                "category_uuid": "86e8cd94-9315-4118-b3e3-e4089a7ad263"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "86e8cd94-9315-4118-b3e3-e4089a7ad263",
+                "name": "Authenticated",
+                "exit_uuid": "b1c369b3-a32d-4683-96cd-85c4501f88dd"
+              },
+              {
+                "uuid": "bdbb5d74-a6e1-4c11-af23-63f078835653",
+                "name": "Other",
+                "exit_uuid": "c3a0e7fa-3ec2-4d76-875d-17ba0df7b0ab"
+              }
+            ],
+            "operand": "@fields.authenticated"
+          },
+          "exits": [
+            {
+              "uuid": "b1c369b3-a32d-4683-96cd-85c4501f88dd",
+              "destination_uuid": "b45dfe33-802f-497c-b5b1-c9a1197bfa39"
+            },
+            {
+              "uuid": "c3a0e7fa-3ec2-4d76-875d-17ba0df7b0ab",
+              "destination_uuid": "f78740a9-a047-4d22-90b2-9bdcec6b0ced"
+            }
+          ]
+        },
+        {
+          "uuid": "b45dfe33-802f-497c-b5b1-c9a1197bfa39",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Alright!",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "853a37db-0daa-4f08-a8d1-5d4263e98cb4"
+            },
+            {
+              "attachments": [],
+              "text": "You can now report rumours and fake news about COVID-19.",
+              "type": "send_msg",
+              "all_urns": false,
+              "quick_replies": [],
+              "uuid": "b7252fd9-b10f-4b1d-bfc8-9bc7a5bbeadf"
+            },
+            {
+              "attachments": [],
+              "text": "Please type the name of the country you are reporting from",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "acc5f365-984a-435a-88c0-84e202838b8c"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "0bc80218-6c1f-4094-b6f7-261874aceb7f",
+              "destination_uuid": "258fc196-1bdd-414e-ab6b-8c53af5aadc2"
+            }
+          ]
+        },
+        {
+          "uuid": "f78740a9-a047-4d22-90b2-9bdcec6b0ced",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "For security reasons, you need to authenticate yourself before reporting rumours and fake news about COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "81e9622f-0cd0-4e47-9127-0c57afcacde6"
+            },
+            {
+              "attachments": [],
+              "text": "It is important that for all information shared with Health Buddy your privacy is protected and not shared with anyone.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "9a7b8c19-352b-4af9-8e3e-58eaaaa7e103"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "427e3969-912f-4dd2-99e3-74d57634c90e",
+              "destination_uuid": "26393462-334d-498f-b38a-075d30351431"
+            }
+          ]
+        },
+        {
+          "uuid": "b36aff54-2895-4fe7-b300-c06fa95cdb9f",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "testing code",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "7ad0dd9a-b43f-4701-bfc8-4dcffd0576d0"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "fb4bb889-18b5-4606-b1e1-f6ee266dbee0",
+              "destination_uuid": "124abdaf-8351-4fa3-818b-783cdf4b2b1d"
+            }
+          ]
+        },
+        {
+          "uuid": "258fc196-1bdd-414e-ab6b-8c53af5aadc2",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "d97e28a5-6fcc-4bcd-89a9-6b439577aca9",
+            "cases": [],
+            "categories": [
+              {
+                "uuid": "d97e28a5-6fcc-4bcd-89a9-6b439577aca9",
+                "name": "All Responses",
+                "exit_uuid": "e63a54f8-4727-4698-ba99-81f57d43e75a"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "Country"
+          },
+          "exits": [
+            {
+              "uuid": "e63a54f8-4727-4698-ba99-81f57d43e75a",
+              "destination_uuid": "32e81b32-fb4c-4def-a526-a964a01a6082"
+            }
+          ]
+        },
+        {
+          "uuid": "26393462-334d-498f-b38a-075d30351431",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "So please, type your email address so I can send you a verification code!\n\nIf you don't want to report now, please send *Quit*.",
+              "type": "send_msg",
+              "all_urns": false,
+              "quick_replies": [
+                "Quit"
+              ],
+              "uuid": "e016d820-e851-4fd4-a5be-9cfaafccd823"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "043b7769-5e9f-4e3b-9c37-7da6cc830db9",
+              "destination_uuid": "124abdaf-8351-4fa3-818b-783cdf4b2b1d"
+            }
+          ]
+        },
+        {
+          "uuid": "32e81b32-fb4c-4def-a526-a964a01a6082",
+          "actions": [
+            {
+              "uuid": "deaef83c-718e-4f2d-9e9d-81e0a8401c71",
+              "type": "set_contact_field",
+              "field": {
+                "key": "country",
+                "name": "Country"
+              },
+              "value": "@results.country.input"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "c045cf3a-7263-4a25-885c-9871970151dd",
+              "destination_uuid": "50a789b9-d134-43bd-8fc7-5248dd6f1bfd"
+            }
+          ]
+        },
+        {
+          "uuid": "50a789b9-d134-43bd-8fc7-5248dd6f1bfd",
+          "actions": [
+            {
+              "uuid": "06d750b1-7be8-4523-80bf-17210e68baf1",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "d6621bb6-9918-4128-80cf-3c2d3b981978",
+                "name": "Report Fake news"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "679078eb-7049-4be0-a2a8-33a7f3c37ec4",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "1460da72-1929-4363-a140-cc645b194a02"
+              },
+              {
+                "uuid": "c538d0c7-a6e3-45ee-8963-c0fc6d2f7c35",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "ee9b3051-d611-45b0-8357-e966027bf30f"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "1460da72-1929-4363-a140-cc645b194a02",
+                "name": "Complete",
+                "exit_uuid": "3eec0334-59e4-42bc-918b-0788f2796536"
+              },
+              {
+                "uuid": "ee9b3051-d611-45b0-8357-e966027bf30f",
+                "name": "Expired",
+                "exit_uuid": "9b7a09bd-3e44-4ba3-849b-543657c4e0d2"
+              }
+            ],
+            "default_category_uuid": "ee9b3051-d611-45b0-8357-e966027bf30f"
+          },
+          "exits": [
+            {
+              "uuid": "3eec0334-59e4-42bc-918b-0788f2796536",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "9b7a09bd-3e44-4ba3-849b-543657c4e0d2",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "26a56d65-1c80-436d-bfde-bba823346411",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "2aeff641-c112-433b-9e0d-68357f29ad72",
+            "cases": [
+              {
+                "arguments": [
+                  "Try again"
+                ],
+                "type": "has_all_words",
+                "uuid": "c7d74a62-fa46-44bc-aa0f-816e461e8244",
+                "category_uuid": "76e51028-bcd2-4e06-83a9-a54cf4bf7d27"
+              },
+              {
+                "arguments": [
+                  "Resend resend"
+                ],
+                "type": "has_any_word",
+                "uuid": "e74c1957-5f8a-4268-b553-dba149d85ca6",
+                "category_uuid": "11b40cb6-4220-4cca-9f33-0722b1fe9544"
+              },
+              {
+                "arguments": [
+                  "Exit "
+                ],
+                "type": "has_any_word",
+                "uuid": "524d5a34-8e5e-42b7-84b0-7ce0a671b08c",
+                "category_uuid": "5425afa8-6995-4a1c-9f9d-6ff1557f28a9"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "76e51028-bcd2-4e06-83a9-a54cf4bf7d27",
+                "name": "Try",
+                "exit_uuid": "969a5df8-21f2-4a63-b5ad-3f90d4fbf84d"
+              },
+              {
+                "uuid": "11b40cb6-4220-4cca-9f33-0722b1fe9544",
+                "name": "Resend",
+                "exit_uuid": "8e4b16c5-99d5-44a9-8444-74c57c415e0e"
+              },
+              {
+                "uuid": "5425afa8-6995-4a1c-9f9d-6ff1557f28a9",
+                "name": "Exit this Menu",
+                "exit_uuid": "0a7ea390-c042-4a75-8554-544998e228d6"
+              },
+              {
+                "uuid": "2aeff641-c112-433b-9e0d-68357f29ad72",
+                "name": "Other",
+                "exit_uuid": "ccf5fd24-70d4-4985-9ddb-0627a9b473ca"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "invalid_code"
+          },
+          "exits": [
+            {
+              "uuid": "969a5df8-21f2-4a63-b5ad-3f90d4fbf84d",
+              "destination_uuid": "305abcaa-3335-4e8d-9023-bab9e834adcf"
+            },
+            {
+              "uuid": "8e4b16c5-99d5-44a9-8444-74c57c415e0e",
+              "destination_uuid": "305abcaa-3335-4e8d-9023-bab9e834adcf"
+            },
+            {
+              "uuid": "0a7ea390-c042-4a75-8554-544998e228d6"
+            },
+            {
+              "uuid": "ccf5fd24-70d4-4985-9ddb-0627a9b473ca",
+              "destination_uuid": "305abcaa-3335-4e8d-9023-bab9e834adcf"
+            }
+          ]
+        },
+        {
+          "uuid": "124abdaf-8351-4fa3-818b-783cdf4b2b1d",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd",
+            "cases": [
+              {
+                "arguments": [],
+                "type": "has_email",
+                "uuid": "dcc0f29e-3cdf-4a9c-9eae-76fc6b612d66",
+                "category_uuid": "3963871c-b3ec-4fc6-9c18-cc7410a24af6"
+              },
+              {
+                "arguments": [
+                  "quit"
+                ],
+                "type": "has_only_phrase",
+                "uuid": "6bc53d4b-d396-4993-b735-6e563da253c4",
+                "category_uuid": "1d51c994-2ead-4dc7-b639-4f5acb57fb29"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "3963871c-b3ec-4fc6-9c18-cc7410a24af6",
+                "name": "Has Email",
+                "exit_uuid": "14ecf6b4-73b4-4081-878d-9149567354bc"
+              },
+              {
+                "uuid": "1d51c994-2ead-4dc7-b639-4f5acb57fb29",
+                "name": "Quit",
+                "exit_uuid": "c9f1c63c-f9ed-4957-873b-5c7c5d89be18"
+              },
+              {
+                "uuid": "4bc0143d-7a99-4b49-9b6f-b83d1916e2bd",
+                "name": "Other",
+                "exit_uuid": "7b2f6ec2-5c13-4c5f-92ef-0bfcf759f52f"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "email"
+          },
+          "exits": [
+            {
+              "uuid": "14ecf6b4-73b4-4081-878d-9149567354bc",
+              "destination_uuid": "305abcaa-3335-4e8d-9023-bab9e834adcf"
+            },
+            {
+              "uuid": "c9f1c63c-f9ed-4957-873b-5c7c5d89be18"
+            },
+            {
+              "uuid": "7b2f6ec2-5c13-4c5f-92ef-0bfcf759f52f",
+              "destination_uuid": "86081453-a5ff-46ac-81b3-c883de29ae77"
+            }
+          ]
+        },
+        {
+          "uuid": "305abcaa-3335-4e8d-9023-bab9e834adcf",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Just to confirm, is @results.email your email?",
+              "type": "send_msg",
+              "quick_replies": [
+                "Yes",
+                "No"
+              ],
+              "uuid": "d0cd580d-cbff-4059-a6c8-84e859fd677f"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "7dc9d3a6-e684-46c0-a5a8-52660af5c6f6",
+              "destination_uuid": "623d8d1b-7633-404f-96a7-093869082fdb"
+            }
+          ]
+        },
+        {
+          "uuid": "86081453-a5ff-46ac-81b3-c883de29ae77",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Sorry but that is not a valid email address, please type it out again.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "8f794dfc-ee46-4eef-995f-aed5c8fa0466"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "00938ec8-317d-4f3b-a7fa-69ae47f01457",
+              "destination_uuid": "124abdaf-8351-4fa3-818b-783cdf4b2b1d"
+            }
+          ]
+        },
+        {
+          "uuid": "b21556ed-f296-447d-b15f-5a8977404a0b",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Alright!\n\nSo, please, enter your email again!\n",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "53850337-90cf-4a0d-af4f-0d13d3fa39a5"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "bf290268-6861-42ed-bba4-7f4e7c4d092b",
+              "destination_uuid": "124abdaf-8351-4fa3-818b-783cdf4b2b1d"
+            }
+          ]
+        },
+        {
+          "uuid": "623d8d1b-7633-404f-96a7-093869082fdb",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "40e7108e-b8d8-4399-a385-e755d3f82634",
+            "cases": [
+              {
+                "arguments": [
+                  "yes"
+                ],
+                "type": "has_any_word",
+                "uuid": "a051c7bd-f9af-4408-b141-2736ca6797c7",
+                "category_uuid": "90f15176-2119-4a2c-8544-e638d1713067"
+              },
+              {
+                "arguments": [
+                  "no"
+                ],
+                "type": "has_any_word",
+                "uuid": "96291858-d599-46d1-9c4d-d434e98efb92",
+                "category_uuid": "876adccf-d245-4723-937c-948650f88339"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "90f15176-2119-4a2c-8544-e638d1713067",
+                "name": "Yes",
+                "exit_uuid": "cecad6ea-38a5-4607-abb9-999b82b39cb0"
+              },
+              {
+                "uuid": "876adccf-d245-4723-937c-948650f88339",
+                "name": "No",
+                "exit_uuid": "b477dbf3-bd7e-4014-a489-259e5288cfd6"
+              },
+              {
+                "uuid": "40e7108e-b8d8-4399-a385-e755d3f82634",
+                "name": "Other",
+                "exit_uuid": "ab21ead6-4439-4521-92c6-332c066a43d3"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "binary"
+          },
+          "exits": [
+            {
+              "uuid": "cecad6ea-38a5-4607-abb9-999b82b39cb0",
+              "destination_uuid": "a57b9e9e-8144-41af-9d1b-470b6afac72a"
+            },
+            {
+              "uuid": "b477dbf3-bd7e-4014-a489-259e5288cfd6",
+              "destination_uuid": "b21556ed-f296-447d-b15f-5a8977404a0b"
+            },
+            {
+              "uuid": "ab21ead6-4439-4521-92c6-332c066a43d3",
+              "destination_uuid": "b21556ed-f296-447d-b15f-5a8977404a0b"
+            }
+          ]
+        },
+        {
+          "uuid": "a57b9e9e-8144-41af-9d1b-470b6afac72a",
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "generated_code",
+              "value": "@(rand_between(0, 9))@(rand_between(0, 9))@(rand_between(0, 9))@(rand_between(0, 9))",
+              "category": "",
+              "uuid": "253fc222-950a-4158-a9fb-604a501e0de9"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "4f928f0c-37e6-4d59-86b1-c508b191062c",
+              "destination_uuid": "03da9049-08e5-42a9-b368-c4d5bea79a95"
+            }
+          ]
+        },
+        {
+          "uuid": "03da9049-08e5-42a9-b368-c4d5bea79a95",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Ok!\n\nThe verification code has been sent to your email.\n",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "920d524d-d99f-407c-a887-ec5403d6fdd6"
+            },
+            {
+              "addresses": [
+                "@results.email"
+              ],
+              "subject": "Health Buddy - Verification code",
+              "body": "Your verification code is: @results.generated_code\n\nType it on the Health Buddy to report misconceptions, rumors or fake news.",
+              "type": "send_email",
+              "uuid": "ce6aa884-e1cd-4289-876e-299052bf0fad"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "aeca6934-d515-495f-81f2-a0ef561602b1",
+              "destination_uuid": "a2ee5021-b3d5-4361-a797-1998a15d3cf4"
+            }
+          ]
+        },
+        {
+          "uuid": "a2ee5021-b3d5-4361-a797-1998a15d3cf4",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Please, enter the code here.",
+              "type": "send_msg",
+              "all_urns": false,
+              "quick_replies": [],
+              "uuid": "9acabbda-8cf2-4350-84e1-e4ec3bef5912"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "1199b2a4-9e3f-4dcb-847c-eca663028db1",
+              "destination_uuid": "871549c7-ae5b-40fe-baa5-3d5c212b868d"
+            }
+          ]
+        },
+        {
+          "uuid": "871549c7-ae5b-40fe-baa5-3d5c212b868d",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "d0270e37-e603-46f4-ae36-931c7f85abec",
+            "cases": [
+              {
+                "arguments": [
+                  "@results.generated_code"
+                ],
+                "type": "has_any_word",
+                "uuid": "023cec3b-4c41-41d8-af5e-8e89979a3470",
+                "category_uuid": "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "22d8b8cd-f68c-4a5d-bff4-6dd3a8ec9ae4",
+                "name": "Code",
+                "exit_uuid": "1aa87fe1-0da1-4a3f-8035-fb402495e30f"
+              },
+              {
+                "uuid": "d0270e37-e603-46f4-ae36-931c7f85abec",
+                "name": "Other",
+                "exit_uuid": "60209bc4-1857-4fb2-b3ef-44667b257654"
+              }
+            ],
+            "operand": "@input.text",
+            "wait": {
+              "type": "msg"
+            },
+            "result_name": "code"
+          },
+          "exits": [
+            {
+              "uuid": "1aa87fe1-0da1-4a3f-8035-fb402495e30f",
+              "destination_uuid": "f875be9b-012f-4ad3-8df9-3388a61e72ee"
+            },
+            {
+              "uuid": "60209bc4-1857-4fb2-b3ef-44667b257654",
+              "destination_uuid": "88afb28b-42d4-4ee7-ba2c-b96b3c41f937"
+            }
+          ]
+        },
+        {
+          "uuid": "f875be9b-012f-4ad3-8df9-3388a61e72ee",
+          "actions": [
+            {
+              "uuid": "ef7344d4-e67d-4ea8-8c74-6948d950d4d1",
+              "type": "set_contact_field",
+              "field": {
+                "key": "authenticated",
+                "name": "Authenticated"
+              },
+              "value": "Yes"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "3bb7f632-bcc2-4cb4-b491-796453b8fd9e",
+              "destination_uuid": "b45dfe33-802f-497c-b5b1-c9a1197bfa39"
+            }
+          ]
+        },
+        {
+          "uuid": "88afb28b-42d4-4ee7-ba2c-b96b3c41f937",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "The code that you entered is invalid;\n\nPlease try again, or type resend so I can send it to you again.",
+              "type": "send_msg",
+              "quick_replies": [
+                "Try again",
+                "Resend",
+                "Exit"
+              ],
+              "uuid": "d6eb8376-6281-44d4-96c6-73d46f1e2228"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "ffcab9f0-26af-4059-8455-b34e3d161229",
+              "destination_uuid": "26a56d65-1c80-436d-bfde-bba823346411"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "authenticated",
+      "name": "Authenticated",
+      "type": "text"
+    },
+    {
+      "key": "country",
+      "name": "Country",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

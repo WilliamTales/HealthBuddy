@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "f6896d1d-c5c0-42d5-b9e3-17b691b9a40e": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "La OMS recomienda que las personas que han estado en contacto con personas infectadas sean puestas en cuarentena durante 14 d\u00edas desde la \u00faltima vez que estuvieron expuestas."
+            ]
+          }
+        },
+        "ell": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "\u039f \u03a0\u039f\u03a5 \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ac \u03c3\u03b5 \u03cc\u03c3\u03bf\u03c5\u03c2 \u03ad\u03c7\u03bf\u03c5\u03bd \u03ad\u03c1\u03b8\u03b5\u03b9 \u03c3\u03b5 \u03b5\u03c0\u03b1\u03c6\u03ae \u03bc\u03b5 \u03ac\u03c4\u03bf\u03bc\u03b1 \u03c0\u03c1\u03bf\u03c3\u03b2\u03b5\u03b2\u03bb\u03b7\u03bc\u03ad\u03bd\u03b1 \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03b9\u03cc \u03bd\u03b1 \u03bc\u03c0\u03bf\u03c5\u03bd \u03c3\u03b5 \u03ba\u03b1\u03c1\u03b1\u03bd\u03c4\u03af\u03bd\u03b1 \u03b3\u03b9\u03b1 14 \u03b7\u03bc\u03ad\u03c1\u03b5\u03c2 \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u03c4\u03b5\u03bb\u03b5\u03c5\u03c4\u03b1\u03af\u03b1 \u03b5\u03c0\u03b1\u03c6\u03ae."
+            ]
+          }
+        },
+        "rus": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "\u0412\u041e\u0417 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442 \u043f\u043e\u043c\u0435\u0449\u0430\u0442\u044c \u043d\u0430 \u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d \u043b\u044e\u0434\u0435\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0431\u044b\u043b\u0438 \u0432 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0435 \u0441 \u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438, \u043d\u0430 14 \u0434\u043d\u0435\u0439 \u0441 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0430."
+            ]
+          }
+        },
+        "ita": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "L'OMS raccomanda che le persone che sono state in contatto con persone infette siano messe in quarantena per 14 giorni dall'ultima volta che sono state esposte al virus."
+            ]
+          }
+        },
+        "kaz": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "\u0414\u0414\u0421\u04b0 \u0430\u0443\u0440\u0443\u0434\u044b \u0436\u04b1\u049b\u0442\u044b\u0440\u0493\u0430\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u043c\u0435\u043d \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0442\u0430 \u0431\u043e\u043b\u0493\u0430\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u043e\u043b\u0430\u0440 \u0441\u043e\u04a3\u0493\u044b \u0440\u0435\u0442 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u049b\u0430\u043d \u0441\u04d9\u0442\u0442\u0435\u043d \u0431\u0430\u0441\u0442\u0430\u043f 14 \u043a\u04af\u043d \u0456\u0448\u0456\u043d\u0434\u0435 \u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d\u0433\u0435 \u0430\u043b\u044b\u043d\u0443\u0434\u044b \u04b1\u0441\u044b\u043d\u0430\u0434\u044b."
+            ]
+          }
+        },
+        "por": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "A OMS recomenda que as pessoas que estiveram em contato com pessoas infectadas sejam colocadas em quarentena por 14 dias a partir da \u00faltima vez em que foram expostas."
+            ]
+          }
+        },
+        "mkd": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "\u0421\u0417\u041e \u043f\u0440\u0435\u043f\u043e\u0440\u0430\u0447\u0443\u0432\u0430 \u043b\u0438\u0446\u0430\u0442\u0430 \u043a\u043e\u0438 \u0431\u0438\u043b\u0435 \u0432\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442 \u0441\u043e \u0437\u0430\u0440\u0430\u0437\u0435\u043d\u0438 \u043b\u0438\u0446\u0430 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u0441\u0442\u0430\u0432\u0435\u043d\u0438 \u0432\u043e \u043a\u0430\u0440\u0430\u043d\u0442\u0438\u043d 14 \u0434\u0435\u043d\u0430 \u043e\u0434 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043e\u0442 \u043f\u0430\u0442 \u043a\u043e\u0433\u0430 \u0431\u0438\u043b\u0435 \u0438\u0437\u043b\u043e\u0436\u0435\u043d\u0438."
+            ]
+          }
+        },
+        "tur": {
+          "5a826247-44f9-40bb-81be-f3b6d7921d35": {
+            "text": [
+              "DS\u00d6, enfekte bireylerle temasta bulunmu\u015f olan ki\u015filerin, en son maruz kald\u0131klar\u0131 g\u00fcnden itibaren 14 g\u00fcn boyunca karantinada kalmas\u0131n\u0131 tavsiye etmektedir."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 11
+      },
+      "name": "Quarantine",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "8465b004-6f7f-4008-9625-fbb0c8ca84f1",
+      "revision": 12,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "WHO recommends that people who have been in contact with infected people be quarantined for 14 days from the last time they were exposed.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5a826247-44f9-40bb-81be-f3b6d7921d35"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "ff1bec0c-fed2-431a-bd12-ce16a1d6eb6f"
+            }
+          ],
+          "uuid": "f6896d1d-c5c0-42d5-b9e3-17b691b9a40e"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,476 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "9f7a686e-3a77-41aa-ae5c-7386e4558865": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 360,
+              "top": 20
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "e33f729d-68eb-461f-aeb3-2dcf31de26bf": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 140,
+              "top": 100
+            },
+            "config": {}
+          },
+          "843c9be2-1255-4ebc-a042-9646e031211d": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 380,
+              "top": 220
+            },
+            "config": {}
+          },
+          "dac3c2c8-21d8-479a-9fe1-a7088235513f": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 620,
+              "top": 220
+            },
+            "config": {}
+          },
+          "1c3a14d4-d41d-4456-9c53-7e9fdbbb4252": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 840,
+              "top": 220
+            },
+            "config": {}
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "metadata": {
+        "revision": 64
+      },
+      "name": "Interaction counter",
+      "nodes": [
+        {
+          "uuid": "9f7a686e-3a77-41aa-ae5c-7386e4558865",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "76a57be2-75ef-4b7b-a543-55a72b8ffb3d",
+            "categories": [
+              {
+                "uuid": "a518de92-4951-4e03-9c46-6d170be5a48e",
+                "name": "Web",
+                "exit_uuid": "a8d09244-fdfd-47b2-bb38-7684fc4227cb"
+              },
+              {
+                "uuid": "2ee928c8-98a3-4030-a89c-251d5c010761",
+                "name": "Telegram",
+                "exit_uuid": "be996401-71be-4651-b989-f10c0cdc0068"
+              },
+              {
+                "uuid": "5f938e2a-8eea-4dfc-a6ed-c1be5ea16c9a",
+                "name": "Facebook",
+                "exit_uuid": "5d3bf69a-7aea-408e-b85b-22f1a03af898"
+              },
+              {
+                "uuid": "35731bd6-7f64-4bd4-b1b9-7bde2ba10ba3",
+                "name": "Viber",
+                "exit_uuid": "a9d75d76-9fcb-4e3d-8f81-ece8a04f3a72"
+              },
+              {
+                "uuid": "76a57be2-75ef-4b7b-a543-55a72b8ffb3d",
+                "name": "Other",
+                "exit_uuid": "764a51e9-e9cb-4c48-b00b-8b7dbbdabde4"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "web"
+                ],
+                "type": "has_any_word",
+                "uuid": "e7fa9b5b-0d7e-49bb-9747-17696004f40e",
+                "category_uuid": "a518de92-4951-4e03-9c46-6d170be5a48e"
+              },
+              {
+                "arguments": [
+                  "telegram"
+                ],
+                "type": "has_any_word",
+                "uuid": "8d532527-6328-4c32-9ba7-1890859e61b8",
+                "category_uuid": "2ee928c8-98a3-4030-a89c-251d5c010761"
+              },
+              {
+                "arguments": [
+                  "facebook"
+                ],
+                "type": "has_any_word",
+                "uuid": "ad0601a9-a9cd-4f2c-93aa-62474423ef63",
+                "category_uuid": "5f938e2a-8eea-4dfc-a6ed-c1be5ea16c9a"
+              },
+              {
+                "arguments": [
+                  "viber"
+                ],
+                "type": "has_any_word",
+                "uuid": "3378933b-5940-4557-a28f-08b6b0a859d6",
+                "category_uuid": "35731bd6-7f64-4bd4-b1b9-7bde2ba10ba3"
+              }
+            ],
+            "operand": "@contact.channel.name"
+          },
+          "exits": [
+            {
+              "uuid": "a8d09244-fdfd-47b2-bb38-7684fc4227cb",
+              "destination_uuid": "e33f729d-68eb-461f-aeb3-2dcf31de26bf"
+            },
+            {
+              "uuid": "be996401-71be-4651-b989-f10c0cdc0068",
+              "destination_uuid": "843c9be2-1255-4ebc-a042-9646e031211d"
+            },
+            {
+              "uuid": "5d3bf69a-7aea-408e-b85b-22f1a03af898",
+              "destination_uuid": "dac3c2c8-21d8-479a-9fe1-a7088235513f"
+            },
+            {
+              "uuid": "a9d75d76-9fcb-4e3d-8f81-ece8a04f3a72",
+              "destination_uuid": "1c3a14d4-d41d-4456-9c53-7e9fdbbb4252"
+            },
+            {
+              "uuid": "764a51e9-e9cb-4c48-b00b-8b7dbbdabde4",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "e33f729d-68eb-461f-aeb3-2dcf31de26bf",
+          "actions": [
+            {
+              "uuid": "affb98a3-5f72-4475-85cb-27b235a5ba06",
+              "headers": {
+                "Authorization": "Token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=interactions_web_counter",
+              "body": "{\n    \"value\": @(globals.interactions_web_counter + 1)\n}",
+              "method": "POST",
+              "result_name": "Result"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.result.category",
+            "cases": [
+              {
+                "uuid": "c9f014d6-cfd3-466c-8afd-3c21e73f299f",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "ae347e6c-bce6-4085-8148-ca92e9a7ce74"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "ae347e6c-bce6-4085-8148-ca92e9a7ce74",
+                "name": "Success",
+                "exit_uuid": "108fbf49-26c1-4507-8db8-4ba84536b81b"
+              },
+              {
+                "uuid": "cae26ea4-98f0-4da0-a00b-f689347729ec",
+                "name": "Failure",
+                "exit_uuid": "b63fd41a-d290-4b3f-8a16-f55b71cb5461"
+              }
+            ],
+            "default_category_uuid": "cae26ea4-98f0-4da0-a00b-f689347729ec"
+          },
+          "exits": [
+            {
+              "uuid": "108fbf49-26c1-4507-8db8-4ba84536b81b",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "b63fd41a-d290-4b3f-8a16-f55b71cb5461",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "843c9be2-1255-4ebc-a042-9646e031211d",
+          "actions": [
+            {
+              "uuid": "474b6568-d07a-4e66-9be9-41b73b72df9e",
+              "headers": {
+                "Authorization": "Token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=interactions_telegram_counter",
+              "body": "{\n    \"value\": @(globals.interactions_telegram_counter + 1)\n}",
+              "method": "POST",
+              "result_name": "Result"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.result.category",
+            "cases": [
+              {
+                "uuid": "5e1501dd-f069-46a0-bd3a-4407a6c5afb3",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "bc0c7a18-fbfd-4fa9-820d-f87dc3929f8e"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "bc0c7a18-fbfd-4fa9-820d-f87dc3929f8e",
+                "name": "Success",
+                "exit_uuid": "ff134cf0-c609-4f7c-9bee-0f9557eb3b4b"
+              },
+              {
+                "uuid": "096873e0-410a-46cf-989b-622089b536e4",
+                "name": "Failure",
+                "exit_uuid": "5de7423e-5d4e-4eff-bcbb-0c1b467a1198"
+              }
+            ],
+            "default_category_uuid": "096873e0-410a-46cf-989b-622089b536e4"
+          },
+          "exits": [
+            {
+              "uuid": "ff134cf0-c609-4f7c-9bee-0f9557eb3b4b",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "5de7423e-5d4e-4eff-bcbb-0c1b467a1198",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "dac3c2c8-21d8-479a-9fe1-a7088235513f",
+          "actions": [
+            {
+              "uuid": "c13084de-83df-49be-8326-74a08b9f30bd",
+              "headers": {
+                "Authorization": "Token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=interactions_facebook_counter",
+              "body": "{\n    \"value\": @(globals.interactions_facebook_counter + 1)\n}",
+              "method": "POST",
+              "result_name": "Result"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.result.category",
+            "cases": [
+              {
+                "uuid": "979d57e6-3750-4e88-956a-430aaf843b04",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "36fb7db0-639c-4554-affd-244d333852f5"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "36fb7db0-639c-4554-affd-244d333852f5",
+                "name": "Success",
+                "exit_uuid": "3c06831d-9018-4a8b-bcbe-d6e1be407245"
+              },
+              {
+                "uuid": "f5a94c73-5fb0-46a0-a012-16abccc46b02",
+                "name": "Failure",
+                "exit_uuid": "7ff8deab-e280-459a-9514-c1f400aab82d"
+              }
+            ],
+            "default_category_uuid": "f5a94c73-5fb0-46a0-a012-16abccc46b02"
+          },
+          "exits": [
+            {
+              "uuid": "3c06831d-9018-4a8b-bcbe-d6e1be407245",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "7ff8deab-e280-459a-9514-c1f400aab82d",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "1c3a14d4-d41d-4456-9c53-7e9fdbbb4252",
+          "actions": [
+            {
+              "uuid": "8cca4a04-e149-4b30-b189-56e3a47da6ca",
+              "headers": {
+                "Authorization": "Token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=interactions_viber_counter",
+              "body": "{\n    \"value\": @(globals.interactions_viber_counter + 1)\n}",
+              "method": "POST",
+              "result_name": "Result"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.result.category",
+            "cases": [
+              {
+                "uuid": "64bb5a52-ab78-4fb4-9497-06259bb28314",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "2aa56fd6-46a8-4bab-8be6-9265d2737781"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "2aa56fd6-46a8-4bab-8be6-9265d2737781",
+                "name": "Success",
+                "exit_uuid": "c39c75f7-1e6a-4945-87c2-fe96f6d5720b"
+              },
+              {
+                "uuid": "18e31397-d3de-4015-a830-444a4fe2c3b3",
+                "name": "Failure",
+                "exit_uuid": "038a4386-ad11-4448-96f4-67d1a9d7ffef"
+              }
+            ],
+            "default_category_uuid": "18e31397-d3de-4015-a830-444a4fe2c3b3"
+          },
+          "exits": [
+            {
+              "uuid": "c39c75f7-1e6a-4945-87c2-fe96f6d5720b",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "038a4386-ad11-4448-96f4-67d1a9d7ffef",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "revision": 65,
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "f7015954-1564-4e44-84f0-124843428498",
+      "localization": {
+        "rus": {},
+        "por": {},
+        "mkd": {
+          "a518de92-4951-4e03-9c46-6d170be5a48e": {
+            "name": [
+              "\u0432\u0435\u0431"
+            ]
+          },
+          "2ee928c8-98a3-4030-a89c-251d5c010761": {
+            "name": [
+              "\u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c"
+            ]
+          },
+          "5f938e2a-8eea-4dfc-a6ed-c1be5ea16c9a": {
+            "name": [
+              "\u0424\u0435\u0458\u0441\u0431\u0443\u043a"
+            ]
+          },
+          "35731bd6-7f64-4bd4-b1b9-7bde2ba10ba3": {
+            "name": [
+              "\u0412\u0438\u0431\u0435\u0440"
+            ]
+          },
+          "76a57be2-75ef-4b7b-a543-55a72b8ffb3d": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "e7fa9b5b-0d7e-49bb-9747-17696004f40e": {
+            "arguments": [
+              "\u0432\u0435\u0431"
+            ]
+          },
+          "8d532527-6328-4c32-9ba7-1890859e61b8": {
+            "arguments": [
+              "\u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c"
+            ]
+          },
+          "ad0601a9-a9cd-4f2c-93aa-62474423ef63": {
+            "arguments": [
+              "\u0424\u0435\u0458\u0441\u0431\u0443\u043a"
+            ]
+          },
+          "3378933b-5940-4557-a28f-08b6b0a859d6": {
+            "arguments": [
+              "\u0412\u0438\u0431\u0435\u0440"
+            ]
+          }
+        },
+        "tur": {
+          "a518de92-4951-4e03-9c46-6d170be5a48e": {
+            "name": [
+              "\u0130nternet a\u011f\u0131"
+            ]
+          },
+          "2ee928c8-98a3-4030-a89c-251d5c010761": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "5f938e2a-8eea-4dfc-a6ed-c1be5ea16c9a": {
+            "name": [
+              "Facebook"
+            ]
+          },
+          "35731bd6-7f64-4bd4-b1b9-7bde2ba10ba3": {
+            "name": [
+              "Viber"
+            ]
+          },
+          "76a57be2-75ef-4b7b-a543-55a72b8ffb3d": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "e7fa9b5b-0d7e-49bb-9747-17696004f40e": {
+            "arguments": [
+              "\u0130nternet a\u011f\u0131"
+            ]
+          },
+          "8d532527-6328-4c32-9ba7-1890859e61b8": {
+            "arguments": [
+              "Telegram"
+            ]
+          },
+          "ad0601a9-a9cd-4f2c-93aa-62474423ef63": {
+            "arguments": [
+              "Facebook"
+            ]
+          },
+          "3378933b-5940-4557-a28f-08b6b0a859d6": {
+            "arguments": [
+              "Viber"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

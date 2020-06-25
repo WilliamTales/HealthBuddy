@@ -1,0 +1,545 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Immunity",
+      "uuid": "d3aeeb6a-c48c-4940-9f7a-feeb20d7f510",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "8b1d6c2d-ebeb-4b25-bc2c-c168f22e30bb": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 380,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "9729e967-876c-43a5-bc03-76eecb483f60": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 160,
+              "top": 60
+            },
+            "config": {}
+          },
+          "73f9d418-f7e0-4fae-bd1d-50d2b6a03ef0": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 380,
+              "top": 180
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "d4d544ba-c908-4488-8608-56c40520cd8b": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 160,
+              "top": 240
+            },
+            "config": {}
+          },
+          "6a669b33-84f6-4be2-9ae3-19a7c42d5dd3": {
+            "position": {
+              "left": 380,
+              "top": 380
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 75,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 73
+      },
+      "localization": {
+        "por": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "O COVID-19 \u00e9 um novo v\u00edrus e, portanto, toda a popula\u00e7\u00e3o mundial n\u00e3o estava imune a ele. Ainda n\u00e3o h\u00e1 vacina para nos ajudar a desenvolver imunidade."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "A OMS est\u00e1 coordenando esfor\u00e7os para desenvolver vacinas e medicamentos para prevenir e tratar o COVID-19. Poss\u00edveis vacinas e alguns tratamentos medicamentosos espec\u00edficos est\u00e3o sob investiga\u00e7\u00e3o. e est\u00e3o sendo testados atrav\u00e9s de ensaios cl\u00ednicos."
+            ]
+          }
+        },
+        "rus": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "COVID-19 - \u044d\u0442\u043e \u043d\u043e\u0432\u044b\u0439 \u0432\u0438\u0440\u0443\u0441, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0441\u0435\u0433\u043e \u043c\u0438\u0440\u0430 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043a \u043d\u0435\u043c\u0443 \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0430. \u041f\u043e\u043a\u0430 \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0438 \u0432\u0430\u043a\u0446\u0438\u043d\u044b, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u043c\u043e\u0433\u043b\u0430 \u0431\u044b \u043d\u0430\u043c \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "\u0412\u041e\u0417 \u043a\u043e\u043e\u0440\u0434\u0438\u043d\u0438\u0440\u0443\u0435\u0442 \u0443\u0441\u0438\u043b\u0438\u044f \u043f\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 \u0432\u0430\u043a\u0446\u0438\u043d \u0438 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432 \u0434\u043b\u044f \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438 \u0438 \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-19. \u041f\u043e\u0442\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u044b \u043f\u0440\u043e\u0445\u043e\u0434\u044f\u0442 \u043a\u043b\u0438\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0441\u043f\u044b\u0442\u0430\u043d\u0438\u044f.\n"
+            ]
+          },
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "\u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432\u043d\u044b\u0439"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "covid19"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "COVID-19 es un virus nuevo, por lo que la poblaci\u00f3n mundial no era inmune a \u00e9l. Todav\u00eda no existe una vacuna que nos ayude a desarrollar inmunidad."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "La OMS est\u00e1 coordinando esfuerzos para desarrollar vacunas y medicamentos para prevenir y tratar el COVID-19. Se est\u00e1n investigando posibles vacunas y algunos tratamientos farmacol\u00f3gicos espec\u00edficos. y est\u00e1n siendo probados a trav\u00e9s de ensayos cl\u00ednicos."
+            ]
+          },
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "reba\u00f1o"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "covid-19"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          },
+          "94a00d2f-885c-4fcd-b6ef-0f273c874765": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91": {
+            "name": [
+              "Otro"
+            ]
+          }
+        },
+        "ell": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "\u039f COVID-19 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bd\u03ad\u03bf\u03c2 \u03b9\u03cc\u03c2, \u03bf\u03c0\u03cc\u03c4\u03b5 \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b1\u03bd\u03bf\u03c3\u03af\u03b1 \u03c3\u03c4\u03bf\u03bd \u03c0\u03b1\u03b3\u03ba\u03cc\u03c3\u03bc\u03b9\u03bf \u03c0\u03bb\u03b7\u03b8\u03c5\u03c3\u03bc\u03cc. \u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b1\u03ba\u03cc\u03bc\u03b1 \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03b1\u03c2 \u03b2\u03bf\u03b7\u03b8\u03ae\u03c3\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03bd\u03b1\u03c0\u03c4\u03cd\u03be\u03bf\u03c5\u03bc\u03b5 \u03b1\u03bd\u03bf\u03c3\u03af\u03b1."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "\u039f \u03a0\u039f\u03a5 \u03c3\u03c5\u03bd\u03c4\u03bf\u03bd\u03af\u03b6\u03b5\u03b9 \u03c0\u03c1\u03bf\u03c3\u03c0\u03ac\u03b8\u03b5\u03b9\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ae \u03b5\u03bc\u03b2\u03bf\u03bb\u03af\u03c9\u03bd \u03ba\u03b1\u03b9 \u03c6\u03b1\u03c1\u03bc\u03ac\u03ba\u03c9\u03bd \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7 \u03ba\u03b1\u03b9 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1 \u03c4\u03bf\u03c5 COVID-19. \u03a0\u03b9\u03b8\u03b1\u03bd\u03ac \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03ba\u03ac\u03c0\u03bf\u03b9\u03b5\u03c2 \u03c3\u03c5\u03b3\u03ba\u03b5\u03ba\u03c1\u03b9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b5\u03c2 \u03c6\u03b1\u03c1\u03bc\u03ac\u03ba\u03c9\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03c5\u03c0\u03cc \u03b4\u03b9\u03b5\u03c1\u03b5\u03cd\u03bd\u03b7\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03b3\u03af\u03bd\u03bf\u03bd\u03c4\u03b1\u03b9 \u03ba\u03bb\u03b9\u03bd\u03b9\u03ba\u03ad\u03c2 \u03b4\u03bf\u03ba\u03b9\u03bc\u03ad\u03c2. "
+            ]
+          },
+          "94a00d2f-885c-4fcd-b6ef-0f273c874765": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "covid-19"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          },
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "\u03b1\u03b3\u03ad\u03bb\u03b7"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "COVID-19 \u00e8 un nuovo virus, pertanto l'intera popolazione mondiale non aveva alcun tipo d\u2019immunit\u00e0 da questo virus. Non esiste ancora un vaccino per aiutarci a sviluppare l'immunit\u00e0."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "L'OMS sta coordinando gli sforzi per sviluppare vaccini e medicinali per prevenire e curare la COVID-19. Possibili vaccini e alcuni trattamenti farmacologici specifici sono in fase di analisi e sono testati attraverso studi clinici."
+            ]
+          },
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "gregge"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "Covid19"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "kaz": {
+          "823b415e-d607-4c5e-87b3-ab644225d2b0": {
+            "text": [
+              "COVID-19 - \u0431\u04b1\u043b \u0436\u0430\u04a3\u0430 \u0432\u0438\u0440\u0443\u0441, \u0441\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u04d9\u043b\u0435\u043c \u0442\u04b1\u0440\u0493\u044b\u043d\u0434\u0430\u0440\u044b \u0430\u0440\u0430\u0441\u044b\u043d\u0434\u0430 \u043e\u0493\u0430\u043d \u049b\u0430\u0440\u0441\u044b \u0435\u0448\u043a\u0456\u043c\u043d\u0456\u04a3 \u0438\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0456 \u0436\u043e\u049b. \u0418\u043c\u043c\u0443\u043d\u0438\u0442\u0435\u0442\u0442\u0456 \u043a\u04e9\u0442\u0435\u0440\u0443\u0433\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0442\u0456\u043d \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u04d9\u043b\u0456 \u043e\u0439\u043b\u0430\u043f \u0442\u0430\u0431\u044b\u043b\u0493\u0430\u043d \u0436\u043e\u049b."
+            ]
+          },
+          "088620fc-d06b-4555-aa68-32da94bf361a": {
+            "text": [
+              "\u0414\u0414\u0421\u04b0 COVID-19-\u0434\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d-\u0430\u043b\u0443 \u04af\u0448\u0456\u043d \u0436\u04d9\u043d\u0435 \u043e\u043d\u044b \u0435\u043c\u0434\u0435\u0443 \u04af\u0448\u0456\u043d \u0432\u0430\u043a\u0446\u0438\u043d\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440\u0434\u0456 \u0436\u0430\u0441\u0430\u0443 \u0431\u043e\u0439\u044b\u043d\u0448\u0430 \u0436\u04b1\u043c\u044b\u0441\u0442\u0430\u0440\u0434\u044b \u04af\u0439\u043b\u0435\u0441\u0442\u0456\u0440\u0443\u0434\u0435. \u0412\u0430\u043a\u0446\u0438\u043d\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u043a\u0435\u0439\u0431\u0456\u0440 \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u043b\u0443\u0434\u0435. \u041e\u043b\u0430\u0440 \u043a\u043b\u0438\u043d\u0438\u043a\u0430\u043b\u044b\u049b \u0437\u0435\u0440\u0442\u0442\u0435\u0443\u043b\u0435\u0440\u0434\u0435\u043d \u04e9\u0442\u0456\u043f \u0436\u0430\u0442\u044b\u0440."
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          },
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "\u0442\u043e\u043f\u0442\u044b\u049b"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "Covid19"
+            ]
+          }
+        },
+        "mkd": {
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "\u041a\u043e\u043b\u0435\u043a\u0442\u0438\u0432\u0435\u043d"
+            ]
+          },
+          "94a00d2f-885c-4fcd-b6ef-0f273c874765": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              ""
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "\u043a\u043e\u0432\u0438\u0434-19"
+            ]
+          },
+          "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "tur": {
+          "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed": {
+            "name": [
+              "S\u00fcr\u00fc"
+            ]
+          },
+          "94a00d2f-885c-4fcd-b6ef-0f273c874765": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "d763726e-f346-4d17-b886-0249149288c8": {
+            "arguments": [
+              "S\u00fcr\u00fc"
+            ]
+          },
+          "be5affe0-1647-46d1-8af3-7865711fdee5": {
+            "name": [
+              "KOV\u0130D-19"
+            ]
+          },
+          "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "12389b0e-0aed-48b4-b795-304cf16ffd43": {
+            "arguments": [
+              "KOV\u0130D-19 KOV\u0130D19 Koronavir\u00fcs"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "8b1d6c2d-ebeb-4b25-bc2c-c168f22e30bb",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "94a00d2f-885c-4fcd-b6ef-0f273c874765",
+            "categories": [
+              {
+                "uuid": "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed",
+                "name": "Herd",
+                "exit_uuid": "929f436a-69b3-473e-8df6-8954c9048bdd"
+              },
+              {
+                "uuid": "94a00d2f-885c-4fcd-b6ef-0f273c874765",
+                "name": "Other",
+                "exit_uuid": "1be58443-f67e-4f31-8f73-3996ac0e7e2c"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "herd"
+                ],
+                "type": "has_any_word",
+                "uuid": "d763726e-f346-4d17-b886-0249149288c8",
+                "category_uuid": "0dc4fb9b-7e01-46df-9d60-273e3ac6a0ed"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "929f436a-69b3-473e-8df6-8954c9048bdd",
+              "destination_uuid": "9729e967-876c-43a5-bc03-76eecb483f60"
+            },
+            {
+              "uuid": "1be58443-f67e-4f31-8f73-3996ac0e7e2c",
+              "destination_uuid": "73f9d418-f7e0-4fae-bd1d-50d2b6a03ef0"
+            }
+          ]
+        },
+        {
+          "uuid": "9729e967-876c-43a5-bc03-76eecb483f60",
+          "actions": [
+            {
+              "uuid": "29965598-c9f9-40d9-bc5d-5131f5669131",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "0d39a5d5-60e4-4fa7-86e0-ea2505fed02f",
+                "name": "Myths - herd immunity"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "d15c7069-ad28-4012-91d4-fb08e9e32464",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ef983985-cbfe-4754-ab07-c5a969f45673"
+              },
+              {
+                "uuid": "8c37a349-6170-45da-b2cf-58e5577465e1",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "f49498db-e401-42f1-b971-d5bba0cce591"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "ef983985-cbfe-4754-ab07-c5a969f45673",
+                "name": "Complete",
+                "exit_uuid": "9533db9e-d389-4c3a-a139-bbf72fc90abb"
+              },
+              {
+                "uuid": "f49498db-e401-42f1-b971-d5bba0cce591",
+                "name": "Expired",
+                "exit_uuid": "31dc3c3b-6bc2-4634-b5ea-efc04581e206"
+              }
+            ],
+            "default_category_uuid": "f49498db-e401-42f1-b971-d5bba0cce591"
+          },
+          "exits": [
+            {
+              "uuid": "9533db9e-d389-4c3a-a139-bbf72fc90abb",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "31dc3c3b-6bc2-4634-b5ea-efc04581e206",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "73f9d418-f7e0-4fae-bd1d-50d2b6a03ef0",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91",
+            "categories": [
+              {
+                "uuid": "be5affe0-1647-46d1-8af3-7865711fdee5",
+                "name": "COVID-19",
+                "exit_uuid": "b4bebde3-03a9-48a2-8617-08a9719bc0a1"
+              },
+              {
+                "uuid": "7dfe32a6-7f43-444f-bb4c-6742c2d2fb91",
+                "name": "Other",
+                "exit_uuid": "9715bcc2-218d-4b4c-8cbd-baa58bc0c26f"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "covid19 coronavirus"
+                ],
+                "type": "has_any_word",
+                "uuid": "12389b0e-0aed-48b4-b795-304cf16ffd43",
+                "category_uuid": "be5affe0-1647-46d1-8af3-7865711fdee5"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "b4bebde3-03a9-48a2-8617-08a9719bc0a1",
+              "destination_uuid": "d4d544ba-c908-4488-8608-56c40520cd8b"
+            },
+            {
+              "uuid": "9715bcc2-218d-4b4c-8cbd-baa58bc0c26f",
+              "destination_uuid": "6a669b33-84f6-4be2-9ae3-19a7c42d5dd3"
+            }
+          ]
+        },
+        {
+          "uuid": "d4d544ba-c908-4488-8608-56c40520cd8b",
+          "actions": [
+            {
+              "uuid": "a855f793-401a-41bf-9dec-4096632d5bc5",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "5bd1b693-85a3-4322-ad8f-20221e06dc1f",
+                "name": "COVID19 immunity"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "48a52d31-a164-4ec6-bff1-8eb1722a6407",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "a2693a54-a8ba-474d-92cf-bf47b89be355"
+              },
+              {
+                "uuid": "d90a4102-ec28-45d6-b41b-8f00f1374ec2",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "a04a65b0-1e09-417b-809f-f682b04d300a"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "a2693a54-a8ba-474d-92cf-bf47b89be355",
+                "name": "Complete",
+                "exit_uuid": "6952f7b8-293c-4c4c-afb7-93ab114ebf45"
+              },
+              {
+                "uuid": "a04a65b0-1e09-417b-809f-f682b04d300a",
+                "name": "Expired",
+                "exit_uuid": "74c95594-2992-4f07-9b92-7c7aa791e87a"
+              }
+            ],
+            "default_category_uuid": "a04a65b0-1e09-417b-809f-f682b04d300a"
+          },
+          "exits": [
+            {
+              "uuid": "6952f7b8-293c-4c4c-afb7-93ab114ebf45",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "74c95594-2992-4f07-9b92-7c7aa791e87a",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "6a669b33-84f6-4be2-9ae3-19a7c42d5dd3",
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "noentity",
+              "value": "on",
+              "category": "",
+              "uuid": "71f5737e-5deb-44cd-a6b0-70cc66933305"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "ecfc826f-a136-4a0e-bdbb-2b58da4b6804",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

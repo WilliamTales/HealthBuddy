@@ -1,0 +1,690 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "989f373d-5eaf-4dba-abf6-8418449b58a3": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 540,
+              "top": 20
+            },
+            "type": "split_by_expression"
+          },
+          "1685fb4f-7a47-451b-87fe-fcf6d9acf9f3": {
+            "config": {},
+            "position": {
+              "left": 320,
+              "top": 80
+            },
+            "type": "split_by_subflow"
+          },
+          "4950cd04-967a-4ea0-9c7d-fe200a58a352": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 540,
+              "top": 200
+            },
+            "type": "split_by_expression"
+          },
+          "e8d881ab-c1d8-47da-8d12-0c84a7c57d78": {
+            "config": {},
+            "position": {
+              "left": 320,
+              "top": 260
+            },
+            "type": "split_by_subflow"
+          },
+          "0395e936-8029-4092-a97f-9211a88d438e": {
+            "config": {
+              "cases": {}
+            },
+            "position": {
+              "left": 540,
+              "top": 360
+            },
+            "type": "split_by_expression"
+          },
+          "79afbaf8-5de8-448d-b280-eb38fe705c3e": {
+            "config": {},
+            "position": {
+              "left": 320,
+              "top": 420
+            },
+            "type": "split_by_subflow"
+          },
+          "19b79158-74d1-450a-bb9d-c9f61aeb1722": {
+            "position": {
+              "left": 540,
+              "top": 540
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "rus": {
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "\u0434\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          },
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 "
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "covid19"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ell": {
+          "2d39c00c-a0ff-4856-9282-40700d3086aa": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "\u039a\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc\u03c2"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              ""
+            ]
+          },
+          "99d0b7cb-69e9-42f4-ac91-ba11b0641bea": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "\u0391\u03c0\u03bf\u03bc\u03ac\u03ba\u03c1\u03c5\u03bd\u03c3\u03b7"
+            ]
+          },
+          "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "covid19"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "Coronavirus"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "Covid19"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "Distanciamiento"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2d39c00c-a0ff-4856-9282-40700d3086aa": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "99d0b7cb-69e9-42f4-ac91-ba11b0641bea": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2": {
+            "name": [
+              "Otro"
+            ]
+          }
+        },
+        "mkd": {
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "\u041a\u043e\u0432\u0438\u043419"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "\u0414\u0438\u0441\u0442\u0430\u043d\u0446\u0438\u0440\u0430\u045a\u0435"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2d39c00c-a0ff-4856-9282-40700d3086aa": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "99d0b7cb-69e9-42f4-ac91-ba11b0641bea": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          }
+        },
+        "kaz": {
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              ""
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "COVID19"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "\u0410\u043b\u0448\u0430\u049b\u0442\u0430\u0443"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              " Coronavirus"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              " "
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "Covid19"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "Distanziamento"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "tur": {
+          "8800c969-6f8a-44c7-a45f-87f0e9773ad9": {
+            "name": [
+              "Koronavir\u00fcs"
+            ]
+          },
+          "2d39c00c-a0ff-4856-9282-40700d3086aa": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "bc6130a4-b6da-40eb-ae87-91efb82bc0dc": {
+            "arguments": [
+              "Koronavir\u00fcs"
+            ]
+          },
+          "4eb3b91a-c988-44d4-9393-8f1658788047": {
+            "name": [
+              "KOV\u0130D-19"
+            ]
+          },
+          "99d0b7cb-69e9-42f4-ac91-ba11b0641bea": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "f509dfc4-c135-4630-aad4-f94d96c29e39": {
+            "arguments": [
+              "KOV\u0130D-19 KOV\u0130D19"
+            ]
+          },
+          "e7df6ec8-093f-4579-bbbe-1b7851c62d3d": {
+            "name": [
+              "Mesafe"
+            ]
+          },
+          "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "b20991d1-6110-4e9b-80ba-2e58ad934489": {
+            "arguments": [
+              "Mesafe"
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 56
+      },
+      "name": "Concepts",
+      "nodes": [
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "1685fb4f-7a47-451b-87fe-fcf6d9acf9f3",
+              "uuid": "ea1da3ee-fcca-4785-b1c4-2c1c9dbb4cf2"
+            },
+            {
+              "destination_uuid": "4950cd04-967a-4ea0-9c7d-fe200a58a352",
+              "uuid": "2b2797dd-3ddd-4697-b1a3-c610d15a9445"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "coronavirus"
+                ],
+                "category_uuid": "8800c969-6f8a-44c7-a45f-87f0e9773ad9",
+                "type": "has_any_word",
+                "uuid": "bc6130a4-b6da-40eb-ae87-91efb82bc0dc"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "ea1da3ee-fcca-4785-b1c4-2c1c9dbb4cf2",
+                "name": "Coronavirus",
+                "uuid": "8800c969-6f8a-44c7-a45f-87f0e9773ad9"
+              },
+              {
+                "exit_uuid": "2b2797dd-3ddd-4697-b1a3-c610d15a9445",
+                "name": "Other",
+                "uuid": "2d39c00c-a0ff-4856-9282-40700d3086aa"
+              }
+            ],
+            "default_category_uuid": "2d39c00c-a0ff-4856-9282-40700d3086aa",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "989f373d-5eaf-4dba-abf6-8418449b58a3"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "What is corona",
+                "uuid": "0ebaf2a8-0fd3-48bb-b345-398fb1ca0c50"
+              },
+              "type": "enter_flow",
+              "uuid": "27ac1b3f-d01b-4291-8e36-99b3382ad099"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "d34d7d12-d4de-4df1-9ce9-7e4da7a2f218"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "c1ca6f4a-c1d8-4301-9ff9-2a9d43366b48"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "c82cf5f5-d771-47b8-b7b5-d37bcaab252c",
+                "type": "has_only_text",
+                "uuid": "33573451-915c-4c3e-af05-133284a19610"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "f5d59493-c22f-42da-b0a9-4042c95074bc",
+                "type": "has_only_text",
+                "uuid": "a69347e5-2877-435a-b28d-65441bb863aa"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "d34d7d12-d4de-4df1-9ce9-7e4da7a2f218",
+                "name": "Complete",
+                "uuid": "c82cf5f5-d771-47b8-b7b5-d37bcaab252c"
+              },
+              {
+                "exit_uuid": "c1ca6f4a-c1d8-4301-9ff9-2a9d43366b48",
+                "name": "Expired",
+                "uuid": "f5d59493-c22f-42da-b0a9-4042c95074bc"
+              }
+            ],
+            "default_category_uuid": "f5d59493-c22f-42da-b0a9-4042c95074bc",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "1685fb4f-7a47-451b-87fe-fcf6d9acf9f3"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "e8d881ab-c1d8-47da-8d12-0c84a7c57d78",
+              "uuid": "0633818d-0ce3-40c6-8f7a-03fe1f43d437"
+            },
+            {
+              "destination_uuid": "0395e936-8029-4092-a97f-9211a88d438e",
+              "uuid": "5c69e8c7-ea71-4109-963b-736f8ceec645"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "covid19"
+                ],
+                "category_uuid": "4eb3b91a-c988-44d4-9393-8f1658788047",
+                "type": "has_any_word",
+                "uuid": "f509dfc4-c135-4630-aad4-f94d96c29e39"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "0633818d-0ce3-40c6-8f7a-03fe1f43d437",
+                "name": "COVID-19",
+                "uuid": "4eb3b91a-c988-44d4-9393-8f1658788047"
+              },
+              {
+                "exit_uuid": "5c69e8c7-ea71-4109-963b-736f8ceec645",
+                "name": "Other",
+                "uuid": "99d0b7cb-69e9-42f4-ac91-ba11b0641bea"
+              }
+            ],
+            "default_category_uuid": "99d0b7cb-69e9-42f4-ac91-ba11b0641bea",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "4950cd04-967a-4ea0-9c7d-fe200a58a352"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "What is COVID19",
+                "uuid": "5eb6fb27-8018-4f41-9f2c-7ff8648ca974"
+              },
+              "type": "enter_flow",
+              "uuid": "2091965f-006f-4e42-b8ae-01984310569f"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "43da9910-5433-4afc-9901-c3880f6d9293"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "c869e1a0-3bd0-45f6-a25d-3b00532f0c8a"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "3df20c71-aa40-422a-a4b2-9333156502c2",
+                "type": "has_only_text",
+                "uuid": "cfcd3188-3b3b-44ab-9245-5c3f6665203f"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "38d95f68-2ce8-4e58-a934-fc0a39286e6a",
+                "type": "has_only_text",
+                "uuid": "4c4ce8a0-4718-4d3e-abc1-c206ad29f32e"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "43da9910-5433-4afc-9901-c3880f6d9293",
+                "name": "Complete",
+                "uuid": "3df20c71-aa40-422a-a4b2-9333156502c2"
+              },
+              {
+                "exit_uuid": "c869e1a0-3bd0-45f6-a25d-3b00532f0c8a",
+                "name": "Expired",
+                "uuid": "38d95f68-2ce8-4e58-a934-fc0a39286e6a"
+              }
+            ],
+            "default_category_uuid": "38d95f68-2ce8-4e58-a934-fc0a39286e6a",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "e8d881ab-c1d8-47da-8d12-0c84a7c57d78"
+        },
+        {
+          "actions": [],
+          "exits": [
+            {
+              "destination_uuid": "79afbaf8-5de8-448d-b280-eb38fe705c3e",
+              "uuid": "39fc9a1c-3e2b-4efb-8d79-68690359bf6b"
+            },
+            {
+              "destination_uuid": "19b79158-74d1-450a-bb9d-c9f61aeb1722",
+              "uuid": "bb67e8e7-c646-44e0-ae69-0327ea868d67"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "distancing"
+                ],
+                "category_uuid": "e7df6ec8-093f-4579-bbbe-1b7851c62d3d",
+                "type": "has_any_word",
+                "uuid": "b20991d1-6110-4e9b-80ba-2e58ad934489"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "39fc9a1c-3e2b-4efb-8d79-68690359bf6b",
+                "name": "Distancing",
+                "uuid": "e7df6ec8-093f-4579-bbbe-1b7851c62d3d"
+              },
+              {
+                "exit_uuid": "bb67e8e7-c646-44e0-ae69-0327ea868d67",
+                "name": "Other",
+                "uuid": "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2"
+              }
+            ],
+            "default_category_uuid": "7c28b6e2-d2e4-4974-b1b8-6680ac9f25f2",
+            "operand": "@parent.results.entities",
+            "type": "switch"
+          },
+          "uuid": "0395e936-8029-4092-a97f-9211a88d438e"
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "physical distancing",
+                "uuid": "c9d09483-9643-404e-96e5-021ba7c577c8"
+              },
+              "type": "enter_flow",
+              "uuid": "7090753a-6a24-493b-a86f-f5d9c3c7217d"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "529f95b8-bd74-4554-b6ea-ff654d6a66fb"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "6e63d439-7d28-4b4d-982a-4d7dec684c05"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "ee1ada7e-57b1-4d77-98fd-e9b9906c2d51",
+                "type": "has_only_text",
+                "uuid": "c92b67eb-3a9d-4e21-befa-b634faa2a1a1"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "55b521fe-3dc0-4816-a8b9-61eebe1a922b",
+                "type": "has_only_text",
+                "uuid": "b5f36cda-7daa-44cb-a5d1-c8baac8a8a89"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "529f95b8-bd74-4554-b6ea-ff654d6a66fb",
+                "name": "Complete",
+                "uuid": "ee1ada7e-57b1-4d77-98fd-e9b9906c2d51"
+              },
+              {
+                "exit_uuid": "6e63d439-7d28-4b4d-982a-4d7dec684c05",
+                "name": "Expired",
+                "uuid": "55b521fe-3dc0-4816-a8b9-61eebe1a922b"
+              }
+            ],
+            "default_category_uuid": "55b521fe-3dc0-4816-a8b9-61eebe1a922b",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "79afbaf8-5de8-448d-b280-eb38fe705c3e"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "a9596255-efbe-45b7-9de8-a399c65090f7",
+              "value": "on"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "31f96271-c9a7-4f92-86b0-121210cbe03e"
+            }
+          ],
+          "uuid": "19b79158-74d1-450a-bb9d-c9f61aeb1722"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "6bcaa5e1-67d8-4bc1-889c-4ee44043bfbf",
+      "revision": 59
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

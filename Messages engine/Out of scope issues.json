@@ -1,0 +1,457 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "6ecf3c94-2788-4165-ac28-2db2cbea02dc": {
+            "position": {
+              "left": 540,
+              "top": 0
+            },
+            "type": "execute_actions"
+          },
+          "3669ae24-79c7-4bea-8f30-3ae0159c3435": {
+            "type": "split_by_contact_field",
+            "position": {
+              "left": 540,
+              "top": 260
+            },
+            "config": {
+              "operand": {
+                "id": "channel",
+                "type": "property",
+                "name": "Channel"
+              },
+              "cases": {}
+            }
+          },
+          "9b96a43d-77d9-4aa0-b573-e5b6a4e73200": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 320,
+              "top": 320
+            },
+            "config": {}
+          },
+          "997cbe83-bfc4-47cd-ae39-0f68859ac71e": {
+            "position": {
+              "left": 760,
+              "top": 320
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "metadata": {
+        "revision": 91
+      },
+      "name": "Out of scope issues",
+      "revision": 94,
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "940dd723-3b7e-4cd1-bd78-34069bcbdfeb",
+      "localization": {
+        "por": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "Desculpe, n\u00e3o sei a resposta para essa pergunta.\n\nIrei compartilhar isso com nossos especialistas e eles ir\u00e3o trazer mais informa\u00e7\u00f5es em breve."
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "Se voc\u00ea quiser, pode perguntar outras coisas! "
+            ],
+            "quick_replies": [
+              "N\u00e3o, at\u00e9 logo",
+              "Como o v\u00edrus se espalha?",
+              "Como me proteger?",
+              "Como proteger outros?",
+              "Como usar m\u00e1scaras?",
+              "Mitos sobre o v\u00edrus",
+              "O que \u00e9 Coronav\u00edrus?",
+              "Quais s\u00e3o os sintomas?",
+              "Fakenews e rumores"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "Desculpe, n\u00e3o sei a resposta para essa pergunta.\n\nIrei compartilhar isso com nossos especialistas e eles ir\u00e3o trazer mais informa\u00e7\u00f5es em breve."
+            ]
+          }
+        },
+        "rus": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u044f \u043d\u0435 \u0437\u043d\u0430\u044e \u043e\u0442\u0432\u0435\u0442\u0430 \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u0432\u043e\u043f\u0440\u043e\u0441:( \u041d\u043e \u044f \u0437\u0430\u043f\u043e\u043c\u043d\u0438\u043b \u0432\u0430\u0448 \u0432\u043e\u043f\u0440\u043e\u0441, \u0438 \u0432\u0441\u043a\u043e\u0440\u0435 \u044f \u043d\u0430\u0434\u0435\u044e\u0441\u044c, \u0447\u0442\u043e \u0432\u0441\u043a\u043e\u0440\u0435 \u0441\u043c\u043e\u0433\u0443 \u043d\u0430 \u043d\u0435\u0433\u043e \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u044c."
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "\u0415\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u0435\u0449\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0437\u0430\u0434\u0430\u0432\u0430\u0439\u0442\u0435!"
+            ],
+            "quick_replies": [
+              "\u041d\u0435\u0442 \u044f \u0437\u0430\u043a\u043e\u043d\u0447\u0438\u043b\u0430",
+              "\u041a\u0430\u043a \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u044f\u0435\u0442\u0441\u044f \u0432\u0438\u0440\u0443\u0441?",
+              "\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0441\u0435\u0431\u044f?",
+              "\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0437\u0430\u0449\u0438\u0442\u0438\u0442\u044c \u0434\u0440\u0443\u0433\u0438\u0445?",
+              "\u041a\u0430\u043a \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443?",
+              "\u041c\u0438\u0444\u044b \u043e \u0432\u0438\u0440\u0443\u0441\u0435",
+              "\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441?",
+              "\u041a\u0430\u043a\u043e\u0432\u044b \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b?",
+              "\u041f\u043e\u0434\u0434\u0435\u043b\u044c\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0441\u043b\u0443\u0445\u0438"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u041a \u0441\u043e\u0436\u0430\u043b\u0435\u043d\u0438\u044e, \u044f \u043d\u0435 \u0437\u043d\u0430\u044e \u043e\u0442\u0432\u0435\u0442\u0430 \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0439 \u0432\u043e\u043f\u0440\u043e\u0441:( \u041d\u043e \u044f \u0437\u0430\u043f\u043e\u043c\u043d\u0438\u043b \u0432\u0430\u0448 \u0432\u043e\u043f\u0440\u043e\u0441, \u0438 \u0432\u0441\u043a\u043e\u0440\u0435 \u044f \u043d\u0430\u0434\u0435\u044e\u0441\u044c, \u0447\u0442\u043e \u0432\u0441\u043a\u043e\u0440\u0435 \u0441\u043c\u043e\u0433\u0443 \u043d\u0430 \u043d\u0435\u0433\u043e \u043e\u0442\u0432\u0435\u0442\u0438\u0442\u044c."
+            ]
+          }
+        },
+        "spa": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "\u00a1Vaya! No conozco la respuesta a esta pregunta :( \n\nPero he memorizado tu pregunta y pronto sabr\u00e9 c\u00f3mo contestarla.\n"
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "Si quieres, puedes hacerme otras preguntas."
+            ],
+            "quick_replies": [
+              "No, nada m\u00e1s",
+              "\u00bfC\u00f3mo se transmite el virus?",
+              "\u00bfComo me puedo proteger?",
+              "\u00bfC\u00f3mo proteger a los dem\u00e1s?",
+              "\u00bfC\u00f3mo utilizar una mascarilla?",
+              "Mitos sobre el virus",
+              "\u00bfQu\u00e9 es el coronavirus?",
+              "\u00bfCu\u00e1les son los s\u00edntomas?",
+              "Noticias falsas y bulos"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u00a1Vaya! No conozco la respuesta a esta pregunta :( \n\nPero he memorizado tu pregunta y pronto sabr\u00e9 c\u00f3mo contestarla."
+            ]
+          }
+        },
+        "ell": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "\u03a9\u03c7! \u0394\u03b5\u03bd \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03c9 \u03c4\u03b7\u03bd \u03b1\u03c0\u03ac\u03bd\u03c4\u03b7\u03c3\u03b7 :( \n\n\u0391\u03bb\u03bb\u03ac \u03ba\u03c1\u03ac\u03c4\u03b7\u03c3\u03b1 \u03c4\u03b7\u03bd \u03b5\u03c1\u03ce\u03c4\u03b7\u03c3\u03b7 \u03ba\u03b1\u03b9 \u03c3\u03cd\u03bd\u03c4\u03bf\u03bc\u03b1 \u03b8\u03b1 \u03bc\u03ac\u03b8\u03c9 \u03c0\u03ce\u03c2 \u03bd\u03b1 \u03c4\u03b7\u03bd \u03b1\u03c0\u03b1\u03bd\u03c4\u03ae\u03c3\u03c9!"
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "\u0391\u03bd \u03b8\u03ad\u03bb\u03b5\u03b9\u03c2, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c2 \u03bd\u03b1 \u03c1\u03c9\u03c4\u03ae\u03c3\u03b5\u03b9\u03c2 \u03b3\u03b9\u03b1 \u03ba\u03ac\u03c4\u03b9 \u03ac\u03bb\u03bb\u03bf \u03ae \u03bd\u03b1 \u03b5\u03c0\u03b9\u03bb\u03ad\u03be\u03b5\u03b9\u03c2 "
+            ],
+            "quick_replies": [
+              "\u038c\u03c7\u03b9, \u03b5\u03c5\u03c7\u03b1\u03c1\u03b9\u03c3\u03c4\u03ce",
+              "How does the virus spread? \u03a0\u03ce\u03c2 \u03b5\u03be\u03b1\u03c0\u03bb\u03ce\u03bd\u03b5\u03c4\u03b1\u03b9 \u03bf COVID-19;",
+              "\u03a0\u03ce\u03c2 \u03bc\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03c5\u03c4\u03ce;",
+              "\u03a0\u03ce\u03c2 \u03bc\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c4\u03b5\u03cd\u03c3\u03c9 \u03c4\u03bf\u03c5\u03c2 \u03ac\u03bb\u03bb\u03bf\u03c5\u03c2;",
+              "\u03a0\u03ce\u03c2 \u03c6\u03bf\u03c1\u03ac\u03c9 \u03c4\u03b7 \u03bc\u03ac\u03c3\u03ba\u03b1;",
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03b1\u03bb\u03ae\u03b8\u03b5\u03b9\u03b5\u03c2",
+              "\u03a4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03bf\u03b9 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03bf\u03af;",
+              "\u03a0\u03bf\u03b9\u03b1 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1;",
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03c8\u03b5\u03c5\u03b4\u03b5\u03af\u03c2 \u03b5\u03b9\u03b4\u03ae\u03c3\u03b5\u03b9\u03c2"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u039b\u03c5\u03c0\u03ac\u03bc\u03b1\u03b9, \u03b4\u03b5\u03bd \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03c9 \u03c4\u03b7\u03bd \u03b1\u03c0\u03ac\u03bd\u03c4\u03b7\u03c3\u03b7.\n\n\u0398\u03b1 \u03c3\u03c5\u03bc\u03b2\u03bf\u03c5\u03bb\u03b5\u03c5\u03c4\u03ce \u03c4\u03bf\u03c5\u03c2 \u03b5\u03b9\u03b4\u03b9\u03ba\u03bf\u03cd\u03c2 \u03bc\u03b1\u03c2 \u03ce\u03c3\u03c4\u03b5 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03bf\u03c5\u03bd \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b5\u03c2 \u03c0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2 \u03b3\u03b9\u03b1 \u03b1\u03c1\u03b3\u03cc\u03c4\u03b5\u03c1\u03b1."
+            ]
+          },
+          "7e172d0b-540a-42fc-b481-fdd52fa7fbcb": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "74211caf-793f-41b5-9a06-6f3bc6d3995b": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          }
+        },
+        "kaz": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "\u04e8\u043a\u0456\u043d\u0456\u0448\u043a\u0435 \u043e\u0440\u0430\u0439, \u043c\u0435\u043d \u0431\u04b1\u043b \u0441\u04b1\u0440\u0430\u049b\u0442\u044b\u04a3 \u0436\u0430\u0443\u0430\u0431\u044b\u043d \u0431\u0456\u043b\u043c\u0435\u0439\u043c\u0456\u043d :( \u0411\u0456\u0440\u0430\u049b \u043c\u0435\u043d \u0441\u0456\u0437\u0434\u0456\u04a3 \u0441\u04b1\u0440\u0430\u0493\u044b\u04a3\u044b\u0437\u0434\u044b \u0435\u0441\u0456\u043c\u0434\u0435 \u0441\u0430\u049b\u0442\u0430\u043f \u0430\u043b\u0434\u044b\u043c, \u0436\u0430\u049b\u044b\u043d\u0434\u0430 \u043e\u0493\u0430\u043d \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u043c\u044b\u043d \u0434\u0435\u043f \u04af\u043c\u0456\u0442\u0442\u0435\u043d\u0435\u043c\u0456\u043d."
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "\u0422\u0430\u0493\u044b \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440\u044b\u04a3\u044b\u0437 \u0431\u043e\u043b\u0441\u0430, \u049b\u043e\u0439\u044b\u04a3\u044b\u0437!"
+            ],
+            "quick_replies": [
+              "\u0416\u043e\u049b, \u043c\u0435\u043d \u0431\u0456\u0442\u0456\u0440\u0434\u0456\u043c",
+              "\u0412\u0438\u0440\u0443\u0441 \u049b\u0430\u043b\u0430\u0439 \u0442\u0430\u0440\u0430\u043b\u0430\u0434\u044b?",
+              "\u041c\u0435\u043d \u04e9\u0437\u0456\u043c\u0434\u0456 \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?",
+              "\u041c\u0435\u043d \u0431\u0430\u0441\u049b\u0430 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u049b\u0430\u043b\u0430\u0439 \u049b\u043e\u0440\u0493\u0430\u0439 \u0430\u043b\u0430\u043c\u044b\u043d?",
+              "\u041c\u0430\u0441\u043a\u0430\u043d\u044b \u049b\u0430\u043b\u0430\u0439 \u043a\u0438\u044e \u043a\u0435\u0440\u0435\u043a?",
+              "\u0412\u0438\u0440\u0443\u0441 \u0442\u0443\u0440\u0430\u043b\u044b \u043c\u0438\u0444",
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441 \u0434\u0435\u0433\u0435\u043d \u043d\u0435?",
+              "\u041e\u043d\u044b\u04a3 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456 \u049b\u0430\u043d\u0434\u0430\u0439?",
+              "\u0416\u0430\u043b\u0493\u0430\u043d \u0436\u0430\u04a3\u0430\u043b\u044b\u049b\u0442\u0430\u0440 \u043c\u0435\u043d \u049b\u0430\u0443\u0435\u0441\u0435\u0442\u0442\u0435\u0440"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u04e8\u043a\u0456\u043d\u0456\u0448\u043a\u0435 \u043e\u0440\u0430\u0439, \u043c\u0435\u043d \u0431\u04b1\u043b \u0441\u04b1\u0440\u0430\u049b\u0442\u044b\u04a3 \u0436\u0430\u0443\u0430\u0431\u044b\u043d \u0431\u0456\u043b\u043c\u0435\u0439\u043c\u0456\u043d :( \u0411\u0456\u0440\u0430\u049b \u043c\u0435\u043d \u0441\u0456\u0437\u0434\u0456\u04a3 \u0441\u04b1\u0440\u0430\u0493\u044b\u04a3\u044b\u0437\u0434\u044b \u0435\u0441\u0456\u043c\u0434\u0435 \u0441\u0430\u049b\u0442\u0430\u043f \u0430\u043b\u0434\u044b\u043c, \u0436\u0430\u049b\u044b\u043d\u0434\u0430 \u043e\u0493\u0430\u043d \u0436\u0430\u0443\u0430\u043f \u0431\u0435\u0440\u0435 \u0430\u043b\u0430\u043c\u044b\u043d \u0434\u0435\u043f \u04af\u043c\u0456\u0442\u0442\u0435\u043d\u0435\u043c\u0456\u043d."
+            ]
+          }
+        },
+        "ita": {
+          "8e48b294-4ec1-4271-8e5f-278073145971": {
+            "text": [
+              "Oh! Non conosco la risposta a questa domanda :( Ma ho memorizzato la tua domanda e presto sapr\u00f2 come rispondere!"
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "Se vuoi, puoi fare altre domande."
+            ],
+            "quick_replies": [
+              "No, grazie, basta cos\u00ec",
+              "Come si diffonde il virus?",
+              "Come posso proteggermi?",
+              "Come posso proteggere gli altri?",
+              "Come indossare una mascherina",
+              "Miti sul virus",
+              "Che cos\u2019\u00e8 un coronavirus?",
+              "Quali sono i sintomi?",
+              "Voci/notizie false"
+            ]
+          },
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "Oh! Non conosco la risposta a questa domanda :( Ma ho memorizzato la tua domanda e presto sapr\u00f2 come rispondere!"
+            ]
+          }
+        },
+        "mkd": {
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u0416\u0430\u043b\u0430\u043c, \u043d\u0435 \u0433\u043e \u0437\u043d\u0430\u043c \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u043e\u0442 \u043d\u0430 \u0432\u0430\u0448\u0435\u0442\u043e \u043f\u0440\u0430\u0448\u0430\u045a\u0435.\n\n\u040c\u0435 \u0433\u043e \u0441\u043f\u043e\u0434\u0435\u043b\u0430\u043c \u043e\u0432\u0430 \u0441\u043e \u043d\u0430\u0448\u0438\u0442\u0435 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u0438 \u0438 \u0442\u0438\u0435 \u045c\u0435 \u0434\u043e\u0441\u0442\u0430\u0432\u0430\u0442 \u043f\u043e\u0432\u0435\u045c\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0432\u043e \u0438\u0434\u043d\u0438\u043d\u0430."
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "\u0410\u043a\u043e \u0441\u0430\u043a\u0430\u0442\u0435, \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u043e\u0441\u0442\u0430\u0432\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u043e \u043f\u0440\u0430\u0448\u0430\u045a\u0435 \u0438\u043b\u0438 \u0434\u0430 \u0438\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u043e\u0434 \u0431\u0440\u0437\u0438\u0442\u0435 \u043e\u0434\u0433\u043e\u0432\u043e\u0440\u0438 \u043f\u043e\u0434\u043e\u043b\u0443"
+            ],
+            "quick_replies": [
+              "\u041d\u0435, \u0437\u0430\u0432\u0440\u0448\u0438\u0432",
+              "\u041a\u0430\u043a\u043e \u0441\u0435 \u0448\u0438\u0440\u0438 \u0432\u0438\u0440\u0443\u0441\u043e\u0442?",
+              "\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0441\u0435 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c?",
+              "\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0433\u0438 \u0437\u0430\u0448\u0442\u0438\u0442\u0430\u043c \u0434\u0440\u0443\u0433\u0438\u0442\u0435?",
+              "\u041a\u0430\u043a\u043e \u0434\u0430 \u043d\u043e\u0441\u0430\u043c \u043c\u0430\u0441\u043a\u0430?",
+              "\u041c\u0438\u0442\u043e\u0432\u0438 \u0437\u0430 \u0432\u0438\u0440\u0443\u0441\u043e\u0442",
+              "\u0428\u0442\u043e \u0435 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441?",
+              "\u041a\u043e\u0438 \u0441\u0435 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435?",
+              "\u041b\u0430\u0436\u043d\u0438 \u0432\u0435\u0441\u0442\u0438 \u0438 \u0433\u043b\u0430\u0441\u0438\u043d\u0438"
+            ]
+          },
+          "7e172d0b-540a-42fc-b481-fdd52fa7fbcb": {
+            "name": [
+              "\u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c"
+            ]
+          },
+          "74211caf-793f-41b5-9a06-6f3bc6d3995b": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          }
+        },
+        "tur": {
+          "96d0f0cd-ec7e-4d45-9588-eb485771ee6d": {
+            "text": [
+              "\u00dczg\u00fcn\u00fcm, sorunuzun cevab\u0131n\u0131 bilmiyorum. \n\nBu konuyu uzmanlar\u0131m\u0131zla payla\u015faca\u011f\u0131m ve kendileri ilerki s\u00fcre\u00e7te bu konuda daha \u00e7ok bilgi sa\u011flayacaklard\u0131r. Sorunuza yan\u0131t alabilmek ad\u0131na l\u00fctfen beni daha sonra tekrar ziyaret ediniz."
+            ]
+          },
+          "7e172d0b-540a-42fc-b481-fdd52fa7fbcb": {
+            "name": [
+              "Telegram"
+            ]
+          },
+          "74211caf-793f-41b5-9a06-6f3bc6d3995b": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "feadde39-7ece-4cbd-af1a-5987f1a50304": {
+            "text": [
+              "Arzu ederseniz ba\u015fka bir soru sorabilir ya da a\u015fa\u011f\u0131da belirtilen h\u0131zl\u0131 cevap k\u0131sm\u0131ndan se\u00e7ebilirsiniz"
+            ],
+            "quick_replies": [
+              "Hay\u0131r, te\u015fekk\u00fcr ederim",
+              "Vir\u00fcs nas\u0131l yay\u0131l\u0131yor?",
+              "Kendimi nas\u0131l koruyabilirim?",
+              "Ba\u015fkalar\u0131n\u0131 nas\u0131l koruyabilirim?",
+              "Maske nas\u0131l tak\u0131l\u0131r?",
+              "Vir\u00fcsle ilgili s\u00f6ylentiler",
+              "Koronavir\u00fcs nedir?",
+              "Semptomlar nelerdir?",
+              "Yalan Haber ve S\u00f6ylentiler"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "6ecf3c94-2788-4165-ac28-2db2cbea02dc",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Sorry, I don\u2019t know the answer to your question.\n\nI\u2019ll share this with our experts and they will make more information available in the future.",
+              "type": "send_msg",
+              "all_urns": false,
+              "quick_replies": [],
+              "uuid": "96d0f0cd-ec7e-4d45-9588-eb485771ee6d"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "1a6ed1b0-101e-4dfa-86b3-9ac9309e07b6",
+              "destination_uuid": "3669ae24-79c7-4bea-8f30-3ae0159c3435"
+            }
+          ]
+        },
+        {
+          "uuid": "3669ae24-79c7-4bea-8f30-3ae0159c3435",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "74211caf-793f-41b5-9a06-6f3bc6d3995b",
+            "cases": [
+              {
+                "arguments": [
+                  "telegram"
+                ],
+                "type": "has_any_word",
+                "uuid": "3c547289-5749-4993-ac9b-ac66db0414f3",
+                "category_uuid": "7e172d0b-540a-42fc-b481-fdd52fa7fbcb"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "7e172d0b-540a-42fc-b481-fdd52fa7fbcb",
+                "name": "Telegram",
+                "exit_uuid": "2df48009-50ac-46be-92bf-ca76d1846d4f"
+              },
+              {
+                "uuid": "74211caf-793f-41b5-9a06-6f3bc6d3995b",
+                "name": "Other",
+                "exit_uuid": "6f7dd327-3258-43bc-9e33-934deefc8ae2"
+              }
+            ],
+            "operand": "@contact.channel"
+          },
+          "exits": [
+            {
+              "uuid": "2df48009-50ac-46be-92bf-ca76d1846d4f",
+              "destination_uuid": "9b96a43d-77d9-4aa0-b573-e5b6a4e73200"
+            },
+            {
+              "uuid": "6f7dd327-3258-43bc-9e33-934deefc8ae2",
+              "destination_uuid": "997cbe83-bfc4-47cd-ae39-0f68859ac71e"
+            }
+          ]
+        },
+        {
+          "uuid": "9b96a43d-77d9-4aa0-b573-e5b6a4e73200",
+          "actions": [
+            {
+              "uuid": "36ce6d2a-ad50-42ad-93a1-7f3692cfec0a",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "ee91ccf4-be7c-4804-893d-fdb8c5ae266c",
+                "name": "Topics by option"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "88a4c125-952f-4dde-80d1-37519e1d99a5",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "b724b749-5349-4e02-b5bd-2eefe863e90f"
+              },
+              {
+                "uuid": "027f2407-a45c-447e-ae61-1f118aa49be6",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "5a82c294-a1b6-4229-b255-d4ccbc5ee0ee"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "b724b749-5349-4e02-b5bd-2eefe863e90f",
+                "name": "Complete",
+                "exit_uuid": "a7602227-f779-493d-87c3-18d820fd95a2"
+              },
+              {
+                "uuid": "5a82c294-a1b6-4229-b255-d4ccbc5ee0ee",
+                "name": "Expired",
+                "exit_uuid": "6eaa12e1-0c4c-453d-bf6f-2074b6d1c14b"
+              }
+            ],
+            "default_category_uuid": "5a82c294-a1b6-4229-b255-d4ccbc5ee0ee"
+          },
+          "exits": [
+            {
+              "uuid": "a7602227-f779-493d-87c3-18d820fd95a2",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "6eaa12e1-0c4c-453d-bf6f-2074b6d1c14b",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "997cbe83-bfc4-47cd-ae39-0f68859ac71e",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "If you want you can ask other question or select from quick replies below",
+              "type": "send_msg",
+              "quick_replies": [
+                "No, i'm done",
+                "How does the virus spread?",
+                "How can i protect myself?",
+                "How can i protect others?",
+                "How to wear a mask?",
+                "Myths about the virus",
+                "What is Coronavirus?",
+                "What are the symptoms?",
+                "Fake News and Rumors"
+              ],
+              "uuid": "feadde39-7ece-4cbd-af1a-5987f1a50304"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "e788f6bd-2b7e-4dbf-a525-d5ff246291d4",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,205 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "c597048c-7076-496a-8990-5cfd35edadcd": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "Cada vez hay m\u00e1s evidencia que demuestra un v\u00ednculo entre el COVID-19 y otros coronavirus conocidos similares que circulan en murci\u00e9lagos."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "Pero la ruta de transmisi\u00f3n a los humanos al comienzo sigue sin estar clara."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "Tanto los grupos de expertos chinos como los internacionales est\u00e1n tratando de identificar la fuente animal de este nuevo virus."
+            ]
+          }
+        },
+        "ell": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "\u038c\u03bb\u03bf \u03ba\u03b1\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1 \u03b1\u03c0\u03bf\u03b4\u03b5\u03b9\u03ba\u03bd\u03cd\u03bf\u03c5\u03bd \u03cc\u03c4\u03b9 \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03c3\u03c7\u03ad\u03c3\u03b7 \u03bc\u03b5\u03c4\u03b1\u03be\u03cd \u03c4\u03bf\u03c5 \u03bd\u03ad\u03bf\u03c5 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03bf\u03cd \u03ba\u03b1\u03b9 \u03ac\u03bb\u03bb\u03c9\u03bd \u03c0\u03b1\u03c1\u03cc\u03bc\u03bf\u03b9\u03c9\u03bd \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03ce\u03bd \u03c0\u03bf\u03c5 \u03ba\u03c5\u03ba\u03bb\u03bf\u03c6\u03bf\u03c1\u03bf\u03cd\u03bd \u03c3\u03c4\u03b9\u03c2 \u03bd\u03c5\u03c7\u03c4\u03b5\u03c1\u03af\u03b4\u03b5\u03c2."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "\u03a9\u03c3\u03c4\u03cc\u03c3\u03bf, \u03b7 \u03c0\u03bf\u03c1\u03b5\u03af\u03b1 \u03bc\u03b5\u03c4\u03ac\u03b4\u03bf\u03c3\u03b7\u03c2 \u03c3\u03c4\u03bf\u03bd \u03ac\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf, \u03ba\u03b1\u03c4\u03ac \u03c4\u03b7\u03bd \u03ad\u03bd\u03b1\u03c1\u03be\u03b7 \u03c4\u03b7\u03c2 \u03c0\u03b1\u03bd\u03b4\u03b7\u03bc\u03af\u03b1\u03c2, \u03c0\u03b1\u03c1\u03b1\u03bc\u03ad\u03bd\u03b5\u03b9 \u03b1\u03c3\u03b1\u03c6\u03ae\u03c2. "
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "\u039f\u03bc\u03ac\u03b4\u03b5\u03c2 \u03b5\u03bc\u03c0\u03b5\u03b9\u03c1\u03bf\u03b3\u03bd\u03c9\u03bc\u03cc\u03bd\u03c9\u03bd \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u039a\u03af\u03bd\u03b1 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03cc \u03ac\u03bb\u03bb\u03b5\u03c2 \u03c7\u03ce\u03c1\u03b5\u03c2, \u03c0\u03c1\u03bf\u03c3\u03c0\u03b1\u03b8\u03bf\u03cd\u03bd \u03bd\u03b1 \u03b5\u03bd\u03c4\u03bf\u03c0\u03af\u03c3\u03bf\u03c5\u03bd \u03c4\u03b7 \u03b6\u03c9\u03b9\u03ba\u03ae \u03c0\u03c1\u03bf\u03ad\u03bb\u03b5\u03c5\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03bd\u03ad\u03bf\u03c5 \u03b9\u03bf\u03cd."
+            ]
+          }
+        },
+        "rus": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "\u041c\u044b \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u043c \u0432\u0441\u0435 \u0431\u043e\u043b\u044c\u0448\u0435 \u0434\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u044c\u0441\u0442\u0432, \u0447\u0442\u043e \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0441\u0432\u044f\u0437\u044c \u043c\u0435\u0436\u0434\u0443 COVID-19 \u0438 \u0443\u0436\u0435 \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u043c\u0438 \u0434\u0440\u0443\u0433\u0438\u043c\u0438 \u043f\u043e\u0445\u043e\u0436\u0438\u043c\u0438 \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0430\u043c\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0446\u0438\u0440\u043a\u0443\u043b\u0438\u0440\u0443\u044e\u0442 \u0441\u0440\u0435\u0434\u0438 \u043b\u0435\u0442\u0443\u0447\u0438\u0445 \u043c\u044b\u0448\u0435\u0439."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "\u041d\u043e \u0434\u043e \u0441\u0438\u0445 \u043f\u043e\u0440 \u0434\u043e\u0441\u0442\u043e\u0432\u0435\u0440\u043d\u043e \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e, \u043a\u0430\u043a \u0438\u043c\u0435\u043d\u043d\u043e \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u0430 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0430 \u0432\u0438\u0440\u0443\u0441\u0430 \u043a \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0443."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "\u0418 \u043a\u0438\u0442\u0430\u0439\u0441\u043a\u0438\u0435 \u0443\u0447\u0435\u043d\u044b\u0435, \u0438 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u043d\u044b\u0435 \u0433\u0440\u0443\u043f\u043f\u044b \u0438\u0437 \u0434\u0440\u0443\u0433\u0438\u0445 \u0441\u0442\u0440\u0430\u043d \u043f\u044b\u0442\u0430\u044e\u0442\u0441\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0438\u0442\u044c, \u0443 \u043a\u0430\u043a\u0438\u0445 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445 \u0432\u043e\u0437\u043d\u0438\u043a \u044d\u0442\u043e\u0442 \u043d\u043e\u0432\u044b\u0439 \u0432\u0438\u0440\u0443\u0441."
+            ]
+          }
+        },
+        "ita": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "Diversi studi scientifici dimostrano che vi \u00e8 un nesso tra il virus che causa COVID-19 ed altri virus simili che circolano tra i pipistrelli. "
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "Tuttavia, non \u00e8 ancora chiaro come il virus si sia trasmesso all\u2019uomo all\u2019inizio di questa pandemia.  "
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "Esperti scientifici cinesi e di altri paesi stanno cercando di identificare la fonte animale di questo nuovo virus. "
+            ]
+          }
+        },
+        "kaz": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "\u0416\u0430\u04a3\u0430\u0434\u0430\u043d \u0442\u0430\u0431\u044b\u043b\u044b\u043f \u0436\u0430\u0442\u049b\u0430\u043d \u0434\u04d9\u043b\u0435\u043b\u0434\u0435\u0440 COVID-19 \u0431\u0435\u043d \u0436\u0430\u0440\u0493\u0430\u043d\u0430\u0442\u0442\u0430\u0440\u0434\u0430 \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u043a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u0430\u0440\u0434\u044b\u04a3 \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u044b\u043d\u044b\u04a3 \u0431\u0430\u0440 \u0435\u043a\u0435\u043d\u0456\u043d \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0434\u0456."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "\u0410\u043b\u0430\u0439\u0434\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u044f\u043d\u044b\u04a3 \u0431\u0430\u0441\u0442\u0430\u043b\u0443\u044b \u043a\u0435\u0437\u0456\u043d\u0434\u0435\u0433\u0456 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u0431\u0435\u0440\u0456\u043b\u0443 \u0436\u043e\u043b\u044b \u04d9\u043b\u0456 \u0442\u04af\u0441\u0456\u043d\u0456\u043a\u0441\u0456\u0437."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "\u049a\u044b\u0442\u0430\u0439\u043b\u044b\u049b \u0436\u04d9\u043d\u0435 \u0448\u0435\u0442 \u0435\u043b \u0441\u0430\u0440\u0430\u043f\u0448\u044b\u043b\u0430\u0440 \u0442\u043e\u043f\u0442\u0430\u0440\u044b \u0434\u0430 \u043e\u0441\u044b \u0436\u0430\u04a3\u0430 \u0432\u0438\u0440\u0443\u0441\u0442\u044b\u04a3 \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u0434\u0430\u043d \u0442\u0430\u0440\u0430\u043b\u0493\u0430\u043d\u044b \u0442\u0443\u0440\u0430\u043b\u044b \u0434\u04d9\u043b\u0435\u043b\u0434\u0435\u0440\u0434\u04d9 \u0442\u0430\u0431\u0443\u0493\u0430 \u0442\u044b\u0440\u044b\u0441\u0443\u0434\u0430."
+            ]
+          }
+        },
+        "por": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "Evid\u00eancias crescentes est\u00e3o mostrando uma liga\u00e7\u00e3o entre o COVID-19 e outros coronav\u00edrus conhecidos semelhantes que circulam em morcegos."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "Mas a rota de transmiss\u00e3o aos seres humanos no in\u00edcio deste evento permanece incerta."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "Grupos de especialistas chineses e externos est\u00e3o tentando identificar a fonte animal desse novo v\u00edrus."
+            ]
+          }
+        },
+        "mkd": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "\u0421\u0450 \u043f\u043e\u0432\u0435\u045c\u0435 \u0434\u043e\u043a\u0430\u0437\u0438 \u043f\u043e\u043a\u0430\u0436\u0443\u0432\u0430\u0430\u0442 \u0432\u0440\u0441\u043a\u0430 \u043c\u0435\u0453\u0443 \u041a\u041e\u0412\u0418\u0414-19 \u0438 \u0434\u0440\u0443\u0433\u0438 \u0441\u043b\u0438\u0447\u043d\u0438 \u043f\u043e\u0437\u043d\u0430\u0442\u0438 \u043a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u0438 \u0448\u0442\u043e \u043a\u0440\u0443\u0436\u0430\u0442 \u043a\u0430\u0458 \u043b\u0438\u043b\u0458\u0430\u0446\u0438\u0442\u0435."
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "\u041d\u043e \u043e\u0441\u0442\u0430\u043d\u0443\u0432\u0430 \u043d\u0435\u0458\u0430\u0441\u043d\u043e \u043d\u0430 \u043a\u043e\u0458 \u043d\u0430\u0447\u0438\u043d \u0441\u0435 \u043f\u0440\u0435\u043d\u0435\u0441\u0435 \u0432\u0438\u0440\u0443\u0441\u043e\u0442 \u043a\u0430\u0458 \u043b\u0443\u0453\u0435\u0442\u043e \u043d\u0430 \u043f\u043e\u0447\u0435\u0442\u043e\u043a\u043e\u0442 \u043e\u0434 \u043e\u0432\u0430\u0430 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0458\u0430 ."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "\u0418 \u043a\u0438\u043d\u0435\u0441\u043a\u0438\u0442\u0435, \u0438 \u043d\u0430\u0434\u0432\u043e\u0440\u0435\u0448\u043d\u0438\u0442\u0435 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u0441\u043a\u0438 \u0433\u0440\u0443\u043f\u0438 \u0441\u0435 \u043e\u0431\u0438\u0434\u0443\u0432\u0430\u0430\u0442 \u0434\u0430 \u0433\u043e \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0443\u0432\u0430\u0430\u0442 \u0436\u0438\u0432\u043e\u0442\u0438\u043d\u0441\u043a\u0438\u043e\u0442 \u0438\u0437\u0432\u043e\u0440 \u043d\u0430 \u043e\u0432\u043e\u0458 \u043d\u043e\u0432 \u0432\u0438\u0440\u0443\u0441."
+            ]
+          }
+        },
+        "tur": {
+          "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa": {
+            "text": [
+              "Artan bulgular KOV\u0130D-19 ve yarasalar aras\u0131nda deveran eden bilinen di\u011fer benzer koronavir\u00fcsler aras\u0131nda bir ba\u011flant\u0131 g\u00f6stermektedir.   "
+            ]
+          },
+          "7d08273e-e03a-482c-bf13-5c58462f15bf": {
+            "text": [
+              "Ancak, pandeminin ba\u011flang\u0131c\u0131nda insanlara enfeksiyonun nas\u0131l ger\u00e7ekle\u015fti\u011fi halen belirsizdir."
+            ]
+          },
+          "e12555c1-8d0f-466a-8df6-8342ef0b2db2": {
+            "text": [
+              "Gerek \u00c7in\u2019deki ve gerek harici uzman gruplar\u0131 bu yeni vir\u00fcs\u00fcn hayvansal kayna\u011f\u0131n\u0131 belirlemeye \u00e7al\u0131\u015fmaktad\u0131rlar."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 42
+      },
+      "name": "Origin",
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "be001f21-6bf1-45eb-9285-50b9188b8aa4",
+      "revision": 43,
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Increasing evidence is showing a link between the COVID-19 and other similar known coronaviruses circulating in bats.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "ec9b04f5-954a-4bc2-8b56-dd927ff7ffaa"
+            },
+            {
+              "attachments": [],
+              "text": "But the route of transmission to humans at the start of this pandemic remains unclear.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "7d08273e-e03a-482c-bf13-5c58462f15bf"
+            },
+            {
+              "attachments": [],
+              "text": "Both Chinese and external expert groups are trying to identify the animal source of this new virus.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e12555c1-8d0f-466a-8df6-8342ef0b2db2"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "bf2a3c48-bafd-44aa-b495-083cb2b7e44f"
+            }
+          ],
+          "uuid": "c597048c-7076-496a-8990-5cfd35edadcd"
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

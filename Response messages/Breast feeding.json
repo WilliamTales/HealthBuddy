@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "cf178c0a-7852-4edc-89be-cf8e33b5f7d5": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "S\u00ed. Las mujeres con COVID-19 pueden amamantar si lo desean. Deben seguir estos pasos:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "Practicar la higiene respiratoria durante la alimentaci\u00f3n, usando una m\u00e1scara donde sea posible."
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "Lavarse las manos antes y despu\u00e9s de tocar al beb\u00e9."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "Limpiar y desinfectar las superficies que han tocado rutinariamente."
+            ]
+          }
+        },
+        "ell": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "\u0393\u03c5\u03bd\u03b1\u03af\u03ba\u03b5\u03c2 \u03bc\u03b5 COVID-19 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03b8\u03b7\u03bb\u03ac\u03c3\u03bf\u03c5\u03bd \u03b1\u03bd \u03c4\u03bf \u03b5\u03c0\u03b9\u03b8\u03c5\u03bc\u03bf\u03cd\u03bd. \u0398\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03bf\u03cd\u03bd \u03c4\u03b1 \u03b5\u03be\u03ae\u03c2:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "\u03a4\u03ae\u03c1\u03b7\u03c3\u03b7 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03ae\u03c2 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae\u03c2 \u03ba\u03b1\u03c4\u03ac \u03c4\u03bf \u03b8\u03b7\u03bb\u03b1\u03c3\u03bc\u03cc, \u03c6\u03bf\u03c1\u03ce\u03bd\u03c4\u03b1\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1 \u03b1\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9."
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "\u03a0\u03bb\u03cd\u03c3\u03b9\u03bc\u03bf \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03c0\u03c1\u03b9\u03bd \u03ba\u03b1\u03b9 \u03bc\u03b5\u03c4\u03ac \u03c4\u03b7\u03bd \u03b5\u03c0\u03b1\u03c6\u03ae \u03bc\u03b5 \u03c4\u03bf \u03b2\u03c1\u03ad\u03c6\u03bf\u03c2."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "\u03a3\u03c5\u03c7\u03bd\u03cc\u03c2 \u03ba\u03b1\u03b8\u03b1\u03c1\u03b9\u03c3\u03bc\u03cc\u03c2 \u03ba\u03b1\u03b9 \u03b1\u03c0\u03bf\u03bb\u03cd\u03bc\u03b1\u03bd\u03c3\u03b7 \u03c4\u03c9\u03bd \u03b5\u03c0\u03b9\u03c6\u03b1\u03bd\u03b5\u03b9\u03ce\u03bd \u03c0\u03bf\u03c5 \u03b1\u03b3\u03b3\u03af\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9."
+            ]
+          }
+        },
+        "rus": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "\u0414\u0430. \u0416\u0435\u043d\u0449\u0438\u043d\u0430 \u0441 COVID-19 \u043c\u043e\u0436\u0435\u0442, \u043f\u043e \u0436\u0435\u043b\u0430\u043d\u0438\u044e, \u043a\u043e\u0440\u043c\u0438\u0442\u044c \u0440\u0435\u0431\u0435\u043d\u043a\u0430 \u0433\u0440\u0443\u0434\u044c\u044e. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430: "
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "\u00b7       \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043a\u043e\u0440\u043c\u043b\u0435\u043d\u0438\u044f \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u0433\u0438\u0433\u0438\u0435\u043d\u0443 \u0434\u044b\u0445\u0430\u043d\u0438\u044f \u0438 \u043d\u0430\u0434\u0435\u0432\u0430\u0442\u044c \u043c\u0430\u0441\u043a\u0443, \u0435\u0441\u043b\u0438 \u044d\u0442\u043e \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e;"
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "\u00b7       \u043c\u044b\u0442\u044c \u0440\u0443\u043a\u0438 \u0434\u043e \u0438 \u043f\u043e\u0441\u043b\u0435 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u0430 \u0441 \u0440\u0435\u0431\u0435\u043d\u043a\u043e\u043c;"
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "\u00b7       \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e \u043e\u0447\u0438\u0449\u0430\u0442\u044c \u0438 \u0434\u0435\u0437\u0438\u043d\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438, \u043a \u043a\u043e\u0442\u043e\u0440\u044b\u043c \u043f\u0440\u0438\u043a\u0430\u0441\u0430\u0435\u0442\u0441\u044f \u0436\u0435\u043d\u0449\u0438\u043d\u0430."
+            ]
+          }
+        },
+        "ita": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "S\u00ec. Le donne con COVID-19 possono allattare al seno se lo desiderano. Dovrebbero seguire questi passaggi"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "Pratica l'igiene respiratoria durante l'alimentazione, indossando una mascherina ove disponibile"
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "Lavarsi le mani prima e dopo aver toccato il bambino."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "Pulire e disinfettare regolarmente le superfici che con le quali si \u00e8 venuti in contatto."
+            ]
+          }
+        },
+        "kaz": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "\u0418\u04d9. COVID-19-\u0431\u0435\u043d \u0430\u0443\u044b\u0440\u0430\u0442\u044b\u043d \u04d9\u0439\u0435\u043b\u0434\u0435\u0440, \u0435\u0433\u0435\u0440 \u04e9\u0437\u0434\u0435\u0440\u0456 \u049b\u0430\u043b\u0430\u0441\u0430, \u0435\u043c\u0456\u0437\u0443\u0434\u0456 \u0436\u0430\u043b\u0493\u0430\u0441\u0442\u044b\u0440\u0430 \u0430\u043b\u0430\u0434\u044b. \u041e\u043b\u0430\u0440 \u043a\u0435\u043b\u0435\u0441\u0456 \u049b\u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u044b \u043e\u0440\u044b\u043d\u0434\u0430\u0443 \u043a\u0435\u0440\u0435\u043a:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "\u0415\u043c\u0456\u0437\u0443 \u043a\u0435\u0437\u0456\u043d\u0434\u0435 \u043c\u0430\u0441\u043a\u0430 \u043a\u0438\u0456\u04a3\u0456\u0437. \u0416\u04d9\u043d\u0435 \u0434\u0435 \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u0436\u043e\u043b\u0434\u0430\u0440\u044b\u043d\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b\u043d \u0441\u0430\u049b\u0442\u0430\u04a3\u044b\u0437"
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "\u049a\u043e\u043b\u044b\u04a3\u044b\u0437\u0434\u044b \u043d\u04d9\u0440\u0435\u0441\u0442\u0435\u043d\u0456 \u04b1\u0441\u0442\u0430\u0443\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0436\u04d9\u043d\u0435 \u043e\u0434\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0436\u0443\u044b\u04a3\u044b\u0437."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "\u041e\u043b\u0430\u0440 \u04b1\u0441\u0442\u0430\u0439 \u0430\u043b\u0430\u0442\u044b\u043d \u0437\u0430\u0442\u0442\u0430\u0440\u0434\u044b\u04a3 \u0431\u0435\u0442\u0456\u043d \u04af\u043d\u0435\u043c\u0456 \u0442\u0430\u0437\u0430\u043b\u0430\u043f, \u0437\u0430\u043b\u0430\u043b\u0441\u044b\u0437\u0434\u0430\u043d\u0434\u044b\u0440\u044b\u043f \u0442\u04b1\u0440\u044b\u04a3\u044b\u0437."
+            ]
+          }
+        },
+        "por": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "Sim. Mulheres com COVID-19 podem amamentar se desejarem. Para isto devem seguir estes passos:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "Pratique higiene respirat\u00f3ria durante a amamenta\u00e7\u00e3o, usando uma m\u00e1scara quando dispon\u00edvel."
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "Lave suas m\u00e3os antes e depois de tocar no beb\u00ea."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "Limpe e desinfecte superf\u00edcies que eles tenham tocado de forma rotineira. "
+            ]
+          }
+        },
+        "mkd": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "\u0414\u0430. \u0416\u0435\u043d\u0438\u0442\u0435 \u0441\u043e \u041a\u041e\u0412\u0418\u0414-19 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0434\u043e\u0458\u0430\u0442, \u0434\u043e\u043a\u043e\u043b\u043a\u0443 \u0441\u0430\u043a\u0430\u0430\u0442. \u0422\u0438\u0435 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0433\u0438 \u0441\u043b\u0435\u0434\u0430\u0442 \u043e\u0432\u0438\u0435 \u0447\u0435\u043a\u043e\u0440\u0438:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "\u041f\u0440\u0430\u043a\u0442\u0438\u0446\u0438\u0440\u0430\u0458\u0442\u0435 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u0437\u0430 \u0432\u0440\u0435\u043c\u0435 \u043d\u0430 \u0445\u0440\u0430\u043d\u0435\u045a\u0435\u0442\u043e, \u043d\u043e\u0441\u0435\u0442\u0435 \u043c\u0430\u0441\u043a\u0430 \u043a\u043e\u0433\u0430 \u0435 \u0434\u043e\u0441\u0442\u0430\u043f\u043d\u0430."
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "\u0418\u0437\u043c\u0438\u0458\u0442\u0435 \u0433\u0438 \u0440\u0430\u0446\u0435\u0442\u0435 \u043f\u0440\u0435\u0434 \u0438 \u043e\u0442\u043a\u0430\u043a\u043e \u045c\u0435 \u0433\u043e \u0434\u043e\u043f\u0440\u0435\u0442\u0435 \u0431\u0435\u0431\u0435\u0442\u043e."
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "\u0420\u0443\u0442\u0438\u043d\u0441\u043a\u0438 \u0447\u0438\u0441\u0442\u0435\u0442\u0435 \u0433\u0438 \u0438 \u0434\u0435\u0437\u0438\u043d\u0444\u0438\u0446\u0438\u0440\u0430\u0458\u0442\u0435 \u0433\u0438 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0438\u0442\u0435 \u043d\u0430 \u043a\u043e\u0438 \u0431\u0438\u043b\u043e \u0431\u0435\u0431\u0435\u0442\u043e."
+            ]
+          }
+        },
+        "tur": {
+          "4429eabd-bcde-436b-9760-ddce2ebfffec": {
+            "text": [
+              "Evet. KOVID-19 olan kad\u0131nlar, emzirmek istedikleri takdirde emzirebilirler. A\u015fa\u011f\u0131daki ad\u0131mlar\u0131 takip etmeleri gerekmektedir:"
+            ]
+          },
+          "f83ad73f-8e53-4496-84ab-f7c48d74a83c": {
+            "text": [
+              "Emzirme s\u0131ras\u0131nda solunum yolu hijyenine dikkat edilmeli, mevcutsa maske tak\u0131lmal\u0131d\u0131r. "
+            ]
+          },
+          "c7465a3b-249d-4b27-9496-442c5df5412b": {
+            "text": [
+              "Bebe\u011fe dokunmadan \u00f6nce ve dokunduktan sonra eller y\u0131kanmal\u0131d\u0131r. "
+            ]
+          },
+          "233428f9-c65e-44ed-9c05-838fa7b2dc20": {
+            "text": [
+              "Dokunulan y\u00fczeyler s\u0131k s\u0131k temizlenmeli ve dezenfekte edilmelidir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 38
+      },
+      "name": "Breast feeding",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Yes. Women with COVID-19 can breastfeed if they wish to do so. They should follow these steps:",
+              "type": "send_msg",
+              "uuid": "4429eabd-bcde-436b-9760-ddce2ebfffec"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Practice respiratory hygiene during feeding, wearing a mask where available.",
+              "type": "send_msg",
+              "uuid": "f83ad73f-8e53-4496-84ab-f7c48d74a83c"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Wash hands before and after touching the baby.",
+              "type": "send_msg",
+              "uuid": "c7465a3b-249d-4b27-9496-442c5df5412b"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Routinely clean and disinfect surfaces they have touched.",
+              "type": "send_msg",
+              "uuid": "233428f9-c65e-44ed-9c05-838fa7b2dc20"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "c1d728a0-894a-44fc-ab3f-0cbd971bbad8"
+            }
+          ],
+          "uuid": "cf178c0a-7852-4edc-89be-cf8e33b5f7d5"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "2bfdbc12-3662-4116-ae70-996c281f8a0b",
+      "revision": 42
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

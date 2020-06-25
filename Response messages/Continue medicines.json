@@ -1,0 +1,111 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "9c893d40-ab9c-4f75-b60b-cf65d447b295": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "No debe alterar el uso de medicamentos recetados sin consultar con su m\u00e9dico."
+            ]
+          }
+        },
+        "ell": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "\u0394\u03b5\u03bd \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03b1\u03bb\u03bb\u03ac\u03be\u03b5\u03b9\u03c2 \u03c4\u03bf\u03bd \u03c4\u03c1\u03cc\u03c0\u03bf \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2 \u03c3\u03c5\u03bd\u03c4\u03b1\u03b3\u03bf\u03b3\u03c1\u03b1\u03c6\u03b7\u03bc\u03ad\u03bd\u03c9\u03bd \u03c6\u03b1\u03c1\u03bc\u03ac\u03ba\u03c9\u03bd \u03c7\u03c9\u03c1\u03af\u03c2 \u03bd\u03b1 \u03c3\u03c5\u03bc\u03b2\u03bf\u03c5\u03bb\u03b5\u03c5\u03c4\u03b5\u03af\u03c2 \u03c4\u03bf\u03bd \u03b3\u03b9\u03b1\u03c4\u03c1\u03cc \u03c3\u03bf\u03c5."
+            ]
+          }
+        },
+        "rus": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "\u0412\u044b \u043d\u0435 \u0434\u043e\u043b\u0436\u043d\u044b \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0430\u0442\u044c \u043f\u0440\u0438\u0435\u043c \u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u043d\u044b\u0445 \u0432\u0430\u043c \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432, \u043d\u0435 \u043f\u043e\u0441\u043e\u0432\u0435\u0442\u043e\u0432\u0430\u0432\u0448\u0438\u0441\u044c \u0441  \u0432\u0430\u0448\u0438\u043c \u043b\u0435\u0447\u0430\u0449\u0438\u043c \u0432\u0440\u0430\u0447\u043e\u043c."
+            ]
+          }
+        },
+        "ita": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "Non \u00e8 consigliato alterare l'uso dei farmaci prescritti senza previa consultazione del proprio medico."
+            ]
+          }
+        },
+        "kaz": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "\u0414\u04d9\u0440\u0456\u0433\u0435\u0440\u043c\u0435\u043d \u043a\u0435\u04a3\u0435\u0441\u0443\u0441\u0456\u0437 \u043e\u043b \u0442\u0430\u0493\u0430\u0439\u044b\u043d\u0434\u0430\u0493\u0430\u043d \u0434\u04d9\u0440\u0456\u043d\u0456 \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0434\u044b \u04e9\u0437\u0433\u0435\u0440\u0442\u043f\u0435\u0443 \u043a\u0435\u0440\u0435\u043a"
+            ]
+          }
+        },
+        "por": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "Voc\u00ea n\u00e3o deve alterar o uso de medicamentos prescritos sem consultar seu m\u00e9dico."
+            ]
+          }
+        },
+        "mkd": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "\u041d\u0435 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0433\u043e \u043c\u0435\u043d\u0443\u0432\u0430\u0442\u0435 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u045a\u0435\u0442\u043e \u043d\u0430 \u043f\u0440\u0435\u043f\u0438\u0448\u0430\u043d\u0438 \u043b\u0435\u043a\u043e\u0432\u0438 \u0431\u0435\u0437 \u043a\u043e\u043d\u0441\u0443\u043b\u0442\u0430\u0446\u0438\u0458\u0430 \u0441\u043e \u0432\u0430\u0448\u0438\u043e\u0442 \u043b\u0435\u043a\u0430\u0440."
+            ]
+          }
+        },
+        "tur": {
+          "579115f6-bde4-4368-a2a1-85e8e853c8dd": {
+            "text": [
+              "Size yaz\u0131lan ilac\u0131n kullan\u0131m \u015feklini doktorunuza dan\u0131\u015fmadan de\u011fi\u015ftirmemelisiniz."
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 10
+      },
+      "name": "Continue medicines",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "You should not alter the use of prescribed medications without consulting your physician.",
+              "type": "send_msg",
+              "uuid": "579115f6-bde4-4368-a2a1-85e8e853c8dd"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "1a459f97-b178-45f0-8af7-e5b89e2dce44"
+            }
+          ],
+          "uuid": "9c893d40-ab9c-4f75-b60b-cf65d447b295"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "6a7bb2b4-37f3-4945-ac02-993d8906ccc7",
+      "revision": 11
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

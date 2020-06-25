@@ -1,0 +1,252 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "296571ec-61aa-4179-87db-7e4f5b4e56fd": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {
+        "spa": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "La OMS NO dijo que los billetes de banco puedan transmitir el COVID-19."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "La mayor transmisi\u00f3n del COVID-19 es de persona a persona, por lo que es importante practicar una buena higiene de manos e higiene respiratoria para minimizar la propagaci\u00f3n."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "El virus no sobrevivir\u00e1 por mucho tiempo en las superficies, y mucho menos en una superficie seca como la de un billete. La OMS aconseja una buena higiene de manos despu\u00e9s de manipular dinero."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "Si bien es posible infectarse al tocar una superficie u objeto, no se cree que sea una fuente principal de infecci\u00f3n."
+            ]
+          }
+        },
+        "ell": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "\u039f \u03a0\u039f\u03a5 \u0394\u0395\u039d \u03b5\u03af\u03c0\u03b5 \u03cc\u03c4\u03b9 \u03c4\u03b1 \u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03bc\u03b5\u03c4\u03b1\u03b4\u03ce\u03c3\u03bf\u03c5\u03bd \u03c4\u03bf\u03bd \u03bd\u03ad\u03bf \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03cc."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "\u039f \u03b9\u03cc\u03c2 COVID-19 \u03bc\u03b5\u03c4\u03b1\u03b4\u03af\u03b4\u03b5\u03c4\u03b1\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03bf \u03b1\u03c0\u03cc \u03ac\u03c4\u03bf\u03bc\u03bf \u03c3\u03b5 \u03ac\u03c4\u03bf\u03bc\u03bf, \u03b3\u03b9\u2019 \u03b1\u03c5\u03c4\u03cc \u03ba\u03b1\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c3\u03b7\u03bc\u03b1\u03bd\u03c4\u03b9\u03ba\u03cc \u03bd\u03b1 \u03c4\u03b7\u03c1\u03b5\u03af\u03c4\u03b1\u03b9 \u03c3\u03c9\u03c3\u03c4\u03ae \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03ba\u03b1\u03b9 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd \u03b3\u03b9\u03b1 \u03c4\u03bf\u03bd \u03c0\u03b5\u03c1\u03b9\u03bf\u03c1\u03b9\u03c3\u03bc\u03cc \u03c4\u03b7\u03c2 \u03b5\u03be\u03ac\u03c0\u03bb\u03c9\u03c3\u03b7\u03c2."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "\u039f \u03b9\u03cc\u03c2 \u03b4\u03b5\u03bd \u03b5\u03c0\u03b9\u03b2\u03b9\u03ce\u03bd\u03b5\u03b9 \u03b3\u03b9\u03b1 \u03bc\u03b5\u03b3\u03ac\u03bb\u03bf \u03b4\u03b9\u03ac\u03c3\u03c4\u03b7\u03bc\u03b1 \u03c3\u03c4\u03b9\u03c2 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2, \u03b9\u03b4\u03b9\u03b1\u03af\u03c4\u03b5\u03c1\u03b1 \u03c3\u03b5 \u03be\u03b7\u03c1\u03ad\u03c2 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2 \u03cc\u03c0\u03c9\u03c2 \u03c4\u03b1 \u03c7\u03b1\u03c1\u03c4\u03bf\u03bd\u03bf\u03bc\u03af\u03c3\u03bc\u03b1\u03c4\u03b1. \u039f \u03a0\u039f\u03a5 \u03c3\u03c5\u03bd\u03b9\u03c3\u03c4\u03ac \u03c4\u03b7\u03bd \u03c4\u03ae\u03c1\u03b7\u03c3\u03b7 \u03ba\u03b1\u03bb\u03ae\u03c2 \u03c5\u03b3\u03b9\u03b5\u03b9\u03bd\u03ae\u03c2 \u03c4\u03c9\u03bd \u03c7\u03b5\u03c1\u03b9\u03ce\u03bd \u03bc\u03b5\u03c4\u03ac \u03c4\u03b7\u03bd \u03b5\u03c0\u03b1\u03c6\u03ae \u03bc\u03b5 \u03c7\u03c1\u03ae\u03bc\u03b1\u03c4\u03b1."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "\u0391\u03bd \u03ba\u03b1\u03b9 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03bc\u03bf\u03bb\u03c5\u03bd\u03b8\u03b5\u03af \u03ba\u03ac\u03c0\u03bf\u03b9\u03bf\u03c2 \u03b1\u03b3\u03b3\u03af\u03b6\u03bf\u03bd\u03c4\u03b1\u03c2 \u03b5\u03c0\u03b9\u03c6\u03ac\u03bd\u03b5\u03b9\u03b5\u03c2 \u03ae \u03b1\u03bd\u03c4\u03b9\u03ba\u03b5\u03af\u03bc\u03b5\u03bd\u03b1, \u03ba\u03ac\u03c4\u03b9 \u03c4\u03ad\u03c4\u03bf\u03b9\u03bf \u03b4\u03b5\u03bd \u03b8\u03b5\u03c9\u03c1\u03b5\u03af\u03c4\u03b1\u03b9 \u03ba\u03cd\u03c1\u03b9\u03b1 \u03c0\u03b7\u03b3\u03ae \u03bc\u03cc\u03bb\u03c5\u03bd\u03c3\u03b7\u03c2."
+            ]
+          }
+        },
+        "rus": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "\u0412\u041e\u0417 \u041d\u0418\u041a\u041e\u0413\u0414\u0410 \u041d\u0415 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u043b\u0430 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0442\u043e\u043c, \u0447\u0442\u043e COVID-19 \u043c\u043e\u0436\u0435\u0442 \u043f\u0435\u0440\u0435\u0434\u0430\u0432\u0430\u0442\u044c\u0441\u044f \u0447\u0435\u0440\u0435\u0437 \u0431\u0430\u043d\u043a\u043d\u043e\u0442\u044b."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "\u0412 \u0431\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u0435 \u0441\u043b\u0443\u0447\u0430\u0435\u0432, COVID-19 \u043f\u0435\u0440\u0435\u0434\u0430\u0435\u0442\u0441\u044f \u043e\u0442 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0443, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0430\u0436\u043d\u043e \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0440\u0443\u043a \u0438 \u0434\u044b\u0445\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u044d\u0442\u0438\u043a\u0435\u0442, \u0447\u0442\u043e\u0431\u044b \u043c\u0438\u043d\u0438\u043c\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "\u041d\u0430 \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u044f\u0445, \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u0441\u0443\u0445\u0438\u0445, \u0442\u0430\u043a\u0438\u0445 \u043a\u0430\u043a \u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0430, \u0432\u0438\u0440\u0443\u0441 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u0431\u044b\u0441\u0442\u0440\u043e \u043f\u043e\u0433\u0438\u0431\u0430\u0435\u0442. \u041d\u043e \u0432\u0441\u0435 \u0436\u0435 \u0412\u041e\u0417 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442 \u0441\u043e\u0431\u043b\u044e\u0434\u0430\u0442\u044c \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u0433\u0438\u0433\u0438\u0435\u043d\u044b \u0440\u0443\u043a \u043f\u043e\u0441\u043b\u0435 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0441 \u0434\u0435\u043d\u044c\u0433\u0430\u043c\u0438."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "\u0425\u043e\u0442\u044f \u0435\u0441\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0437\u0430\u0440\u0430\u0437\u0438\u0442\u044c\u0441\u044f \u043f\u0440\u0438 \u043f\u0440\u0438\u043a\u043e\u0441\u043d\u043e\u0432\u0435\u043d\u0438\u0438 \u043a \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u0438\u043b\u0438 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0443, \u044d\u0442\u043e \u043d\u0435 \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u043c \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u043c \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438."
+            ]
+          }
+        },
+        "ita": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "L'OMS NON ha comunicato che le banconote possano trasmettere la COVID-19."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "La maggior parte della trasmissione della COVID-19 \u00e8 da persona a persona, quindi \u00e8 importante praticare una corretta igiene delle mani ed un corretto comportamento respiratorio per ridurre al minimo la diffusione."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "Il virus non sopravvive a lungo sulle superfici, in particolare su superficie asciutte come quelle di una banconota. L'OMS consiglia un corretto lavaggio delle mani dopo aver maneggiato i soldi."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "Sebbene possa essere possibile essere contagiati toccando una superficie o un oggetto, non si ritiene che questa sia una fonte di infezione principale."
+            ]
+          }
+        },
+        "kaz": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "\u0414\u0414\u0421\u04b0 COVID-19 \u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0442\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u0436\u04b1\u0493\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d \u0435\u043a\u0435\u043d\u0456\u043d \u043c\u04d9\u043b\u0456\u043c\u0434\u0435\u043c\u0435\u0433\u0435\u043d."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "COVID-19 \u0436\u04b1\u0493\u0443\u044b\u043d\u044b\u04a3 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u0433\u0456 \u0430\u0434\u0430\u043c\u0493\u0430 \u04d9\u0441\u0435\u0440 \u0435\u0442\u0435\u0434\u0456, \u0441\u043e\u043d\u0434\u044b\u049b\u0442\u0430\u043d \u0442\u0430\u0440\u0430\u043b\u0443\u0434\u044b \u0430\u0437\u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d \u049b\u043e\u043b\u0434\u044b\u04a3 \u0433\u0438\u0433\u0438\u0435\u043d\u0430\u0441\u044b \u043c\u0435\u043d \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u044d\u0442\u0438\u043a\u0435\u0442\u0456\u043d \u04b1\u0441\u0442\u0430\u043d\u0443 \u043a\u0435\u0440\u0435\u043a."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441 \u0437\u0430\u0442\u0442\u0430\u0440\u0434\u044b, \u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u0431\u0430\u043d\u043a\u043d\u043e\u0442 \u0441\u0438\u044f\u049b\u0442\u044b \u049b\u04b1\u0440\u0493\u0430\u049b \u0436\u0435\u0440\u0434\u0435 \u04b1\u0437\u0430\u049b \u0443\u0430\u049b\u044b\u0442 \u04e9\u043c\u0456\u0440 \u0441\u04af\u0440\u043c\u0435\u0439\u0434\u0456. \u0414\u0414\u0421\u04b0 \u0430\u049b\u0448\u0430 \u04b1\u0441\u0442\u0430\u0493\u0430\u043d\u043d\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u049b\u043e\u043b\u0434\u044b \u0436\u0443\u0443\u0493\u0430 \u043a\u0435\u04a3\u0435\u0441 \u0431\u0435\u0440\u0435\u0434\u0456."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "\u0411\u0435\u0442\u0442\u0456 \u043d\u0435\u043c\u0435\u0441\u0435 \u0431\u0430\u0441\u049b\u0430 \u0437\u0430\u0442\u0442\u044b \u04b1\u0441\u0442\u0430\u0443 \u0430\u0440\u049b\u044b\u043b\u044b \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f \u0436\u04b1\u049b\u0442\u044b\u0440\u044b\u043b\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d, \u0431\u0456\u0440\u0430\u049b \u0431\u04b1\u043b \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u043d\u044b\u04a3 \u043d\u0435\u0433\u0456\u0437\u0433\u0456 \u043a\u04e9\u0437\u0456 \u0431\u043e\u043b\u044b\u043f \u0441\u0430\u043d\u0430\u043b\u043c\u0430\u0439\u0434\u044b."
+            ]
+          }
+        },
+        "por": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "A OMS N\u00c3O falou que notas de dinheiro podem transmitir COVID-19."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "A maioria das transmiss\u00f5es de COVID-19 \u00e9 de pessoa para pessoa, por isso \u00e9 importante praticar uma boa higiene das m\u00e3os e etiqueta respirat\u00f3ria para minimizar a propaga\u00e7\u00e3o."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "O v\u00edrus n\u00e3o sobreviver\u00e1 por muito tempo em superf\u00edcies, particularmente em superf\u00edcies secas como notas de banco. A OMS aconselha uma boa higiene das m\u00e3os ap\u00f3s manusear dinheiro."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "Embora possa ser poss\u00edvel infectar-se tocando em uma superf\u00edcie ou objeto, n\u00e3o se acredita que seja a principal fonte de infec\u00e7\u00e3o."
+            ]
+          }
+        },
+        "mkd": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "\u0421\u0417\u041e \u041d\u0415 \u0438\u0437\u0458\u0430\u0432\u0438 \u0434\u0435\u043a\u0430 \u043a\u043d\u0438\u0436\u043d\u0438\u0442\u0435 \u043f\u0430\u0440\u0438 \u043f\u0440\u0435\u043d\u0435\u0441\u0443\u0432\u0430\u0430\u0442 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "\u0412\u0438\u0440\u0443\u0441\u043e\u0442 \u043d\u0435\u043c\u0430 \u0434\u0430 \u043f\u0440\u0435\u0436\u0438\u0432\u0435\u0435 \u043c\u043d\u043e\u0433\u0443 \u0434\u043e\u043b\u0433\u043e \u043d\u0430 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0438, \u043e\u0441\u043e\u0431\u0435\u043d\u043e \u043d\u0435 \u043d\u0430 \u0441\u0443\u0432\u0430 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0430 \u043a\u0430\u043a\u043e \u0431\u0430\u043d\u043a\u043d\u043e\u0442\u0430. \u0421\u0417\u041e \u0441\u043e\u0432\u0435\u0442\u0443\u0432\u0430 \u0434\u043e\u0431\u0440\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u043f\u043e \u0440\u0430\u043a\u0443\u0432\u0430\u045a\u0435 \u0441\u043e \u043f\u0430\u0440\u0438."
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "\u041f\u0440\u0435\u043d\u0435\u0441\u0443\u0432\u0430\u045a\u0435\u0442\u043e \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u043d\u0430\u0458\u0447\u0435\u0441\u0442\u043e \u0441\u0435 \u0441\u043b\u0443\u0447\u0443\u0432\u0430 \u043e\u0434 \u043b\u0438\u0446\u0435 \u043d\u0430 \u043b\u0438\u0446\u0435, \u043f\u0430 \u0437\u0430\u0442\u043e\u0430 \u0435 \u0432\u0430\u0436\u043d\u043e \u0434\u0430 \u0441\u0435 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u0432\u0430 \u0434\u043e\u0431\u0440\u0430 \u0445\u0438\u0433\u0438\u0435\u043d\u0430 \u043d\u0430 \u0440\u0430\u0446\u0435\u0442\u0435 \u0438 \u0434\u0430 \u0441\u0435 \u0441\u043b\u0435\u0434\u0430\u0442 \u043f\u0440\u0430\u0432\u0438\u043b\u0430\u0442\u0430 \u0437\u0430 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u043e \u043e\u0434\u043d\u0435\u0441\u0443\u0432\u0430\u045a\u0435 \u0441\u043e \u0446\u0435\u043b \u0434\u0430 \u0441\u0435 \u043c\u0438\u043d\u0438\u043c\u0438\u0437\u0438\u0440\u0430 \u0448\u0438\u0440\u0435\u045a\u0435\u0442\u043e."
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "\u0418\u0430\u043a\u043e \u0435 \u043c\u043e\u0436\u043d\u0430 \u0437\u0430\u0440\u0430\u0437\u0430 \u043f\u0440\u0435\u043a\u0443 \u0434\u043e\u043f\u0438\u0440\u0430\u045a\u0435 \u043f\u043e\u0432\u0440\u0448\u0438\u043d\u0430 \u0438\u043b\u0438 \u043f\u0440\u0435\u0434\u043c\u0435\u0442, \u043d\u0435 \u0441\u0435 \u0441\u043c\u0435\u0442\u0430 \u0434\u0435\u043a\u0430 \u0442\u043e\u0430 \u0435 \u0433\u043b\u0430\u0432\u0435\u043d \u0438\u0437\u0432\u043e\u0440 \u043d\u0430 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0458\u0430\u0442\u0430."
+            ]
+          }
+        },
+        "tur": {
+          "e0b35549-c2f1-4121-86cb-ed2efcca61fa": {
+            "text": [
+              "DS\u00d6, banknotlar\u0131n KOV\u0130D-19 bula\u015ft\u0131rd\u0131\u011f\u0131n\u0131 S\u00d6YLEMEM\u0130\u015eT\u0130R. "
+            ]
+          },
+          "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354": {
+            "text": [
+              "Bir y\u00fczeye ya da nesneye dokunarak enfekte olmak m\u00fcmk\u00fcn olsa da, bunun enfeksiyonun ana kayna\u011f\u0131 oldu\u011fu d\u00fc\u015f\u00fcn\u00fclmemektedir."
+            ]
+          },
+          "06c87805-a85b-4892-b082-281d481553c2": {
+            "text": [
+              "\u00d6zellikle banknotlar gibi kuru bir y\u00fczey olmak \u00fczere vir\u00fcs, y\u00fczeyler \u00fczerinde uzun s\u00fcre ya\u015famaz. DS\u00d6, paralara dokunduktan sonra el hijyeni uygulamas\u0131n\u0131 tavsiye etmektedir.  "
+            ]
+          },
+          "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e": {
+            "text": [
+              "Yay\u0131lmay\u0131 en aza indirmek i\u00e7in el ve solunum yolu hijyeni kurallar\u0131n\u0131 uygulamak \u00f6nemlidir \u00e7\u00fcnk\u00fc en \u00e7ok KOV\u0130D-19 bula\u015f\u0131 insandan insana ger\u00e7ekle\u015fmektedir. "
+            ]
+          }
+        }
+      },
+      "metadata": {
+        "revision": 56
+      },
+      "name": "Myths - bank notes",
+      "nodes": [
+        {
+          "actions": [
+            {
+              "attachments": [],
+              "text": "WHO did NOT say banknotes would transmit COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e0b35549-c2f1-4121-86cb-ed2efcca61fa"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "Most transmission of COVID-19 is person to person, so it is important to practice good hand hygiene and respiratory etiquette to minimize spread.",
+              "type": "send_msg",
+              "uuid": "efdc5fc5-90d2-4ce3-a261-6fd331d22b2e"
+            },
+            {
+              "attachments": [],
+              "quick_replies": [],
+              "text": "The virus will not survive for very long on surfaces, particularly on a dry surface like a banknote. WHO advises good hand hygiene after handling money.",
+              "type": "send_msg",
+              "uuid": "06c87805-a85b-4892-b082-281d481553c2"
+            },
+            {
+              "attachments": [],
+              "text": "While it may be possible to get infected by touching a surface or object, it is not thought to be a main source of infection.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "59e7e4f7-9ba9-4bc8-96f2-abb60f08e354"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "ce6e729e-bc67-4a83-91af-50fb993897cb"
+            }
+          ],
+          "uuid": "296571ec-61aa-4179-87db-7e4f5b4e56fd"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "d47dcf49-3bb8-4e71-affb-63ee75526d0a",
+      "revision": 60
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

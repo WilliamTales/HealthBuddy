@@ -1,0 +1,671 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Prevention",
+      "uuid": "2780ec40-55c8-47a1-9210-2f76c6928f37",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "nodes": [
+        {
+          "uuid": "20b096ef-6566-4642-a964-8507eab0716c",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "b2578907-e273-4461-b131-6737c1c5e603",
+            "categories": [
+              {
+                "uuid": "aff5498b-a836-42b6-b52f-fc96324bdf0a",
+                "name": "Caring",
+                "exit_uuid": "d5f28356-be21-4c80-a6ea-f5d1403b1f5d"
+              },
+              {
+                "uuid": "b2578907-e273-4461-b131-6737c1c5e603",
+                "name": "Other",
+                "exit_uuid": "d851baf1-5fb2-4b61-8668-aa2d133d1d39"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "caring"
+                ],
+                "type": "has_any_word",
+                "uuid": "efc43452-4b95-4094-9fe2-9bf416d877b4",
+                "category_uuid": "aff5498b-a836-42b6-b52f-fc96324bdf0a"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "d5f28356-be21-4c80-a6ea-f5d1403b1f5d",
+              "destination_uuid": "dfec3724-1028-4c19-86b7-59ab8026c1a4"
+            },
+            {
+              "uuid": "d851baf1-5fb2-4b61-8668-aa2d133d1d39",
+              "destination_uuid": "e87ac909-b0ca-4278-a5a0-076271a8cff6"
+            }
+          ]
+        },
+        {
+          "uuid": "dfec3724-1028-4c19-86b7-59ab8026c1a4",
+          "actions": [
+            {
+              "uuid": "a79b408b-9b2e-47d2-8fb4-0f26247d5e09",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "3f561c3c-7511-4e2d-bf98-173114d3d672",
+                "name": "Caring"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "2432baa2-25e9-44bb-aee3-6a31807f54bb",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "42110c8d-8085-4294-bd59-21091bd1593f"
+              },
+              {
+                "uuid": "16e33691-d12e-4436-b8c9-a25157272b8f",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "3b408f92-e749-44d0-a89f-4b528d89042b"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "42110c8d-8085-4294-bd59-21091bd1593f",
+                "name": "Complete",
+                "exit_uuid": "0befe167-ab51-487d-ac66-5669c7c229ea"
+              },
+              {
+                "uuid": "3b408f92-e749-44d0-a89f-4b528d89042b",
+                "name": "Expired",
+                "exit_uuid": "7409f315-e0f0-454f-a4b8-dc32fcd739d3"
+              }
+            ],
+            "default_category_uuid": "3b408f92-e749-44d0-a89f-4b528d89042b"
+          },
+          "exits": [
+            {
+              "uuid": "0befe167-ab51-487d-ac66-5669c7c229ea",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "7409f315-e0f0-454f-a4b8-dc32fcd739d3",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "e87ac909-b0ca-4278-a5a0-076271a8cff6",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "464ce6fe-a3b1-4a74-8151-c1d5217e449f",
+            "categories": [
+              {
+                "uuid": "3b0b81f0-7aa4-4fab-93e2-595bda3c5903",
+                "name": "Protect",
+                "exit_uuid": "a50a11d4-89d1-4d36-834e-0d6353eef403"
+              },
+              {
+                "uuid": "464ce6fe-a3b1-4a74-8151-c1d5217e449f",
+                "name": "Other",
+                "exit_uuid": "c2e57896-e64c-4569-905e-6f119e524cce"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "protect infected"
+                ],
+                "type": "has_any_word",
+                "uuid": "852d0096-04f1-4668-a416-e085ad99652b",
+                "category_uuid": "3b0b81f0-7aa4-4fab-93e2-595bda3c5903"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "a50a11d4-89d1-4d36-834e-0d6353eef403",
+              "destination_uuid": "a6bf5203-3fed-4f22-b4b2-893d5b9da740"
+            },
+            {
+              "uuid": "c2e57896-e64c-4569-905e-6f119e524cce",
+              "destination_uuid": "8097bc97-4289-4d42-ae69-fa6404684a48"
+            }
+          ]
+        },
+        {
+          "uuid": "a6bf5203-3fed-4f22-b4b2-893d5b9da740",
+          "actions": [
+            {
+              "uuid": "b3cdb83f-21ee-4395-b575-d2b4c245a456",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "c939b94e-a76e-40fd-ba1b-68d04903c754",
+                "name": "Protection"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "844ca5f5-5479-4e7c-8f6f-c069ff112b56",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "8d4c0aff-b1b3-471c-810c-fb3b503958ab"
+              },
+              {
+                "uuid": "70d83068-b328-4fe6-a351-2dd29cb6fb4f",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "04a75e18-d9b0-4610-856e-3d67e0bb24dc"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "8d4c0aff-b1b3-471c-810c-fb3b503958ab",
+                "name": "Complete",
+                "exit_uuid": "d45c04f3-d7d2-4a19-a8b8-7dae4dfd7607"
+              },
+              {
+                "uuid": "04a75e18-d9b0-4610-856e-3d67e0bb24dc",
+                "name": "Expired",
+                "exit_uuid": "d8983047-6ed1-47d6-819e-7d7a5cb38142"
+              }
+            ],
+            "default_category_uuid": "04a75e18-d9b0-4610-856e-3d67e0bb24dc"
+          },
+          "exits": [
+            {
+              "uuid": "d45c04f3-d7d2-4a19-a8b8-7dae4dfd7607",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "d8983047-6ed1-47d6-819e-7d7a5cb38142",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "8097bc97-4289-4d42-ae69-fa6404684a48",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "f6c8a607-c2bf-4245-b061-b508bd88fe1c",
+            "categories": [
+              {
+                "uuid": "a92e6546-7028-49e7-8a4a-fdd05f81162e",
+                "name": "Bath",
+                "exit_uuid": "85c82157-a631-408a-8c9e-1c8e74310519"
+              },
+              {
+                "uuid": "f6c8a607-c2bf-4245-b061-b508bd88fe1c",
+                "name": "Other",
+                "exit_uuid": "73e53b55-fb42-4fa6-b4f4-b7e3b58aa416"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "hot"
+                ],
+                "type": "has_any_word",
+                "uuid": "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306",
+                "category_uuid": "a92e6546-7028-49e7-8a4a-fdd05f81162e"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "85c82157-a631-408a-8c9e-1c8e74310519",
+              "destination_uuid": "e316cb17-b07d-4e1b-91c0-ef4c8d119028"
+            },
+            {
+              "uuid": "73e53b55-fb42-4fa6-b4f4-b7e3b58aa416",
+              "destination_uuid": "7f39953b-2e20-4aa1-81b4-fa234210b657"
+            }
+          ]
+        },
+        {
+          "uuid": "e316cb17-b07d-4e1b-91c0-ef4c8d119028",
+          "actions": [
+            {
+              "uuid": "2750ebd9-0d3c-4d8b-b041-67d1ef0bf87b",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "14dff213-cc4e-47f7-b2d0-4fd1a25c0814",
+                "name": "Myths - hot bath"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "15d807e2-826e-45bc-b896-af1a67f43c19",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "0e8063d8-70fc-41c7-867c-4557d6be4875"
+              },
+              {
+                "uuid": "f3c41aa6-7ab3-4127-90a5-fe6294294bc5",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "83049161-ebd1-48eb-9dca-72d8cbae916d"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "0e8063d8-70fc-41c7-867c-4557d6be4875",
+                "name": "Complete",
+                "exit_uuid": "545c4650-e487-43f4-97dd-520c749f3a5f"
+              },
+              {
+                "uuid": "83049161-ebd1-48eb-9dca-72d8cbae916d",
+                "name": "Expired",
+                "exit_uuid": "2eccb5a2-4d85-43a8-8567-8292c42ac942"
+              }
+            ],
+            "default_category_uuid": "83049161-ebd1-48eb-9dca-72d8cbae916d"
+          },
+          "exits": [
+            {
+              "uuid": "545c4650-e487-43f4-97dd-520c749f3a5f",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "2eccb5a2-4d85-43a8-8567-8292c42ac942",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "7f39953b-2e20-4aa1-81b4-fa234210b657",
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "noentity",
+              "value": "on",
+              "category": "",
+              "uuid": "1a822b0a-63c2-45be-96ea-05a2eda430df"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "f30a3a26-8f26-4c40-b3e3-ba11b3d04fe4",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "_ui": {
+        "nodes": {
+          "20b096ef-6566-4642-a964-8507eab0716c": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 20
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "dfec3724-1028-4c19-86b7-59ab8026c1a4": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 240,
+              "top": 80
+            },
+            "config": {}
+          },
+          "e87ac909-b0ca-4278-a5a0-076271a8cff6": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 200
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "a6bf5203-3fed-4f22-b4b2-893d5b9da740": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 240,
+              "top": 260
+            },
+            "config": {}
+          },
+          "8097bc97-4289-4d42-ae69-fa6404684a48": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 460,
+              "top": 380
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "e316cb17-b07d-4e1b-91c0-ef4c8d119028": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 240,
+              "top": 460
+            },
+            "config": {}
+          },
+          "7f39953b-2e20-4aa1-81b4-fa234210b657": {
+            "position": {
+              "left": 460,
+              "top": 580
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 63,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 59
+      },
+      "localization": {
+        "rus": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "\u0437\u0430\u0431\u043e\u0442\u0430"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "por": {},
+        "ell": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "\u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1"
+            ]
+          },
+          "b2578907-e273-4461-b131-6737c1c5e603": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          },
+          "464ce6fe-a3b1-4a74-8151-c1d5217e449f": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "f6c8a607-c2bf-4245-b061-b508bd88fe1c": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "\u03c0\u03c1\u03bf\u03c3\u03c4\u03b1\u03c3\u03af\u03b1"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "\u03bc\u03c0\u03ac\u03bd\u03b9\u03bf"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "proteger"
+            ]
+          },
+          "464ce6fe-a3b1-4a74-8151-c1d5217e449f": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              ""
+            ]
+          },
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "cuidar"
+            ]
+          },
+          "b2578907-e273-4461-b131-6737c1c5e603": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "ba\u00f1o"
+            ]
+          },
+          "f6c8a607-c2bf-4245-b061-b508bd88fe1c": {
+            "name": [
+              "Otro"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "mkd": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "\u0413\u0440\u0438\u0436\u043b\u0438\u0432\u0438"
+            ]
+          },
+          "b2578907-e273-4461-b131-6737c1c5e603": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          },
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "\u0417\u0430\u0448\u0442\u0438\u0442\u0438"
+            ]
+          },
+          "464ce6fe-a3b1-4a74-8151-c1d5217e449f": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "\u0411\u0430\u045a\u0430"
+            ]
+          },
+          "f6c8a607-c2bf-4245-b061-b508bd88fe1c": {
+            "name": [
+              "\u0414\u0440\u0443\u0433\u043e"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "kaz": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "\u0431\u0430\u049b\u044b\u043b\u0430\u0443"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          },
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "\u049b\u043e\u0440\u0493\u0430\u043d\u0443"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "\u0448\u043e\u043c\u044b\u043b\u0443"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "prendersi cura"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              ""
+            ]
+          },
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "proteggere"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "bagno"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "tur": {
+          "aff5498b-a836-42b6-b52f-fc96324bdf0a": {
+            "name": [
+              "Ilgi g\u00f6sterme"
+            ]
+          },
+          "efc43452-4b95-4094-9fe2-9bf416d877b4": {
+            "arguments": [
+              "Ilgi g\u00f6sterme"
+            ]
+          },
+          "3b0b81f0-7aa4-4fab-93e2-595bda3c5903": {
+            "name": [
+              "Koruma"
+            ]
+          },
+          "464ce6fe-a3b1-4a74-8151-c1d5217e449f": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "852d0096-04f1-4668-a416-e085ad99652b": {
+            "arguments": [
+              "Koruma Bula\u015fan"
+            ]
+          },
+          "b2578907-e273-4461-b131-6737c1c5e603": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "a92e6546-7028-49e7-8a4a-fdd05f81162e": {
+            "name": [
+              "banyo"
+            ]
+          },
+          "f6c8a607-c2bf-4245-b061-b508bd88fe1c": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "bd7d3a0a-e8e6-4e8f-8ab7-62b1a734a306": {
+            "arguments": [
+              " S\u0131cak"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

@@ -1,0 +1,158 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "What is corona",
+      "uuid": "0ebaf2a8-0fd3-48bb-b345-398fb1ca0c50",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "23bb3f50-0b9c-434c-a832-393b698ca256": {
+            "position": {
+              "left": 0,
+              "top": 0
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 33,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 31
+      },
+      "localization": {
+        "por": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "Os coronav\u00edrus s\u00e3o uma grande fam\u00edlia de v\u00edrus que podem causar doen\u00e7as em animais ou humanos."
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "Nos seres humanos, eles podem causar infec\u00e7\u00f5es respirat\u00f3rias que variam do resfriado comum a doen\u00e7as mais graves, como MERS (S\u00edndrome Respirat\u00f3ria no Oriente M\u00e9dio) e SARS (S\u00edndrome Respirat\u00f3ria Aguda Grave)."
+            ]
+          }
+        },
+        "rus": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u044b - \u044d\u0442\u043e \u0431\u043e\u043b\u044c\u0448\u043e\u0435 \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u043e \u0432\u0438\u0440\u0443\u0441\u043e\u0432, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u0443\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0442\u044c \u0431\u043e\u043b\u0435\u0437\u043d\u0438 \u0443 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445 \u0438\u043b\u0438 \u043b\u044e\u0434\u0435\u0439."
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "\u0423 \u043b\u044e\u0434\u0435\u0439 \u043e\u043d\u0438 \u043c\u043e\u0433\u0443\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0442\u044c \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0435 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438 \u043e\u0442 \u043f\u0440\u043e\u0441\u0442\u0443\u0434\u044b \u0434\u043e \u0431\u043e\u043b\u0435\u0435 \u0441\u0435\u0440\u044c\u0435\u0437\u043d\u044b\u0445 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u0439, \u0442\u0430\u043a\u0438\u0445 \u043a\u0430\u043a MERS (\u0431\u043b\u0438\u0436\u043d\u0435\u0432\u043e\u0441\u0442\u043e\u0447\u043d\u044b\u0439 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0438\u043d\u0434\u0440\u043e\u043c) \u0438 SARS (\u0442\u044f\u0436\u0435\u043b\u044b\u0439 \u043e\u0441\u0442\u0440\u044b\u0439 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u044b\u0439 \u0441\u0438\u043d\u0434\u0440\u043e\u043c)."
+            ]
+          }
+        },
+        "spa": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "Los coronavirus son una amplia familia de virus que pueden causar enfermedades en animales o en humanos."
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "En humanos, pueden causar infecciones respiratorias que van desde un resfriado com\u00fan a enfermedades m\u00e1s severas como el MERS (S\u00edndrome respiratorio en el Medio Oriente) y el SARS (S\u00edndrome respiratorio agudo severo)."
+            ]
+          }
+        },
+        "ell": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "\u039f\u03b9 \u03ba\u03bf\u03c1\u03c9\u03bd\u03bf\u03ca\u03bf\u03af \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03af\u03b1 \u03bc\u03b5\u03b3\u03ac\u03bb\u03b7 \u03bf\u03b9\u03ba\u03bf\u03b3\u03ad\u03bd\u03b5\u03b9\u03b1 \u03b9\u03ce\u03bd \u03c0\u03bf\u03c5 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03ad\u03c3\u03bf\u03c5\u03bd \u03bd\u03cc\u03c3\u03bf\u03c5\u03c2 \u03c3\u03c4\u03b1 \u03b6\u03ce\u03b1 \u03ba\u03b1\u03b9 \u03c4\u03bf\u03bd \u03ac\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf."
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "\u03a3\u03c4\u03bf\u03bd \u03ac\u03bd\u03b8\u03c1\u03c9\u03c0\u03bf \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03c0\u03c1\u03bf\u03ba\u03b1\u03bb\u03ad\u03c3\u03bf\u03c5\u03bd \u03bb\u03bf\u03b9\u03bc\u03ce\u03be\u03b5\u03b9\u03c2 \u03c4\u03bf\u03c5 \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03bf\u03cd - \u03b1\u03c0\u03cc \u03ba\u03bf\u03b9\u03bd\u03cc \u03ba\u03c1\u03c5\u03bf\u03bb\u03cc\u03b3\u03b7\u03bc\u03b1 \u03bc\u03ad\u03c7\u03c1\u03b9 \u03c0\u03b9\u03bf \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03b1\u03c3\u03b8\u03ad\u03bd\u03b5\u03b9\u03b5\u03c2, \u03cc\u03c0\u03c9\u03c2 MERS (\u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03cc \u03c3\u03cd\u03bd\u03b4\u03c1\u03bf\u03bc\u03bf \u03c4\u03b7\u03c2 \u039c\u03ad\u03c3\u03b7\u03c2 \u0391\u03bd\u03b1\u03c4\u03bf\u03bb\u03ae\u03c2) \u03ba\u03b1\u03b9 SARS (\u03c3\u03bf\u03b2\u03b1\u03c1\u03cc \u03bf\u03be\u03cd \u03b1\u03bd\u03b1\u03c0\u03bd\u03b5\u03c5\u03c3\u03c4\u03b9\u03ba\u03cc \u03c3\u03cd\u03bd\u03b4\u03c1\u03bf\u03bc\u03bf)."
+            ]
+          }
+        },
+        "ita": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "I coronavirus sono una vasta famiglia di virus noti per causare malattie in animali ed esseri umani. "
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "Nella popolazione umana, i coronavirus possono causare infezioni respiratorie che vanno dal comune raffreddore a malattie gravi come la Sindrome respiratoria mediorientale (MERS) e la Sindrome respiratoria acuta grave (SARS)."
+            ]
+          }
+        },
+        "kaz": {
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "\u0410\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u0430 \u043e\u043b\u0430\u0440 \u0436\u0430\u043b\u043f\u044b \u0441\u0443\u044b\u049b \u0442\u0438\u044e\u0434\u0435\u043d \u0431\u0430\u0441\u0442\u0430\u043f MERS (\u0422\u0430\u044f\u0443 \u0428\u044b\u0493\u044b\u0441 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043b\u044b\u049b \u0441\u0438\u043d\u0434\u0440\u043e\u043c\u044b) \u0436\u04d9\u043d\u0435 SARS (\u0410\u0443\u044b\u0440 \u0436\u0435\u0434\u0435\u043b \u0442\u044b\u043d\u044b\u0441 \u0430\u043b\u0443 \u0441\u0438\u043d\u0434\u0440\u043e\u043c\u044b) \u0441\u0438\u044f\u049b\u0442\u044b \u0430\u0443\u044b\u0440 \u0430\u0443\u0440\u0443\u043b\u0430\u0440\u0493\u0430 \u0434\u0435\u0439\u0456\u043d \u0442\u044b\u043d\u044b\u0441 \u0436\u043e\u043b\u0434\u0430\u0440\u044b\u043d\u044b\u04a3 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u044f\u0441\u044b\u043d \u0442\u0443\u0434\u044b\u0440\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430\u0432\u0438\u0440\u0443\u0441\u0442\u0430\u0440 - \u0431\u04b1\u043b \u0436\u0430\u043d\u0443\u0430\u0440\u043b\u0430\u0440\u0434\u0430 \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0434\u0430 \u0430\u0443\u0440\u0443 \u0442\u0443\u0434\u044b\u0440\u0430 \u0430\u043b\u0430\u0442\u044b\u043d \u0432\u0438\u0440\u0443\u0441\u0442\u0430\u0440\u0434\u044b\u04a3 \u04af\u043b\u043a\u0435\u043d \u0442\u043e\u0431\u044b."
+            ]
+          }
+        },
+        "mkd": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "\u041a\u043e\u0440\u043e\u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u0438\u0442\u0435 \u0441\u0435 \u0433\u043e\u043b\u0435\u043c\u0430 \u0444\u0430\u043c\u0438\u043b\u0438\u0458\u0430 \u043d\u0430 \u0432\u0438\u0440\u0443\u0441\u0438 \u0448\u0442\u043e \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0430\u0430\u0442 \u0431\u043e\u043b\u0435\u0441\u0442 \u043a\u0430\u0458 \u0436\u0438\u0432\u043e\u0442\u043d\u0438 \u0438\u043b\u0438 \u043b\u0443\u0453\u0435."
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "\u041a\u0430\u0458 \u043b\u0443\u0453\u0435\u0442\u043e, \u0442\u0438\u0435 \u043c\u043e\u0436\u0435 \u0434\u0430 \u043f\u0440\u0435\u0434\u0438\u0437\u0432\u0438\u043a\u0430\u0430\u0442 \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u043d\u0438 \u0438\u043d\u0444\u0435\u043a\u0446\u0438\u0438, \u043f\u043e\u0447\u043d\u0443\u0432\u0430\u0458\u045c\u0438 \u043e\u0434 \u043e\u0431\u0438\u0447\u043d\u0430 \u043d\u0430\u0441\u0442\u0438\u043d\u043a\u0430, \u043f\u0430 \u0441\u0450 \u0434\u043e \u043f\u043e\u0442\u0435\u0448\u043a\u0438 \u0437\u0430\u0431\u043e\u043b\u0443\u0432\u0430\u045a\u0430 \u043a\u0430\u043a\u043e \u041c\u0415\u0420\u0421 (\u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u0435\u043d \u0441\u0438\u043d\u0434\u0440\u043e\u043c \u043d\u0430 \u0411\u043b\u0438\u0441\u043a\u0438\u043e\u0442 \u0438\u0441\u0442\u043e\u043a) \u0438 \u0421\u0410\u0420\u0421 (\u0441\u0438\u043b\u0435\u043d \u0430\u043a\u0443\u0442\u0435\u043d \u0440\u0435\u0441\u043f\u0438\u0440\u0430\u0442\u043e\u0440\u0435\u043d \u0441\u0438\u043d\u0434\u0440\u043e\u043c)."
+            ]
+          }
+        },
+        "tur": {
+          "5f84d244-9987-4fda-93b8-6f4e92de2f3e": {
+            "text": [
+              "Koronavir\u00fcsler hayvanlarda ya da insanlarda hastal\u0131\u011fa yol a\u00e7an b\u00fcy\u00fck bir vir\u00fcs ailesidir.  "
+            ]
+          },
+          "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f": {
+            "text": [
+              "Koronavir\u00fcsler, insanlarda so\u011fuk alg\u0131nl\u0131\u011f\u0131ndan, MERS (Orta Do\u011fu Solunum Yolu Sendromu) ve SARS (A\u011f\u0131r Akut Solunum Yolu Yetersizli\u011fi) gibi daha ciddi hastal\u0131klara kadar solunum yolu enfeksiyonlar\u0131na neden olabilirler.  "
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "23bb3f50-0b9c-434c-a832-393b698ca256",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "Coronaviruses are a large family of viruses which may cause illness in animals or humans.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5f84d244-9987-4fda-93b8-6f4e92de2f3e"
+            },
+            {
+              "attachments": [],
+              "text": "In humans, they may cause respiratory infections ranging from the common cold to more severe diseases such as MERS (Middle East Respiratory Syndrome) and SARS (Severe Acute Respiratory Syndrome).",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "f56fa20e-1dae-41be-9c0c-2bddf0c87e0f"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "fe0eb5d1-e27e-411a-ac2f-5eb233b1447f",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

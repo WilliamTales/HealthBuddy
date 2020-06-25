@@ -1,0 +1,841 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Mask",
+      "uuid": "7f08d56d-3f97-4abf-8261-f77d48b4ed1a",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "8388926f-36cf-42e9-8ee7-3cc9c829c93c": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 340,
+              "top": 20
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "c8cc4c8d-e084-428d-ae00-c73e87f0cecf": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 120,
+              "top": 80
+            },
+            "config": {}
+          },
+          "496dc1c7-b915-4b23-8541-15643945b862": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 340,
+              "top": 200
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "2b470456-6c8c-4568-9bbc-4d7b31e88da3": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 340,
+              "top": 380
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "a040c7f3-2d1a-4cef-9027-f1d2e0b285c7": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 120,
+              "top": 440
+            },
+            "config": {}
+          },
+          "03528919-af56-440a-b22c-4d9929d1b998": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 340,
+              "top": 560
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "7f068b42-1bd6-4329-b8f6-00ce0016ac3a": {
+            "position": {
+              "left": 340,
+              "top": 680
+            },
+            "type": "execute_actions"
+          }
+        },
+        "stickies": {}
+      },
+      "revision": 132,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 124
+      },
+      "localization": {
+        "por": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "Voc\u00ea deve usar uma m\u00e1scara somente se for um profissional de sa\u00fade, apresentar sintomas de COVID-19 (especialmente tosse) ou estiver cuidando de algu\u00e9m que possa ter COVID-19."
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "M\u00e1scaras descart\u00e1veis \u200b\u200bpodem ser usadas apenas uma vez. Usar uma m\u00e1scara incorretamente tamb\u00e9m pode aumentar o risco de infec\u00e7\u00e3o."
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "Se voc\u00ea n\u00e3o estiver doente ou cuidando de algu\u00e9m doente, as m\u00e1scaras podem ser preferencialmente usadas para aqueles que est\u00e3o ou oferecem assist\u00eancia m\u00e9dica."
+            ]
+          }
+        },
+        "rus": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "\u0412\u0430\u043c \u0441\u043b\u0435\u0434\u0443\u0435\u0442 \u043d\u043e\u0441\u0438\u0442\u044c \u043c\u0430\u0441\u043a\u0443 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u0442\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435, \u0435\u0441\u043b\u0438 \u0432\u044b \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0438\u0439 \u0440\u0430\u0431\u043e\u0442\u043d\u0438\u043a, \u0435\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u0435\u0441\u0442\u044c \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b COVID-19 \u0438\u043b\u0438 \u0435\u0441\u043b\u0438 \u0432\u044b \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0435 \u0443\u0445\u043e\u0434 \u0437\u0430 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043c, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043c\u043e\u0436\u0435\u0442 \u0431\u044b\u0442\u044c \u0431\u043e\u043b\u0435\u043d COVID\u201119."
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "\u041e\u0434\u043d\u043e\u0440\u0430\u0437\u043e\u0432\u044b\u0435 \u043c\u0430\u0441\u043a\u0438 \u043d\u0435\u043b\u044c\u0437\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e. \u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u043e\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0441\u043a\u0438 \u043c\u043e\u0436\u0435\u0442 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0442\u044c \u0440\u0438\u0441\u043a \u0437\u0430\u0440\u0430\u0436\u0435\u043d\u0438\u044f."
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "\u0415\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u043d\u0435\u0442 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u043e\u0432 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f \u0438\u043b\u0438 \u0432\u044b \u043d\u0435 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0435 \u0443\u0445\u043e\u0434 \u0437\u0430 \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0448\u0438\u043c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043c, \u0442\u043e\u0433\u0434\u0430 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0441\u043a\u0438 \u0431\u0443\u0434\u0435\u0442 \u043d\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u043c. \u041b\u0443\u0447\u0448\u0435 \u043e\u0442\u0434\u0430\u0439\u0442\u0435 \u043c\u0430\u0441\u043a\u0443 \u0442\u043e\u043c\u0443, \u043a\u0442\u043e \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0443\u044e \u043f\u043e\u043c\u043e\u0449\u044c."
+            ]
+          },
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              " \u043a\u0430\u043a"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              " "
+            ]
+          },
+          "9d903c51-64f4-43e5-b914-6832f8111668": {
+            "name": [
+              " \u043a\u0430\u043a"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "\u0434\u043e\u043b\u0436\u0435\u043d"
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "\u043a\u0430\u043a"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "\u043a\u0430\u043a"
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "\u0434\u043e\u043b\u0436\u0435\u043d"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "\u0434\u043e\u043b\u0436\u0435\u043d"
+            ]
+          }
+        },
+        "spa": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "Debes utilizar mascarilla solo si eres un trabajador de la salud, muestras s\u00edntomas de la COVID-19 (especialmente tos) o est\u00e1s cuidando a alguien que pueda tener COVID-19.\n\n"
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "Las mascarillas desechables s\u00f3lo se pueden usar una vez. Usar una mascarilla incorrectamente puede aumentar tu riesgo de infecci\u00f3n."
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "Si no est\u00e1s enfermo o cuidando a alguien que est\u00e1 enfermo, no uses mascarilla. Las mascarillas deben usarse preferiblemente por aquellos que est\u00e1n bajo u ofrecen atenci\u00f3n m\u00e9dica."
+            ]
+          },
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              "c\u00f3mo"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              ""
+            ]
+          },
+          "9d903c51-64f4-43e5-b914-6832f8111668": {
+            "name": [
+              "c\u00f3mo"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "debe "
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              ""
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "debe"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "deben debe"
+            ]
+          },
+          "89cb0735-eacc-43c0-b834-f6436e0cde7b": {
+            "name": [
+              "otras"
+            ]
+          },
+          "e2f2325a-13c6-4135-9857-6bf481e4a550": {
+            "name": [
+              "otras"
+            ]
+          },
+          "d954e40f-5b78-4495-a79f-177a10b5f088": {
+            "name": [
+              "otras"
+            ]
+          },
+          "4c6d9704-fdd0-4430-8b52-c6bfee4b947f": {
+            "name": [
+              "otras"
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "c\u00f3mo"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "c\u00f3mo"
+            ]
+          }
+        },
+        "ell": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "\u039c\u03ac\u03c3\u03ba\u03b1 \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03c2 \u03bc\u03cc\u03bd\u03bf \u03b1\u03bd \u03b5\u03af\u03c3\u03b1\u03b9 \u03b5\u03c0\u03b1\u03b3\u03b3\u03b5\u03bb\u03bc\u03b1\u03c4\u03af\u03b1\u03c2 \u03c5\u03b3\u03b5\u03af\u03b1\u03c2, \u03b1\u03bd \u03ad\u03c7\u03b5\u03b9\u03c2 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1 \u03c4\u03bf\u03c5 \u03b9\u03bf\u03cd (\u03b5\u03b9\u03b4\u03b9\u03ba\u03ac \u03b2\u03ae\u03c7\u03b1) \u03ae \u03b1\u03bd \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b6\u03b5\u03b9\u03c2 \u03ac\u03c4\u03bf\u03bc\u03bf \u03c0\u03bf\u03c5 \u03af\u03c3\u03c9\u03c2 \u03ad\u03c7\u03b5\u03b9 \u03c0\u03c1\u03bf\u03c3\u03b2\u03bb\u03b7\u03b8\u03b5\u03af \u03b1\u03c0\u03cc \u03c4\u03bf\u03bd \u03b9\u03cc. "
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "\u039f\u03b9 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2 \u03bc\u03af\u03b1\u03c2 \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2 \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd\u03c4\u03b1\u03b9 \u03bc\u03af\u03b1 \u03bc\u03cc\u03bd\u03bf \u03c6\u03bf\u03c1\u03ac. \u0397 \u03bb\u03ac\u03b8\u03bf\u03c2 \u03c7\u03c1\u03ae\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03bc\u03ac\u03c3\u03ba\u03b1\u03c2 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03b5\u03c0\u03af\u03c3\u03b7\u03c2 \u03bd\u03b1 \u03b1\u03c5\u03be\u03ae\u03c3\u03b5\u03b9 \u03c4\u03bf\u03bd \u03ba\u03af\u03bd\u03b4\u03c5\u03bd\u03bf \u03bc\u03cc\u03bb\u03c5\u03bd\u03c3\u03b7\u03c2. "
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "\u0391\u03bd \u03b4\u03b5\u03bd \u03b5\u03af\u03c3\u03b1\u03b9 \u03ac\u03c1\u03c1\u03c9\u03c3\u03c4\u03bf\u03c2 \u03ae \u03b1\u03bd \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b6\u03b5\u03b9\u03c2 \u03ac\u03c1\u03c1\u03c9\u03c3\u03c4\u03bf \u03ac\u03c4\u03bf\u03bc\u03bf, \u03c4\u03cc\u03c4\u03b5 \u03bc\u03ac\u03c3\u03ba\u03b5\u03c2 \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bd \u03bd\u03b1 \u03c6\u03bf\u03c1\u03ac\u03bd\u03b5 \u03ba\u03b1\u03c4\u03ac \u03c0\u03c1\u03bf\u03c4\u03af\u03bc\u03b7\u03c3\u03b7 \u03cc\u03c3\u03bf\u03b9 \u03c0\u03b1\u03c1\u03ad\u03c7\u03bf\u03c5\u03bd \u03b9\u03b1\u03c4\u03c1\u03b9\u03ba\u03ae \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1."
+            ]
+          }
+        },
+        "ita": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "Devi indossare la mascherina solo se sei un operatore sanitario, se stai mostrando sintomi della COVID-19 (in particolare la tosse) o se stai accudendo qualcuno che potrebbe avere COVID-19."
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "Le mascherine monouso possono essere utilizzate una sola volta. L'uso errato di una mascherina pu\u00f2 anche aumentare il rischio di infezione."
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "Se non si \u00e8 ammalati o se non si ci sta prendendo cura di qualcuno che \u00e8 malato, allora le mascherine andrebbero preferibilmente destinate all\u2019utilizzo da parte di coloro che si trovano a dover ricevere o ad offrire cure mediche.\n"
+            ]
+          },
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              " Come"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              " "
+            ]
+          },
+          "9d903c51-64f4-43e5-b914-6832f8111668": {
+            "name": [
+              " Come"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "dovrebbero"
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              ""
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "dovrebbero"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "dovrebbero"
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "Come"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "Come"
+            ]
+          }
+        },
+        "kaz": {
+          "a09a0cd4-9497-4d95-ae30-1eda544ff3b2": {
+            "text": [
+              "\u0415\u0433\u0435\u0440 \u0441\u0456\u0437 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430 \u049b\u044b\u0437\u043c\u0435\u0442\u043a\u0435\u0440\u0456 \u0431\u043e\u043b\u0441\u0430\u04a3\u044b\u0437, \u04e9\u0437\u0456\u04a3\u0456\u0437\u0434\u0435 COVID-19 \u0431\u0435\u043b\u0433\u0456\u043b\u0435\u0440\u0456\u043d (\u04d9\u0441\u0456\u0440\u0435\u0441\u0435 \u0436\u04e9\u0442\u0435\u043b) \u0431\u0430\u0439\u049b\u0430\u0441\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 COVID-19 \u0431\u0430\u0440 \u0431\u0456\u0440\u0435\u0443\u0433\u0435 \u043a\u04af\u0442\u0456\u043c \u0436\u0430\u0441\u0430\u0439\u0442\u044b\u043d \u0431\u043e\u043b\u0441\u0430\u04a3\u044b\u0437, \u043c\u0430\u0441\u043a\u0430 \u043a\u0438\u044e\u0456\u04a3\u0456\u0437 \u043a\u0435\u0440\u0435\u043a"
+            ]
+          },
+          "9916281a-c99d-468b-a07d-88a9d00dda8b": {
+            "text": [
+              "\u0411\u0456\u0440 \u0440\u0435\u0442 \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043b\u0430\u0442\u044b\u043d  \u043c\u0430\u0441\u043a\u0430\u043b\u0430\u0440\u0434\u044b \u0442\u0435\u043a \u0431\u0456\u0440 \u0440\u0435\u0442 \u049b\u043e\u043b\u0434\u0430\u043d\u0443\u0493\u0430 \u0431\u043e\u043b\u0430\u0434\u044b. \u041c\u0430\u0441\u043a\u0430\u043d\u044b \u0434\u04b1\u0440\u044b\u0441 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u0431\u0430\u0443 \u049b\u0430\u0442\u0430\u0440 \u0436\u04b1\u049b\u0442\u044b\u0440\u0443 \u049b\u0430\u0443\u043f\u0456\u043d \u0430\u0440\u0442\u0442\u044b\u0440\u0443\u044b \u043c\u04af\u043c\u043a\u0456\u043d."
+            ]
+          },
+          "75b843a4-380a-4b1f-803a-646f064b0849": {
+            "text": [
+              "\u0415\u0433\u0435\u0440 \u0441\u0456\u0437 \u0430\u0443\u044b\u0440\u043c\u0430\u0441\u0430\u04a3\u044b\u0437 \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0443\u0440\u0443\u0493\u0430 \u0448\u0430\u043b\u0434\u044b\u049b\u049b\u0430\u043d \u0430\u0434\u0430\u043c\u0493\u0430 \u043a\u04af\u0442\u0456\u043c \u0436\u0430\u0441\u0430\u043c\u0430\u0441\u0430\u04a3\u044b\u0437, \u043e\u043d\u0434\u0430 \u043c\u0430\u0441\u043a\u0430\u043d\u044b \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u043a\u04e9\u043c\u0435\u043a \u043a\u04e9\u0440\u0441\u0435\u0442\u0435\u0442\u0456\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u04b1\u0441\u044b\u043d\u0430\u0442\u044b\u043d \u0430\u0434\u0430\u043c\u0434\u0430\u0440\u0493\u0430 \u049b\u043e\u043b\u0434\u0430\u043d\u0493\u0430\u043d \u0434\u04b1\u0440\u044b\u0441."
+            ]
+          },
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              "\u049a\u0430\u043b\u0430\u0439"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              ""
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "\u049a\u0430\u043b\u0430\u0439"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "\u049a\u0430\u043b\u0430\u0439"
+            ]
+          }
+        },
+        "eng": {
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              "how"
+            ]
+          },
+          "89cb0735-eacc-43c0-b834-f6436e0cde7b": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              "how"
+            ]
+          },
+          "9d903c51-64f4-43e5-b914-6832f8111668": {
+            "name": [
+              "how"
+            ]
+          },
+          "d954e40f-5b78-4495-a79f-177a10b5f088": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "e2f2325a-13c6-4135-9857-6bf481e4a550": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "4c6d9704-fdd0-4430-8b52-c6bfee4b947f": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9"
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              "\u03c0\u03c1\u03ad\u03c0\u03b5\u03b9"
+            ]
+          }
+        },
+        "mkd": {
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              "\u043a\u0430\u043a\u043e"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              ""
+            ]
+          },
+          "9d903c51-64f4-43e5-b914-6832f8111668": {
+            "name": [
+              "\u043a\u0430\u043a\u043e"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "\u0442\u0440\u0435\u0431\u0430"
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              ""
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "\u0442\u0440\u0435\u0431\u0430"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "\u0442\u0440\u0435\u0431\u0430"
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "\u043a\u0430\u043a\u043e"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "\u043a\u0430\u043a\u043e"
+            ]
+          }
+        },
+        "tur": {
+          "3bae7d88-98f0-42df-9616-03e9ea589e39": {
+            "name": [
+              "Nas\u0131l"
+            ]
+          },
+          "d68ebe4e-8358-4617-a5b1-4143a6af34b3": {
+            "arguments": [
+              "Nas\u0131l"
+            ]
+          },
+          "e6d7c587-8c55-48c1-bcda-bdc180dd70e7": {
+            "name": [
+              "Nas\u0131l"
+            ]
+          },
+          "9285cb46-351c-4146-989d-bc0708b73bf8": {
+            "arguments": [
+              "Nas\u0131l"
+            ]
+          },
+          "1a9a545c-ff84-4edf-ac6b-f7cc83966b51": {
+            "name": [
+              "Meli"
+            ]
+          },
+          "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831": {
+            "arguments": [
+              "Meli"
+            ]
+          },
+          "518dc188-5f21-43a2-a334-73e4cd583171": {
+            "name": [
+              "Meli"
+            ]
+          },
+          "dc30ca7a-3922-4da0-b9d0-cea1c09f238b": {
+            "arguments": [
+              "Meli"
+            ]
+          },
+          "89cb0735-eacc-43c0-b834-f6436e0cde7b": {
+            "name": [
+              " Di\u011fer"
+            ]
+          },
+          "e2f2325a-13c6-4135-9857-6bf481e4a550": {
+            "name": [
+              " Di\u011fer"
+            ]
+          },
+          "80e1ac75-9e40-448e-b7b5-d1be04273f90": {
+            "name": [
+              " Di\u011fer"
+            ]
+          },
+          "4c6d9704-fdd0-4430-8b52-c6bfee4b947f": {
+            "name": [
+              " Di\u011fer"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "8388926f-36cf-42e9-8ee7-3cc9c829c93c",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "89cb0735-eacc-43c0-b834-f6436e0cde7b",
+            "categories": [
+              {
+                "uuid": "3bae7d88-98f0-42df-9616-03e9ea589e39",
+                "name": "How",
+                "exit_uuid": "65036dd2-38a5-4879-96ed-57cd10bc1608"
+              },
+              {
+                "uuid": "89cb0735-eacc-43c0-b834-f6436e0cde7b",
+                "name": "Other",
+                "exit_uuid": "d1aa07a7-8813-4904-9554-50de29b6a295"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "how"
+                ],
+                "type": "has_any_word",
+                "uuid": "d68ebe4e-8358-4617-a5b1-4143a6af34b3",
+                "category_uuid": "3bae7d88-98f0-42df-9616-03e9ea589e39"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "65036dd2-38a5-4879-96ed-57cd10bc1608",
+              "destination_uuid": "c8cc4c8d-e084-428d-ae00-c73e87f0cecf"
+            },
+            {
+              "uuid": "d1aa07a7-8813-4904-9554-50de29b6a295",
+              "destination_uuid": "496dc1c7-b915-4b23-8541-15643945b862"
+            }
+          ]
+        },
+        {
+          "uuid": "c8cc4c8d-e084-428d-ae00-c73e87f0cecf",
+          "actions": [
+            {
+              "uuid": "dfb302d6-5980-4f76-9d86-c6e7f05398e1",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "a548252e-f809-4b67-846b-9b500d0b048c",
+                "name": "Mask use"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "a71bc3ef-f243-4419-a7f2-e9321f6f6736",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "f8bb91ef-8996-4c9b-94e3-b28ca47b0752"
+              },
+              {
+                "uuid": "4495547e-7a06-4041-91df-a21fd539e2f2",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "e7aff572-ea3f-435b-ba33-177414539364"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "f8bb91ef-8996-4c9b-94e3-b28ca47b0752",
+                "name": "Complete",
+                "exit_uuid": "1ce3cecc-3841-4d5f-b66d-45adfe36b6ca"
+              },
+              {
+                "uuid": "e7aff572-ea3f-435b-ba33-177414539364",
+                "name": "Expired",
+                "exit_uuid": "fd1b2450-4cbf-4897-a434-0fe8035c42f0"
+              }
+            ],
+            "default_category_uuid": "e7aff572-ea3f-435b-ba33-177414539364"
+          },
+          "exits": [
+            {
+              "uuid": "1ce3cecc-3841-4d5f-b66d-45adfe36b6ca",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "fd1b2450-4cbf-4897-a434-0fe8035c42f0",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "496dc1c7-b915-4b23-8541-15643945b862",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "80e1ac75-9e40-448e-b7b5-d1be04273f90",
+            "categories": [
+              {
+                "uuid": "e6d7c587-8c55-48c1-bcda-bdc180dd70e7",
+                "name": "How",
+                "exit_uuid": "3b517adc-344d-4502-bf99-e1c797d00ffd"
+              },
+              {
+                "uuid": "80e1ac75-9e40-448e-b7b5-d1be04273f90",
+                "name": "Other",
+                "exit_uuid": "c50e776f-f694-4db9-ae69-e6b4bb55b472"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "how"
+                ],
+                "type": "has_any_word",
+                "uuid": "9285cb46-351c-4146-989d-bc0708b73bf8",
+                "category_uuid": "e6d7c587-8c55-48c1-bcda-bdc180dd70e7"
+              }
+            ],
+            "operand": "@fields.message"
+          },
+          "exits": [
+            {
+              "uuid": "3b517adc-344d-4502-bf99-e1c797d00ffd",
+              "destination_uuid": "c8cc4c8d-e084-428d-ae00-c73e87f0cecf"
+            },
+            {
+              "uuid": "c50e776f-f694-4db9-ae69-e6b4bb55b472",
+              "destination_uuid": "2b470456-6c8c-4568-9bbc-4d7b31e88da3"
+            }
+          ]
+        },
+        {
+          "uuid": "2b470456-6c8c-4568-9bbc-4d7b31e88da3",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "e2f2325a-13c6-4135-9857-6bf481e4a550",
+            "categories": [
+              {
+                "uuid": "1a9a545c-ff84-4edf-ac6b-f7cc83966b51",
+                "name": "Should",
+                "exit_uuid": "1164a7c3-3541-4aa0-8b0c-18628cd71c84"
+              },
+              {
+                "uuid": "e2f2325a-13c6-4135-9857-6bf481e4a550",
+                "name": "Other",
+                "exit_uuid": "8f084ff3-9265-43dd-a235-cf3dacf517a7"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "should"
+                ],
+                "type": "has_any_word",
+                "uuid": "f1b3d31a-f27f-4f9a-bbc5-aadbd89df831",
+                "category_uuid": "1a9a545c-ff84-4edf-ac6b-f7cc83966b51"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "1164a7c3-3541-4aa0-8b0c-18628cd71c84",
+              "destination_uuid": "a040c7f3-2d1a-4cef-9027-f1d2e0b285c7"
+            },
+            {
+              "uuid": "8f084ff3-9265-43dd-a235-cf3dacf517a7",
+              "destination_uuid": "03528919-af56-440a-b22c-4d9929d1b998"
+            }
+          ]
+        },
+        {
+          "uuid": "a040c7f3-2d1a-4cef-9027-f1d2e0b285c7",
+          "actions": [
+            {
+              "uuid": "4c16bedd-fcca-4936-b088-125c307669bc",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "653509c8-1fde-4cf0-be66-0db4d6e52805",
+                "name": "Should wear mask"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "9b02f636-4b14-4b25-86f1-ffd620efb758",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "6c172328-955d-46b9-9398-7c455400efdd"
+              },
+              {
+                "uuid": "17ee6b86-f01a-4f3b-86e9-b99e6efc21fd",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "3f820a0c-a80f-4d2f-bb95-048634e0d372"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "6c172328-955d-46b9-9398-7c455400efdd",
+                "name": "Complete",
+                "exit_uuid": "7afea416-c2d9-47d5-97d4-47bd5c7e7355"
+              },
+              {
+                "uuid": "3f820a0c-a80f-4d2f-bb95-048634e0d372",
+                "name": "Expired",
+                "exit_uuid": "8f84a3a4-4d89-4041-9ded-4eb5dbefa8c6"
+              }
+            ],
+            "default_category_uuid": "3f820a0c-a80f-4d2f-bb95-048634e0d372"
+          },
+          "exits": [
+            {
+              "uuid": "7afea416-c2d9-47d5-97d4-47bd5c7e7355",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "8f84a3a4-4d89-4041-9ded-4eb5dbefa8c6",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "03528919-af56-440a-b22c-4d9929d1b998",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "4c6d9704-fdd0-4430-8b52-c6bfee4b947f",
+            "categories": [
+              {
+                "uuid": "518dc188-5f21-43a2-a334-73e4cd583171",
+                "name": "Should",
+                "exit_uuid": "26d6c814-fcd2-405f-a775-b1ef5591b57b"
+              },
+              {
+                "uuid": "4c6d9704-fdd0-4430-8b52-c6bfee4b947f",
+                "name": "Other",
+                "exit_uuid": "5cac3d75-25c5-404e-9673-9f7bcf44b945"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "should"
+                ],
+                "type": "has_any_word",
+                "uuid": "dc30ca7a-3922-4da0-b9d0-cea1c09f238b",
+                "category_uuid": "518dc188-5f21-43a2-a334-73e4cd583171"
+              }
+            ],
+            "operand": "@fields.message"
+          },
+          "exits": [
+            {
+              "uuid": "26d6c814-fcd2-405f-a775-b1ef5591b57b",
+              "destination_uuid": "a040c7f3-2d1a-4cef-9027-f1d2e0b285c7"
+            },
+            {
+              "uuid": "5cac3d75-25c5-404e-9673-9f7bcf44b945",
+              "destination_uuid": "7f068b42-1bd6-4329-b8f6-00ce0016ac3a"
+            }
+          ]
+        },
+        {
+          "uuid": "7f068b42-1bd6-4329-b8f6-00ce0016ac3a",
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "noentity",
+              "value": "on",
+              "category": "",
+              "uuid": "727ac4cd-47d0-46d7-8a3c-6a47aba79ada"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "c5391e62-8c49-4508-a067-184e263fc7a8",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "message",
+      "name": "Message",
+      "type": "text"
+    }
+  ],
+  "groups": []
+}

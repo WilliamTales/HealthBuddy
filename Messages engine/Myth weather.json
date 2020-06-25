@@ -1,0 +1,313 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "d61ca9c3-1f0e-455b-86a1-9e1642af5812": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 380,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "3866c048-822c-41a9-bde9-0a047010fb20": {
+            "config": {},
+            "position": {
+              "left": 160,
+              "top": 60
+            },
+            "type": "split_by_subflow"
+          },
+          "ce1950ca-e4e9-40c6-82d2-431ee43399f6": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 380,
+              "top": 160
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "3f6b3898-db25-49db-8e79-67f0f2fb8eda": {
+            "config": {},
+            "position": {
+              "left": 160,
+              "top": 220
+            },
+            "type": "split_by_subflow"
+          },
+          "97839509-6ac3-4d6a-96f5-cc9f67fc840b": {
+            "position": {
+              "left": 160,
+              "top": 360
+            },
+            "type": "execute_actions"
+          },
+          "e9e75f20-112c-402b-bba2-cf1aa09c8b79": {
+            "position": {
+              "left": 380,
+              "top": 360
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "expire_after_minutes": 10080,
+      "language": "eng",
+      "localization": {},
+      "metadata": {
+        "revision": 1
+      },
+      "name": "Myth weather",
+      "nodes": [
+        {
+          "uuid": "d61ca9c3-1f0e-455b-86a1-9e1642af5812",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "eff7bff0-01b1-431b-aa49-0798d28c5dea",
+            "categories": [
+              {
+                "exit_uuid": "a6c7260e-ccb5-44b9-ab94-3b4ab60a414b",
+                "name": "Myth hot weather",
+                "uuid": "7c5092a3-386f-42b8-8434-87445feca105"
+              },
+              {
+                "exit_uuid": "a7862108-bc35-4093-8af9-7502fae4663e",
+                "name": "Other",
+                "uuid": "eff7bff0-01b1-431b-aa49-0798d28c5dea"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "hot"
+                ],
+                "type": "has_any_word",
+                "uuid": "cd33c01f-3e8b-405e-bd5d-e6c2d19acd76",
+                "category_uuid": "7c5092a3-386f-42b8-8434-87445feca105"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "3866c048-822c-41a9-bde9-0a047010fb20",
+              "uuid": "a6c7260e-ccb5-44b9-ab94-3b4ab60a414b"
+            },
+            {
+              "destination_uuid": "ce1950ca-e4e9-40c6-82d2-431ee43399f6",
+              "uuid": "a7862108-bc35-4093-8af9-7502fae4663e"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths - hot weather",
+                "uuid": "1b8032c1-0118-4e49-839f-a4e29eed3461"
+              },
+              "type": "enter_flow",
+              "uuid": "64939f57-a37e-4744-8d16-ccb1c18c8550"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "97839509-6ac3-4d6a-96f5-cc9f67fc840b",
+              "uuid": "74e8b4fc-3cff-40df-9f9c-183cdde09634"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "057b003d-62fc-4d48-a6c0-64f9efea0f0b"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "3e56366a-d855-449c-a0d6-6a466d75f67e",
+                "type": "has_only_text",
+                "uuid": "9a5f39d9-5bb8-4465-a285-e4ff70258197"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "0f8452f0-408f-40d2-b945-d56cec033d13",
+                "type": "has_only_text",
+                "uuid": "3f58036d-bc7a-4c5c-909b-9f79d486a174"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "74e8b4fc-3cff-40df-9f9c-183cdde09634",
+                "name": "Complete",
+                "uuid": "3e56366a-d855-449c-a0d6-6a466d75f67e"
+              },
+              {
+                "exit_uuid": "057b003d-62fc-4d48-a6c0-64f9efea0f0b",
+                "name": "Expired",
+                "uuid": "0f8452f0-408f-40d2-b945-d56cec033d13"
+              }
+            ],
+            "default_category_uuid": "0f8452f0-408f-40d2-b945-d56cec033d13",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "3866c048-822c-41a9-bde9-0a047010fb20"
+        },
+        {
+          "uuid": "ce1950ca-e4e9-40c6-82d2-431ee43399f6",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "8791615e-36a2-4f1d-8471-821c86ef93fd",
+            "categories": [
+              {
+                "exit_uuid": "89e07576-0964-4695-81cf-1b75639101d0",
+                "name": "Myth cold weather",
+                "uuid": "9ecce075-afb5-4b32-aba0-36a0e938b82b"
+              },
+              {
+                "exit_uuid": "ecf4d38c-6d90-4ef0-a9cd-a2f2864c4cd3",
+                "name": "Other",
+                "uuid": "8791615e-36a2-4f1d-8471-821c86ef93fd"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "cold"
+                ],
+                "type": "has_any_word",
+                "uuid": "88f40aa6-5c1d-43b4-8631-af9060aacba3",
+                "category_uuid": "9ecce075-afb5-4b32-aba0-36a0e938b82b"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "destination_uuid": "3f6b3898-db25-49db-8e79-67f0f2fb8eda",
+              "uuid": "89e07576-0964-4695-81cf-1b75639101d0"
+            },
+            {
+              "destination_uuid": "e9e75f20-112c-402b-bba2-cf1aa09c8b79",
+              "uuid": "ecf4d38c-6d90-4ef0-a9cd-a2f2864c4cd3"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "flow": {
+                "name": "Myths - cold weather",
+                "uuid": "7daeb2ea-1fb8-4d4b-8a5b-4ad5a151f62a"
+              },
+              "type": "enter_flow",
+              "uuid": "fb8261ef-4e82-407e-a133-74df7c77218e"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "97839509-6ac3-4d6a-96f5-cc9f67fc840b",
+              "uuid": "810f64f7-2258-4dce-8cc5-a57b494ff902"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "981e8ba7-6891-4f49-871a-48d1fb82fdfd"
+            }
+          ],
+          "router": {
+            "cases": [
+              {
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "03fca719-d63d-43b7-9508-7e9a89ac147a",
+                "type": "has_only_text",
+                "uuid": "0b97c406-4af3-4f64-8704-664257b74d1b"
+              },
+              {
+                "arguments": [
+                  "expired"
+                ],
+                "category_uuid": "83ed8df3-97d5-4eeb-a0c3-40cadc695dc6",
+                "type": "has_only_text",
+                "uuid": "7cd3d34b-e588-4387-9ae6-fa586a2de03e"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "810f64f7-2258-4dce-8cc5-a57b494ff902",
+                "name": "Complete",
+                "uuid": "03fca719-d63d-43b7-9508-7e9a89ac147a"
+              },
+              {
+                "exit_uuid": "981e8ba7-6891-4f49-871a-48d1fb82fdfd",
+                "name": "Expired",
+                "uuid": "83ed8df3-97d5-4eeb-a0c3-40cadc695dc6"
+              }
+            ],
+            "default_category_uuid": "83ed8df3-97d5-4eeb-a0c3-40cadc695dc6",
+            "operand": "@child.run.status",
+            "type": "switch"
+          },
+          "uuid": "3f6b3898-db25-49db-8e79-67f0f2fb8eda"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "ad109e70-e25d-4ed5-b289-d7eebd8ebf55",
+              "value": "off"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "8906c812-bca8-4cfe-9f2c-3d59127b35d0"
+            }
+          ],
+          "uuid": "97839509-6ac3-4d6a-96f5-cc9f67fc840b"
+        },
+        {
+          "actions": [
+            {
+              "category": "",
+              "name": "noentity",
+              "type": "set_run_result",
+              "uuid": "744e30f1-4426-4675-9653-720ca5d00d2d",
+              "value": "on"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": null,
+              "uuid": "428a329e-0b9f-4f84-ba39-3305dbcc9e57"
+            }
+          ],
+          "uuid": "e9e75f20-112c-402b-bba2-cf1aa09c8b79"
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "636508ed-50fd-485d-8b51-7d1596dfb2ea",
+      "revision": 9
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}

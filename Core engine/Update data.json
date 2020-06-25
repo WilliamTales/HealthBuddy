@@ -1,0 +1,349 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "_ui": {
+        "nodes": {
+          "44c3ba71-0b59-4fd4-9b17-a250c097a7d6": {
+            "position": {
+              "left": 380,
+              "top": 0
+            },
+            "type": "execute_actions"
+          },
+          "9418fb70-44ed-470e-870c-1022d29041c2": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 640,
+              "top": 20
+            },
+            "config": {}
+          },
+          "fa72c2c8-9396-42c9-9f88-c44a48461391": {
+            "position": {
+              "left": 380,
+              "top": 440
+            },
+            "type": "execute_actions"
+          },
+          "7ef5a4cf-4900-41cd-ab66-1c5485668a2a": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 620,
+              "top": 720
+            },
+            "config": {}
+          },
+          "eeb77712-dd60-42dc-bbe2-5de20111fa3e": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 620,
+              "top": 960
+            },
+            "config": {}
+          },
+          "89702fff-a5cc-4072-b1bc-a9ba8a2314dc": {
+            "type": "split_by_webhook",
+            "position": {
+              "left": 620,
+              "top": 1200
+            },
+            "config": {}
+          }
+        },
+        "stickies": {}
+      },
+      "expire_after_minutes": 60,
+      "language": "eng",
+      "localization": {},
+      "metadata": {
+        "revision": 45
+      },
+      "name": "Update data",
+      "nodes": [
+        {
+          "uuid": "44c3ba71-0b59-4fd4-9b17-a250c097a7d6",
+          "actions": [
+            {
+              "uuid": "ec8ad307-f485-4874-af93-040a5752f34e",
+              "type": "set_contact_field",
+              "field": {
+                "key": "data_update",
+                "name": "Data update"
+              },
+              "value": "@(date(now()))"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "ca2cc713-54e8-40dc-8f24-739b8e7aa919",
+              "destination_uuid": "9418fb70-44ed-470e-870c-1022d29041c2"
+            }
+          ]
+        },
+        {
+          "uuid": "9418fb70-44ed-470e-870c-1022d29041c2",
+          "actions": [
+            {
+              "uuid": "1b6e0633-644a-430e-ae48-bc0eb189732e",
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/ncov_cases/FeatureServer/1/query?f=json&where=Confirmed>0&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&outStatistics=[{\"statisticType\":\"sum\",\"onStatisticField\":\"Deaths\",\"outStatisticFieldName\":\"dvalue\"},{\"statisticType\":\"sum\",\"onStatisticField\":\"Recovered\",\"outStatisticFieldName\":\"rvalue\"},{\"statisticType\":\"sum\",\"onStatisticField\":\"Confirmed\",\"outStatisticFieldName\":\"cvalue\"}]&cacheHint=true",
+              "body": "",
+              "method": "GET",
+              "result_name": "data"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.data.category",
+            "cases": [
+              {
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "762616e2-2319-46d6-aa8a-3a01c97971ce",
+                "type": "has_only_text",
+                "uuid": "47ce7b99-c780-4ca0-8cd5-ae412325749e"
+              }
+            ],
+            "categories": [
+              {
+                "exit_uuid": "59e1676d-38ff-4f4b-bc91-59d2d0fdcef6",
+                "name": "Success",
+                "uuid": "762616e2-2319-46d6-aa8a-3a01c97971ce"
+              },
+              {
+                "exit_uuid": "3b1ed612-6970-41a1-b66a-27fb48aecc37",
+                "name": "Failure",
+                "uuid": "e4445004-e638-4002-a8b1-1e3bea8eb1f1"
+              }
+            ],
+            "default_category_uuid": "e4445004-e638-4002-a8b1-1e3bea8eb1f1"
+          },
+          "exits": [
+            {
+              "destination_uuid": "fa72c2c8-9396-42c9-9f88-c44a48461391",
+              "uuid": "59e1676d-38ff-4f4b-bc91-59d2d0fdcef6"
+            },
+            {
+              "destination_uuid": null,
+              "uuid": "3b1ed612-6970-41a1-b66a-27fb48aecc37"
+            }
+          ]
+        },
+        {
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "totalDvalue",
+              "value": "@webhook.features.0.attributes.dvalue",
+              "category": "Death",
+              "uuid": "792ce02a-4f55-4da2-ac4b-25a196329dbd"
+            },
+            {
+              "type": "set_run_result",
+              "name": "totalRvalue",
+              "value": "@webhook.features.0.attributes.rvalue",
+              "category": "Recovered",
+              "uuid": "6bc769c3-7f5b-4af5-adcc-a79a2f0fbf0d"
+            },
+            {
+              "category": "Confirmed",
+              "name": "totalCvalue",
+              "type": "set_run_result",
+              "uuid": "8550d834-0528-4d31-9250-e4193654922f",
+              "value": "@webhook.features.0.attributes.cvalue"
+            }
+          ],
+          "exits": [
+            {
+              "destination_uuid": "7ef5a4cf-4900-41cd-ab66-1c5485668a2a",
+              "uuid": "363dff2c-b506-4b00-a240-1d829bf0d06a"
+            }
+          ],
+          "uuid": "fa72c2c8-9396-42c9-9f88-c44a48461391"
+        },
+        {
+          "uuid": "7ef5a4cf-4900-41cd-ab66-1c5485668a2a",
+          "actions": [
+            {
+              "uuid": "b07be66d-aaeb-4e09-9059-1f76cfd69786",
+              "headers": {
+                "Authorization": "token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=total_confirmed",
+              "body": "{\n    \"value\": @results.totalcvalue\n}",
+              "method": "POST",
+              "result_name": "update confirmed"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.update_confirmed.category",
+            "cases": [
+              {
+                "uuid": "0bc5c7b9-0d76-47bd-8e5d-ddc6b93f54f7",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "922e1e14-b438-425f-9efe-e3178947f412"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "922e1e14-b438-425f-9efe-e3178947f412",
+                "name": "Success",
+                "exit_uuid": "28458eb8-fd96-4300-a6c2-ea2ec55d01dc"
+              },
+              {
+                "uuid": "63c550c3-3e24-4da5-8a87-d9a166279510",
+                "name": "Failure",
+                "exit_uuid": "3e413d9c-bff6-44eb-90d9-55109d1db40d"
+              }
+            ],
+            "default_category_uuid": "63c550c3-3e24-4da5-8a87-d9a166279510"
+          },
+          "exits": [
+            {
+              "uuid": "28458eb8-fd96-4300-a6c2-ea2ec55d01dc",
+              "destination_uuid": "eeb77712-dd60-42dc-bbe2-5de20111fa3e"
+            },
+            {
+              "uuid": "3e413d9c-bff6-44eb-90d9-55109d1db40d",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "eeb77712-dd60-42dc-bbe2-5de20111fa3e",
+          "actions": [
+            {
+              "uuid": "b1840a70-cc97-4d17-ab48-fdb1fdd46928",
+              "headers": {
+                "Authorization": "token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=total_recovered",
+              "body": "{\n    \"value\": @results.totalrvalue\n}",
+              "method": "POST",
+              "result_name": "update recovered"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.update_recovered.category",
+            "cases": [
+              {
+                "uuid": "c11c2d33-a41e-463b-a8b8-e6db1d2b177f",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "9524676b-ffdf-46ed-8a08-c15f262a2909"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "9524676b-ffdf-46ed-8a08-c15f262a2909",
+                "name": "Success",
+                "exit_uuid": "9d9bdc02-5373-404f-8ff2-4f7e6d50ab8f"
+              },
+              {
+                "uuid": "83476c37-ccfe-40cc-a98e-9192c6afbed3",
+                "name": "Failure",
+                "exit_uuid": "0f810e6e-0528-4e5d-a994-e10ee229b6b2"
+              }
+            ],
+            "default_category_uuid": "83476c37-ccfe-40cc-a98e-9192c6afbed3"
+          },
+          "exits": [
+            {
+              "uuid": "9d9bdc02-5373-404f-8ff2-4f7e6d50ab8f",
+              "destination_uuid": "89702fff-a5cc-4072-b1bc-a9ba8a2314dc"
+            },
+            {
+              "uuid": "0f810e6e-0528-4e5d-a994-e10ee229b6b2",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "89702fff-a5cc-4072-b1bc-a9ba8a2314dc",
+          "actions": [
+            {
+              "uuid": "20011b05-f715-4fe5-84c1-816bd496124f",
+              "headers": {
+                "Authorization": "token d75d22052aa49cc76826c488d3198e3db83018d3",
+                "Content-Type": "application/json"
+              },
+              "type": "call_webhook",
+              "url": "https://rapidpro.ilhasoft.mobi/api/v2/globals.json?key=total_deaths",
+              "body": "{\n    \"value\": @results.totaldvalue\n}",
+              "method": "POST",
+              "result_name": "update deaths"
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@results.update_deaths.category",
+            "cases": [
+              {
+                "uuid": "0d89173a-263c-4b24-be89-2fb31603a198",
+                "type": "has_only_text",
+                "arguments": [
+                  "Success"
+                ],
+                "category_uuid": "5110f53b-d06b-4f87-ae5f-58fbbfdd7b85"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "5110f53b-d06b-4f87-ae5f-58fbbfdd7b85",
+                "name": "Success",
+                "exit_uuid": "fa46e748-a18d-451f-be09-0506a778fa8c"
+              },
+              {
+                "uuid": "2f8d2347-51f1-472f-b1ed-3e9f271cba02",
+                "name": "Failure",
+                "exit_uuid": "bf7b9c66-c939-4b33-a0aa-746db90ff30c"
+              }
+            ],
+            "default_category_uuid": "2f8d2347-51f1-472f-b1ed-3e9f271cba02"
+          },
+          "exits": [
+            {
+              "uuid": "fa46e748-a18d-451f-be09-0506a778fa8c",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "bf7b9c66-c939-4b33-a0aa-746db90ff30c",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ],
+      "spec_version": "13.1.0",
+      "type": "messaging",
+      "uuid": "5976fdfe-0aa2-4533-b410-0517ad54079d",
+      "revision": 46
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [
+    {
+      "key": "data_update",
+      "name": "Data update",
+      "type": "datetime"
+    }
+  ],
+  "groups": []
+}

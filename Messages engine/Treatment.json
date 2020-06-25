@@ -1,0 +1,1221 @@
+{
+  "version": "13",
+  "site": "https://rapidpro.ilhasoft.mobi",
+  "flows": [
+    {
+      "name": "Treatment",
+      "uuid": "86158c49-0e93-42d8-a818-f09e431c584b",
+      "spec_version": "13.1.0",
+      "language": "eng",
+      "type": "messaging",
+      "_ui": {
+        "nodes": {
+          "8f399c31-5dd3-4b9d-9c41-cec213474461": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 420,
+              "top": 0
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "1c2c08f7-ea06-4b83-93b0-c22c49e12ab0": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 200,
+              "top": 60
+            },
+            "config": {}
+          },
+          "50d154a9-d8a0-43e0-a084-1e8ed2fb0f9f": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 420,
+              "top": 180
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "e07573cf-fe37-4bec-85d2-126d05cfb4aa": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 200,
+              "top": 240
+            },
+            "config": {}
+          },
+          "26f670ef-79a2-4637-bd28-78dcbb2b916e": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 420,
+              "top": 360
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "49ecc58d-e340-4ed6-b7e1-6dad64871693": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 200,
+              "top": 420
+            },
+            "config": {}
+          },
+          "ff6b4bfa-27db-451e-bbdd-2525b33091ef": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 420,
+              "top": 540
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "4686382a-681f-492f-a760-be26e52d9581": {
+            "type": "split_by_subflow",
+            "position": {
+              "left": 200,
+              "top": 600
+            },
+            "config": {}
+          },
+          "92ddeb30-5e6c-4f00-b766-416aa6561e09": {
+            "type": "split_by_expression",
+            "position": {
+              "left": 420,
+              "top": 720
+            },
+            "config": {
+              "cases": {}
+            }
+          },
+          "8a83d76a-fa69-4b78-8329-e5d30b9e4c6e": {
+            "position": {
+              "left": 200,
+              "top": 780
+            },
+            "type": "execute_actions"
+          },
+          "ac2f1df7-56a2-45b6-b1c9-e89d02af417d": {
+            "position": {
+              "left": 400,
+              "top": 1360
+            },
+            "type": "execute_actions"
+          }
+        }
+      },
+      "revision": 199,
+      "expire_after_minutes": 10080,
+      "metadata": {
+        "revision": 196
+      },
+      "localization": {
+        "por": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "Ainda n\u00e3o existe vacina nem medicamento antiviral espec\u00edfico para prevenir ou tratar o COVID-2019."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "Mas cuidados direcionados podem aliviar os sintomas."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "Pessoas com doen\u00e7as graves devem ser hospitalizadas. A maioria dos pacientes se recupera gra\u00e7as aos cuidados de suporte."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "Poss\u00edveis vacinas e alguns tratamentos medicamentosos espec\u00edficos est\u00e3o sendo desenvolvidos."
+            ]
+          }
+        },
+        "rus": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "\u041f\u043e\u043a\u0430 \u043d\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0445 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u043e\u0432 \u0434\u043b\u044f \u043f\u0440\u043e\u0444\u0438\u043b\u0430\u043a\u0442\u0438\u043a\u0438 \u0438\u043b\u0438 \u043b\u0435\u0447\u0435\u043d\u0438\u044f COVID-2019."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "\u041d\u043e \u0446\u0435\u043b\u0435\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u043f\u043e\u043c\u043e\u0449\u044c \u043c\u043e\u0436\u0435\u0442 \u043e\u0431\u043b\u0435\u0433\u0447\u0438\u0442\u044c \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u044b."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "\u041b\u044e\u0434\u0438 \u0441 \u0442\u044f\u0436\u0435\u043b\u044b\u043c \u0442\u0435\u0447\u0435\u043d\u0438\u0435\u043c \u0437\u0430\u0431\u043e\u043b\u0435\u0432\u0430\u043d\u0438\u044f \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u0433\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u044b. \u0411\u043e\u043b\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u043e \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u043e\u0432 \u0432\u044b\u0437\u0434\u043e\u0440\u0430\u0432\u043b\u0438\u0432\u0430\u044e\u0442 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u044e\u0449\u0435\u0439 \u0442\u0435\u0440\u0430\u043f\u0438\u0438."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0432\u0435\u0434\u0435\u0442\u0441\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u043d\u0430\u0434 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u0435\u043c \u0432\u0430\u043a\u0446\u0438\u043d\u044b \u0438 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043f\u0440\u0435\u043f\u0430\u0440\u0430\u0442\u043e\u0432."
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "\u043b\u0435\u0447\u0435\u043d\u0438\u0435"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "\u041c\u0438\u0444\u044b \u043b\u0435\u043a\u0430\u0440\u0441\u0442\u0432\u0430 "
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "\u0432\u0430\u043a\u0446\u0438\u043d\u0430"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              "\u041c\u0438\u0444\u044b \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438"
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0438"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "spa": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "Todav\u00eda no existe una vacuna ni un medicamento antiviral espec\u00edfico para prevenir o tratar el COVID-2019."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "No obstante, una atenci\u00f3n especializada puede aliviar los s\u00edntomas."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "Las personas con enfermedades graves deben ser hospitalizadas. La mayor\u00eda de los pacientes se recuperan gracias a la atenci\u00f3n m\u00e9dica."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "Se est\u00e1n desarrollando y probando posibles vacunas y algunos tratamientos farmacol\u00f3gicos."
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "vacuna"
+            ]
+          },
+          "6c23ddb7-17ea-4fdc-88b5-8bc12bea4809": {
+            "name": [
+              "others"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "891421ef-54f3-4a47-99c6-efc984a73577": {
+            "name": [
+              "others"
+            ]
+          },
+          "5f1c9639-6e1e-46c5-a8a1-75bf8d7f8c72": {
+            "name": [
+              "others"
+            ]
+          },
+          "04a1349e-be8f-4d4b-9249-9f5662d73b61": {
+            "name": [
+              "others"
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "tratamiento"
+            ]
+          },
+          "938d0a65-0d73-4e65-918a-7051daa3a53a": {
+            "name": [
+              "others"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "mitos tratamiento"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "antibi\u00f3ticos"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              " mitos antibi\u00f3ticos"
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ell": {
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "\u0391\u03c5\u03c4\u03ae \u03c4\u03b7 \u03c3\u03c4\u03b9\u03b3\u03bc\u03ae \u03ba\u03b1\u03c4\u03b1\u03c3\u03ba\u03b5\u03c5\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03ba\u03b1\u03b9 \u03b4\u03bf\u03ba\u03b9\u03bc\u03ac\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03c0\u03b9\u03b8\u03b1\u03bd\u03ac \u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03b1 \u03ba\u03b1\u03b9 \u03c3\u03c5\u03b3\u03ba\u03b5\u03ba\u03c1\u03b9\u03bc\u03ad\u03bd\u03b5\u03c2 \u03c6\u03b1\u03c1\u03bc\u03b1\u03ba\u03b5\u03c5\u03c4\u03b9\u03ba\u03ad\u03c2 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b5\u03c2."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "\u0386\u03c4\u03bf\u03bc\u03b1 \u03bc\u03b5 \u03c3\u03bf\u03b2\u03b1\u03c1\u03ad\u03c2 \u03c0\u03b1\u03b8\u03ae\u03c3\u03b5\u03b9\u03c2 \u03b8\u03b1 \u03c0\u03c1\u03ad\u03c0\u03b5\u03b9 \u03bd\u03b1 \u03bd\u03bf\u03c3\u03b7\u03bb\u03b5\u03cd\u03bf\u03bd\u03c4\u03b1\u03b9. \u039f\u03b9 \u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03bf\u03b9 \u03b1\u03c3\u03b8\u03b5\u03bd\u03b5\u03af\u03c2 \u03b1\u03bd\u03b1\u03c1\u03c1\u03ce\u03bd\u03bf\u03c5\u03bd \u03c7\u03ac\u03c1\u03b7 \u03c3\u03c4\u03b7\u03bd \u03c5\u03c0\u03bf\u03c3\u03c4\u03b7\u03c1\u03b9\u03ba\u03c4\u03b9\u03ba\u03ae \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "\u0391\u03bb\u03bb\u03ac \u03b7 \u03c3\u03c4\u03bf\u03c7\u03b5\u03c5\u03bc\u03ad\u03bd\u03b7 \u03c6\u03c1\u03bf\u03bd\u03c4\u03af\u03b4\u03b1 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b1\u03bd\u03b1\u03ba\u03bf\u03c5\u03c6\u03af\u03c3\u03b5\u03b9 \u03c4\u03b1 \u03c3\u03c5\u03bc\u03c0\u03c4\u03ce\u03bc\u03b1\u03c4\u03b1."
+            ]
+          },
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "\u039c\u03ad\u03c7\u03c1\u03b9 \u03c4\u03ce\u03c1\u03b1 \u03b4\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1 \u03b3\u03b9\u03b1 \u03c4\u03b7 \u03bd\u03cc\u03c3\u03bf COVID-19 \u03bf\u03cd\u03c4\u03b5 \u03c3\u03c5\u03b3\u03ba\u03b5\u03ba\u03c1\u03b9\u03bc\u03ad\u03bd\u03bf \u03b1\u03bd\u03c4\u03b9\u03b9\u03ba\u03cc \u03c6\u03ac\u03c1\u03bc\u03b1\u03ba\u03bf \u03b3\u03b9\u03b1 \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7 \u03ae \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1."
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "\u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1"
+            ]
+          },
+          "938d0a65-0d73-4e65-918a-7051daa3a53a": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          },
+          "04a1349e-be8f-4d4b-9249-9f5662d73b61": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "6c23ddb7-17ea-4fdc-88b5-8bc12bea4809": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "891421ef-54f3-4a47-99c6-efc984a73577": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "5f1c9639-6e1e-46c5-a8a1-75bf8d7f8c72": {
+            "name": [
+              "\u0386\u03bb\u03bb\u03bf"
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03b8\u03b5\u03c1\u03b1\u03c0\u03b5\u03af\u03b1"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              "\u039c\u03cd\u03b8\u03bf\u03b9 \u03c0\u03c1\u03cc\u03bb\u03b7\u03c8\u03b7"
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "\u03b5\u03bc\u03b2\u03cc\u03bb\u03b9\u03bf"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "\u03b1\u03bd\u03c4\u03b9\u03b2\u03b9\u03bf\u03c4\u03b9\u03ba\u03ac"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "ita": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "Attualmente, non vi sono vaccini o farmaci antivirali per prevenire o trattare COVID-19. "
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "Tuttavia, vi sono terapie mirate che possono alleviare i sintomi. "
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "I pazienti con malattie gravi devono essere ricoverati in ospedale. La maggior parte dei pazienti riesce a guarire grazie a terapie di supporto.  "
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "Sono attualmente in via di sviluppo vaccini e altri farmaci specifici per trattare la COVID-19. "
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "vaccino"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              "Miti antibiotici"
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "antibiotici"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "miti medicinale"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "Trattamento"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "kaz": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "COVID-2019-\u0434\u044b\u04a3 \u0430\u043b\u0434\u044b\u043d-\u0430\u043b\u0443 \u043d\u0435\u043c\u0435\u0441\u0435 \u0435\u043c\u0434\u0435\u0443 \u04af\u0448\u0456\u043d \u04d9\u043b\u0456 \u0434\u0435 \u0432\u0430\u043a\u0446\u0438\u043d\u0430 \u0436\u04d9\u043d\u0435 \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a \u0436\u043e\u049b."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "\u0411\u0456\u0440\u0430\u049b \u043c\u0430\u049b\u0441\u0430\u0442\u0442\u044b \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u043a\u04e9\u043c\u0435\u043a \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0434\u0430\u0440\u0434\u044b \u0436\u0435\u04a3\u0456\u043b\u0434\u0435\u0442\u0435 \u0430\u043b\u0430\u0434\u044b."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "\u0410\u0443\u044b\u0440 \u0430\u0443\u0440\u0443\u044b \u0431\u0430\u0440 \u0430\u0434\u0430\u043c\u0434\u0430\u0440 \u0430\u0443\u0440\u0443\u0445\u0430\u043d\u0430\u0493\u0430 \u0436\u0430\u0442\u049b\u044b\u0437\u044b\u043b\u0443\u044b \u0442\u0438\u0456\u0441. \u041f\u0430\u0446\u0438\u0435\u043d\u0442\u0442\u0435\u0440\u0434\u0456\u04a3 \u043a\u04e9\u043f\u0448\u0456\u043b\u0456\u0433\u0456 \u043c\u0435\u0434\u0438\u0446\u0438\u043d\u0430\u043b\u044b\u049b \u049b\u043e\u043b\u0434\u0430\u0443\u0434\u044b\u04a3 \u0430\u0440\u049b\u0430\u0441\u044b\u043d\u0434\u0430 \u049b\u0430\u043b\u043f\u044b\u043d\u0430 \u043a\u0435\u043b\u0435\u0434\u0456."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "\u041c\u04af\u043c\u043a\u0456\u043d \u0435\u043c \u0431\u043e\u043b\u0430\u0442\u044b\u043d \u0432\u0430\u043a\u0446\u0438\u043d\u0430\u043b\u0430\u0440 \u043c\u0435\u043d \u043a\u0435\u0439\u0431\u0456\u0440 \u043d\u0430\u049b\u0442\u044b \u0434\u04d9\u0440\u0456-\u0434\u04d9\u0440\u043c\u0435\u043a\u0442\u0435\u0440 \u0436\u0430\u0441\u0430\u043b\u0443\u0434\u0430."
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "\u0432\u0430\u043a\u0446\u0438\u043d\u0430 "
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              " \u041c\u0438\u0444\u0442\u0435\u0440 \u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440"
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "\u0410\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u043a\u0442\u0435\u0440"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "\u041c\u0438\u0444\u0442\u0435\u0440 \u0434\u04d9\u0440\u0456\u043b\u0435\u0440"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "\u0435\u043c\u0434\u0435\u0443"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "mkd": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "\u0421\u00e8 \u0443\u0448\u0442\u0435 \u043d\u0435\u043c\u0430 \u0442\u0440\u0435\u0442\u043c\u0430\u043d \u0437\u0430 \u041a\u041e\u0412\u0418\u0414-19 \u0438 \u043d\u0435 \u0435 \u043e\u0442\u043a\u0440\u0438\u0435\u043d \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u0435\u043d \u0430\u043d\u0442\u0438\u0432\u0438\u0440\u0443\u0441\u0435\u043d \u043b\u0435\u043a \u0437\u0430 \u0441\u043f\u0440\u0435\u0447\u0443\u0432\u0430\u045a\u0435 \u0438\u043b\u0438 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435 \u043d\u0430 \u041a\u041e\u0412\u0418\u0414-19."
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "\u041d\u043e, \u043d\u0430\u0441\u043e\u0447\u0435\u043d\u0430\u0442\u0430 \u043d\u0435\u0433\u0430 \u043c\u043e\u0436\u0435 \u0434\u0430 \u0433\u0438 \u043e\u043b\u0435\u0441\u043d\u0438 \u0441\u0438\u043c\u043f\u0442\u043e\u043c\u0438\u0442\u0435."
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "\u041b\u0443\u0453\u0435\u0442\u043e \u043a\u043e\u0438 \u0438\u043c\u0430\u0430\u0442  \u0441\u0435\u0440\u0438\u043e\u0437\u043d\u0438 \u0431\u043e\u043b\u0435\u0441\u0442\u0438 \u0442\u0440\u0435\u0431\u0430 \u0434\u0430 \u0431\u0438\u0434\u0430\u0442 \u0445\u043e\u0441\u043f\u0438\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u0430\u043d\u0438. \u041f\u043e\u0432\u0435\u045c\u0435\u0442\u043e \u043f\u0430\u0446\u0438\u0435\u043d\u0442\u0438 \u0437\u0430\u043a\u0440\u0435\u043f\u043d\u0443\u0432\u0430\u0430\u0442 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u0435\u043d\u0438\u0435 \u043d\u0430 \u0441\u043e\u043e\u0434\u0432\u0435\u0442\u043d\u0430 \u0441\u043f\u0435\u0446\u0438\u0458\u0430\u043b\u0438\u0437\u0438\u0440\u0430\u043d\u0430 \u043d\u0435\u0433\u0430 \u0438 \u0442\u0435\u0440\u0430\u043f\u0438\u0458\u0430."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "\u0412\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u043e\u0432 \u0441\u0435 \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0430\u0442 \u0438 \u0441\u0435 \u0442\u0435\u0441\u0442\u0438\u0440\u0430\u0430\u0442 \u0432\u0430\u043a\u0446\u0438\u043d\u0438 \u0438 \u043d\u0435\u043a\u043e\u0438 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u0438 \u0442\u0440\u0435\u0442\u043c\u0430\u043d\u0438 \u0441\u043e \u043b\u0435\u043a\u043e\u0432\u0438."
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "\u0432\u0430\u043a\u0446\u0438\u043d\u0430"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              ""
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              "\u043c\u0438\u0442\u043e\u0432\u0438 \u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438"
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              ""
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "\u0430\u043d\u0442\u0438\u0431\u0438\u043e\u0442\u0438\u0446\u0438"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              ""
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "\u043c\u0438\u0442\u043e\u0432\u0438 \u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              ""
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "\u043b\u0435\u043a\u0443\u0432\u0430\u045a\u0435"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              ""
+            ]
+          }
+        },
+        "tur": {
+          "5617a959-e067-4ff8-9b49-48e67d440723": {
+            "text": [
+              "\u015eu ana kadar KOV\u0130D-19\u2019a y\u00f6nelik bir tedavi yoktur, KOV\u0130D-19 salg\u0131n\u0131n\u0131 \u00f6nlemek ya da tedavi etmeye y\u00f6nelik herhangi bir spesifik antiviral ila\u00e7 bulunamam\u0131\u015ft\u0131r. "
+            ]
+          },
+          "c27b4fed-7471-48b8-86b6-84aaab2f0035": {
+            "text": [
+              "Ancak hedeflenen bak\u0131m semptomlar\u0131 hafifletebilir. "
+            ]
+          },
+          "e505a056-c8cb-4fec-a61b-a9da85eab626": {
+            "text": [
+              "Ciddi hastal\u0131klar\u0131 olan bireyler hastaneye yat\u0131r\u0131lmal\u0131d\u0131r. Destekleyici bak\u0131m sayesinde \u00e7o\u011fu hasta iyile\u015fmektedir."
+            ]
+          },
+          "dde85268-d657-49ff-9655-bcf5fe75d27e": {
+            "text": [
+              "Olas\u0131 a\u015f\u0131lar ve baz\u0131 spesifik ila\u00e7 tedavileri geli\u015ftirilmekte ve test edilmektedir. "
+            ]
+          },
+          "1aac5573-d887-4b99-be71-fd1c9e6def64": {
+            "name": [
+              "A\u015f\u0131s\u0131 "
+            ]
+          },
+          "6c23ddb7-17ea-4fdc-88b5-8bc12bea4809": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "d5320ab0-c51b-4935-8f55-4da19f429f71": {
+            "arguments": [
+              "A\u015f\u0131s\u0131 "
+            ]
+          },
+          "891421ef-54f3-4a47-99c6-efc984a73577": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "5f1c9639-6e1e-46c5-a8a1-75bf8d7f8c72": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "04a1349e-be8f-4d4b-9249-9f5662d73b61": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "938d0a65-0d73-4e65-918a-7051daa3a53a": {
+            "name": [
+              "Di\u011fer"
+            ]
+          },
+          "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb": {
+            "arguments": [
+              "Tedavi"
+            ]
+          },
+          "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe": {
+            "name": [
+              "Tedavi"
+            ]
+          },
+          "a3c2b232-c07f-44c6-aac9-26d150693ee6": {
+            "name": [
+              "S\u00f6ylentiler Tedavi"
+            ]
+          },
+          "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf": {
+            "arguments": [
+              "ila\u00e7lar"
+            ]
+          },
+          "2855c902-ec11-4ba5-a904-d660d153959a": {
+            "name": [
+              "Tedavi antibiyotikler "
+            ]
+          },
+          "d74c78ce-fe8c-4f11-9abd-8f01a928cf83": {
+            "arguments": [
+              "antibiyotikler \u00f6nleme"
+            ]
+          },
+          "f1bccee1-f6b1-4244-8861-87f3f6d71ffc": {
+            "name": [
+              "antibiyotikler"
+            ]
+          },
+          "08a964bc-d448-426c-88c4-81e2ea0626f2": {
+            "arguments": [
+              "antibiyotikler"
+            ]
+          }
+        }
+      },
+      "nodes": [
+        {
+          "uuid": "8f399c31-5dd3-4b9d-9c41-cec213474461",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "6c23ddb7-17ea-4fdc-88b5-8bc12bea4809",
+            "categories": [
+              {
+                "uuid": "1aac5573-d887-4b99-be71-fd1c9e6def64",
+                "name": "Vaccine",
+                "exit_uuid": "c5c46e92-34b9-49a6-bb36-e58dc3453369"
+              },
+              {
+                "uuid": "6c23ddb7-17ea-4fdc-88b5-8bc12bea4809",
+                "name": "Other",
+                "exit_uuid": "31267c06-855b-4e2b-8bfe-79d5ad4711ea"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "vaccine"
+                ],
+                "type": "has_any_word",
+                "uuid": "d5320ab0-c51b-4935-8f55-4da19f429f71",
+                "category_uuid": "1aac5573-d887-4b99-be71-fd1c9e6def64"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "c5c46e92-34b9-49a6-bb36-e58dc3453369",
+              "destination_uuid": "1c2c08f7-ea06-4b83-93b0-c22c49e12ab0"
+            },
+            {
+              "uuid": "31267c06-855b-4e2b-8bfe-79d5ad4711ea",
+              "destination_uuid": "50d154a9-d8a0-43e0-a084-1e8ed2fb0f9f"
+            }
+          ]
+        },
+        {
+          "uuid": "1c2c08f7-ea06-4b83-93b0-c22c49e12ab0",
+          "actions": [
+            {
+              "uuid": "e04654db-59a6-44c3-a712-3e0b18db718f",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "3ad06a22-3c98-4b9c-9d5e-db8aba9c851d",
+                "name": "Vaccine"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "08bff7cb-b984-4cec-bdbd-068c112bc12c",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "d294f99f-4447-4e2a-a074-7b15f16049d3"
+              },
+              {
+                "uuid": "7ec5272a-5428-43f6-829e-5287a0b6e835",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "e70c0132-8c8e-4d5b-a3ea-e196973b0ac5"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "d294f99f-4447-4e2a-a074-7b15f16049d3",
+                "name": "Complete",
+                "exit_uuid": "4a8d4c28-68f5-4988-96e3-8b640bfe0709"
+              },
+              {
+                "uuid": "e70c0132-8c8e-4d5b-a3ea-e196973b0ac5",
+                "name": "Expired",
+                "exit_uuid": "ac0ab451-ab0d-4956-a1ed-bb44818f6ca2"
+              }
+            ],
+            "default_category_uuid": "e70c0132-8c8e-4d5b-a3ea-e196973b0ac5"
+          },
+          "exits": [
+            {
+              "uuid": "4a8d4c28-68f5-4988-96e3-8b640bfe0709",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "ac0ab451-ab0d-4956-a1ed-bb44818f6ca2",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "50d154a9-d8a0-43e0-a084-1e8ed2fb0f9f",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "891421ef-54f3-4a47-99c6-efc984a73577",
+            "categories": [
+              {
+                "uuid": "2855c902-ec11-4ba5-a904-d660d153959a",
+                "name": "Myths antibiotics",
+                "exit_uuid": "9ce58b75-fc4c-40bc-97bd-4f55a7c5b09b"
+              },
+              {
+                "uuid": "891421ef-54f3-4a47-99c6-efc984a73577",
+                "name": "Other",
+                "exit_uuid": "713f17cf-be56-4030-8f9e-21bc157ad014"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "antibiotics prevent"
+                ],
+                "type": "has_all_words",
+                "uuid": "d74c78ce-fe8c-4f11-9abd-8f01a928cf83",
+                "category_uuid": "2855c902-ec11-4ba5-a904-d660d153959a"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "9ce58b75-fc4c-40bc-97bd-4f55a7c5b09b",
+              "destination_uuid": "e07573cf-fe37-4bec-85d2-126d05cfb4aa"
+            },
+            {
+              "uuid": "713f17cf-be56-4030-8f9e-21bc157ad014",
+              "destination_uuid": "26f670ef-79a2-4637-bd28-78dcbb2b916e"
+            }
+          ]
+        },
+        {
+          "uuid": "e07573cf-fe37-4bec-85d2-126d05cfb4aa",
+          "actions": [
+            {
+              "uuid": "f3bf17c1-7168-4c7c-8958-8482ed42d71c",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "61862995-d34b-4118-b3f5-db1489002a52",
+                "name": "Myths - Antibiotics"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "94019c32-1f4b-4c32-8834-db97cf4821f4",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "1e6a1091-2640-4837-859c-a7e28bdac469"
+              },
+              {
+                "uuid": "a91a81bd-39b5-4c82-bb96-0e451bf9ed19",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "bbe1f24f-ccaf-46b6-a9b5-191e3cef1af5"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "1e6a1091-2640-4837-859c-a7e28bdac469",
+                "name": "Complete",
+                "exit_uuid": "4bc0a852-5bec-4986-a24b-67d10b13d86d"
+              },
+              {
+                "uuid": "bbe1f24f-ccaf-46b6-a9b5-191e3cef1af5",
+                "name": "Expired",
+                "exit_uuid": "37d04804-6401-41f8-9ff0-6c65fc50945d"
+              }
+            ],
+            "default_category_uuid": "bbe1f24f-ccaf-46b6-a9b5-191e3cef1af5"
+          },
+          "exits": [
+            {
+              "uuid": "4bc0a852-5bec-4986-a24b-67d10b13d86d",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "37d04804-6401-41f8-9ff0-6c65fc50945d",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "26f670ef-79a2-4637-bd28-78dcbb2b916e",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "5f1c9639-6e1e-46c5-a8a1-75bf8d7f8c72",
+            "categories": [
+              {
+                "uuid": "f1bccee1-f6b1-4244-8861-87f3f6d71ffc",
+                "name": "Antibiotics",
+                "exit_uuid": "b26400fd-54b4-4a51-a798-d1551e97235a"
+              },
+              {
+                "uuid": "5f1c9639-6e1e-46c5-a8a1-75bf8d7f8c72",
+                "name": "Other",
+                "exit_uuid": "346d7bc2-68e0-4da5-8525-70c8c1c91d5e"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "antibiotics"
+                ],
+                "type": "has_any_word",
+                "uuid": "08a964bc-d448-426c-88c4-81e2ea0626f2",
+                "category_uuid": "f1bccee1-f6b1-4244-8861-87f3f6d71ffc"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "b26400fd-54b4-4a51-a798-d1551e97235a",
+              "destination_uuid": "49ecc58d-e340-4ed6-b7e1-6dad64871693"
+            },
+            {
+              "uuid": "346d7bc2-68e0-4da5-8525-70c8c1c91d5e",
+              "destination_uuid": "ff6b4bfa-27db-451e-bbdd-2525b33091ef"
+            }
+          ]
+        },
+        {
+          "uuid": "49ecc58d-e340-4ed6-b7e1-6dad64871693",
+          "actions": [
+            {
+              "uuid": "ed150d6b-d8c4-4ba2-9656-7ac60063ce06",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "f94d3b61-8c10-4d71-8591-cd21e2135d48",
+                "name": "Antibiotics"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "326bdbda-2dda-4cd6-b024-e2b95146afb3",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "0449599a-ca0f-49f5-8105-f3b7366ec0d4"
+              },
+              {
+                "uuid": "c4b4b2fa-05e0-43fe-aac4-3840001434a1",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "6896708e-98b6-4e46-a023-446e82f5acdb"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "0449599a-ca0f-49f5-8105-f3b7366ec0d4",
+                "name": "Complete",
+                "exit_uuid": "74638721-2bb7-4eb1-bdef-a2db1a4311a2"
+              },
+              {
+                "uuid": "6896708e-98b6-4e46-a023-446e82f5acdb",
+                "name": "Expired",
+                "exit_uuid": "028e2e59-4e11-422c-acc7-ecc984591713"
+              }
+            ],
+            "default_category_uuid": "6896708e-98b6-4e46-a023-446e82f5acdb"
+          },
+          "exits": [
+            {
+              "uuid": "74638721-2bb7-4eb1-bdef-a2db1a4311a2",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "028e2e59-4e11-422c-acc7-ecc984591713",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "ff6b4bfa-27db-451e-bbdd-2525b33091ef",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "04a1349e-be8f-4d4b-9249-9f5662d73b61",
+            "categories": [
+              {
+                "uuid": "a3c2b232-c07f-44c6-aac9-26d150693ee6",
+                "name": "Myths treatment",
+                "exit_uuid": "76e27f52-1360-4a8b-aa62-ea5874416b81"
+              },
+              {
+                "uuid": "04a1349e-be8f-4d4b-9249-9f5662d73b61",
+                "name": "Other",
+                "exit_uuid": "5f2cd270-39eb-486b-bd88-521af3cda8f0"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "medicines"
+                ],
+                "type": "has_any_word",
+                "uuid": "dfe66ab3-9ded-4f5e-a1f0-d28c95a3bdcf",
+                "category_uuid": "a3c2b232-c07f-44c6-aac9-26d150693ee6"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "76e27f52-1360-4a8b-aa62-ea5874416b81",
+              "destination_uuid": "4686382a-681f-492f-a760-be26e52d9581"
+            },
+            {
+              "uuid": "5f2cd270-39eb-486b-bd88-521af3cda8f0",
+              "destination_uuid": "92ddeb30-5e6c-4f00-b766-416aa6561e09"
+            }
+          ]
+        },
+        {
+          "uuid": "4686382a-681f-492f-a760-be26e52d9581",
+          "actions": [
+            {
+              "uuid": "b9d603a2-e18b-49df-81d4-fe4145881c22",
+              "type": "enter_flow",
+              "flow": {
+                "uuid": "d36c3e41-75ac-48bb-9043-f057db856349",
+                "name": "Myths - Treatment"
+              }
+            }
+          ],
+          "router": {
+            "type": "switch",
+            "operand": "@child.run.status",
+            "cases": [
+              {
+                "uuid": "18c5d4e3-923f-47c4-b06b-dec42830ec94",
+                "type": "has_only_text",
+                "arguments": [
+                  "completed"
+                ],
+                "category_uuid": "27441caa-5bb0-4812-8645-14de0e29c0b8"
+              },
+              {
+                "uuid": "75e7ae08-6db0-4362-b779-e0ace538bca2",
+                "arguments": [
+                  "expired"
+                ],
+                "type": "has_only_text",
+                "category_uuid": "58128233-8344-41a5-965c-fc082123b32d"
+              }
+            ],
+            "categories": [
+              {
+                "uuid": "27441caa-5bb0-4812-8645-14de0e29c0b8",
+                "name": "Complete",
+                "exit_uuid": "4cd3dbd4-9e3a-4879-888d-4bb9dd306395"
+              },
+              {
+                "uuid": "58128233-8344-41a5-965c-fc082123b32d",
+                "name": "Expired",
+                "exit_uuid": "992c2b0a-b546-4737-b352-c47538488f81"
+              }
+            ],
+            "default_category_uuid": "58128233-8344-41a5-965c-fc082123b32d"
+          },
+          "exits": [
+            {
+              "uuid": "4cd3dbd4-9e3a-4879-888d-4bb9dd306395",
+              "destination_uuid": null
+            },
+            {
+              "uuid": "992c2b0a-b546-4737-b352-c47538488f81",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "92ddeb30-5e6c-4f00-b766-416aa6561e09",
+          "actions": [],
+          "router": {
+            "type": "switch",
+            "default_category_uuid": "938d0a65-0d73-4e65-918a-7051daa3a53a",
+            "categories": [
+              {
+                "uuid": "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe",
+                "name": "Treatment",
+                "exit_uuid": "6acd5479-db81-41fe-8f50-d05f84807996"
+              },
+              {
+                "uuid": "938d0a65-0d73-4e65-918a-7051daa3a53a",
+                "name": "Other",
+                "exit_uuid": "bb9bd26d-f1fc-48bc-8241-d7dafd326539"
+              }
+            ],
+            "cases": [
+              {
+                "arguments": [
+                  "treatment"
+                ],
+                "type": "has_any_word",
+                "uuid": "88a74148-0ba0-47ab-80b4-09e1e3a0b8fb",
+                "category_uuid": "10e7e0ee-ffc9-4c13-b40d-f66780cfdbbe"
+              }
+            ],
+            "operand": "@parent.results.entities"
+          },
+          "exits": [
+            {
+              "uuid": "6acd5479-db81-41fe-8f50-d05f84807996",
+              "destination_uuid": "8a83d76a-fa69-4b78-8329-e5d30b9e4c6e"
+            },
+            {
+              "uuid": "bb9bd26d-f1fc-48bc-8241-d7dafd326539",
+              "destination_uuid": "8a83d76a-fa69-4b78-8329-e5d30b9e4c6e"
+            }
+          ]
+        },
+        {
+          "uuid": "8a83d76a-fa69-4b78-8329-e5d30b9e4c6e",
+          "actions": [
+            {
+              "attachments": [],
+              "text": "So far there is no treatment for COVID-19, no specific antiviral medicine yet found to prevent or treat COVID-19.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "5617a959-e067-4ff8-9b49-48e67d440723"
+            },
+            {
+              "attachments": [],
+              "text": "But targeted care can relieve symptoms.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "c27b4fed-7471-48b8-86b6-84aaab2f0035"
+            },
+            {
+              "attachments": [],
+              "text": "People with serious illnesses should be hospitalized. Most patients recover thanks to supportive care.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "e505a056-c8cb-4fec-a61b-a9da85eab626"
+            },
+            {
+              "attachments": [],
+              "text": "Possible vaccines and some specific drug treatments are being developed and tested.",
+              "type": "send_msg",
+              "quick_replies": [],
+              "uuid": "dde85268-d657-49ff-9655-bcf5fe75d27e"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "83974242-024c-4dcb-8cf4-0894e21d6410",
+              "destination_uuid": null
+            }
+          ]
+        },
+        {
+          "uuid": "ac2f1df7-56a2-45b6-b1c9-e89d02af417d",
+          "actions": [
+            {
+              "type": "set_run_result",
+              "name": "noentity",
+              "value": "on",
+              "category": "",
+              "uuid": "599ca39b-54c0-4af1-b3da-5d5580514863"
+            }
+          ],
+          "exits": [
+            {
+              "uuid": "7526bae2-3973-40e7-b1d1-25a6e89c9dfa",
+              "destination_uuid": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "campaigns": [],
+  "triggers": [],
+  "fields": [],
+  "groups": []
+}
